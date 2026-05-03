@@ -1,0 +1,6846 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "MundoDeKyrLivroDasMagiasDeKyr",
+				"abbreviation": "Kÿr",
+				"full": "Mundo de Kÿr: Livro das Magias de Kÿr",
+				"authors": [
+					"Mundo de Kÿr"
+				],
+				"convertedBy": [
+					"ChatGPT"
+				],
+				"version": "1.1.1",
+				"url": "https://github.com/TheGiddyLimit/homebrew",
+				"dateAdded": 1777829509
+			}
+		]
+	},
+	"spell": [
+		{
+			"name": "Arranhão de Ausência",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 2,
+			"level": 0,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Você projeta um rasgo mínimo de sombra condensada contra uma criatura que possa ver dentro do alcance. Faça uma jogada de ataque à distância com magia contra o alvo. Em um acerto, o alvo sofre {@damage 1d8} de dano necrótico, além disso, quando o alvo realizar a próxima jogada de ataque até o final do seu próximo turno reduza {@dice 1d4} da rolagem; caso o ataque ainda acerte, reduza {@dice 1d4} do dano."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"kyrSchools": [
+				"Umbramancia"
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Aumento de Truque",
+					"entries": [
+						"O dano desta magia aumenta em {@dice 1d8} quando você alcança o 5º nível ({@dice 2d8}), 11º nível ({@dice 3d8}) e 17º nível ({@dice 4d8})."
+					]
+				}
+			],
+			"damageInflict": [
+				"necrotic"
+			]
+		},
+		{
+			"name": "Cinza Abrasiva",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 2,
+			"level": 0,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Você arremessa uma rajada de areia abrasiva condensada contra uma criatura. A criatura deve ser bem sucedida em um teste de resistência de destreza, caso contrário, aplica a condição {@b queimando}."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"savingThrow": [
+				"dexterity"
+			]
+		},
+		{
+			"name": "Conservação do Rizoma",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 2,
+			"level": 0,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "um saco contendo uma pitada de sal"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 12
+					}
+				}
+			],
+			"entries": [
+				"Você infunde um pequeno conjunto de itens perecíveis com ecos estabilizadores do seu estado atual, impedindo que o mundo registre sua passagem pelo tempo. Alimentos ou outros itens perecíveis de até 2,5 kg colocados dentro de um saco não envelhecem, apodrecem ou azedam durante a duração da magia. O item preservado mantém seu cheiro, textura e aparência como estavam no momento da conjuração. A magia não restaura itens já estragados, nem protege contra destruição deliberada ou consumo."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "XPHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "XPHB"
+					},
+					{
+						"name": "Druid",
+						"source": "XPHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"kyrSchools": [
+				"Rizomancia"
+			]
+		},
+		{
+			"name": "Dedo Arcano",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 2,
+			"level": 0,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"Você estende o indicador e o polegar em um gesto preciso, canalizando energia arcana comprimida até a ponta dos dedos, moldando-a em projéteis invisíveis de impacto puro. Durante a duração da magia, sua mão conta como uma arma simples à distância, com alcance normal de 18 metros e alcance máximo de 72 metros, possuindo a propriedade de Maestria: {@b Push}. Você pode usar seu atributo de conjuração no lugar de Destreza para as jogadas de ataque realizadas com essa arma. Em um acerto, o alvo sofre {@damage 1d8} de dano de força. Esse dano adiciona seu modificador de atributo. A mão não é considerada um objeto físico separado, não pode ser desarmada e não interage com efeitos que afetem armas não mágicas."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "XPHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Aumento de Truque",
+					"entries": [
+						"O alcance normal da arma aumenta em 9 metros e o alcance máximo aumenta em 36 metros quando você alcança o 5º nível (27/108 metros), 11º nível (36/144 metros) e 17º nível (45/180 metros)."
+					]
+				}
+			],
+			"damageInflict": [
+				"force"
+			]
+		},
+		{
+			"name": "Eco Desalinhado",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 2,
+			"level": 0,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"Você perturba os ecos mentais imediatos de uma criatura que você possa ver dentro do alcance. O alvo deve realizar um teste de resistência de Sabedoria. Em uma falha, o alvo recebe {@damage 1d4} de dano psíquico, além de que até o final do próximo turno dele, a criatura tem desvantagem no primeiro teste de resistência que realizar. Uma criatura que obtiver sucesso no teste de resistência inicial não sofre nenhum efeito adicional."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"kyrSchools": [
+				"Ecomancia"
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Aumento de Truque",
+					"entries": [
+						"O dano desta magia aumenta em {@dice 1d4} quando você alcança o 5º nível ({@dice 2d4}), 11º nível ({@dice 3d4}) e 17º nível ({@dice 4d4})."
+					]
+				}
+			],
+			"damageInflict": [
+				"psychic"
+			],
+			"savingThrow": [
+				"wisdom"
+			]
+		},
+		{
+			"name": "Fogo do Julgamento",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 3,
+			"level": 0,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Você invoca uma erupção súbita de chamas incandescentes envoltas em luz severa ao redor de uma criatura que possa ver dentro do alcance. O fogo não apenas queima, mas expõe e condena. A criatura-alvo deve realizar um teste de resistência de Carisma. Em uma falha, ela sofre {@damage 1d4} de dano de fogo e {@damage 1d4} de dano radiante. Em um sucesso, a criatura não sofre dano. As duas fontes de dano são aplicadas simultaneamente."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "XPHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Aumento de Truque",
+					"entries": [
+						"Ambos os tipos de dano aumentam em {@dice 1d4} quando você alcança o 5º nível ({@damage 2d4} de fogo e {@damage 2d4} radiante), 11º nível ({@damage 3d4} de fogo e {@damage 3d4} radiante) e 17º nível ({@damage 4d4} de fogo e {@damage 4d4} radiante)."
+					]
+				}
+			],
+			"damageInflict": [
+				"fire",
+				"radiant"
+			],
+			"savingThrow": [
+				"charisma"
+			]
+		},
+		{
+			"name": "Instante Suspenso",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 3,
+			"level": 0,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Você toca a dobra do tempo ao seu redor, evocando os Ecos e deslizando entre os fios do Aether. Por um piscar de olhos, o mundo inteiro congela — o ar, o som, o movimento — exceto você.",
+				"Durante esse instante, você pode realizar uma ação adicional, escolhendo entre as seguintes opções:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Analisar",
+							"entry": "Você realiza a ação {@action Study|XPHB|Analisar} e obtém vantagem no próximo teste de Inteligência (Arcanismo, História, Religião ou Natureza) realizado até o fim do seu turno."
+						},
+						{
+							"type": "item",
+							"name": "Observar",
+							"entry": "Você realiza a ação {@action Search|XPHB|Observar} e faz imediatamente um teste de Sabedoria (Percepção ou Intuição)."
+						},
+						{
+							"type": "item",
+							"name": "Reorganizar",
+							"entry": "Você realiza a ação {@action Utilize|XPHB|Utilizar} para interagir com um objeto que esteja em suas mãos ou em seu corpo, como mudar de arma, poção ou foco."
+						}
+					]
+				},
+				"Enquanto o tempo está suspenso, você não pode atacar, lançar magias, causar dano ou mover-se além do seu espaço atual. Se soltar qualquer objeto, ele também permanece suspenso até o tempo fluir novamente."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"kyrSchools": [
+				"Ecomancia"
+			]
+		},
+		{
+			"name": "Lâmina Cromática",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 3,
+			"level": 0,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "uma arma"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"Você empunha a arma usada na conjuração desta magia e realiza um ataque corpo a corpo com arma contra uma criatura dentro do alcance da arma. Em um acerto, o alvo sofre os efeitos normais do ataque com a arma e, em seguida, fica envolto por energia cromática instável até o início do seu próximo turno. Escolha um dos tipos de dano abaixo ao conjurar a magia.",
+				"Enquanto estiver envolto por essa energia, o alvo sofre o efeito secundário correspondente ao tipo de dano escolhido. Do 1º ao 4º nível, a magia não causa dano adicional no acerto, aplicando apenas o efeito secundário descrito.",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Fogo",
+							"entry": "O alvo deve realizar um teste de resistência de Destreza. Em uma falha, fica {@b Queimando}. Ele pode repetir o teste de resistência no final do turno."
+						},
+						{
+							"type": "item",
+							"name": "Frio",
+							"entry": "O alvo deve realizar um teste de resistência de Constituição. Em uma falha, fica {@b Resfriado}. Ele pode repetir o teste de resistência no final do turno."
+						},
+						{
+							"type": "item",
+							"name": "Veneno",
+							"entry": "O alvo deve realizar um teste de resistência de Constituição. Em uma falha, fica {@condition poisoned|XPHB|Envenenado}. Ele pode repetir o teste de resistência no final do turno."
+						},
+						{
+							"type": "item",
+							"name": "Ácido",
+							"entry": "O alvo deve realizar um teste de resistência de Constituição. Em uma falha, fica {@b Corroído}. Ele pode repetir o teste de resistência no final do turno."
+						},
+						{
+							"type": "item",
+							"name": "Relâmpago",
+							"entry": "O alvo deve realizar um teste de resistência de Constituição. Em uma falha, fica {@b Eletrificado}."
+						},
+						{
+							"type": "item",
+							"name": "Trovão",
+							"entry": "O alvo deve realizar um teste de resistência de Constituição. Em uma falha, a criatura deverá, ao final do seu próximo turno, repetir o teste de resistência. Em uma nova falha, fica {@condition incapacitated|XPHB|Incapacitado} até o início do seu próximo turno."
+						}
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "XPHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "XPHB"
+					},
+					{
+						"name": "Druid",
+						"source": "XPHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Aumento de Truque",
+					"entries": [
+						"No 5º nível, o ataque corpo a corpo causa 1 dado adicional do tipo de dano escolhido ({@dice 1d8} para fogo, ácido e trovão; {@dice 1d6} para frio e relâmpago; {@dice 1d12} para veneno). No 11º nível, o dano adicional aumenta para 2 dados do tipo escolhido. No 17º nível, o dano adicional aumenta para 3 dados do tipo escolhido."
+					]
+				}
+			],
+			"damageInflict": [
+				"acid",
+				"cold",
+				"fire",
+				"lightning",
+				"poison",
+				"thunder"
+			],
+			"savingThrow": [
+				"dexterity",
+				"constitution"
+			],
+			"conditionInflict": [
+				"incapacitated",
+				"poisoned"
+			]
+		},
+		{
+			"name": "Lâmina Retaliadora",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 4,
+			"level": 0,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"s": true,
+				"m": "uma arma corpo a corpo que valha ao menos 1 SP"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Você brande a arma usada na conjuração e desfere um ataque corpo a corpo contra uma criatura. Em caso de acerto, o alvo sofre os efeitos normais do ataque da arma e, então, passa a irradiar uma aura escura de energia instável até o início do seu próximo turno. Se o alvo realizar um ataque ou conjurar uma magia antes desse momento, ele sofre {@damage 1d8} de dano necrótico, e o efeito termina."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "XPHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Aumento de Truque",
+					"entries": [
+						"No 5º nível, o ataque corpo a corpo causa {@damage +1d8} de dano necrótico ao alvo em um acerto, e o dano causado pela aura aumenta para {@dice 2d8}. Ambos os valores aumentam em {@dice 1d8} no 11º nível ({@dice 2d8} e {@dice 3d8}), e novamente no 17º nível ({@dice 3d8} e {@dice 4d8})."
+					]
+				}
+			],
+			"damageInflict": [
+				"necrotic"
+			]
+		},
+		{
+			"name": "Marca Instável",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 4,
+			"level": 0,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Você arremessa um fragmento de lembrança cortante na mente de uma criatura que você possa ver dentro do alcance. Faça uma jogada de ataque à distância com magia contra o alvo. Se atingir, o alvo sofre {@damage 1d8} de dano psíquico, e ele não pode realizar reações até o início do próximo turno dele."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "XPHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"kyrSchools": [
+				"Ecomancia"
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Aumento de Truque",
+					"entries": [
+						"O dano desta magia aumenta em {@dice 1d8} quando você alcança o 5º nível ({@dice 2d8}), 11º nível ({@dice 3d8}) e 17º nível ({@dice 4d8})."
+					]
+				}
+			],
+			"damageInflict": [
+				"psychic"
+			]
+		},
+		{
+			"name": "Olhar da Ruína",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 4,
+			"level": 0,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"components": {
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"Você fixa o olhar em uma criatura que possa ver dentro do alcance e impõe sobre ela um mal-agouro de ausência, enfraquecendo temporariamente sua ancoragem na realidade. A criatura-alvo deve realizar um teste de resistência de Sabedoria. Em uma falha, ela sofre {@damage 1d4} de dano psíquico e, até o início do seu próximo, ataques com armas ou ataques desarmados realizados contra ela obtêm um Acerto Crítico com resultados 19 ou 20 no d20. Em um sucesso, a criatura sofre não sofre nenhum efeito."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "XPHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"kyrSchools": [
+				"Umbramancia"
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Aumento de Truque",
+					"entries": [
+						"O dano desta magia aumenta em {@dice 1d4} quando você alcança o 5º nível ({@dice 2d4}), 11º nível ({@dice 3d4}) e 17º nível ({@dice 4d4})."
+					]
+				}
+			],
+			"damageInflict": [
+				"psychic"
+			],
+			"savingThrow": [
+				"wisdom"
+			]
+		},
+		{
+			"name": "Passo Não-Registrado",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 4,
+			"level": 0,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"Você se desloca de forma imperceptível aos registros imediatos do mundo. Até o final do turno atual: Seu deslocamento não provoca ataques de oportunidade. Testes de Sabedoria (Percepção) feitos para notar seu movimento sofrem desvantagem."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "XPHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"kyrSchools": [
+				"Umbramancia"
+			]
+		},
+		{
+			"name": "Pulso Aetherino",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 4,
+			"level": 0,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "radius",
+				"distance": {
+					"type": "feet",
+					"amount": 10
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Você libera um pulso instável de energia aetherina em uma área de emanação contra uma quantidade de criaturas igual metade do seu bônus de proficiência, arredondado para cima. As criaturas devem realizar um teste de resistência de Constituição. Em falha, sofre {@damage 1d8} de dano de força."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Aumento de Truque",
+					"entries": [
+						"O dano aumenta em {@dice 1d8} no 5º nível ({@dice 2d8}), 11º nível ({@dice 3d8}) e 17º nível ({@dice 4d8})."
+					]
+				}
+			],
+			"damageInflict": [
+				"force"
+			],
+			"savingThrow": [
+				"constitution"
+			]
+		},
+		{
+			"name": "Pulso do Subsolo",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 5,
+			"level": 0,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Você envia uma vibração através das raízes invisíveis do mundo até uma criatura que você possa ver dentro do alcance. Faça uma jogada de ataque de magia à distância contra o alvo. Em um acerto, o alvo sofre {@damage 1d8} de dano trovejante. Se o alvo estiver em contato direto com o solo, ele tem desvantagem na próxima jogada de ataque que realizar antes do final do próximo turno dela."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "XPHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "XPHB"
+					}
+				]
+			},
+			"kyrSchools": [
+				"Rizomancia"
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Aumento de Truque",
+					"entries": [
+						"O dano aumenta em {@dice 1d8} no 5º nível ({@dice 2d8}), 11º nível ({@dice 3d8}) e 17º nível ({@dice 4d8})."
+					]
+				}
+			],
+			"damageInflict": [
+				"thunder"
+			]
+		},
+		{
+			"name": "Raiz Condutora",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 5,
+			"level": 0,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"Raízes espectrais emergem do solo sob uma criatura que você possa ver dentro do alcance. O alvo deve realizar um teste de resistência de Força. Em falha, a velocidade da criatura é reduzida a 0 até o final do próximo turno dela."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "XPHB"
+					},
+					{
+						"name": "Druid",
+						"source": "XPHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					}
+				]
+			},
+			"kyrSchools": [
+				"Rizomancia"
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Aumento de Truque",
+					"entries": [
+						"No 5º nível, você pode afetar uma criatura adicional a até 3 metros do alvo original. No 11º nível, até duas criaturas adicionais. No 17º nível, até três criaturas adicionais."
+					]
+				}
+			],
+			"savingThrow": [
+				"strength"
+			]
+		},
+		{
+			"name": "Sentir Terreno",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 5,
+			"level": 0,
+			"school": "D",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "radius",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"Você estende sua percepção pelas raízes e fissuras do solo ao seu redor. Até o final do seu turno, você sabe a localização exata de qualquer criatura em contato com o solo dentro do alcance, desde que não esteja atrás de cobertura total. Essa percepção não revela identidades, tipos de criaturas ou estados invisíveis, apenas posição e deslocamento."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "XPHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"kyrSchools": [
+				"Rizomancia"
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Aumento de Truque",
+					"entries": [
+						"No 5º nível, o alcance aumenta para 12 metros. No 11º nível, para 18 metros. No 17º nível, para 24 metros."
+					]
+				}
+			]
+		},
+		{
+			"name": "Supressão Sensorial",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 5,
+			"level": 0,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"Você projeta um pulso de ausência que atravessa os sentidos da criatura-alvo, apagando momentaneamente partes da sua percepção. A criatura deve realizar um teste de resistência de Constituição. Em uma falha, ela sofre {@damage 1d4} de dano necrótico e perde temporariamente um de seus sentidos até o final do próximo turno da criatura. O dano determina o efeito adicional: Roll Efeito 1 Nenhum efeito adicional. 2 Perda do olfato 3 Incapacidade de falar (não pode conjurar magias com componente verbal) 4 Perda da visão (a criatura fica Cega) Em um sucesso, a criatura não sofre dano nem efeito adicional."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"kyrSchools": [
+				"Umbramancia"
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Aumento de Truque",
+					"entries": [
+						"O dano desta magia aumenta em {@dice 1d4} quando você alcança o 5º nível ({@dice 2d4}), 11º nível ({@dice 3d4}) e 17º nível ({@dice 4d4}). A partir do 5º nível, quando mais de um dado é rolado para esta magia, você escolhe qual resultado de sentido aplicar, dentre os valores obtidos nos dados rolados."
+					]
+				}
+			],
+			"damageInflict": [
+				"necrotic"
+			],
+			"savingThrow": [
+				"constitution"
+			],
+			"conditionInflict": [
+				"blinded"
+			]
+		},
+		{
+			"name": "Verbo Sagrado",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 5,
+			"level": 0,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Você profere uma palavra de poder impregnada de fé. A vibração sagrada atravessa o ar e se materializa em pura energia espiritual. Faça um ataque de magia à distância contra uma criatura ao alcance. Em um acerto, o alvo sofre {@damage 1d6} de dano radiante. Se o alvo for Morto-Vivo, Aberração ou Diabrete, sua velocidade é reduzida em 3 m e ele não pode realizar Reações até o final do seu próximo turno."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "XPHB"
+					}
+				]
+			},
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Aumento de Truque",
+					"entries": [
+						"O dano aumenta em {@dice 1d6} nos níveis 5 ({@dice 2d6}), 11 ({@dice 3d6}) e 17 ({@dice 4d6})."
+					]
+				}
+			],
+			"damageInflict": [
+				"radiant"
+			]
+		},
+		{
+			"name": "Vínculo Efêmero",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 6,
+			"level": 0,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 20
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"Você cria um vínculo rizomático temporário entre você e uma criatura aliada que possa ver dentro do alcance. Até o início do seu próximo turno, a próxima vez que você ou o aliado realizar um teste de resistência ou teste de habilidade, ambos recebem +{@dice 1d4} no resultado desse teste."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "XPHB"
+					},
+					{
+						"name": "Druid",
+						"source": "XPHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "XPHB"
+					}
+				]
+			},
+			"kyrSchools": [
+				"Rizomancia"
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Aumento de Truque",
+					"entries": [
+						"No nível 5, ao invés de durar 1 rodada, dura 1 minuto, devendo as criaturas vinculadas manter-se dentro de 9 metros. Ao conjurar novamente o mesmo truque, encerra o vínculo anterior. 1º Nível"
+					]
+				}
+			]
+		},
+		{
+			"name": "Armadura de Espinhos",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 7,
+			"level": 1,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "uma rosa"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					}
+				}
+			],
+			"entries": [
+				"Ao conjurar esta magia, você faz brotar ao redor de uma criatura voluntária uma estrutura flexível de fibras vivas cobertas por espinhos, que reage instintivamente a impactos. O alvo recebe {@dice 3d6} Pontos de Vida Temporários. Enquanto possuir pontos de vida temporarios, pela duração da magia, quando uma criatura o atingir com um ataque corpo a corpo, essa criatura sofre dano perfurante igual à quantidade de Pontos de Vida Temporários perdidos como resultado daquele ataque. A magia termina antecipadamente se o alvo ficar sem Pontos de Vida Temporários concedidos por ela."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "XPHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "XPHB"
+					}
+				]
+			},
+			"kyrSchools": [
+				"Rizomancia"
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Em Níveis Superiores",
+					"entries": [
+						"O alvo recebe {@dice 2d6} Pontos de Vida Temporários adicionais para cada nível do slot acima do 1º."
+					]
+				}
+			],
+			"damageInflict": [
+				"piercing"
+			]
+		},
+		{
+			"name": "Azorrague Infernal",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 7,
+			"level": 1,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a língua bifurcada de uma serpente"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"Você chicoteia uma criatura com um laço de energia escarlate instável, criando um vínculo abrasivo entre vocês. O alvo deve realizar um teste de resistência de Constituição. Em uma falha, ele sofre {@damage 4d4} de dano de fogo e fica vinculado a você enquanto a magia durar. Uma criatura vinculada também adquire a condição {@b Queimando}, este {@b queimando} causa {@damage 2d4} de dano. Ao final de cada turno, o alvo pode repetir o teste de resistência, encerrando o efeito em um sucesso. Enquanto a criatura estiver vinculada, você pode usar sua reação para intensificar o vínculo, fazendo com que o próximo teste de resistência do alvo para encerrar esta magia seja feito com desvantagem."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"kyrSchools": [
+				"Umbramancia"
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Em Níveis Superiores",
+					"entries": [
+						"O dano inicial aumenta em {@dice 2d4} para cada nível do slot acima do 1º, e o dano recorrente aumenta em {@dice 1d4} para cada nível do slot acima do 1º."
+					]
+				}
+			],
+			"damageInflict": [
+				"fire"
+			],
+			"savingThrow": [
+				"constitution"
+			]
+		},
+		{
+			"name": "Barreira Etérea",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 7,
+			"level": 1,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "reaction"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "um fragmento translúcido ou cristal aetherino"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"Ao ser atingido, o ar vibra e o espaço ao seu redor se dobra, formando uma barreira translúcida feita de ecos de energia aetherina. Essa barreira absorve parte do impacto e devolve a força ao atacante em uma onda reversa. Até o início do seu próximo turno, reduza o dano de qualquer ataque corpo-a-corpo em {@dice 2d4}. O atacante sofre dano de força igual ao dano reduzido. Contra ataques à distância, a barreira não reflete ou reduz dano, mas concede +2 na CA até o início do seu próximo turno."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "XPHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "XPHB"
+					},
+					{
+						"name": "Druid",
+						"source": "XPHB"
+					}
+				]
+			},
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Em Níveis Superiores",
+					"entries": [
+						"Quando conjurada usando um espaço de magia acima do 1º nível, reduza e reflita {@damage +2d4} de dano adicional por nível do espaço, e +1 de CA."
+					]
+				}
+			],
+			"damageInflict": [
+				"force"
+			]
+		},
+		{
+			"name": "Comunhão dos Ecos Ancestrais",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 7,
+			"level": 1,
+			"school": "D",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"Você se abre aos ecos deixados por aqueles que vieram antes de você, permitindo que fragmentos de experiência, coragem e advertência influenciem suas decisões. Ao conjurar esta magia, e no início de cada um de seus turnos enquanto a magia durar, você recebe Inspiração Heroica, caso ainda não a possua. A inspiração concedida representa orientação ancestral sutil, não visões claras ou comandos diretos."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "XPHB"
+					},
+					{
+						"name": "Druid",
+						"source": "XPHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "XPHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					}
+				]
+			},
+			"kyrSchools": [
+				"Ecomancia"
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Em Níveis Superiores",
+					"entries": [
+						"Ao conjurar esta magia usando um espaço de magia de 3º nível ou superior, você pode afetar uma criatura adicional."
+					]
+				}
+			]
+		},
+		{
+			"name": "Corte de Ausência",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 8,
+			"level": 1,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"Você projeta um rasgo de sombra condensada que remove momentaneamente parte da presença do alvo. Faça uma jogada de ataque à distância com magia contra uma criatura dentro do alcance. Em um acerto, o alvo sofre {@damage 3d8} de dano necrótico, e deve realizar um teste de resistência de Constituição, em uma falha as jogadas de ataque que ele realizar sofrem uma penalidade de {@dice 1d4} na rolagem. A criatura afetada pode repetir o teste de resistência no final do turno, encerrando o efeito em um sucesso."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"kyrSchools": [
+				"Umbramancia"
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Em Níveis Superiores",
+					"entries": [
+						"Ao conjurar esta magia usando um espaço de magia de 2º nível ou superior, o dano aumenta em {@dice 1d8} por nível acima do 1º."
+					]
+				}
+			],
+			"damageInflict": [
+				"necrotic"
+			],
+			"savingThrow": [
+				"constitution"
+			]
+		},
+		{
+			"name": "Eco Doloroso",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 8,
+			"level": 1,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"Você desperta ecos latentes de sofrimento na memória da criatura, fazendo com que pensamentos recorrentes e sensações mal resolvidas interfiram em sua capacidade de agir. Uma criatura que você possa ver dentro do alcance deve realizar um teste de resistência de Sabedoria. Em uma falha, enquanto a magia durar, a criatura sofre os seguintes efeitos: Ela não pode realizar Reações. Ela tem desvantagem na primeira jogada de ataque que fizer em cada turno. Se errar um ataque, sua velocidade é reduzida à metade até o início do próximo turno dela. Em um sucesso, a criatura fica imune a este efeito por 24 horas. A criatura pode repetir o teste de resistência ao final de cada um de seus turnos, encerrando o efeito em um sucesso."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "XPHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"kyrSchools": [
+				"Ecomancia"
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Em Níveis Superiores",
+					"entries": [
+						"Quando você conjura esta magia usando um slot de 2º nível ou superior, você pode afetar uma criatura adicional para cada nível do slot acima do 1º. As criaturas devem estar a até 9 metros umas das outras."
+					]
+				}
+			],
+			"savingThrow": [
+				"wisdom"
+			]
+		},
+		{
+			"name": "Eco Persistente",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 8,
+			"level": 1,
+			"school": "D",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"Você se sintoniza aos vestígios deixados no Aether, permitindo que memórias residuais do mundo aflorem de forma difusa e impessoal. O local, objeto ou criatura não “mostra” imagens nem sons, mas transmite a certeza silenciosa de que algo o marcou recentemente, como uma pressão persistente ou uma dissonância que ainda não se dissipou. Uma criatura, objeto ou ponto que você possa ver dentro do alcance é afetado por esta magia. Se, nos últimos 7 dias, dano foi causado naquele local, uma criatura morreu ou uma magia foi conjurada ali, você toma conhecimento disso. Se dano foi causado, você também toma conhecimento do tipo de dano envolvido. Esta magia não revela identidades, nomes de magias ou o momento exato em que o evento ocorreu."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "XPHB"
+					},
+					{
+						"name": "Druid",
+						"source": "XPHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"kyrSchools": [
+				"Ecomancia"
+			],
+			"meta": {
+				"ritual": true
+			},
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Em Níveis Superiores",
+					"entries": [
+						"Ao conjurar esta magia usando um espaço de magia de 2º nível ou superior, o intervalo de tempo dobra para cada nível acima do 1º."
+					]
+				}
+			]
+		},
+		{
+			"name": "Espinho Ascendente",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 8,
+			"level": 1,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Você faz brotar um espinho rizomático do solo sob uma criatura que você possa ver dentro do alcance. O alvo deve realizar um teste de resistência de Destreza. Em falha, o alvo sofre {@damage 4d6} de dano perfurante e tem sua velocidade reduzida em 3 metros até o final do próximo turno. Em sucesso, o alvo sofre metade do dano e não tem sua velocidade reduzida. Uma criatura voando não é afetada por esta magia, a menos que esteja em contato com o solo."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "XPHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "XPHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					}
+				]
+			},
+			"kyrSchools": [
+				"Rizomancia"
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Em Níveis Superiores",
+					"entries": [
+						"Ao conjurar esta magia usando um espaço de magia de 2º nível ou superior, o dano aumenta em {@dice 1d6} para cada nível acima do 1º."
+					]
+				}
+			],
+			"damageInflict": [
+				"piercing"
+			],
+			"savingThrow": [
+				"dexterity"
+			]
+		},
+		{
+			"name": "Golpe Balístico",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 9,
+			"level": 1,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus",
+					"condition": "tomada imediatamente após atingir uma criatura com uma arma à distância"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Ao acertar o ataque, você canaliza energia destrutiva através do projétil no instante do impacto. Escolha um dos seguintes tipos de dano: Ácido, Frio, Fogo, Relâmpago ou Veneno. O alvo sofre {@damage 2d6} de dano adicional do tipo escolhido. Ao sofrer o dano, a criatura deve fazer um teste de resistência de Destreza (Ácido ou Fogo) ou Constituição (Frio, Relâmpago ou Venêno), em caso de falha adquire uma das seguintes condições {@b Corroído} (Ácido); {@b Queimando} (Fogo); {@b Resfriado} (Frio), {@b Eletrificado} (Relâmpago), {@condition poisoned|XPHB|Envenenado} (Veneno) ou O ataque desencadeador pode causar o tipo de dano escolhido ou seu tipo normal (à sua escolha)."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "XPHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "XPHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "XPHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					}
+				]
+			},
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Em Níveis Superiores",
+					"entries": [
+						"O dano adicional aumenta em {@dice 1d6} para cada nível do slot acima do 1º."
+					]
+				}
+			],
+			"damageInflict": [
+				"acid",
+				"cold",
+				"fire",
+				"lightning",
+				"poison"
+			],
+			"savingThrow": [
+				"dexterity"
+			],
+			"conditionInflict": [
+				"poisoned"
+			]
+		},
+		{
+			"name": "Golpe Cromático",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 9,
+			"level": 1,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus",
+					"condition": "tomada imediatamente após atingir uma criatura com uma arma corpo-a- corpo ou um Unarmed Strike"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Você canaliza o poder caótico dos elementos dracônicos em seu próximo ataque corpo a corpo. Ao atingir uma criatura com um ataque corpo a corpo durante a duração da magia, escolha um tipo de dano: ácido, frio, fogo, relâmpago, veneno ou trovão. O ataque causa {@damage 2d6} de dano extra do tipo escolhido. Se você rolar o mesmo número em dois ou mais dos d6 desta magia, a energia elemental entra em erupção violenta, causando {@damage 1d6} de dano adicional do mesmo tipo ao alvo."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Paladin",
+						"source": "XPHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "XPHB"
+					}
+				]
+			},
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Em Níveis Superiores",
+					"entries": [
+						"Quando conjurada usando um espaço de magia acima do 1º nível, o dano base aumenta em {@dice 1d6} por nível do espaço, e o dano bonus aumenta em {@dice 1d6} a cada 2 níveis."
+					]
+				}
+			]
+		},
+		{
+			"name": "Impressão Residual",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 9,
+			"level": 1,
+			"school": "D",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "cera de vela"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"Ao tocar um objeto, você força o Aether a reconstituir o eco funcional mais recente deixado por quem o utilizou, permitindo que vestígios de uso se manifestem novamente de forma fragmentária, porém direcionada.",
+				"Escolha um objeto tocado por uma criatura humanoide. Durante a duração da magia, você pode evocar uma impressão residual do último portador usando uma ação. Ao fazê-lo, escolha uma das categorias abaixo:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Intenção",
+							"entry": "O eco revela se o objeto foi usado de forma deliberada, apressada, defensiva, hostil ou descuidada."
+						},
+						{
+							"type": "item",
+							"name": "Estado",
+							"entry": "O eco revela a condição física ou emocional predominante do portador no momento do uso, como ferido, exausto, calmo, aterrorizado ou furioso."
+						},
+						{
+							"type": "item",
+							"name": "Contexto",
+							"entry": "O eco revela se o uso ocorreu em situação de combate, fuga, negociação, ritual ou atividade cotidiana."
+						},
+						{
+							"type": "item",
+							"name": "Direção",
+							"entry": "O eco revela a direção geral para a qual o portador se deslocava imediatamente após o uso do objeto."
+						}
+					]
+				},
+				"A impressão se manifesta como uma imagem turva e breve, acompanhada de um som residual indistinto, e dura até 6 segundos. Você pode evocar impressões diferentes do mesmo objeto enquanto a magia durar, escolhendo uma categoria diferente a cada ativação.",
+				{
+					"type": "entries",
+					"name": "A magia não revela",
+					"entries": [
+						{
+							"type": "list",
+							"items": [
+								"Identidade, espécie ou aparência clara do portador.",
+								"Palavras completas ou frases inteligíveis.",
+								"Quando exatamente o evento ocorreu.",
+								"Pensamentos complexos ou motivações futuras."
+							]
+						},
+						"Se o objeto tiver sido utilizado por várias criaturas, apenas o eco mais recente pode ser acessado."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "XPHB"
+					},
+					{
+						"name": "Druid",
+						"source": "XPHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"kyrSchools": [
+				"Ecomancia"
+			],
+			"meta": {
+				"ritual": true
+			}
+		},
+		{
+			"name": "Impacto Retido",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 10,
+			"level": 1,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "reaction",
+					"condition": "que você realiza quando uma criatura que você possa ver dentro de 18 metros causar dano"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Você força o Aether a reter parte da energia liberada pela criatura alvo. Ao conjurar a magia, a criatura desencadeadora do dano deve realizar um teste de resistência de constituição. Em uma falha a criatura sofre {@dice 3d4} + seu modificador de habilidade de conjuração, ou metade em um sucesso. Além disso, a criatura deve realizar um teste de resistência de constituição. Em uma falha o dano desencadeador é reduzido em uma quantidade total igual ao dano causado na conjuração da magia. Em um sucesso o dano é reduzido em uma quantidade igual seu modificador de habilidade de conjuração. O dano desencadeador da reação pode ser uma rolagem de ataque, uma habilidade (feature) ou magia, inclusive de dano em área."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"kyrSchools": [
+				"Ecomancia"
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Em Níveis Superiores",
+					"entries": [
+						"Quando você conjura esta magia usando um espaço de magia de 2º nível ou superior, a redução de dano aumenta em {@dice 2d4} para cada nível do slot acima do 1º. O dano trovejante potencial aumenta na mesma proporção."
+					]
+				}
+			],
+			"damageInflict": [
+				"thunder"
+			],
+			"savingThrow": [
+				"constitution"
+			]
+		},
+		{
+			"name": "Laço Rizomático",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 10,
+			"level": 1,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "um pedaço de raiz seca"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"Você invoca raízes etéreas que irrompem do solo em um quadrado de 3 metros por 3 metros (10 ft x 10 ft) dentro do alcance. As raízes se retorcem e buscam prender tudo que nelas pisa. Cada criatura à sua escolha que esteja na área no momento da conjuração deve realizar um teste de resistência de Força. Em falha, a criatura fica Agarrada pela duração. Enquanto estiver agarrada dessa forma, sua velocidade é 0. Em sucesso, a criatura não fica agarrada, mas sua velocidade é reduzida pela metade até o final do próximo turno. Uma criatura agarrada pode usar sua ação para repetir o teste de resistência, encerrando o efeito sobre si em um sucesso."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "XPHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"kyrSchools": [
+				"Rizomancia"
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Em Níveis Superiores",
+					"entries": [
+						"Ao conjurar esta magia usando um espaço de magia de 2º nível ou superior, você aumenta o lado do quadrado em 1,5 metro (5 ft) para cada nível acima do 1º."
+					]
+				}
+			],
+			"savingThrow": [
+				"strength"
+			]
+		},
+		{
+			"name": "Lâmina de Sangue e Osso",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 10,
+			"level": 1,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "uma adaga ou espada curta, que não é consumida na conjuração",
+					"consume": true
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 24
+					}
+				}
+			],
+			"entries": [
+				"Ao conjurar esta magia, você corta o próprio corpo com o componente material, forçando suas estruturas vitais a se reorganizarem. Seu máximo de pontos de vida é reduzido em 4, e o componente material desaparece. Durante a duração da magia, você pode usar uma ação bônus para extrair do próprio corpo uma lâmina formada de osso, sangue e fibras, moldada a partir da sua estrutura interna. A lâmina possui as seguintes características: É uma arma mágica Você é considerado proficiente com ela Utiliza seu bônus de ataque com magia para jogadas de ataque Causa {@damage 1d6} de dano cortante em um acerto Possui a propriedade de Maestria: Sangrar Como uma ação bônus, você pode deslizar a lâmina de volta para dentro do corpo, ocultando-a completamente. Quando a duração da magia termina, a incisão desaparece, seu máximo de pontos de vida é restaurado, e o componente material reaparece em sua posse."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Paladin",
+						"source": "XPHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "XPHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "XPHB"
+					}
+				]
+			},
+			"kyrSchools": [
+				"Rizomancia"
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Em Níveis Superiores",
+					"entries": [
+						"Quando você conjura esta magia usando um slot de 2º nível ou superior, o dano da lâmina aumenta em {@dice 1d6} para cada dois níveis de slot acima do 2º, e a redução no seu máximo de pontos de vida aumenta em 4 para cada nível àcima do 1º."
+					]
+				}
+			],
+			"damageInflict": [
+				"slashing"
+			]
+		},
+		{
+			"name": "Manto de Ausência",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 10,
+			"level": 1,
+			"school": "I",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"Você envolve seu corpo em sombras densas que absorvem atenção e presença visual, fazendo com que seus contornos pareçam incompletos. Durante a duração da magia, você tem vantagem em testes de Destreza (Furtividade) contra criaturas que dependam da visão. Além disso, essas criaturas sofrem desvantagem em testes de Sabedoria (Percepção) baseados em visão para percebê-lo enquanto você permanecer imóvel ou se mover lentamente (até metade do seu deslocamento). Além disso, você pode usar uma ação bônus para realizar a ação {@action Disengage|XPHB|Desengajar}, desde que não se mova mais do que metade do seu deslocamento total nesse turno."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"kyrSchools": [
+				"Umbramancia"
+			]
+		},
+		{
+			"name": "Mira Assistida",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 11,
+			"level": 1,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"Você reforça a coordenação e o foco de criaturas aliadas, alinhando respiração, postura e intenção no momento do disparo. Escolha até três criaturas dentro do alcance. Durante a duração da magia, cada alvo recebe +1 em jogadas de ataque feitas à distância. Além disso, o alcance normal e o alcance máximo dessas armas são dobrados."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "XPHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "XPHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "XPHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Em Níveis Superiores",
+					"entries": [
+						"Você pode afetar uma criatura adicional para cada nível do slot acima do 1º."
+					]
+				}
+			]
+		},
+		{
+			"name": "Momento Vinculado",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 11,
+			"level": 1,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "reaction",
+					"condition": "tomada quando você vê um ataque acertar uma criatura a até 18 metros de você"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "uma gota de óleo ou melaço"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Você intervém na cadência estrutural do impacto no exato instante antes do contato, expandindo ou retraindo a transferência de força. Escolha um dos efeitos abaixo ao conjurar a magia: Expansão. O ataque causa {@damage 2d6} de dano adicional ao alvo. Esse dano é do mesmo tipo do ataque desencadeador. Retração. O dano que o alvo sofreria é reduzido em {@dice 2d6}, até um mínimo de 0."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "XPHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "XPHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"kyrSchools": [
+				"Rizomancia"
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Em Níveis Superiores",
+					"entries": [
+						"O dano adicional ou a redução de dano aumentam em {@dice 1d6} para cada nível do slot acima do 1º."
+					]
+				}
+			]
+		},
+		{
+			"name": "Pressão do Vazio",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 11,
+			"level": 1,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"No início do turno de uma criatura dentro do alcance deve realizar um teste de resistência de Carisma. Ao falhar a criatura fica marcada, sofrendo {@damage 1d6} de dano psíquico e não podendo realizar ações, ações bônus, movimento ou reações até o começo do seu próximo turno. Enquanto marcada ela deverá repetir o teste de resistência de Carisma todo início de turno, encerrando a marca em um sucesso, em uma falha, a criatura sofre {@damage 1d6} de dano psíquico e o turno é imediatamente encerrado."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "XPHB"
+					}
+				]
+			},
+			"kyrSchools": [
+				"Umbramancia"
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Em Níveis Superiores",
+					"entries": [
+						"O dano aumenta em {@dice 1d6} por nível de magia acima do 1º."
+					]
+				}
+			],
+			"damageInflict": [
+				"psychic"
+			],
+			"savingThrow": [
+				"charisma"
+			]
+		},
+		{
+			"name": "Rastro Emocional",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 11,
+			"level": 1,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 100
+				}
+			},
+			"components": {
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"Você amplifica a emoção predominante de uma criatura, fazendo com que seus estados internos deixem vestígios perceptíveis no Aether ao seu redor. Uma criatura que você possa ver dentro do alcance deve realizar um teste de resistência de Sabedoria. Em uma falha, a criatura não percebe que foi alvo de um efeito mágico e enquanto a magia durar, a criatura sofre os seguintes efeitos: Ela tem desvantagem em testes de Destreza (Furtividade) e Carisma (Enganação). Ela tem desvantagem em testes de Sabedoria (Intuição) para ocultar ou disfarçar suas intenções. - Você tem vantagem em testes de Sabedoria (Percepção) e Sabedoria (Intuição) feitos para localizar, seguir ou antecipar ações da criatura afetada. Em um sucesso, a criatura não sofre os efeitos acima, mas até o final do próximo turno dela, você ainda tem vantagem no próximo teste de Sabedoria (Percepção) feito para percebê-la."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"kyrSchools": [
+				"Ecomancia"
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Em Níveis Superiores",
+					"entries": [
+						"Quando você conjura esta magia usando um espaço de magia de 2º nível ou superior, você pode afetar uma criatura adicional para cada nível do slot acima do 1º. As criaturas devem estar a até 9 metros umas das outras."
+					]
+				}
+			],
+			"savingThrow": [
+				"wisdom"
+			]
+		},
+		{
+			"name": "Ressonância do Solo",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 12,
+			"level": 1,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "um pequeno sino"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"Você induz uma ressonância profunda no solo ao seu redor, fazendo com que a terra vibre de forma contínua e instável. Durante a duração da magia, o chão em uma emanação de 4,5 metros ao seu redor passa a tremer violentamente. Você não é afetado por esse efeito, e a área é considerada terreno difícil para outras criaturas. Uma criatura deve realizar um teste de resistência de Destreza na primeira vez em um turno em que entrar na área, quando a área se expandir e alcançá-la, ou quando terminar seu turno dentro da área. Em uma falha, a criatura sofre {@damage 2d4} de dano contundente e fica caída. Em um sucesso, ela sofre metade do dano. Uma criatura realiza esse teste no máximo uma vez por turno. Em níveis superiores, o dano aumenta em {@dice 2d4} para cada nível do slot acima do 1º."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "XPHB"
+					},
+					{
+						"name": "Druid",
+						"source": "XPHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "XPHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"kyrSchools": [
+				"Rizomancia"
+			],
+			"damageInflict": [
+				"bludgeoning"
+			],
+			"savingThrow": [
+				"dexterity"
+			]
+		},
+		{
+			"name": "Seiva de Sustentação",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 12,
+			"level": 1,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"Você toca uma criatura e injeta nela um pulso de seiva vital ancorada ao solo. A criatura recebe {@dice 1d6} + seu modificador de habilidade de conjuração pontos de vida temporários. Enquanto a criatura tiver qualquer um desses pontos de vida temporários e estiver em contato com o solo, ela tem vantagem em testes de resistência de Força ou Constituição que realizar antes do final da duração."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "XPHB"
+					},
+					{
+						"name": "Druid",
+						"source": "XPHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "XPHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "XPHB"
+					}
+				]
+			},
+			"kyrSchools": [
+				"Rizomancia"
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Em Níveis Superiores",
+					"entries": [
+						"Ao conjurar esta magia usando um espaço de magia de 2º nível ou superior, os pontos de vida temporários aumentam em {@dice 1d6} para cada nível acima do 1º."
+					]
+				}
+			]
+		},
+		{
+			"name": "Silêncio de Intenção",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 12,
+			"level": 1,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "reaction",
+					"condition": "que você realiza quando uma criatura dentro de 18 metros declarar uma ação"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"Uma criatura que você possa ver deve realizar um teste de resistência de Sabedoria. Em falha, a criatura não pode realizar a ação declarada, mas não perde sua ação — ela deve escolher uma ação diferente imediatamente. Em sucesso, a ação ocorre normalmente. Uma criatura só pode ser afetada por Silêncio de Intenção uma vez por turno."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "XPHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"kyrSchools": [
+				"Umbramancia"
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Em Níveis Superiores",
+					"entries": [
+						"Ao conjurar esta magia usando um espaço de magia de 2º nível ou superior, você pode usar esta reação uma quantidade de vezes igual o círculo da magia utilizado, sem a necessidade de realizar outra conjuração."
+					]
+				}
+			],
+			"savingThrow": [
+				"wisdom"
+			]
+		},
+		{
+			"name": "Toque da Aurora Invernal",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 12,
+			"level": 1,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Você canaliza uma centelha de luz fria, restaurando vida enquanto deixa um rastro de geada luminosa. A criatura que você tocar recupera {@dice 2d4} + seu modificador de habilidade de conjuração pontos de vida. Se a criatura recuperar vida dessa magia, ela também recebe {@dice 1d4} pontos de vida temporários, que duram 1 minuto. Você pode optar por fazer uma rolagem de ataque com seu modificador de magia para causar {@damage 2d4} de dano de Frio em vez de restaurar vida. O dano aumenta para {@dice 4d4} se o alvo estiver com metade dos pontos de vida ou menos."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "XPHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "XPHB"
+					},
+					{
+						"name": "Druid",
+						"source": "XPHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Em Níveis Superiores",
+					"entries": [
+						"Quando você conjurar esta magia usando um espaço de magia de 2º nível ou superior, a cura ou o dano aumentam em {@dice 2d4} para cada nível acima do 1º."
+					]
+				}
+			],
+			"damageInflict": [
+				"cold"
+			]
+		},
+		{
+			"name": "Véu de Interstício",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 13,
+			"level": 1,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "reaction",
+					"condition": "que você realiza quando for alvo de um ataque"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Você se desloca parcialmente para o espaço entre sombras, tornando-se momentaneamente indefinido. O ataque que desencadeou a reação sofre desvantagem. Se o ataque errar, você pode se mover até 3 metros sem provocar ataques de oportunidade."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "XPHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "XPHB"
+					}
+				]
+			},
+			"kyrSchools": [
+				"Umbramancia"
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Em Níveis Superiores",
+					"entries": [
+						"Ao conjurar esta magia usando um espaço de magia de 2º nível ou superior, o deslocamento aumenta em 3 metros por nível acima do 1º."
+					]
+				}
+			]
+		},
+		{
+			"name": "Vínculo de Sombra",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 13,
+			"level": 1,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"Uma criatura que você possa ver dentro do alcance deve realizar um teste de resistência de Força. Em falha, sombras se condensam ao redor do alvo, restringindo a criatura enquanto a magia durar. No final de cada um de seus turnos, a criatura pode repetir o teste, encerrando o efeito em um sucesso."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "XPHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"kyrSchools": [
+				"Umbramancia"
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Em Níveis Superiores",
+					"entries": [
+						"Ao conjurar esta magia usando um espaço de magia acima do 1º nível, você pode afetar uma criatura adicional por nível acima do 1º. 2º Nível"
+					]
+				}
+			],
+			"savingThrow": [
+				"strength"
+			]
+		},
+		{
+			"name": "Arma Cromática",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 14,
+			"level": 2,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"Você canaliza as energias primordiais de Kÿr, moldando-as em uma arma cintilante de energia elemental pura que surge em sua mão. A arma manifesta-se instável, com cores ondulantes, até que você estabilize sua forma ao escolher um tipo de energia. Ao conjurar esta magia, você invoca uma arma corpo a corpo ou à distância à sua escolha, desde que você seja proficiente com ela. A arma é considerada mágica e mantém todas as propriedades normais da arma escolhida. Ao criar a arma, escolha um tipo de dano entre ácido, frio, fogo, relâmpago, veneno ou trovão. Enquanto a magia durar, seus ataques com essa arma causam {@damage 1d4} de dano adicional do tipo escolhido. Quando você obtém um acerto crítico com a arma, o alvo deve realizar um teste de resistência apropriado ao tipo de energia escolhido. Em caso de falha, o alvo sofre o efeito correspondente até o início do seu próximo turno: Fogo (Destreza): o alvo ganha a condição {@b Queimando}. Frio (Constituição): o alvo ganha a condição {@b Resfriado}. Ácido (Destreza): o alvo ganha a condição {@b Corroído}. Trovão (Constituição): o alvo é empurrado 4,5 metros (15 pés) para longe de você. Relâmpago (Destreza): o alvo ganha a condição {@b Eletrificado}. Veneno (Constituição): o alvo ganha a condição {@condition poisoned|XPHB|Envenenado}. Se você soltar, arremessar ou for desarmado da arma, ela se dissipa no final do turno atual. Enquanto a magia durar, você pode usar uma ação bônus para fazer a arma reaparecer instantaneamente em sua mão."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "XPHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "XPHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "XPHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Em Níveis Superiores",
+					"entries": [
+						"Quando você conjura esta magia usando um espaço de magia superior, o dano extra aumenta em {@dice 1d4} por nível acima do 2º."
+					]
+				}
+			],
+			"conditionInflict": [
+				"poisoned"
+			]
+		},
+		{
+			"name": "Câmara de Não-Testemunho",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 14,
+			"level": 2,
+			"school": "I",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "tecido escuro dobrado, no valor de 20 po",
+					"cost": 2000
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					}
+				}
+			],
+			"entries": [
+				"Você cria uma área esférica de 4,5 metros de raio onde registros falham. Enquanto estiver dentro da área: Sons não ecoam além do limite da esfera. Testes de Inteligência (Investigação) e Sabedoria (Percepção) feitos para observar ações dentro da área sofrem desvantagem. Ações realizadas dentro da área não deixam vestígios mundanos óbvios (pegadas, marcas recentes, resíduos simples). Esta magia não bloqueia visão direta nem impede ataques."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "XPHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"kyrSchools": [
+				"Umbramancia"
+			],
+			"meta": {
+				"ritual": true
+			},
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Em Níveis Superiores",
+					"entries": [
+						"Ao conjurar esta magia usando um espaço de magia de 3º nível ou superior, a duração aumenta em 10 minutos por nível acima do 2º."
+					]
+				}
+			]
+		},
+		{
+			"name": "Corte de Reação",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 14,
+			"level": 2,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"Você impõe uma lacuna momentânea no Aether ao redor da criatura, interrompendo o impulso que precede respostas instintivas. Uma criatura que você possa ver dentro do alcance deve realizar um teste de resistência de Sabedoria. Em uma falha, o alvo não pode realizar Reações até o início do próximo turno dele. Se, por qualquer motivo, o alvo tentar realizar uma Reação durante esse período, a tentativa falha e ele sofre {@damage 2d6} de dano psíquico, ele deve repetir o teste de resistência ao final do turno encerrando o o efeito em um sucesso. Em um sucesso, o alvo pode realizar Reações normalmente, mas a primeira vez em que o fizer antes do início do próximo turno dele, sofre {@damage 2d6} de dano psíquico."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "XPHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"kyrSchools": [
+				"Umbramancia"
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Em Níveis Superiores",
+					"entries": [
+						"Ao conjurar esta magia usando um espaço de magia acima do 2º nível, você pode afetar uma criatura adicional para cada nível acima do 2º."
+					]
+				}
+			],
+			"damageInflict": [
+				"psychic"
+			],
+			"savingThrow": [
+				"wisdom"
+			]
+		},
+		{
+			"name": "Desafio da Profundidade Sombria",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 15,
+			"level": 2,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"Você lança sobre uma criatura um desafio carregado de intenção opressiva, forçando-a a reconhecê-lo como a única ameaça relevante. Se você não possuir aliados a até 1,5 metro de você, escolha uma criatura dentro do alcance que possa vê-lo e ouvi-lo. O alvo deve realizar um teste de resistência de Sabedoria. Em uma falha, ele aceita o desafio enquanto a magia durar. Durante a duração: Você recebe +2 de bônus na CA. O alvo tem desvantagem em jogadas de ataque contra criaturas que não sejam você. Na primeira vez em cada turno que o alvo tentar se afastar de você, ele deve passar em um teste de resistência de Sabedoria ou ter seu deslocamento reduzido a 0 até o início do próximo turno dele. A magia termina se você encerrar seu turno a mais de 9 metros do alvo."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Paladin",
+						"source": "XPHB"
+					}
+				]
+			},
+			"kyrSchools": [
+				"Umbramancia"
+			],
+			"savingThrow": [
+				"wisdom"
+			]
+		},
+		{
+			"name": "Extração de Silêncio",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 15,
+			"level": 2,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 40
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"Você arranca da criatura o impulso que transforma intenção em som, deixando sua presença momentaneamente desconectada da própria expressão. Uma criatura que você possa ver dentro do alcance deve realizar um teste de resistência de Constituição. Em uma falha, o alvo sofre {@damage 4d8} de dano psíquico e, até o início do próximo turno dele, não pode conjurar magias que possuam componentes verbais. Além disso, se o alvo estiver mantendo concentração em uma magia, ele realiza o teste para manter a concentração com desvantagem. Em um sucesso, o alvo sofre metade do dano e, se estiver mantendo concentração em uma magia, realiza o teste para mantê-la normalmente."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"kyrSchools": [
+				"Umbramancia"
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Em Níveis Superiores",
+					"entries": [
+						"Ao conjurar esta magia usando um espaço de magia de 3º nível ou superior, o dano aumenta em {@dice 1d8} para cada nível acima do 2º."
+					]
+				}
+			],
+			"damageInflict": [
+				"psychic"
+			],
+			"savingThrow": [
+				"constitution"
+			]
+		},
+		{
+			"name": "Imagem Negativa",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 15,
+			"level": 2,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"components": {
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Você cria um túnel de sombra invertida entre você e uma criatura que possa ver dentro do alcance. Você e o alvo trocam instantaneamente de posição. Se a criatura for relutante, ela pode realizar um teste de resistência de Carisma. Em um sucesso, a magia falha e nada acontece."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"kyrSchools": [
+				"Umbramancia"
+			],
+			"savingThrow": [
+				"charisma"
+			]
+		},
+		{
+			"name": "Leitura de Raízes Profundas",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 15,
+			"level": 2,
+			"school": "D",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "radius",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "um fragmento de pedra e uma semente, no valor de 5 PO, que são consumidos",
+					"cost": 500,
+					"consume": true
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					}
+				}
+			],
+			"entries": [
+				"Você expande sua percepção para o subsolo. Enquanto a magia durar, você adquire tremorsense pela duração da magia"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "XPHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "XPHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"kyrSchools": [
+				"Rizomancia"
+			],
+			"meta": {
+				"ritual": true
+			},
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Em Níveis Superiores",
+					"entries": [
+						"Ao conjurar esta magia usando um espaço de magia de 3º nível ou superior, o alcance aumenta em 6 metros para cada nível acima do 2º."
+					]
+				}
+			]
+		},
+		{
+			"name": "Memória Ancorada",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 15,
+			"level": 2,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "um fragmento de cristal translúcido, no valor de 50 PO, que é consumido",
+					"cost": 5000,
+					"consume": true
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"Uma criatura que você tocar deve realizar um teste de resistência de Sabedoria. Se falhar na resistência, você escolhe um período de até 1 minuto dentro das últimas 24 horas. Você então experimenta as percepções sensoriais da criatura durante esse período, incluindo o que ela viu e ouviu, com as limitações normais dos sentidos dela. A criatura pode escolher falhar neste teste de resistência."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"kyrSchools": [
+				"Ecomancia"
+			],
+			"meta": {
+				"ritual": true
+			},
+			"savingThrow": [
+				"wisdom"
+			]
+		},
+		{
+			"name": "Ressonância Emocional",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 16,
+			"level": 2,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"Uma criatura que você possa ver dentro do alcance deve realizar um teste de resistência de Sabedoria. Enquanto estiver a até 9 metros de você, a criatura tem desvantagem em jogadas de ataque se falhar na resistência. Se obtiver sucesso, a criatura tem desvantagem apenas na próxima jogada de ataque que realizar antes do final do próximo turno dela. No final de seus turnos, a criatura deve repetir o teste, encerrando o efeito em um sucesso. Uma criatura imune à condição {@condition frightened|XPHB|Amedrontado} tem vantagem neste teste de resistência."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "XPHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "XPHB"
+					},
+					{
+						"name": "Druid",
+						"source": "XPHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"kyrSchools": [
+				"Ecomancia"
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Em Níveis Superiores",
+					"entries": [
+						"Você pode atingir um alvo adicional para cada nível de magia acima do 2º."
+					]
+				}
+			],
+			"savingThrow": [
+				"wisdom"
+			],
+			"conditionInflict": [
+				"frightened"
+			]
+		},
+		{
+			"name": "Ruptura Rizomática",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 16,
+			"level": 2,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Raízes espessas e violentas irrompem do solo em um ponto que você possa ver dentro do alcance, rompendo a terra com força abrupta e desordenada. Cada criatura em um raio de 3 metros do ponto escolhido deve realizar um teste de resistência de Destreza. Em uma falha, a criatura sofre {@damage 4d6} de dano perfurante e cai no chão. Em um sucesso, a criatura sofre metade do dano e permanece em pé. O terreno na área afetada torna-se instável e é considerado terreno difícil até o final do seu próximo turno."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "XPHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "XPHB"
+					}
+				]
+			},
+			"kyrSchools": [
+				"Rizomancia"
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Em Níveis Superiores",
+					"entries": [
+						"Ao conjurar esta magia usando um espaço de magia de 3º nível ou superior, o dano aumenta em {@dice 1d6} para cada nível acima do 2º."
+					]
+				}
+			],
+			"damageInflict": [
+				"piercing"
+			],
+			"savingThrow": [
+				"dexterity"
+			]
+		},
+		{
+			"name": "Selo de Enraizamento",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 16,
+			"level": 2,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "um anel de cipó trançado, no valor de 10 PO",
+					"cost": 1000
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"Você marca uma criatura que possa ver dentro do alcance com um selo de raízes invisíveis que se prendem à sua presença no solo. Até o fim da duração, a primeira vez em cada turno que o alvo se mover voluntariamente 3 metros ou mais, ele deve realizar um teste de resistência de Força. Em uma falha, o alvo sofre {@damage 3d6} de dano perfurante e sua velocidade é reduzida a 0 até o final do seu turno. Em um sucesso, o alvo sofre metade do dano e completa o movimento normalmente. Uma criatura que esteja voando não aciona este efeito, a menos que esteja em contato com o solo durante o movimento."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "XPHB"
+					},
+					{
+						"name": "Druid",
+						"source": "XPHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "XPHB"
+					}
+				]
+			},
+			"kyrSchools": [
+				"Rizomancia"
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Em Níveis Superiores",
+					"entries": [
+						"Ao conjurar esta magia usando um espaço de magia de 3º nível ou superior, você pode afetar uma criatura adicional para cada nível acima do 2º. As criaturas devem estar a até 9 metros umas das outras quando você as escolher."
+					]
+				}
+			],
+			"damageInflict": [
+				"piercing"
+			],
+			"savingThrow": [
+				"strength"
+			]
+		},
+		{
+			"name": "Selo de Lembrança",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 16,
+			"level": 2,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "tinta e pergaminho no valor de 10 PO, que são consumidos",
+					"cost": 1000,
+					"consume": true
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "day",
+						"amount": 7
+					}
+				}
+			],
+			"entries": [
+				"Você grava um selo em uma porta, baú, livro ou outro objeto que possa ser aberto ou fechado. Enquanto a duração durar, você sempre sabe se o objeto foi aberto, fechado, movido ou danificado desde a última vez que você terminou um descanso longo. Além disso, a primeira criatura que abrir o objeto enquanto estiver a até 18 metros do selo deve realizar um teste de resistência de Carisma. Se falhar, fica Marcada por você por 1 hora. Enquanto estiver marcada, você sempre sabe a distância e a direção da criatura, desde que ela esteja no mesmo plano de existência. Se obtiver sucesso, a criatura não é marcada."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"kyrSchools": [
+				"Ecomancia"
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Em Níveis Superiores",
+					"entries": [
+						"Se você conjurar esta magia como de 3º Nível, a duração passa a ser permanente (ou até ser Dispellada)."
+					]
+				}
+			],
+			"savingThrow": [
+				"charisma"
+			]
+		},
+		{
+			"name": "Sopro de Vida",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 17,
+			"level": 2,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Você libera uma rajada de vento morno e luz vibrante em um cone de 4,5 metros. Criaturas aliadas na área recuperam {@dice 2d8} Pontos de Vida. Uso de Slot de Nível Superior. A cura aumenta em {@dice 2d8} para cada nível do slot acima do 2º."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "XPHB"
+					},
+					{
+						"name": "Druid",
+						"source": "XPHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "XPHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "XPHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Trama de Suporte",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 17,
+			"level": 2,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"Escolha até duas criaturas que você possa ver dentro do alcance. Fios rizomáticos invisíveis conectam os alvos. A primeira vez em cada turno que um dos alvos sofrer dano, o outro alvo recebe pontos de vida temporários iguais ao seu modificador de habilidade de conjuração (mínimo 1). Esses pontos de vida temporários duram até o início do próximo turno do alvo que os recebeu. Uma criatura pode estar sob o efeito de apenas uma Trama de Suporte por vez."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "XPHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "XPHB"
+					},
+					{
+						"name": "Druid",
+						"source": "XPHB"
+					}
+				]
+			},
+			"kyrSchools": [
+				"Rizomancia"
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Em Níveis Superiores",
+					"entries": [
+						"Você pode escolher uma criatura adicional para cada nível de magia acima do 2º."
+					]
+				}
+			]
+		},
+		{
+			"name": "Vínculo Vital",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 17,
+			"level": 2,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"Você cria um vínculo debilitante entre você e uma criatura que possa ver dentro do alcance. O alvo deve realizar um teste de resistência de Sabedoria. Em uma falha, um elo esverdeado e instável se forma entre vocês. Enquanto o vínculo persistir, sempre que você sofrer dano, a criatura vinculada sofre metade desse valor (arredondado para baixo) como dano necrótico. Se a criatura vinculada cair a 0 Pontos de Vida antes do fim da magia, você pode usar uma ação bônus para transferir o vínculo para outra criatura que possa ver dentro do alcance. O novo alvo deve realizar um teste de resistência de Sabedoria ou ficar vinculado. Uso de Slot de Nível Superior. Você pode manter vínculos adicionais ao conjurar esta magia com um slot de 4º nível (2 vínculos), 6º nível (3 vínculos) ou 8º nível (4 vínculos)."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "XPHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"kyrSchools": [
+				"Umbramancia"
+			],
+			"damageInflict": [
+				"necrotic"
+			],
+			"savingThrow": [
+				"wisdom"
+			]
+		},
+		{
+			"name": "Zona de Passos Negados",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 17,
+			"level": 2,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"Você cria uma área de 4,5 metros de raio centrada em um ponto que possa ver. Terreno dentro da área é considerado terreno difícil. Além disso, a primeira vez em cada turno que uma criatura tentar sair da área, ela deve realizar um teste de resistência de Força. Em falha, o movimento é interrompido e a criatura perde os metros restantes daquele deslocamento. Em sucesso, a criatura sai normalmente."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"kyrSchools": [
+				"Umbramancia"
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Em Níveis Superiores",
+					"entries": [
+						"Ao conjurar esta magia usando um espaço acima do 2º nível, o raio aumenta em 3 metros por nível acima do 2º. 3º Nível"
+					]
+				}
+			],
+			"savingThrow": [
+				"strength"
+			]
+		},
+		{
+			"name": "Bastilha de Raízes",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 18,
+			"level": 3,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "um fragmento de madeira fossilizada"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"Você convoca uma estrutura viva de raízes profundas que se entrelaçam ao redor de uma criatura disposta que você possa ver dentro do alcance, formando uma defesa orgânica e resiliente. Enquanto a magia durar, o alvo recebe 10 pontos de vida temporários no início de cada um de seus turnos. Esses pontos de vida temporários não se acumulam; se o alvo ainda possuir pontos de vida temporários concedidos por esta magia, eles são substituídos pelos novos. Além disso, a primeira vez em cada turno que o alvo sofrer dano enquanto possuir pontos de vida temporários concedidos por esta magia, o dano é reduzido em {@dice 1d10} + seu modificador de habilidade de conjuração (mínimo de 1), à medida que as raízes absorvem e redistribuem o impacto. Se o alvo perder todos os pontos de vida temporários concedidos por esta magia por uma única instância de dano, ele não pode sofrer dano adicional dessa mesma instância."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "XPHB"
+					},
+					{
+						"name": "Druid",
+						"source": "XPHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "XPHB"
+					}
+				]
+			},
+			"kyrSchools": [
+				"Rizomancia"
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Em Níveis Superiores",
+					"entries": [
+						"Ao conjurar esta magia usando um espaço de magia de 4º nível ou superior, a redução de dano aumenta em {@dice 1d10} para cada nível do slot acima do 3º."
+					]
+				}
+			]
+		},
+		{
+			"name": "Colapso Radicular",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 18,
+			"level": 3,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Você convoca um emaranhado violento de raízes profundas que irrompem do solo, rompendo a terra e travando o espaço ao redor de um ponto que você possa ver dentro do alcance. Cada criatura em um raio de 4,5 metros do ponto escolhido deve realizar um teste de resistência de Destreza. Em uma falha, a criatura sofre {@damage 5d8} de dano perfurante e fica prone. Em um sucesso, a criatura sofre metade do dano e permanece em pé. Após a explosão inicial, raízes grossas permanecem expostas na área até o final do seu próximo turno. Durante esse período, a área afetada é considerada terreno difícil. Além disso, uma criatura que esteja Caída dentro da área tem sua velocidade reduzida a 0 enquanto permanecer nela. Criaturas voando não são afetadas, a menos que estejam em contato com o solo no momento da conjuração."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "XPHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "XPHB"
+					}
+				]
+			},
+			"kyrSchools": [
+				"Rizomancia"
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Em Níveis Superiores",
+					"entries": [
+						"Ao conjurar esta magia usando um espaço de magia de 4º nível ou superior, o dano aumenta em {@dice 1d8} para cada nível acima do 3º."
+					]
+				}
+			],
+			"damageInflict": [
+				"piercing"
+			],
+			"savingThrow": [
+				"dexterity"
+			],
+			"conditionInflict": [
+				"prone"
+			]
+		},
+		{
+			"name": "Dreno de Ausência",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 18,
+			"level": 3,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"Você abre fissuras de ausência ao seu redor, fazendo com que as sombras próximas não apenas drenem vitalidade, mas apaguem fragmentos momentâneos de identidade e intenção. Uma emanação de 4,5 metros irradia de você durante a duração da magia. Quando você conjura esta magia, pode designar qualquer número de criaturas para não serem afetadas por ela. Sempre que uma criatura entrar na emanação pela primeira vez em um turno, ou iniciar seu turno nela, a criatura deve realizar um teste de resistência de Carisma. Em uma falha, a criatura sofre {@damage 3d6} de dano necrótico e tem sua presença parcialmente apagada, sofrendo desvantagem nas jogadas de ataque e em testes de habilidade até o final do próximo turno dela. Em um sucesso, a criatura sofre metade do dano, sem sofrer os efeitos adicionais. Uma criatura realiza esse teste de resistência apenas uma vez por turno. Enquanto estiver sob efeito da falha, a criatura afetada projeta uma sombra instável: o primeiro ataque que ela realizar antes do fim do efeito não pode se beneficiar de vantagem."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"kyrSchools": [
+				"Umbramancia"
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Em Níveis Superiores",
+					"entries": [
+						"Quando você conjura esta magia usando um slot de magia de 4º nível ou superior, o dano aumenta em {@dice 1d6} para cada nível do slot acima do 3º."
+					]
+				}
+			],
+			"damageInflict": [
+				"necrotic"
+			],
+			"savingThrow": [
+				"charisma"
+			]
+		},
+		{
+			"name": "Eco de Caminho",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 19,
+			"level": 3,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 4
+					}
+				}
+			],
+			"entries": [
+				"Você ancora no Aether o eco do deslocamento de uma criatura, fazendo com que cada passo deixe um vestígio silencioso de intenção e movimento. Uma criatura que você tocar deve realizar um teste de resistência de Sabedoria. Em uma falha, a criatura deixa um rastro ecoante {@condition invisible|XPHB|invisível} pela duração da magia. A criatura pode escolher falhar neste teste. Enquanto a magia durar, você percebe automaticamente a presença do rastro sempre que estiver a até 18 metros de um ponto por onde a criatura passou. Ao seguir o rastro, você sabe a direção geral tomada pela criatura e pode acompanhá-lo através de terreno difícil, água rasa e áreas obscurecidas não mágicas sem sofrer penalidades. Além disso, ao observar o rastro, você percebe impressões sutis sobre o deslocamento da criatura, escolhendo uma das informações abaixo a cada 10 minutos de observação contínua: se a criatura se movia com pressa, cautela ou normalidade; se estava ferida ou sob estresse intenso durante o trajeto; se o deslocamento foi interrompido por paradas frequentes ou ocorreu de forma contínua. O rastro termina imediatamente se a criatura entrar em outro plano de existência."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "XPHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"kyrSchools": [
+				"Ecomancia"
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Em Níveis Superiores",
+					"entries": [
+						"Ao conjurar esta magia usando um espaço de magia de 4º nível ou superior, a duração dobra para cada nível acima do 3º."
+					]
+				}
+			],
+			"savingThrow": [
+				"wisdom"
+			],
+			"conditionInflict": [
+				"invisible"
+			]
+		},
+		{
+			"name": "Marca do Passado",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 19,
+			"level": 3,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"Uma criatura que você possa ver dentro do alcance deve realizar um teste de resistência de Sabedoria. Se falhar na resistência, a primeira vez em cada turno que a criatura sofrer dano, ela sofre {@damage 1d8} de dano psíquico adicional. No final de seus turnos, a criatura deve repetir o teste, encerrando o efeito em um sucesso. Se obtiver sucesso, a criatura sofre {@damage 2d8} de dano psíquico, e a magia termina."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "XPHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"kyrSchools": [
+				"Ecomancia"
+			],
+			"damageInflict": [
+				"psychic"
+			],
+			"savingThrow": [
+				"wisdom"
+			]
+		},
+		{
+			"name": "Marca de Reincidência",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 19,
+			"level": 3,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"Você grava no Aether o padrão recente de comportamento de uma criatura, fazendo com que a repetição imediata de ações reverbere como uma falha insistente da realidade. Uma criatura que você possa ver dentro do alcance deve realizar um teste de resistência de Sabedoria. Em uma falha, enquanto a magia durar, sempre que a criatura realizar uma ação igual a ação realizada no turno anterior, ela sofre {@damage 3d10} de dano psíquico após a ação ser resolvida. Esse dano ocorre no máximo uma vez por turno. Para os fins desta magia, considera-se a Ação escolhida no turno (como Attack, Cast a Spell, Dash, Dodge, Disengage, Help, Hide, Ready ou Use an Object), independentemente de variações internas dessa ação. Se a criatura realizar uma Ação diferente da que realizou no turno anterior, o efeito não se ativa naquele turno, mas permanece ativo para turnos subsequentes enquanto a magia durar. No final de cada um de seus turnos, a criatura pode repetir o teste de resistência, encerrando o efeito em um sucesso. Em um sucesso no teste inicial, a criatura sofre {@damage 4d10} de dano psíquico e a magia termina imediatamente."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "XPHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"kyrSchools": [
+				"Ecomancia"
+			],
+			"damageInflict": [
+				"psychic"
+			],
+			"savingThrow": [
+				"wisdom"
+			]
+		},
+		{
+			"name": "Prisão Rizomática",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 19,
+			"level": 3,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "um aro de cipó reforçado"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"Raízes densas emergem do solo e envolvem uma criatura que você possa ver dentro do alcance. O alvo deve realizar um teste de resistência de Força. Em falha, o alvo fica Restrito pela duração. Em sucesso, o alvo não fica restrito, mas sua velocidade é reduzida a 0 até o final do próximo turno. Enquanto estiver restrita dessa forma, a criatura sofre {@damage 2d6} de dano perfurante no início de cada um de seus turnos. A criatura pode usar sua ação para repetir o teste de resistência, encerrando o efeito em um sucesso."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "XPHB"
+					},
+					{
+						"name": "Druid",
+						"source": "XPHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "XPHB"
+					}
+				]
+			},
+			"kyrSchools": [
+				"Rizomancia"
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Em Níveis Superiores",
+					"entries": [
+						"Ao conjurar esta magia usando um espaço de magia de 4º nível ou superior, o dano aumenta em {@dice 1d6} para cada nível acima do 3º."
+					]
+				}
+			],
+			"damageInflict": [
+				"piercing"
+			],
+			"savingThrow": [
+				"strength"
+			],
+			"conditionInflict": [
+				"restrained"
+			]
+		},
+		{
+			"name": "Ressonância Punitiva",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 20,
+			"level": 3,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 20
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"Você impõe à criatura um eco punitivo no Aether, fazendo com que a violência que ela inflige reverbere contra si mesma. Uma criatura que você possa ver dentro do alcance deve realizar um teste de resistência de Sabedoria. Em uma falha, enquanto a magia durar, a primeira vez em cada turno que a criatura causar dano a outra criatura, ela sofre {@damage 2d8} de dano psíquico. Em um sucesso, a criatura sofre {@damage 2d8} de dano psíquico imediatamente, e a magia termina."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "XPHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"kyrSchools": [
+				"Ecomancia"
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Em Níveis Superiores",
+					"entries": [
+						"Ao conjurar esta magia usando um espaço de magia acima do 3º nível, você pode afetar uma criatura adicional para cada nível acima do 3º."
+					]
+				}
+			],
+			"damageInflict": [
+				"psychic"
+			],
+			"savingThrow": [
+				"wisdom"
+			]
+		},
+		{
+			"name": "Ruptura Aetherina",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 20,
+			"level": 3,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Você comprime energia bruta do Aether em um ponto e a libera de forma abrupta, rasgando o espaço com força devastadora. Escolha um ponto que você possa ver dentro do alcance. Cada criatura em uma esfera de 6 metros de raio centrada nesse ponto deve realizar um teste de resistência de Constituição. Em uma falha, a criatura sofre {@damage 6d8} de dano de força. Em um sucesso, a criatura sofre metade do dano. Objetos não mágicos desprotegidos na área sofrem o dano integral."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "XPHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Em Níveis Superiores",
+					"entries": [
+						"Ao conjurar esta magia usando um espaço de magia de 4º nível ou superior, o dano aumenta em {@dice 1d8} para cada nível acima do 3º. 4º Nível"
+					]
+				}
+			],
+			"damageInflict": [
+				"force"
+			],
+			"savingThrow": [
+				"constitution"
+			]
+		},
+		{
+			"name": "Erosão Vital",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 21,
+			"level": 4,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Você convoca raízes predatórias que se alimentam da vitalidade do solo e a canalizam contra uma criatura que você possa ver dentro do alcance. O alvo deve realizar um teste de resistência de Constituição. Em uma falha, o alvo sofre {@damage 8d8} de dano necrótico, e você recupera pontos de vida iguais à metade do dano causado. Em um sucesso, o alvo sofre metade do dano, e você recupera metade da quantidade de pontos de vida correspondente. Se o alvo estiver em contato direto com o solo no momento da conjuração, ele sofre {@damage 2d8} de dano necrótico adicional."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "XPHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "XPHB"
+					}
+				]
+			},
+			"kyrSchools": [
+				"Rizomancia"
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Em Níveis Superiores",
+					"entries": [
+						"Ao conjurar esta magia usando um espaço de magia de 5º nível ou superior, o dano aumenta em {@dice 1d8} para cada nível acima do 4º."
+					]
+				}
+			],
+			"damageInflict": [
+				"necrotic"
+			],
+			"savingThrow": [
+				"constitution"
+			]
+		},
+		{
+			"name": "Extração de Identidade",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 21,
+			"level": 4,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"Você suprime temporariamente a identidade ativa de uma criatura, rompendo a continuidade entre quem ela é, o que faz e como o mundo a reconhece. Uma criatura que você possa ver dentro do alcance deve realizar um teste de resistência de Carisma. Em uma falha, enquanto a magia durar, você pode aplicar quaisquer dos seguintes efeitos: O alvo não pode ganhar nem se beneficiar de efeitos que dependam de nome, identidade, vínculo ou designação específica, incluindo magias como hex, hunter’s mark, heroic inspiration, auras vinculadas a criaturas específicas e efeitos similares. Quaisquer efeitos desse tipo já ativos no alvo são suprimidos enquanto a magia durar. Eles não são dissipados, mas não produzem efeito. O alvo tem desvantagem em jogadas de ataque e testes de habilidade, pois suas ações carecem de coerência identitária. Sempre que o alvo conjurar uma magia que tenha duração superior a instantânea, ele deve realizar um teste de resistência de Carisma. Em uma falha, a magia é conjurada, mas sua duração é reduzida para o fim do turno atual. No final de cada um de seus turnos, o alvo pode repetir o teste de resistência, encerrando o efeito em um sucesso. Em um sucesso no teste inicial, o alvo sofre {@damage 4d8} de dano psíquico, e a magia termina imediatamente."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "XPHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "XPHB"
+					}
+				]
+			},
+			"kyrSchools": [
+				"Umbramancia"
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Em Níveis Superiores",
+					"entries": [
+						"Ao conjurar esta magia usando um espaço de magia de 5º nível ou superior, você pode afetar uma criatura adicional para cada nível acima do 4º."
+					]
+				}
+			],
+			"damageInflict": [
+				"psychic"
+			],
+			"savingThrow": [
+				"charisma"
+			]
+		},
+		{
+			"name": "Guardião Rizomático",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 22,
+			"level": 4,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "um talismã de madeira viva, no valor de 400 PO",
+					"cost": 40000
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"Você invoca um guardião formado por raízes, galhos e terra compactada em um espaço desocupado que você possa ver dentro do alcance. O guardião ocupa um espaço Grande e age imediatamente após o seu turno. Se o guardião for reduzido a 0 pontos de vida, ele se desfaz em raízes inertes.",
+				{
+					"type": "statblockInline",
+					"style": "inset",
+					"dataType": "monster",
+					"data": {
+						"name": "Guardião Rizomático",
+						"source": "KYR",
+						"size": [
+							"L"
+						],
+						"type": "plant",
+						"alignment": [
+							"N"
+						],
+						"ac": [
+							{
+								"ac": 10,
+								"from": [
+									"+ o nível do espaço de magia usado para conjurar a magia"
+								]
+							}
+						],
+						"hp": {
+							"special": "60 + 10 para cada nível do espaço de magia acima do 4º"
+						},
+						"speed": {
+							"walk": 45
+						},
+						"str": 18,
+						"dex": 10,
+						"con": 16,
+						"int": 10,
+						"wis": 10,
+						"cha": 12,
+						"immune": [
+							"poison"
+						],
+						"vulnerable": [
+							"fire"
+						],
+						"conditionImmune": [
+							"charmed",
+							"frightened",
+							"poisoned"
+						],
+						"senses": [
+							"darkvision 60 ft."
+						],
+						"passive": 10,
+						"languages": [
+							"entende os idiomas que você conhece, mas não fala"
+						],
+						"cr": "0",
+						"pbNote": "igual ao seu bônus de proficiência",
+						"trait": [
+							{
+								"name": "Regeneração",
+								"entries": [
+									"O guardião recupera 10 pontos de vida no início do turno dele. Se sofrer dano ácido, de fogo ou necrótico, este traço não funciona no início do próximo turno dele. O guardião morre apenas se começar o turno com 0 pontos de vida e não se regenerar."
+								]
+							},
+							{
+								"name": "Aparência Falsa",
+								"entries": [
+									"Enquanto permanecer imóvel, o guardião é indistinguível de uma planta normal."
+								]
+							}
+						],
+						"action": [
+							{
+								"name": "Ataques Múltiplos",
+								"entries": [
+									"O guardião realiza uma quantidade de ataques igual à metade do nível do espaço de magia usado para conjurá-lo, arredondado para baixo."
+								]
+							},
+							{
+								"name": "Esmagador Rizomático",
+								"entries": [
+									"{@atk mw} {@hitYourSpellAttack} para atingir, alcance 10 ft., um alvo. {@h} {@damage 2d8 + 4} + o nível do espaço de magia usado para conjurar a magia de dano contundente, e o deslocamento do alvo é reduzido em 10 ft. até o início do próximo turno do guardião."
+								]
+							}
+						]
+					}
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "XPHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"kyrSchools": [
+				"Rizomancia"
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Em Níveis Superiores",
+					"entries": [
+						"Ao conjurar esta magia usando um espaço de magia de 5º nível ou superior, use o nível mais alto onde o bloco do Guardião Rizomático fizer referência ao nível do espaço de magia."
+					]
+				}
+			],
+			"miscTags": [
+				"SMN"
+			],
+			"conditionInflict": [
+				"frightened",
+				"poisoned"
+			]
+		},
+		{
+			"name": "Manifestação Ecoante",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 22,
+			"level": 4,
+			"school": "I",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "uma gema no valor de 50 PO",
+					"cost": 5000
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"Você evoca uma manifestação ecoante de si mesmo, composta de memórias distorcidas, intenção residual e presença emocional amplificada, projetando-a sobre uma criatura que você possa ver dentro do alcance. O alvo deve realizar um teste de resistência de Sabedoria. Em uma falha, a criatura fica Amedrontada de você pela duração. Além disso, no início de cada um de seus turnos, ela sofre {@damage 4d8} de dano psíquico enquanto puder ver você ou a manifestação ecoante. Enquanto estiver sob esse efeito, a criatura tem sua percepção contaminada pelo eco: ela não pode se beneficiar de vantagem em jogadas de ataque e tem desvantagem em testes de Sabedoria (Percepção). Em um sucesso no teste inicial, a criatura sofre metade do dano inicial e não fica Amedrontada. No final de cada um de seus turnos, a criatura afetada pode repetir o teste de resistência, encerrando todos os efeitos em um sucesso. Criaturas imunes à condição {@condition frightened|XPHB|Amedrontado} não ficam Amedrontadas, mas ainda sofrem o dano psíquico e a penalidade de percepção enquanto a magia durar."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "XPHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"kyrSchools": [
+				"Ecomancia"
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Em Níveis Superiores",
+					"entries": [
+						"Ao conjurar esta magia usando um espaço de magia de 5º nível ou superior, você afeta duas criaturas adicionais para cada nível acima do 4º."
+					]
+				}
+			],
+			"damageInflict": [
+				"psychic"
+			],
+			"savingThrow": [
+				"wisdom"
+			],
+			"conditionInflict": [
+				"frightened"
+			]
+		},
+		{
+			"name": "Memória do Terreno",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 23,
+			"level": 4,
+			"school": "D",
+			"time": [
+				{
+					"number": 10,
+					"unit": "minute"
+				}
+			],
+			"range": {
+				"type": "radius",
+				"distance": {
+					"type": "feet",
+					"amount": 150
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "terra retirada do local"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"Você estabelece um vínculo profundo com o solo ao seu redor, acessando a memória orgânica preservada nas camadas do terreno. Enquanto a magia durar, você toma conhecimento de até cinco eventos significativos ocorridos na área nos últimos 7 dias, conforme determinados pelo DM, desde que envolvam ao menos um dos seguintes: Combate Morte Deslocamento em massa Conjuração de magias de 3º nível ou superior Essas informações não se manifestam como imagens claras ou narrativas completas, mas como impressões físicas e emocionais transmitidas pelo terreno — tensão, ruptura, peso, fluxo, impacto ou estagnação — suficientes para indicar a natureza, a intensidade e a recorrência de cada evento. Além disso, enquanto a magia estiver ativa, você obtém os seguintes efeitos adicionais: Você sabe a localização aproximada (direção e distância relativa) de cada evento percebido dentro da área. Ao se mover pela área afetada, você ignora terreno difícil causado por fenômenos naturais (lama, raízes, rochas soltas). Você tem vantagem em testes de Sabedoria (Percepção ou Sobrevivência) feitos para investigar consequências diretas dos eventos revelados, como rastros, destroços, sinais de luta ou áreas alteradas magicamente. Se um evento envolver conjuração de magia, você percebe a fonte, mas não identifica a magia nem o conjurador. Esses efeitos cessam imediatamente se você sair da área da magia."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "XPHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"kyrSchools": [
+				"Rizomancia"
+			],
+			"meta": {
+				"ritual": true
+			},
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Em Níveis Superiores",
+					"entries": [
+						"Ao conjurar esta magia usando um espaço de magia de 5º nível ou superior, o período retroativo dobra para cada nível acima do 4º."
+					]
+				}
+			]
+		},
+		{
+			"name": "Reconstituir Cena",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 23,
+			"level": 4,
+			"school": "I",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "radius",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "um espelho rachado"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"Você projeta ecos visuais e sonoros de um evento ocorrido dentro do raio nos últimos 15 dias. A projeção manifesta criaturas, objetos, deslocamentos e interações físicas exatamente como ocorreram, reproduzindo a cena de forma contínua enquanto a magia durar. A reconstrução não revela pensamentos, intenções ocultas, nomes, nem efeitos mágicos que não tenham produzido impacto sensorial no ambiente. Sons são reproduzidos conforme ocorreram, mas conversas podem surgir distorcidas, incompletas ou sobrepostas, conforme a interferência ambiental do momento original. Criaturas que estavam Invisíveis ou Etéreas durante o evento não aparecem de forma definida. Em vez disso, a magia revela a presença delas como borrões, sombras incompletas ou motes de luz residual, indicando posição aproximada, deslocamento e interação com o ambiente, mas sem permitir identificação, número exato de criaturas ou características físicas claras. A cena projetada não pode ser alterada, pausada ou manipulada, apenas observada de diferentes ângulos dentro da área."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"kyrSchools": [
+				"Ecomancia"
+			],
+			"meta": {
+				"ritual": true
+			},
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Em Níveis Superiores",
+					"entries": [
+						"Ao conjurar esta magia usando um espaço de magia de 5º nível ou superior, o período máximo retroativo aumenta em 7 dias para cada nível acima do 4º. A partir do 6º nível, as projeções tornam-se mais estáveis e nítidas: sons fragmentados passam a se repetir com maior clareza, borrões tornam- se mais definidos e movimentos rápidos deixam menos distorção visual, embora identidades ocultas ainda não sejam reveladas."
+					]
+				}
+			]
+		},
+		{
+			"name": "Registro de Impacto",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 24,
+			"level": 4,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "um fragmento de metal amassado"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"Você grava o impacto de ferimentos recentes na malha ecoante do ambiente. Escolha uma criatura que você possa ver dentro do alcance. A primeira vez em cada turno que essa criatura sofrer dano, você escolhe uma criatura ou objeto a até 9 metros dela para receber a reverberação do impacto. O alvo secundário sofre dano do mesmo tipo igual à metade do dano original (arredondado para baixo). Além disso, ao escolher o alvo secundário, você decide um dos efeitos abaixo: Propagação. O alvo secundário tem sua velocidade reduzida em 3 metros até o início do próximo turno dele, como se o impacto tivesse desalinhado seu corpo ou posição. Ancoragem. O próximo ataque feito pelo alvo secundário antes do final do seu próximo turno não pode se beneficiar de vantagem. Uma criatura só pode ser afetada como alvo secundário uma vez por turno."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "XPHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"kyrSchools": [
+				"Ecomancia"
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Em Níveis Superiores",
+					"entries": [
+						"Ao conjurar esta magia usando um espaço de magia de 6º nível ou superior,o dano transferido é total."
+					]
+				}
+			]
+		},
+		{
+			"name": "Zona de Não-Existência",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 24,
+			"level": 4,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 90
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"Você cria uma área esférica de 6 metros de raio centrada em um ponto que possa ver dentro do alcance, onde a presença se torna instável. Enquanto estiver dentro da área: Criaturas não podem ganhar vantagem em jogadas de ataque, testes de habilidade ou testes de resistência. Criaturas têm desvantagem em testes de Concentração. Reações não podem ser realizadas. No início do turno de cada criatura hostil na área, ela deve realizar um teste de resistência de Carisma. Em falha, sua velocidade se torna 0 até o final do turno."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "XPHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"kyrSchools": [
+				"Umbramancia"
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Em Níveis Superiores",
+					"entries": [
+						"Ao conjurar esta magia usando um espaço de magia de 5º nível ou superior, o raio aumenta em 3 metros por nível acima do 4º. 5º Nível"
+					]
+				}
+			],
+			"savingThrow": [
+				"charisma"
+			]
+		},
+		{
+			"name": "Avatar do Rizoma",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 25,
+			"level": 5,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "um colar de raízes vivas, no valor de 500 PO",
+					"cost": 50000
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"Ao conjurar esta magia, raízes ancestrais emergem do solo e se entrelaçam ao seu corpo, fundindo carne, osso e terra em uma única estrutura viva. Sua presença se torna pesada e estável, como se cada passo estivesse ancorado no próprio mundo. Enquanto a magia durar, seu corpo é reforçado pela força rizomática. Você passa a ter resistência a dano contundente, perfurante e cortante, e seu deslocamento aumenta em 3 metros, impulsionado por raízes que se formam e se retraem sob seus pés. Além disso, sempre que você acerta um ataque corpo a corpo, espinhos e fibras emergem no impacto, fazendo com que o alvo sofra {@damage 2d8} de dano perfurante adicional. Esse dano ignora resistência a dano perfurante."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "XPHB"
+					},
+					{
+						"name": "Druid",
+						"source": "XPHB"
+					}
+				]
+			},
+			"kyrSchools": [
+				"Rizomancia"
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Em Níveis Superiores",
+					"entries": [
+						"Ao conjurar esta magia usando um espaço de magia de 6º nível ou superior, o dano perfurante adicional aumenta em {@dice 1d8} para cada nível acima do 5º."
+					]
+				}
+			],
+			"damageInflict": [
+				"piercing",
+				"bludgeoning"
+			]
+		},
+		{
+			"name": "Cancelamento de Vínculo",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 25,
+			"level": 5,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Você projeta uma ruptura de ausência que colapsa vínculos ativos em uma área escolhida. Escolha um ponto que possa ver dentro do alcance. Uma emanação de 4,5 metros se manifesta naquele local por um instante, apagando conexões sustentadas. Em cada criatura hostil dentro da área, você encerra automaticamente até dois efeitos mágicos ativos à sua escolha, desde que sejam de 5º nível ou inferior. Se a criatura estiver mantendo concentração, ela perde a concentração imediatamente. Além disso, cada criatura hostil deve realizar um teste de resistência de Sabedoria. Em falha, a criatura sofre Desvantagem em jogadas de ataque e testes de resistência até o final do próximo turno dela, como se sua presença estivesse momentaneamente desancorada. Em cada criatura aliada dentro da área, você pode escolher encerrar até dois efeitos negativos ativos, desde que sejam condições ou efeitos mágicos de 5º nível ou inferior. Condições removíveis incluem {@condition frightened|XPHB|Amedrontado}, Enfeitiçado, Restrito, {@condition stunned|XPHB|Atordoado}, {@condition poisoned|XPHB|Envenenado} e quaisquer efeitos equivalentes. Criaturas que tenham um vínculo mágico encerrado por esta magia, seja hostil ou aliada, não podem ser afetadas novamente por Cancelamento de Vínculo até o início do próximo turno do conjurador."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "XPHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"kyrSchools": [
+				"Umbramancia"
+			],
+			"savingThrow": [
+				"wisdom"
+			],
+			"conditionInflict": [
+				"frightened",
+				"poisoned",
+				"restrained",
+				"stunned"
+			]
+		},
+		{
+			"name": "Linha de Causalidade",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 25,
+			"level": 5,
+			"school": "D",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "três fios de cobre entrelaçados"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Para conjurar esta magia, você deve manter contato contínuo durante todo o ritual com uma âncora causal: um objeto significativo, o solo de uma região específica ou uma criatura viva. Essa âncora deve ter participado ativamente de eventos relevantes nos últimos dias. Sua percepção é submersa pela memória ecoante do Aether. Você vivencia, de forma condensada e inevitável, os eventos diretamente relacionados à âncora escolhida ocorridos nos últimos 15 dias. Essas vivências não se apresentam como uma narrativa ordenada, mas como uma sucessão de sensações, ações e consequências — deslocamentos, conflitos, conjurações, decisões e rupturas — experimentadas como se você estivesse presente em cada momento. A magia revela relações causais preservadas pelo mundo: o que levou ao quê, quais acontecimentos influenciaram outros e como determinadas ações geraram desdobramentos subsequentes. Identidades ocultas, pensamentos íntimos e intenções não observáveis não são revelados, exceto quando manifestados por ações concretas durante os eventos vivenciados. Ao final da conjuração, o choque de absorver dias inteiros de experiência em um único instante cobra seu preço. Você sofre {@damage 2d6} de dano psíquico e adquire 1 nível de exaustão."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "XPHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"kyrSchools": [
+				"Ecomancia"
+			],
+			"meta": {
+				"ritual": true
+			},
+			"damageInflict": [
+				"psychic"
+			],
+			"conditionInflict": [
+				"exhaustion"
+			]
+		},
+		{
+			"name": "Marca Histórica",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 26,
+			"level": 5,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "minute"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "tinta mineral rara no valor de 50 PO, que é consumida",
+					"cost": 5000,
+					"consume": true
+				}
+			},
+			"duration": [
+				{
+					"type": "permanent",
+					"ends": [
+						"dispel"
+					]
+				}
+			],
+			"entries": [
+				"Você grava um eco duradouro no Aether de um objeto, criatura ou local que tocar, fixando naquele alvo uma marca {@condition invisible|XPHB|invisível} de relevância histórica. Essa marca não registra tudo o que ocorre, mas ancora o peso do que foi significativo. Enquanto a marca existir, sempre que uma magia de Ecomancia for conjurada para analisar eventos, memórias, rastros ou registros envolvendo o alvo marcado, a magia revela informações adicionais de forma imediata e inequívoca. Essas informações consistem no acontecimento mais significativo associado ao alvo desde a criação da marca e na emoção predominante vinculada a esse acontecimento, percebida como uma impressão sensorial ou afetiva, não como narrativa detalhada. A Marca Histórica não impõe interpretações nem juízos de valor; ela apenas fixa a relevância de um momento, permitindo que o mundo o reconheça como tal sempre que suas memórias forem consultadas."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"kyrSchools": [
+				"Ecomancia"
+			],
+			"meta": {
+				"ritual": true
+			},
+			"conditionInflict": [
+				"invisible"
+			]
+		},
+		{
+			"name": "Rizoma da Retirada",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 26,
+			"level": 5,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "reaction",
+					"condition": "que você realiza quando você ou um aliado a até 18 metros cairia a 0 pontos de vida"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "uma raiz arrancada viva"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"Você controla as raízes do mundo, ao ver uma criatura cair a 0 pontos de vida, você pode fazer emergir raízes massivas que dragam e arrastam a criatura para longe do perigo. A criatura alvo é imediatamente deslocada para um espaço desocupado que você possa ver dentro de 18 metros, não provocando ataques de oportunidade, e permanece com 1 ponto de vida. Até o final do próximo turno da criatura, ela tem resistência a todo dano."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "XPHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "XPHB"
+					}
+				]
+			},
+			"kyrSchools": [
+				"Rizomancia"
+			]
+		},
+		{
+			"name": "Transferência Rizomática",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 26,
+			"level": 5,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "duas raízes entrelaçadas"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Você força a redistribuição da vitalidade entre criaturas conectadas ao solo. Escolha até três criaturas que você possa ver dentro do alcance. Cada criatura deve realizar um teste de resistência de Constituição. Para cada criatura que falhar, você pode transferir até {@dice 5d10} pontos de vida dela para outra criatura escolhida dentre os alvos (incluindo você). A criatura que perde pontos de vida sofre dano necrótico; a criatura que recebe recupera a mesma quantidade como pontos de vida. Nenhuma criatura pode ser reduzida abaixo de 1 ponto de vida por esta magia."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "XPHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "XPHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "XPHB"
+					}
+				]
+			},
+			"kyrSchools": [
+				"Rizomancia"
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Em Níveis Superiores",
+					"entries": [
+						"Ao conjurar esta magia usando um espaço de magia de 6º nível ou superior, você pode afetar uma criatura adicional para cada nível acima do 5º. 6º Nível"
+					]
+				}
+			],
+			"damageInflict": [
+				"necrotic"
+			],
+			"savingThrow": [
+				"constitution"
+			]
+		},
+		{
+			"name": "Arquitetura Rizomática",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 27,
+			"level": 6,
+			"school": "C",
+			"time": [
+				{
+					"number": 10,
+					"unit": "minute"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "raízes vivas e pó mineral no valor de 100 PO, consumidos",
+					"cost": 10000,
+					"consume": true
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 24
+					}
+				}
+			],
+			"entries": [
+				"Você cria uma estrutura orgânica viva feita de raízes, madeira e terra compactada dentro do alcance. A estrutura pode ocupar até um cubo de 6 metros e assumir formas simples (paredes, arcos, plataformas, abrigos). A estrutura possui CA 15, 100 pontos de vida e é resistente a dano contundente e perfurante não mágico. Enquanto a estrutura existir, criaturas aliadas que descansarem dentro dela recuperam +{@dice 1d8} pontos de vida adicionais ao final de um descanso curto. A estrutura pode ser dissipada por dispel magic."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "XPHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"kyrSchools": [
+				"Rizomancia"
+			],
+			"meta": {
+				"ritual": true
+			},
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Em Níveis Superiores",
+					"entries": [
+						"Ao conjurar esta magia usando um espaço de magia de 7º nível ou superior, o tamanho da estrutura aumenta em 3 metros por nível acima do 6º."
+					]
+				}
+			],
+			"damageInflict": [
+				"bludgeoning"
+			]
+		},
+		{
+			"name": "Colapso de Continuidade",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 27,
+			"level": 6,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Você força a realidade a colapsar sobre um ponto mal sustentado. Escolha um ponto no alcance. Criaturas em um raio de 4,5 metros devem realizar um teste de resistência de Destreza. Em falha, uma criatura sofre {@damage 10d8} de dano de força. Objetos não mágicos na área sofrem o dobro do dano."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"kyrSchools": [
+				"Umbramancia"
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Em Níveis Superiores",
+					"entries": [
+						"Ao conjurar esta magia usando um espaço de magia de 7º nível ou superior, o dano aumenta em {@dice 1d8} por nível acima do 6º."
+					]
+				}
+			],
+			"damageInflict": [
+				"force"
+			],
+			"savingThrow": [
+				"dexterity"
+			]
+		},
+		{
+			"name": "Eco de Colapso",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 27,
+			"level": 6,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Uma criatura que você possa ver dentro do alcance deve realizar um teste de resistência de Constituição. Se falhar na resistência, a criatura sofre novamente todo o dano que sofreu desde o final do seu último turno, com os mesmos tipos de dano. Se obtiver sucesso, a criatura, ao invés disso, a criatura recebe {@damage 5d6} de dano force. Danos evitados, reduzidos ou anulados não são repetidos por esta magia."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"kyrSchools": [
+				"Ecomancia"
+			],
+			"savingThrow": [
+				"constitution"
+			]
+		},
+		{
+			"name": "Germinação Hostil",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 27,
+			"level": 6,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "sementes negras"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"Você pulveriza sementes no ar. Cada criatura, a sua escolha, em um cone de 18 metros originando de você devem realizar um teste de resistência de Constituição, sofrendo {@damage 4d10} de dano necrótico em uma falha. Em um sucesso, a criatura não recebe efeitos adicionais. Além disso, no início de cada um dos turnos da criatura afetada, ela sofrerá {@damage 4d10} de dano necrótico adicional enquanto raízes tentam emergir de dentro dele. Sempre que o alvo sofrer dano dessa magia, você escolhe um dos efeitos abaixo, não podendo repetir o efeito em turnos consecutivos para a mesma criatura: A criatura não pode ser curada; A criatura tem sua velocidade de movimento reduzida a 0; A criatura não pode realizar a Ação {@action Attack|XPHB|Atacar}; A criatura deve fazer um novo teste de resistência de Constituição, em uma falha sofre {@damage 2d10} de dano necrótico adicional, você pode escolher uma criatura a 6 metros da criatura afetada, que ganhará pontos de vida temporários iguais ao dano extra causado. No final de cada um de seus turnos, o alvo pode repetir o teste de resistência, encerrando o efeito em um sucesso."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "XPHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "XPHB"
+					}
+				]
+			},
+			"kyrSchools": [
+				"Rizomancia"
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Em Níveis Superiores",
+					"entries": [
+						"Ao conjurar esta magia usando um espaço de magia de 7º nível ou superior, o dano aumenta em {@dice 1d10} por nível acima do 6º, além de aumentar em 1 a quantidade de criaturas afetadas."
+					]
+				}
+			],
+			"damageInflict": [
+				"necrotic"
+			],
+			"savingThrow": [
+				"constitution"
+			]
+		},
+		{
+			"name": "Memória Compartilhada",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 28,
+			"level": 6,
+			"school": "E",
+			"time": [
+				{
+					"number": 10,
+					"unit": "minute"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 20
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "um fio de ouro fino"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 8
+					}
+				}
+			],
+			"entries": [
+				"Você escolhe até cinco criaturas, incluindo você, no alcance da magia, criando um elo de memória ecoante entre elas. Enquanto a magia durar, as criaturas afetadas compartilham percepção, lembrança recente e interpretação emocional de eventos vivenciados durante a duração da magia, desde que permaneçam a até 18 metros umas das outras. Enquanto o vínculo estiver ativo: Sempre que uma criatura afetada fizer um teste de habilidade baseado em Inteligência, Sabedoria ou Carisma, ela pode considerar como proficiente aquela habilidade se ao menos uma das outras criaturas vinculadas também o for. Testes de Percepção, Investigação, Sobrevivência e Intuição realizados por criaturas afetadas não podem resultar em um valor inferior a 10 no d20. Sempre que uma criatura afetada aprender uma informação nova relevante (como um detalhe oculto, pista, padrão de comportamento ou rota), todas as demais criaturas vinculadas passam a ter consciência dessa informação imediatamente, mesmo que não estejam presentes no local exato da descoberta. Além disso, durante a duração da magia, o grupo passa a reter lembranças com precisão incomum. Nenhuma criatura afetada pode ser enganada por informações contraditórias ou falsas sem que ao menos uma outra criatura vinculada perceba a inconsistência, permitindo um novo teste de resistência ou habilidade apropriado, a critério do DM. Ao final da duração da magia, todas as criaturas afetadas retêm memórias claras dos eventos compartilhados, como se tivessem estado presentes em cada cena importante, independentemente de sua posição física. Uma criatura pode escolher não compartilhar um pensamento, emoção ou lembrança específica, mas essa lacuna é percebida pelas demais como uma ausência clara, ainda que seu conteúdo não seja revelado."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "XPHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "XPHB"
+					},
+					{
+						"name": "Druid",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"kyrSchools": [
+				"Ecomancia"
+			],
+			"meta": {
+				"ritual": true
+			}
+		},
+		{
+			"name": "Reescrita do Terreno Vivo",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 28,
+			"level": 6,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 90
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "terra retirada do local"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					}
+				}
+			],
+			"entries": [
+				"Você reescreve temporariamente a função estrutural do solo em uma área de 12 metros de raio centrada em um ponto que possa ver dentro do alcance. O terreno passa a responder ativamente à presença e ao movimento das criaturas. Ao conjurar a magia, escolha dois efeitos da lista abaixo. Os efeitos escolhidos se aplicam a toda a área pela duração da magia. O terreno afetado permanece visualmente semelhante ao ambiente original, mas manifesta respostas físicas claras ao toque, peso e deslocamento. Efeitos disponíveis: O terreno sustenta peso absoluto. Superfícies instáveis dentro da área, como água, lama, areia ou entulho solto, passam a sustentar criaturas e objetos como se fossem solo sólido. Esse efeito se aplica a todas as criaturas. Ancoragem favorável. Criaturas aliadas em contato com o solo têm vantagem em testes de resistência de Força e Destreza, bem como em testes para resistir a empurrões, quedas ou efeitos que causem a condição {@condition prone|XPHB|Caído}. Rejeição estrutural. Sempre que uma criatura hostil se mover voluntariamente dentro da área pela primeira vez em um turno, ela sofre {@damage 2d8} de dano contundente. Uma criatura sofre esse dano no máximo uma vez por turno. Dissipação de impacto. Criaturas aliadas que cairiam dentro da área não sofrem dano de queda e não ficam Caídas em razão da queda. Caminhos enraizados. Criaturas aliadas ignoram terreno difícil não mágico dentro da área e podem atravessar superfícies instáveis sem redução de deslocamento. Pressão opressiva. Criaturas hostis em contato com o solo têm seu deslocamento reduzido em 3 metros enquanto permanecerem na área. Solo reativo. A primeira vez em cada turno que uma criatura hostil inicia seu turno na área, ela deve realizar um teste de resistência de Força. Em falha, seu deslocamento é reduzido a 0 até o início do próximo turno. Estabilidade vital. Criaturas aliadas dentro da área têm vantagem em testes de resistência contra efeitos que as empurrem, derrubem ou teleportem involuntariamente. Os efeitos cessam quando a magia termina, e o terreno retorna ao seu comportamento natural."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"kyrSchools": [
+				"Rizomancia"
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Em Níveis Superiores",
+					"entries": [
+						"Ao conjurar esta magia usando um espaço de magia de 7º nível ou superior, você pode escolher um efeito adicional para cada nível acima do 6º."
+					]
+				}
+			],
+			"damageInflict": [
+				"bludgeoning"
+			],
+			"savingThrow": [
+				"strength"
+			],
+			"conditionInflict": [
+				"prone"
+			]
+		},
+		{
+			"name": "Supressão de Existência",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 29,
+			"level": 6,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"Você força a presença de uma criatura a se desprender momentaneamente do fluxo reconhecível do mundo, tornando sua existência instável e mal ancorada. Escolha uma criatura que você possa ver dentro do alcance. O alvo deve realizar um teste de resistência de Carisma. Em falha, o alvo sofre {@damage 10d8} de dano necrótico e fica {@condition incapacitated|XPHB|Incapacitado}. Enquanto estiver sob esse efeito, a criatura não pode ser alvo de magias benéficas, não pode receber pontos de vida temporários e qualquer efeito mágico ativo nela fica suprimido enquanto durar a Incapacitação. Além disso, enquanto a criatura permanecer sob efeito desta magia, a primeira vez em cada turno que ela sofrer dano, ela sofre {@damage 2d8} de dano necrótico adicional. Em sucesso, o alvo sofre metade do dano inicial e nenhum efeito adicional. No final de cada um de seus turnos, enquanto a magia durar, o alvo pode repetir o teste de resistência, encerrando todos os efeitos em um sucesso."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"kyrSchools": [
+				"Umbramancia"
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Em Níveis Superiores",
+					"entries": [
+						"Ao conjurar esta magia usando um espaço de magia de 7º nível ou superior, você pode afetar uma criatura adicional para cada nível acima do 6º. Todas as criaturas escolhidas devem estar a até 9 metros umas das outras. 7º Nível"
+					]
+				}
+			],
+			"damageInflict": [
+				"necrotic"
+			],
+			"savingThrow": [
+				"charisma"
+			],
+			"conditionInflict": [
+				"incapacitated"
+			]
+		},
+		{
+			"name": "Colônia Predatória",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 30,
+			"level": 7,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 90
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "sementes carnívoras no valor de 1po, consumidas",
+					"cost": 100,
+					"consume": true
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"Você faz germinar uma colônia rizomática predatória em um ponto que possa ver dentro do alcance. A colônia ocupa uma área inicial de 9 metros de raio e manifesta- se como raízes móveis, bocas vegetais e estruturas pulsantes que reagem à presença de criaturas. A área é terreno difícil para criaturas hostis. Criaturas aliadas ignoram todos os efeitos da colônia. Cada criatura hostil na área deve realizar um teste de resistência de Destreza. Em falha, sofre {@damage 4d12} de dano perfurante e fica Restringida pela colônia. Enquanto estiver agarrada dessa forma, a criatura sofre {@damage 2d12} de dano perfurante no início de cada um de seus turnos. A criatura pode usar sua ação para repetir o teste, encerrando o agarrão em sucesso. Quando a colônia surge, e no início de cada um de seus turnos enquanto a magia durar, você escolhe um dos efeitos abaixo para a colônia manifestar naquele turno: Digestão Coletiva. Cada criatura hostil atualmente Agarrada pela colônia sofre {@damage 5d12} de dano necrótico, e a área da colônia se expande em 3 metros de raio até o início do seu próximo turno. Reação Predatória. Até o início do seu próximo turno, sempre que uma criatura hostil se mover voluntariamente dentro da área pela primeira vez em um turno, a colônia reage, causando {@damage 3d12} de dano perfurante e reduzindo o deslocamento da criatura a 0 até o fim do turno. A colônia mantém todas as expansões obtidas enquanto a magia durar, mas nunca pode exceder um raio máximo de 18 metros. Se você perder a concentração, a colônia colapsa e se decompõe rapidamente, tornando o terreno normal ao final do turno atual. A colônia é inflamável. Qualquer cubo de 1,5 metro exposto a fogo queima em um round, causando {@damage 2d6} de dano de fogo a qualquer criatura que inicie seu turno na área que iniciou o incêndio."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "XPHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "XPHB"
+					}
+				]
+			},
+			"kyrSchools": [
+				"Rizomancia"
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Em Níveis Superiores",
+					"entries": [
+						"Ao conjurar esta magia usando um espaço de magia de 8º nível ou superior, o dano de todos os efeitos aumenta em {@dice 1d12} para cada nível acima do 7º."
+					]
+				}
+			],
+			"damageInflict": [
+				"fire",
+				"necrotic",
+				"piercing"
+			],
+			"savingThrow": [
+				"dexterity"
+			]
+		},
+		{
+			"name": "Levante das Consequências",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 30,
+			"level": 7,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 80
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"Você invoca os ecos materiais de tudo que já foi destruído naquele campo. Escolha um ponto que possa ver dentro do alcance. Em um raio de 12 metros, o ambiente se enche de manifestações ecoantes de danos passados: impactos invisíveis se tornam reais, cortes reaparecem no ar, projéteis fantasmas cruzam o espaço. Quando a magia é conjurada, cada criatura na área deve realizar um teste de resistência de Sabedoria. Em falha, a criatura sofre {@damage 8d10} de dano psíquico e fica Ecoando até o fim da magia. Em sucesso, sofre metade do dano e não fica Ecoando. Enquanto Ecoando, na primeira vez no turno que a criatura causar dano, ela sofre dano psíquico igual ao dano que causou. Além disso, o terreno e os objetos na área tornam-se reativos: a primeira vez em cada turno que uma criatura Ecoando se mover 3 metros ou mais, ela sofre {@damage 3d10} de dano de força, como se colidisse com impactos invisíveis. No final de cada turno, uma criatura Ecoando pode repetir o teste de resistência, encerrando o efeito em sucesso."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "XPHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"kyrSchools": [
+				"Ecomancia"
+			],
+			"damageInflict": [
+				"force",
+				"psychic"
+			],
+			"savingThrow": [
+				"wisdom"
+			]
+		},
+		{
+			"name": "Profanação do Véu Latente",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 31,
+			"level": 7,
+			"school": "T",
+			"time": [
+				{
+					"number": 24,
+					"unit": "hour"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "um fragmento de espelho negro no valor de 2.000 PO e sangue do conjurador, consumidos",
+					"cost": 200000,
+					"consume": true
+				}
+			},
+			"duration": [
+				{
+					"type": "permanent",
+					"ends": [
+						"dispel"
+					]
+				}
+			],
+			"entries": [
+				"Você rasga parcialmente o Véu que separa presença e ausência, permitindo que o ambiente seja infiltrado por uma lógica de apagamento e decomposição existencial. Escolha um ponto que possa ver dentro do alcance. Uma área de até 18 metros de raio centrada nesse ponto é corrompida pela duração da magia. Enquanto a área estiver sob efeito da profanação, o ambiente manifesta sinais claros de degradação ontológica: sombras deslocadas, sons abafados, ecos atrasados e objetos que parecem ligeiramente fora de lugar. Os seguintes efeitos se aplicam dentro da área: O terreno é considerado terreno difícil para todas as criaturas, exceto mortos-vivos, Umbryns e criaturas com ligação intensa com Umbramancia. Sempre que uma criatura viva entrar na área pela primeira vez em um turno ou iniciar seu turno nela, deve realizar um teste de resistência de Sabedoria. Em falha, sofre {@damage 4d10} de dano psíquico e tem desvantagem em testes de habilidade e jogadas de ataque até o final do turno. Em sucesso, sofre metade do dano e nenhum efeito adicional. Magias de cura lançadas dentro da área restauram apenas metade dos pontos de vida normalmente concedidos. Testes de resistência contra medo, confusão ou efeitos de encantamento realizados por criaturas hostis dentro da área são feitos com desvantagem. Criaturas imunes a medo, confusção ou efeitos de encantamento perdem a imunidade dentro da área, mas fazem o teste normalmente (sem vantagem ou desvantagem). Criaturas que morrem dentro da área não deixam ecos espirituais estáveis; efeitos que busquem informações sobre sua morte falham automaticamente enquanto a área permanecer corrompida."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Warlock",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"kyrSchools": [
+				"Umbramancia"
+			],
+			"damageInflict": [
+				"psychic"
+			],
+			"savingThrow": [
+				"wisdom"
+			]
+		},
+		{
+			"name": "Pulso do Rizoma Ancestral",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 31,
+			"level": 7,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "radius",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Você desperta uma pulsação ancestral que percorre todas as raízes sob seus pés, fazendo o solo reagir como um organismo desperto. Cada criatura hostil em contato com o solo dentro do raio deve realizar um teste de resistência de Constituição. Em falha, a criatura sofre {@damage 6d10} de dano contundente, fica Atordoada até o final do seu próximo turno e é empurrada até 6 metros em uma direção escolhida pelo conjurador. Em sucesso, a criatura sofre metade do dano e não fica Atordoada nem empurrada. Criaturas aliadas em contato com o solo dentro do raio recuperam {@dice 4d10} pontos de vida mais o seu modificador de conjuração e têm vantagem no próximo teste de resistência que realizarem antes do início do seu próximo turno. Até o início do seu próximo turno, o solo na área permanece instável. O terreno é considerado terreno difícil para criaturas hostis, e a primeira vez que uma criatura hostil se mover voluntariamente na área nesse período, ela sofre {@damage 2d10} de dano contundente. Criaturas voando ou que não estejam em contato com o solo não são afetadas por nenhum efeito da magia."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "XPHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					}
+				]
+			},
+			"kyrSchools": [
+				"Rizomancia"
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Em Níveis Superiores",
+					"entries": [
+						"Ao conjurar esta magia usando um espaço de magia de 8º nível ou superior, o dano do pulso inicial e a cura aumentam em {@dice 2d10} para cada nível acima do 7º. 8º Nível"
+					]
+				}
+			],
+			"damageInflict": [
+				"bludgeoning"
+			],
+			"savingThrow": [
+				"constitution"
+			]
+		},
+		{
+			"name": "Colapso do Ecossistema",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 32,
+			"level": 8,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Você força um colapso súbito das cadeias vitais de uma área natural. Escolha um ponto que você possa ver dentro do alcance. Cada criatura em um raio de 12 metros deve realizar um teste de resistência de Constituição. Em falha, a criatura sofre {@damage 12d12} de dano necrótico, fica Exaurida (1 nível) e tem sua velocidade reduzida à metade até o final do próximo turno. Em sucesso, sofre metade do dano e não ganha Exaustão. Terreno natural na área fica estéril por 24 horas: plantas murcham, raízes apodrecem e não podem ser usadas para conjuração de Rizomancia durante esse período."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "XPHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "XPHB"
+					}
+				]
+			},
+			"kyrSchools": [
+				"Rizomancia"
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Em Níveis Superiores",
+					"entries": [
+						"Ao conjurar esta magia usando um espaço de magia de 9º nível, o raio aumenta para 18 metros e a Exaustão aumenta para 2 níveis."
+					]
+				}
+			],
+			"damageInflict": [
+				"necrotic"
+			],
+			"savingThrow": [
+				"constitution"
+			],
+			"conditionInflict": [
+				"exhaustion"
+			]
+		},
+		{
+			"name": "Zona de Ecos Puros",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 32,
+			"level": 8,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "um cristal lapidado que já tenha presenciado um evento marcante, no valor de 500 PO",
+					"cost": 50000
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"Você invoca uma região de memória intacta, onde apenas os ecos mais estáveis e coerentes da realidade permanecem. Escolha um ponto que possa ver dentro do alcance. Uma área de 18 metros de raio ao redor desse ponto torna-se uma Zona de Ecos Puros pela duração da magia. Ao conjurar a magia, escolha qualquer número de criaturas que você possa ver; essas criaturas são consideradas Sintonizadas à Zona. Enquanto estiverem dentro da área, criaturas Sintonizadas recebem os seguintes benefícios: Têm vantagem em testes de resistência. Recuperam 10 pontos de vida no início de cada um de seus turnos. A primeira vez em cada turno que causarem dano, podem adicionar {@damage 2d10} de dano psíquico adicional. Não podem ficar Amedrontadas, Enfeitiçadas ou Atordoadas enquanto permanecerem na área. Além disso, quando uma criatura Sintonizada falhar em um teste de resistência, ela pode escolher ser bem- sucedida em vez disso. Uma criatura pode usar esse benefício uma vez durante a duração da magia. Criaturas não Sintonizadas dentro da área não recebem benefícios, mas também não sofrem penalidades. Se você sair da área a magia termina."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "XPHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "XPHB"
+					},
+					{
+						"name": "Druid",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"kyrSchools": [
+				"Ecomancia"
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Em Níveis Superiores",
+					"entries": [
+						"Ao conjurar esta magia usando um espaço de 9º nível, o bônus de dano adicional aumenta para {@dice 3d10} e a cura por turno aumenta para 15 pontos de vida."
+					]
+				}
+			],
+			"damageInflict": [
+				"psychic"
+			]
+		},
+		{
+			"name": "Zona de Supressão Ontológica",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 33,
+			"level": 8,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"Você impõe uma falha estrutural na existência local, criando uma área onde a presença das criaturas é continuamente negada. Escolha um ponto que possa ver dentro do alcance. Uma esfera de 9 metros de raio se manifesta e permanece pela duração da magia. Sempre que uma criatura hostil entrar na área pela primeira vez em um turno ou iniciar seu turno nela, deve realizar um teste de resistência de Carisma. Em falha, a criatura sofre {@damage 6d8} de dano necrótico e fica Incapacitada até o final do turno atual, enquanto sua existência é parcialmente suprimida. Em sucesso, a criatura sofre metade do dano e não fica incapacitada. Além disso, enquanto estiver dentro da área: Criaturas hostis não podem manter concentração em magias. Criaturas hostis não podem se beneficiar de vantagem em jogadas de ataque, testes ou salvaguardas. Criaturas hostis reduzem todo dano causado em 10 (mínimo 1). Criaturas aliadas dentro da área não sofrem esses efeitos, mas sentem a pressão da ausência: a primeira vez em cada turno que conjuram uma magia de 1º nível ou superior, sofrem {@damage 2d10} de dano psíquico. Criaturas que não possuam uma âncora ontológica estável (como criaturas etéreas, invocadas ou extraplanares) têm desvantagem no teste de resistência."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"kyrSchools": [
+				"Umbramancia"
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Em Níveis Superiores",
+					"entries": [
+						"Ao conjurar esta magia usando um espaço de magia de 9º nível, o raio da área aumenta para 12 metros e o dano aumenta em {@dice 2d10}. 9º Nível"
+					]
+				}
+			],
+			"damageInflict": [
+				"necrotic",
+				"psychic"
+			],
+			"savingThrow": [
+				"charisma"
+			]
+		},
+		{
+			"name": "Continuidade Absoluta",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 34,
+			"level": 9,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "um símbolo de raiz fossilizada, consumido",
+					"consume": true
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 24
+					}
+				}
+			],
+			"entries": [
+				"Você ancora completamente a existência de uma criatura viva ao fluxo contínuo do mundo. Enquanto a magia durar: A criatura não pode morrer. Dano que a reduziria a 0 pontos de vida a deixa com 1 ponto de vida. Condições que normalmente causariam morte (Petrificado, Desintegrado, Morte Instantânea) não têm efeito. Quando a magia termina, a criatura sofre 3 níveis de Exaustão. Esta magia não pode ser usada novamente na mesma criatura por 30 dias. Esta magia não restaura partes perdidas do corpo nem reverte estados narrativos irreversíveis (como pactos divinos ou anulação existencial)."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "XPHB"
+					},
+					{
+						"name": "Druid",
+						"source": "XPHB"
+					}
+				]
+			},
+			"kyrSchools": [
+				"Rizomancia"
+			],
+			"conditionInflict": [
+				"exhaustion"
+			]
+		},
+		{
+			"name": "Revivificação Ecoante",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 34,
+			"level": 9,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "hour"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "um cristal de Aether no valor de 10.000 PO, consumido",
+					"cost": 1000000,
+					"consume": true
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "day",
+						"amount": 30
+					}
+				}
+			],
+			"entries": [
+				"Você reconstrói temporariamente uma criatura a partir de seu Eco preservado no Aether. A criatura deve ter morrido há no máximo 10 anos. A alma da criatura não é forçada a retornar; o que se ergue é a manifestação ecoante completa de sua identidade, memória e vontade. Ao término da conjuração, a criatura retorna à vida com todos os seus pontos de vida, sem doenças ou venenos que a afligiam no momento da morte. Ela mantém todas as suas memórias até o instante da morte. Essa forma é sustentada exclusivamente pelo Eco. Durante a duração: A criatura é indiferente a você. A criatura não pode recuperar pontos de vida por meio de magias abaixo de 3º nível. A criatura tem desvantagem em teste de resistência de morte. A criatura não pode receber pontos de vida temporários. Se morrer novamente, não pode ser alvo desta magia outra vez. Magias que afetem mortos-vivos não a afetam, pois ela não é considerada morta-viva. Ao final dos 30 dias, a manifestação se dissipa silenciosamente. O corpo se desfaz em pó fino e resíduo de Aether, e a criatura não pode ser trazida de volta à vida por qualquer meio inferior a 9º nível. Após a conjuração, você sofre {@damage 10d6} de dano psíquico e ganha um nível de Exaustão."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "XPHB"
+					},
+					{
+						"name": "Druid",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"kyrSchools": [
+				"Ecomancia"
+			],
+			"damageInflict": [
+				"psychic"
+			],
+			"conditionInflict": [
+				"exhaustion"
+			]
+		},
+		{
+			"name": "Rizoma Primordial",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 35,
+			"level": 9,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "radius",
+				"distance": {
+					"type": "feet",
+					"amount": 3333
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "um foco natural lendário, consumido",
+					"consume": true
+				}
+			},
+			"duration": [
+				{
+					"type": "permanent"
+				}
+			],
+			"entries": [
+				"Você desperta o Rizoma Primordial adormecido sob a região, fazendo com que toda a área se torne um bioma vivo consciente. Escolha um terreno natural dentro do alcance. A região escolhida passa a possuir as seguintes propriedades permanentes: O terreno se adapta lentamente para sustentar vida (florestas surgem, rios mudam curso, desertos florescem). Criaturas hostis à vida natural têm desvantagem em testes de Furtividade e Sobrevivência na área. Magias de Rizomancia conjuradas na região são tratadas como se fossem conjuradas com um nível acima (sem custo adicional). Você passa a ser reconhecido pelo bioma como seu Vetor Vital. Enquanto estiver dentro da região, você tem vantagem em todos os testes de resistência. Esta magia só pode existir uma vez por região. Conjurar novamente substitui o efeito anterior. Esta magia não pode ser dissipada por meios convencionais."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "XPHB"
+					}
+				]
+			},
+			"kyrSchools": [
+				"Rizomancia"
+			]
+		},
+		{
+			"name": "Umbra Inarcanate",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 35,
+			"level": 9,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 80
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"Você projeta uma ausência absoluta sobre a existência de uma criatura que possa ver dentro do alcance. O alvo deve realizar um teste de resistência de Carisma. Em falha, a criatura sofre {@damage 15d8} de dano necrótico e torna-se Desvinculada pela duração. Enquanto Desvinculada: A criatura não pode ser curada ou recuperar pontos de vida por qualquer meio mágico ou não-mágico. Qualquer dano que sofrer ignora resistência e imunidade. Ela não pode ser alvo de efeitos benéficos. Além disso, enquanto estiver Desvinculada, a criatura não pode usar Ações Lendárias nem Resistências Lendárias. No final de cada um de seus turnos, a criatura pode repetir o teste de resistência, encerrando o efeito em sucesso. Em sucesso inicial, a criatura sofre o dano inicial e não fica Desvinculada. Se a criatura morrer enquanto Desvinculada, sua presença deixa uma cicatriz permanente no local: magias de 8º nível ou inferior conjuradas em um raio de 9 metros do ponto de morte exigem um teste de habilidade de conjuração contra CD 18 ou falham. Uma magia Dispel Magic pode encerrar a magia ou seu efeito após a morte da criatura apenas se for conjurada usando um espaço de magia de 9º nível, além disso, uma magia Gate Seal de 6º nível ou superior pode suprimir a área temporariamente, por até 24h, e se conjurada como de 9º nível a supressão dura até der desfeita."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"kyrSchools": [
+				"Umbramancia"
+			],
+			"damageInflict": [
+				"necrotic"
+			],
+			"savingThrow": [
+				"charisma"
+			]
+		}
+	]
+}
