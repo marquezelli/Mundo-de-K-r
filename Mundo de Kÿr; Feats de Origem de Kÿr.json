@@ -3,15 +3,15 @@
 		"sources": [
 			{
 				"json": "MundoDeKyrFeats",
-				"abbreviation": "KyrFeats",
-				"full": "Mundo de Kÿr: Feats de Origem",
+				"abbreviation": "Kÿr",
+				"full": "Mundo de Kÿr: Feats de Origem e Gerais",
 				"authors": [
 					"Mundo de Kÿr"
 				],
 				"convertedBy": [
 					"ChatGPT"
 				],
-				"version": "1.0.0",
+				"version": "1.1.0",
 				"url": "https://github.com/TheGiddyLimit/homebrew",
 				"dateAdded": 1777852800
 			}
@@ -71,7 +71,7 @@
 									"type": "item",
 									"name": "Solo Preso",
 									"entries": [
-										"Um espaço de 5 pés que você possa ver a até 10 pés do alvo se torna {{@variantrule Difficult Terrain|XPHB|terreno difícil}} para criaturas hostis até o início do seu próximo turno."
+										"Um espaço de 5 pés que você possa ver a até 10 pés do alvo se torna {@variantrule Difficult Terrain|XPHB|terreno difícil} para criaturas hostis até o início do seu próximo turno."
 									]
 								}
 							]
@@ -295,7 +295,7 @@
 					"type": "entries",
 					"name": "Clarão de Coragem",
 					"entries": [
-						"Quando você usar Instinto Protetor, a criatura protegida recebe {{@dice 1d4}} no próximo teste de resistência que realizar antes do início do seu próximo turno."
+						"Quando você usar Instinto Protetor, a criatura protegida recebe {@dice 1d4} no próximo teste de resistência que realizar antes do início do seu próximo turno."
 					]
 				}
 			]
@@ -471,7 +471,7 @@
 					"type": "entries",
 					"name": "Passo Leve",
 					"entries": [
-						"Você ignora {{@variantrule Difficult Terrain|XPHB|terreno difícil}} causado por neve."
+						"Você ignora {@variantrule Difficult Terrain|XPHB|terreno difícil} causado por neve."
 					]
 				},
 				{
@@ -562,7 +562,7 @@
 					"type": "entries",
 					"name": "Precisão Marcial",
 					"entries": [
-						"Quando você errar uma jogada de ataque corpo a corpo, pode adicionar {{@dice 1d4}} ao próximo ataque que fizer antes do fim do seu próximo turno."
+						"Quando você errar uma jogada de ataque corpo a corpo, pode adicionar {@dice 1d4} ao próximo ataque que fizer antes do fim do seu próximo turno."
 					]
 				}
 			]
@@ -679,7 +679,7 @@
 					"type": "entries",
 					"name": "Corpo Atravessado",
 					"entries": [
-						"Você tem {{@variantrule Advantage|XPHB|vantagem}} em testes de habilidade feitos para resistir a desorientação, náusea ou perda de direção causadas por teleporte, sonho, plano astral ou distorções do Véu."
+						"Você tem {@variantrule Advantage|XPHB|vantagem} em testes de habilidade feitos para resistir a desorientação, náusea ou perda de direção causadas por teleporte, sonho, plano astral ou distorções do Véu."
 					]
 				}
 			]
@@ -759,7 +759,7 @@
 					"type": "entries",
 					"name": "Mapa Impossível",
 					"entries": [
-						"Quando você cria um mapa ou registro de uma região afetada pelo Véu, por magia antiga ou por distorção espacial, criaturas que usem esse registro recebem {{@dice 1d4}} no primeiro teste de navegação feito naquela região."
+						"Quando você cria um mapa ou registro de uma região afetada pelo Véu, por magia antiga ou por distorção espacial, criaturas que usem esse registro recebem {@dice 1d4} no primeiro teste de navegação feito naquela região."
 					]
 				}
 			]
@@ -845,6 +845,3416 @@
 					"name": "Olho do Norte",
 					"entries": [
 						"Durante um {@variantrule Long Rest|XPHB|Descanso Longo}, você pode permanecer em vigília sem impedir que receba os benefícios do descanso, desde que não realize outra atividade extenuante."
+					]
+				}
+			]
+		},
+		{
+			"name": "Mestre da Cura",
+			"source": "MundoDeKyrFeats",
+			"page": 101,
+			"category": "G",
+			"prerequisite": [
+				{
+					"level": 4,
+					"ability": [
+						{
+							"wis": 13
+						}
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"con",
+							"wis"
+						]
+					}
+				}
+			],
+			"skillProficiencies": [
+				{
+					"medicine": true
+				}
+			],
+			"expertise": [
+				{
+					"medicine": true
+				}
+			],
+			"entries": [
+				"Você aprendeu a tratar ferimentos com precisão, transformando cura imediata em sustentação duradoura.",
+				{
+					"type": "entries",
+					"name": "Aumento de Atributo",
+					"entries": [
+						"Aumente seu atributo de Sabedoria ou Constituição em 1, até um máximo de 20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Cura Excessiva",
+					"entries": [
+						"Uma vez por turno, quando você restaurar {@variantrule Hit Points|XPHB|Pontos de Vida} de uma criatura aliada com uma magia, característica ou uso de kit adequado, role {@dice 1d4} e some o resultado ao valor da cura. Se essa cura exceder os {@variantrule Hit Points|XPHB|Pontos de Vida} máximos da criatura, o excesso se transforma em {@variantrule Temporary Hit Points|XPHB|Pontos de Vida Temporários}, que duram 10 minutos ou até serem gastos."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Médico de campo",
+					"entries": [
+						"Você ganha proficiência em {@skill Medicine|XPHB|Medicina}. Se já possuir essa proficiência, você ganha Especialização nela."
+					]
+				}
+			]
+		},
+		{
+			"name": "Marcial Aethérico",
+			"source": "MundoDeKyrFeats",
+			"page": 102,
+			"category": "G",
+			"prerequisite": [
+				{
+					"level": 4,
+					"spellcasting2020": true,
+					"ability": [
+						{
+							"str": 13
+						}
+					]
+				},
+				{
+					"level": 4,
+					"spellcasting2020": true,
+					"ability": [
+						{
+							"dex": 13
+						}
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						]
+					}
+				}
+			],
+			"skillProficiencies": [
+				{
+					"arcana": true
+				}
+			],
+			"expertise": [
+				{
+					"arcana": true
+				}
+			],
+			"entries": [
+				"Sua técnica marcial foi reconhecida pelo Aether. A arma já não responde apenas ao peso da mão, mas à intenção que a conduz:",
+				{
+					"type": "entries",
+					"name": "Aumento de Atributo",
+					"entries": [
+						"Aumente um atributo à sua escolha em 1 ponto, até um máximo de 20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Aprendiz do Aether",
+					"entries": [
+						"Você ganha proficiência em {@skill Arcana|XPHB|Arcanismo}. Se já possuir essa proficiência, você ganha Especialização nela."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Empunhadura do Aetherium",
+					"entries": [
+						"Ao finalizar um {@variantrule Long Rest|XPHB|Descanso Longo}, escolha uma arma corpo a corpo com a qual você seja proficiente e que não possua a propriedade Pesada. Até o fim do seu próximo {@variantrule Long Rest|XPHB|Descanso Longo}, você pode usar seu atributo de conjuração no lugar de Força ou Destreza nas jogadas de ataque e dano feitas com essa arma."
+					]
+				}
+			]
+		},
+		{
+			"name": "Adepto Rizomante",
+			"source": "MundoDeKyrFeats",
+			"page": 103,
+			"category": "G",
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"nascido rizomante|MundoDeKyrFeats"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"con",
+							"int",
+							"wis",
+							"cha"
+						]
+					}
+				}
+			],
+			"additionalSpells": [
+				{
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"prepared": {
+						"_": {
+							"daily": {
+								"1": [
+									{
+										"choose": "level=1|source=MundoDeKyrLivroDasMagiasDeKyr|subschool=Rizomancia"
+									}
+								]
+							}
+						}
+					}
+				}
+			],
+			"entries": [
+				"Você aprofundou seu vínculo com as forças rizomânticas que sustentam o mundo, tornando-se um ponto de ancoragem vivo para a magia natural. Você recebe os seguintes benefícios:",
+				{
+					"type": "entries",
+					"name": "Aumento de Atributo",
+					"entries": [
+						"Aumente seu valor de Constituição, Inteligência, Sabedoria ou Carisma em 1, até o máximo de 20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Magia Rizomântica",
+					"entries": [
+						"Escolha uma magia de 1º nível da lista de Rizomancia. Você sempre tem essa magia preparada. Você pode conjurá-la uma vez sem gastar espaço de magia, recuperando esse uso ao finalizar um {@variantrule Long Rest|XPHB|Descanso Longo}. Você também pode conjurá-la normalmente usando quaisquer espaços de magia que possuir. Escolha Inteligência, Sabedoria ou Carisma como habilidade de conjuração para essa magia ao adquirir este talento."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Âncora Natural",
+					"entries": [
+						"Quando você ou uma criatura aliada a até 10 pés de você realizar um teste de resistência contra um efeito mágico que possa empurrar, puxar, derrubar, restringir ou mover contra a vontade, você pode usar sua {@variantrule Reaction|XPHB|Reação} para conceder +{@dice 1d4} a esse teste. Você pode usar Âncora Natural um número de vezes igual ao seu {@variantrule Proficiency|XPHB|bônus de proficiência}, recuperando todos os usos ao finalizar um {@variantrule Long Rest|XPHB|Descanso Longo}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Seiva Restauradora",
+			"source": "MundoDeKyrFeats",
+			"page": 104,
+			"category": "G",
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"nascido rizomante|MundoDeKyrFeats"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"con",
+							"wis",
+							"cha"
+						]
+					}
+				}
+			],
+			"entries": [
+				"Sua Rizomancia aprende a circular como seiva viva, sustentando aliados com vigor persistente em vez de cura explosiva. Você recebe os seguintes benefícios:",
+				{
+					"type": "entries",
+					"name": "Aumento de Atributo",
+					"entries": [
+						"Aumente seu valor de Constituição, Sabedoria ou Carisma em 1, até o máximo de 20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Seiva Nutritiva",
+					"entries": [
+						"Uma vez por turno, quando você restaurar {@variantrule Hit Points|XPHB|Pontos de Vida} de uma criatura com uma magia ou característica, você pode conceder a essa criatura {@variantrule Temporary Hit Points|XPHB|Pontos de Vida Temporários} iguais ao seu {@variantrule Proficiency|XPHB|bônus de proficiência}. Uma criatura só pode se beneficiar desta característica uma vez por rodada."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Seiva Breve Aprimorada",
+					"entries": [
+						"Quando você usar Âncora Radicular e escolher Seiva Breve, a criatura beneficiada recebe {@variantrule Temporary Hit Points|XPHB|Pontos de Vida Temporários} adicionais iguais ao modificador da habilidade de conjuração escolhida para Nascido Rizomante, mínimo de 1."
+					]
+				}
+			]
+		},
+		{
+			"name": "Geometria Radicular",
+			"source": "MundoDeKyrFeats",
+			"page": 105,
+			"category": "G",
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"nascido rizomante|MundoDeKyrFeats"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"con",
+							"int",
+							"wis"
+						]
+					}
+				}
+			],
+			"entries": [
+				"Você compreende a lógica silenciosa das raízes: não basta sustentar o mundo, é preciso fixá-lo no lugar certo. Você recebe os seguintes benefícios:",
+				{
+					"type": "entries",
+					"name": "Aumento de Atributo",
+					"entries": [
+						"Aumente seu valor de Constituição, Sabedoria ou Inteligência em 1, até o máximo de 20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Malha Radicular",
+					"entries": [
+						"Quando você causar dano a uma criatura em contato com o solo com um ataque corpo a corpo ou com um truque de Rizomancia, você pode fazer surgir raízes ao redor dela. O alvo deve realizar um teste de resistência de Força contra sua CD de magia. Em uma falha, ele fica {@condition Restrained|XPHB|Restrito} até o início do seu próximo turno. Em um sucesso, o deslocamento dele é reduzido em 10 pés até o início do seu próximo turno. Você pode utilizar Malha Radicular uma quantidade de vezes igual seu {@variantrule Proficiency|XPHB|bônus de proficiência}, recuperando seus usos em um descanso longo."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Fixação Estrutural",
+					"entries": [
+						"Uma vez por turno, quando uma criatura em contato com o solo for atingida por você ou falhar em um teste de resistência contra uma de suas magias ou efeitos, você pode reduzir o deslocamento dela em 10 pés até o início do seu próximo turno. Você pode usar esta característica um número de vezes igual ao seu {@variantrule Proficiency|XPHB|bônus de proficiência}, recuperando todos os usos ao finalizar um {@variantrule Long Rest|XPHB|Descanso Longo}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Adepto Ecomante",
+			"source": "MundoDeKyrFeats",
+			"page": 106,
+			"category": "G",
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"nascido ecomante|MundoDeKyrFeats"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"con",
+							"int",
+							"wis",
+							"cha"
+						]
+					}
+				}
+			],
+			"additionalSpells": [
+				{
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"prepared": {
+						"_": {
+							"daily": {
+								"1": [
+									{
+										"choose": "level=1|source=MundoDeKyrLivroDasMagiasDeKyr|subschool=Ecomancia"
+									}
+								]
+							}
+						}
+					}
+				}
+			],
+			"entries": [
+				"Você afinou sua percepção com os ecos deixados pela magia no mundo, aprendendo não apenas a conjurá-los, mas a registrá-los com precisão. Você recebe os seguintes benefícios:",
+				{
+					"type": "entries",
+					"name": "Aumento de Atributo",
+					"entries": [
+						"Aumente seu valor de Constituição, Inteligência, Sabedoria ou Carisma em 1, até o máximo de 20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Magia Ecomântica",
+					"entries": [
+						"Escolha uma magia de 1º nível da lista de Ecomancia. Você sempre tem essa magia preparada. Você pode conjurá-la uma vez sem gastar espaço de magia. Você recupera esse uso ao finalizar um {@variantrule Long Rest|XPHB|Descanso Longo}. Você também pode conjurá-la normalmente usando quaisquer espaços de magia que possuir. Escolha Inteligência, Sabedoria ou Carisma como habilidade de conjuração para essa magia ao adquirir este talento."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Um com os Ecos",
+					"entries": [
+						"Como uma {@action Study|XPHB|Ação de Estudo}, você pode examinar uma criatura, objeto ou espaço visível a até 30 pés de você e descobrir se ele foi alvo, origem ou ponto de passagem de um efeito mágico nas últimas 24 horas. Você não descobre automaticamente a magia exata, mas sabe se o eco é arcano, divino, primordial, sombrio ou anímico, a critério do Mestre."
+					]
+				}
+			]
+		},
+		{
+			"name": "Leitor de Rupturas",
+			"source": "MundoDeKyrFeats",
+			"page": 107,
+			"category": "G",
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"nascido ecomante|MundoDeKyrFeats"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"int",
+							"wis"
+						]
+					}
+				}
+			],
+			"entries": [
+				"Você aprendeu a ler falhas, sobreposições e rastros de alteração na realidade com a mesma naturalidade com que outros leem pegadas no barro. Você recebe os seguintes benefícios:",
+				{
+					"type": "entries",
+					"name": "Aumento de Atributo",
+					"entries": [
+						"Aumente seu valor de Inteligência ou Sabedoria em 1, até o máximo de 20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Olho para Distorções",
+					"entries": [
+						"Você tem {@variantrule Advantage|XPHB|Vantagem} em testes de Sabedoria ({@skill Perception|XPHB|Percepção}) e Inteligência ({@skill Investigation|XPHB|Investigação} ou {@skill Arcana|XPHB|Arcanismo}) feitos para detectar ilusões, passagens ocultas, alterações mágicas, marcas residuais de magia ou pequenas distorções espaciais."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Informação Imperfeita",
+					"entries": [
+						"Quando você falhar em um teste abrangido por Olho para Distorções, você pode transformar a falha em uma percepção parcial. Você não obtém a resposta completa, mas descobre uma pista verdadeira sobre a natureza, direção, origem ou risco da distorção. Você pode usar esta característica uma vez por {@variantrule Short Rest|XPHB|Descanso Curto}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Ressonância Ecoante",
+			"source": "MundoDeKyrFeats",
+			"page": 108,
+			"category": "G",
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"nascido ecomante|MundoDeKyrFeats"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"int",
+							"wis",
+							"cha"
+						]
+					}
+				}
+			],
+			"entries": [
+				"Você aprendeu a impor direção aos ecos, fazendo-os permanecer nos pontos certos e interferirem no momento exato. Você recebe os seguintes benefícios:",
+				{
+					"type": "entries",
+					"name": "Aumento de Atributo",
+					"entries": [
+						"Aumente seu valor de Inteligência, Sabedoria ou Carisma em 1, até o máximo de 20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Ressonância Dirigida",
+					"entries": [
+						"Uma vez por turno, quando uma criatura falhar em um teste de resistência contra uma magia sua de Ecomancia ou for atingida por um de seus truques de Ecomancia, você pode marcar essa criatura até o início do seu próximo turno. Enquanto estiver marcada, escolha um dos efeitos abaixo:",
+						{
+							"type": "list",
+							"style": "list-decimal",
+							"items": [
+								"o primeiro teste de {@skill Perception|XPHB|Percepção}, {@skill Investigation|XPHB|Investigação}, {@skill Insight|XPHB|Intuição} ou {@skill Arcana|XPHB|Arcanismo} feito contra ela por você ou por um aliado recebe +{@dice 1d4}",
+								"ela não pode se beneficiar da condição {@condition Invisible|XPHB|Invisível}."
+							]
+						},
+						"Você pode usar Ressonância Dirigida um número de vezes igual a duas vezes seu {@variantrule Proficiency|XPHB|bônus de proficiência}, recuperando todos os usos ao finalizar um {@variantrule Long Rest|XPHB|Descanso Longo}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Adepto Umbromante",
+			"source": "MundoDeKyrFeats",
+			"page": 109,
+			"category": "G",
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"nascido umbromante|MundoDeKyrFeats"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"con",
+							"int",
+							"wis",
+							"cha"
+						]
+					}
+				}
+			],
+			"additionalSpells": [
+				{
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"prepared": {
+						"_": {
+							"daily": {
+								"1": [
+									{
+										"choose": "level=1|source=MundoDeKyrLivroDasMagiasDeKyr|subschool=Umbramancia"
+									}
+								]
+							}
+						}
+					}
+				}
+			],
+			"entries": [
+				"Você aprendeu a manipular as lacunas entre as coisas, fazendo a própria ausência agir em seu favor. Você recebe os seguintes benefícios:",
+				{
+					"type": "entries",
+					"name": "Aumento de Atributo",
+					"entries": [
+						"Aumente seu valor de Constituição, Inteligência, Sabedoria ou Carisma em 1, até o máximo de 20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Magia Umbromântica",
+					"entries": [
+						"Escolha uma magia de 1º nível da lista de Umbramancia. Você sempre tem essa magia preparada. Você pode conjurá-la uma vez sem gastar espaço de magia. Você recupera esse uso ao finalizar um {@variantrule Long Rest|XPHB|Descanso Longo}. Você também pode conjurá-la normalmente usando quaisquer espaços de magia que possuir. Escolha Inteligência, Sabedoria ou Carisma como habilidade de conjuração para essa magia ao adquirir este talento."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Rarefação Sombria",
+					"entries": [
+						"Uma vez por turno, quando uma criatura falhar em um teste de resistência contra uma de suas magias de Umbramancia ou for atingida por um de seus truques de Umbramancia, você pode escolher um dos efeitos abaixo até o início do seu próximo turno:",
+						{
+							"type": "list",
+							"style": "list-decimal",
+							"items": [
+								"a criatura não pode realizar Reações",
+								"a criatura subtrai {@dice 1d4} do próximo teste de resistência que realizar para manter {@status Concentration|XPHB|Concentração}."
+							]
+						},
+						"Você pode utilizar Rarefação sombria uma quantidade de vezes igual seu {@variantrule Proficiency|XPHB|bônus de proficiência} por descanso longo."
+					]
+				}
+			]
+		},
+		{
+			"name": "Véu do Apagamento",
+			"source": "MundoDeKyrFeats",
+			"page": 110,
+			"category": "G",
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"nascido umbromante|MundoDeKyrFeats"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"dex",
+							"int",
+							"wis"
+						]
+					}
+				}
+			],
+			"skillProficiencies": [
+				{
+					"stealth": true
+				}
+			],
+			"expertise": [
+				{
+					"stealth": true
+				}
+			],
+			"entries": [
+				"Você aprendeu a caminhar onde a percepção falha, usando penumbra, silêncio e incerteza como parte do seu próprio corpo. Você recebe os seguintes benefícios:",
+				{
+					"type": "entries",
+					"name": "Aumento de Atributo",
+					"entries": [
+						"Aumente seu valor de Destreza, Inteligência ou Sabedoria em 1, até o máximo de 20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Infiltração Sombria",
+					"entries": [
+						"Você ganha proficiência em {@skill Stealth|XPHB|Furtividade} Se já possuir essa proficiência, você ganha Especialização nela."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Presença Rarefeita",
+					"entries": [
+						"Enquanto estiver em Luz Baixa, Escuridão ou em uma área obscurecida por uma magia ou efeito que você tenha criado, {@action Opportunity Attack|XPHB|Ataques de Oportunidade} contra você têm {@variantrule Disadvantage|XPHB|Desvantagem}. Além disso, uma vez por turno, quando você fizer um teste de Destreza ({@skill Stealth|XPHB|Furtividade}) nessas condições, pode adicionar {@dice 1d4} ao resultado."
+					]
+				}
+			]
+		},
+		{
+			"name": "Fome do Vazio",
+			"source": "MundoDeKyrFeats",
+			"page": 111,
+			"category": "G",
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"nascido umbromante|MundoDeKyrFeats"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"con",
+							"int",
+							"cha"
+						]
+					}
+				}
+			],
+			"entries": [
+				"Você aprendeu a alimentar a ausência, fazendo com que seus golpes e magias corroam não apenas a carne, mas a sustentação do alvo.",
+				{
+					"type": "entries",
+					"name": "Aumento de Atributo",
+					"entries": [
+						"Aumente seu valor de Constituição, Inteligência ou Carisma em 1, até o máximo de 20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Esvaziamento",
+					"entries": [
+						"Uma vez por turno, quando uma criatura sofrer dano Necrótico ou Psíquico causado por você, você pode escolher um dos efeitos abaixo até o início do seu próximo turno:",
+						{
+							"type": "list",
+							"style": "list-decimal",
+							"items": [
+								"a criatura não pode recuperar {@variantrule Hit Points|XPHB|Pontos de Vida}",
+								"se a criatura tiver {@variantrule Temporary Hit Points|XPHB|Pontos de Vida Temporários}, ela perde uma quantidade deles igual ao seu {@variantrule Proficiency|XPHB|bônus de proficiência}."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Ausência Persistente",
+					"entries": [
+						"Se uma criatura afetada por Esvaziamento tentar recuperar {@variantrule Hit Points|XPHB|Pontos de Vida} antes do início do seu próximo turno, você percebe a tentativa, mesmo que ela venha de uma fonte que você não possa ver."
+					]
+				}
+			]
+		},
+		{
+			"name": "Escamas do Ancestral",
+			"source": "MundoDeKyrFeats",
+			"page": 112,
+			"category": "G",
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"herdeiro do dragão|MundoDeKyrFeats"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"con",
+							"cha"
+						]
+					}
+				}
+			],
+			"entries": [
+				"Seu corpo começa a lembrar a disciplina física do seu ancestral dracônico, endurecendo pele, postura e instinto.",
+				{
+					"type": "entries",
+					"name": "Aumento de Atributo",
+					"entries": [
+						"Aumente seu valor de Força, Constituição ou Carisma em 1, até o máximo de 20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Couraça Escamada",
+					"entries": [
+						"Enquanto você não estiver usando Armadura Pesada, sua {@variantrule Armor Class|XPHB|Classe de Armadura} recebe um bônus de +1."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Orgulho Inflexível",
+					"entries": [
+						"Você tem {@variantrule Advantage|XPHB|Vantagem} em testes de resistência contra a condição {@condition Frightened|XPHB|Amedrontado}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Voz do Suserano",
+			"source": "MundoDeKyrFeats",
+			"page": 113,
+			"category": "G",
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"herdeiro do dragão|MundoDeKyrFeats"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"con",
+							"wis",
+							"cha"
+						]
+					}
+				}
+			],
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"arcana",
+							"intimidation",
+							"persuasion"
+						]
+					}
+				}
+			],
+			"expertise": [
+				{
+					"choose": {
+						"from": [
+							"arcana",
+							"intimidation",
+							"persuasion"
+						]
+					}
+				}
+			],
+			"entries": [
+				"Sua voz aprende a carregar o peso da hierarquia dracônica. Quando você fala, há algo nela que exige espaço, resposta e recuo. Você recebe os seguintes benefícios:",
+				{
+					"type": "entries",
+					"name": "Aumento de Atributo",
+					"entries": [
+						"Aumente seu valor de Constituição, Sabedoria ou Carisma em 1, até o máximo de 20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Autoridade Escamada",
+					"entries": [
+						"Você ganha proficiência em {@skill Arcana|XPHB|Arcanismo}, {@skill Persuasion|XPHB|Persuasão} ou {@skill Intimidation|XPHB|Intimidação}. Se já possuir a proficiência escolhida, você ganha Especialização nela."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Presença Dracônica",
+					"entries": [
+						"Como {@variantrule Bonus Action|XPHB|Ação Bônus}, escolha uma criatura que você possa ver a até 30 pés de você. O alvo deve realizar um teste de resistência de Sabedoria contra uma CD igual a 8 + seu {@variantrule Proficiency|XPHB|bônus de proficiência} + seu modificador de Constituição, Sabedoria ou Carisma, escolhido ao adquirir este talento. Em uma falha, a criatura fica {@condition Frightened|XPHB|Amedrontada} por você até o início do seu próximo turno. Você pode usar Presença Dracônica um número de vezes igual ao seu {@variantrule Proficiency|XPHB|bônus de proficiência}, recuperando todos os usos ao finalizar um {@variantrule Long Rest|XPHB|Descanso Longo}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Sopro Dracônico",
+			"source": "MundoDeKyrFeats",
+			"page": 114,
+			"category": "G",
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"herdeiro do dragão|MundoDeKyrFeats"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"con",
+							"cha"
+						]
+					}
+				}
+			],
+			"entries": [
+				"Seu vínculo com a ancestralidade dracônica já não se limita à presença. Agora ele encontra uma via de expressão destrutiva. Você recebe os seguintes benefícios:",
+				{
+					"type": "entries",
+					"name": "Aumento de Atributo",
+					"entries": [
+						"Aumente seu valor de Constituição ou Carisma em 1, até o máximo de 20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Sopro Ancestral",
+					"entries": [
+						"Quando você realiza a ação {@action Attack|XPHB|Atacar}, pode substituir um de seus ataques por um uso do Sopro Ancestral. Escolha um cone de 15 pés ou uma linha de 30 pés com 5 pés de largura. Cada criatura na área deve realizar um teste de resistência de Destreza contra uma CD igual a 8 + seu {@variantrule Proficiency|XPHB|bônus de proficiência} + seu modificador de Constituição ou Carisma, escolhido ao adquirir este talento. Em uma falha, a criatura sofre {@dice 2d6} de dano do tipo associado à sua Ancestralidade Dracônica. Em um sucesso, sofre metade do dano. Você pode usar Sopro Ancestral um número de vezes igual ao seu {@variantrule Proficiency|XPHB|bônus de proficiência}, recuperando todos os usos ao finalizar um {@variantrule Long Rest|XPHB|Descanso Longo}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Sopro Herdado",
+					"entries": [
+						"Se você já possui uma habilidade de sopro por outra fonte, você pode escolher usar a área de Sopro Ancestral quando usar essa habilidade. Você não soma os danos dos dois sopros."
+					]
+				}
+			]
+		},
+		{
+			"name": "Guardião da Aurora",
+			"source": "MundoDeKyrFeats",
+			"page": 115,
+			"category": "G",
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"tocado pela aurora|MundoDeKyrFeats"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"con",
+							"wis",
+							"cha"
+						]
+					}
+				}
+			],
+			"entries": [
+				"Você aprendeu a interpor corpo, vontade e presença entre a ameaça e aqueles que confiam em você. Você recebe os seguintes benefícios:",
+				{
+					"type": "entries",
+					"name": "Aumento de Atributo",
+					"entries": [
+						"Aumente seu valor de Força, Constituição, Sabedoria ou Carisma em 1, até o máximo de 20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Intervenção Defensiva",
+					"entries": [
+						"Quando uma criatura aliada a até 30 pés de você for atingida por uma jogada de ataque, você pode usar sua {@variantrule Reaction|XPHB|Reação} para se teleportar até 30 pés para um espaço desocupado dentro do alcance do ataque e se tornar o alvo desse ataque em seu lugar. Você pode usar Intervenção Defensiva um número de vezes igual ao seu {@variantrule Proficiency|XPHB|bônus de proficiência}, recuperando todos os usos ao finalizar um {@variantrule Long Rest|XPHB|Descanso Longo}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Postura do Intercessor",
+					"entries": [
+						"Até o início do seu próximo turno, após usar Intervenção Defensiva, você tem {@variantrule Advantage|XPHB|Vantagem} no próximo teste de resistência que fizer."
+					]
+				}
+			]
+		},
+		{
+			"name": "Brilho Tutelar",
+			"source": "MundoDeKyrFeats",
+			"page": 116,
+			"category": "G",
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"tocado pela aurora|MundoDeKyrFeats"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"con",
+							"wis",
+							"cha"
+						]
+					}
+				}
+			],
+			"additionalSpells": [
+				{
+					"prepared": {
+						"_": {
+							"daily": {
+								"1": [
+									"toque da aurora invernal|mundodekyrlivrodasmagiasdekyr"
+								]
+							}
+						}
+					}
+				}
+			],
+			"entries": [
+				"A Aurora não apenas o chama para proteger. Ela deixa marcas de consolo e firmeza onde sua presença alcança. Você recebe os seguintes benefícios:",
+				{
+					"type": "entries",
+					"name": "Aumento de Atributo",
+					"entries": [
+						"Aumente seu valor de Sabedoria, Carisma ou Constituição em 1, até o máximo de 20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Resplendor Protetor",
+					"entries": [
+						"Uma vez por turno, quando você usar uma magia, característica ou ação para restaurar {@variantrule Hit Points|XPHB|Pontos de Vida} de uma criatura ou reduzir o dano que ela sofreria, essa criatura também recebe {@variantrule Temporary Hit Points|XPHB|Pontos de Vida Temporários} iguais ao seu {@variantrule Proficiency|XPHB|bônus de proficiência}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Toque Reconfortante",
+					"entries": [
+						"Você tem a magia Toque da Aurora Invernal sempre preparada. Você pode conjurá-la uma vez sem gastar espaço de magia, recuperando esse uso ao finalizar um {@variantrule Long Rest|XPHB|Descanso Longo}. Você também pode conjurá-la normalmente usando quaisquer espaços de magia que possuir. O atributo de conjuração dessa magia é o atributo aumentado por este talento."
+					]
+				}
+			]
+		},
+		{
+			"name": "Vigília Inquebrável",
+			"source": "MundoDeKyrFeats",
+			"page": 117,
+			"category": "G",
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"tocado pela aurora|MundoDeKyrFeats"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"con",
+							"wis"
+						]
+					}
+				}
+			],
+			"entries": [
+				"Você aprendeu que proteção não é apenas reação. É postura. É impedir que o inimigo encontre a linha frágil do grupo. Você recebe os seguintes benefícios:",
+				{
+					"type": "entries",
+					"name": "Aumento de Atributo",
+					"entries": [
+						"Aumente seu valor de Força, Constituição ou Sabedoria em 1, até o máximo de 20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Linha de Vigília",
+					"entries": [
+						"Uma vez por turno, quando uma criatura hostil a até 5 pés de você atingir um alvo que não seja você com um ataque, você pode impor {@variantrule Disadvantage|XPHB|Desvantagem} ao próximo ataque que essa criatura realizar antes do início do seu próximo turno."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Passo de Guarda",
+					"entries": [
+						"Enquanto você estiver a até 5 pés de uma criatura aliada e não estiver com a condição {@condition Incapacitated|XPHB|Incapacitado}, ataques de oportunidade contra você e contra seu aliado têm {@variantrule Disadvantage|XPHB|Desvantagem}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Passo do Ermo",
+			"source": "MundoDeKyrFeats",
+			"page": 118,
+			"category": "G",
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"forjado pelo mundo hostil|MundoDeKyrFeats"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"dex",
+							"con",
+							"wis"
+						]
+					}
+				}
+			],
+			"skillProficiencies": [
+				{
+					"survival": true
+				}
+			],
+			"expertise": [
+				{
+					"survival": true
+				}
+			],
+			"entries": [
+				"Você aprendeu a se mover onde o mundo tenta atrasar todos os outros. Você recebe os seguintes benefícios:",
+				{
+					"type": "entries",
+					"name": "Aumento de Atributo",
+					"entries": [
+						"Aumente seu valor de Destreza, Sabedoria ou Constituição em 1, até o máximo de 20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Ritmo de Travessia",
+					"entries": [
+						"Seu deslocamento de caminhada aumenta em 5 pés. Além disso, durante viagens, a primeira hora adicional após as 8 horas iniciais de marcha não exige teste para evitar {@condition Exhaustion|XPHB|Exaustão}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Olho de Trilha",
+					"entries": [
+						"Você ganha proficiência em {@skill Survival|XPHB|Sobrevivência} Se já possuir essa proficiência, você ganha Especialização nela."
+					]
+				}
+			]
+		},
+		{
+			"name": "Pulmão da Tempestade",
+			"source": "MundoDeKyrFeats",
+			"page": 119,
+			"category": "G",
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"forjado pelo mundo hostil|MundoDeKyrFeats"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"con",
+							"wis"
+						]
+					}
+				}
+			],
+			"entries": [
+				"Seu corpo se acostumou a continuar operando quando o clima, o cansaço ou a falta de ar já teriam dobrado outros:",
+				{
+					"type": "entries",
+					"name": "Aumento de Atributo",
+					"entries": [
+						"Aumente seu valor de Constituição ou Sabedoria em 1, até o máximo de 20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Resistência à Fadiga",
+					"entries": [
+						"Você tem {@variantrule Advantage|XPHB|Vantagem} em testes de resistência feitos para evitar {@condition Exhaustion|XPHB|Exaustão} causada por viagem, clima extremo, esforço prolongado, fome, sede, sufocamento ou ambiente hostil."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Recuperação Rígida",
+					"entries": [
+						"Quando você gastar Dados de Vida durante um {@variantrule Short Rest|XPHB|Descanso Curto}, pode tratar qualquer resultado no dado inferior à média do dado como a média. Por exemplo, um resultado inferior a 5 em um {@dice d8} é tratado como 5."
+					]
+				}
+			]
+		},
+		{
+			"name": "Instinto de Refúgio",
+			"source": "MundoDeKyrFeats",
+			"page": 120,
+			"category": "G",
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"forjado pelo mundo hostil|MundoDeKyrFeats"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"dex",
+							"con",
+							"wis"
+						]
+					}
+				}
+			],
+			"skillProficiencies": [
+				{
+					"perception": true
+				}
+			],
+			"expertise": [
+				{
+					"perception": true
+				}
+			],
+			"entries": [
+				"Você sobreviveu porque aprendeu a reconhecer o segundo exato em que ficar parado significava morrer. Você recebe os seguintes benefícios:",
+				{
+					"type": "entries",
+					"name": "Aumento de Atributo",
+					"entries": [
+						"Aumente seu valor de Sabedoria, Constituição ou Destreza em 1, até o máximo de 20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Abrigo Instintivo",
+					"entries": [
+						"Quando uma criatura que você possa ver atingir você com um ataque, você pode usar sua {@variantrule Reaction|XPHB|Reação} antes de resolver o dano para ganhar {@variantrule Temporary Hit Points|XPHB|Pontos de Vida Temporários} iguais ao seu {@variantrule Proficiency|XPHB|bônus de proficiência} e mover-se até 5 pés sem provocar {@action Opportunity Attack|XPHB|Ataques de Oportunidade}. Você pode usar Abrigo Instintivo um número de vezes igual ao seu {@variantrule Proficiency|XPHB|bônus de proficiência}, recuperando todos os usos ao finalizar um {@variantrule Long Rest|XPHB|Descanso Longo}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Olhos Sempre Abertos",
+					"entries": [
+						"Você ganha proficiência em {@skill Perception|XPHB|Percepção} Se já possuir essa proficiência, você ganha Especialização nela."
+					]
+				}
+			]
+		},
+		{
+			"name": "Pressão de Campo",
+			"source": "MundoDeKyrFeats",
+			"page": 121,
+			"category": "G",
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"senhor das linhas|MundoDeKyrFeats"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"wis"
+						]
+					}
+				}
+			],
+			"entries": [
+				"Você domina o espaço ao seu redor com postura, leitura corporal e ameaça implícita, tornando cada passo adversário uma decisão arriscada. Você recebe os seguintes benefícios:",
+				{
+					"type": "entries",
+					"name": "Aumento de Atributo",
+					"entries": [
+						"Aumente seu valor de Força, Destreza ou Sabedoria em 1, até o máximo de 20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Zona de Atrito",
+					"entries": [
+						"Criaturas hostis a até 5 pés de você tratam esse espaço como {@variantrule Difficult Terrain|XPHB|terreno difícil} enquanto permanecerem nesse alcance."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Retirada Comprometida",
+					"entries": [
+						"Uma vez por turno, quando uma criatura sair voluntariamente do seu alcance corpo a corpo, escolha um dos efeitos: o deslocamento dela é reduzido em 10 pés até o fim do turno atual; ou ela não pode realizar {@action Opportunity Attack|XPHB|Ataques de Oportunidade} até o início do seu próximo turno."
+					]
+				}
+			]
+		},
+		{
+			"name": "Guarda Territorial",
+			"source": "MundoDeKyrFeats",
+			"page": 122,
+			"category": "G",
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"senhor das linhas|MundoDeKyrFeats"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"con",
+							"wis"
+						]
+					}
+				}
+			],
+			"entries": [
+				"Você aprendeu a transformar o inimigo mais próximo em responsabilidade sua. Ignorar você passa a ter custo real. Você recebe os seguintes benefícios:",
+				{
+					"type": "entries",
+					"name": "Aumento de Atributo",
+					"entries": [
+						"Aumente seu valor de Força, Constituição ou Sabedoria em 1, até o máximo de 20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Marca de Vigília",
+					"entries": [
+						"Uma vez por turno, quando você atingir uma criatura com um ataque corpo a corpo, você pode marcá-la até o início do seu próximo turno. Enquanto estiver marcada, se essa criatura atingir um alvo que não seja você com um ataque, ela sofre dano igual ao seu {@variantrule Proficiency|XPHB|bônus de proficiência}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Linha Fechada",
+					"entries": [
+						"Criaturas marcadas por você não podem se beneficiar da ação {@action Disengage|XPHB|Desengajar} para sair do seu alcance corpo a corpo."
+					]
+				}
+			]
+		},
+		{
+			"name": "Instinto de Ruptura",
+			"source": "MundoDeKyrFeats",
+			"page": 123,
+			"category": "G",
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"senhor das linhas|MundoDeKyrFeats"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"wis"
+						]
+					}
+				}
+			],
+			"entries": [
+				"Você aprendeu a reconhecer o instante em que uma agressão falha e deixa brechas reais, abrindo espaço para um golpe que atravessa defesas improvisadas e corta a capacidade de resposta do inimigo. Você recebe os seguintes benefícios:",
+				{
+					"type": "entries",
+					"name": "Aumento de Atributo",
+					"entries": [
+						"Aumente seu valor de Força, Destreza ou Sabedoria em 1, até o máximo de 20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Abertura Exposta",
+					"entries": [
+						"Uma vez por rodada, quando uma criatura hostil errar um ataque contra você, o próximo ataque que você fizer contra essa criatura antes do fim do seu próximo turno recebe um dos benefícios à sua escolha: sua margem de crítico contra ela aumenta em 1; ou, se o ataque atingir, você causa dano adicional igual ao seu {@variantrule Proficiency|XPHB|bônus de proficiência}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Resposta Cortada",
+					"entries": [
+						"Se você atingir uma criatura usando Abertura Exposta, ela não pode realizar {@action Opportunity Attack|XPHB|Ataques de Oportunidade} até o início do seu próximo turno."
+					]
+				}
+			]
+		},
+		{
+			"name": "Guardião da Chama Fria",
+			"source": "MundoDeKyrFeats",
+			"page": 124,
+			"category": "G",
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"tocado pela chama fria|MundoDeKyrFeats"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"int",
+							"wis",
+							"cha"
+						]
+					}
+				}
+			],
+			"additionalSpells": [
+				{
+					"prepared": {
+						"_": {
+							"daily": {
+								"1": [
+									{
+										"choose": {
+											"from": [
+												"cure wounds|xphb",
+												"armor of agathys|xphb"
+											]
+										}
+									}
+								]
+							}
+						}
+					}
+				}
+			],
+			"entries": [
+				"Você aprendeu a usar a Chama Fria como disciplina protetora: aquilo que fere também contém; aquilo que cura também endurece. Você recebe os seguintes benefícios:",
+				{
+					"type": "entries",
+					"name": "Aumento de Atributo",
+					"entries": [
+						"Aumente seu valor de Inteligência, Sabedoria ou Carisma em 1, até o máximo de 20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Conversão de Dano",
+					"entries": [
+						"Quando você causar dano de Fogo ou Radiante com uma magia ou característica, você pode substituir esse dano por dano de Frio."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Chama que ampara",
+					"entries": [
+						"Escolha uma das seguintes magias: Curar Ferimentos ou Armadura de Agathys. Você tem essa magia sempre preparada. Você pode conjurá-la uma vez sem gastar espaço de magia, recuperando esse uso ao finalizar um {@variantrule Long Rest|XPHB|Descanso Longo}. Você também pode conjurá-la normalmente usando quaisquer espaços de magia que possuir. Além disso, uma vez por turno, quando você restaurar {@variantrule Hit Points|XPHB|Pontos de Vida} de uma criatura com uma magia ou conjurar a magia escolhida por este talento, você ou uma criatura afetada recebe {@variantrule Temporary Hit Points|XPHB|Pontos de Vida Temporários} adicionais iguais ao seu {@variantrule Proficiency|XPHB|bônus de proficiência}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Brasa Invernal",
+			"source": "MundoDeKyrFeats",
+			"page": 125,
+			"category": "G",
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"tocado pela chama fria|MundoDeKyrFeats"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"con",
+							"int",
+							"cha"
+						]
+					}
+				}
+			],
+			"entries": [
+				"Você aprendeu que o frio também pode queimar. Sua energia já não apenas desacelera; ela castiga quem insiste em avançar. Você recebe os seguintes benefícios:",
+				{
+					"type": "entries",
+					"name": "Aumento de Atributo",
+					"entries": [
+						"Aumente seu valor de Constituição, Inteligência ou Carisma em 1, até o máximo de 20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Frio que Queima",
+					"entries": [
+						"Uma vez por turno, quando você causar dano de Frio a uma criatura, escolha um dos efeitos abaixo:",
+						{
+							"type": "list",
+							"style": "list-decimal",
+							"items": [
+								"reduzir o deslocamento da criatura em 10 pés até o início do seu próximo turno",
+								"se a criatura já tiver o deslocamento reduzido quando sofrer esse dano, ela sofre dano adicional de Frio igual ao seu {@variantrule Proficiency|XPHB|bônus de proficiência}."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Cinza Pálida",
+					"entries": [
+						"Se uma criatura sofrer dano adicional de Frio por Frio que Queima, ela não pode recuperar {@variantrule Temporary Hit Points|XPHB|Pontos de Vida Temporários} até o início do seu próximo turno."
+					]
+				}
+			]
+		},
+		{
+			"name": "Círculo da Geada Branca",
+			"source": "MundoDeKyrFeats",
+			"page": 126,
+			"category": "G",
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"tocado pela chama fria|MundoDeKyrFeats"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"int",
+							"wis",
+							"cha"
+						]
+					}
+				}
+			],
+			"entries": [
+				"Você aprendeu a desenhar limites com geada, transformando o chão em aviso e a quietude em ameaça. Você recebe os seguintes benefícios:",
+				{
+					"type": "entries",
+					"name": "Aumento de Atributo",
+					"entries": [
+						"Aumente seu valor de Sabedoria, Inteligência ou Carisma em 1, até o máximo de 20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Geada Delimitadora",
+					"entries": [
+						"Como {@variantrule Bonus Action|XPHB|Ação Bônus}, você pode escolher um ponto no chão que possa ver a até 30 pés de você. Uma área de 5 pés de raio centrada nesse ponto se torna {@variantrule Difficult Terrain|XPHB|terreno difícil} para criaturas hostis até o início do seu próximo turno. A primeira vez em cada turno que uma criatura hostil entrar voluntariamente nessa área ou começar o turno nela, o deslocamento dela é reduzido em 10 pés até o fim do turno atual. Você pode usar Geada Delimitadora um número de vezes igual ao seu {@variantrule Proficiency|XPHB|bônus de proficiência}, recuperando todos os usos ao finalizar um {@variantrule Long Rest|XPHB|Descanso Longo}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Fogo Apagado",
+					"entries": [
+						"Chamas não mágicas dentro da área criada por Geada Delimitadora são extintas imediatamente. Além disso, criaturas hostis na área não podem se beneficiar de efeitos de calor natural para ignorar frio extremo até o início do seu próximo turno."
+					]
+				}
+			]
+		},
+		{
+			"name": "Seiva do Alvorecer",
+			"source": "MundoDeKyrFeats",
+			"page": 127,
+			"category": "G",
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"tocado pela aurora|MundoDeKyrFeats"
+					]
+				},
+				{
+					"level": 4,
+					"feat": [
+						"nascido rizomante|MundoDeKyrFeats"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"con",
+							"wis",
+							"cha"
+						]
+					}
+				}
+			],
+			"entries": [
+				"Você aprendeu a fazer da cura um gesto de permanência. Quando sua magia restaura, ela restaura mais do que o necessário para apenas seguir lutando. Você recebe os seguintes benefícios:",
+				{
+					"type": "entries",
+					"name": "Aumento de Atributo",
+					"entries": [
+						"Aumente seu valor de Constituição, Sabedoria ou Carisma em 1, até o máximo de 20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Cura Profunda",
+					"entries": [
+						"Uma vez por turno, quando você rolar dados para restaurar {@variantrule Hit Points|XPHB|Pontos de Vida} com uma magia ou característica, você pode rerrolar um dos dados que tenha resultado 1 ou 2, devendo usar o novo resultado."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Seiva de Recuperação",
+					"entries": [
+						"Uma vez por turno, quando uma criatura recuperar {@variantrule Hit Points|XPHB|Pontos de Vida} por uma magia ou característica sua, escolha um dos efeitos abaixo se ela estiver com metade dos {@variantrule Hit Points|XPHB|Pontos de Vida} ou menos, {@condition Prone|XPHB|Caída}, ou se tiver sido reduzida a 0 {@variantrule Hit Points|XPHB|Pontos de Vida} desde o fim do último turno dela:",
+						{
+							"type": "list",
+							"style": "list-decimal",
+							"items": [
+								"ela recupera {@variantrule Hit Points|XPHB|Pontos de Vida} adicionais iguais ao seu {@variantrule Proficiency|XPHB|bônus de proficiência}",
+								"ela recebe +{@dice 1d4} no próximo teste de resistência contra ser {@condition Frightened|XPHB|Amedrontada}, {@condition Charmed|XPHB|Enfeitiçada}, Empurrada, Puxada, Derrubada ou movida contra a vontade antes do início do seu próximo turno."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Casca da Aurora Viva",
+			"source": "MundoDeKyrFeats",
+			"page": 128,
+			"category": "G",
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"tocado pela aurora|MundoDeKyrFeats"
+					]
+				},
+				{
+					"level": 4,
+					"feat": [
+						"nascido rizomante|MundoDeKyrFeats"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"con",
+							"wis",
+							"cha"
+						]
+					}
+				}
+			],
+			"additionalSpells": [
+				{
+					"known": {
+						"_": [
+							"conservação do rizoma|mundodekyrlivrodasmagiasdekyr#c"
+						]
+					}
+				}
+			],
+			"entries": [
+				"Você aprendeu a fazer dos {@variantrule Temporary Hit Points|XPHB|Pontos de Vida Temporários} uma camada real de sustentação, e não apenas um amortecimento passageiro. Você recebe os seguintes benefícios:",
+				{
+					"type": "entries",
+					"name": "Aumento de Atributo",
+					"entries": [
+						"Aumente seu valor de Constituição, Sabedoria ou Carisma em 1, até o máximo de 20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Escudo Vivo",
+					"entries": [
+						"Uma vez por turno, quando você conceder {@variantrule Temporary Hit Points|XPHB|Pontos de Vida Temporários} a uma criatura por uma magia ou característica sua, aumente essa quantidade em um valor igual ao seu {@variantrule Proficiency|XPHB|bônus de proficiência}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Casca de Permanência",
+					"entries": [
+						"Você aprende o truque Conservação do Rizoma. Além disso, quando uma criatura receber {@variantrule Temporary Hit Points|XPHB|Pontos de Vida Temporários} aumentados por Escudo Vivo, ela tem {@variantrule Advantage|XPHB|Vantagem} no próximo teste de resistência contra ser Empurrada, Puxada, Derrubada ou movida contra a vontade antes do início do seu próximo turno."
+					]
+				}
+			]
+		},
+		{
+			"name": "Interposição da Primeira Luz",
+			"source": "MundoDeKyrFeats",
+			"page": 129,
+			"category": "G",
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"senhor das linhas|MundoDeKyrFeats"
+					]
+				},
+				{
+					"level": 4,
+					"feat": [
+						"tocado pela aurora|MundoDeKyrFeats"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"con",
+							"wis",
+							"cha"
+						]
+					}
+				}
+			],
+			"entries": [
+				"Você aprendeu a chegar ao ponto crítico antes que a investida se complete. Sua proteção começa no deslocamento do inimigo, não no dano final. Você recebe os seguintes benefícios:",
+				{
+					"type": "entries",
+					"name": "Aumento de Atributo",
+					"entries": [
+						"Aumente seu valor de Força, Constituição, Sabedoria ou Carisma em 1, até o máximo de 20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Passo de Interposição",
+					"entries": [
+						"Quando uma criatura hostil entrar voluntariamente em um espaço a até 5 pés de uma criatura aliada sua que esteja a até 20 pés de você, você pode usar sua {@variantrule Reaction|XPHB|Reação} para mover-se até 10 pés para um espaço desocupado adjacente à criatura hostil ou ao aliado protegido. Esse movimento não provoca {@action Opportunity Attack|XPHB|Ataques de Oportunidade}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Avanço Negado",
+					"entries": [
+						"Se você terminar esse movimento adjacente à criatura hostil, escolha um dos efeitos abaixo:",
+						{
+							"type": "list",
+							"style": "list-decimal",
+							"items": [
+								"o deslocamento da criatura hostil é reduzido em 10 pés até o fim do turno atual",
+								"a primeira jogada de ataque que ela fizer contra a criatura aliada protegida antes do fim do turno atual sofre uma penalidade de {@dice 1d4}."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Guarda de Contramarcha",
+			"source": "MundoDeKyrFeats",
+			"page": 130,
+			"category": "G",
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"senhor das linhas|MundoDeKyrFeats"
+					]
+				},
+				{
+					"level": 4,
+					"feat": [
+						"tocado pela aurora|MundoDeKyrFeats"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"con",
+							"wis",
+							"cha"
+						]
+					}
+				}
+			],
+			"entries": [
+				"Você aprendeu a quebrar o impulso do agressor no instante em que ele acerta. Sua proteção não impede o contato inicial, mas impede que a investida continue como planejado. Você recebe os seguintes benefícios:",
+				{
+					"type": "entries",
+					"name": "Aumento de Atributo",
+					"entries": [
+						"Aumente seu valor de Força, Constituição, Sabedoria ou Carisma em 1, até o máximo de 20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Reação de Contramarcha",
+					"entries": [
+						"Quando uma criatura hostil a até 5 pés de você atingir uma criatura aliada a até 5 pés de você com um ataque, você pode usar sua {@variantrule Reaction|XPHB|Reação} para reduzir o dano desse ataque em uma quantidade igual ao seu {@variantrule Proficiency|XPHB|bônus de proficiência}. Depois disso, escolha um dos efeitos abaixo:",
+						{
+							"type": "list",
+							"style": "list-decimal",
+							"items": [
+								"mover a criatura aliada até 5 pés para um espaço desocupado adjacente a você. Esse movimento não provoca {@action Opportunity Attack|XPHB|Ataques de Oportunidade}",
+								"fazer com que a criatura hostil não possa mover-se para mais perto dessa criatura aliada até o fim do turno atual."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Ritmo Quebrado",
+					"entries": [
+						"Se a criatura hostil se mover voluntariamente depois de ser afetada por {@variantrule Reaction|XPHB|Reação} de Contramarcha e antes do fim do turno atual, o primeiro 5 pés desse deslocamento custa 10 pés de movimento."
+					]
+				}
+			]
+		},
+		{
+			"name": "Brasa Serena",
+			"source": "MundoDeKyrFeats",
+			"page": 131,
+			"category": "G",
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"tocado pela aurora|MundoDeKyrFeats"
+					]
+				},
+				{
+					"level": 4,
+					"feat": [
+						"tocado pela chama fria|MundoDeKyrFeats"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"con",
+							"wis",
+							"cha"
+						]
+					}
+				}
+			],
+			"entries": [
+				"Você aprendeu a usar sua proteção para resfriar o momento crítico. Sua intervenção não impede apenas o dano: ela impede que o caos se organize em seguida. Você recebe os seguintes benefícios:",
+				{
+					"type": "entries",
+					"name": "Aumento de Atributo",
+					"entries": [
+						"Aumente seu valor de Sabedoria, Carisma ou Constituição em 1, até o máximo de 20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Serenidade Imposta",
+					"entries": [
+						"Uma vez por turno, quando você reduzir dano sofrido por uma criatura aliada, restaurar {@variantrule Hit Points|XPHB|Pontos de Vida} dela ou conceder a ela {@variantrule Temporary Hit Points|XPHB|Pontos de Vida Temporários}, escolha uma criatura hostil a até 10 pés dessa aliada. Até o fim do turno atual, escolha um dos efeitos abaixo:",
+						{
+							"type": "list",
+							"style": "list-decimal",
+							"items": [
+								"a criatura hostil não pode realizar {@action Opportunity Attack|XPHB|Ataques de Oportunidade}",
+								"a próxima vez que essa criatura hostil causar dano antes do início do seu próximo turno, esse dano é reduzido em uma quantidade igual ao seu {@variantrule Proficiency|XPHB|bônus de proficiência}."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Composto Frio",
+					"entries": [
+						"A criatura aliada beneficiada por Serenidade Imposta recebe +{@dice 1d4} no próximo teste de resistência que realizar contra {@condition Frightened|XPHB|Amedrontado}, Enfeitiçado ou contra um efeito que a force a se mover ou agir contra a vontade antes do início do seu próximo turno."
+					]
+				}
+			]
+		},
+		{
+			"name": "Luz sem Turbulência",
+			"source": "MundoDeKyrFeats",
+			"page": 132,
+			"category": "G",
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"tocado pela aurora|MundoDeKyrFeats"
+					]
+				},
+				{
+					"level": 4,
+					"feat": [
+						"tocado pela chama fria|MundoDeKyrFeats"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"int",
+							"wis",
+							"cha"
+						]
+					}
+				}
+			],
+			"entries": [
+				"Você aprendeu a criar breves instantes de clareza perfeita. Sob sua influência, o aliado protegido age como se o resto do combate atrasasse por um segundo. Você recebe os seguintes benefícios:",
+				{
+					"type": "entries",
+					"name": "Aumento de Atributo",
+					"entries": [
+						"Aumente seu valor de Sabedoria, Carisma ou Inteligência em 1, até o máximo de 20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Janela Clara",
+					"entries": [
+						"Uma vez por turno, quando uma criatura aliada recuperar {@variantrule Hit Points|XPHB|Pontos de Vida} por uma magia ou característica sua, receber {@variantrule Temporary Hit Points|XPHB|Pontos de Vida Temporários} seus, ou quando você usar uma {@variantrule Reaction|XPHB|Reação} para protegê-la, escolha um dos efeitos abaixo para essa criatura até o início do seu próximo turno:",
+						{
+							"type": "list",
+							"style": "list-decimal",
+							"items": [
+								"a primeira vez que ela se mover, esse deslocamento não provoca {@action Opportunity Attack|XPHB|Ataques de Oportunidade}",
+								"a primeira vez que ela realizar a ação {@action Disengage|XPHB|Desengajar}, Correr ou Esconder-se, ela recebe {@variantrule Temporary Hit Points|XPHB|Pontos de Vida Temporários} iguais ao seu {@variantrule Proficiency|XPHB|bônus de proficiência}."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Pulso de Quietude",
+					"entries": [
+						"Quando uma criatura se beneficiar de Janela Clara, ela também ignora o primeiro 5 pés de {@variantrule Difficult Terrain|XPHB|terreno difícil} não mágico que atravessar antes do início do seu próximo turno."
+					]
+				}
+			]
+		},
+		{
+			"name": "Geada de Interdição",
+			"source": "MundoDeKyrFeats",
+			"page": 133,
+			"category": "G",
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"senhor das linhas|MundoDeKyrFeats"
+					]
+				},
+				{
+					"level": 4,
+					"feat": [
+						"tocado pela chama fria|MundoDeKyrFeats"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"con",
+							"wis",
+							"cha"
+						]
+					}
+				}
+			],
+			"entries": [
+				"Você transforma frio em fronteira.",
+				{
+					"type": "entries",
+					"name": "Aumento de Atributo",
+					"entries": [
+						"Aumente seu valor de Força, Constituição, Sabedoria ou Carisma em 1, até o máximo de 20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Fronteira Gélida",
+					"entries": [
+						"Uma vez por turno, quando você causar dano de Frio a uma criatura ou quando uma criatura hostil a até 5 pés de você se mover voluntariamente, escolha um dos efeitos abaixo:",
+						{
+							"type": "list",
+							"style": "list-decimal",
+							"items": [
+								"o deslocamento dessa criatura é reduzido em 10 pés até o fim do turno atual",
+								"o próximo 5 pés de deslocamento voluntário que essa criatura realizar antes do início do seu próximo turno custa 10 pés de movimento."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Passo Tributado",
+					"entries": [
+						"Se uma criatura afetada por Fronteira Gélida tentar se beneficiar da ação {@action Disengage|XPHB|Desengajar} para sair do seu alcance antes do fim do turno atual, ela deve escolher entre manter o benefício de Desengajar ou sofrer uma penalidade de {@dice 1d4} na próxima jogada de ataque que realizar antes do início do seu próximo turno."
+					]
+				}
+			]
+		},
+		{
+			"name": "Corte da Brasa Pálida",
+			"source": "MundoDeKyrFeats",
+			"page": 134,
+			"category": "G",
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"senhor das linhas|MundoDeKyrFeats"
+					]
+				},
+				{
+					"level": 4,
+					"feat": [
+						"tocado pela chama fria|MundoDeKyrFeats"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"con",
+							"wis",
+							"cha"
+						]
+					}
+				}
+			],
+			"entries": [
+				"Você aprendeu a usar o frio para quebrar linha de avanço.",
+				{
+					"type": "entries",
+					"name": "Aumento de Atributo",
+					"entries": [
+						"Aumente seu valor de Força, Constituição, Sabedoria ou Carisma em 1, até o máximo de 20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Corte de Eixo",
+					"entries": [
+						"Uma vez por rodada, quando uma criatura hostil entrar voluntariamente no seu alcance corpo a corpo, você pode marcar essa criatura até o fim do turno atual. A primeira vez que você atingir a criatura marcada com um ataque corpo a corpo antes do fim desse turno, escolha um dos efeitos abaixo:",
+						{
+							"type": "list",
+							"style": "list-decimal",
+							"items": [
+								"ela não pode realizar {@action Opportunity Attack|XPHB|Ataques de Oportunidade} até o início do seu próximo turno",
+								"o deslocamento dela é reduzido em 10 pés até o fim do turno atual."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Frio no Impulso",
+					"entries": [
+						"Se a criatura marcada por Corte de Eixo já estiver com o deslocamento reduzido quando você a atingir, ela sofre dano de Frio adicional igual ao seu {@variantrule Proficiency|XPHB|bônus de proficiência}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Inverno do Sobrevivente",
+			"source": "MundoDeKyrFeats",
+			"page": 135,
+			"category": "G",
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"forjado pelo mundo hostil|MundoDeKyrFeats"
+					]
+				},
+				{
+					"level": 4,
+					"feat": [
+						"tocado pela chama fria|MundoDeKyrFeats"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"con",
+							"wis",
+							"cha"
+						]
+					}
+				}
+			],
+			"entries": [
+				"Você trata o frio como linguagem de adaptação.",
+				{
+					"type": "entries",
+					"name": "Aumento de Atributo",
+					"entries": [
+						"Aumente seu valor de Constituição, Sabedoria ou Carisma em 1, até o máximo de 20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Passo na Geada",
+					"entries": [
+						"Terreno difícil não mágico causado por neve, gelo, lama congelada, pedra escorregadia ou ventos cortantes não custa movimento adicional para você."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Frio de Continuidade",
+					"entries": [
+						"Uma vez por turno, quando você causar dano de Frio a uma criatura ou quando você ou um aliado a até 10 pés de você receber {@variantrule Temporary Hit Points|XPHB|Pontos de Vida Temporários} de uma característica ou magia sua, escolha um dos efeitos abaixo:",
+						{
+							"type": "list",
+							"style": "list-decimal",
+							"items": [
+								"uma criatura hostil afetada tem o deslocamento reduzido em 10 pés até o início do seu próximo turno",
+								"a criatura beneficiada ignora {@variantrule Difficult Terrain|XPHB|terreno difícil} não mágico até o início do seu próximo turno."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Casca da Geada Andante",
+			"source": "MundoDeKyrFeats",
+			"page": 136,
+			"category": "G",
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"forjado pelo mundo hostil|MundoDeKyrFeats"
+					]
+				},
+				{
+					"level": 4,
+					"feat": [
+						"tocado pela chama fria|MundoDeKyrFeats"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"con",
+							"wis",
+							"cha"
+						]
+					}
+				}
+			],
+			"entries": [
+				"Você usa frio como estrutura portátil.",
+				{
+					"type": "entries",
+					"name": "Aumento de Atributo",
+					"entries": [
+						"Aumente seu valor de Constituição, Sabedoria ou Carisma em 1, até o máximo de 20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Couraça do Frio Habitável",
+					"entries": [
+						"Uma vez por turno, quando você receber ou conceder {@variantrule Temporary Hit Points|XPHB|Pontos de Vida Temporários} por uma característica ou magia sua, escolha um dos efeitos abaixo para a criatura beneficiada:",
+						{
+							"type": "list",
+							"style": "list-decimal",
+							"items": [
+								"ela recebe bônus igual ao seu {@variantrule Proficiency|XPHB|bônus de proficiência} no próximo teste contra {@condition Exhaustion|XPHB|Exaustão}, frio extremo, sufocamento, veneno ambiental ou fadiga causada por viagem antes do início do seu próximo turno",
+								"ela reduz em 10 pés o primeiro deslocamento forçado que sofreria antes do início do seu próximo turno."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Pele do Ermo Branco",
+					"entries": [
+						"Enquanto você possuir {@variantrule Temporary Hit Points|XPHB|Pontos de Vida Temporários} concedidos por você mesmo, você tem {@variantrule Advantage|XPHB|Vantagem} em testes de habilidade feitos para resistir aos efeitos de frio natural, ventos fortes, neve profunda ou travessia em terreno congelado."
+					]
+				}
+			]
+		},
+		{
+			"name": "Suserano da Linha de Guerra",
+			"source": "MundoDeKyrFeats",
+			"page": 137,
+			"category": "G",
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"senhor das linhas|MundoDeKyrFeats"
+					]
+				},
+				{
+					"level": 4,
+					"feat": [
+						"herdeiro do dragão|MundoDeKyrFeats"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"con",
+							"wis",
+							"cha"
+						]
+					}
+				}
+			],
+			"entries": [
+				"Você trata o campo de batalha como território de soberania. Quando alguém atravessa sua presença, não está apenas se movendo: está desafiando uma fronteira.",
+				{
+					"type": "entries",
+					"name": "Aumento de Atributo",
+					"entries": [
+						"Aumente seu valor de Força, Constituição, Sabedoria ou Carisma em 1, até o máximo de 20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Passo de Suserania",
+					"entries": [
+						"Uma vez por rodada, quando uma criatura hostil a até 5 pés de você se mover voluntariamente, você pode usar sua {@variantrule Reaction|XPHB|Reação} para mover-se até 5 pés para um espaço desocupado adjacente a ela, sem provocar {@action Opportunity Attack|XPHB|Ataques de Oportunidade}. Até o fim do turno atual, essa criatura sofre uma penalidade de {@dice 1d4} na primeira jogada de ataque que fizer contra um alvo que não seja você."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tributo da Linha",
+					"entries": [
+						"Se a criatura afetada por Passo de Suserania atingir um alvo que não seja você antes do fim do turno atual, ela sofre dano do tipo associado à sua Ancestralidade Dracônica igual ao seu {@variantrule Proficiency|XPHB|bônus de proficiência}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Selo de Interdição Sombria",
+			"source": "MundoDeKyrFeats",
+			"page": 138,
+			"category": "G",
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"nascido umbromante|MundoDeKyrFeats"
+					]
+				},
+				{
+					"level": 4,
+					"feat": [
+						"senhor das linhas|MundoDeKyrFeats"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"dex",
+							"int",
+							"wis",
+							"cha"
+						]
+					}
+				}
+			],
+			"entries": [
+				"Você trata ausência como obstáculo",
+				{
+					"type": "entries",
+					"name": "Sua sombra não bloqueia o caminho; ela torna a retirada imprecisa",
+					"entries": [
+						""
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Aumento de Atributo",
+					"entries": [
+						"Aumente seu valor de Destreza, Inteligência, Sabedoria ou Carisma em 1, até o máximo de 20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Passo Interdito",
+					"entries": [
+						"Uma vez por turno, quando uma criatura hostil a até 5 pés de você se mover voluntariamente, ou quando uma criatura falhar em um teste de resistência contra uma magia ou truque seu de Umbramancia, ela fica Interdita por você até o início do seu próximo turno. Enquanto estiver Interdita, a criatura não pode se beneficiar de {@variantrule Cover|XPHB|Meia Cobertura} nem da condição {@condition Invisible|XPHB|Invisível} contra você."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Retirada Negada",
+					"entries": [
+						"A primeira vez que uma criatura Interdita tentar se afastar do seu alcance corpo a corpo, você pode realizar um {@action Opportunity Attack|XPHB|Ataque de Oportunidade} contra ela mesmo que ela tenha usado a ação {@action Disengage|XPHB|Desengajar}. Após esse ataque, o efeito Interdita termina."
+					]
+				}
+			]
+		},
+		{
+			"name": "Marca da Linha Morta",
+			"source": "MundoDeKyrFeats",
+			"page": 139,
+			"category": "G",
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"nascido umbromante|MundoDeKyrFeats"
+					]
+				},
+				{
+					"level": 4,
+					"feat": [
+						"senhor das linhas|MundoDeKyrFeats"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"dex",
+							"int",
+							"wis",
+							"cha"
+						]
+					}
+				}
+			],
+			"entries": [
+				"Você aprendeu a desenhar linhas onde o avanço perde segurança.",
+				{
+					"type": "entries",
+					"name": "Aumento de Atributo",
+					"entries": [
+						"Aumente seu valor de Destreza, Inteligência, Sabedoria ou Carisma em 1, até o máximo de 20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Linha Morta",
+					"entries": [
+						"Como {@variantrule Bonus Action|XPHB|Ação Bônus}, escolha um espaço de 5 pés que você possa ver a até 30 pés. Até o início do seu próximo turno, a primeira criatura hostil que entrar voluntariamente nesse espaço tem seu deslocamento encerrado imediatamente e não pode realizar Reações até o fim do turno atual. Você pode usar Linha Morta um número de vezes igual ao seu {@variantrule Proficiency|XPHB|bônus de proficiência}, recuperando todos os usos ao finalizar um {@variantrule Long Rest|XPHB|Descanso Longo}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Rastro da Ausência",
+					"entries": [
+						"Uma criatura afetada por Linha Morta não pode se beneficiar da condição {@condition Invisible|XPHB|Invisível} contra você até o início do seu próximo turno."
+					]
+				}
+			]
+		},
+		{
+			"name": "Marcha do Sobrevivente",
+			"source": "MundoDeKyrFeats",
+			"page": 140,
+			"category": "G",
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"forjado pelo mundo hostil|MundoDeKyrFeats"
+					]
+				},
+				{
+					"level": 4,
+					"feat": [
+						"senhor das linhas|MundoDeKyrFeats"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"wis"
+						]
+					}
+				}
+			],
+			"entries": [
+				"Você luta em terreno ruim como se ele fosse sua língua nativa. Onde outros tropeçam, você encontra ângulo.",
+				{
+					"type": "entries",
+					"name": "Aumento de Atributo",
+					"entries": [
+						"Aumente seu valor de Força, Destreza ou Sabedoria em 1, até o máximo de 20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Passo de Guerra Rústica",
+					"entries": [
+						"Terreno difícil não mágico não custa movimento adicional para você enquanto você estiver a até 5 pés de uma criatura hostil."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Solo Inseguro",
+					"entries": [
+						"Uma vez por turno, quando uma criatura hostil a até 5 pés de você se mover voluntariamente, o próximo 5 pés de deslocamento que ela percorrer até o fim do turno atual custa 10 pés de movimento."
+					]
+				}
+			]
+		},
+		{
+			"name": "Postura de Gargalo Rústico",
+			"source": "MundoDeKyrFeats",
+			"page": 141,
+			"category": "G",
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"forjado pelo mundo hostil|MundoDeKyrFeats"
+					]
+				},
+				{
+					"level": 4,
+					"feat": [
+						"senhor das linhas|MundoDeKyrFeats"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"wis"
+						]
+					}
+				}
+			],
+			"entries": [
+				"Você aprendeu a lutar melhor onde o espaço é ruim.",
+				{
+					"type": "entries",
+					"name": "Aumento de Atributo",
+					"entries": [
+						"Aumente seu valor de Força, Destreza ou Sabedoria em 1, até o máximo de 20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Gargalo Improvisado",
+					"entries": [
+						"Uma vez por turno, quando você atingir com um ataque corpo a corpo uma criatura que esteja em {@variantrule Difficult Terrain|XPHB|terreno difícil} não mágico, espaço estreito, ruína, escombro ou desnível visível, você causa dano adicional igual ao seu {@variantrule Proficiency|XPHB|bônus de proficiência}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Corpo no Caminho",
+					"entries": [
+						"Enquanto você estiver em {@variantrule Difficult Terrain|XPHB|terreno difícil} não mágico, espaço estreito, ruína, escombro ou desnível visível, criaturas hostis não podem atravessar o seu espaço, mesmo que um efeito normalmente permitisse atravessar o espaço de outra criatura."
+					]
+				}
+			]
+		},
+		{
+			"name": "Leitor do Mundo Ferido",
+			"source": "MundoDeKyrFeats",
+			"page": 142,
+			"category": "G",
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"forjado pelo mundo hostil|MundoDeKyrFeats"
+					]
+				},
+				{
+					"level": 4,
+					"feat": [
+						"nascido ecomante|MundoDeKyrFeats"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"con",
+							"int",
+							"wis"
+						]
+					}
+				}
+			],
+			"entries": [
+				"Você lê o ambiente como quem lê uma cicatriz. O mundo hostil deixa sinais antes de ferir.",
+				{
+					"type": "entries",
+					"name": "Aumento de Atributo",
+					"entries": [
+						"Aumente seu valor de Inteligência, Sabedoria ou Constituição em 1, até o máximo de 20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Presságio das Cicatrizes",
+					"entries": [
+						"Você tem {@variantrule Advantage|XPHB|Vantagem} em testes de {@skill Survival|XPHB|Sobrevivência}, {@skill Perception|XPHB|Percepção} e {@skill Investigation|XPHB|Investigação} feitos para detectar trilhas falsas, instabilidade do terreno, armadilhas naturais, ruínas prestes a ceder, vestígios de magia residual e áreas tocadas por Fragmentos ou pelo Véu."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Aviso Antes da Queda",
+					"entries": [
+						"Uma vez por {@variantrule Short Rest|XPHB|Descanso Curto}, quando você ou uma criatura aliada a até 30 pés falhar em um teste de resistência contra perigo ambiental, armadilha natural, ruína instável ou distorção mágica que você tenha percebido previamente, você pode usar sua {@variantrule Reaction|XPHB|Reação} para permitir que a criatura adicione {@dice 1d4} ao resultado, possivelmente transformando a falha em sucesso."
+					]
+				}
+			]
+		},
+		{
+			"name": "Rota das Cicatrizes",
+			"source": "MundoDeKyrFeats",
+			"page": 143,
+			"category": "G",
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"forjado pelo mundo hostil|MundoDeKyrFeats"
+					]
+				},
+				{
+					"level": 4,
+					"feat": [
+						"nascido ecomante|MundoDeKyrFeats"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"con",
+							"int",
+							"wis"
+						]
+					}
+				}
+			],
+			"toolProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"cartographer's tools",
+							"navigator's tools"
+						]
+					}
+				}
+			],
+			"entries": [
+				"Você aprendeu a extrair rota útil de ambiente ruim. Mesmo a destruição deixa orientação.",
+				{
+					"type": "entries",
+					"name": "Aumento de Atributo",
+					"entries": [
+						"Aumente seu valor de Inteligência, Sabedoria ou Constituição em 1, até o máximo de 20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Cartografia de Ruína",
+					"entries": [
+						"Você ganha proficiência com Ferramentas de Cartógrafo ou Ferramentas de Navegador. Se já possuir proficiência com uma delas, escolha uma para ganhar Especialização."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Rota Segura",
+					"entries": [
+						"Quando obtiver sucesso em um teste de {@skill Survival|XPHB|Sobrevivência}, {@skill Perception|XPHB|Percepção}, {@skill Investigation|XPHB|Investigação} ou em um teste com Ferramentas de Cartógrafo ou Navegador ligado a terreno, ruína, clima extremo, magia residual ou perigo ambiental, você identifica a melhor linha de travessia imediata."
+					]
+				}
+			]
+		},
+		{
+			"name": "Vigília do Último Abrigo",
+			"source": "MundoDeKyrFeats",
+			"page": 144,
+			"category": "G",
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"forjado pelo mundo hostil|MundoDeKyrFeats"
+					]
+				},
+				{
+					"level": 4,
+					"feat": [
+						"tocado pela aurora|MundoDeKyrFeats"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"con",
+							"wis",
+							"cha"
+						]
+					}
+				}
+			],
+			"entries": [
+				"Você aprendeu a ser o abrigo funcional que o mundo raramente oferece. Sua proteção cria um intervalo onde ainda é possível respirar.",
+				{
+					"type": "entries",
+					"name": "Aumento de Atributo",
+					"entries": [
+						"Aumente seu valor de Constituição, Sabedoria ou Carisma em 1, até o máximo de 20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Abrigo Instintivo",
+					"entries": [
+						"Uma vez por turno, quando você reduzir dano sofrido por uma criatura aliada, restaurar {@variantrule Hit Points|XPHB|Pontos de Vida} dela ou conceder a ela {@variantrule Temporary Hit Points|XPHB|Pontos de Vida Temporários}, essa criatura pode mover-se até 5 pés sem provocar {@action Opportunity Attack|XPHB|Ataques de Oportunidade}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Luz de Resistência",
+					"entries": [
+						"A criatura beneficiada por Abrigo Instintivo recebe +{@dice 1d4} no próximo teste de resistência contra {@condition Exhaustion|XPHB|Exaustão}, perigo ambiental ou {@condition Frightened|XPHB|Amedrontado} antes do início do seu próximo turno."
+					]
+				}
+			]
+		},
+		{
+			"name": "Farol de Marcha",
+			"source": "MundoDeKyrFeats",
+			"page": 145,
+			"category": "G",
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"forjado pelo mundo hostil|MundoDeKyrFeats"
+					]
+				},
+				{
+					"level": 4,
+					"feat": [
+						"tocado pela aurora|MundoDeKyrFeats"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"con",
+							"wis",
+							"cha"
+						]
+					}
+				}
+			],
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"survival",
+							"religion"
+						]
+					}
+				}
+			],
+			"expertise": [
+				{
+					"choose": {
+						"from": [
+							"survival",
+							"religion"
+						]
+					}
+				}
+			],
+			"entries": [
+				"Você aprendeu a proteger a travessia. Sua presença não ergue muralhas; ela mantém o grupo andando.",
+				{
+					"type": "entries",
+					"name": "Aumento de Atributo",
+					"entries": [
+						"Aumente seu valor de Constituição, Sabedoria ou Carisma em 1, até o máximo de 20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Guia de Travessia",
+					"entries": [
+						"Você ganha proficiência em {@skill Survival|XPHB|Sobrevivência} ou {@skill Religion|XPHB|Religião}. Se já possuir a proficiência escolhida, você ganha Especialização nela."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Ritmo Guiado",
+					"entries": [
+						"Durante viagens, quando você ou uma criatura aliada a até 30 pés realizar um teste para evitar se perder, resistir a clima hostil ou manter ritmo de marcha, você pode adicionar {@dice 1d4} ao resultado. Você pode usar Ritmo Guiado um número de vezes igual ao seu {@variantrule Proficiency|XPHB|bônus de proficiência}, recuperando todos os usos ao finalizar um {@variantrule Long Rest|XPHB|Descanso Longo}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Tirania Escamada do Vazio",
+			"source": "MundoDeKyrFeats",
+			"page": 146,
+			"category": "G",
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"nascido umbromante|MundoDeKyrFeats"
+					]
+				},
+				{
+					"level": 4,
+					"feat": [
+						"herdeiro do dragão|MundoDeKyrFeats"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"con",
+							"int",
+							"wis",
+							"cha"
+						]
+					}
+				}
+			],
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"arcana",
+							"intimidation"
+						]
+					}
+				}
+			],
+			"expertise": [
+				{
+					"choose": {
+						"from": [
+							"arcana",
+							"intimidation"
+						]
+					}
+				}
+			],
+			"entries": [
+				"Você aprendeu a unir soberania e ausência.",
+				{
+					"type": "entries",
+					"name": "Aumento de Atributo",
+					"entries": [
+						"Aumente seu valor de Constituição, Inteligência, Sabedoria ou Carisma em 1, até o máximo de 20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Autoridade da Ruína",
+					"entries": [
+						"Você ganha proficiência em {@skill Intimidation|XPHB|Intimidação} ou {@skill Arcana|XPHB|Arcanismo}. Se já possuir a proficiência escolhida, você ganha Especialização nela."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Presença de Ruína",
+					"entries": [
+						"Uma vez por turno, quando uma criatura falhar em um teste de resistência contra uma magia ou truque seu de Umbramancia, ou quando você causar dano do tipo associado à sua Ancestralidade Dracônica, ela fica marcada pela sua Presença de Ruína até o início do seu próximo turno. Enquanto marcada, ela não pode se beneficiar da condição {@condition Invisible|XPHB|Invisível} contra você e subtrai {@dice 1d4} do próximo teste que realizar para manter {@status Concentration|XPHB|Concentração}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Mandato do Eclipse Escamado",
+			"source": "MundoDeKyrFeats",
+			"page": 147,
+			"category": "G",
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"nascido umbromante|MundoDeKyrFeats"
+					]
+				},
+				{
+					"level": 4,
+					"feat": [
+						"herdeiro do dragão|MundoDeKyrFeats"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"con",
+							"int",
+							"wis",
+							"cha"
+						]
+					}
+				}
+			],
+			"entries": [
+				"Você aprendeu a proteger seu espaço por tirania direta.",
+				{
+					"type": "entries",
+					"name": "Aumento de Atributo",
+					"entries": [
+						"Aumente seu valor de Constituição, Inteligência, Sabedoria ou Carisma em 1, até o máximo de 20. Escolha Forçada Uma vez por turno, quando uma criatura estiver {@condition Frightened|XPHB|Amedrontada} por você ou falhar em um teste de resistência contra uma magia sua de Umbramancia, ela fica sob seu Mandato até o início do seu próximo turno. A primeira vez que essa criatura recuperar {@variantrule Hit Points|XPHB|Pontos de Vida} antes do fim do Mandato, a recuperação é reduzida em uma quantidade igual ao seu {@variantrule Proficiency|XPHB|bônus de proficiência}. Além disso, a primeira vez que ela conjurar uma magia antes do fim do Mandato, ela sofre {@dice 2d4} de dano Necrótico."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Olhar de Domínio",
+					"entries": [
+						"Enquanto estiver sob seu Mandato, a criatura sofre uma penalidade de {@dice 1d4} no primeiro ataque que fizer contra um alvo que não seja você."
+					]
+				}
+			]
+		},
+		{
+			"name": "Voz do Eco Ancestral",
+			"source": "MundoDeKyrFeats",
+			"page": 148,
+			"category": "G",
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"nascido ecomante|MundoDeKyrFeats"
+					]
+				},
+				{
+					"level": 4,
+					"feat": [
+						"herdeiro do dragão|MundoDeKyrFeats"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"int",
+							"wis",
+							"cha"
+						]
+					}
+				}
+			],
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"arcana",
+							"insight",
+							"history"
+						]
+					}
+				}
+			],
+			"expertise": [
+				{
+					"choose": {
+						"from": [
+							"arcana",
+							"insight",
+							"history"
+						]
+					}
+				}
+			],
+			"entries": [
+				"Você aprendeu a ouvir na magia e na voz a memória de presenças antigas.",
+				{
+					"type": "entries",
+					"name": "Aumento de Atributo",
+					"entries": [
+						"Aumente seu valor de Inteligência, Sabedoria ou Carisma em 1, até o máximo de 20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Vozes da Linhagem",
+					"entries": [
+						"Você ganha proficiência em {@skill History|XPHB|História}, {@skill Arcana|XPHB|Arcanismo} ou {@skill Insight|XPHB|Intuição}. Se já possuir a proficiência escolhida, você ganha Especialização nela."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Eco de Linhagem",
+					"entries": [
+						"Uma vez por turno, quando uma criatura falhar em um teste de resistência contra uma magia ou truque seu de Ecomancia, ou quando você causar dano do tipo associado à sua Ancestralidade Dracônica, você pode ignorar a resistência de uma das criaturas afetadas."
+					]
+				}
+			]
+		},
+		{
+			"name": "Escama Memorável",
+			"source": "MundoDeKyrFeats",
+			"page": 149,
+			"category": "G",
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"nascido ecomante|MundoDeKyrFeats"
+					]
+				},
+				{
+					"level": 4,
+					"feat": [
+						"herdeiro do dragão|MundoDeKyrFeats"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"int",
+							"wis",
+							"cha"
+						]
+					}
+				}
+			],
+			"entries": [
+				"Você aprendeu a deixar um alvo “legível”.",
+				{
+					"type": "entries",
+					"name": "Aumento de Atributo",
+					"entries": [
+						"Aumente seu valor de Inteligência, Sabedoria ou Carisma em 1, até o máximo de 20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Leitura Marcada",
+					"entries": [
+						"Uma vez por turno, quando uma criatura sofrer dano do tipo associado à sua Ancestralidade Dracônica ou falhar em um teste de resistência contra uma magia ou truque seu de Ecomancia, você marca a criatura até o início do seu próximo turno. A primeira jogada de ataque feita por uma criatura aliada contra o alvo marcado recebe +{@dice 1d6}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Memória da Escama",
+					"entries": [
+						"Se o ataque beneficiado por Leitura Marcada atingir, o atacante descobre uma característica observável ou tática relevante da criatura, a critério do Mestre, como uma resistência aparente, uma vulnerabilidade, uma defesa, um padrão de movimento ou uma reação instintiva."
+					]
+				}
+			]
+		},
+		{
+			"name": "Eco do Apagamento",
+			"source": "MundoDeKyrFeats",
+			"page": 150,
+			"category": "G",
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"nascido umbromante|MundoDeKyrFeats"
+					]
+				},
+				{
+					"level": 4,
+					"feat": [
+						"nascido ecomante|MundoDeKyrFeats"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"int",
+							"wis",
+							"cha"
+						]
+					}
+				}
+			],
+			"entries": [
+				"Você aprendeu que toda ausência deixa rastro.",
+				{
+					"type": "entries",
+					"name": "Aumento de Atributo",
+					"entries": [
+						"Aumente seu valor de Inteligência, Sabedoria ou Carisma em 1, até o máximo de 20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Marca Ecoante Vazia",
+					"entries": [
+						"Uma vez por turno, quando uma criatura falhar em um teste de resistência contra uma magia ou truque seu de Ecomancia ou Umbramancia, você pode marcá-la até o início do seu próximo turno. A primeira vez, antes disso, que ela se mover voluntariamente 5 pés ou mais ou realizar uma {@variantrule Reaction|XPHB|Reação}, ela sofre dano Psíquico ou Necrótico, à sua escolha, igual ao seu {@variantrule Proficiency|XPHB|bônus de proficiência}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Presença Negada",
+					"entries": [
+						"Enquanto estiver marcada por Marca Ecoante Vazia, a criatura não pode se beneficiar da condição {@condition Invisible|XPHB|Invisível} contra você."
+					]
+				}
+			]
+		},
+		{
+			"name": "Registro Inquieto",
+			"source": "MundoDeKyrFeats",
+			"page": 151,
+			"category": "G",
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"nascido umbromante|MundoDeKyrFeats"
+					]
+				},
+				{
+					"level": 4,
+					"feat": [
+						"nascido ecomante|MundoDeKyrFeats"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"int",
+							"wis",
+							"cha"
+						]
+					}
+				}
+			],
+			"entries": [
+				"Você aprendeu a fazer da falha um registro perigoso.",
+				{
+					"type": "entries",
+					"name": "Aumento de Atributo",
+					"entries": [
+						"Aumente seu valor de Inteligência, Sabedoria ou Carisma em 1, até o máximo de 20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Registro da Falha",
+					"entries": [
+						"Uma vez por turno, quando uma criatura falhar em um teste de resistência contra uma magia ou truque seu de Ecomancia ou Umbramancia, você pode registrá-la até o início do seu próximo turno. A próxima vez que a criatura registrada for bem-sucedida em uma jogada de ataque, teste de habilidade ou teste de resistência antes do fim do registro, você pode forçá-la a rolar novamente o {@dice d20} e usar o novo resultado. Você pode usar Registro da Falha um número de vezes igual ao seu {@variantrule Proficiency|XPHB|bônus de proficiência}, recuperando todos os usos ao finalizar um {@variantrule Long Rest|XPHB|Descanso Longo}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Erro Persistente",
+					"entries": [
+						"Quando uma criatura errar dois ataques seguidos contra você, a próxima rolagem será com desvantagem."
+					]
+				}
+			]
+		},
+		{
+			"name": "Escama de Seiva",
+			"source": "MundoDeKyrFeats",
+			"page": 152,
+			"category": "G",
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"herdeiro do dragão|MundoDeKyrFeats"
+					]
+				},
+				{
+					"level": 4,
+					"feat": [
+						"nascido rizomante|MundoDeKyrFeats"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"con",
+							"wis",
+							"cha"
+						]
+					}
+				}
+			],
+			"skillProficiencies": [
+				{
+					"insight": true
+				}
+			],
+			"expertise": [
+				{
+					"insight": true
+				}
+			],
+			"entries": [
+				"Você aprendeu a converter ancestralidade em fortificação.",
+				{
+					"type": "entries",
+					"name": "Aumento de Atributo",
+					"entries": [
+						"Aumente seu valor de Constituição, Sabedoria ou Carisma em 1, até o máximo de 20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Escama Enraizada",
+					"entries": [
+						"Uma vez por turno, quando você causar dano do tipo associado à sua Ancestralidade Dracônica ou conceder {@variantrule Temporary Hit Points|XPHB|Pontos de Vida Temporários} a uma criatura com uma magia ou característica sua, escolha você ou a criatura afetada. Até o início do seu próximo turno, a criatura escolhida subtrai {@dice 1d4} da próxima jogada de ataque feita contra ela."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Instinto de Casca",
+					"entries": [
+						"Você ganha proficiência em {@skill Insight|XPHB|Intuição}"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Caso já possua, ganha Especialização",
+					"entries": [
+						""
+					]
+				}
+			]
+		},
+		{
+			"name": "Couraça do Ancestral Vivo",
+			"source": "MundoDeKyrFeats",
+			"page": 153,
+			"category": "G",
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"herdeiro do dragão|MundoDeKyrFeats"
+					]
+				},
+				{
+					"level": 4,
+					"feat": [
+						"nascido rizomante|MundoDeKyrFeats"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"con",
+							"wis",
+							"cha"
+						]
+					}
+				}
+			],
+			"entries": [
+				"Você aprendeu a revestir aliados com fortificação vital.",
+				{
+					"type": "entries",
+					"name": "Aumento de Atributo",
+					"entries": [
+						"Aumente seu valor de Constituição, Sabedoria ou Carisma em 1, até o máximo de 20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Couraça Viva",
+					"entries": [
+						"Uma vez por turno, quando uma criatura receber {@variantrule Temporary Hit Points|XPHB|Pontos de Vida Temporários} de uma magia ou característica sua, ela reduz o primeiro dano Contundente, Cortante ou Perfurante que sofrer antes do início do seu próximo turno em uma quantidade igual a duas vezes seu {@variantrule Proficiency|XPHB|bônus de proficiência}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Memória da Escama",
+					"entries": [
+						"Se a criatura beneficiada por Couraça Viva sofrer dano do tipo associado à sua Ancestralidade Dracônica antes do início do seu próximo turno, ela também reduz esse dano em uma quantidade igual ao seu {@variantrule Proficiency|XPHB|bônus de proficiência}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Âncora da Falha",
+			"source": "MundoDeKyrFeats",
+			"page": 154,
+			"category": "G",
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"nascido umbromante|MundoDeKyrFeats"
+					]
+				},
+				{
+					"level": 4,
+					"feat": [
+						"nascido rizomante|MundoDeKyrFeats"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"con",
+							"int",
+							"wis",
+							"cha"
+						]
+					}
+				}
+			],
+			"entries": [
+				"Você aprendeu a fixar ausência no mundo.",
+				{
+					"type": "entries",
+					"name": "Aumento de Atributo",
+					"entries": [
+						"Aumente seu valor de Constituição, Inteligência, Sabedoria ou Carisma em 1, até o máximo de 20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Âncora da Ausência",
+					"entries": [
+						"Uma vez por turno, quando uma criatura falhar em um teste de resistência contra uma magia ou truque seu de Rizomancia ou Umbramancia, o deslocamento dela é reduzido em 10 pés, e ela não pode receber {@variantrule Temporary Hit Points|XPHB|Pontos de Vida Temporários} até o início do seu próximo turno."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Solo Esquecido",
+					"entries": [
+						"Se a criatura afetada por Âncora da Ausência estiver em contato com o solo, o espaço que ela ocupa se torna {@variantrule Difficult Terrain|XPHB|terreno difícil} para criaturas hostis a você até o início do seu próximo turno."
+					]
+				}
+			]
+		},
+		{
+			"name": "Raiz do Vazio Quieto",
+			"source": "MundoDeKyrFeats",
+			"page": 155,
+			"category": "G",
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"nascido umbromante|MundoDeKyrFeats"
+					]
+				},
+				{
+					"level": 4,
+					"feat": [
+						"nascido rizomante|MundoDeKyrFeats"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"con",
+							"int",
+							"wis",
+							"cha"
+						]
+					}
+				}
+			],
+			"additionalSpells": [
+				{
+					"prepared": {
+						"_": {
+							"daily": {
+								"1": [
+									"silêncio de intenção|mundodekyrlivrodasmagiasdekyr"
+								]
+							}
+						}
+					}
+				}
+			],
+			"entries": [
+				"Você aprendeu a criar pequenas lacunas estáveis.",
+				{
+					"type": "entries",
+					"name": "Aumento de Atributo",
+					"entries": [
+						"Aumente seu valor de Constituição, Inteligência, Sabedoria ou Carisma em 1, até o máximo de 20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Lacuna Fixa",
+					"entries": [
+						"Como {@variantrule Bonus Action|XPHB|Ação Bônus}, escolha um espaço de 10 pés que você possa ver a até 30 pés. Até o início do seu próximo turno, qualquer criatura a sua escolha que entrar voluntariamente nesse espaço não pode recuperar {@variantrule Hit Points|XPHB|Pontos de Vida} até o início do seu próximo turno, e o espaço se torna {@variantrule Difficult Terrain|XPHB|terreno difícil} para ela. Você pode usar Lacuna Fixa um número de vezes igual ao seu {@variantrule Proficiency|XPHB|bônus de proficiência}, recuperando todos os usos ao finalizar um {@variantrule Long Rest|XPHB|Descanso Longo}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Quietude Enraizada",
+					"entries": [
+						"Você tem a magia Silêncio de Intenção sempre preparada. Você pode conjurá-la uma vez sem gastar espaço de magia, recuperando esse uso ao finalizar um {@variantrule Long Rest|XPHB|Descanso Longo}. Você também pode conjurá-la normalmente usando quaisquer espaços de magia que possuir. O atributo de conjuração dessa magia é o atributo aumentado por este talento."
+					]
+				}
+			]
+		},
+		{
+			"name": "Memória Radicular",
+			"source": "MundoDeKyrFeats",
+			"page": 156,
+			"category": "G",
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"nascido ecomante|MundoDeKyrFeats"
+					]
+				},
+				{
+					"level": 4,
+					"feat": [
+						"nascido rizomante|MundoDeKyrFeats"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"con",
+							"int",
+							"wis"
+						]
+					}
+				}
+			],
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"investigation",
+							"history",
+							"nature"
+						]
+					}
+				}
+			],
+			"expertise": [
+				{
+					"choose": {
+						"from": [
+							"investigation",
+							"history",
+							"nature"
+						]
+					}
+				}
+			],
+			"entries": [
+				"Você aprendeu que o que permanece também recorda. A raiz não apenas segura; ela guarda passagem, peso e intenção.",
+				{
+					"type": "entries",
+					"name": "Aumento de Atributo",
+					"entries": [
+						"Aumente seu valor de Inteligência, Sabedoria ou Constituição em 1, até o máximo de 20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Arquivo Vivo",
+					"entries": [
+						"Você ganha proficiência em {@skill History|XPHB|História}, {@skill Nature|XPHB|Natureza} ou {@skill Investigation|XPHB|Investigação}. Se já possuir a proficiência escolhida, você ganha Especialização nela."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Rastro Ancorado",
+					"entries": [
+						"Uma vez por turno, quando uma criatura falhar em um teste de resistência contra uma magia ou truque seu de Rizomancia ou Ecomancia, você pode marcá-la até o início do seu próximo turno. A primeira vez que você ou um aliado fizer um teste de {@skill Perception|XPHB|Percepção}, {@skill Investigation|XPHB|Investigação}, {@skill Insight|XPHB|Intuição}, {@skill History|XPHB|História} ou {@skill Arcana|XPHB|Arcanismo} contra ela, recebe +{@dice 1d4} no teste."
+					]
+				}
+			]
+		},
+		{
+			"name": "Solo que Recorda",
+			"source": "MundoDeKyrFeats",
+			"page": 157,
+			"category": "G",
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"nascido ecomante|MundoDeKyrFeats"
+					]
+				},
+				{
+					"level": 4,
+					"feat": [
+						"nascido rizomante|MundoDeKyrFeats"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"con",
+							"int",
+							"wis"
+						]
+					}
+				}
+			],
+			"entries": [
+				"Você aprendeu a fazer do chão um arquivo parcial do que o atravessa.",
+				{
+					"type": "entries",
+					"name": "Aumento de Atributo",
+					"entries": [
+						"Aumente seu valor de Inteligência, Sabedoria ou Constituição em 1, até o máximo de 20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Marca de Passagem",
+					"entries": [
+						"Uma vez por turno, quando uma criatura falhar em um teste de resistência contra uma magia ou truque seu de Rizomancia ou Ecomancia, você pode marcar o espaço de 5 pés que ela ocupa até o início do seu próximo turno. A primeira criatura hostil que entrar voluntariamente no espaço marcado tem seu deslocamento reduzido em 10 pés até o fim do turno atual. O próximo ataque ou teste de {@skill Perception|XPHB|Percepção}, {@skill Investigation|XPHB|Investigação}, {@skill Insight|XPHB|Intuição} ou {@skill Arcana|XPHB|Arcanismo} feito contra essa criatura por você ou por um aliado recebe +{@dice 1d4}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Registro do Chão",
+					"entries": [
+						"Se nenhuma criatura entrar no espaço marcado antes do início do seu próximo turno, você pode usar sua {@variantrule Reaction|XPHB|Reação} para descobrir a direção geral para a qual a criatura originalmente marcada se moveu, desde que ela ainda esteja a até 60 pés de você."
 					]
 				}
 			]
