@@ -1,0 +1,853 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "MundoDeKyrFeats",
+				"abbreviation": "KyrFeats",
+				"full": "Mundo de Kÿr: Feats de Origem",
+				"authors": [
+					"Mundo de Kÿr"
+				],
+				"convertedBy": [
+					"ChatGPT"
+				],
+				"version": "1.0.0",
+				"url": "https://github.com/TheGiddyLimit/homebrew",
+				"dateAdded": 1777852800
+			}
+		]
+	},
+	"feat": [
+		{
+			"name": "Nascido Rizomante",
+			"source": "MundoDeKyrFeats",
+			"page": 1,
+			"category": "O",
+			"additionalSpells": [
+				{
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"known": {
+						"_": [
+							{
+								"choose": "level=0|source=MundoDeKyrLivroDasMagiasDeKyr|subschool=Rizomancia",
+								"count": 2
+							}
+						]
+					}
+				}
+			],
+			"entries": [
+				"Você nasceu com uma afinidade instintiva com as estruturas vivas que sustentam o mundo. Sua magia não explode nem rompe; ela fixa, ampara e permanece. Você recebe os seguintes benefícios.",
+				{
+					"type": "entries",
+					"name": "Truques Rizomânticos",
+					"entries": [
+						"Escolha dois truques da lista de Rizomancia. Você aprende esses truques. Escolha Inteligência, Sabedoria ou Carisma como habilidade de conjuração para eles ao adquirir este talento."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Âncora Radicular",
+					"entries": [
+						"Quando você conjura um dos truques escolhidos por este talento e ele afeta uma criatura, objeto ou espaço, você pode reforçar os resquícios da magia de uma das formas abaixo:",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "Seiva Breve",
+									"entries": [
+										"Uma criatura à sua escolha a até 10 pés do alvo recebe {@variantrule Temporary Hit Points|XPHB|Pontos de Vida Temporários} iguais ao seu {@variantrule Proficiency|XPHB|bônus de proficiência}."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Solo Preso",
+									"entries": [
+										"Um espaço de 5 pés que você possa ver a até 10 pés do alvo se torna {{@variantrule Difficult Terrain|XPHB|terreno difícil}} para criaturas hostis até o início do seu próximo turno."
+									]
+								}
+							]
+						},
+						"Você pode usar Âncora Radicular um número de vezes igual ao seu {@variantrule Proficiency|XPHB|bônus de proficiência}, recuperando todos os usos ao finalizar um {@variantrule Long Rest|XPHB|Descanso Longo}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Nascido Ecomante",
+			"source": "MundoDeKyrFeats",
+			"page": 2,
+			"category": "O",
+			"additionalSpells": [
+				{
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"known": {
+						"_": [
+							{
+								"choose": "level=0|source=MundoDeKyrLivroDasMagiasDeKyr|subschool=Ecomancia",
+								"count": 2
+							}
+						]
+					}
+				}
+			],
+			"entries": [
+				"Você nasceu sensível aos vestígios que a magia, a dor e a história deixam no mundo. Onde outros veem silêncio, você percebe ecos. Você recebe os seguintes benefícios.",
+				{
+					"type": "entries",
+					"name": "Truques Ecomânticos",
+					"entries": [
+						"Escolha dois truques da lista de Ecomancia. Você aprende esses truques. Escolha Inteligência, Sabedoria ou Carisma como habilidade de conjuração para eles ao adquirir este talento."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Ressonância Ecoante",
+					"entries": [
+						"Quando você conjura um dos truques escolhidos por este talento e ele afeta uma criatura, objeto ou espaço, você pode fazer com que um eco residual persista brevemente. Escolha um dos efeitos abaixo:",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "Rastro Revelado",
+									"entries": [
+										"O primeiro teste de Sabedoria ({@skill Perception|XPHB|Percepção}), Inteligência ({@skill Investigation|XPHB|Investigação}), Inteligência ({@skill Arcana|XPHB|Arcanismo}) ou Sabedoria ({@skill Insight|XPHB|Intuição}) feito por você ou por um aliado contra a criatura, objeto ou espaço afetado antes do início do seu próximo turno recebe um bônus igual ao seu {@variantrule Proficiency|XPHB|bônus de proficiência}."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Marca Ecoante",
+									"entries": [
+										"Uma criatura à sua escolha a até 10 pés da criatura, objeto ou espaço afetado não pode se beneficiar da condição {@condition Invisible|XPHB|Invisível} até o início do seu próximo turno."
+									]
+								}
+							]
+						},
+						"Você pode usar Ressonância Ecoante um número de vezes igual ao seu {@variantrule Proficiency|XPHB|bônus de proficiência}, recuperando todos os usos ao finalizar um {@variantrule Long Rest|XPHB|Descanso Longo}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Nascido Umbromante",
+			"source": "MundoDeKyrFeats",
+			"page": 3,
+			"category": "O",
+			"additionalSpells": [
+				{
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"known": {
+						"_": [
+							{
+								"choose": "level=0|source=MundoDeKyrLivroDasMagiasDeKyr|subschool=Umbramancia",
+								"count": 2
+							}
+						]
+					}
+				}
+			],
+			"entries": [
+				"Você nasceu sensível às ausências da realidade. Onde outros percebem forma, você percebe falha; onde outros veem presença, você reconhece aquilo que foi apagado. Você recebe os seguintes benefícios.",
+				{
+					"type": "entries",
+					"name": "Truques Umbromânticos",
+					"entries": [
+						"Escolha dois truques da lista de Umbramancia. Você aprende esses truques. Escolha Inteligência, Sabedoria ou Carisma como habilidade de conjuração para eles ao adquirir este talento."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Marca do Apagamento",
+					"entries": [
+						"Quando você conjura um dos truques escolhidos por este talento e ele afeta uma criatura, objeto ou espaço, você pode escolher um dos efeitos abaixo:",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "Vulto Negado",
+									"entries": [
+										"Uma criatura à sua escolha afetada pelo truque não pode se beneficiar de {@variantrule Cover|XPHB|Meia Cobertura} nem da condição {@condition Invisible|XPHB|Invisível} até o início do seu próximo turno."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Passo sem Som",
+									"entries": [
+										"Você ou uma criatura aliada a até 10 pés do alvo pode mover-se até 5 pés sem provocar {@action Opportunity Attack|XPHB|Ataques de Oportunidade}."
+									]
+								}
+							]
+						},
+						"Você pode usar Marca do Apagamento um número de vezes igual ao seu {@variantrule Proficiency|XPHB|bônus de proficiência}, recuperando todos os usos ao finalizar um {@variantrule Long Rest|XPHB|Descanso Longo}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Herdeiro do Dragão",
+			"source": "MundoDeKyrFeats",
+			"page": 4,
+			"category": "O",
+			"languageProficiencies": [
+				{
+					"draconic": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"intimidation",
+							"persuasion",
+							"arcana"
+						]
+					}
+				}
+			],
+			"entries": [
+				"O sangue dos grandes répteis ainda encontra caminho até você. Sua presença carrega a memória de escamas antigas, ruína elemental e domínio instintivo.",
+				"Ao adquirir este talento, escolha uma Ancestralidade Dracônica. Ela determina o tipo de dano associado a você: Ácido, Frio, Fogo, Elétrico ou Veneno. Você recebe os seguintes benefícios.",
+				{
+					"type": "entries",
+					"name": "Legado Dracônico",
+					"entries": [
+						"Você aprende a falar, ler e escrever Dracônico."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Presença de Ninhada",
+					"entries": [
+						"Você ganha proficiência em {@skill Intimidation|XPHB|Intimidação}, {@skill Persuasion|XPHB|Persuasão} ou {@skill Arcana|XPHB|Arcanismo}, à sua escolha."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Faísca Ancestral",
+					"entries": [
+						"Uma vez por turno, quando você atingir uma criatura com uma jogada de ataque ou quando uma criatura falhar em um teste de resistência contra uma magia sua, você pode fazer com que a energia do seu ancestral se manifeste e causar dano adicional do tipo associado à sua Ancestralidade Dracônica igual ao seu {@variantrule Proficiency|XPHB|bônus de proficiência}. Você pode usar Faísca Ancestral um número de vezes igual ao seu {@variantrule Proficiency|XPHB|bônus de proficiência}, recuperando todos os usos ao finalizar um {@variantrule Long Rest|XPHB|Descanso Longo}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Tocado pela Aurora",
+			"source": "MundoDeKyrFeats",
+			"page": 5,
+			"category": "O",
+			"additionalSpells": [
+				{
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"known": {
+						"_": [
+							"light|xphb#c"
+						]
+					}
+				}
+			],
+			"entries": [
+				"A luz da Aurora tocou seu espírito no instante em que outros teriam cedido. Sua presença não existe para avançar primeiro, mas para garantir que outros não caiam. Você recebe os seguintes benefícios.",
+				{
+					"type": "entries",
+					"name": "Luz de Vigília",
+					"entries": [
+						"Você aprende o truque {@spell Light|XPHB|Luz}. Escolha Inteligência, Sabedoria ou Carisma como habilidade de conjuração para ele ao adquirir este talento."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Instinto Protetor",
+					"entries": [
+						"Quando uma criatura aliada a até 5 pés de você sofrer dano de um ataque, você pode usar sua {@variantrule Reaction|XPHB|Reação} para reduzir esse dano em uma quantidade igual a duas vezes seu {@variantrule Proficiency|XPHB|bônus de proficiência}. Você pode usar Instinto Protetor um número de vezes igual ao seu {@variantrule Proficiency|XPHB|bônus de proficiência}, recuperando todos os usos ao finalizar um {@variantrule Long Rest|XPHB|Descanso Longo}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Clarão de Coragem",
+					"entries": [
+						"Quando você usar Instinto Protetor, a criatura protegida recebe {{@dice 1d4}} no próximo teste de resistência que realizar antes do início do seu próximo turno."
+					]
+				}
+			]
+		},
+		{
+			"name": "Forjado pelo Mundo Hostil",
+			"source": "MundoDeKyrFeats",
+			"page": 6,
+			"category": "O",
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"survival",
+							"athletics"
+						]
+					}
+				}
+			],
+			"entries": [
+				"Kÿr nunca foi gentil com você. Frio, fome, ruínas, trilhas quebradas e noites ruins ensinaram cedo que permanecer vivo é uma técnica. Você recebe os seguintes benefícios.",
+				{
+					"type": "entries",
+					"name": "Instinto do Ermo",
+					"entries": [
+						"Você ganha proficiência em {@skill Survival|XPHB|Sobrevivência} ou {@skill Athletics|XPHB|Atletismo}. Você também tem {@variantrule Advantage|XPHB|vantagem} em testes de habilidade feitos para encontrar abrigo, água ou rota segura em ambientes hostis."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Passo Prudente",
+					"entries": [
+						"Quando você realiza a ação {@action Dash|XPHB|Correr}, {@variantrule Difficult Terrain|XPHB|terreno difícil} causado por neve, lama, pedras soltas, vegetação densa ou escombros não custa movimento adicional para você até o final do turno atual."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Fôlego de Kÿr",
+					"entries": [
+						"Quando você falhar em um teste de resistência contra um efeito ambiental, travessia exaustiva, marcha forçada ou perigo natural que imponha {@condition Exhaustion|XPHB|Exaustão}, você pode adicionar seu {@variantrule Proficiency|XPHB|bônus de proficiência} ao teste, potencialmente transformando a falha em sucesso. Você pode usar Fôlego de Kÿr uma vez, recuperando esse uso ao finalizar um {@variantrule Short Rest|XPHB|Descanso Curto} ou {@variantrule Long Rest|XPHB|Descanso Longo}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Senhor das Linhas",
+			"source": "MundoDeKyrFeats",
+			"page": 7,
+			"category": "O",
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"athletics",
+							"insight"
+						]
+					}
+				}
+			],
+			"entries": [
+				"Você aprendeu cedo que uma batalha não é vencida apenas por força, mas por posicionamento. Onde você finca os pés, o avanço inimigo perde segurança. Você recebe os seguintes benefícios.",
+				{
+					"type": "entries",
+					"name": "Olho de Campo",
+					"entries": [
+						"Você ganha proficiência em {@skill Athletics|XPHB|Atletismo} ou {@skill Insight|XPHB|Intuição}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Passo de Contestação",
+					"entries": [
+						"Uma vez por turno, quando uma criatura hostil que você possa ver a até 5 pés de você se mover voluntariamente, você pode mover-se até 5 pés para um espaço desocupado adjacente a ela, sem provocar {@action Opportunity Attack|XPHB|Ataques de Oportunidade}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Presença Incômoda",
+					"entries": [
+						"Quando você usar Passo de Contestação, a criatura afetada tem seu deslocamento reduzido em 5 pés até o final do turno atual."
+					]
+				}
+			]
+		},
+		{
+			"name": "Tocado pela Chama Fria",
+			"source": "MundoDeKyrFeats",
+			"page": 8,
+			"category": "O",
+			"additionalSpells": [
+				{
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"known": {
+						"_": [
+							{
+								"choose": {
+									"from": [
+										"fogo do julgamento|MundoDeKyrLivroDasMagiasDeKyr",
+										"ray of frost|xphb"
+									],
+									"count": 1
+								}
+							}
+						]
+					}
+				}
+			],
+			"entries": [
+				"A Chama Fria o tocou como uma contradição viva: luz que consola sem aquecer, frio que protege sem ser gentil. Sua presença carrega a disciplina do inverno e a permanência do clarão. Você recebe os seguintes benefícios.",
+				{
+					"type": "entries",
+					"name": "Centelha Ambígua",
+					"entries": [
+						"Escolha um dos seguintes truques: {@spell Fogo do Julgamento|MundoDeKyrLivroDasMagiasDeKyr|Fogo do Julgamento} ou {@spell Ray of Frost|XPHB|Raio de Gelo}. Você aprende esse truque. Escolha Inteligência, Sabedoria ou Carisma como habilidade de conjuração para ele ao adquirir este talento."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Marca da Chama Fria",
+					"entries": [
+						"Quando você causar dano de Fogo, Radiante ou Frio com uma magia, ataque ou característica, ou quando restaurar {@variantrule Hit Points|XPHB|Pontos de Vida} de uma criatura com uma magia, você pode escolher um dos efeitos abaixo:",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "Geada de Contenção",
+									"entries": [
+										"Uma criatura afetada tem seu deslocamento reduzido em 5 pés até o início do seu próximo turno."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Calor Imóvel",
+									"entries": [
+										"Uma criatura afetada recebe {@variantrule Temporary Hit Points|XPHB|Pontos de Vida Temporários} iguais ao seu {@variantrule Proficiency|XPHB|bônus de proficiência}."
+									]
+								}
+							]
+						},
+						"Você pode usar Marca da Chama Fria um número de vezes igual ao seu {@variantrule Proficiency|XPHB|bônus de proficiência}, recuperando todos os usos ao finalizar um {@variantrule Long Rest|XPHB|Descanso Longo}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Espírito do Vento Gelado",
+			"source": "MundoDeKyrFeats",
+			"page": 9,
+			"category": "O",
+			"prerequisite": [
+				{
+					"other": "Nenhum"
+				}
+			],
+			"entries": [
+				"Você obtém os seguintes benefícios.",
+				{
+					"type": "entries",
+					"name": "Deslocamento Aprimorado",
+					"entries": [
+						"Seu deslocamento aumenta em 5 pés. Ele aumenta novamente em 5 pés no nível 5."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Passo Leve",
+					"entries": [
+						"Você ignora {{@variantrule Difficult Terrain|XPHB|terreno difícil}} causado por neve."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Vento Refletido",
+					"entries": [
+						"Quando uma criatura errar um ataque contra você, você pode se mover 5 pés sem provocar {@action Opportunity Attack|XPHB|Ataques de Oportunidade}. Você pode fazer essa movimentação uma quantidade de vezes igual ao seu {@variantrule Proficiency|XPHB|bônus de proficiência}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Protetor Confiável",
+			"source": "MundoDeKyrFeats",
+			"page": 10,
+			"category": "O",
+			"prerequisite": [
+				{
+					"other": "Nenhum"
+				}
+			],
+			"entries": [
+				"Você obtém os seguintes benefícios.",
+				{
+					"type": "entries",
+					"name": "Proteção Instintiva",
+					"entries": [
+						"Enquanto você estiver equipado com um escudo e uma criatura a até 5 pés de você for atingida por um ataque, você pode usar sua {@variantrule Reaction|XPHB|Reação} para conceder +2 à CA dela até o começo do seu próximo turno."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Recuperação Guiada",
+					"entries": [
+						"Quando você aplicar primeiros socorros ou usar uma magia que cure {@variantrule Hit Points|XPHB|Pontos de Vida}, a criatura afetada recuperará {@variantrule Hit Points|XPHB|Pontos de Vida} adicionais iguais ao seu {@variantrule Proficiency|XPHB|bônus de proficiência}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Mentor Pragmático",
+			"source": "MundoDeKyrFeats",
+			"page": 11,
+			"category": "O",
+			"prerequisite": [
+				{
+					"other": "Nenhum"
+				}
+			],
+			"entries": [
+				"Você obtém os seguintes benefícios.",
+				{
+					"type": "entries",
+					"name": "Ensino Rápido",
+					"entries": [
+						"Durante um {@variantrule Long Rest|XPHB|Descanso Longo}, você pode gastar 1 hora para conceder a um aliado proficiência em uma perícia de sua escolha em que você seja proficiente. Essa proficiência dura até o final do próximo {@variantrule Long Rest|XPHB|Descanso Longo} desse aliado."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Orientação Firme",
+					"entries": [
+						"Quando um aliado dentro de 10 pés falhar em um teste de habilidade, você pode usar sua {@variantrule Reaction|XPHB|Reação} para permitir que ele role novamente, usando o novo resultado."
+					]
+				}
+			]
+		},
+		{
+			"name": "Técnica Marcial Avançada",
+			"source": "MundoDeKyrFeats",
+			"page": 12,
+			"category": "O",
+			"prerequisite": [
+				{
+					"other": "Guerreiro, Paladino, Bárbaro ou Monge"
+				}
+			],
+			"entries": [
+				"Você obtém os seguintes benefícios.",
+				{
+					"type": "entries",
+					"name": "Ação Tática",
+					"entries": [
+						"Uma vez por {@variantrule Short Rest|XPHB|Descanso Curto}, quando você usar a ação {@action Attack|XPHB|Ataque}, pode realizar um ataque adicional como parte da mesma ação."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Precisão Marcial",
+					"entries": [
+						"Quando você errar uma jogada de ataque corpo a corpo, pode adicionar {{@dice 1d4}} ao próximo ataque que fizer antes do fim do seu próximo turno."
+					]
+				}
+			]
+		},
+		{
+			"name": "Cortesão Imperial",
+			"source": "MundoDeKyrFeats",
+			"page": 13,
+			"category": "O",
+			"skillProficiencies": [
+				{
+					"insight": true,
+					"persuasion": true
+				}
+			],
+			"entries": [
+				"Você foi educado nas complexas etiquetas da corte, onde uma palavra errada pode ser mais letal que uma adaga. Você recebe os seguintes benefícios.",
+				{
+					"type": "entries",
+					"name": "Etiqueta Impecável",
+					"entries": [
+						"Você ganha proficiência nas perícias {@skill Insight|XPHB|Intuição} e {@skill Persuasion|XPHB|Persuasão}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Voz de Comando",
+					"entries": [
+						"Sua presença domina o ambiente assim que você entra. Você pode adicionar seu modificador de Carisma às suas jogadas de {@variantrule Initiative|XPHB|Iniciativa}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Leitura de Intenções",
+					"entries": [
+						"Quando você conversa com uma criatura por pelo menos 1 minuto, você pode fazer um teste de Sabedoria ({@skill Insight|XPHB|Intuição}) contra uma CD igual a 10 + o modificador de {@skill Deception|XPHB|Enganação} da criatura. Em um sucesso, você descobre precisamente se a criatura é Amistosa, Indiferente ou Hostil, e se ela está escondendo algo de você."
+					]
+				}
+			]
+		},
+		{
+			"name": "Tocado pelos Kami",
+			"source": "MundoDeKyrFeats",
+			"page": 14,
+			"category": "O",
+			"additionalSpells": [
+				{
+					"known": {
+						"_": [
+							"thaumaturgy|xphb#c"
+						]
+					},
+					"innate": {
+						"_": {
+							"daily": {
+								"1": [
+									"detect evil and good|xphb"
+								]
+							}
+						}
+					}
+				}
+			],
+			"entries": [
+				"Um espírito da natureza, um ancestral ou uma pequena entidade local abençoou sua linhagem. Você caminha entre o mundo material e o espiritual. Você recebe os seguintes benefícios.",
+				{
+					"type": "entries",
+					"name": "Olhar Espiritual",
+					"entries": [
+						"Você aprende o truque {@spell Thaumaturgy|XPHB|Taumaturgia}. Você pode lançar {@spell Detect Evil and Good|XPHB|Detectar o Bem e Mal} uma vez por {@variantrule Long Rest|XPHB|Descanso Longo} sem gastar espaço de magia. Para você, essa magia se manifesta como ver as auras espirituais das criaturas."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Favor do Kami",
+					"entries": [
+						"Ao finalizar um {@variantrule Long Rest|XPHB|Descanso Longo}, role {@dice 1d4}. Você ganha um número de {@b Pontos de Sorte} igual ao resultado. Você pode gastar 1 ou mais Ponto de Sorte para adicionar +1 a qualquer teste de habilidade ou jogada de ataque. Os pontos não gastos somem no próximo {@variantrule Long Rest|XPHB|Descanso Longo}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Tocado pelo Véu",
+			"source": "MundoDeKyrFeats",
+			"page": 15,
+			"category": "O",
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"arcana",
+							"survival"
+						]
+					}
+				}
+			],
+			"entries": [
+				"Você nasceu próximo demais de uma dobra instável da realidade. Desde então, atravessar limites — portas, sonhos, portais ou fronteiras planares — nunca pareceu inteiramente natural para você. Você recebe os seguintes benefícios.",
+				{
+					"type": "entries",
+					"name": "Sentido do Limiar",
+					"entries": [
+						"Você ganha proficiência em {@skill Arcana|XPHB|Arcanismo} ou {@skill Survival|XPHB|Sobrevivência}. Além disso, você sabe quando há um portal, dobra espacial, efeito de teleporte ou distorção planar ativo a até 30 pés de você, embora não saiba automaticamente sua origem ou destino."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Ajuste de Travessia",
+					"entries": [
+						"Quando você for teleportado, deslocado magicamente ou afetado por uma transição planar, pode mover-se até 5 pés após o efeito ser resolvido, sem provocar {@action Opportunity Attack|XPHB|Ataques de Oportunidade}. Você pode usar este benefício um número de vezes igual ao seu {@variantrule Proficiency|XPHB|bônus de proficiência} por {@variantrule Long Rest|XPHB|Descanso Longo}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Corpo Atravessado",
+					"entries": [
+						"Você tem {{@variantrule Advantage|XPHB|vantagem}} em testes de habilidade feitos para resistir a desorientação, náusea ou perda de direção causadas por teleporte, sonho, plano astral ou distorções do Véu."
+					]
+				}
+			]
+		},
+		{
+			"name": "Sobrevivente de Zona de Eco",
+			"source": "MundoDeKyrFeats",
+			"page": 16,
+			"category": "O",
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"perception",
+							"investigation"
+						]
+					}
+				}
+			],
+			"entries": [
+				"Você atravessou uma região onde causa e consequência não estavam perfeitamente alinhadas. Parte de você ainda reconhece repetições, atrasos e falhas antes que elas se tornem perigosas. Você recebe os seguintes benefícios.",
+				{
+					"type": "entries",
+					"name": "Instinto de Repetição",
+					"entries": [
+						"Você ganha proficiência em {@skill Perception|XPHB|Percepção} ou {@skill Investigation|XPHB|Investigação}. Quando você fizer um teste para notar padrões repetidos, ecos temporais, rastros mágicos recorrentes ou inconsistências em uma cena, pode adicionar {@dice 1d4} ao resultado."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Memória do Segundo Instante",
+					"entries": [
+						"Quando você falhar em um teste de habilidade ou teste de resistência causado por ilusão, distorção temporal, alteração de memória ou efeito de Eco, pode rolar {@dice 1d4} e adicionar ao resultado, possivelmente transformando a falha em sucesso. Você pode usar este benefício um número de vezes igual ao seu {@variantrule Proficiency|XPHB|bônus de proficiência} por {@variantrule Long Rest|XPHB|Descanso Longo}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Rastro Persistente",
+					"entries": [
+						"Você sempre percebe quando uma cena, local ou criatura repete um detalhe visual, sonoro ou comportamental de forma não natural, embora ainda precise investigar para compreender o motivo."
+					]
+				}
+			]
+		},
+		{
+			"name": "Cartógrafo do Véu",
+			"source": "MundoDeKyrFeats",
+			"page": 17,
+			"category": "O",
+			"toolProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"cartographer's tools",
+							"navigator's tools"
+						]
+					}
+				}
+			],
+			"entries": [
+				"Você aprendeu a registrar lugares que não deveriam permanecer iguais. Seus mapas não descrevem apenas distância, mas instabilidade, retorno e risco. Você recebe os seguintes benefícios.",
+				{
+					"type": "entries",
+					"name": "Ferramentas do Limiar",
+					"entries": [
+						"Você ganha proficiência com {@item Cartographer's Tools|XPHB|Ferramentas de Cartógrafo} ou {@item Navigator's Tools|XPHB|Ferramentas de Navegador}. Se já possuir proficiência com uma delas, escolha outra Ferramenta de Artesão à sua escolha."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Linha de Retorno",
+					"entries": [
+						"Após passar ao menos 1 minuto estudando uma área, você pode marcar mentalmente um ponto de retorno. Durante a próxima hora, você e criaturas aliadas a até 30 pés de você têm {@variantrule Advantage|XPHB|vantagem} em testes feitos para retornar a esse ponto, escapar de labirintos, desfazer voltas espaciais ou reconhecer caminhos repetidos. Você pode usar este benefício um número de vezes igual ao seu {@variantrule Proficiency|XPHB|bônus de proficiência} por {@variantrule Long Rest|XPHB|Descanso Longo}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Mapa Impossível",
+					"entries": [
+						"Quando você cria um mapa ou registro de uma região afetada pelo Véu, por magia antiga ou por distorção espacial, criaturas que usem esse registro recebem {{@dice 1d4}} no primeiro teste de navegação feito naquela região."
+					]
+				}
+			]
+		},
+		{
+			"name": "Escriba de Ecos",
+			"source": "MundoDeKyrFeats",
+			"page": 18,
+			"category": "O",
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"history",
+							"investigation"
+						]
+					}
+				}
+			],
+			"toolProficiencies": [
+				{
+					"calligrapher's supplies": true
+				}
+			],
+			"entries": [
+				"Você aprendeu que palavras podem preservar mais do que fatos. Um registro bem feito guarda intenção, resíduo e peso histórico. Você recebe os seguintes benefícios.",
+				{
+					"type": "entries",
+					"name": "Mão de Arquivo",
+					"entries": [
+						"Você ganha proficiência em {@skill History|XPHB|História} ou {@skill Investigation|XPHB|Investigação}, além de proficiência com {@item Calligrapher's Supplies|XPHB|Suprimentos de Calígrafo}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Registro Ressonante",
+					"entries": [
+						"Após passar 1 minuto examinando um objeto, local ou inscrição ligado a magia, morte, juramento, Fragmentos ou eventos antigos, você pode registrar um eco dele. Até o fim do seu próximo {@variantrule Long Rest|XPHB|Descanso Longo}, você ou uma criatura que consulte esse registro pode adicionar {@dice 1d4} a um teste de {@skill Arcana|XPHB|Arcanismo}, {@skill History|XPHB|História}, {@skill Investigation|XPHB|Investigação} ou {@skill Religion|XPHB|Religião} relacionado ao alvo registrado. Você pode manter um número de registros ressonantes igual ao seu {@variantrule Proficiency|XPHB|bônus de proficiência}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Leitura de Resíduo",
+					"entries": [
+						"Uma vez por {@variantrule Long Rest|XPHB|Descanso Longo}, ao examinar um registro ressonante, você pode perguntar ao DM se o eco preservado está ligado principalmente a perigo, perda, magia, juramento ou passagem. A resposta deve ser breve e verdadeira, mas pode ser incompleta."
+					]
+				}
+			]
+		},
+		{
+			"name": "Vigia de Hyöga no Shiro",
+			"source": "MundoDeKyrFeats",
+			"page": 19,
+			"category": "O",
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"perception",
+							"survival"
+						]
+					}
+				}
+			],
+			"entries": [
+				"Você foi treinado sob a lógica da contenção. Vigiar não é apenas enxergar primeiro; é impedir que aquilo que foi selado encontre passagem. Você recebe os seguintes benefícios.",
+				{
+					"type": "entries",
+					"name": "Disciplina do Bastião",
+					"entries": [
+						"Você ganha proficiência em {@skill Perception|XPHB|Percepção} ou {@skill Survival|XPHB|Sobrevivência}. Além disso, você tem {@variantrule Advantage|XPHB|vantagem} em testes feitos para manter vigília, resistir a frio extremo natural ou identificar sinais de presença aberrante."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Sinal de Contenção",
+					"entries": [
+						"Quando uma criatura aberrante, extraplanar ou corrompida por influência dos Deuses Antigos entrar em um espaço a até 30 pés de você, você pode usar sua {@variantrule Reaction|XPHB|Reação} para marcar essa criatura até o início do seu próximo turno. A primeira jogada de ataque feita contra a criatura marcada antes desse momento recebe {@dice 1d4}. Você pode usar este benefício um número de vezes igual ao seu {@variantrule Proficiency|XPHB|bônus de proficiência} por {@variantrule Long Rest|XPHB|Descanso Longo}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Olho do Norte",
+					"entries": [
+						"Durante um {@variantrule Long Rest|XPHB|Descanso Longo}, você pode permanecer em vigília sem impedir que receba os benefícios do descanso, desde que não realize outra atividade extenuante."
+					]
+				}
+			]
+		}
+	]
+}
