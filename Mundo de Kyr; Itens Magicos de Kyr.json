@@ -22,7 +22,7 @@
 			"name": "Bota do Passo Leve",
 			"source": "MundoDeKyrItens",
 			"page": 0,
-			"type": "Wondrous Item",
+			"wondrous": true,
 			"rarity": "common",
 			"entries": [
 				"Enquanto estiver usando estas botas, seu deslocamento aumenta em 5 pés."
@@ -32,7 +32,7 @@
 			"name": "Pingente do Cristal Rubro",
 			"source": "MundoDeKyrItens",
 			"page": 0,
-			"type": "Wondrous Item",
+			"wondrous": true,
 			"rarity": "common",
 			"entries": [
 				"Enquanto estiver usando este pingente, seu máximo de {@variantrule Hit Points|XPHB|Pontos de Vida} aumenta em 3."
@@ -42,7 +42,7 @@
 			"name": "Amuleto do Cristal Safira",
 			"source": "MundoDeKyrItens",
 			"page": 0,
-			"type": "Wondrous Item",
+			"wondrous": true,
 			"rarity": "common",
 			"entries": [
 				"Uma vez por {@variantrule Long Rest|XPHB|Descanso Longo}, quando você conjurar uma magia de 1º nível, você pode reduzir o custo em um espaço de magia, até o mínimo de 0."
@@ -52,7 +52,7 @@
 			"name": "Colar da Vontade Inicial",
 			"source": "MundoDeKyrItens",
 			"page": 0,
-			"type": "Wondrous Item",
+			"wondrous": true,
 			"rarity": "common",
 			"entries": [
 				"Uma vez por {@variantrule Long Rest|XPHB|Descanso Longo}, antes de realizar uma jogada de ataque mágico ou antes de uma criatura realizar um teste de resistência contra a CD de uma magia sua, você pode declarar o uso deste colar para receber +1 nessa jogada de ataque mágico ou nessa CD de magia."
@@ -62,7 +62,7 @@
 			"name": "Medalhão do Escudo Frágil",
 			"source": "MundoDeKyrItens",
 			"page": 0,
-			"type": "Wondrous Item",
+			"wondrous": true,
 			"rarity": "common",
 			"entries": [
 				"Uma vez por {@variantrule Long Rest|XPHB|Descanso Longo}, quando você falhar em um teste de resistência contra magia, você pode adicionar {@dice 1d4} ao resultado, potencialmente transformando a falha em sucesso."
@@ -72,7 +72,7 @@
 			"name": "Livro do Aprendizado Básico",
 			"source": "MundoDeKyrItens",
 			"page": 0,
-			"type": "Wondrous Item",
+			"wondrous": true,
 			"rarity": "common",
 			"entries": [
 				"Uma vez por {@variantrule Long Rest|XPHB|Descanso Longo}, quando você falhar em um teste de {@skill Arcana|XPHB}, {@skill Religion|XPHB|Religião} ou {@skill Nature|XPHB|Natureza}, você pode repetir o teste, ficando com o novo resultado."
@@ -82,7 +82,7 @@
 			"name": "Orbe do Caminho Revelado",
 			"source": "MundoDeKyrItens",
 			"page": 0,
-			"type": "Wondrous Item",
+			"wondrous": true,
 			"rarity": "common",
 			"entries": [
 				"Uma vez por {@variantrule Long Rest|XPHB|Descanso Longo}, ao segurar o orbe por 1 minuto, você recebe {@variantrule Advantage|XPHB|Vantagem} no próximo teste de Sabedoria ({@skill Survival|XPHB|Sobrevivência} ou {@skill Nature|XPHB|Natureza}) feito para explorar uma área desconhecida."
@@ -92,7 +92,7 @@
 			"name": "Óculos do Controle de Visão",
 			"source": "MundoDeKyrItens",
 			"page": 0,
-			"type": "Wondrous Item",
+			"wondrous": true,
 			"rarity": "common",
 			"entries": [
 				"Enquanto estiver usando esta lente, você recebe +1 em testes de Sabedoria ({@skill Perception|XPHB|Percepção}) feitos para perceber armadilhas simples, fios, marcas ocultas ou alterações artificiais no ambiente."
@@ -102,7 +102,7 @@
 			"name": "Ampulheta dos Ecos Leves",
 			"source": "MundoDeKyrItens",
 			"page": 0,
-			"type": "Wondrous Item",
+			"wondrous": true,
 			"rarity": "common",
 			"entries": [
 				"Uma pequena ampulheta de vidro opalescente, cuja areia se move de forma irregular, como se respondesse a correntes invisíveis da Aether.",
@@ -114,7 +114,7 @@
 			"name": "Lenço de Voz Baixa",
 			"source": "MundoDeKyrItens",
 			"page": 0,
-			"type": "Wondrous Item",
+			"wondrous": true,
 			"rarity": "common",
 			"entries": [
 				"Um lenço de tecido fino, bordado com runas quase apagadas que vibram suavemente quando palavras são sussurradas.",
@@ -126,7 +126,7 @@
 			"name": "Cantil da Água Honesta",
 			"source": "MundoDeKyrItens",
 			"page": 0,
-			"type": "Wondrous Item",
+			"wondrous": true,
 			"rarity": "common",
 			"entries": [
 				"Um cantil metálico simples, sempre frio ao toque, independentemente do ambiente.",
@@ -138,7 +138,7 @@
 			"name": "Espelho de Memória Breve",
 			"source": "MundoDeKyrItens",
 			"page": 0,
-			"type": "Wondrous Item",
+			"wondrous": true,
 			"rarity": "common",
 			"entries": [
 				"Um pequeno espelho oval, de moldura escura, cuja superfície nunca reflete luz de forma plena.",
@@ -150,7 +150,7 @@
 			"name": "Pedra de Orientação Aetérica",
 			"source": "MundoDeKyrItens",
 			"page": 0,
-			"type": "Wondrous Item",
+			"wondrous": true,
 			"rarity": "common",
 			"entries": [
 				"Uma pedra lisa e fria, marcada com um único símbolo espiralado gravado até o núcleo.",
@@ -162,7 +162,7 @@
 			"name": "Caneta do Traço Fiel",
 			"source": "MundoDeKyrItens",
 			"page": 0,
-			"type": "Wondrous Item",
+			"wondrous": true,
 			"rarity": "common",
 			"entries": [
 				"Uma caneta de metal escuro com pena translúcida, levemente quente quando utilizada.",
@@ -174,7 +174,7 @@
 			"name": "Lente do Olhar Atento",
 			"source": "MundoDeKyrItens",
 			"page": 0,
-			"type": "Wondrous Item",
+			"wondrous": true,
 			"rarity": "common",
 			"entries": [
 				"Uma lente circular montada em aro simples de cobre.",
@@ -185,7 +185,7 @@
 			"name": "Bússola do Horizonte Fixo",
 			"source": "MundoDeKyrItens",
 			"page": 0,
-			"type": "Wondrous Item",
+			"wondrous": true,
 			"rarity": "common",
 			"entries": [
 				"Uma bússola de metal fosco, cujo ponteiro nunca gira de forma errática.",
@@ -196,7 +196,7 @@
 			"name": "Lâmpada da Luz Medida",
 			"source": "MundoDeKyrItens",
 			"page": 0,
-			"type": "Wondrous Item",
+			"wondrous": true,
 			"rarity": "common",
 			"entries": [
 				"Uma pequena lâmpada de óleo com cristal leitoso no interior.",
@@ -207,7 +207,7 @@
 			"name": "Talismã do Fôlego Guardado",
 			"source": "MundoDeKyrItens",
 			"page": 0,
-			"type": "Wondrous Item",
+			"wondrous": true,
 			"rarity": "common",
 			"entries": [
 				"Um amuleto de pedra porosa preso a um fio de couro.",
@@ -229,7 +229,7 @@
 			"name": "Manto da Presença Convincente",
 			"source": "MundoDeKyrItens",
 			"page": 0,
-			"type": "Wondrous Item",
+			"wondrous": true,
 			"rarity": "uncommon",
 			"entries": [
 				"Um manto bem cortado, cuja aparência parece sempre adequada ao ambiente social.",
@@ -254,7 +254,7 @@
 			"name": "Broche do Retorno Seguro",
 			"source": "MundoDeKyrItens",
 			"page": 0,
-			"type": "Wondrous Item",
+			"wondrous": true,
 			"rarity": "uncommon",
 			"entries": [
 				"Um broche metálico em forma de nó fechado.",
@@ -265,7 +265,7 @@
 			"name": "Bracelete do Impacto Controlado",
 			"source": "MundoDeKyrItens",
 			"page": 0,
-			"type": "Wondrous Item",
+			"wondrous": true,
 			"rarity": "uncommon",
 			"entries": [
 				"Um bracelete pesado, marcado por microfissuras arcanas.",
@@ -338,7 +338,7 @@
 			"name": "Coração da Vontade Ancorada",
 			"source": "MundoDeKyrItens",
 			"page": 0,
-			"type": "Wondrous Item",
+			"wondrous": true,
 			"rarity": "rare",
 			"entries": [
 				"Um cristal opaco incrustado em um suporte metálico, pulsando no ritmo do portador.",
@@ -351,7 +351,7 @@
 			"name": "Talismã da Raposa Espiritual",
 			"source": "MundoDeKyrItens",
 			"page": 0,
-			"type": "Wondrous Item",
+			"wondrous": true,
 			"rarity": "uncommon",
 			"entries": [
 				"Este pequeno talismã de papel sagrado carrega a bênção travessa de uma antiga kitsune, reagindo à astúcia e ao movimento do portador.",
@@ -434,7 +434,7 @@
 			"name": "Núcleo Arcano de Combate",
 			"source": "MundoDeKyrItens",
 			"page": 0,
-			"type": "Wondrous Item",
+			"wondrous": true,
 			"rarity": "rare",
 			"entries": [
 				"Este reator miniaturizado converte foco arcano em potência destrutiva controlada.",
@@ -480,7 +480,7 @@
 			"name": "Manto do Guardião do Véu",
 			"source": "MundoDeKyrItens",
 			"page": 0,
-			"type": "Wondrous Item",
+			"wondrous": true,
 			"rarity": "rare",
 			"entries": [
 				"Este manto reage antes mesmo da vontade consciente, dobrando o véu da realidade ao redor de seu portador.",
@@ -519,7 +519,7 @@
 			"name": "Garras do Predador Silencioso",
 			"source": "MundoDeKyrItens",
 			"page": 0,
-			"type": "Wondrous Item",
+			"wondrous": true,
 			"rarity": "rare",
 			"entries": [
 				"Estas lâminas não rugem; elas chegam tarde demais para serem ouvidas.",
@@ -594,7 +594,7 @@
 			"name": "Brinco de Kasugami",
 			"source": "MundoDeKyrItens",
 			"page": 0,
-			"type": "Wondrous Item",
+			"wondrous": true,
 			"rarity": "rare",
 			"entries": [
 				"Este brinco é marcado com o símbolo desgastado de uma entidade esquecida, associada à manipulação sutil do fluxo do tempo.",
@@ -718,7 +718,7 @@
 			"name": "Medalhão do Sangue Frio",
 			"source": "MundoDeKyrItens",
 			"page": 0,
-			"type": "Wondrous Item",
+			"wondrous": true,
 			"rarity": "rare",
 			"entries": [
 				"Um medalhão pesado que permanece gelado mesmo em ambientes quentes.",
@@ -742,7 +742,7 @@
 			"name": "Botas da Retirada Impecável",
 			"source": "MundoDeKyrItens",
 			"page": 0,
-			"type": "Wondrous Item",
+			"wondrous": true,
 			"rarity": "rare",
 			"entries": [
 				"Botas reforçadas com solas flexíveis e silenciosas.",
@@ -754,7 +754,7 @@
 			"name": "Máscara da Voz Irrecusável",
 			"source": "MundoDeKyrItens",
 			"page": 0,
-			"type": "Wondrous Item",
+			"wondrous": true,
 			"rarity": "rare",
 			"entries": [
 				"Uma máscara cerimonial usada em negociações e julgamentos antigos.",
@@ -767,7 +767,7 @@
 			"name": "Braçadeiras do Pandemônio Elemental",
 			"source": "MundoDeKyrItens",
 			"page": 0,
-			"type": "Wondrous Item",
+			"wondrous": true,
 			"rarity": "very rare",
 			"entries": [
 				"Estas braçadeiras foram forjadas por um mestre que ultrapassou os limites da infusão elemental comum. Runas instáveis percorrem sua superfície, reagindo conforme diferentes forças primordiais são canalizadas.",
@@ -992,7 +992,7 @@
 			"name": "Saya da Serpente Branca",
 			"source": "MundoDeKyrItens",
 			"page": 0,
-			"type": "Wondrous Item",
+			"wondrous": true,
 			"rarity": "very rare",
 			"entries": [
 				"Esta saya de madeira laqueada em branco leitoso é gravada com padrões sutis de escamas. Dizem que foi consagrada a um antigo kami-serpente, que destila venenos silenciosos enquanto a lâmina descansa.",
@@ -1020,7 +1020,7 @@
 			"name": "Orbe do Caos Contido",
 			"source": "MundoDeKyrItens",
 			"page": 0,
-			"type": "Wondrous Item",
+			"wondrous": true,
 			"rarity": "very rare",
 			"entries": [
 				"Esta esfera concentra probabilidades instáveis em seu interior, distorcendo a realidade ao redor do portador a cada manifestação de poder arcano.",
