@@ -20,7 +20,7 @@
 	"feat": [
 		{
 			"name": "Nascido Rizomante",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 1,
 			"category": "O",
 			"additionalSpells": [
@@ -83,7 +83,7 @@
 		},
 		{
 			"name": "Nascido Ecomante",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 2,
 			"category": "O",
 			"additionalSpells": [
@@ -146,7 +146,7 @@
 		},
 		{
 			"name": "Nascido Umbromante",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 3,
 			"category": "O",
 			"additionalSpells": [
@@ -209,7 +209,7 @@
 		},
 		{
 			"name": "Herdeiro do Dragão",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 4,
 			"category": "O",
 			"languageProficiencies": [
@@ -256,7 +256,7 @@
 		},
 		{
 			"name": "Tocado pela Aurora",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 5,
 			"category": "O",
 			"additionalSpells": [
@@ -302,7 +302,7 @@
 		},
 		{
 			"name": "Forjado pelo Mundo Hostil",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 6,
 			"category": "O",
 			"skillProficiencies": [
@@ -342,7 +342,7 @@
 		},
 		{
 			"name": "Senhor das Linhas",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 7,
 			"category": "O",
 			"skillProficiencies": [
@@ -382,7 +382,7 @@
 		},
 		{
 			"name": "Tocado pela Chama Fria",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 8,
 			"category": "O",
 			"additionalSpells": [
@@ -450,7 +450,7 @@
 		},
 		{
 			"name": "Espírito do Vento Gelado",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 9,
 			"category": "O",
 			"prerequisite": [
@@ -485,7 +485,7 @@
 		},
 		{
 			"name": "Protetor Confiável",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 10,
 			"category": "O",
 			"prerequisite": [
@@ -513,7 +513,7 @@
 		},
 		{
 			"name": "Mentor Pragmático",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 11,
 			"category": "O",
 			"prerequisite": [
@@ -541,7 +541,7 @@
 		},
 		{
 			"name": "Técnica Marcial Avançada",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 12,
 			"category": "O",
 			"prerequisite": [
@@ -569,7 +569,7 @@
 		},
 		{
 			"name": "Cortesão Imperial",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 13,
 			"category": "O",
 			"skillProficiencies": [
@@ -605,7 +605,7 @@
 		},
 		{
 			"name": "Tocado pelos Kami",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 14,
 			"category": "O",
 			"additionalSpells": [
@@ -646,7 +646,7 @@
 		},
 		{
 			"name": "Tocado pelo Véu",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 15,
 			"category": "O",
 			"skillProficiencies": [
@@ -686,7 +686,7 @@
 		},
 		{
 			"name": "Sobrevivente de Zona de Eco",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 16,
 			"category": "O",
 			"skillProficiencies": [
@@ -726,7 +726,7 @@
 		},
 		{
 			"name": "Cartógrafo do Véu",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 17,
 			"category": "O",
 			"toolProficiencies": [
@@ -766,7 +766,7 @@
 		},
 		{
 			"name": "Escriba de Ecos",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 18,
 			"category": "O",
 			"skillProficiencies": [
@@ -811,7 +811,7 @@
 		},
 		{
 			"name": "Vigia de Hyöga no Shiro",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 19,
 			"category": "O",
 			"skillProficiencies": [
@@ -851,7 +851,7 @@
 		},
 		{
 			"name": "Recruta da Guarda Luminar",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 401,
 			"category": "O",
 			"entries": [
@@ -884,7 +884,7 @@
 		},
 		{
 			"name": "Iniciado da Luz Vigilante",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 407,
 			"category": "O",
 			"entries": [
@@ -917,7 +917,7 @@
 		},
 		{
 			"name": "Nome Velado",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 413,
 			"category": "O",
 			"entries": [
@@ -950,7 +950,7 @@
 		},
 		{
 			"name": "Agente do Pulso Verde",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 419,
 			"category": "O",
 			"entries": [
@@ -973,7 +973,7 @@
 		},
 		{
 			"name": "Caçador da Orla",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 425,
 			"category": "O",
 			"entries": [
@@ -1006,7 +1006,7 @@
 		},
 		{
 			"name": "Testemunha da Raiz",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 431,
 			"category": "O",
 			"entries": [
@@ -1039,7 +1039,7 @@
 		},
 		{
 			"name": "Semente Rebelde",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 437,
 			"category": "O",
 			"entries": [
@@ -1073,7 +1073,7 @@
 		},
 		{
 			"name": "Mestre da Cura",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 101,
 			"category": "G",
 			"prerequisite": [
@@ -1133,7 +1133,7 @@
 		},
 		{
 			"name": "Marcial Aethérico",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 102,
 			"category": "G",
 			"prerequisite": [
@@ -1207,14 +1207,14 @@
 		},
 		{
 			"name": "Adepto Rizomante",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 103,
 			"category": "G",
 			"prerequisite": [
 				{
 					"level": 4,
 					"feat": [
-						"nascido rizomante|MundoDeKyrFeats"
+						"nascido rizomante|Kÿr"
 					]
 				}
 			],
@@ -1279,14 +1279,14 @@
 		},
 		{
 			"name": "Seiva Restauradora",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 104,
 			"category": "G",
 			"prerequisite": [
 				{
 					"level": 4,
 					"feat": [
-						"nascido rizomante|MundoDeKyrFeats"
+						"nascido rizomante|Kÿr"
 					]
 				}
 			],
@@ -1328,14 +1328,14 @@
 		},
 		{
 			"name": "Geometria Radicular",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 105,
 			"category": "G",
 			"prerequisite": [
 				{
 					"level": 4,
 					"feat": [
-						"nascido rizomante|MundoDeKyrFeats"
+						"nascido rizomante|Kÿr"
 					]
 				}
 			],
@@ -1377,14 +1377,14 @@
 		},
 		{
 			"name": "Adepto Ecomante",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 106,
 			"category": "G",
 			"prerequisite": [
 				{
 					"level": 4,
 					"feat": [
-						"nascido ecomante|MundoDeKyrFeats"
+						"nascido ecomante|Kÿr"
 					]
 				}
 			],
@@ -1449,14 +1449,14 @@
 		},
 		{
 			"name": "Leitor de Rupturas",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 107,
 			"category": "G",
 			"prerequisite": [
 				{
 					"level": 4,
 					"feat": [
-						"nascido ecomante|MundoDeKyrFeats"
+						"nascido ecomante|Kÿr"
 					]
 				}
 			],
@@ -1497,14 +1497,14 @@
 		},
 		{
 			"name": "Ressonância Ecoante",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 108,
 			"category": "G",
 			"prerequisite": [
 				{
 					"level": 4,
 					"feat": [
-						"nascido ecomante|MundoDeKyrFeats"
+						"nascido ecomante|Kÿr"
 					]
 				}
 			],
@@ -1548,14 +1548,14 @@
 		},
 		{
 			"name": "Adepto Umbromante",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 109,
 			"category": "G",
 			"prerequisite": [
 				{
 					"level": 4,
 					"feat": [
-						"nascido umbromante|MundoDeKyrFeats"
+						"nascido umbromante|Kÿr"
 					]
 				}
 			],
@@ -1629,14 +1629,14 @@
 		},
 		{
 			"name": "Véu do Apagamento",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 110,
 			"category": "G",
 			"prerequisite": [
 				{
 					"level": 4,
 					"feat": [
-						"nascido umbromante|MundoDeKyrFeats"
+						"nascido umbromante|Kÿr"
 					]
 				}
 			],
@@ -1688,14 +1688,14 @@
 		},
 		{
 			"name": "Fome do Vazio",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 111,
 			"category": "G",
 			"prerequisite": [
 				{
 					"level": 4,
 					"feat": [
-						"nascido umbromante|MundoDeKyrFeats"
+						"nascido umbromante|Kÿr"
 					]
 				}
 			],
@@ -1745,14 +1745,14 @@
 		},
 		{
 			"name": "Escamas do Ancestral",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 112,
 			"category": "G",
 			"prerequisite": [
 				{
 					"level": 4,
 					"feat": [
-						"herdeiro do dragão|MundoDeKyrFeats"
+						"herdeiro do dragão|Kÿr"
 					]
 				}
 			],
@@ -1794,14 +1794,14 @@
 		},
 		{
 			"name": "Voz do Suserano",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 113,
 			"category": "G",
 			"prerequisite": [
 				{
 					"level": 4,
 					"feat": [
-						"herdeiro do dragão|MundoDeKyrFeats"
+						"herdeiro do dragão|Kÿr"
 					]
 				}
 			],
@@ -1865,14 +1865,14 @@
 		},
 		{
 			"name": "Sopro Dracônico",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 114,
 			"category": "G",
 			"prerequisite": [
 				{
 					"level": 4,
 					"feat": [
-						"herdeiro do dragão|MundoDeKyrFeats"
+						"herdeiro do dragão|Kÿr"
 					]
 				}
 			],
@@ -1913,14 +1913,14 @@
 		},
 		{
 			"name": "Guardião da Aurora",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 115,
 			"category": "G",
 			"prerequisite": [
 				{
 					"level": 4,
 					"feat": [
-						"tocado pela aurora|MundoDeKyrFeats"
+						"tocado pela aurora|Kÿr"
 					]
 				}
 			],
@@ -1963,14 +1963,14 @@
 		},
 		{
 			"name": "Brilho Tutelar",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 116,
 			"category": "G",
 			"prerequisite": [
 				{
 					"level": 4,
 					"feat": [
-						"tocado pela aurora|MundoDeKyrFeats"
+						"tocado pela aurora|Kÿr"
 					]
 				}
 			],
@@ -2025,14 +2025,14 @@
 		},
 		{
 			"name": "Vigília Inquebrável",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 117,
 			"category": "G",
 			"prerequisite": [
 				{
 					"level": 4,
 					"feat": [
-						"tocado pela aurora|MundoDeKyrFeats"
+						"tocado pela aurora|Kÿr"
 					]
 				}
 			],
@@ -2074,14 +2074,14 @@
 		},
 		{
 			"name": "Passo do Ermo",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 118,
 			"category": "G",
 			"prerequisite": [
 				{
 					"level": 4,
 					"feat": [
-						"forjado pelo mundo hostil|MundoDeKyrFeats"
+						"forjado pelo mundo hostil|Kÿr"
 					]
 				}
 			],
@@ -2133,14 +2133,14 @@
 		},
 		{
 			"name": "Pulmão da Tempestade",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 119,
 			"category": "G",
 			"prerequisite": [
 				{
 					"level": 4,
 					"feat": [
-						"forjado pelo mundo hostil|MundoDeKyrFeats"
+						"forjado pelo mundo hostil|Kÿr"
 					]
 				}
 			],
@@ -2181,14 +2181,14 @@
 		},
 		{
 			"name": "Instinto de Refúgio",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 120,
 			"category": "G",
 			"prerequisite": [
 				{
 					"level": 4,
 					"feat": [
-						"forjado pelo mundo hostil|MundoDeKyrFeats"
+						"forjado pelo mundo hostil|Kÿr"
 					]
 				}
 			],
@@ -2240,14 +2240,14 @@
 		},
 		{
 			"name": "Pressão de Campo",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 121,
 			"category": "G",
 			"prerequisite": [
 				{
 					"level": 4,
 					"feat": [
-						"senhor das linhas|MundoDeKyrFeats"
+						"senhor das linhas|Kÿr"
 					]
 				}
 			],
@@ -2289,14 +2289,14 @@
 		},
 		{
 			"name": "Guarda Territorial",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 122,
 			"category": "G",
 			"prerequisite": [
 				{
 					"level": 4,
 					"feat": [
-						"senhor das linhas|MundoDeKyrFeats"
+						"senhor das linhas|Kÿr"
 					]
 				}
 			],
@@ -2338,14 +2338,14 @@
 		},
 		{
 			"name": "Instinto de Ruptura",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 123,
 			"category": "G",
 			"prerequisite": [
 				{
 					"level": 4,
 					"feat": [
-						"senhor das linhas|MundoDeKyrFeats"
+						"senhor das linhas|Kÿr"
 					]
 				}
 			],
@@ -2387,14 +2387,14 @@
 		},
 		{
 			"name": "Guardião da Chama Fria",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 124,
 			"category": "G",
 			"prerequisite": [
 				{
 					"level": 4,
 					"feat": [
-						"tocado pela chama fria|MundoDeKyrFeats"
+						"tocado pela chama fria|Kÿr"
 					]
 				}
 			],
@@ -2456,14 +2456,14 @@
 		},
 		{
 			"name": "Brasa Invernal",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 125,
 			"category": "G",
 			"prerequisite": [
 				{
 					"level": 4,
 					"feat": [
-						"tocado pela chama fria|MundoDeKyrFeats"
+						"tocado pela chama fria|Kÿr"
 					]
 				}
 			],
@@ -2513,14 +2513,14 @@
 		},
 		{
 			"name": "Círculo da Geada Branca",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 126,
 			"category": "G",
 			"prerequisite": [
 				{
 					"level": 4,
 					"feat": [
-						"tocado pela chama fria|MundoDeKyrFeats"
+						"tocado pela chama fria|Kÿr"
 					]
 				}
 			],
@@ -2562,20 +2562,20 @@
 		},
 		{
 			"name": "Seiva do Alvorecer",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 127,
 			"category": "G",
 			"prerequisite": [
 				{
 					"level": 4,
 					"feat": [
-						"tocado pela aurora|MundoDeKyrFeats"
+						"tocado pela aurora|Kÿr"
 					]
 				},
 				{
 					"level": 4,
 					"feat": [
-						"nascido rizomante|MundoDeKyrFeats"
+						"nascido rizomante|Kÿr"
 					]
 				}
 			],
@@ -2625,20 +2625,20 @@
 		},
 		{
 			"name": "Casca da Aurora Viva",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 128,
 			"category": "G",
 			"prerequisite": [
 				{
 					"level": 4,
 					"feat": [
-						"tocado pela aurora|MundoDeKyrFeats"
+						"tocado pela aurora|Kÿr"
 					]
 				},
 				{
 					"level": 4,
 					"feat": [
-						"nascido rizomante|MundoDeKyrFeats"
+						"nascido rizomante|Kÿr"
 					]
 				}
 			],
@@ -2689,20 +2689,20 @@
 		},
 		{
 			"name": "Interposição da Primeira Luz",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 129,
 			"category": "G",
 			"prerequisite": [
 				{
 					"level": 4,
 					"feat": [
-						"senhor das linhas|MundoDeKyrFeats"
+						"senhor das linhas|Kÿr"
 					]
 				},
 				{
 					"level": 4,
 					"feat": [
-						"tocado pela aurora|MundoDeKyrFeats"
+						"tocado pela aurora|Kÿr"
 					]
 				}
 			],
@@ -2753,20 +2753,20 @@
 		},
 		{
 			"name": "Guarda de Contramarcha",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 130,
 			"category": "G",
 			"prerequisite": [
 				{
 					"level": 4,
 					"feat": [
-						"senhor das linhas|MundoDeKyrFeats"
+						"senhor das linhas|Kÿr"
 					]
 				},
 				{
 					"level": 4,
 					"feat": [
-						"tocado pela aurora|MundoDeKyrFeats"
+						"tocado pela aurora|Kÿr"
 					]
 				}
 			],
@@ -2817,20 +2817,20 @@
 		},
 		{
 			"name": "Brasa Serena",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 131,
 			"category": "G",
 			"prerequisite": [
 				{
 					"level": 4,
 					"feat": [
-						"tocado pela aurora|MundoDeKyrFeats"
+						"tocado pela aurora|Kÿr"
 					]
 				},
 				{
 					"level": 4,
 					"feat": [
-						"tocado pela chama fria|MundoDeKyrFeats"
+						"tocado pela chama fria|Kÿr"
 					]
 				}
 			],
@@ -2880,20 +2880,20 @@
 		},
 		{
 			"name": "Luz sem Turbulência",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 132,
 			"category": "G",
 			"prerequisite": [
 				{
 					"level": 4,
 					"feat": [
-						"tocado pela aurora|MundoDeKyrFeats"
+						"tocado pela aurora|Kÿr"
 					]
 				},
 				{
 					"level": 4,
 					"feat": [
-						"tocado pela chama fria|MundoDeKyrFeats"
+						"tocado pela chama fria|Kÿr"
 					]
 				}
 			],
@@ -2943,20 +2943,20 @@
 		},
 		{
 			"name": "Geada de Interdição",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 133,
 			"category": "G",
 			"prerequisite": [
 				{
 					"level": 4,
 					"feat": [
-						"senhor das linhas|MundoDeKyrFeats"
+						"senhor das linhas|Kÿr"
 					]
 				},
 				{
 					"level": 4,
 					"feat": [
-						"tocado pela chama fria|MundoDeKyrFeats"
+						"tocado pela chama fria|Kÿr"
 					]
 				}
 			],
@@ -3007,20 +3007,20 @@
 		},
 		{
 			"name": "Corte da Brasa Pálida",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 134,
 			"category": "G",
 			"prerequisite": [
 				{
 					"level": 4,
 					"feat": [
-						"senhor das linhas|MundoDeKyrFeats"
+						"senhor das linhas|Kÿr"
 					]
 				},
 				{
 					"level": 4,
 					"feat": [
-						"tocado pela chama fria|MundoDeKyrFeats"
+						"tocado pela chama fria|Kÿr"
 					]
 				}
 			],
@@ -3071,20 +3071,20 @@
 		},
 		{
 			"name": "Inverno do Sobrevivente",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 135,
 			"category": "G",
 			"prerequisite": [
 				{
 					"level": 4,
 					"feat": [
-						"forjado pelo mundo hostil|MundoDeKyrFeats"
+						"forjado pelo mundo hostil|Kÿr"
 					]
 				},
 				{
 					"level": 4,
 					"feat": [
-						"tocado pela chama fria|MundoDeKyrFeats"
+						"tocado pela chama fria|Kÿr"
 					]
 				}
 			],
@@ -3134,20 +3134,20 @@
 		},
 		{
 			"name": "Casca da Geada Andante",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 136,
 			"category": "G",
 			"prerequisite": [
 				{
 					"level": 4,
 					"feat": [
-						"forjado pelo mundo hostil|MundoDeKyrFeats"
+						"forjado pelo mundo hostil|Kÿr"
 					]
 				},
 				{
 					"level": 4,
 					"feat": [
-						"tocado pela chama fria|MundoDeKyrFeats"
+						"tocado pela chama fria|Kÿr"
 					]
 				}
 			],
@@ -3197,20 +3197,20 @@
 		},
 		{
 			"name": "Suserano da Linha de Guerra",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 137,
 			"category": "G",
 			"prerequisite": [
 				{
 					"level": 4,
 					"feat": [
-						"senhor das linhas|MundoDeKyrFeats"
+						"senhor das linhas|Kÿr"
 					]
 				},
 				{
 					"level": 4,
 					"feat": [
-						"herdeiro do dragão|MundoDeKyrFeats"
+						"herdeiro do dragão|Kÿr"
 					]
 				}
 			],
@@ -3253,20 +3253,20 @@
 		},
 		{
 			"name": "Selo de Interdição Sombria",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 138,
 			"category": "G",
 			"prerequisite": [
 				{
 					"level": 4,
 					"feat": [
-						"nascido umbromante|MundoDeKyrFeats"
+						"nascido umbromante|Kÿr"
 					]
 				},
 				{
 					"level": 4,
 					"feat": [
-						"senhor das linhas|MundoDeKyrFeats"
+						"senhor das linhas|Kÿr"
 					]
 				}
 			],
@@ -3316,20 +3316,20 @@
 		},
 		{
 			"name": "Marca da Linha Morta",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 139,
 			"category": "G",
 			"prerequisite": [
 				{
 					"level": 4,
 					"feat": [
-						"nascido umbromante|MundoDeKyrFeats"
+						"nascido umbromante|Kÿr"
 					]
 				},
 				{
 					"level": 4,
 					"feat": [
-						"senhor das linhas|MundoDeKyrFeats"
+						"senhor das linhas|Kÿr"
 					]
 				}
 			],
@@ -3372,20 +3372,20 @@
 		},
 		{
 			"name": "Marcha do Sobrevivente",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 140,
 			"category": "G",
 			"prerequisite": [
 				{
 					"level": 4,
 					"feat": [
-						"forjado pelo mundo hostil|MundoDeKyrFeats"
+						"forjado pelo mundo hostil|Kÿr"
 					]
 				},
 				{
 					"level": 4,
 					"feat": [
-						"senhor das linhas|MundoDeKyrFeats"
+						"senhor das linhas|Kÿr"
 					]
 				}
 			],
@@ -3427,20 +3427,20 @@
 		},
 		{
 			"name": "Postura de Gargalo Rústico",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 141,
 			"category": "G",
 			"prerequisite": [
 				{
 					"level": 4,
 					"feat": [
-						"forjado pelo mundo hostil|MundoDeKyrFeats"
+						"forjado pelo mundo hostil|Kÿr"
 					]
 				},
 				{
 					"level": 4,
 					"feat": [
-						"senhor das linhas|MundoDeKyrFeats"
+						"senhor das linhas|Kÿr"
 					]
 				}
 			],
@@ -3482,20 +3482,20 @@
 		},
 		{
 			"name": "Leitor do Mundo Ferido",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 142,
 			"category": "G",
 			"prerequisite": [
 				{
 					"level": 4,
 					"feat": [
-						"forjado pelo mundo hostil|MundoDeKyrFeats"
+						"forjado pelo mundo hostil|Kÿr"
 					]
 				},
 				{
 					"level": 4,
 					"feat": [
-						"nascido ecomante|MundoDeKyrFeats"
+						"nascido ecomante|Kÿr"
 					]
 				}
 			],
@@ -3537,20 +3537,20 @@
 		},
 		{
 			"name": "Rota das Cicatrizes",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 143,
 			"category": "G",
 			"prerequisite": [
 				{
 					"level": 4,
 					"feat": [
-						"forjado pelo mundo hostil|MundoDeKyrFeats"
+						"forjado pelo mundo hostil|Kÿr"
 					]
 				},
 				{
 					"level": 4,
 					"feat": [
-						"nascido ecomante|MundoDeKyrFeats"
+						"nascido ecomante|Kÿr"
 					]
 				}
 			],
@@ -3602,20 +3602,20 @@
 		},
 		{
 			"name": "Vigília do Último Abrigo",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 144,
 			"category": "G",
 			"prerequisite": [
 				{
 					"level": 4,
 					"feat": [
-						"forjado pelo mundo hostil|MundoDeKyrFeats"
+						"forjado pelo mundo hostil|Kÿr"
 					]
 				},
 				{
 					"level": 4,
 					"feat": [
-						"tocado pela aurora|MundoDeKyrFeats"
+						"tocado pela aurora|Kÿr"
 					]
 				}
 			],
@@ -3657,20 +3657,20 @@
 		},
 		{
 			"name": "Farol de Marcha",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 145,
 			"category": "G",
 			"prerequisite": [
 				{
 					"level": 4,
 					"feat": [
-						"forjado pelo mundo hostil|MundoDeKyrFeats"
+						"forjado pelo mundo hostil|Kÿr"
 					]
 				},
 				{
 					"level": 4,
 					"feat": [
-						"tocado pela aurora|MundoDeKyrFeats"
+						"tocado pela aurora|Kÿr"
 					]
 				}
 			],
@@ -3732,20 +3732,20 @@
 		},
 		{
 			"name": "Tirania Escamada do Vazio",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 146,
 			"category": "G",
 			"prerequisite": [
 				{
 					"level": 4,
 					"feat": [
-						"nascido umbromante|MundoDeKyrFeats"
+						"nascido umbromante|Kÿr"
 					]
 				},
 				{
 					"level": 4,
 					"feat": [
-						"herdeiro do dragão|MundoDeKyrFeats"
+						"herdeiro do dragão|Kÿr"
 					]
 				}
 			],
@@ -3808,20 +3808,20 @@
 		},
 		{
 			"name": "Mandato do Eclipse Escamado",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 147,
 			"category": "G",
 			"prerequisite": [
 				{
 					"level": 4,
 					"feat": [
-						"nascido umbromante|MundoDeKyrFeats"
+						"nascido umbromante|Kÿr"
 					]
 				},
 				{
 					"level": 4,
 					"feat": [
-						"herdeiro do dragão|MundoDeKyrFeats"
+						"herdeiro do dragão|Kÿr"
 					]
 				}
 			],
@@ -3857,20 +3857,20 @@
 		},
 		{
 			"name": "Voz do Eco Ancestral",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 148,
 			"category": "G",
 			"prerequisite": [
 				{
 					"level": 4,
 					"feat": [
-						"nascido ecomante|MundoDeKyrFeats"
+						"nascido ecomante|Kÿr"
 					]
 				},
 				{
 					"level": 4,
 					"feat": [
-						"herdeiro do dragão|MundoDeKyrFeats"
+						"herdeiro do dragão|Kÿr"
 					]
 				}
 			],
@@ -3934,20 +3934,20 @@
 		},
 		{
 			"name": "Escama Memorável",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 149,
 			"category": "G",
 			"prerequisite": [
 				{
 					"level": 4,
 					"feat": [
-						"nascido ecomante|MundoDeKyrFeats"
+						"nascido ecomante|Kÿr"
 					]
 				},
 				{
 					"level": 4,
 					"feat": [
-						"herdeiro do dragão|MundoDeKyrFeats"
+						"herdeiro do dragão|Kÿr"
 					]
 				}
 			],
@@ -3989,20 +3989,20 @@
 		},
 		{
 			"name": "Eco do Apagamento",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 150,
 			"category": "G",
 			"prerequisite": [
 				{
 					"level": 4,
 					"feat": [
-						"nascido umbromante|MundoDeKyrFeats"
+						"nascido umbromante|Kÿr"
 					]
 				},
 				{
 					"level": 4,
 					"feat": [
-						"nascido ecomante|MundoDeKyrFeats"
+						"nascido ecomante|Kÿr"
 					]
 				}
 			],
@@ -4044,20 +4044,20 @@
 		},
 		{
 			"name": "Registro Inquieto",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 151,
 			"category": "G",
 			"prerequisite": [
 				{
 					"level": 4,
 					"feat": [
-						"nascido umbromante|MundoDeKyrFeats"
+						"nascido umbromante|Kÿr"
 					]
 				},
 				{
 					"level": 4,
 					"feat": [
-						"nascido ecomante|MundoDeKyrFeats"
+						"nascido ecomante|Kÿr"
 					]
 				}
 			],
@@ -4099,20 +4099,20 @@
 		},
 		{
 			"name": "Escama de Seiva",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 152,
 			"category": "G",
 			"prerequisite": [
 				{
 					"level": 4,
 					"feat": [
-						"herdeiro do dragão|MundoDeKyrFeats"
+						"herdeiro do dragão|Kÿr"
 					]
 				},
 				{
 					"level": 4,
 					"feat": [
-						"nascido rizomante|MundoDeKyrFeats"
+						"nascido rizomante|Kÿr"
 					]
 				}
 			],
@@ -4171,20 +4171,20 @@
 		},
 		{
 			"name": "Couraça do Ancestral Vivo",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 153,
 			"category": "G",
 			"prerequisite": [
 				{
 					"level": 4,
 					"feat": [
-						"herdeiro do dragão|MundoDeKyrFeats"
+						"herdeiro do dragão|Kÿr"
 					]
 				},
 				{
 					"level": 4,
 					"feat": [
-						"nascido rizomante|MundoDeKyrFeats"
+						"nascido rizomante|Kÿr"
 					]
 				}
 			],
@@ -4226,20 +4226,20 @@
 		},
 		{
 			"name": "Âncora da Falha",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 154,
 			"category": "G",
 			"prerequisite": [
 				{
 					"level": 4,
 					"feat": [
-						"nascido umbromante|MundoDeKyrFeats"
+						"nascido umbromante|Kÿr"
 					]
 				},
 				{
 					"level": 4,
 					"feat": [
-						"nascido rizomante|MundoDeKyrFeats"
+						"nascido rizomante|Kÿr"
 					]
 				}
 			],
@@ -4282,20 +4282,20 @@
 		},
 		{
 			"name": "Raiz do Vazio Quieto",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 155,
 			"category": "G",
 			"prerequisite": [
 				{
 					"level": 4,
 					"feat": [
-						"nascido umbromante|MundoDeKyrFeats"
+						"nascido umbromante|Kÿr"
 					]
 				},
 				{
 					"level": 4,
 					"feat": [
-						"nascido rizomante|MundoDeKyrFeats"
+						"nascido rizomante|Kÿr"
 					]
 				}
 			],
@@ -4351,20 +4351,20 @@
 		},
 		{
 			"name": "Memória Radicular",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 156,
 			"category": "G",
 			"prerequisite": [
 				{
 					"level": 4,
 					"feat": [
-						"nascido ecomante|MundoDeKyrFeats"
+						"nascido ecomante|Kÿr"
 					]
 				},
 				{
 					"level": 4,
 					"feat": [
-						"nascido rizomante|MundoDeKyrFeats"
+						"nascido rizomante|Kÿr"
 					]
 				}
 			],
@@ -4428,20 +4428,20 @@
 		},
 		{
 			"name": "Solo que Recorda",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 157,
 			"category": "G",
 			"prerequisite": [
 				{
 					"level": 4,
 					"feat": [
-						"nascido ecomante|MundoDeKyrFeats"
+						"nascido ecomante|Kÿr"
 					]
 				},
 				{
 					"level": 4,
 					"feat": [
-						"nascido rizomante|MundoDeKyrFeats"
+						"nascido rizomante|Kÿr"
 					]
 				}
 			],
@@ -4483,14 +4483,14 @@
 		},
 		{
 			"name": "Patrulha Inevitável",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 402,
 			"category": "G",
 			"prerequisite": [
 				{
 					"level": 4,
 					"feat": [
-						"recruta da guarda luminar|MundoDeKyrFeats"
+						"recruta da guarda luminar|Kÿr"
 					]
 				}
 			],
@@ -4532,14 +4532,14 @@
 		},
 		{
 			"name": "Interrogatório sem Marcas",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 403,
 			"category": "G",
 			"prerequisite": [
 				{
 					"level": 4,
 					"feat": [
-						"recruta da guarda luminar|MundoDeKyrFeats"
+						"recruta da guarda luminar|Kÿr"
 					]
 				}
 			],
@@ -4601,14 +4601,14 @@
 		},
 		{
 			"name": "Rastreador Arcano",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 408,
 			"category": "G",
 			"prerequisite": [
 				{
 					"level": 4,
 					"feat": [
-						"iniciado da luz vigilante|MundoDeKyrFeats"
+						"iniciado da luz vigilante|Kÿr"
 					]
 				}
 			],
@@ -4650,14 +4650,14 @@
 		},
 		{
 			"name": "Executor de Contenção",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 409,
 			"category": "G",
 			"prerequisite": [
 				{
 					"level": 4,
 					"feat": [
-						"iniciado da luz vigilante|MundoDeKyrFeats"
+						"iniciado da luz vigilante|Kÿr"
 					]
 				}
 			],
@@ -4699,14 +4699,14 @@
 		},
 		{
 			"name": "Rosto de Missão",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 414,
 			"category": "G",
 			"prerequisite": [
 				{
 					"level": 4,
 					"feat": [
-						"nome velado|MundoDeKyrFeats"
+						"nome velado|Kÿr"
 					]
 				}
 			],
@@ -4748,14 +4748,14 @@
 		},
 		{
 			"name": "Ausência Necessária",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 415,
 			"category": "G",
 			"prerequisite": [
 				{
 					"level": 4,
 					"feat": [
-						"nome velado|MundoDeKyrFeats"
+						"nome velado|Kÿr"
 					]
 				}
 			],
@@ -4797,14 +4797,14 @@
 		},
 		{
 			"name": "Contrato Vivo",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 420,
 			"category": "G",
 			"prerequisite": [
 				{
 					"level": 4,
 					"feat": [
-						"agente do pulso verde|MundoDeKyrFeats"
+						"agente do pulso verde|Kÿr"
 					]
 				}
 			],
@@ -4846,14 +4846,14 @@
 		},
 		{
 			"name": "Rota de Escassez",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 421,
 			"category": "G",
 			"prerequisite": [
 				{
 					"level": 4,
 					"feat": [
-						"agente do pulso verde|MundoDeKyrFeats"
+						"agente do pulso verde|Kÿr"
 					]
 				}
 			],
@@ -4895,14 +4895,14 @@
 		},
 		{
 			"name": "Guia do Fim do Mapa",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 426,
 			"category": "G",
 			"prerequisite": [
 				{
 					"level": 4,
 					"feat": [
-						"caçador da orla|MundoDeKyrFeats"
+						"caçador da orla|Kÿr"
 					]
 				}
 			],
@@ -4944,14 +4944,14 @@
 		},
 		{
 			"name": "Contrato de Caça",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 427,
 			"category": "G",
 			"prerequisite": [
 				{
 					"level": 4,
 					"feat": [
-						"caçador da orla|MundoDeKyrFeats"
+						"caçador da orla|Kÿr"
 					]
 				}
 			],
@@ -4993,14 +4993,14 @@
 		},
 		{
 			"name": "Registro Proibido",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 432,
 			"category": "G",
 			"prerequisite": [
 				{
 					"level": 4,
 					"feat": [
-						"testemunha da raiz|MundoDeKyrFeats"
+						"testemunha da raiz|Kÿr"
 					]
 				}
 			],
@@ -5042,14 +5042,14 @@
 		},
 		{
 			"name": "Recuperador de Memórias",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 433,
 			"category": "G",
 			"prerequisite": [
 				{
 					"level": 4,
 					"feat": [
-						"testemunha da raiz|MundoDeKyrFeats"
+						"testemunha da raiz|Kÿr"
 					]
 				}
 			],
@@ -5091,14 +5091,14 @@
 		},
 		{
 			"name": "Mensageiro das Células",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 438,
 			"category": "G",
 			"prerequisite": [
 				{
 					"level": 4,
 					"feat": [
-						"semente rebelde|MundoDeKyrFeats"
+						"semente rebelde|Kÿr"
 					]
 				}
 			],
@@ -5140,14 +5140,14 @@
 		},
 		{
 			"name": "Raízamar Vive",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 439,
 			"category": "G",
 			"prerequisite": [
 				{
 					"level": 4,
 					"feat": [
-						"semente rebelde|MundoDeKyrFeats"
+						"semente rebelde|Kÿr"
 					]
 				}
 			],
@@ -5189,7 +5189,7 @@
 		},
 		{
 			"name": "Raízes que Não Cedem",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 201,
 			"category": "EX",
 			"prerequisite": [
@@ -5218,7 +5218,7 @@
 		},
 		{
 			"name": "Pulso de Regeneração",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 202,
 			"category": "EX",
 			"prerequisite": [
@@ -5247,7 +5247,7 @@
 		},
 		{
 			"name": "Jardim de Atrito",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 203,
 			"category": "EX",
 			"prerequisite": [
@@ -5276,7 +5276,7 @@
 		},
 		{
 			"name": "Leitura Além do Véu",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 204,
 			"category": "EX",
 			"prerequisite": [
@@ -5305,7 +5305,7 @@
 		},
 		{
 			"name": "Cartógrafo das Cicatrizes",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 205,
 			"category": "EX",
 			"prerequisite": [
@@ -5353,7 +5353,7 @@
 		},
 		{
 			"name": "Registro de Impacto",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 206,
 			"category": "EX",
 			"prerequisite": [
@@ -5382,7 +5382,7 @@
 		},
 		{
 			"name": "Marca de Esvaziamento",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 207,
 			"category": "EX",
 			"prerequisite": [
@@ -5411,7 +5411,7 @@
 		},
 		{
 			"name": "Silêncio Predatório",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 208,
 			"category": "EX",
 			"prerequisite": [
@@ -5454,7 +5454,7 @@
 		},
 		{
 			"name": "Passos pelas Lacunas",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 209,
 			"category": "EX",
 			"prerequisite": [
@@ -5483,7 +5483,7 @@
 		},
 		{
 			"name": "Ascendência Dracônica Aprimorada",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 210,
 			"category": "EX",
 			"prerequisite": [
@@ -5525,7 +5525,7 @@
 		},
 		{
 			"name": "Investida do Predador",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 211,
 			"category": "EX",
 			"prerequisite": [
@@ -5554,7 +5554,7 @@
 		},
 		{
 			"name": "Olhar do Tirano",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 212,
 			"category": "EX",
 			"prerequisite": [
@@ -5593,7 +5593,7 @@
 		},
 		{
 			"name": "Luz que Permanece",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 213,
 			"category": "EX",
 			"prerequisite": [
@@ -5622,7 +5622,7 @@
 		},
 		{
 			"name": "Protetor da Aurora",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 214,
 			"category": "EX",
 			"prerequisite": [
@@ -5665,7 +5665,7 @@
 		},
 		{
 			"name": "Linha Intransponível",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 215,
 			"category": "EX",
 			"prerequisite": [
@@ -5694,7 +5694,7 @@
 		},
 		{
 			"name": "Persistência do Sobrevivente",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 216,
 			"category": "EX",
 			"prerequisite": [
@@ -5723,7 +5723,7 @@
 		},
 		{
 			"name": "Marca de Sobrevivente de Kÿr",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 217,
 			"category": "EX",
 			"prerequisite": [
@@ -5752,7 +5752,7 @@
 		},
 		{
 			"name": "Leitor de Intempéries",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 218,
 			"category": "EX",
 			"prerequisite": [
@@ -5791,7 +5791,7 @@
 		},
 		{
 			"name": "Muralha de Aço",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 219,
 			"category": "EX",
 			"prerequisite": [
@@ -5820,7 +5820,7 @@
 		},
 		{
 			"name": "Campo de Impasse",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 220,
 			"category": "EX",
 			"prerequisite": [
@@ -5849,7 +5849,7 @@
 		},
 		{
 			"name": "Ruptura Calculada",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 221,
 			"category": "EX",
 			"prerequisite": [
@@ -5878,7 +5878,7 @@
 		},
 		{
 			"name": "Fratura da Brasa Invernal",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 222,
 			"category": "EX",
 			"prerequisite": [
@@ -5907,7 +5907,7 @@
 		},
 		{
 			"name": "Selo do Inverno Branco",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 223,
 			"category": "EX",
 			"prerequisite": [
@@ -5936,7 +5936,7 @@
 		},
 		{
 			"name": "Misericórdia Glacial",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 224,
 			"category": "EX",
 			"prerequisite": [
@@ -5979,7 +5979,7 @@
 		},
 		{
 			"name": "Transbordo da Seiva Dourada",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 225,
 			"category": "EX",
 			"prerequisite": [
@@ -6008,7 +6008,7 @@
 		},
 		{
 			"name": "Reservatório da Casca Dourada",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 226,
 			"category": "EX",
 			"prerequisite": [
@@ -6037,7 +6037,7 @@
 		},
 		{
 			"name": "Limiar Intransponível",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 227,
 			"category": "EX",
 			"prerequisite": [
@@ -6066,7 +6066,7 @@
 		},
 		{
 			"name": "Rito da Pausa Clara",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 228,
 			"category": "EX",
 			"prerequisite": [
@@ -6095,7 +6095,7 @@
 		},
 		{
 			"name": "Trilha do Frio Habitável",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 229,
 			"category": "EX",
 			"prerequisite": [
@@ -6124,7 +6124,7 @@
 		},
 		{
 			"name": "Âncora Vazia",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 230,
 			"category": "EX",
 			"prerequisite": [
@@ -6153,7 +6153,7 @@
 		},
 		{
 			"name": "Raízes que Lembram",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 231,
 			"category": "EX",
 			"prerequisite": [
@@ -6182,7 +6182,7 @@
 		},
 		{
 			"name": "Escama da Madeira Antiga",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 232,
 			"category": "EX",
 			"prerequisite": [
@@ -6211,7 +6211,7 @@
 		},
 		{
 			"name": "Guardião das Raízes Profundas",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 233,
 			"category": "EX",
 			"prerequisite": [
@@ -6255,7 +6255,7 @@
 		},
 		{
 			"name": "Tecelão da Trama Viva",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 234,
 			"category": "EX",
 			"prerequisite": [
@@ -6299,7 +6299,7 @@
 		},
 		{
 			"name": "Arquivista dos Ecos",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 235,
 			"category": "EX",
 			"prerequisite": [
@@ -6353,7 +6353,7 @@
 		},
 		{
 			"name": "Selo do Mundo Ferido",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 236,
 			"category": "EX",
 			"prerequisite": [
@@ -6397,7 +6397,7 @@
 		},
 		{
 			"name": "Intercessor do Silêncio",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 237,
 			"category": "EX",
 			"prerequisite": [
@@ -6441,7 +6441,7 @@
 		},
 		{
 			"name": "Geometria da Ausência",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 238,
 			"category": "EX",
 			"prerequisite": [
@@ -6485,7 +6485,7 @@
 		},
 		{
 			"name": "Portador da Aurora Invernal",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 239,
 			"category": "EX",
 			"prerequisite": [
@@ -6529,7 +6529,7 @@
 		},
 		{
 			"name": "Discípulo da Barreira Aethérica",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 240,
 			"category": "EX",
 			"prerequisite": [
@@ -6573,7 +6573,7 @@
 		},
 		{
 			"name": "Gume Cromático",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 241,
 			"category": "EX",
 			"prerequisite": [
@@ -6617,7 +6617,7 @@
 		},
 		{
 			"name": "Vigia dos Ecos Hostis",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 242,
 			"category": "EX",
 			"prerequisite": [
@@ -6661,7 +6661,7 @@
 		},
 		{
 			"name": "Sobrevivente da Escalada",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 243,
 			"category": "EX",
 			"prerequisite": [
@@ -6689,7 +6689,7 @@
 		},
 		{
 			"name": "Técnico de Campo",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 244,
 			"category": "EX",
 			"prerequisite": [
@@ -6718,7 +6718,7 @@
 		},
 		{
 			"name": "Diplomata de Fronteira",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 245,
 			"category": "EX",
 			"prerequisite": [
@@ -6757,7 +6757,7 @@
 		},
 		{
 			"name": "Caçador de Anomalias",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 246,
 			"category": "EX",
 			"prerequisite": [
@@ -6785,7 +6785,7 @@
 		},
 		{
 			"name": "Vontade Contra o Impossível",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 247,
 			"category": "EX",
 			"prerequisite": [
@@ -6813,7 +6813,7 @@
 		},
 		{
 			"name": "Escriba de Selos Duradouros",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 248,
 			"category": "EX",
 			"prerequisite": [
@@ -6858,7 +6858,7 @@
 		},
 		{
 			"name": "Retentor de Impactos",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 249,
 			"category": "EX",
 			"prerequisite": [
@@ -6903,7 +6903,7 @@
 		},
 		{
 			"name": "Artesão Cromático de Guerra",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 250,
 			"category": "EX",
 			"prerequisite": [
@@ -6948,7 +6948,7 @@
 		},
 		{
 			"name": "Interditor de Passagens",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 251,
 			"category": "EX",
 			"prerequisite": [
@@ -6993,7 +6993,7 @@
 		},
 		{
 			"name": "Cirurgião da Aurora Viva",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 252,
 			"category": "EX",
 			"prerequisite": [
@@ -7038,20 +7038,20 @@
 		},
 		{
 			"name": "Ordem que Fecha",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 404,
 			"category": "EX",
 			"prerequisite": [
 				{
 					"level": 8,
 					"feat": [
-						"patrulha inevitável|MundoDeKyrFeats"
+						"patrulha inevitável|Kÿr"
 					]
 				},
 				{
 					"level": 8,
 					"feat": [
-						"interrogatório sem marcas|MundoDeKyrFeats"
+						"interrogatório sem marcas|Kÿr"
 					]
 				}
 			],
@@ -7075,20 +7075,20 @@
 		},
 		{
 			"name": "Registro de Suspeitos",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 405,
 			"category": "EX",
 			"prerequisite": [
 				{
 					"level": 8,
 					"feat": [
-						"patrulha inevitável|MundoDeKyrFeats"
+						"patrulha inevitável|Kÿr"
 					]
 				},
 				{
 					"level": 8,
 					"feat": [
-						"interrogatório sem marcas|MundoDeKyrFeats"
+						"interrogatório sem marcas|Kÿr"
 					]
 				}
 			],
@@ -7112,20 +7112,20 @@
 		},
 		{
 			"name": "Geometria da Vigilância",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 410,
 			"category": "EX",
 			"prerequisite": [
 				{
 					"level": 8,
 					"feat": [
-						"rastreador arcano|MundoDeKyrFeats"
+						"rastreador arcano|Kÿr"
 					]
 				},
 				{
 					"level": 8,
 					"feat": [
-						"executor de contenção|MundoDeKyrFeats"
+						"executor de contenção|Kÿr"
 					]
 				}
 			],
@@ -7149,20 +7149,20 @@
 		},
 		{
 			"name": "Contenção Controlada",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 411,
 			"category": "EX",
 			"prerequisite": [
 				{
 					"level": 8,
 					"feat": [
-						"rastreador arcano|MundoDeKyrFeats"
+						"rastreador arcano|Kÿr"
 					]
 				},
 				{
 					"level": 8,
 					"feat": [
-						"executor de contenção|MundoDeKyrFeats"
+						"executor de contenção|Kÿr"
 					]
 				}
 			],
@@ -7186,20 +7186,20 @@
 		},
 		{
 			"name": "Missão Inexistente",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 416,
 			"category": "EX",
 			"prerequisite": [
 				{
 					"level": 8,
 					"feat": [
-						"rosto de missão|MundoDeKyrFeats"
+						"rosto de missão|Kÿr"
 					]
 				},
 				{
 					"level": 8,
 					"feat": [
-						"ausência necessária|MundoDeKyrFeats"
+						"ausência necessária|Kÿr"
 					]
 				}
 			],
@@ -7223,20 +7223,20 @@
 		},
 		{
 			"name": "Protocolo Nyxar",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 417,
 			"category": "EX",
 			"prerequisite": [
 				{
 					"level": 8,
 					"feat": [
-						"rosto de missão|MundoDeKyrFeats"
+						"rosto de missão|Kÿr"
 					]
 				},
 				{
 					"level": 8,
 					"feat": [
-						"ausência necessária|MundoDeKyrFeats"
+						"ausência necessária|Kÿr"
 					]
 				}
 			],
@@ -7260,20 +7260,20 @@
 		},
 		{
 			"name": "Capital Circulante",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 422,
 			"category": "EX",
 			"prerequisite": [
 				{
 					"level": 8,
 					"feat": [
-						"contrato vivo|MundoDeKyrFeats"
+						"contrato vivo|Kÿr"
 					]
 				},
 				{
 					"level": 8,
 					"feat": [
-						"rota de escassez|MundoDeKyrFeats"
+						"rota de escassez|Kÿr"
 					]
 				}
 			],
@@ -7297,20 +7297,20 @@
 		},
 		{
 			"name": "Mercado que Aperta",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 423,
 			"category": "EX",
 			"prerequisite": [
 				{
 					"level": 8,
 					"feat": [
-						"contrato vivo|MundoDeKyrFeats"
+						"contrato vivo|Kÿr"
 					]
 				},
 				{
 					"level": 8,
 					"feat": [
-						"rota de escassez|MundoDeKyrFeats"
+						"rota de escassez|Kÿr"
 					]
 				}
 			],
@@ -7334,20 +7334,20 @@
 		},
 		{
 			"name": "Instinto da Orla",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 428,
 			"category": "EX",
 			"prerequisite": [
 				{
 					"level": 8,
 					"feat": [
-						"guia do fim do mapa|MundoDeKyrFeats"
+						"guia do fim do mapa|Kÿr"
 					]
 				},
 				{
 					"level": 8,
 					"feat": [
-						"contrato de caça|MundoDeKyrFeats"
+						"contrato de caça|Kÿr"
 					]
 				}
 			],
@@ -7371,20 +7371,20 @@
 		},
 		{
 			"name": "Lugar que Não Consta",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 429,
 			"category": "EX",
 			"prerequisite": [
 				{
 					"level": 8,
 					"feat": [
-						"guia do fim do mapa|MundoDeKyrFeats"
+						"guia do fim do mapa|Kÿr"
 					]
 				},
 				{
 					"level": 8,
 					"feat": [
-						"contrato de caça|MundoDeKyrFeats"
+						"contrato de caça|Kÿr"
 					]
 				}
 			],
@@ -7408,20 +7408,20 @@
 		},
 		{
 			"name": "Arquivo Dentro do Arquivo",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 434,
 			"category": "EX",
 			"prerequisite": [
 				{
 					"level": 8,
 					"feat": [
-						"registro proibido|MundoDeKyrFeats"
+						"registro proibido|Kÿr"
 					]
 				},
 				{
 					"level": 8,
 					"feat": [
-						"recuperador de memórias|MundoDeKyrFeats"
+						"recuperador de memórias|Kÿr"
 					]
 				}
 			],
@@ -7445,20 +7445,20 @@
 		},
 		{
 			"name": "Nome que Não Some",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 435,
 			"category": "EX",
 			"prerequisite": [
 				{
 					"level": 8,
 					"feat": [
-						"registro proibido|MundoDeKyrFeats"
+						"registro proibido|Kÿr"
 					]
 				},
 				{
 					"level": 8,
 					"feat": [
-						"recuperador de memórias|MundoDeKyrFeats"
+						"recuperador de memórias|Kÿr"
 					]
 				}
 			],
@@ -7482,20 +7482,20 @@
 		},
 		{
 			"name": "Contraespionagem Verde",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 440,
 			"category": "EX",
 			"prerequisite": [
 				{
 					"level": 8,
 					"feat": [
-						"mensageiro das células|MundoDeKyrFeats"
+						"mensageiro das células|Kÿr"
 					]
 				},
 				{
 					"level": 8,
 					"feat": [
-						"raízamar vive|MundoDeKyrFeats"
+						"raízamar vive|Kÿr"
 					]
 				}
 			],
@@ -7519,20 +7519,20 @@
 		},
 		{
 			"name": "Levante Coordenado",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 441,
 			"category": "EX",
 			"prerequisite": [
 				{
 					"level": 8,
 					"feat": [
-						"mensageiro das células|MundoDeKyrFeats"
+						"mensageiro das células|Kÿr"
 					]
 				},
 				{
 					"level": 8,
 					"feat": [
-						"raízamar vive|MundoDeKyrFeats"
+						"raízamar vive|Kÿr"
 					]
 				}
 			],
@@ -7556,19 +7556,19 @@
 		},
 		{
 			"name": "Corpo da Árvore Viva",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"category": "BOOST",
 			"prerequisite": [
 				{
 					"level": 12,
 					"feat": [
-						"raízes que não cedem|MundoDeKyrFeats"
+						"raízes que não cedem|Kÿr"
 					]
 				},
 				{
 					"level": 12,
 					"feat": [
-						"pulso de regeneração|MundoDeKyrFeats"
+						"pulso de regeneração|Kÿr"
 					]
 				}
 			],
@@ -7611,19 +7611,19 @@
 		},
 		{
 			"name": "Seiva do Mundo Profundo",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"category": "BOOST",
 			"prerequisite": [
 				{
 					"level": 12,
 					"feat": [
-						"pulso de regeneração|MundoDeKyrFeats"
+						"pulso de regeneração|Kÿr"
 					]
 				},
 				{
 					"level": 12,
 					"feat": [
-						"seiva restauradora|MundoDeKyrFeats"
+						"seiva restauradora|Kÿr"
 					]
 				}
 			],
@@ -7665,19 +7665,19 @@
 		},
 		{
 			"name": "Catedral Radicular",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"category": "BOOST",
 			"prerequisite": [
 				{
 					"level": 12,
 					"feat": [
-						"jardim de atrito|MundoDeKyrFeats"
+						"jardim de atrito|Kÿr"
 					]
 				},
 				{
 					"level": 12,
 					"feat": [
-						"raízes que não cedem|MundoDeKyrFeats"
+						"raízes que não cedem|Kÿr"
 					]
 				}
 			],
@@ -7719,19 +7719,19 @@
 		},
 		{
 			"name": "Arquivo do Mundo",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"category": "BOOST",
 			"prerequisite": [
 				{
 					"level": 12,
 					"feat": [
-						"leitura além do véu|MundoDeKyrFeats"
+						"leitura além do véu|Kÿr"
 					]
 				},
 				{
 					"level": 12,
 					"feat": [
-						"cartógrafo das cicatrizes|MundoDeKyrFeats"
+						"cartógrafo das cicatrizes|Kÿr"
 					]
 				}
 			],
@@ -7785,19 +7785,19 @@
 		},
 		{
 			"name": "Causalidade Reverberante",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"category": "BOOST",
 			"prerequisite": [
 				{
 					"level": 12,
 					"feat": [
-						"registro de impacto|MundoDeKyrFeats"
+						"registro de impacto|Kÿr"
 					]
 				},
 				{
 					"level": 12,
 					"feat": [
-						"ressonância ecoante|MundoDeKyrFeats"
+						"ressonância ecoante|Kÿr"
 					]
 				}
 			],
@@ -7839,19 +7839,19 @@
 		},
 		{
 			"name": "Arquiteto do Invisível",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"category": "BOOST",
 			"prerequisite": [
 				{
 					"level": 12,
 					"feat": [
-						"adepto ecomante|MundoDeKyrFeats"
+						"adepto ecomante|Kÿr"
 					]
 				},
 				{
 					"level": 12,
 					"feat": [
-						"ressonância ecoante|MundoDeKyrFeats"
+						"ressonância ecoante|Kÿr"
 					]
 				}
 			],
@@ -7894,19 +7894,19 @@
 		},
 		{
 			"name": "Manto das Lacunas",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"category": "BOOST",
 			"prerequisite": [
 				{
 					"level": 12,
 					"feat": [
-						"passos pelas lacunas|MundoDeKyrFeats"
+						"passos pelas lacunas|Kÿr"
 					]
 				},
 				{
 					"level": 12,
 					"feat": [
-						"véu do apagamento|MundoDeKyrFeats"
+						"véu do apagamento|Kÿr"
 					]
 				}
 			],
@@ -7949,19 +7949,19 @@
 		},
 		{
 			"name": "Gramática do Vazio",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"category": "BOOST",
 			"prerequisite": [
 				{
 					"level": 12,
 					"feat": [
-						"marca de esvaziamento|MundoDeKyrFeats"
+						"marca de esvaziamento|Kÿr"
 					]
 				},
 				{
 					"level": 12,
 					"feat": [
-						"silêncio predatório|MundoDeKyrFeats"
+						"silêncio predatório|Kÿr"
 					]
 				}
 			],
@@ -8004,19 +8004,19 @@
 		},
 		{
 			"name": "Trono do Silêncio",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"category": "BOOST",
 			"prerequisite": [
 				{
 					"level": 12,
 					"feat": [
-						"silêncio predatório|MundoDeKyrFeats"
+						"silêncio predatório|Kÿr"
 					]
 				},
 				{
 					"level": 12,
 					"feat": [
-						"marca de esvaziamento|MundoDeKyrFeats"
+						"marca de esvaziamento|Kÿr"
 					]
 				}
 			],
@@ -8059,19 +8059,19 @@
 		},
 		{
 			"name": "Coração de Escamas Antigas",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"category": "BOOST",
 			"prerequisite": [
 				{
 					"level": 12,
 					"feat": [
-						"ascendência dracônica aprimorada|MundoDeKyrFeats"
+						"ascendência dracônica aprimorada|Kÿr"
 					]
 				},
 				{
 					"level": 12,
 					"feat": [
-						"investida do predador|MundoDeKyrFeats"
+						"investida do predador|Kÿr"
 					]
 				}
 			],
@@ -8113,19 +8113,19 @@
 		},
 		{
 			"name": "Trono da Presença Dracônica",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"category": "BOOST",
 			"prerequisite": [
 				{
 					"level": 12,
 					"feat": [
-						"olhar do tirano|MundoDeKyrFeats"
+						"olhar do tirano|Kÿr"
 					]
 				},
 				{
 					"level": 12,
 					"feat": [
-						"voz do suserano|MundoDeKyrFeats"
+						"voz do suserano|Kÿr"
 					]
 				}
 			],
@@ -8178,19 +8178,19 @@
 		},
 		{
 			"name": "Fôlego do Cataclismo",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"category": "BOOST",
 			"prerequisite": [
 				{
 					"level": 12,
 					"feat": [
-						"sopro dracônico|MundoDeKyrFeats"
+						"sopro dracônico|Kÿr"
 					]
 				},
 				{
 					"level": 12,
 					"feat": [
-						"ascendência dracônica aprimorada|MundoDeKyrFeats"
+						"ascendência dracônica aprimorada|Kÿr"
 					]
 				}
 			],
@@ -8232,19 +8232,19 @@
 		},
 		{
 			"name": "Égide do Alvorecer",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"category": "BOOST",
 			"prerequisite": [
 				{
 					"level": 12,
 					"feat": [
-						"luz que permanece|MundoDeKyrFeats"
+						"luz que permanece|Kÿr"
 					]
 				},
 				{
 					"level": 12,
 					"feat": [
-						"protetor da aurora|MundoDeKyrFeats"
+						"protetor da aurora|Kÿr"
 					]
 				}
 			],
@@ -8286,19 +8286,19 @@
 		},
 		{
 			"name": "Bastião da Primeira Luz",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"category": "BOOST",
 			"prerequisite": [
 				{
 					"level": 12,
 					"feat": [
-						"linha intransponível|MundoDeKyrFeats"
+						"linha intransponível|Kÿr"
 					]
 				},
 				{
 					"level": 12,
 					"feat": [
-						"guardião da aurora|MundoDeKyrFeats"
+						"guardião da aurora|Kÿr"
 					]
 				}
 			],
@@ -8341,19 +8341,19 @@
 		},
 		{
 			"name": "Milagre de Intercessão",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"category": "BOOST",
 			"prerequisite": [
 				{
 					"level": 12,
 					"feat": [
-						"guardião da aurora|MundoDeKyrFeats"
+						"guardião da aurora|Kÿr"
 					]
 				},
 				{
 					"level": 12,
 					"feat": [
-						"protetor da aurora|MundoDeKyrFeats"
+						"protetor da aurora|Kÿr"
 					]
 				}
 			],
@@ -8396,19 +8396,19 @@
 		},
 		{
 			"name": "Explorador do Impossível",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"category": "BOOST",
 			"prerequisite": [
 				{
 					"level": 12,
 					"feat": [
-						"leitor de intempéries|MundoDeKyrFeats"
+						"leitor de intempéries|Kÿr"
 					]
 				},
 				{
 					"level": 12,
 					"feat": [
-						"cartógrafo das cicatrizes|MundoDeKyrFeats"
+						"cartógrafo das cicatrizes|Kÿr"
 					]
 				}
 			],
@@ -8471,19 +8471,19 @@
 		},
 		{
 			"name": "Corpo que Recusa Colapso",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"category": "BOOST",
 			"prerequisite": [
 				{
 					"level": 12,
 					"feat": [
-						"persistência do sobrevivente|MundoDeKyrFeats"
+						"persistência do sobrevivente|Kÿr"
 					]
 				},
 				{
 					"level": 12,
 					"feat": [
-						"marca de sobrevivente de kÿr|MundoDeKyrFeats"
+						"marca de sobrevivente de kÿr|Kÿr"
 					]
 				}
 			],
@@ -8525,19 +8525,19 @@
 		},
 		{
 			"name": "Vontade de Permanecer",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"category": "BOOST",
 			"prerequisite": [
 				{
 					"level": 12,
 					"feat": [
-						"marca de sobrevivente de kÿr|MundoDeKyrFeats"
+						"marca de sobrevivente de kÿr|Kÿr"
 					]
 				},
 				{
 					"level": 12,
 					"feat": [
-						"persistência do sobrevivente|MundoDeKyrFeats"
+						"persistência do sobrevivente|Kÿr"
 					]
 				}
 			],
@@ -8580,19 +8580,19 @@
 		},
 		{
 			"name": "Rastro de Guerra Ancestral",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"category": "BOOST",
 			"prerequisite": [
 				{
 					"level": 12,
 					"feat": [
-						"ruptura calculada|MundoDeKyrFeats"
+						"ruptura calculada|Kÿr"
 					]
 				},
 				{
 					"level": 12,
 					"feat": [
-						"campo de impasse|MundoDeKyrFeats"
+						"campo de impasse|Kÿr"
 					]
 				}
 			],
@@ -8635,19 +8635,19 @@
 		},
 		{
 			"name": "Senhor do Território",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"category": "BOOST",
 			"prerequisite": [
 				{
 					"level": 12,
 					"feat": [
-						"muralha de aço|MundoDeKyrFeats"
+						"muralha de aço|Kÿr"
 					]
 				},
 				{
 					"level": 12,
 					"feat": [
-						"campo de impasse|MundoDeKyrFeats"
+						"campo de impasse|Kÿr"
 					]
 				}
 			],
@@ -8689,19 +8689,19 @@
 		},
 		{
 			"name": "Comando de Interdição",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"category": "BOOST",
 			"prerequisite": [
 				{
 					"level": 12,
 					"feat": [
-						"ruptura calculada|MundoDeKyrFeats"
+						"ruptura calculada|Kÿr"
 					]
 				},
 				{
 					"level": 12,
 					"feat": [
-						"muralha de aço|MundoDeKyrFeats"
+						"muralha de aço|Kÿr"
 					]
 				}
 			],
@@ -8764,19 +8764,19 @@
 		},
 		{
 			"name": "Coração do Degelo Impossível",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"category": "BOOST",
 			"prerequisite": [
 				{
 					"level": 12,
 					"feat": [
-						"misericórdia glacial|MundoDeKyrFeats"
+						"misericórdia glacial|Kÿr"
 					]
 				},
 				{
 					"level": 12,
 					"feat": [
-						"guardião da chama fria|MundoDeKyrFeats"
+						"guardião da chama fria|Kÿr"
 					]
 				}
 			],
@@ -8827,19 +8827,19 @@
 		},
 		{
 			"name": "Trono da Brasa Pálida",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"category": "BOOST",
 			"prerequisite": [
 				{
 					"level": 12,
 					"feat": [
-						"fratura da brasa invernal|MundoDeKyrFeats"
+						"fratura da brasa invernal|Kÿr"
 					]
 				},
 				{
 					"level": 12,
 					"feat": [
-						"misericórdia glacial|MundoDeKyrFeats"
+						"misericórdia glacial|Kÿr"
 					]
 				}
 			],
@@ -8882,19 +8882,19 @@
 		},
 		{
 			"name": "Catedral da Quietude Invernal",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"category": "BOOST",
 			"prerequisite": [
 				{
 					"level": 12,
 					"feat": [
-						"selo do inverno branco|MundoDeKyrFeats"
+						"selo do inverno branco|Kÿr"
 					]
 				},
 				{
 					"level": 12,
 					"feat": [
-						"trilha do frio habitável|MundoDeKyrFeats"
+						"trilha do frio habitável|Kÿr"
 					]
 				}
 			],
@@ -8937,7 +8937,7 @@
 		},
 		{
 			"name": "Milagre da Seiva Áurea",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"category": "BOOST",
 			"prerequisite": [
 				{
@@ -8984,7 +8984,7 @@
 		},
 		{
 			"name": "Bastião da Passagem Negada",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"category": "BOOST",
 			"prerequisite": [
 				{
@@ -9031,7 +9031,7 @@
 		},
 		{
 			"name": "Sol do Inverno Imóvel",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"category": "BOOST",
 			"prerequisite": [
 				{
@@ -9078,7 +9078,7 @@
 		},
 		{
 			"name": "Arquivo das Raízes do Mundo",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"category": "BOOST",
 			"prerequisite": [
 				{
@@ -9136,7 +9136,7 @@
 		},
 		{
 			"name": "Catedral das Raízes Ausentes",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"category": "BOOST",
 			"prerequisite": [
 				{
@@ -9183,7 +9183,7 @@
 		},
 		{
 			"name": "Coração do Dragão Enraizado",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"category": "BOOST",
 			"prerequisite": [
 				{
@@ -9230,7 +9230,7 @@
 		},
 		{
 			"name": "Testemunha do Impossível",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"category": "BOOST",
 			"prerequisite": [
 				{
@@ -9276,7 +9276,7 @@
 		},
 		{
 			"name": "Nome que Abre Portas",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"category": "BOOST",
 			"prerequisite": [
 				{
@@ -9332,7 +9332,7 @@
 		},
 		{
 			"name": "Dívida que Ainda Respira",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"category": "BOOST",
 			"prerequisite": [
 				{
@@ -9378,7 +9378,7 @@
 		},
 		{
 			"name": "Juramento que Pesa",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"category": "BOOST",
 			"prerequisite": [
 				{
@@ -9424,7 +9424,7 @@
 		},
 		{
 			"name": "Herdeiro de Ruínas",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"category": "BOOST",
 			"prerequisite": [
 				{
@@ -9481,7 +9481,7 @@
 		},
 		{
 			"name": "Presença de Último Recurso",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"category": "BOOST",
 			"prerequisite": [
 				{
@@ -9527,7 +9527,7 @@
 		},
 		{
 			"name": "Pactuante sem Correntes",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"category": "BOOST",
 			"prerequisite": [
 				{
@@ -9573,7 +9573,7 @@
 		},
 		{
 			"name": "Cartógrafo de Fugas",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"category": "BOOST",
 			"prerequisite": [
 				{
@@ -9619,7 +9619,7 @@
 		},
 		{
 			"name": "Lenda Mal Contada",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"category": "BOOST",
 			"prerequisite": [
 				{
@@ -9665,7 +9665,7 @@
 		},
 		{
 			"name": "Âncora de Era",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"category": "BOOST",
 			"prerequisite": [
 				{
@@ -9714,7 +9714,7 @@
 		},
 		{
 			"name": "Mão Visível de Tarth",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 406,
 			"category": "BOOST",
 			"prerequisite": [
@@ -9762,7 +9762,7 @@
 		},
 		{
 			"name": "Arquiteto da Contenção",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 412,
 			"category": "BOOST",
 			"prerequisite": [
@@ -9810,7 +9810,7 @@
 		},
 		{
 			"name": "Pessoa que Não Consta",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 418,
 			"category": "BOOST",
 			"prerequisite": [
@@ -9858,7 +9858,7 @@
 		},
 		{
 			"name": "Primazia do Fluxo",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 424,
 			"category": "BOOST",
 			"prerequisite": [
@@ -9906,7 +9906,7 @@
 		},
 		{
 			"name": "Onde o Mapa Acaba",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 430,
 			"category": "BOOST",
 			"prerequisite": [
@@ -9954,7 +9954,7 @@
 		},
 		{
 			"name": "Nada que Foi Vivido se Perde",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 436,
 			"category": "BOOST",
 			"prerequisite": [
@@ -10002,7 +10002,7 @@
 		},
 		{
 			"name": "O Que Foi Arrancado Ainda Cresce",
-			"source": "MundoDeKyrFeats",
+			"source": "Kÿr",
 			"page": 442,
 			"category": "BOOST",
 			"prerequisite": [
