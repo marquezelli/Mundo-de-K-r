@@ -1,0 +1,3283 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "MundoDeKyrSubclasses",
+				"abbreviation": "Kÿr-Sub",
+				"full": "Mundo de Kÿr — Subclasses",
+				"authors": [
+					"Felipe Marquezelli"
+				],
+				"convertedBy": [
+					"ChatGPT"
+				],
+				"version": "1.0.0",
+				"url": "https://github.com/TheGiddyLimit/homebrew",
+				"dateAdded": 1777997340
+			}
+		],
+		"dateAdded": 1777997340
+	},
+	"subclass": [
+		{
+			"name": "Escola da Umbramancia",
+			"shortName": "Umbramancia",
+			"source": "MundoDeKyrSubclasses",
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"page": 0,
+			"edition": "one",
+			"subclassFeatures": [
+				"Iniciado do Vazio|Wizard|XPHB|Umbramancia|MundoDeKyrSubclasses|3",
+				"Âncora do Vazio (Reversão da Rizomancia)|Wizard|XPHB|Umbramancia|MundoDeKyrSubclasses|6",
+				"Zona de Apagamento (Reversão da Ecomancia)|Wizard|XPHB|Umbramancia|MundoDeKyrSubclasses|10",
+				"Supremacia do Apagamento (Reversão Suprema das Escolas Maiores)|Wizard|XPHB|Umbramancia|MundoDeKyrSubclasses|14"
+			],
+			"hasFluff": true
+		},
+		{
+			"name": "Umbra Sorcery",
+			"shortName": "Umbra",
+			"source": "MundoDeKyrSubclasses",
+			"className": "Sorcerer",
+			"classSource": "XPHB",
+			"page": 0,
+			"edition": "one",
+			"subclassFeatures": [
+				"Afinidade da Ausência|Sorcerer|XPHB|Umbra|MundoDeKyrSubclasses|3",
+				"Desapego Reativo|Sorcerer|XPHB|Umbra|MundoDeKyrSubclasses|6",
+				"Zona de Irrelevância|Sorcerer|XPHB|Umbra|MundoDeKyrSubclasses|14",
+				"Remover a Continuidade|Sorcerer|XPHB|Umbra|MundoDeKyrSubclasses|18"
+			],
+			"hasFluff": true,
+			"additionalSpells": [
+				{
+					"prepared": {
+						"3": [
+							"corte de ausência|MundoDeKyrLivroDasMagiasDeKyr",
+							"pressão do vazio|MundoDeKyrLivroDasMagiasDeKyr",
+							"silêncio direcionado|MundoDeKyrLivroDasMagiasDeKyr",
+							"véu de intersticio|MundoDeKyrLivroDasMagiasDeKyr",
+							"câmara de não-testemunho|MundoDeKyrLivroDasMagiasDeKyr",
+							"supressão de presença|MundoDeKyrLivroDasMagiasDeKyr"
+						],
+						"5": [
+							"deslocamento para o interstício|MundoDeKyrLivroDasMagiasDeKyr",
+							"dreno de ausência|MundoDeKyrLivroDasMagiasDeKyr"
+						],
+						"7": [
+							"extração de identidade|MundoDeKyrLivroDasMagiasDeKyr",
+							"zona de não-existência|MundoDeKyrLivroDasMagiasDeKyr"
+						],
+						"9": [
+							"câmara de ausência total|MundoDeKyrLivroDasMagiasDeKyr",
+							"cancelamento de vínculo|MundoDeKyrLivroDasMagiasDeKyr"
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Caminho do Guardião do Dohyō",
+			"shortName": "Guardião do Dohyō",
+			"source": "MundoDeKyrSubclasses",
+			"className": "Monk",
+			"classSource": "XPHB",
+			"page": 0,
+			"edition": "one",
+			"subclassFeatures": [
+				"Corpo Espiritual|Monk|XPHB|Guardião do Dohyō|MundoDeKyrSubclasses|3",
+				"Rito do Sal Purificador|Monk|XPHB|Guardião do Dohyō|MundoDeKyrSubclasses|6",
+				"Impacto do Trovão|Monk|XPHB|Guardião do Dohyō|MundoDeKyrSubclasses|11",
+				"Avatar da Montanha Sagrada|Monk|XPHB|Guardião do Dohyō|MundoDeKyrSubclasses|17"
+			],
+			"hasFluff": true
+		},
+		{
+			"name": "Escola da Rizomancia",
+			"shortName": "Rizomancia",
+			"source": "MundoDeKyrSubclasses",
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"page": 0,
+			"edition": "one",
+			"subclassFeatures": [
+				"Iniciado do Rizoma|Wizard|XPHB|Rizomancia|MundoDeKyrSubclasses|3",
+				"Crescimento Irreversível|Wizard|XPHB|Rizomancia|MundoDeKyrSubclasses|6",
+				"Rede Viva|Wizard|XPHB|Rizomancia|MundoDeKyrSubclasses|10",
+				"Rizoma Primordial|Wizard|XPHB|Rizomancia|MundoDeKyrSubclasses|14"
+			],
+			"hasFluff": true
+		},
+		{
+			"name": "Caminho do Mantra Arcano",
+			"shortName": "Mantra Arcano",
+			"source": "MundoDeKyrSubclasses",
+			"className": "Monk",
+			"classSource": "XPHB",
+			"page": 0,
+			"edition": "one",
+			"subclassFeatures": [
+				"Spellcasting|Monk|XPHB|Mantra Arcano|MundoDeKyrSubclasses|3",
+				"Punho Rúnico|Monk|XPHB|Mantra Arcano|MundoDeKyrSubclasses|3",
+				"Fluxo Arcano do Ki|Monk|XPHB|Mantra Arcano|MundoDeKyrSubclasses|6",
+				"Mantra de Supressão|Monk|XPHB|Mantra Arcano|MundoDeKyrSubclasses|11",
+				"Corpo como Selo Arcano|Monk|XPHB|Mantra Arcano|MundoDeKyrSubclasses|17"
+			],
+			"hasFluff": true
+		},
+		{
+			"name": "Colégio da Confraria dos Ecos",
+			"shortName": "Confraria dos Ecos",
+			"source": "MundoDeKyrSubclasses",
+			"className": "Bard",
+			"classSource": "XPHB",
+			"page": 0,
+			"edition": "one",
+			"subclassFeatures": [
+				"Eco Harmônico|Bard|XPHB|Confraria dos Ecos|MundoDeKyrSubclasses|3",
+				"Coro dos Esquecidos|Bard|XPHB|Confraria dos Ecos|MundoDeKyrSubclasses|6",
+				"Reflexo da Verdade|Bard|XPHB|Confraria dos Ecos|MundoDeKyrSubclasses|10",
+				"Canção do Legado Eterno|Bard|XPHB|Confraria dos Ecos|MundoDeKyrSubclasses|14"
+			],
+			"hasFluff": true
+		},
+		{
+			"name": "Escola de Ecomancia",
+			"shortName": "Ecomancia",
+			"source": "MundoDeKyrSubclasses",
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"page": 0,
+			"edition": "one",
+			"subclassFeatures": [
+				"Ecomante Iniciado|Wizard|XPHB|Ecomancia|MundoDeKyrSubclasses|3",
+				"Sensibilidade aos Ecos|Wizard|XPHB|Ecomancia|MundoDeKyrSubclasses|3",
+				"Reverberação Arcana|Wizard|XPHB|Ecomancia|MundoDeKyrSubclasses|6",
+				"Ecos Persistentes|Wizard|XPHB|Ecomancia|MundoDeKyrSubclasses|10",
+				"Âncora do Passado|Wizard|XPHB|Ecomancia|MundoDeKyrSubclasses|14"
+			],
+			"hasFluff": true
+		},
+		{
+			"name": "Domínio do Caos",
+			"shortName": "Caos",
+			"source": "MundoDeKyrSubclasses",
+			"className": "Cleric",
+			"classSource": "XPHB",
+			"page": 0,
+			"edition": "one",
+			"subclassFeatures": [
+				"Fé Instável|Cleric|XPHB|Caos|MundoDeKyrSubclasses|3",
+				"Corpo Instável|Cleric|XPHB|Caos|MundoDeKyrSubclasses|6",
+				"Arquiteto do Caos|Cleric|XPHB|Caos|MundoDeKyrSubclasses|17"
+			],
+			"hasFluff": true,
+			"additionalSpells": [
+				{
+					"prepared": {
+						"3": [
+							"chromatic orb|xphb",
+							"identify|xphb",
+							"mirror image|xphb",
+							"find traps|xphb"
+						],
+						"5": [
+							"blur|xphb",
+							"blink|xphb"
+						],
+						"7": [
+							"compulsion|xphb",
+							"confusion|xphb"
+						],
+						"9": [
+							"circle of power|xphb",
+							"dominate person|xphb"
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Domínio da Ordem dos Ancestrais",
+			"shortName": "Ordem dos Ancestrais",
+			"source": "MundoDeKyrSubclasses",
+			"className": "Cleric",
+			"classSource": "XPHB",
+			"page": 0,
+			"edition": "one",
+			"subclassFeatures": [
+				"Voz dos Antigos|Cleric|XPHB|Ordem dos Ancestrais|MundoDeKyrSubclasses|3",
+				"Corpo de Tradição|Cleric|XPHB|Ordem dos Ancestrais|MundoDeKyrSubclasses|6",
+				"Herdeiro do Primeiro Eco|Cleric|XPHB|Ordem dos Ancestrais|MundoDeKyrSubclasses|17"
+			],
+			"hasFluff": true,
+			"additionalSpells": [
+				{
+					"prepared": {
+						"3": [
+							"bane|xphb",
+							"detect magic|xphb",
+							"crown of madness|xphb",
+							"gentle repose|xphb"
+						],
+						"5": [
+							"crusader's mantle|xphb",
+							"hunger of hadar|xphb"
+						],
+						"7": [
+							"death ward|xphb",
+							"phantasmal killer|xphb"
+						],
+						"9": [
+							"commune|xphb",
+							"legend lore|xphb"
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Caminho dos Ecos Ressonantes",
+			"shortName": "Ecos Ressonantes",
+			"source": "MundoDeKyrSubclasses",
+			"className": "Monk",
+			"classSource": "XPHB",
+			"page": 0,
+			"edition": "one",
+			"subclassFeatures": [
+				"Golpes Ressonantes|Monk|XPHB|Ecos Ressonantes|MundoDeKyrSubclasses|3",
+				"Transposição Vibratória|Monk|XPHB|Ecos Ressonantes|MundoDeKyrSubclasses|6",
+				"Onda Crescente|Monk|XPHB|Ecos Ressonantes|MundoDeKyrSubclasses|11",
+				"Eco Perfeito|Monk|XPHB|Ecos Ressonantes|MundoDeKyrSubclasses|17"
+			],
+			"hasFluff": true
+		},
+		{
+			"name": "Circle of Mythic Beasts",
+			"shortName": "Mythic Beasts",
+			"source": "MundoDeKyrSubclasses",
+			"className": "Druid",
+			"classSource": "XPHB",
+			"page": 0,
+			"edition": "one",
+			"subclassFeatures": [
+				"Guerreiro do Selvagem Mítico|Druid|XPHB|Mythic Beasts|MundoDeKyrSubclasses|3",
+				"Arsenal Místico|Druid|XPHB|Mythic Beasts|MundoDeKyrSubclasses|6",
+				"Manifestação Ascendente|Druid|XPHB|Mythic Beasts|MundoDeKyrSubclasses|10",
+				"Avatar das Criaturas Eternas|Druid|XPHB|Mythic Beasts|MundoDeKyrSubclasses|14"
+			],
+			"hasFluff": true
+		},
+		{
+			"name": "Arqueiro Elemental",
+			"shortName": "Arqueiro Elemental",
+			"source": "MundoDeKyrSubclasses",
+			"className": "Ranger",
+			"classSource": "XPHB",
+			"page": 0,
+			"edition": "one",
+			"subclassFeatures": [
+				"Aether Imbuído|Ranger|XPHB|Arqueiro Elemental|MundoDeKyrSubclasses|3",
+				"Condensação Elemental|Ranger|XPHB|Arqueiro Elemental|MundoDeKyrSubclasses|7",
+				"Arquearia da Fonte Primordial|Ranger|XPHB|Arqueiro Elemental|MundoDeKyrSubclasses|11",
+				"Mestre do Arco Aetérico|Ranger|XPHB|Arqueiro Elemental|MundoDeKyrSubclasses|15"
+			],
+			"hasFluff": true,
+			"additionalSpells": [
+				{
+					"prepared": {
+						"3": [
+							"goodberry|xphb"
+						],
+						"5": [
+							"pass without trace|xphb"
+						],
+						"9": [
+							"haste|xphb"
+						],
+						"13": [
+							"freedom of movement|xphb"
+						],
+						"17": [
+							"commune with nature|xphb"
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Shinobi",
+			"shortName": "Shinobi",
+			"source": "MundoDeKyrSubclasses",
+			"className": "Rogue",
+			"classSource": "XPHB",
+			"page": 0,
+			"edition": "one",
+			"subclassFeatures": [
+				"Técnica do Silêncio Vivo|Rogue|XPHB|Shinobi|MundoDeKyrSubclasses|3",
+				"Passos Entre Sombras|Rogue|XPHB|Shinobi|MundoDeKyrSubclasses|9",
+				"Instinto da Lua|Rogue|XPHB|Shinobi|MundoDeKyrSubclasses|13",
+				"Caminho do Verdadeiro Silêncio|Rogue|XPHB|Shinobi|MundoDeKyrSubclasses|17"
+			],
+			"hasFluff": true
+		},
+		{
+			"name": "Crepúsculo Eterno",
+			"shortName": "Crepúsculo Eterno",
+			"source": "MundoDeKyrSubclasses",
+			"className": "Sorcerer",
+			"classSource": "XPHB",
+			"page": 0,
+			"edition": "one",
+			"subclassFeatures": [
+				"Equilíbrio Luminoso|Sorcerer|XPHB|Crepúsculo Eterno|MundoDeKyrSubclasses|3",
+				"Limiar Crepuscular|Sorcerer|XPHB|Crepúsculo Eterno|MundoDeKyrSubclasses|6",
+				"O Beijo do Crepúsculo|Sorcerer|XPHB|Crepúsculo Eterno|MundoDeKyrSubclasses|14",
+				"Eclipse Vivo|Sorcerer|XPHB|Crepúsculo Eterno|MundoDeKyrSubclasses|18"
+			],
+			"hasFluff": true,
+			"additionalSpells": [
+				{
+					"prepared": {
+						"3": [
+							"starry wisp|xphb#c",
+							"toll the dead|xphb#c",
+							"cure wounds|xphb",
+							"inflict wounds|xphb",
+							"darkness|xphb",
+							"moonbeam|xphb"
+						],
+						"5": [
+							"spirit guardians|xphb",
+							"aura of vitality|xphb"
+						],
+						"7": [
+							"death ward|xphb",
+							"blight|xphb"
+						],
+						"9": [
+							"mass cure wounds|xphb",
+							"contagion|xphb"
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Lâmina Primordial",
+			"shortName": "Lâmina Primordial",
+			"source": "MundoDeKyrSubclasses",
+			"className": "Sorcerer",
+			"classSource": "XPHB",
+			"page": 0,
+			"edition": "one",
+			"subclassFeatures": [
+				"Forja da Alma|Sorcerer|XPHB|Lâmina Primordial|MundoDeKyrSubclasses|3",
+				"Lâmina de Aether|Sorcerer|XPHB|Lâmina Primordial|MundoDeKyrSubclasses|6",
+				"Posturas Primordiais|Sorcerer|XPHB|Lâmina Primordial|MundoDeKyrSubclasses|14",
+				"Despertar Primordial|Sorcerer|XPHB|Lâmina Primordial|MundoDeKyrSubclasses|18"
+			],
+			"hasFluff": true
+		},
+		{
+			"name": "Way of the Veiled Blade",
+			"shortName": "Veiled Blade",
+			"source": "MundoDeKyrSubclasses",
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"page": 0,
+			"edition": "one",
+			"subclassFeatures": [
+				"Iaiflow Discipline|Fighter|XPHB|Veiled Blade|MundoDeKyrSubclasses|3",
+				"Eyes of Stillness (Olhos da Imobilidade)|Fighter|XPHB|Veiled Blade|MundoDeKyrSubclasses|7",
+				"Posture Flow (Fluxo das Posturas)|Fighter|XPHB|Veiled Blade|MundoDeKyrSubclasses|10",
+				"Moment of Perfect Cut|Fighter|XPHB|Veiled Blade|MundoDeKyrSubclasses|15",
+				"The Veiled World|Fighter|XPHB|Veiled Blade|MundoDeKyrSubclasses|18"
+			],
+			"hasFluff": true
+		},
+		{
+			"name": "Path of the Oni",
+			"shortName": "Oni",
+			"source": "MundoDeKyrSubclasses",
+			"className": "Barbarian",
+			"classSource": "XPHB",
+			"page": 0,
+			"edition": "one",
+			"subclassFeatures": [
+				"Sangue Desperto|Barbarian|XPHB|Oni|MundoDeKyrSubclasses|3",
+				"Marca do Oni|Barbarian|XPHB|Oni|MundoDeKyrSubclasses|6",
+				"Técnicas Carmesins|Barbarian|XPHB|Oni|MundoDeKyrSubclasses|10",
+				"Natureza Oni|Barbarian|XPHB|Oni|MundoDeKyrSubclasses|14"
+			],
+			"hasFluff": true
+		},
+		{
+			"name": "Juramento do Despertar Dracônico",
+			"shortName": "Despertar Dracônico",
+			"source": "MundoDeKyrSubclasses",
+			"className": "Paladin",
+			"classSource": "XPHB",
+			"page": 0,
+			"edition": "one",
+			"subclassFeatures": [
+				"Escolha do Dragão Ancestral|Paladin|XPHB|Despertar Dracônico|MundoDeKyrSubclasses|3",
+				"Aura Dracônica|Paladin|XPHB|Despertar Dracônico|MundoDeKyrSubclasses|7",
+				"Coração dos Primevos|Paladin|XPHB|Despertar Dracônico|MundoDeKyrSubclasses|15",
+				"Avatar Dracônico|Paladin|XPHB|Despertar Dracônico|MundoDeKyrSubclasses|20"
+			],
+			"hasFluff": true,
+			"additionalSpells": [
+				{
+					"prepared": {
+						"3": [
+							"chromatic orb|xphb",
+							"chromatic smite|MundoDeKyrLivroDasMagiasDeKyr"
+						],
+						"5": [
+							"dragon's breath|xphb",
+							"chromatic weapon|MundoDeKyrLivroDasMagiasDeKyr"
+						],
+						"9": [
+							"fly|xphb",
+							"fear|xphb"
+						],
+						"13": [
+							"fire shield|xphb",
+							"elemental bane|xphb"
+						],
+						"17": [
+							"flame strike|xphb",
+							"summon dragon|xphb"
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Criaturas Místicas",
+			"shortName": "Criaturas Místicas",
+			"source": "MundoDeKyrSubclasses",
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"page": 0,
+			"edition": "one",
+			"subclassFeatures": [
+				"Elo Místico|Wizard|XPHB|Criaturas Místicas|MundoDeKyrSubclasses|3",
+				"Harmonia Invocada|Wizard|XPHB|Criaturas Místicas|MundoDeKyrSubclasses|6",
+				"Convergência Espiritual|Wizard|XPHB|Criaturas Místicas|MundoDeKyrSubclasses|10",
+				"Chamado da Legião Ancestral|Wizard|XPHB|Criaturas Místicas|MundoDeKyrSubclasses|14"
+			],
+			"hasFluff": true
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Iniciado do Vazio",
+			"source": "MundoDeKyrSubclasses",
+			"page": 0,
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"subclassShortName": "Umbramancia",
+			"subclassSource": "MundoDeKyrSubclasses",
+			"level": 3,
+			"entries": [
+				"“Onde não há lembrança, nasce a sombra.”",
+				"Os magos da Escola da Umbramancia estudam aquilo que não ecoa.",
+				"Enquanto a Ecomancia escuta o que o mundo lembra, a Umbramancia investiga o que foi apagado, silenciado ou nunca existiu plenamente.",
+				"Em Kÿr, a sombra não é ausência de luz — é ausência de memória.",
+				"Os Umbramantes manipulam falhas no tecido da realidade, zonas onde os Ecos se rompem, criando espaços de silêncio arcano, medo primordial e dissolução conceitual.",
+				"Eles não evocam trevas vivas.",
+				"Eles retiram significado.",
+				"Você aprende a manipular regiões onde a realidade perdeu coesão.",
+				{
+					"type": "entries",
+					"name": "Grimório da Umbra",
+					"entries": [
+						"Ao escolher esta escola no 3º nível, escolha duas magias de Mago da Escola da Umbramancia, cada uma de até 2º nível, e adicione-as ao seu grimório sem custo.",
+						"Além disso, sempre que você ganhar acesso a um novo nível de espaços de magia nesta classe, você poderá adicionar uma magia de Mago da Escola da Umbramancia ao seu grimório sem custo, desde que seja de um nível para o qual você possua espaços de magia.",
+						"{@b Sensibilidade ao Vazio}. Você aprende a reconhecer falhas na memória do mundo — lugares onde algo foi apagado, não apenas destruído. Você ganha os seguintes benefícios permanentes:",
+						"{@b {@skill Perception|XPHB} Umbral}. Você tem {@spell Detect Magic|XPHB} sempre preparada, e ela não conta para o limite de magias preparadas. Quando você conjura {@spell Detect Magic|XPHB}, além dos efeitos normais, você também percebe:",
+						{
+							"type": "list",
+							"items": [
+								"Áreas onde magias foram dissipadas, anuladas ou falharam nas últimas 24 horas.",
+								"Ecos residuais de eventos apagados (memórias suprimidas, rituais desfeitos, vínculos rompidos), percebidos como distorções silenciosas.",
+								"Criaturas sob {@condition Invisible|XPHB}, deslocamento planar ou efeitos ilusórios, desde que estejam em luz fraca ou escuridão, aparecendo como silhuetas distorcidas."
+							]
+						},
+						"Esses sentidos não atravessam chumbo nem funcionam em áreas de antimagia.",
+						"{@b Resistência ao Silêncio Arcano}. Sempre que você fizer um teste de resistência contra uma magia ou efeito mágico enquanto estiver em luz fraca ou escuridão, você pode adicionar +2 ao teste."
+					]
+				}
+			]
+		},
+		{
+			"name": "Âncora do Vazio (Reversão da Rizomancia)",
+			"source": "MundoDeKyrSubclasses",
+			"page": 0,
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"subclassShortName": "Umbramancia",
+			"subclassSource": "MundoDeKyrSubclasses",
+			"level": 6,
+			"entries": [
+				"Você aprende a fixar o nada onde antes havia sustentação, transformando vínculos mágicos em pontos de colapso.",
+				"Quando você conjura uma magia de 1º nível ou superior que cause dano ou imponha uma condição a uma criatura, você pode, sem ação adicional, ancorar o vazio no alvo. Até o início do seu próximo turno, o alvo sofre os seguintes efeitos:",
+				{
+					"type": "list",
+					"items": [
+						"{@b Proteções mágicas falham}: o alvo não pode se beneficiar de resistência a dano, redução de dano, pontos de vida temporários ou bônus mágicos à Classe de Armadura.",
+						"{@b Escudos e barreiras se voltam contra o alvo}: na primeira vez em cada rodada que o alvo sofrer dano enquanto estiver sob este efeito, ele sofre dano psíquico adicional igual ao seu bônus de proficiência.",
+						"{@b O vazio permanece fixo}: se o alvo tentar se teleportar, mudar de plano ou deslocar sua existência por meio mágico, a tentativa ocorre normalmente, mas o alvo sofre {@dice 2d10} de dano psíquico imediatamente após o deslocamento."
+					]
+				},
+				"Esse efeito não impede movimento, fuga ou conjuração. Ele garante que nenhuma dessas ações seja segura.",
+				"Você pode usar esta característica um número de vezes igual ao seu modificador de Inteligência (mínimo 1), recuperando todos os usos após um {@variantrule Long Rest|XPHB}."
+			]
+		},
+		{
+			"name": "Zona de Apagamento (Reversão da Ecomancia)",
+			"source": "MundoDeKyrSubclasses",
+			"page": 0,
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"subclassShortName": "Umbramancia",
+			"subclassSource": "MundoDeKyrSubclasses",
+			"level": 10,
+			"entries": [
+				"Você aprende a transformar a falha de uma magia sustentada em uma entidade faminta, arrancada da memória corrompida do mundo.",
+				"Quando você conjura uma magia de área, você pode gastar uma ação bônus para transformar a área afetada em uma Zona de Apagamento enquanto a magia durar. Enquanto a Zona existir, aplicam-se os seguintes efeitos:",
+				{
+					"type": "list",
+					"items": [
+						"Criaturas na área não podem ganhar vantagem em jogadas de ataque, testes de resistência ou testes de habilidade.",
+						"Sempre que uma criatura conjurar uma magia ou ativar uma habilidade mágica na área, ela sofre dano psíquico igual ao seu bônus de proficiência."
+					]
+				},
+				"Além disso, na primeira vez a cada rodada em que uma criatura hostil perder concentração em uma magia dentro da Zona, um Eco Corrompido se manifesta em um ponto desocupado à escolha do DM dentro da área.",
+				{
+					"type": "entries",
+					"name": "Manifestação do Eco Corrompido",
+					"entries": [
+						"O Eco Corrompido utiliza sua ficha própria.",
+						{
+							"type": "list",
+							"items": [
+								"O Eco Corrompido age no final do seu turno, imediatamente após você encerrar suas ações.",
+								"Ele não obedece a comandos e não pode ser controlado por você.",
+								"O Eco Corrompido não considera você um inimigo, ignorando sua presença para fins de alvo e agressão.",
+								"Todas as demais criaturas são tratadas como alvos válidos, a critério do DM, de acordo com a fome e instabilidade do Eco."
+							]
+						},
+						"O Eco Corrompido permanece até ser destruído, até o fim da duração da Zona de Apagamento ou até o início do seu próximo {@variantrule Long Rest|XPHB}, o que ocorrer primeiro.",
+						"Você só pode ter um Eco Corrompido ativo por vez por meio desta habilidade. Se um novo Eco fosse se manifestar enquanto outro ainda existir, o Eco anterior se dissipa imediatamente.",
+						"Você pode usar esta característica um número de vezes igual ao seu modificador de Inteligência (mínimo 1), recuperando todos os usos após um {@variantrule Long Rest|XPHB}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Supremacia do Apagamento (Reversão Suprema das Escolas Maiores)",
+			"source": "MundoDeKyrSubclasses",
+			"page": 0,
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"subclassShortName": "Umbramancia",
+			"subclassSource": "MundoDeKyrSubclasses",
+			"level": 14,
+			"entries": [
+				"Você aprende a desconectar uma magia de sua escola original, apagando sua lógica fundadora e reconjurando seu efeito através da Umbramancia.",
+				"Sempre que você conjurar uma magia de Mago de 1º nível ou superior que não pertença à Escola da Umbramancia, você pode optar por conjurá-la como uma Magia de Apagamento.",
+				"Ao fazer isso:",
+				{
+					"type": "list",
+					"items": [
+						"A magia passa a ser considerada Umbramancia para todos os efeitos.",
+						"Você escolhe um Efeito de Apagamento da lista abaixo para ser aplicado à magia.",
+						"Você paga o custo rolando Dados de Vida, sofrendo dano psíquico igual ao total rolado (esse dano ignora resistência)."
+					]
+				},
+				"Você pode usar Supremacia do Apagamento uma vez por turno, e não pode reduzir, evitar ou transferir o dano causado por essa habilidade de nenhuma forma.",
+				{
+					"type": "entries",
+					"name": "Efeitos de Apagamento",
+					"entries": [
+						"Você escolhe apenas um efeito por conjuração. Todos os efeitos requerem um teste de resistência.",
+						"{@b Apagamento de Memória} (Reversão da Ecomancia). Custo: 1 Dado de Vida. Teste de resistência: Carisma. Até o início do seu próximo turno, possuem desvantagem no próximo teste de resistência que realizar.",
+						"{@b Apagamento Estrutural} (Reversão da Rizomancia). Custo: 2 Dados de Vida. Teste de resistência: Sabedoria. A magia ignora temporariamente sustentação e proteção. Criaturas afetadas pela magia perdem automaticamente todos os pontos de vida temporários, além disso, a magia desencadeadora ignora resistência e trata imunidade como resistência.",
+						"{@b Falha de Existência}. Custo: 2 Dados de Vida. Teste de resistência: Constituição. Você inverte a ordem natural da regeneração. Todas as criaturas afetadas pela magia não podem receber cura mágica até o início do seu próximo turno. Além disso, se a criatura for curada por qualquer meio, a cura na realidade causa dano.",
+						"{@b Reforço de Continuidade}. Custo: 3 Dados de Vida. Sua magia consome sua energia para se fortalecer. O DC de sua magia aumenta em +2.",
+						"{@b Eco do Nada}. Custo: 3 Dados de Vida. A magia deixa resíduos instáveis do vazio. Você cria um Eco Corrompido.",
+						"{@b Apagamento Absoluto}. Custo: 4 Dados de Vida. Você força a magia a existir fora da lógica normal do mundo. Você pode gastar sua ação bônus para reconjurar a magia, sem gastar spell slot. Você não pode fazer isso magias de 6º círculo ou superior.",
+						"{@b Força entrópica do medo}.  Custo: 7 Dados de Vida. Teste de resistência: Sabedoria. Você força a magia a romper a sequência normal de causa e efeito no instante imediato. Todas as criaturas alvo devem gastar suas reações para mover-se para longe de você, utilizando todo seu movimento, para cada 1,5m (5ft) movido, ela toma {@dice 2d6} de dano necrótico (que ignora resistência).",
+						"{@b Apagamento de Vínculo Existencial}.  Custo: 9 Dados de Vida. Teste de resistência: Carisma. Você desconecta a criatura afetada de fontes externas de poder e sustentação. Caso a criatura possua qualquer equipamento sintonizado, você dessintoniza-o. Além disso, você apaga a existência da criatura, apagando os efeitos do último turno dela, exemplo, caso ela tenha causado dano, as criaturas que o sofreram recuperam os pontos de vida perdidos. Esse apagamento não pode beneficiar você.",
+						"{@b Apagamento de Identidade Funcional}.   Custo: 11 Dados de Vida. Teste de resistência: Constituição. Você apaga temporariamente o “papel” da criatura dentro da estrutura do mundo. A criatura perde acesso a todas as habilidades de classe acima do 1º nível até o final do seu próximo turno.   Traços raciais, talentos e características mágicas inatas ficam suprimidos durante esse período. A criatura ainda pode se mover, atacar e agir normalmente, mas sem acesso a identidades mecânicas complexas."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Limites e Consequências",
+					"entries": [
+						{
+							"type": "list",
+							"items": [
+								"Você não pode conjurar uma magia como Magia de Apagamento se estiver com menos da metade dos seus Dados de Vida restantes.",
+								"Se você reduzir seus Dados de Vida a 0 por meio desta habilidade, você sofre um Colapso Umbral (condição narrativa severa, a definir pelo DM).",
+								"O dano pago representa apagamento interno, não exaustão física comum."
+							]
+						},
+						"# Colapso Umbral",
+						"{@i Condição especial (ontológica)}",
+						"O Colapso Umbral ocorre quando um mago da Umbramancia esgota seus próprios limites existenciais, apagando partes de si ao tentar conjurar através do vazio.",
+						"Um personagem sob Colapso Umbral sofre os seguintes efeitos:"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Existência Fraturada",
+					"entries": [
+						"O personagem passa a existir de forma instável.",
+						{
+							"type": "list",
+							"items": [
+								"Ele não pode recuperar Pontos de Vida por meios mágicos.",
+								"Sempre que recuperar Pontos de Vida por meios não mágicos, recupera apenas metade do valor normal (arredondado para baixo).",
+								"Ele tem desvantagem em testes de Constituição para manter concentração em magias."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Rejeição da Trama",
+					"entries": [
+						"A Trama passa a resistir ativamente à presença do personagem.",
+						{
+							"type": "list",
+							"items": [
+								"Sempre que o personagem conjurar uma magia de 1º nível ou superior, deve realizar um teste de resistência de Constituição contra sua própria CD de magia.",
+								"Em falha, a magia é conjurada, mas o personagem sofre {@dice 2d10} de dano psíquico que ignora resistência.",
+								"Em sucesso, a magia ocorre normalmente, sem dano adicional."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Apagamento Parcial",
+					"entries": [
+						"Partes da identidade do personagem entram em colapso.",
+						{
+							"type": "list",
+							"items": [
+								"O personagem tem desvantagem em testes de Inteligência, Sabedoria e Carisma.",
+								"Ele não pode se beneficiar de vantagem concedida por efeitos mágicos nesses testes."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Marca do Nada",
+					"entries": [
+						"O personagem emana uma presença de ausência.",
+						{
+							"type": "list",
+							"items": [
+								"Criaturas sensíveis à magia percebem o personagem como uma “falha” ou “silêncio” na realidade.",
+								"Testes sociais baseados em empatia, confiança ou inspiração feitos pelo personagem sofrem desvantagem.",
+								"Criaturas extraplanares, Ecos e entidades ligadas à Aether reagem de forma hostil ou inquieta à sua presença, a critério do DM."
+							]
+						},
+						"# Eco Corrompido",
+						"{@i Médio morto-vivo (eco), neutro maligno}",
+						"Classe de Armadura 15 (carapaça etérea instável)",
+						"Pontos de Vida 45 ({@dice 6d8 + 18})",
+						"Deslocamento 9 m, flutuar 9 m",
+						"FOR 8 (-1)",
+						"DES 16 (+3)",
+						"CON 16 (+3)",
+						"INT 6 (−2)",
+						"SAB 12 (+1)",
+						"CAR 15 (+2)",
+						"Testes de Resistência CON +7, SAB +5",
+						"Perícias {@skill Perception|XPHB} +4",
+						"Imunidades a Dano psíquico, necrótico",
+						"Resistências a Dano perfurante e cortante de ataques",
+						"Imunidades a Condição {@condition Charmed|XPHB}, {@condition Frightened|XPHB}",
+						"Sentidos visão no escuro 18 m, {@skill Perception|XPHB} passiva 14",
+						"Idiomas entende os idiomas da criatura cuja magia originou o Eco, mas não fala",
+						"ND 4",
+						"{@b {@skill Nature|XPHB} Corrompida}. O Eco Corrompido nasce do colapso de uma magia sustentada por memória (Ecomancia, concentração prolongada, efeitos persistentes). Ele não possui identidade própria — apenas fome de apagamento.",
+						"Fome de Existência. Sempre que uma criatura conjura uma magia a até 6 m do Eco Corrompido, o Eco pode usar sua reação para causar {@dice 1d6} de dano psíquico à criatura conjuradora. Se o dano causar perda de concentração, o Eco recupera 10 pontos de vida.",
+						"Corrosão de Memória. Criaturas que iniciam o turno a até 3 m do Eco Corrompido têm desvantagem no primeiro teste de Inteligência, Sabedoria ou Carisma que realizarem naquele turno.",
+						"{@b Instabilidade Ontológica}. Quando o Eco Corrompido é reduzido a 0 pontos de vida, ele não se dissipa silenciosamente. Todas as criaturas a até 3 m devem realizar um teste de resistência de Constituição ({@dc 14}). Em falha, sofrem {@dice 2d8} de dano psíquico; em sucesso, metade do dano.",
+						{
+							"type": "entries",
+							"name": "Ações",
+							"entries": [
+								"{@b Toque de Apagamento}. Ataque Corpo a Corpo com Magia: +6 para atingir, alcance 1,5 m, um alvo. Dano: {@dice 2d8 + 3} de dano psíquico.",
+								"Se o alvo estiver mantendo concentração, ele realiza o teste de resistência para manter concentração com desvantagem. Em falha, além de perder a concentração, sofre {@dice 1d6} de dano psíquico adicional."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Reação",
+							"entries": [
+								"{@b Ressonância Faminta}. Quando uma criatura a até 6 m perde concentração em uma magia, o Eco Corrompido pode se mover até metade do seu deslocamento em direção à criatura sem provocar ataques de oportunidade."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Afinidade da Ausência",
+			"source": "MundoDeKyrSubclasses",
+			"page": 0,
+			"className": "Sorcerer",
+			"classSource": "XPHB",
+			"subclassShortName": "Umbra",
+			"subclassSource": "MundoDeKyrSubclasses",
+			"level": 3,
+			"entries": [
+				"A Umbramancia é a origem de feiticeiros cuja magia atua na retirada, não na criação. Onde seu poder se manifesta, o mundo deixa de insistir: sons cessam, movimentos perdem urgência e presenças tornam-se incertas. Esses feiticeiros não controlam sombras, mas os limites entre estar e não estar, aprendendo cedo que cada ausência tem peso e que nem tudo o que é removido pode ser devolvido. Ainda assim, alguns aceitam esse fardo, acreditando que há momentos em que a única forma de preservar o que importa é permitir que algo deixe de existir.",
+				"Alguns feiticeiros não manifestam magia criando energia, matéria ou forma. Sua magia atua na permanência das coisas. Onde ela toca, o mundo deixa de insistir. Um Umbramante não controla sombras. Ele remove relevância.",
+				{
+					"type": "entries",
+					"name": "Magias da Umbramancia",
+					"entries": [
+						"Você sempre tem as magias abaixo preparadas. Elas contam como magias de feiticeiro para você e não contam contra o limite de magias conhecidas.",
+						"Nível de magia | Magias",
+						"{@b 1º.} Corte de Ausência, Pressão do Vazio, Silêncio Direcionado, Véu de Intersticio",
+						"{@b 2º.} Câmara de Não-Testemunho, Supressão de Presença",
+						"{@b 3º.} Deslocamento para o Interstício, Dreno de Ausência",
+						"{@b 4º.} Extração de Identidade, Zona de Não-Existência",
+						"{@b 5º.} Câmara de Ausência Total, Cancelamento de Vínculo",
+						"Sua conexão com a Umbramancia se manifesta como a capacidade de agir onde a realidade falha em registrar presença."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Marca Umbral",
+					"entries": [
+						"Você aprende o truque Arranhão de Ausência. Ele conta como um truque de Feiticeiro para você e não conta contra o número de truques conhecidos.",
+						"Além disso, sempre que você causar dano com uma magia de Umbramancia, você pode escolher um dos efeitos abaixo:",
+						{
+							"type": "list",
+							"items": [
+								"O dano não produz som audível além de 3 metros.",
+								"O dano não deixa marcas visíveis no alvo.> A escolha é feita no momento em que a magia causa dano."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Remoção Parcial",
+					"entries": [
+						"Enquanto sua {@classFeature Innate Sorcery|Sorcerer|XPHB|1} estiver ativa, quando você causar dano a uma criatura, você pode impor um dos efeitos abaixo ao alvo até o início do seu próximo turno:",
+						{
+							"type": "list",
+							"items": [
+								"Desancorar. A criatura não pode realizar reações.",
+								"Reduzir. A criatura sofre –{@dice 1d4} na próxima jogada de ataque ou no próximo teste de resistência que realizar.",
+								"Imobilizar Brevemente. A velocidade da criatura se torna 0."
+							]
+						},
+						"Se a magia for de Umbramancia, você pode escolher dois efeitos diferentes da lista acima.",
+						"Um mesmo alvo só pode ser afetado por esta característica uma vez por turno."
+					]
+				}
+			]
+		},
+		{
+			"name": "Desapego Reativo",
+			"source": "MundoDeKyrSubclasses",
+			"page": 0,
+			"className": "Sorcerer",
+			"classSource": "XPHB",
+			"subclassShortName": "Umbra",
+			"subclassSource": "MundoDeKyrSubclasses",
+			"level": 6,
+			"entries": [
+				"Você aprende a reagir instintivamente ao perigo, permitindo que o vazio absorva parte do impacto e reposicione sua existência.",
+				{
+					"type": "entries",
+					"name": "Desapego Instintivo",
+					"entries": [
+						"Quando você sofrer dano de um ataque ou falhar em um teste de resistência, você pode usar sua reação e gastar 2 Pontos de Feitiçaria para obter os seguintes benefícios:",
+						{
+							"type": "list",
+							"items": [
+								"O dano sofrido é reduzido à metade.",
+								"Você se move até 4,5 metros (15 ft) para um espaço desocupado que possa ver."
+							]
+						},
+						"Esse movimento não provoca ataques de oportunidade.",
+						"Você pode usar esta característica mesmo se estiver sob um efeito que impeça movimento, desde que não esteja {@condition Unconscious|XPHB}.",
+						"#"
+					]
+				}
+			],
+			"consumes": {
+				"name": "Sorcery Point"
+			}
+		},
+		{
+			"name": "Zona de Irrelevância",
+			"source": "MundoDeKyrSubclasses",
+			"page": 0,
+			"className": "Sorcerer",
+			"classSource": "XPHB",
+			"subclassShortName": "Umbra",
+			"subclassSource": "MundoDeKyrSubclasses",
+			"level": 14,
+			"entries": [
+				"Você aprende a impor sua ausência como um campo de distorção local, tornando-se um ponto de falha na percepção mágica do mundo.",
+				{
+					"type": "entries",
+					"name": "Campo de Ausência Local",
+					"entries": [
+						"Enquanto sua {@classFeature Innate Sorcery|Sorcerer|XPHB|1} estiver ativa, você pode gastar 3 Pontos de Feitiçaria para criar uma aura de 3 metros (10 ft) centrada em você. A aura dura 1 minuto ou até ser encerrada.",
+						"Enquanto a aura estiver ativa:> - Criaturas hostis na área não podem se beneficiar de vantagem.",
+						{
+							"type": "list",
+							"items": [
+								"Criaturas hostis na área têm desvantagem em testes de resistência contra suas magias. > Magias que tenham sido originalmente conjuradas com espaços de 1º nível falham automaticamente se tiverem você como alvo enquanto estiver dentro da aura, incluindo magias de cura."
+							]
+						},
+						"A aura se move com você.",
+						"Você pode encerrar a aura a qualquer momento (sem ação necessária), sem encerrar sua {@classFeature Innate Sorcery|Sorcerer|XPHB|1}.",
+						"#"
+					]
+				}
+			],
+			"consumes": {
+				"name": "Sorcery Point"
+			}
+		},
+		{
+			"name": "Remover a Continuidade",
+			"source": "MundoDeKyrSubclasses",
+			"page": 0,
+			"className": "Sorcerer",
+			"classSource": "XPHB",
+			"subclassShortName": "Umbra",
+			"subclassSource": "MundoDeKyrSubclasses",
+			"level": 18,
+			"entries": [
+				"Você aprende a apagar uma criatura do fluxo imediato da realidade, rompendo sua permanência no mundo por um instante.",
+				"Como uma Ação, você escolhe uma criatura que possa ver a até 18 metros (60 ft). O alvo deve realizar um teste de resistência de Constituição contra sua CD de magia.",
+				"Em uma falha, o alvo sofre {@dice 8d10} de dano necrótico, fica com a condição {@condition Incapacitated|XPHB} e torna-se intangível e {@condition Invisible|XPHB} até o início do seu próximo turno. Enquanto estiver intangível dessa forma, o alvo não pode interagir com criaturas, objetos ou efeitos, nem pode ser afetado por eles.",
+				"Em um sucesso, o alvo sofre metade do dano necrótico e não sofre nenhum outro efeito.",
+				"Após usar esta característica, você ganha 1 nível de Exaustão e não pode usá-la novamente até terminar um {@variantrule Long Rest|XPHB}, a menos que gaste 5 Pontos de Feitiçaria para restaurar seu uso (sem exigir ação)."
+			],
+			"consumes": {
+				"name": "Sorcery Point"
+			}
+		},
+		{
+			"name": "Corpo Espiritual",
+			"source": "MundoDeKyrSubclasses",
+			"page": 0,
+			"className": "Monk",
+			"classSource": "XPHB",
+			"subclassShortName": "Guardião do Dohyō",
+			"subclassSource": "MundoDeKyrSubclasses",
+			"level": 3,
+			"entries": [
+				"Os monges do Caminho do Guardião do Dohyō tratam o corpo como um templo sagrado e o combate como um ritual de purificação. Por meio de ritos ancestrais, peso espiritual e disciplina absoluta, eles se tornam bastiões vivos contra forças hostis.",
+				"Você aprende a condensar seu Ki em uma presença física e espiritual esmagadora.",
+				"{@b Cerimônia do Peso}. Você conta como uma categoria de tamanho maior para determinar as criaturas que pode Agarrar ou Empurrar, bem como para sua capacidade de carga.",
+				"{@b Aura de Vitalidade}. Uma vez por turno, quando você gastar 1 ou mais Pontos de Foco como parte de uma Ação ou Ação Bônus, você ganha Pontos de Vida Temporários iguais a uma rolagem do seu Dado de Artes Marciais + seu modificador de Sabedoria + seu nível de monge. Ao alcançar o nível 11 você passa a rolar o dobro de dados de artes marciais para determinar a quantidade de pontos de vida temporários ganhos.",
+				"{@b Sabedoria da Terra}. Quando você realiza um teste para Agarrar ou Empurrar uma criatura, você usa a sua CD de Salvaguarda de Foco como a CD para o teste resistido do alvo."
+			],
+			"consumes": {
+				"name": "Focus Point"
+			}
+		},
+		{
+			"name": "Rito do Sal Purificador",
+			"source": "MundoDeKyrSubclasses",
+			"page": 0,
+			"className": "Monk",
+			"classSource": "XPHB",
+			"subclassShortName": "Guardião do Dohyō",
+			"subclassSource": "MundoDeKyrSubclasses",
+			"level": 6,
+			"entries": [
+				"Você aprende rituais de purificação que transformam seu peso espiritual em uma arma contra a corrupção.",
+				"{@b Impacto do Sumô}. Sempre que você for bem-sucedido em Agarrar ou Empurrar uma criatura, ela sofre dano igual a uma rolagem do seu Dado de Artes Marciais. O tipo de dano é o mesmo de seus Ataques Desarmados.",
+				"{@b Expurgar Maldições (Rito Menor)}. Como Ação Bônus, você pode tocar uma criatura (incluindo você mesmo) e gastar 1 Ponto de Foco para encerrar uma das seguintes condições nela:",
+				{
+					"type": "list",
+					"items": [
+						"{@condition Frightened|XPHB}",
+						"{@condition Charmed|XPHB}",
+						"{@condition Poisoned|XPHB}"
+					]
+				}
+			],
+			"consumes": {
+				"name": "Focus Point"
+			}
+		},
+		{
+			"name": "Impacto do Trovão",
+			"source": "MundoDeKyrSubclasses",
+			"page": 0,
+			"className": "Monk",
+			"classSource": "XPHB",
+			"subclassShortName": "Guardião do Dohyō",
+			"subclassSource": "MundoDeKyrSubclasses",
+			"level": 11,
+			"entries": [
+				"Seu Shiko ritual passa a abalar corpo e espírito.",
+				"Uma vez por turno, quando você atingir uma criatura com um Ataque Desarmado, você pode gastar 1 Ponto de Foco para infundir o golpe com peso espiritual fazendo com que o ataque causa dano adicional de Força igual a 2 rolagens do seu Dado de Artes Marciais. Além disso, a criatura alvo deve ser bem-sucedida em um teste de resistência de Força contra sua CD de Foco, em caso de falha, a criatura é empurrada até 6 metros (20 pés) e fica {@condition Prone|XPHB} ({@condition Prone|XPHB}). Se a criatura colidir com um obstáculo sólido, ela sofre dano adicional igual ao seu modificador de Sabedoria.",
+				"{@b Expurgar Maldições (Rito Maior)}. Você aprende a realizar um exorcismo completo. Você pode conjurar a magia {@spell Remove Curse|XPHB} uma vez por {@variantrule Long Rest|XPHB}, sem componentes materiais, usando Sabedoria como habilidade de conjuração."
+			],
+			"consumes": {
+				"name": "Focus Point"
+			}
+		},
+		{
+			"name": "Avatar da Montanha Sagrada",
+			"source": "MundoDeKyrSubclasses",
+			"page": 0,
+			"className": "Monk",
+			"classSource": "XPHB",
+			"subclassShortName": "Guardião do Dohyō",
+			"subclassSource": "MundoDeKyrSubclasses",
+			"level": 17,
+			"entries": [
+				"Seu espírito se torna tão denso quanto o núcleo do mundo.",
+				"{@b Corpo Inabalável}. Enquanto não tiver a condição {@condition Unconscious|XPHB} e/ou {@condition Incapacitated|XPHB}, no início do seu turno você ativa sua habilidade Aura da Vitalidade. Além disso, ganha resistência a dando cortante e contundente. Por fim, enquanto possuir Pontos de Vida Temporários:",
+				{
+					"type": "list",
+					"items": [
+						"Você não pode ser derrubado nem movido contra sua vontade.",
+						"Você é imune às condições {@condition Frightened|XPHB} e {@condition Charmed|XPHB}."
+					]
+				},
+				"{@b Grande Exorcismo}. Uma vez por {@variantrule Long Rest|XPHB}, como Ação, você bate palmas em um gesto ritual e invoca uma explosão de energia espiritual purificadora. Criaturas de sua escolha em um raio de 9 metros (30 pés) devem realizar um teste de resistência de Constituição contra sua CD de Foco, em caso de falha, a criatura sofre {@dice 8d10} de dano radiante e fica {@condition Stunned|XPHB} até o início do seu próximo turno, recebendo apenas metade do dano em caso de sucesso."
+			]
+		},
+		{
+			"name": "Iniciado do Rizoma",
+			"source": "MundoDeKyrSubclasses",
+			"page": 0,
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"subclassShortName": "Rizomancia",
+			"subclassSource": "MundoDeKyrSubclasses",
+			"level": 3,
+			"entries": [
+				"“Nada cresce sozinho.”",
+				"Os magos da Escola da Rizomancia estudam as ligações invisíveis que unem criaturas, lugares e magias. Para um rizomante, o mundo não é feito de pontos isolados, mas de nós interconectados — raízes arcanas que se espalham silenciosamente sob a superfície da realidade.",
+				"Onde outros veem um alvo, o rizomante vê uma rede.",
+				"Onde outros lançam uma magia, o rizomante planta uma semente.",
+				"A Rizomancia não cria efeitos imediatos e explosivos: ela se espalha, se fortalece com o tempo e cobra seu preço.",
+				{
+					"type": "entries",
+					"name": "Rizomancia Erudita",
+					"entries": [
+						"Ao escolher esta escola no 3º nível, escolha duas magias de Mago da Escola da Rizomancia, cada uma de até 2º nível, e adicione-as ao seu grimório sem custo.",
+						"Além disso, sempre que você ganhar acesso a um novo nível de espaços de magia nesta classe, você poderá adicionar uma magia de Mago da Escola da Rizomancia ao seu grimório sem custo.",
+						"A magia escolhida deve ser de um nível para o qual você possua espaços de magia."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Marca Rizomática",
+					"entries": [
+						"Como {@variantrule {@variantrule Magic Action|XPHB}|XPHB}, você marca uma criatura que possa ver a até 18 m (60 ft) com um Rizoma Arcano, que dura 1 minuto ou até você ficar {@condition Incapacitated|XPHB}.",
+						"Enquanto a criatura estiver marcada:",
+						"A primeira vez em cada turno que você a afetar com uma magia de 1º nível ou superior, escolha um dos efeitos abaixo:",
+						{
+							"type": "list",
+							"items": [
+								"{@b Propagação de Dano}. Uma segunda criatura à sua escolha a até 6 m (20 ft) da criatura marcada sofre dano psíquico igual ao seu modificador de Inteligência.",
+								"{@b Enraizamento Menor}. A criatura marcada tem seu deslocamento reduzido em 3 m (10 ft) até o início do seu próximo turno.",
+								"{@b Instabilidade Arcana}. A criatura marcada tem desvantagem no próximo teste de resistência que fizer antes do início do seu próximo turno."
+							]
+						},
+						"Você pode marcar uma criatura dessa forma um número de vezes igual ao seu bônus de proficiência, recuperando todos os usos após um {@variantrule Long Rest|XPHB}.",
+						"Você só pode ter uma Marca Rizomática ativa por vez.",
+						"#"
+					]
+				}
+			]
+		},
+		{
+			"name": "Crescimento Irreversível",
+			"source": "MundoDeKyrSubclasses",
+			"page": 0,
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"subclassShortName": "Rizomancia",
+			"subclassSource": "MundoDeKyrSubclasses",
+			"level": 6,
+			"entries": [
+				"As raízes que você planta não desaparecem facilmente.",
+				"Sempre que uma criatura for afetada por uma magia sua em dois turnos consecutivos, ela se torna Enraizada até o início do seu próximo turno.",
+				"Enquanto Enraizada, a criatura sofre um dos efeitos abaixo (à sua escolha, sem ação):",
+				{
+					"type": "list",
+					"items": [
+						"Sofre dano psíquico igual a {@dice 1d8} + seu modificador de Inteligência no início do turno.",
+						"Tem desvantagem em jogadas de ataque.",
+						"Não pode realizar Reações."
+					]
+				},
+				"Uma criatura só pode estar Enraizada por você uma vez por rodada.",
+				"#"
+			]
+		},
+		{
+			"name": "Rede Viva",
+			"source": "MundoDeKyrSubclasses",
+			"page": 0,
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"subclassShortName": "Rizomancia",
+			"subclassSource": "MundoDeKyrSubclasses",
+			"level": 10,
+			"entries": [
+				"Você passa a sustentar múltiplos vínculos simultâneos, como um verdadeiro arquiteto de conexões.",
+				"Você pode manter até dois Nós Rizomáticos ativos ao mesmo tempo.",
+				"Quando uma criatura sob efeito de um Nó sofrer dano de uma magia sua, você pode usar sua Reação para:",
+				{
+					"type": "list",
+					"items": [
+						"Conceder Pontos de Vida Temporários a uma criatura aliada a até 9 m (30 ft) iguais ao dano secundário causado, ou",
+						"Aplicar o mesmo dano secundário a outra criatura conectada ao Nó."
+					]
+				},
+				"Além disso, você tem vantagem em testes de Concentração enquanto ao menos um Nó Rizomático estiver ativo.",
+				"#"
+			]
+		},
+		{
+			"name": "Rizoma Primordial",
+			"source": "MundoDeKyrSubclasses",
+			"page": 0,
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"subclassShortName": "Rizomancia",
+			"subclassSource": "MundoDeKyrSubclasses",
+			"level": 14,
+			"entries": [
+				"Você não conjura mais magias isoladas. Você altera o ecossistema arcano.",
+				"Como Ação, você pode ativar o Rizoma Primordial por 1 minuto. Enquanto estiver ativo sempre que você conjurar uma magia de 1º nível ou superior, você pode escolher até três criaturas conectadas para marcá-las com sua Marca Rizomática.",
+				"Enquanto marcadas, as criaturas compartilham os efeitos de suas magias. Quando você conjurar uma magia (mesmo que de alvo único) em umas criaturas com Marca Rizomática, as outras sofrem um efeito reduzido da magia, mesmo que normalmente ela tivesse apenas um alvo.",
+				"Em caso de Dano, as criaturas secundárias sofrerão metade do dano total do alvo primário, o mesmo se aplicando à cura. Caso seja um efeito de controle, a duração da magia será reduzida em 2 turnos, com no mínimo 1 turno de duração.",
+				"Além disso, criaturas afetadas por você têm desvantagem no primeiro teste de resistência contra suas magias a cada turno.",
+				"Se uma criatura Enraizada cair a 0 PV, você pode imediatamente transferir o Enraizamento para outra criatura a até 9 m (30 ft), com uma ação bônus."
+			]
+		},
+		{
+			"name": "Spellcasting",
+			"source": "MundoDeKyrSubclasses",
+			"page": 0,
+			"className": "Monk",
+			"classSource": "XPHB",
+			"subclassShortName": "Mantra Arcano",
+			"subclassSource": "MundoDeKyrSubclasses",
+			"level": 3,
+			"entries": [
+				"Os monges do Caminho do Mantra Arcano aprendem a integrar fórmulas arcanas ao fluxo do ki. Em vez de gestos complexos ou componentes externos, esses monges utilizam respiração, postura e movimento como catalisadores mágicos.",
+				"Você aprendeu a conjurar magias. Consulte o Capítulo 7 para as regras gerais de conjuração. As informações abaixo detalham como você utiliza essas regras como um Monge do Caminho do Mantra Arcano.",
+				"{@b Truques}. Você conhece dois truques de sua escolha da lista de magias de Druída (veja a seção dessa classe para a lista completa). Primal Savage e Elementalism são recomendados.",
+				"Sempre que você ganhar um nível de Monk, pode substituir um desses truques por outro truque de sua escolha da lista de magias de Druída.",
+				"Quando você atingir o nível 10 de Monk, aprende um truque adicional de Druída à sua escolha.",
+				"{@b Espaços de Magia}. A tabela de Conjuração do Monk do Caminho do Mantra Arcano mostra quantos espaços de magia você possui para conjurar suas magias de 1º nível ou superior.",
+				"Você recupera todos os espaços de magia gastos ao finalizar um {@variantrule Long Rest|XPHB}.",
+				"{@b Magias Preparadas de 1º Nível ou Superior.} Você prepara uma lista de magias de 1º nível ou superior que estão disponíveis para conjurar com esta característica.",
+				"Ao adquirir esta característica, escolha três magias de 1º nível da lista de magias de Druída. Healing Word, Cure Wounds e Absorb Elements são recomendadas.",
+				"O número de magias preparadas em sua lista aumenta conforme você ganha níveis de Monk, conforme indicado na coluna Magias Preparadas da tabela de Conjuração.",
+				"Sempre que esse número aumentar, escolha magias adicionais da lista de Druida até que o total de magias preparadas corresponda ao valor da tabela. As magias escolhidas devem ser de um nível para o qual você possua espaços de magia.",
+				"Por exemplo, se você for um Monk de nível 7, sua lista de magias preparadas pode incluir cinco magias de Druída de 1º ou 2º nível, em qualquer combinação.",
+				"{@b Alterando Magias Preparadas}. Sempre que você ganhar um nível de Monk, pode substituir uma magia da sua lista por outra magia de Druída para a qual você possua espaços de magia.",
+				"{@b Habilidade de Conjuração}. Sabedoria é a sua habilidade de conjuração para suas magias de Druída.",
+				"{@b Foco de Conjuração}. Você deve usar seu corpo como {@i Spellcasting Focus} de suas magias de Druída. Você não utiliza componentes materiais para suas magias exceto àquelas que tiverem custo fixo e forem consumidas no momento do {@i casting}."
+			]
+		},
+		{
+			"name": "Punho Rúnico",
+			"source": "MundoDeKyrSubclasses",
+			"page": 0,
+			"className": "Monk",
+			"classSource": "XPHB",
+			"subclassShortName": "Mantra Arcano",
+			"subclassSource": "MundoDeKyrSubclasses",
+			"level": 3,
+			"entries": [
+				"Quando você conjura uma magia de 1º nível ou superior, até o final do seu próximo turno, o primeiro ataque desarmado que acertar um alvo causa uma rolagem do seu Dado de Artes Marciais adicional de um tipo escolhido por você entre ácido, fogo, frio ou elétrico.",
+				"Esse dano adicional só pode ser aplicado uma vez por turno."
+			]
+		},
+		{
+			"name": "Fluxo Arcano do Ki",
+			"source": "MundoDeKyrSubclasses",
+			"page": 0,
+			"className": "Monk",
+			"classSource": "XPHB",
+			"subclassShortName": "Mantra Arcano",
+			"subclassSource": "MundoDeKyrSubclasses",
+			"level": 6,
+			"entries": [
+				"Você aprende a converter sua energia espiritual em poder arcano, e vice-versa.",
+				{
+					"type": "entries",
+					"name": "Conversão de Foco e Magia",
+					"entries": [
+						{
+							"type": "list",
+							"items": [
+								"{@b Converter Espaços de Magia em Pontos de Foco}. Você pode gastar um espaço de magia para ganhar um número de Pontos de Foco igual ao nível do espaço gasto (nenhuma ação é necessária).",
+								"{@b Criar Espaços de Magia}. Como uma Ação Bônus, você pode transformar Pontos de Foco não gastos em um espaço de magia. A tabela de Criação de Espaços de Magia indica o custo para criar um espaço de magia de determinado nível. Você não pode criar um espaço de magia de nível superior ao 5º nível."
+							]
+						},
+						"╔══════════════════════╦══════════════════════╦═════════════════════╗",
+						"║                      ║                      ║                     ║",
+						"║ Spell Slot Level     ║ Focus Point Cost     ║ Min. Monk Level     ║",
+						"╠══════════════════════╬══════════════════════╬═════════════════════╣",
+						"║                      ║                      ║                     ║",
+						"║         1            ║         2            ║         3           ║",
+						"╠══════════════════════╬══════════════════════╬═════════════════════╣",
+						"║                      ║                      ║                     ║",
+						"║         2            ║         3            ║         7           ║",
+						"╠══════════════════════╬══════════════════════╬═════════════════════╣",
+						"║                      ║                      ║                     ║",
+						"║         3            ║         5            ║        13           ║",
+						"╠══════════════════════╬══════════════════════╬═════════════════════╣",
+						"║                      ║                      ║                     ║",
+						"║         4            ║         6            ║        19           ║",
+						"╚══════════════════════╩══════════════════════╩═════════════════════╝",
+						"Qualquer espaço de magia criado por esta característica desaparece quando você finaliza um {@variantrule Long Rest|XPHB}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Integração Marcial",
+					"entries": [
+						"Além disso, quando você usa Rajada de Golpes ({@classFeature Flurry of Blows|Monk|XPHB|2}), pode conjurar um truque no lugar de um dos ataques realizados como parte dessa ação bônus."
+					]
+				}
+			],
+			"consumes": {
+				"name": "Focus Point"
+			}
+		},
+		{
+			"name": "Mantra de Supressão",
+			"source": "MundoDeKyrSubclasses",
+			"page": 0,
+			"className": "Monk",
+			"classSource": "XPHB",
+			"subclassShortName": "Mantra Arcano",
+			"subclassSource": "MundoDeKyrSubclasses",
+			"level": 11,
+			"entries": [
+				"Você aprende a interferir em fluxos mágicos por meio do ki.",
+				"Quando uma criatura que você possa ver a até 9 metros (30 pés) conjurar uma magia, você pode usar sua Reação e gastar 3 ponto de Ki para forçá-la a realizar um teste de resistência de Constituição contra a sua CD de magia.",
+				{
+					"type": "list",
+					"items": [
+						"Em falha, a magia falha e a criatura sofre {@dice 2d10} de dano de força.",
+						"Em sucesso, a magia ocorre normalmente."
+					]
+				},
+				"Você pode usar essa característica um número de vezes igual ao seu modificador de Sabedoria, recuperando todos os usos ao finalizar um {@variantrule Long Rest|XPHB}."
+			],
+			"consumes": {
+				"name": "Focus Point"
+			}
+		},
+		{
+			"name": "Corpo como Selo Arcano",
+			"source": "MundoDeKyrSubclasses",
+			"page": 0,
+			"className": "Monk",
+			"classSource": "XPHB",
+			"subclassShortName": "Mantra Arcano",
+			"subclassSource": "MundoDeKyrSubclasses",
+			"level": 17,
+			"entries": [
+				"Seu corpo se torna um condutor perfeito de energia arcana.",
+				"Enquanto você tiver ao menos 1 ponto de Ki:",
+				{
+					"type": "list",
+					"items": [
+						"Você tem vantagem em testes de resistência contra magias.",
+						"Sempre que conjurar uma magia como uma Ação, você pode realizar um ataque desarmado contra uma criatura ao seu alcance como parte da mesma ação."
+					]
+				},
+				"Se esse ataque acertar, você pode gastar 1 ponto de Ki para impor desvantagem no próximo teste de resistência que o alvo fizer até o final do seu próximo turno."
+			],
+			"consumes": {
+				"name": "Focus Point"
+			}
+		},
+		{
+			"name": "Eco Harmônico",
+			"source": "MundoDeKyrSubclasses",
+			"page": 0,
+			"className": "Bard",
+			"classSource": "XPHB",
+			"subclassShortName": "Confraria dos Ecos",
+			"subclassSource": "MundoDeKyrSubclasses",
+			"level": 3,
+			"entries": [
+				"Alguns bardos não cantam para o público.",
+				"Eles cantam para o mundo — e o mundo responde.",
+				"Os Bardos da Confraria dos Ecos aprenderam a ouvir aquilo que não foi dito:",
+				"vozes do passado, emoções fossilizadas, memórias presas em lugares, objetos e almas.",
+				"Em Kÿr, onde os Ecos acompanham todos os seres vivos, esses bardos são intérpretes do legado, manipulando lembranças, espíritos residuais e verdades antigas.",
+				"Eles não criam magia — eles despertam o que já existe.",
+				"Você aprende a responder aos Ecos do mundo, entrelaçando fragmentos de memória, emoção e consequência às suas palavras inspiradoras.",
+				"{@b Orientação dos Ecos}. Você aprende a {@i cantrip} {@spell Guidance|XPHB}.",
+				"{@b Ecos Conhecidos}. Ao escolher este colégio no 3º nível, você aprende três Ecos Harmônicos de sua escolha da lista de Ecos disponível para seu nível. Você aprende um Eco adicional no 7º nível e outro no 13º nível.",
+				"Sempre que você ganhar um nível nesta classe, você pode substituir um Eco que conhece por outro Eco para o qual você tenha acesso.",
+				"Vincular Eco.",
+				"Sempre que você conceder Inspiração Bárdica a uma criatura, você pode escolher um Eco Harmônico que conhece e vinculá-lo ao alvo da Inspiração (nenhuma ação adicional é necessária). O Eco entra em efeito quando a Inspiração Bárdica for gasta, conforme descrito em cada Eco. Um alvo só pode ser afetado por um Eco Harmônico por vez. Se um Eco exigir um teste de resistência, a CD é igual à sua CD de conjuração de magias de Bardo.",
+				"Além disso, sua Inspiração Bardica passa a poder ser utilizada nas rolagens de dano de ataques e magias, além de adicionadas em magias de cura.",
+				{
+					"type": "entries",
+					"name": "Lista de Ecos Harmônicos",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Ecos do 3º Nível",
+							"entries": [
+								{
+									"type": "list",
+									"items": [
+										"{@b Eco da Coragem}. Quando o alvo gastar a Inspiração Bárdica em um teste de ataque, teste de habilidade ou teste de resistência, ele ganha o número rolado como pontos de vida temporários.",
+										"{@b Eco da Dor}. Quando o alvo gastar a Inspiração Bárdica em um ataque que acerte uma criatura, o alvo do ataque sofre dano psíquico adicional igual ao dado da Inspiração Bárdica.",
+										"{@b Eco da Memória}. Quando o alvo gastar a Inspiração Bárdica, ele escolhe um dos efeitos a seguir: Recupera um espaço de magia de 1º nível, ou Ganha vantagem no próximo teste de resistência que fizer até o final do próximo turno.",
+										"{@b Eco da Falácia}. Quando o alvo gastar a Inspiração Bárdica, ele pode gastar sua reação para subtrair o resultado do dado na próxima rolagem de teste de resistência de uma criatura a 9m (30 ft) dele."
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Ecos do 7º Nível",
+							"entries": [
+								{
+									"type": "list",
+									"items": [
+										"{@b Eco do Deslocamento}. Quando o alvo gastar a Inspiração Bárdica, ele pode se mover até 6 metros (20 pés) para um espaço desocupado que possa ver, sem provocar ataques de oportunidade.",
+										"{@b Eco da Ruptura}. Quando o alvo gastar a Inspiração Bárdica em um ataque, a criatura atingida deve realizar um teste de resistência de Constituição."
+									]
+								},
+								"Em falha, ela tem desvantagem no próximo ataque ou teste de resistência que fizer antes do final do próximo turno."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Ecos do 13º Nível",
+							"entries": [
+								{
+									"type": "list",
+									"items": [
+										"{@b Eco do Limiar}. Quando o alvo gastar a Inspiração Bárdica, ele pode imediatamente usar sua reação para: realizar um ataque, ou conjurar um truque com tempo de conjuração de 1 ação.",
+										"{@b Eco da Reverberação}. Quando o alvo gastar a Inspiração Bárdica, escolha outra criatura que você possa ver a até 9 m (30 pés) do alvo original: Se a Inspiração foi usada para dano, a criatura escolhida sofre dano psíquico igual ao dado da Inspiração Bárdica. Se foi usada para cura ou defesa, a criatura escolhida recupera pontos de vida iguais ao dado da Inspiração Bárdica."
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Voz dos Vestígios",
+					"entries": [
+						"Você passa a ouvir os Ecos do ambiente. Você ganha expertise em {@skill Arcana|XPHB}, {@skill History|XPHB}, {@skill Religion|XPHB} ou {@skill Investigation|XPHB} (escolha duas)."
+					]
+				}
+			]
+		},
+		{
+			"name": "Coro dos Esquecidos",
+			"source": "MundoDeKyrSubclasses",
+			"page": 0,
+			"className": "Bard",
+			"classSource": "XPHB",
+			"subclassShortName": "Confraria dos Ecos",
+			"subclassSource": "MundoDeKyrSubclasses",
+			"level": 6,
+			"entries": [
+				"Você pode invocar Ecos menores para amplificar sua presença.",
+				"Como Ação Bônus, escolha um ponto a até 9 m (30 ft). Por 1 minuto, uma área de 3 m (10 ft) se torna um Coro de Ecos. Enquanto uma criatura estiver nessa área Você e criaturas aliadas ganham +{@dice 1d4} em testes de resistência; enquanto que criaturas inimigas têm desvantagem no primeiro teste de Sabedoria que fizerem a cada turno. Você pode fazer esta área uma quantidade de vezes igual a metade (arredondada pra cima) dos seus pontos de proficiência, recuperando todos os seus usos em um {@variantrule Long Rest|XPHB}."
+			]
+		},
+		{
+			"name": "Reflexo da Verdade",
+			"source": "MundoDeKyrSubclasses",
+			"page": 0,
+			"className": "Bard",
+			"classSource": "XPHB",
+			"subclassShortName": "Confraria dos Ecos",
+			"subclassSource": "MundoDeKyrSubclasses",
+			"level": 10,
+			"entries": [
+				"Os Ecos passam a responder agressivamente a mentiras e intenções hostis. Quando uma criatura a até 18 m (60 ft) mentir conscientemente, conjurar uma magia de encantamento ou ilusão, ou causar dano a um aliado sob sua Inspiração Bárdica, você pode usar sua Reação para forçar a criatura a fazer um teste de Sabedoria. Em caso de falha a criatura fica {@condition Stunned|XPHB} até o fim do próximo turno ou sofre {@dice 3d8} de dano psíquico (sua escolha). Em sucesso recebe apenas metade do dano e nenhum efeito adicional.",
+				"Você pode utilizar essa habilidade uma quantidade de vezes igual seu modificador de Carisma, recuperando todos os usos em um {@variantrule Long Rest|XPHB}."
+			]
+		},
+		{
+			"name": "Canção do Legado Eterno",
+			"source": "MundoDeKyrSubclasses",
+			"page": 0,
+			"className": "Bard",
+			"classSource": "XPHB",
+			"subclassShortName": "Confraria dos Ecos",
+			"subclassSource": "MundoDeKyrSubclasses",
+			"level": 14,
+			"entries": [
+				"Você aprende a conduzir os Ecos mais profundos — fragmentos de feitos, sacrifícios e memórias que se recusam a desaparecer.",
+				"Como uma Ação Bônus, você inicia a Canção do Legado, que dura 1 minuto ou até você ficar {@condition Incapacitated|XPHB}.",
+				"Depois de usar esta característica, você não pode usá-la novamente até terminar um {@variantrule Long Rest|XPHB}.",
+				"Enquanto a Canção estiver ativa, você ganha os benefícios a seguir:",
+				"{@b Inspiração Reverberante}. A primeira vez em cada turno que uma criatura gastar uma Inspiração Bárdica concedida por você, ela rola o dado da Inspiração duas vezes e escolhe qual resultado usar.",
+				"{@b Ecos do Último Instante}. Quando uma criatura aliada que você possa ver a até 18 m (60 pés) cair a 0 Pontos de Vida, ela pode usar sua Reação para gastar uma Inspiração Bárdica e, em vez disso manter-se com 1 Ponto de Vida.",
+				"Uma criatura só pode se beneficiar deste efeito uma vez por uso da Canção.",
+				"{@b Presságio do Passado}. Criaturas hostis a até 9 m (30 pés) de você têm desvantagem no primeiro teste de resistência que fizerem contra efeitos de Encantamento, Medo ou dano Psíquico a cada rodada."
+			]
+		},
+		{
+			"name": "Ecomante Iniciado",
+			"source": "MundoDeKyrSubclasses",
+			"page": 0,
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"subclassShortName": "Ecomancia",
+			"subclassSource": "MundoDeKyrSubclasses",
+			"level": 3,
+			"entries": [
+				"“Nada se perde no mundo. Tudo deixa um eco.”",
+				"Os magos da Escola da Ecomancia estudam os Ecos — vestígios espirituais, emocionais e arcanos deixados por criaturas, eventos e magias. Em Kÿr, os Ecos não são meras lembranças: são entidades espectrais sutis que permeiam o mundo, conectando passado, presente e possibilidade.",
+				"Um ecomante não cria magia do nada. Ele escuta, resgata e reverbera aquilo que já existiu.",
+				"Você aprendeu a registrar e interpretar os Ecos Mágicos deixados por antigas conjurações, preservando-os em sua escrita arcana.",
+				"Ao escolher esta escola no 3º nível, escolha duas magias de Mago da Escola da Ecomancia, cada uma de até 2º nível, e adicione-as ao seu grimório sem custo.",
+				"Além disso, sempre que você ganhar acesso a um novo nível de espaços de magia nesta classe, você poderá adicionar uma magia de Mago da Escola da Ecomancia ao seu grimório sem custo.",
+				"A magia escolhida deve ser de um nível para o qual você possua espaços de magia."
+			]
+		},
+		{
+			"name": "Sensibilidade aos Ecos",
+			"source": "MundoDeKyrSubclasses",
+			"page": 0,
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"subclassShortName": "Ecomancia",
+			"subclassSource": "MundoDeKyrSubclasses",
+			"level": 3,
+			"entries": [
+				"Ao escolher esta escola, você desperta a capacidade de perceber e interagir com Ecos espirituais.",
+				{
+					"type": "entries",
+					"name": "Percepção Ecoespiritual.",
+					"entries": [
+						"Você passa a perceber Ecos persistentes no ambiente. Você tem a magia {@i {@spell Detect Magic|XPHB}} sempre preparada. Além disso, você pode utilizar uma ação bônus para conjura-la, quando fizer isto, a sua duração muda para 1 minuto. Durante esse tempo, além da descrição da magia, você também recebe os seguintes benefícios:",
+						{
+							"type": "list",
+							"items": [
+								"Você sabe se criaturas morreram recentemente (últimas 24 horas) em um raio de 18 m (60 ft).",
+								"Você sente a presença de magias conjuradas recentemente (última hora), mas não sua escola nem nível.",
+								"Você tem vantagem em testes de Inteligência ({@skill Arcana|XPHB}, {@skill History|XPHB} ou {@skill Religion|XPHB}) relacionados a eventos passados ocorridos no local."
+							]
+						},
+						"Esse efeito não atravessa barreiras de chumbo ou áreas sob antimagia."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Eco Manifesto",
+					"entries": [
+						"Você aprende a ancorar um Eco para auxiliá-lo. Como uma {@variantrule {@variantrule Magic Action|XPHB}|XPHB}, você pode manifestar um Eco Espiritual Menor em um espaço desocupado a até 9 m (30 ft) de você. O eco é uma presença espectral indistinta — não uma criatura — e dura 1 minuto ou até você ficar {@condition Incapacitated|XPHB}. Enquanto o Eco estiver ativo, você escolhe um dos efeitos abaixo quando ele é criado:",
+						{
+							"type": "list",
+							"items": [
+								"{@b Eco de Ataque}. Uma vez por turno, quando você acertar uma magia que exija jogada de ataque, você pode rolar {@dice 1d4} adicional e somar ao dano. O dano aumenta nos níveis 7 ({@dice 2d4}) e 13 ({@dice 3d4}).",
+								"{@b Eco de Defesa}. Quando uma criatura que você possa ver a até 6 m (20 ft) sofrer dano, você pode usar sua Reação para reduzir esse dano em {@dice 1d6}. O dano mitigado aumenta nos níveis 7 ({@dice 2d6}) e 13 ({@dice 3d6}).",
+								"{@b Eco de Conhecimento}. Você tem vantagem no próximo teste de habilidade ou resistência que fizer antes do início do seu próximo turno."
+							]
+						},
+						"Você pode usar esta característica um número de vezes igual ao seu bônus de proficiência, recuperando todos os usos após um {@variantrule Long Rest|XPHB}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Reverberação Arcana",
+			"source": "MundoDeKyrSubclasses",
+			"page": 0,
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"subclassShortName": "Ecomancia",
+			"subclassSource": "MundoDeKyrSubclasses",
+			"level": 6,
+			"entries": [
+				"Quando você conjura uma magia de 1º nível ou superior que cause dano ou cure pontos de vida, você pode criar uma Reverberação {@skill Arcana|XPHB} (sem ação).",
+				"Escolha uma criatura que você possa ver a até 9 m (30 ft) do alvo original:",
+				{
+					"type": "list",
+					"items": [
+						"Se a magia causou dano, a criatura sofre dano psíquico igual a {@dice 2d6} + seu modificador de Inteligência.",
+						"Se a magia curou, a criatura recupera {@dice 2d6} + seu modificador de Inteligência pontos de vida."
+					]
+				},
+				"Se a magia original foi de 3º nível ou superior, a Reverberação aumenta em {@dice 1d6}.",
+				"Você pode usar essa característica um número de vezes igual ao seu modificador de Inteligência (mínimo 1), recuperando todos os usos ao final de um {@variantrule Long Rest|XPHB}."
+			]
+		},
+		{
+			"name": "Ecos Persistentes",
+			"source": "MundoDeKyrSubclasses",
+			"page": 0,
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"subclassShortName": "Ecomancia",
+			"subclassSource": "MundoDeKyrSubclasses",
+			"level": 10,
+			"entries": [
+				"Sempre que você conjurar uma magia de 1º nível ou superior, você pode criar um Eco Persistente no alvo da magia ou em um ponto da área afetada, que dura até o início do seu próximo turno.",
+				"Enquanto o Eco Persistente existir:",
+				{
+					"type": "list",
+					"items": [
+						"Criaturas aliadas na área têm vantagem no primeiro teste de resistência que realizarem.",
+						"A primeira vez em cada turno que uma criatura hostil atingir um aliado na área, ela sofre dano psíquico igual a {@dice 1d10} + seu modificador de Inteligência."
+					]
+				},
+				"Você só pode manter um Eco Persistente por vez."
+			]
+		},
+		{
+			"name": "Âncora do Passado",
+			"source": "MundoDeKyrSubclasses",
+			"page": 0,
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"subclassShortName": "Ecomancia",
+			"subclassSource": "MundoDeKyrSubclasses",
+			"level": 14,
+			"entries": [
+				"Você domina a arte suprema da Ecomancia: trazer o que já foi para o agora.",
+				"Quando você falhar em um teste de ataque, teste de resistência ou teste de habilidade, você pode usar sua Reação para invocar um Eco de uma tentativa anterior. Você rola novamente o d20 e usa o novo resultado.",
+				"Depois de usar essa característica, você não pode usá-la novamente até terminar um {@variantrule Long Rest|XPHB}, a menos que gaste um espaço de magia de 2º nível ou superior para usá-la novamente (sem ação adicional)."
+			]
+		},
+		{
+			"name": "Fé Instável",
+			"source": "MundoDeKyrSubclasses",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "XPHB",
+			"subclassShortName": "Caos",
+			"subclassSource": "MundoDeKyrSubclasses",
+			"level": 3,
+			"entries": [
+				"“A criação não nasceu estável.",
+				"Ela nasceu quebrada — e ainda pulsa.”",
+				"Os Clérigos da Ordem do Caos veneram o Princípio da Ruptura: a força primordial que antecede leis, ciclos e estruturas.",
+				"Eles não servem a um deus único, mas à Vontade Caótica que se manifesta nos Fragmentos do Caos, nas mutações do mundo e nos momentos em que a realidade se recusa a obedecer.",
+				"Para esses clérigos, estabilidade é estagnação.",
+				"O Caos não é mal — é possibilidade infinita.",
+				"# Magias do Domínio do Caos",
+				"Você sempre tem as seguintes magias preparadas. Elas não contam para o número de magias que você pode preparar.",
+				"Nível de Clérigo    Magias",
+				"3º    Chromatic Orb, Identify, Mirror Image, Find Traps",
+				"5º    Blur, Blink",
+				"7º    Compulsion,Confusion",
+				"9º    Circle of Power, Dominate Person",
+				"Ao escolher este domínio, sua conexão com o Caos se manifesta de forma volátil.",
+				{
+					"type": "list",
+					"items": [
+						"Você ganha proficiência em {@skill Intimidation|XPHB} ou {@skill Arcana|XPHB} (sua escolha).",
+						"Sempre que rolar 1 ou 20 em um teste de ataque, teste de resistência ou teste de habilidade, você ganha uma carga caótica, durante a próxima hora, quando você ou criatura a até 9m rolarem um d20, você pode gastar a carga para adicionar ou subtrair {@dice 1d4} (sem ação requerida)"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Oscilação Caótica",
+					"entries": [
+						"Uma vez por turno, quando você causar dano com uma magia de clérigo, role {@dice 1d10} para determinar o tipo de energia liberada:",
+						"d10    Damage Type",
+						"1    Acid",
+						"2    Cold",
+						"3    Fire",
+						"4    Force",
+						"5    Lightning",
+						"6    Necrotic",
+						"7    Poison",
+						"8    Psychic",
+						"9    Radiant",
+						"10    Thunder",
+						"Você pode aceitar o resultado ou sofrer {@dice 1d6} de dano do tipo rolado para escolher outro resultado à sua vontade."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Canalizar Divindade: Surto Entrópico",
+					"entries": [
+						"“Quebre o que parecia certo.”",
+						"Como {@variantrule {@variantrule Magic Action|XPHB}|XPHB}, você libera uma explosão de instabilidade primordial. Criaturas de sua escolha em um raio de 9 m (30 ft.) devem fazer um teste de resistência de Constituição. Em caso de falha sofrem {@dice 3d10} de dano caótico (o tipo é determinado pela Oscilação Caótica) e ficam Desorientadas (desvantagem no próximo ataque ou teste de resistência). Sofrem metade do dano e nenhum efeito adicional em caso de sucesso.",
+						"Além disso, até o início do seu próximo turno, qualquer magia conjurada na área trata resultados de 1 e 20 no d20 como críticos automáticos."
+					]
+				}
+			],
+			"consumes": {
+				"name": "Channel Divinity"
+			}
+		},
+		{
+			"name": "Corpo Instável",
+			"source": "MundoDeKyrSubclasses",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "XPHB",
+			"subclassShortName": "Caos",
+			"subclassSource": "MundoDeKyrSubclasses",
+			"level": 6,
+			"entries": [
+				"O Caos molda sua carne e espírito. Ao final de cada {@variantrule Long Rest|XPHB}, role na tabela de {@b Oscilação Caótica} e ganhe resistência ao tipo de dano até o próximo descanso.",
+				"Além disso, quando você sofrer dano, pode usar sua Reação para reduzir o dano em {@dice 1d10} + seu nível de clérigo, mas a energia residual explode, causando {@dice 1d10} de dano caótico (Oscilação Caótica) a uma criatura aleatória a até 6 m (20 ft.). Para determinar a criatura, o Mestre deve contar quantas criaturas estão na área e fazer uma rolagem, indicando precisamente quem corresponde a qual número no dado a ser rolado.",
+				"Você pode usar essa reação um número de vezes igual ao seu modificador de Sabedoria por {@variantrule Long Rest|XPHB}."
+			]
+		},
+		{
+			"name": "Arquiteto do Caos",
+			"source": "MundoDeKyrSubclasses",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "XPHB",
+			"subclassShortName": "Caos",
+			"subclassSource": "MundoDeKyrSubclasses",
+			"level": 17,
+			"entries": [
+				"Você pode canalizar diretamente a instabilidade primordial do Caos, assumindo temporariamente uma forma de ruptura viva.",
+				"Uma vez por {@variantrule Long Rest|XPHB}, como uma Ação, você aprende a controlar o Caos e o Aether à sua volta, este estado dura 1 minuto, ou até você ficar {@condition Incapacitated|XPHB}. Enquanto estiver nessa forma, você ganha os seguintes benefícios:",
+				{
+					"type": "list",
+					"items": [
+						"Você tem resistência a todos os tipos de dano.",
+						"Sempre que você conjurar uma magia de clérigo de 1º nível ou superior, role {@dice 1d6} imediatamente após a conjuração: Resultado Par. A magia é conjurada normalmente e não consome um espaço de magia. Resultado Ímpar. A magia é conjurada normalmente, mas você sofre {@dice 2d10} de dano caótico. O tipo de dano é determinado pela sua característica Oscilação Caótica. Esse dano ignora resistência."
+					]
+				},
+				"Quando a forma do Avatar da Ruptura termina, você ganha 1 nível de Exaustão. Depois de usar essa característica, você não pode usá-la novamente até terminar um {@variantrule Long Rest|XPHB}."
+			]
+		},
+		{
+			"name": "Voz dos Antigos",
+			"source": "MundoDeKyrSubclasses",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "XPHB",
+			"subclassShortName": "Ordem dos Ancestrais",
+			"subclassSource": "MundoDeKyrSubclasses",
+			"level": 3,
+			"entries": [
+				"“Antes dos deuses terem nomes, havia vozes.",
+				"Antes dos templos, havia ecos.”",
+				"Os Clérigos da Ordem dos Ancestrais não veneram deuses jovens nem dogmas recentes.",
+				"Eles servem aos Deuses Antigos — entidades primordiais, esquecidas ou temidas, cujas vontades moldaram o mundo antes da história ser escrita.",
+				"Esses clérigos atuam como intérpretes da memória do mundo, ouvindo os Ecos deixados por eras passadas e canalizando poderes que não buscam adoração, mas continuidade.",
+				"A fé desses clérigos não é conforto: é peso, legado e responsabilidade.",
+				"# Magias do Domínio dos Ancestrais",
+				"Você sempre tem as seguintes magias preparadas. Elas não contam para o número de magias que você pode preparar.",
+				"Nível de Clérigo    Magias",
+				"3º    Bane, {@spell Detect Magic|XPHB}, Crown of Madness, Gentle Repouse",
+				"5º    Crusader’s Mantle, Hunger of Hadar",
+				"7º    Death Ward, Phantasmal Killer",
+				"9º    Commune, Legend Lore",
+				"Ao escolher este domínio, você aprende a ouvir e interpretar os Ecos deixados pelos Deuses Antigos.",
+				{
+					"type": "list",
+					"items": [
+						"Você ganha expertise em {@skill History|XPHB} ou {@skill Religion|XPHB} (sua escolha).",
+						"Sempre que realizar um teste de Inteligência ({@skill History|XPHB} ou {@skill Religion|XPHB}), você pode tratar um resultado de 7 ou menos no d20 como 8."
+					]
+				},
+				"{@b Eco Orientador}. Como Ação Bônus, você pode invocar um eco ancestral {@condition Invisible|XPHB} que o guia por 1 minuto. Enquanto o eco estiver ativo, você ou um aliado a até 9 m (30 ft.) pode adicionar {@dice 1d4} a um teste de ataque, teste de habilidade ou teste de resistência uma vez por turno. Você pode usar esta habilidade um número de vezes igual ao seu modificador de Sabedoria (mínimo 1), recuperando todos os usos após um {@variantrule Long Rest|XPHB}.",
+				{
+					"type": "entries",
+					"name": "Canalizar Divindade: Chamado dos Ancestrais",
+					"entries": [
+						"“Ouçam-me, vocês que vieram antes.”",
+						"Como uma {@variantrule {@variantrule Magic Action|XPHB}|XPHB}, você apresenta seu símbolo sagrado e invoca as vozes primordiais.",
+						"Escolha um dos efeitos abaixo:",
+						"{@b Proteção dos Antigos}. Criaturas de sua escolha a até 9 m (30 ft.) ganham Pontos de Vida Temporários iguais a {@dice 2d8} + seu nível de clérigo, e têm vantagem em testes de resistência contra efeitos mágicos, pelos próximos dois turnos.",
+						"{@b Juízo da Memória}. Criaturas de sua escolha a até 9 m (30 ft.) devem realizar um teste de resistência de Sabedoria, em caso de falha sofrem dano necrótico ou psíquico (sua escolha) igual a {@dice 2d10} + seu modificador de Sabedoria e têm desvantagem no próximo ataque ou teste de resistência. Sofrendo metade do dano e nenhum efeito adicional, em caso de sucesso."
+					]
+				}
+			],
+			"consumes": {
+				"name": "Channel Divinity"
+			}
+		},
+		{
+			"name": "Corpo de Tradição",
+			"source": "MundoDeKyrSubclasses",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "XPHB",
+			"subclassShortName": "Ordem dos Ancestrais",
+			"subclassSource": "MundoDeKyrSubclasses",
+			"level": 6,
+			"entries": [
+				"Os Deuses Antigos fortalecem aqueles que carregam seu legado.",
+				{
+					"type": "list",
+					"items": [
+						"Você ganha resistência a dano necrótico ou psíquico (escolha ao ganhar esta característica).",
+						"Quando você ou uma criatura a até 9 m (30 ft.) falhar em um teste de resistência, você pode usar sua Reação para permitir que a criatura role {@dice 1d6} e adicione ao resultado."
+					]
+				},
+				"Você pode usar essa reação um número de vezes igual ao seu modificador de Sabedoria por {@variantrule Long Rest|XPHB}."
+			]
+		},
+		{
+			"name": "Herdeiro do Primeiro Eco",
+			"source": "MundoDeKyrSubclasses",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "XPHB",
+			"subclassShortName": "Ordem dos Ancestrais",
+			"subclassSource": "MundoDeKyrSubclasses",
+			"level": 17,
+			"entries": [
+				"Você se torna um verdadeiro condutor da vontade primordial. Como Ação, uma vez por {@variantrule Long Rest|XPHB}, você pode invocar o Primeiro Eco por 1 minuto. Enquanto esta habilidade estiver ativa:",
+				{
+					"type": "list",
+					"items": [
+						"Você tem vantagem em todos os testes de Sabedoria.",
+						"Criaturas hostis a até 9 m (30 ft.) têm desvantagem em testes de resistência contra suas magias.",
+						"Sempre que você conjurar uma magia de clérigo de 1º nível ou superior, escolha uma criatura a até 9 m (30 ft.) para:",
+						"ganhar {@dice 2d8} pontos de vida; ou",
+						"sofrer {@dice 2d8} de dano psíquico ou necrótico."
+					]
+				}
+			]
+		},
+		{
+			"name": "Golpes Ressonantes",
+			"source": "MundoDeKyrSubclasses",
+			"page": 0,
+			"className": "Monk",
+			"classSource": "XPHB",
+			"subclassShortName": "Ecos Ressonantes",
+			"subclassSource": "MundoDeKyrSubclasses",
+			"level": 3,
+			"entries": [
+				"Os monges do Caminho dos Ecos Ressonantes acreditam que o mundo é tecido de vibrações — ecos primordiais deixados pela criação da Árvore do Mundo. Cada passo, cada golpe e cada sopro de ar carrega uma frequência única, e ao dominar essas ondas invisíveis, o monge pode dobrar o próprio som para ofender, defender e até desaparecer.",
+				"Ao seguir esse caminho, você aprende a canalizar sua energia interior como ressonância, transformando vibrações em armas que confundem, rompem e paralisam. Seus golpes nunca são apenas físicos: são estalos que ecoam como trovões contidos, capazes de despedaçar foco, equilíbrio e intenção.",
+				"Quando você adota esta Tradição Monástica, aprende a manipular vibrações para transformar seus golpes em ondas de impacto.",
+				"{@b Eco Estrondoso.} Quando você usa {@classFeature Flurry of Blows|Monk|XPHB|2}, você causa dano trovejante adicional igual ao seu modificador de Sabedoria (mínimo 1) nos seus ataques.",
+				"{@b Ruptura Ressonante.} Quando você usa {@classFeature Flurry of Blows|Monk|XPHB|2}, pode substituir um dos ataques por uma onda vibratória. A criatura atingida deve realizar um teste de resistência de Constituição. Em falha, sofre duas vezes seu dado de monge de dano trovejante, em um sucesso sofre metade.",
+				"{@b Passos Silentes.} Seu controle sobre vibrações neutraliza o som ao seu redor. Você tem vantagem em testes de Destreza ({@skill Stealth|XPHB}) feitos para se mover sem ser ouvido."
+			]
+		},
+		{
+			"name": "Transposição Vibratória",
+			"source": "MundoDeKyrSubclasses",
+			"page": 0,
+			"className": "Monk",
+			"classSource": "XPHB",
+			"subclassShortName": "Ecos Ressonantes",
+			"subclassSource": "MundoDeKyrSubclasses",
+			"level": 6,
+			"entries": [
+				"Ao atingir o 6º nível, você aprende a deslocar seu corpo por meio de pulsos condensados de som, dobrando a vibração do ar ao seu redor.",
+				"{@b Passo Ressonante}. Como uma Ação Bônus, você pode gastar 1 ponto de Ki para se teletransportar até 6 metros (20 pés) para um espaço desocupado que possa ver. Cada criatura adjacente ao local de onde você partiu deve realizar um teste de resistência de Constituição contra sua CD de Ki. Em caso de falha, a criatura sofre dano trovejante igual a dois dados de Artes Marciais; em sucesso, sofre metade do dano.",
+				"{@b Eco Guardião}. Quando você usa {@classFeature Deflect Attacks|Monk|XPHB|3}, pode gastar 1 ponto de Ki para liberar uma contracorrente vibratória. Escolha uma criatura que você possa ver a até 9 metros (30 pés). Ela deve realizar um teste de resistência de Constituição (CD = 8 + seu bônus de proficiência + seu modificador de Sabedoria). Em caso de falha, a criatura sofre dano trovejante igual a dois dados de Artes Marciais mais seu modificador de Sabedoria; em sucesso, sofre metade do dano. Este efeito não concede deslocamento adicional."
+			],
+			"consumes": {
+				"name": "Focus Point"
+			}
+		},
+		{
+			"name": "Onda Crescente",
+			"source": "MundoDeKyrSubclasses",
+			"page": 0,
+			"className": "Monk",
+			"classSource": "XPHB",
+			"subclassShortName": "Ecos Ressonantes",
+			"subclassSource": "MundoDeKyrSubclasses",
+			"level": 11,
+			"entries": [
+				"Você domina o conceito de vibrar um alvo internamente, acumulando energia que explode em um único instante.",
+				"{@b Vibração Acumulada. }Quando você acerta uma criatura com um ataque desarmado, pode gastar 2 pontos de Ki para marcá-la com uma ressonância interna por 1 minuto. A vibração termina imediatamente se você marcar outro alvo. Sempre que você acerta o alvo marcado com um ataque, ele sofre dano trovejante adicional igual ao seu dado de Artes Marciais.",
+				"{@b Desabar Estrondoso}. Você pode usar uma Ação para encerrar a Vibração Acumulada antecipadamente, liberando toda a energia em uma explosão auditiva. A criatura marcada e todas as criaturas de sua escolha a 3 metros (10 ft.) dela devem fazer um teste de resistência de Constituição. Falha: sofrem {@dice 3d6} de dano trovejante e ficam Atordoadas até o início do seu próximo turno. Sucesso: sofrem metade do dano e não ficam {@condition Stunned|XPHB}."
+			],
+			"consumes": {
+				"name": "Focus Point"
+			}
+		},
+		{
+			"name": "Eco Perfeito",
+			"source": "MundoDeKyrSubclasses",
+			"page": 0,
+			"className": "Monk",
+			"classSource": "XPHB",
+			"subclassShortName": "Ecos Ressonantes",
+			"subclassSource": "MundoDeKyrSubclasses",
+			"level": 17,
+			"entries": [
+				"No 17º nível, você atinge a maestria absoluta sobre o som, tornando-se o ponto de convergência das vibrações no campo de batalha.",
+				"{@b Corpo Harmônico}. Você adquire resistência a dano trovejante. Além disso, sempre que usa {@classFeature Flurry of Blows|Monk|XPHB|2}, pode realizar quatro ataques em vez do número normal.",
+				"{@b Sinfonia do Vácuo}. Uma vez por {@variantrule Long Rest|XPHB}, você pode usar uma Ação para liberar uma onda de silêncio absoluto seguida de um colapso vibratório devastador. Cada criatura de sua escolha em um raio de 6 metros (20 pés) deve realizar um teste de resistência de Constituição contra sua CD de Ki. Em caso de falha, a criatura sofre {@dice 4d10} de dano trovejante e fica {@condition Deafened|XPHB} por 1 minuto. Em caso de sucesso, sofre metade do dano e não fica {@condition Deafened|XPHB}.",
+				"Enquanto a área persiste, o som é completamente suprimido: criaturas não podem falar, magias que exigem componente verbal falham, e testes de {@skill Stealth|XPHB} baseados em som são feitos com vantagem dentro da área afetada."
+			]
+		},
+		{
+			"name": "Guerreiro do Selvagem Mítico",
+			"source": "MundoDeKyrSubclasses",
+			"page": 0,
+			"className": "Druid",
+			"classSource": "XPHB",
+			"subclassShortName": "Mythic Beasts",
+			"subclassSource": "MundoDeKyrSubclasses",
+			"level": 3,
+			"entries": [
+				"“A natureza não é apenas o que cresce — é o que sonha.",
+				"Cada criatura mítica é um fragmento do coração vivo do mundo.”",
+				"Os druidas do Círculo das Criaturas Místicas são condutores vivos dos arquétipos primordiais — seres que encarnam as memórias mais antigas e os instintos mais puros do mundo.",
+				"Eles reverenciam não apenas as feras e florestas, mas os espíritos da própria criação: dragões que dormem sob as montanhas, lobos antigos como a lua, grifos que agitam os ventos do amanhecer e águias tempestuosas que gritam o nome do trovão antes mesmo dos deuses.",
+				"Quando esses druidas entram em combate, não se transformam em animais comuns — eles fundem corpo e alma ao mito, tornando-se uma extensão viva dessas entidades lendárias.",
+				"Em batalha, seus olhos brilham com luz ancestral, suas vozes ecoam como rugidos de eras esquecidas, e cada passo reverbera nas raízes da Árvore do Mundo.",
+				"Ao escolher este círculo no 3º nível, você aprende a canalizar o poder dos grandes espíritos arquetípicos que habitam a natureza.",
+				"Caso tenha proficiência em armadura média e escudo, você adquire proficiência com armaduras pesadas e armas marciais, caso não possua, você adquire proficiência com armadura média, armas marciais e escudo.",
+				{
+					"type": "entries",
+					"name": "Forma Selvagem Mítica",
+					"entries": [
+						"Quando usa a sua característica Forma Selvagem, você não se transforma em um animal comum. Em vez disso, invoca o espírito de uma Criatura Mística, fundindo o seu corpo e alma ao poder dela.",
+						"Como ação bônus, você pode gastar um uso de Forma Selvagem para entrar em uma Forma Mítica, que dura por 10 minutos, até ser encerrada (nenhuma ação necessária) ou até você cair {@condition Unconscious|XPHB}.",
+						"Enquanto estiver em uma Forma Mítica:",
+						{
+							"type": "list",
+							"items": [
+								"Você ganha benefícios adicionais conforme o espírito que invoca, conforme descrito a seguir.",
+								"Você ganha THP igual ao seu nível de druída."
+							]
+						},
+						"Você pode usar o seu modificador de Sabedoria em vez de Força ou Destreza para jogadas de ataque e dano com suas armas."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Espíritos Místicos",
+					"entries": [
+						"Ao adquirir esta característica, você aprende canalizar até três dos Espíritos Místicos abaixo, aumentando para quatro no nível 10 e cinco no nível 14.",
+						"Ao ativar sua Forma Selvagem, você escolhe qual dos espíritos assumirá a forma."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Aspecto",
+					"entries": [
+						{
+							"type": "entries",
+							"name": ":dragon: Dragão Primordial",
+							"entries": [
+								"{@b Sopro Elemental}. Uma vez por turno, quando você realiza a Ação de Ataque, pode substituir um de seus ataques por um sopro elemental em um cone de 4,5 metros ou uma linha de 9 metros. Criaturas na área devem realizar um teste de resistência de Destreza (CD = 8 + seu bônus de proficiência + seu modificador de Sabedoria).",
+								"Em falha, sofrem {@dice 2d6} de dano de um tipo à sua escolha (ácido, frio, fogo, elétrico ou veneno). Em sucesso, sofrem metade do dano.",
+								"O dano aumenta para {@dice 3d6} no 6º nível e para {@dice 4d6} no 14º nível.",
+								"{@b Escamas Primevas}. Ao ativar esta Forma Mítica, escolha um dos benefícios: Você recebe +1 de CA; ou Você ganha resistência ao tipo de dano escolhido para o Sopro Elemental. A escolha permanece até o fim da Forma Mítica.",
+								"{@b Presença Dracônica}. Você tem vantagem em testes de Carisma ({@skill Intimidation|XPHB}) e pode adicionar seu modificador de Sabedoria a testes de Carisma ({@skill Persuasion|XPHB} e {@skill Intimidation|XPHB})."
+							]
+						},
+						{
+							"type": "entries",
+							"name": ":fire: Fênix Renascida",
+							"entries": [
+								"{@b Plumas Ígneas}. Você tem resistência a dano de fogo enquanto estiver nesta Forma Mítica.",
+								"{@b Voo da Fênix}. Enquanto estiver na Forma Mítica da Fênix, uma vez por turno, ao se mover, você pode planar até 3 metros acima do solo sem cair. A partir do 10º nível, você passa a ganhar deslocamento de voo de 9 metros.",
+								"{@b Explosão de Renascimento}. Quando sua Forma Mítica termina voluntariamente ou se encerra por duração, você pode liberar uma explosão de chamas purificadoras. Criaturas à sua escolha em um raio de 3 metros devem realizar um teste de resistência de Destreza (CD = 8 + proficiência + Sabedoria).",
+								"Em falha, sofrem {@dice 3d6} de dano de fogo; em sucesso, sofrem metade do dano.",
+								"O dano aumenta para {@dice 4d6} no 6º nível e para {@dice 5d6} no 14º nível.",
+								"Além disso, você ou um aliado a até 3 metros recupera {@dice 2d4} pontos de vida + seu modificador de Sabedoria ({@dice 4d4} no 6º nível e {@dice 6d4} no 14º nível)."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": ":unicorn: Unicórnio da Alvorada",
+					"entries": [
+						"{@b Aura Restauradora}. Uma vez por turno, ao acertar um ataque, em um raio de 3m (10ft emanation) cure  uma criatura à sua escolha em {@dice 1d4} pontos de vida.",
+						"{@b Bênção Serenante}. Você e aliados a até 3 metros têm vantagem em testes de resistência contra as condições {@condition Frightened|XPHB} e {@condition Charmed|XPHB}.",
+						"{@b Movimento sutil}. Enquanto na forma do Unicórnio, você tem sempre preparada a magia {@i Misty Step}, podendo conjura-la uma vez sem gastar espaço de magia."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Predador",
+					"entries": []
+				},
+				{
+					"type": "entries",
+					"name": ":wolf: Lobo de Névoa",
+					"entries": [
+						"{@b Instinto Caçador}. Você tem vantagem em testes de {@skill Perception|XPHB} e {@skill Survival|XPHB}.",
+						"{@b Garras da Névoa}. Seus ataques desarmados causam {@dice 1d6} de dano cortante ({@dice 1d8} no 6º nível, {@dice 1d10} no 10º), você pode utilizar seu modificador de Sabedoria no lugar de Força e Destreza para realizar um Ataque Desarmado. Além disso, adicionam seu modificador de Sabedoria ao dano como dano necrótico.",
+						"{@b Uivo da Matilha}. Enquanto sua forma estiver ativa, seus aliados possuem vantagem em jogadas de ataque contra inimigos a 1,5m (5ft) de você."
+					]
+				},
+				{
+					"type": "entries",
+					"name": ":snake: Basilisco Primordial",
+					"entries": [
+						"{@b Pele de Veneno}. Ao ser atingido por um ataque corpo a corpo, o atacante receberá {@dice 1d4} de dano de veneno. Este dano aumenta nos níveis 6 ({@dice 2d4}) e 14 ({@dice 3d4}), além disso, seus ataques causam seu modificador de sabedoria como dano de veneno adicional.",
+						"{@b Olhar Petrificante}. Como ação bônus, uma criatura a até 6 metros deve fazer teste de Constituição (CD = 8 + prof. + Sabedoria) ou ficar {@condition Restrained|XPHB} (restrained) até o fim do seu próximo turno.",
+						"{@b Instinto de Cobra}. Você adiciona duas vezes seu bônus de proficiência em rolagens de Sabedoria ({@skill Insight|XPHB}) e Carisma ({@skill Deception|XPHB})."
+					]
+				},
+				{
+					"type": "entries",
+					"name": ":zap: Águia dos Trovões",
+					"entries": [
+						"{@b Asas de Tempestade}. Você tem resistência a dano trovejante.",
+						"{@b Garras do Raio}. Seus ataques corpo a corpo causam dano trovejante adicional igual ao modificador de Sabedoria.",
+						"{@b Visão dos Céus}. Você adiciona duas vezes seu bônus de proficiência a testes de Sabedoria ({@skill Perception|XPHB}). Além disso, você ignora obscurecimento leve e não sofre desvantagem em testes de {@skill Perception|XPHB} baseados em visão a longa distância."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Guardião",
+					"entries": []
+				},
+				{
+					"type": "entries",
+					"name": ":turtle: Tartaruga Gélida",
+					"entries": [
+						"{@b Carapaça Ancestral}. Ao ativar esta forma, você conjura em si mesmo {@i Blade Ward} pela duração da transformação, sem utilizar concentração.",
+						"{@b Punho da Geleira}. Seus ataques corpo a corpo reduzem 3m (10ft) da velocidade de movimento da criatura atingida, aplicando-se uma vez por turno à cada criatura.",
+						"{@b Foco da Geleira}. Você possui resistência a dano de gelo e perfurante."
+					]
+				},
+				{
+					"type": "entries",
+					"name": ":lion_face: Leão do Crepúsculo",
+					"entries": [
+						"{@b Rugido Ancestral}. Como ação bônus, você emite um rugido que inspira aliados. Você e criaturas à sua escolha em uma aura de 4,5 metros (15 pés) recebem {@dice 1d6} pontos de vida temporários + seu modificador de Sabedoria ({@dice 1d8} no 6º nível e {@dice 1d10} no 14º nível).",
+						"{@b Instinto Protetor.} Você ganha o Estilo de Luta, Proteção.",
+						"{@b Orgulho da Noite}. Você tem vantagem em testes de Carisma ({@skill Persuasion|XPHB}) e Sabedoria ({@skill Animal Handling|XPHB}) ao lidar com bestas."
+					]
+				},
+				{
+					"type": "entries",
+					"name": ":eagle: Grifo das Cimeiras",
+					"entries": [
+						"{@b Voo das Montanhas.} Seu deslocamento aumenta em 3 metros, e você ignora terreno difícil causado por pedras, vento ou ruínas.",
+						"{@b Garras do Horizonte.} Como ação bônus, você pode realizar uma investida: uma criatura a até 3 metros deve fazer teste de Força (CD = 8 + prof. + Sabedoria) ou ser empurrada 3 metros e ficar derrubada ({@condition Prone|XPHB}).",
+						"{@b Olhar Vigilante.} Você pode adicionar duas vezes seu bônus de proficiência às rolagens de Sabedoria ({@skill Survival|XPHB}).",
+						"#"
+					]
+				}
+			]
+		},
+		{
+			"name": "Arsenal Místico",
+			"source": "MundoDeKyrSubclasses",
+			"page": 0,
+			"className": "Druid",
+			"classSource": "XPHB",
+			"subclassShortName": "Mythic Beasts",
+			"subclassSource": "MundoDeKyrSubclasses",
+			"level": 6,
+			"entries": [
+				"Você pode atacar duas vezes ao invés de uma, sempre que tomar uma ação de ataque. Além disso, , pode substituir um dos ataques pela conjuração de um truque de druida.",
+				"#"
+			]
+		},
+		{
+			"name": "Manifestação Ascendente",
+			"source": "MundoDeKyrSubclasses",
+			"page": 0,
+			"className": "Druid",
+			"classSource": "XPHB",
+			"subclassShortName": "Mythic Beasts",
+			"subclassSource": "MundoDeKyrSubclasses",
+			"level": 10,
+			"entries": [
+				"Ao ativar sua Forma Selvagem Mística espiritual e conjurar uma magia que tenha o tempo de conjuração de 1 ação, pode realizar um ataque como ação bônus.",
+				"Além disso, escolha duas das Técnicas Míticas abaixo. Você pode trocar uma delas ao terminar um {@variantrule Long Rest|XPHB}.",
+				"Técnicas Míticas",
+				"Golpe Canalizado. Uma vez por turno, quando acertar um ataque com arma ou ataque desarmado, você causa +{@dice 1d6} de dano do tipo associado ao seu Espírito Mítico ativo.",
+				"Postura Ancestral. Enquanto estiver em Forma Mítica, você recebe +1 em testes de resistência contra magias e efeitos mágicos.",
+				"Passo Instintivo. Uma vez por turno, após acertar um ataque, você pode se mover até 3 metros sem provocar ataques de oportunidade.",
+				"Fôlego Primordial. Uma vez por Forma Mítica, quando sofrer dano, você pode usar sua reação para reduzir esse dano em {@dice 1d8} + seu modificador de Sabedoria."
+			]
+		},
+		{
+			"name": "Avatar das Criaturas Eternas",
+			"source": "MundoDeKyrSubclasses",
+			"page": 0,
+			"className": "Druid",
+			"classSource": "XPHB",
+			"subclassShortName": "Mythic Beasts",
+			"subclassSource": "MundoDeKyrSubclasses",
+			"level": 14,
+			"entries": [
+				"Enquanto estiver em Forma Mítica, você pode, como ação bônus, assumir o Avatar da família espiritual associada ao espírito invocado (Aspecto, Guardião ou Predador). Esse estado dura até o fim da Forma Mítica. Você só pode assumir um Avatar por uso de Forma Selvagem.### Avatar do Aspecto (Dragão, Fênix, Unicórnio)",
+				"Uma vez por turno, quando causar dano do tipo elemental associado à sua Forma Mítica, você pode causar +{@dice 1d8} de dano adicional do mesmo tipo a um alvo.",
+				"Você emana uma aura de 4,5 metros. Aliados dentro da aura têm vantagem no primeiro teste de resistência que realizarem a cada turno.",
+				"Uma vez por turno, você pode ativar uma habilidade secundária de outro Aspecto até o fim do turno (sem empilhar efeitos).",
+				"### Avatar do Guardião (Tartaruga, Leão, Grifo)",
+				"Ao ativar este Avatar, escolha um tipo de dano físico (cortante, perfurante ou contundente). Você tem resistência a esse tipo enquanto o Avatar estiver ativo.",
+				"Aliados a até 4,5 metros recebem +1 de CA.",
+				"Uma vez por turno, quando um aliado dentro da aura sofrer dano, você pode reduzir esse dano em um valor igual ao seu modificador de Sabedoria (mínimo 1).",
+				"### Avatar do Predador  (Lobo, Águia, Basilisco)",
+				"Ao ativar este Avatar, escolha um tipo de dano físico (cortante, perfurante ou contundente). Você tem resistência a esse tipo enquanto o Avatar estiver ativo.",
+				"Aliados a até 4,5 metros recebem +1 de CA.",
+				"Uma vez por turno, quando um aliado dentro da aura sofrer dano, você pode reduzir esse dano em um valor igual ao seu modificador de Sabedoria (mínimo 1)"
+			]
+		},
+		{
+			"name": "Aether Imbuído",
+			"source": "MundoDeKyrSubclasses",
+			"page": 0,
+			"className": "Ranger",
+			"classSource": "XPHB",
+			"subclassShortName": "Arqueiro Elemental",
+			"subclassSource": "MundoDeKyrSubclasses",
+			"level": 3,
+			"entries": [
+				"“O arco é o fio que liga o caçador ao trovão.",
+				"Cada flecha — um fragmento da criação.”",
+				"Arqueiros Elementais aprendem a canalizar o Aether primordial diretamente através de armas à distância, fundindo técnica marcial, foco elemental e precisão ritual. Em vez de perseguir a presa por marcas persistentes, esses rangers tornam cada disparo uma manifestação controlada da Fonte Primordial, moldando flechas que carregam fogo, gelo, trovão ou outros ecos elementais da Trama.",
+				"Ao escolher esta subclasse, você aprende a substituir o uso tradicional de {@spell {@spell Hunter's Mark|XPHB}|XPHB} por uma técnica de infusão elemental contínua.",
+				"Quando você conjurar {@spell {@spell Hunter's Mark|XPHB}|XPHB}, enquanto com uma arma à distância com a qual tenha proficiência em sua mão, você pode canalizar o Aether através desta arma. Quando faz isso, o ataque causa {@dice 1d6} de dano elemental adicional (além do dano da {@spell {@spell Hunter's Mark|XPHB}|XPHB}), escolhido no momento do ataque entre fogo, frio, relâmpago, ácido ou trovão. Esse dano adicional só pode ser aplicado uma vez por turno.",
+				"Esse efeito representa uma infusão constante e não exige concentração.",
+				{
+					"type": "entries",
+					"name": "Flechas Primordiais",
+					"entries": [
+						"Você aprende a condensar Aether em flechas especiais, manifestadas no instante do disparo por meio de fórmulas marciais e foco elemental.",
+						"Quando você realiza a ação de Ataque com uma arma à distância, pode usar uma Ação Bônus para imbuir uma flecha especial antes de um dos ataques desse turno, gastando um espaço de magia. O nível do espaço determina a potência da flecha, conforme descrito em cada efeito.",
+						"Você conhece três Flechas Primordiais à sua escolha dentre as opções disponíveis no final desta habilidade. Sempre que ganhar um nível de Ranger, você pode substituir uma flecha conhecida por outra da lista para a qual tenha acesso.",
+						"Você só pode aplicar uma Flecha Primordial por turno, e cada ataque só pode ser afetado por uma única flecha especial.",
+						{
+							"type": "entries",
+							"name": "Flechas disponíveis no 3º nível:",
+							"entries": [
+								"{@i Flecha Ígnea}. O ataque causa dano de fogo adicional igual a {@dice 1d6} por nível do espaço de magia gasto. Se o alvo falhar em um teste de Constituição, ele fica Incendiado, sofrendo {@dice 1d6} de fogo no início do próximo turno.",
+								"{@i Flecha Glacial}. O ataque causa dano de frio adicional igual a {@dice 1d6} por nível do espaço gasto, e a velocidade do alvo é reduzida à metade até o início do seu próximo turno.",
+								"{@i Flecha Trovejante}. O ataque causa dano de trovão adicional igual a {@dice 1d6} por nível do espaço gasto. O alvo deve realizar um teste de Força ou ser empurrado 10 pés para trás.",
+								"{@i Flecha Corrosiva}. O ataque causa dano de ácido adicional igual a {@dice 1d6} por nível do espaço gasto. Se o alvo falhar em um teste de Constituição, ele sofre −2 na CA até o início do seu próximo turno.",
+								"{@i Flecha Cortante do Vento}. O ataque causa dano de força adicional igual a {@dice 1d6} por nível do espaço gasto e ignora meia cobertura e três quartos de cobertura."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Magias do Arqueiro Elemental",
+					"entries": [
+						"{@b 3º}. Goodberry",
+						"{@b 5º}.    Pass Without Trace",
+						"{@b 9º}.    Haste",
+						"{@b 13º}. Freedom of Movement",
+						"{@b 17º}. Commune with Nature"
+					]
+				}
+			]
+		},
+		{
+			"name": "Condensação Elemental",
+			"source": "MundoDeKyrSubclasses",
+			"page": 0,
+			"className": "Ranger",
+			"classSource": "XPHB",
+			"subclassShortName": "Arqueiro Elemental",
+			"subclassSource": "MundoDeKyrSubclasses",
+			"level": 7,
+			"entries": [
+				"Seu controle do Aether se torna mais refinado, permitindo sobreposição parcial de efeitos sem instabilidade.",
+				"Uma vez por turno, quando você acerta um ataque à distância imbuído pelo Aether Imbuído, você pode alterar o tipo de dano elemental escolhido para força, representando a compressão pura da energia primordial.",
+				"Além disso, quando você usa uma Flecha Primordial, você pode aplicar simultaneamente o dano adicional do Aether Imbuído ao mesmo ataque, mesmo que ele já tenha sido usado neste turno.",
+				"Você aprende uma nova Flecha Primordial dentre as opções disponíveis até este nível."
+			]
+		},
+		{
+			"name": "Arquearia da Fonte Primordial",
+			"source": "MundoDeKyrSubclasses",
+			"page": 0,
+			"className": "Ranger",
+			"classSource": "XPHB",
+			"subclassShortName": "Arqueiro Elemental",
+			"subclassSource": "MundoDeKyrSubclasses",
+			"level": 11,
+			"entries": [
+				"Seu vínculo com a Fonte permite que suas flechas carreguem ecos persistentes da Trama.",
+				"O dano adicional do Aether Imbuído aumenta para {@dice 1d8}.",
+				"Além disso, quando uma criatura sofre dano de uma Flecha Primordial, você pode escolher marcar o alvo com um Eco Elemental até o final do seu próximo turno. O primeiro ataque que atingir esse alvo antes do fim do efeito causa dano elemental adicional igual ao seu modificador de Sabedoria.",
+				"Você aprende duas novas Flechas Primordiais. A partir deste nível, você pode escolher entre as flechas do 3º nível ou as novas opções abaixo.",
+				"Flecha Sísmica. O ataque causa dano de trovão adicional e força o alvo a realizar um teste de Destreza. Em caso de falha, o alvo fica {@condition Prone|XPHB}.",
+				"Flecha de Ruptura. O ataque causa dano de força adicional. Até o início do seu próximo turno, o alvo perde Resistência a um tipo de dano elemental à sua escolha.",
+				"Flecha Prismática Menor. Escolha dois tipos de dano elemental diferentes. O ataque causa metade do dano adicional como cada tipo escolhido."
+			]
+		},
+		{
+			"name": "Mestre do Arco Aetérico",
+			"source": "MundoDeKyrSubclasses",
+			"page": 0,
+			"className": "Ranger",
+			"classSource": "XPHB",
+			"subclassShortName": "Arqueiro Elemental",
+			"subclassSource": "MundoDeKyrSubclasses",
+			"level": 15,
+			"entries": [
+				"Você alcança domínio pleno sobre a projeção elemental à distância.",
+				"Uma vez por turno, quando você usa uma Flecha Primordial, você pode fazê-lo sem gastar um espaço de magia, desde que o efeito seja considerado como se tivesse sido conjurado com um espaço de 1º nível. Após usar este benefício, você não pode utilizá-lo novamente até o início do seu próximo turno.",
+				"Além disso, sempre que você reduz uma criatura a 0 pontos de vida com um ataque à distância imbuído, você pode imediatamente realizar outro ataque à distância como parte da mesma ação.",
+				"Você aprende uma última Flecha Primordial."
+			]
+		},
+		{
+			"name": "Técnica do Silêncio Vivo",
+			"source": "MundoDeKyrSubclasses",
+			"page": 0,
+			"className": "Rogue",
+			"classSource": "XPHB",
+			"subclassShortName": "Shinobi",
+			"subclassSource": "MundoDeKyrSubclasses",
+			"level": 3,
+			"entries": [
+				"“A sombra é minha lâmina, o silêncio é meu juramento.”",
+				"Os Rogues do Caminho do Shinobi são artistas da {@condition Invisible|XPHB} e da precisão.",
+				"Para eles, o campo de batalha é um tabuleiro de respiração e ritmo: cada passo é uma decisão, cada golpe é o resultado inevitável da paciência.",
+				"O Shinobi não é apenas um assassino — é um estudioso do momento.",
+				"Adicione seu modificador de Sabedoria às jogadas de iniciativa.",
+				{
+					"type": "entries",
+					"name": "Estilo de Combate Shinobi",
+					"entries": [
+						"Você treina seu corpo para agir como uma extensão perfeita de sua arma.",
+						"Escolha um dos seguintes estilos de combate:",
+						"{@b Archery}. Você ganha +2 nas jogadas de ataque à distância.",
+						"{@b Thrown Weapon Fighting}. Você pode sacar uma arma arremessável como parte do ataque e adiciona +2 de dano a ataques com armas arremessáveis.",
+						"{@b Two-Weapon Fighting}. Quando luta com duas armas leves, adiciona o modificador de habilidade ao dano do segundo ataque."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Arte da Furtividade Instintiva",
+					"entries": [
+						"Você pode se mover entre a percepção e o esquecimento.",
+						"Quando faz o ataque furtivo ({@classFeature Sneak Attack|Rogue|XPHB|1}), você pode mover-se até 3 m (10 ft.) sem provocar ataques de oportunidade.",
+						"Se estiver em cobertura leve ou obscurecimento parcial, tem vantagem para esconder-se (Hide)."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Técnicas de Jutsu",
+					"entries": [
+						"Você aprende a canalizar energia vital (ki) em manobras rápidas, conhecidas como Jutsus.",
+						"Você conhece duas Técnicas de Jutsu à sua escolha (descritas abaixo) e aprende mais à medida que sobe de nível nesta classe:",
+						"9º nível: +1 técnica conhecida (3 no total)",
+						"13º nível: +1 técnica conhecida (4 no total)",
+						"17º nível: +1 técnica conhecida (5 no total)",
+						"Você pode usar um número de técnicas igual ao seu modificador de Sabedoria (mínimo 1) e recupera todos os usos ao fim de um {@variantrule Short Rest|XPHB} ou longo.",
+						"Alguns Jutsus exigem um teste de resistência contra sua CD de Jutsu = 8 + proficiência + Destreza.",
+						{
+							"type": "entries",
+							"name": "Lista de Jutsus (Técnicas Shinobi)",
+							"entries": [
+								"{@b Jutsu do Golpe Fantasma}. Quando você acerta um ataque furtivo, pode gastar 1 uso de Jutsu para não revelar sua posição. Se estava escondido, o alvo não sabe de onde veio o ataque.",
+								"{@b Jutsu da Folha Cortante}. Como ação bônus, você se move até 6 m (20 ft.) em linha reta e faz um ataque corpo a corpo com vantagem. Se acertar, adiciona {@dice 1d6} de dano cortante.",
+								"{@b Jutsu da Névoa Silenciosa}. Como reação a ser alvejado por um ataque, você pode gastar 1 uso de Jutsu para criar uma ilusão momentânea e impor desvantagem ao ataque.",
+								"Você se move até 3 m (10 ft.) para uma direção segura, sem provocar ataques de oportunidade.",
+								"{@b Jutsu da Lâmina Oculta}. Quando você acerta um ataque furtivo, pode gastar 1 uso de Jutsu para causar dano adicional igual ao seu bônus de proficiência e forçar o alvo a fazer um teste de Constituição. Falha: o alvo fica {@condition Blinded|XPHB} até o início do seu próximo turno.",
+								"{@b Jutsu do Corte Vital}. Ao realizar um ataque furtivo, você pode gastar 2 usos de Jutsu para transformar o golpe em uma técnica letal. O alvo deve fazer um teste de Constituição. Falha: sofre dano adicional igual a seu {@classFeature Sneak Attack|Rogue|XPHB|1} base. Sucesso: sofre metade. Essa técnica só pode ser usada uma vez por turno."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Passos Entre Sombras",
+			"source": "MundoDeKyrSubclasses",
+			"page": 0,
+			"className": "Rogue",
+			"classSource": "XPHB",
+			"subclassShortName": "Shinobi",
+			"subclassSource": "MundoDeKyrSubclasses",
+			"level": 9,
+			"entries": [
+				"Você aprende a fundir movimento e intenção.",
+				"Ao usar Dash, Disengage ou Hide como ação bônus, ganha os seguintes benefícios até o início do seu próximo turno: +2 de CA; Resistência a dano físico (bludgeoning, piercing e slashing); e pode usar uma Técnica de Jutsu como parte da mesma ação (sem custo adicional de ação)."
+			]
+		},
+		{
+			"name": "Instinto da Lua",
+			"source": "MundoDeKyrSubclasses",
+			"page": 0,
+			"className": "Rogue",
+			"classSource": "XPHB",
+			"subclassShortName": "Shinobi",
+			"subclassSource": "MundoDeKyrSubclasses",
+			"level": 13,
+			"entries": [
+				"Você alcança o sexto sentido da antecipação mortal.",
+				"Quando um inimigo faz um ataque contra você pode usar sua reação para mover-se até 3 m (10 ft.) e fazer um ataque furtivo contra ele, se possível.",
+				"Se o ataque do inimigo errar, você pode aplicar um efeito de {@classFeature Cunning Strike|Rogue|XPHB|5} gratuitamente (sem custo de dado).",
+				"Além disso, suas Técnicas de Jutsu agora causam +{@dice 1d6} de dano adicional se envolverem ataque direto."
+			]
+		},
+		{
+			"name": "Caminho do Verdadeiro Silêncio",
+			"source": "MundoDeKyrSubclasses",
+			"page": 0,
+			"className": "Rogue",
+			"classSource": "XPHB",
+			"subclassShortName": "Shinobi",
+			"subclassSource": "MundoDeKyrSubclasses",
+			"level": 17,
+			"entries": [
+				"Você transcende o limite entre o corpo e a intenção.",
+				"Sempre que usar um {@classFeature Cunning Strike|Rogue|XPHB|5}, pode aplicar um segundo efeito adicional sem custo de dado.",
+				"Uma vez por turno, após causar dano furtivo, você pode agir novamente (realizando uma ação bônus de movimento ou ataque).",
+				"Suas Técnicas de Jutsu agora não consomem uso se você estiver em furtividade ao ativá-las."
+			]
+		},
+		{
+			"name": "Equilíbrio Luminoso",
+			"source": "MundoDeKyrSubclasses",
+			"page": 0,
+			"className": "Sorcerer",
+			"classSource": "XPHB",
+			"subclassShortName": "Crepúsculo Eterno",
+			"subclassSource": "MundoDeKyrSubclasses",
+			"level": 3,
+			"entries": [
+				"`“Entre a primeira luz e a última sombra, o mundo respira.",
+				"E eu respiro com ele.”`",
+				"O poder dos feiticeiros do Crepúsculo Eterno nasce do instante em que a vida e a morte se encontram, onde o brilho e a escuridão se tocam sem se destruírem.",
+				"Esses conjuradores são descendentes de um fenômeno cósmico conhecido como o Eclipse Primordial, o momento em que a Árvore do Mundo brilhou e escureceu ao mesmo tempo, fundindo criação e término em um único suspiro divino.",
+				"Sua magia muda conforme a luz que o envolve: em claridade, ela cura e ilumina; na sombra, ela corrompe e silencia.",
+				"Para um Feiticeiro do Crepúsculo, a moralidade é irrelevante — a luz e a escuridão são apenas estados de um mesmo ciclo.",
+				"# Magias da Linhagem do Crepúsculo",
+				"Quando você escolhe esta linhagem no 3º nível, ganha magias adicionais conforme avança.",
+				"Essas magias sempre são conhecidas por você e não contam para o limite normal de magias conhecidas.",
+				"Algumas dessas magias mudam de efeito, tipo de dano ou aparência conforme a luz incidente sobre você (veja “Equilíbrio Luminoso”).",
+				"{@b 3º}. Starry Wisp, Toll the Dead, Cure Wounds, Inflict Wounds, Darkness, Moonbeam.",
+				"{@b 5º}. Spirit Guardians, Aura of Vitality",
+				"{@b 7º}. Death Ward, Blight",
+				"{@b 9º}. Mass Cure Wounds, Contagion",
+				"Seu corpo e alma se ajustam ao ciclo da luz.",
+				"Sua magia muda de natureza conforme o ambiente luminoso que o cerca.",
+				"{@b Em Luz Intensa (Bright Light)}: Você adiciona o modificador de Carisma a qualquer magia que cure pontos de vida.",
+				"{@b Em Luz Fraca ou Escuridão (Dim Light ou Darkness)}: Você adiciona o modificador de Carisma ao dano necrótico que causar. Quando uma criatura a até 3 metros cair a 0 pontos de vida, você ganha {@dice 1d4} pontos de vida temporários, mais seu modificador de Carisma."
+			]
+		},
+		{
+			"name": "Limiar Crepuscular",
+			"source": "MundoDeKyrSubclasses",
+			"page": 0,
+			"className": "Sorcerer",
+			"classSource": "XPHB",
+			"subclassShortName": "Crepúsculo Eterno",
+			"subclassSource": "MundoDeKyrSubclasses",
+			"level": 6,
+			"entries": [
+				"Você aprende a controlar a luz e a sombra ao seu redor, manifestando o próprio crepúsculo como extensão de sua vontade.",
+				"{@b Equilibrio duplo}. Sempre que causar dano radiante com uma magia, pode optar por também causar metade desse dano como necrótico, ou vice-versa.",
+				"{@b Controle da luz}. Como ação bônus, você pode manipular a iluminação natural ao redor de si (5ft). Escolha entre luz intensa ou luz fraca. Essa escolha dura até você usar esta habilidade novamente.",
+				"{@b Em Luz Intensa (Bright Light)}: Adicione seu modificador de Carisma às magias que causem dano radiante. Quando uma criatura for reduzida a 0 PV por uma magia sua que cause dano radiante, uma explosão de luz sagrada irrompe. Criaturas à sua escolha a até 1,5 m (5 ft.) do alvo devem fazer um teste de Constituição (CD de suas magias). Em falha, sofrem {@dice 1d8} de dano radiante e ficam {@condition Blinded|XPHB} até o fim do próximo turno. (O dano aumenta para {@dice 2d8} no 11º nível e {@dice 3d8} no 17º.)",
+				"{@b Em Luz Fraca ou Escuridão (Dim Light ou Darkness)}: Adicione seu modificador de Carisma às magias que causem dano necrótico. Quando conjurar uma magia que cure PV em um aliado dentro de escuridão, essa cura é reduzida à metade, mas você pode escolher uma criatura hostil a até 6 m (20 ft.) do alvo para sofrer o valor curado como dano necrótico."
+			]
+		},
+		{
+			"name": "O Beijo do Crepúsculo",
+			"source": "MundoDeKyrSubclasses",
+			"page": 0,
+			"className": "Sorcerer",
+			"classSource": "XPHB",
+			"subclassShortName": "Crepúsculo Eterno",
+			"subclassSource": "MundoDeKyrSubclasses",
+			"level": 14,
+			"entries": [
+				"{@b Em Luz Intensa (Bright Light)}:  Quando conjura uma magia que cure PV, o alvo ganha resistência a dano necrótico até o início do seu próximo turno.  Uma vez por turno, quando causar dano radiante, você pode curar um aliado a até 6 m (20 ft.) em {@dice 1d8} + seu modificador de Carisma.",
+				"{@b Em Luz Fraca ou Escuridão (Dim Light ou Darkness)}: Sempre que causar dano necrótico, você ignora resistência a esse tipo de dano. Uma vez por turno, quando reduzir uma criatura a 0 PV, você pode usar uma reação para restaurar 1 ponto de feitiçaria (Sorcery Point)."
+			],
+			"consumes": {
+				"name": "Sorcery Point"
+			}
+		},
+		{
+			"name": "Eclipse Vivo",
+			"source": "MundoDeKyrSubclasses",
+			"page": 0,
+			"className": "Sorcerer",
+			"classSource": "XPHB",
+			"subclassShortName": "Crepúsculo Eterno",
+			"subclassSource": "MundoDeKyrSubclasses",
+			"level": 18,
+			"entries": [
+				"Como {@variantrule {@variantrule Magic Action|XPHB}|XPHB}, você libera sua Aura de Eclipse, um campo onde o equilíbrio perfeito entre luz e trevas se manifesta. Ela se estende por 9 m (30 ft.) ao seu redor e dura 1 minuto, ou até você ficar {@condition Incapacitated|XPHB}. Enquanto a aura estiver ativa:",
+				"A área é preenchida por luz crepuscular sobrenatural: as criaturas dentro dela consideram o ambiente tanto Bright quanto Darkness para fins de efeitos e habilidades.",
+				"Você se beneficia simultaneamente de ambos os aspectos do Equilíbrio Luminoso, do Limiar Crepuscular e do Beijo do Crepúsculo.",
+				"Magias suas que causem dano radiante ou necrótico ignoram resistências e não causam dano a aliados.",
+				"Sempre que conjurar uma magia de 1º nível ou superior, escolha um dos efeitos:",
+				"{@b Chama da Aurora}. Cure uma criatura à sua escolha a até 6 m (20 ft.) em {@dice 1d10} + Carisma PV.",
+				"{@b Sopro do Eclipse}. Cause {@dice 1d10} + Carisma de dano necrótico ou radiante (à sua escolha) a uma criatura a até 6 m (20 ft.).",
+				"Você pode usar esta habilidade uma vez, e recupera o uso após um {@variantrule Long Rest|XPHB}. Pode reconjurá-la  gastando 5 Pontos de Feitiçaria."
+			],
+			"consumes": {
+				"name": "Sorcery Point"
+			}
+		},
+		{
+			"name": "Forja da Alma",
+			"source": "MundoDeKyrSubclasses",
+			"page": 0,
+			"className": "Sorcerer",
+			"classSource": "XPHB",
+			"subclassShortName": "Lâmina Primordial",
+			"subclassSource": "MundoDeKyrSubclasses",
+			"level": 3,
+			"entries": [
+				"“Quando o Fragmento desperta dentro de ti, até o aço aprende a respirar.”",
+				"A magia de um feiticeiro da Lâmina Primordial não é apenas estudada — é forjada.",
+				"Esses guerreiros arcanos carregam em seu sangue o poder bruto dos Fragmentos Primordiais, relíquias vivas que pulsam com as forças elementais da criação.",
+				"Para eles, a lâmina é mais que uma arma: é o espelho da alma.",
+				"O Fragmento canta, e o aço responde.",
+				"“A lâmina é o reflexo da tua vontade.”",
+				"Você ganha proficiência com armas marciais, escudos, armaduras leves e médias.",
+				"Seus Pontos de Vida máximo aumentam em 1 por nível de feiticeiro.",
+				"Escolha uma Manifestação Primordial da tabela a seguir — essa escolha determina o tipo de dano que suas habilidades da Lâmina Primordial causam.",
+				"`{@skill Nature|XPHB} - Veneno.",
+				"Tempestade - Raio.",
+				"Desejo - Psíquico.",
+				"Destruição - Force.",
+				"Inferno Ardente - Fogo.",
+				"Sangue - Necrótico.",
+				"Luz Silenciosa - Radiante.",
+				"Gelo Ancestral- Gelo.",
+				"Eco do Vazio - Trovão.",
+				"Fragmento Corrosivo - Ácido. `",
+				{
+					"type": "entries",
+					"name": "Lâmina Vinculada",
+					"entries": [
+						"Você aprende a {@i cantrip} {@spell True Strike|XPHB} e ela não conta para sua lista de cantrips preparados.",
+						"A qualquer momento do dia, você pode realizar um ritual arcano de 10 minutos para moldar o aether e vincular uma arma à sua alma. Essa arma torna-se sua Lâmina Primordial até que você a substitua em um novo vínculo.",
+						"Após o rito sua arma conta como Spell Focus para suas magias de Feiticeiro. Além disso, você alterar o tipo de dano da sua {@i cantrip} {@spell True Strike|XPHB} enquanto atacar com sua Lâmina Primordial para o tipo de dano da sua Manifestação Primordial."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Fluxo Duplo",
+					"entries": [
+						"Quando você conjurar o truque {@spell True Strike|XPHB} utilizando uma arma corpo-a-corpo e acertar sua jogada de ataque contra uma criatura, pode como parte da sua Ação de Magia ({@i {@variantrule Magic Action|XPHB}}) conjurar o mesmo truque novamente contra um segundo alvo que esteja dentro do seu alcance."
+					]
+				}
+			]
+		},
+		{
+			"name": "Lâmina de Aether",
+			"source": "MundoDeKyrSubclasses",
+			"page": 0,
+			"className": "Sorcerer",
+			"classSource": "XPHB",
+			"subclassShortName": "Lâmina Primordial",
+			"subclassSource": "MundoDeKyrSubclasses",
+			"level": 6,
+			"entries": [
+				"Enquanto empunhar sua Lâmina Primordial, ou outra arma invocada do Aether, e estiver com seu {@classFeature Innate Sorcery|Sorcerer|XPHB|1} ativo, você receberá os seguintes benefícios:",
+				"Uma vez por turno, seus ataques corpo a corpo causam {@dice 1d6} de dano adicional do seu elemento primordial.",
+				"Alternativamente, você pode escolher gastar de 1 a 3 Pontos de Feitiçaria para amplificar o ataque, causando {@dice 1d8} de dano adicional do mesmo tipo por ponto gasto.",
+				"Independentemente de qual seja o tipo de dano aplicado, esse dano adicional é aplicado apenas uma vez por turno.",
+				"Quando o Fragmento pulsa, a lâmina se torna o coração da criação."
+			],
+			"consumes": {
+				"name": "Sorcery Point"
+			}
+		},
+		{
+			"name": "Posturas Primordiais",
+			"source": "MundoDeKyrSubclasses",
+			"page": 0,
+			"className": "Sorcerer",
+			"classSource": "XPHB",
+			"subclassShortName": "Lâmina Primordial",
+			"subclassSource": "MundoDeKyrSubclasses",
+			"level": 14,
+			"entries": [
+				"Ao atingir o 14º nível, você aprende a alinhar o Fragmento Primordial em padrões estáveis de fluxo, alternando entre foco arcano e presença marcial sem romper o equilíbrio do aether.",
+				"Sempre que sua Lâmina de Aether estiver ativa, você escolhe uma das Posturas Primordiais abaixo. Você pode trocar de postura no início do seu turno, sem custo.",
+				{
+					"type": "entries",
+					"name": "Postura da Maré do Aether",
+					"entries": [
+						"Quando você conjura uma magia de 1º nível ou superior como Ação, pode realizar um ataque corpo a corpo com sua Lâmina Primordial como Ação Bônus.",
+						"Esse ataque não pode se beneficiar de Fluxo Duplo, Metamagia ou efeitos que permitam ataques adicionais.",
+						"Além disso, se esse ataque acertar, você pode aplicar o dano adicional da Lâmina de Aether mesmo que já o tenha feito nesse turno (ainda respeitando o limite de uma aplicação por turno)."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Postura da Chama Interior",
+					"entries": [
+						"Uma vez por turno, quando você acertar um ataque corpo a corpo com sua Lâmina Primordial, você pode escolher reduzir em 1 o custo em Pontos de Feitiçaria da próxima Metamagia que usar até o final do seu próximo turno (mínimo de 1).",
+						"Além disso, quando você for reduzido a 0 Pontos de Vida, pode fazer um teste de Constituição com {@dc 15}. Em sucesso, você permanece com 1 Ponto de Vida. Após usar esse efeito, você não pode usá-lo novamente até concluir um {@variantrule Long Rest|XPHB}. Você pode restaurar o uso dessa característica gastando 5 Pontos de Feitiçaria (nenhuma ação necessária)."
+					]
+				}
+			],
+			"consumes": {
+				"name": "Sorcery Point"
+			}
+		},
+		{
+			"name": "Despertar Primordial",
+			"source": "MundoDeKyrSubclasses",
+			"page": 0,
+			"className": "Sorcerer",
+			"classSource": "XPHB",
+			"subclassShortName": "Lâmina Primordial",
+			"subclassSource": "MundoDeKyrSubclasses",
+			"level": 18,
+			"entries": [
+				"No 18º nível, o Fragmento Primordial deixa de ser apenas uma fonte de poder e passa a reagir ativamente à sua presença em combate, impondo sua essência à realidade ao redor.",
+				"Enquanto sua Lâmina Primordial estiver ativa, você recebe os seguintes benefícios:",
+				"Uma vez por turno, quando você acerta uma criatura com um ataque corpo a corpo usando sua Lâmina Primordial, pode forçar o alvo a realizar um teste de resistência de Constituição (CD = 8 + seu bônus de proficiência + seu modificador de Carisma). Em falha, o alvo sofre {@dice 2d6} de dano adicional do tipo do seu Fragmento Primordial e tem seu deslocamento reduzido em 3 metros (10 ft.) até o início do seu próximo turno. Em sucesso, sofre metade do dano adicional e não sofre redução de deslocamento.",
+				"Seu alcance corpo a corpo aumenta em 1,5 metro (5 ft.).",
+				"Além disso, você emana a presença instável do Fragmento. Criaturas hostis que iniciarem o turno a até 3 metros (10 ft.) de você sofrem {@dice 1d4} de dano do tipo do seu Fragmento Primordial. Uma criatura só pode sofrer esse dano uma vez por turno."
+			]
+		},
+		{
+			"name": "Iaiflow Discipline",
+			"source": "MundoDeKyrSubclasses",
+			"page": 0,
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"subclassShortName": "Veiled Blade",
+			"subclassSource": "MundoDeKyrSubclasses",
+			"level": 3,
+			"entries": [
+				"“Entre o som do vento e o toque da lâmina há um instante de silêncio.",
+				"O guerreiro perfeito vive nesse instante.”",
+				"Os mestres do Caminho da Lâmina Velada treinam até que o ato de desembainhar uma arma torne-se mais rápido do que o pensamento.",
+				"Para eles, o combate é arte e meditação — cada movimento, uma oração ao instante perfeito.",
+				"Esses guerreiros estudam o Fluxo do Saque (Iaiflow), um estilo que une paciência e explosão, controle e morte em um único gesto.",
+				"Um samurai desse caminho não busca a força bruta, mas o domínio absoluto do tempo: a capacidade de cortar o ar antes que a batalha realmente comece.",
+				"Quando lutam, o mundo parece desacelerar — e quando voltam a embainhar a espada, o inimigo já caiu.",
+				"Ao escolher este arquétipo no 3º nível, você aprende a arte da Lâmina Velada, uma técnica que une paciência, precisão e o instante do saque perfeito.",
+				{
+					"type": "entries",
+					"name": "Percepção do Instante",
+					"entries": [
+						"Você ganha proficiência em {@skill Perception|XPHB} (Perception) ou {@skill Insight|XPHB} (Insight) (à sua escolha).",
+						"Se já possuir essa proficiência, ganha especialização (dobro de proficiência) no teste escolhido.",
+						"Além disso, você adiciona seu modificador de Sabedoria às jogadas de iniciativa."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Quickdraw Stance",
+					"entries": [
+						"Como ação bônus, você pode adotar a Postura do Saque, permanecendo nela por 1 minuto ou até ficar {@condition Incapacitated|XPHB}.",
+						"Você pode usar esta postura um número de vezes igual ao seu modificador de Sabedoria (mínimo 1), recuperando todos os usos após um {@variantrule Short Rest|XPHB} ou longo.",
+						"Requisitos: não pode ser usada com armas que causem apenas dano contundente, e requer uma mão livre para sacar a arma.",
+						"Enquanto estiver nesta postura, aplicam-se as seguintes regras:",
+						"{@b Saque Rápido}. No início de cada turno, você embainha automaticamente a arma corpo a corpo empunhada. Uma vez por turno, quando acertar um ataque com uma arma desembainhada nesse mesmo turno, você causa {@dice 1d8} de dano adicional. Esse dano aumenta para {@dice 2d8} no 7º nível, {@dice 3d8} no 10º e {@dice 4d8} no 15º. O tipo de dano adicional é o mesmo da arma base (perfurante ou cortante).",
+						"{@b Reflexo de Aether}. Sempre que adotar a Quickdraw Stance, você ganha +10 ft. (3 m) de movimento e vantagem no primeiro ataque corpo a corpo que realizar naquele turno.",
+						"{@b Ataque de Reflexo Rápido}.Enquanto sua arma estiver embainhada, você pode usar sua reação para sacar e realizar um ataque de oportunidade contra uma criatura que provoque esse ataque dentro do seu alcance. Esse ataque se beneficia do dano adicional do Saque Rápido. Após o ataque, a arma permanece desembainhada até o início do seu próximo turno.",
+						"{@b Lâmina Preparada}. Você pode usar uma ação bônus para embainhar sua arma a qualquer momento durante o seu turno. Sempre que fizer isso, você ganha +2 na CA até o início do seu próximo turno (representando a postura defensiva do iaido)."
+					]
+				}
+			]
+		},
+		{
+			"name": "Eyes of Stillness (Olhos da Imobilidade)",
+			"source": "MundoDeKyrSubclasses",
+			"page": 0,
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"subclassShortName": "Veiled Blade",
+			"subclassSource": "MundoDeKyrSubclasses",
+			"level": 7,
+			"entries": [
+				"Você aprende a perceber o instante entre a intenção e a ação, tornando-se capaz de cortar o movimento antes que ele aconteça.",
+				"{@b Ataque de Saque Reativo.} Quando uma criatura a até 6 metros (20 ft) de você realizar um ataque corpo a corpo contra um alvo (inclusive você), e sua arma estiver embainhada, você pode usar sua reação para realizar um Ataque de Saque contra ela. Você pode se mover até metade do seu deslocamento em direção ao alvo como parte da reação. Se o seu ataque acertar, o ataque inimigo é realizado com desvantagem. O golpe causa dano adicional igual ao seu modificador de Sabedoria, além do dano normal da arma e de Saque Rápido.",
+				"{@b Instinto Inabalável. }Você passou a compreender o ritmo {@condition Invisible|XPHB} do combate.Ao rolar iniciativa, você pode imediatamente adotar sua Quickdraw Stance. Enquanto estiver nessa postura, você tem vantagem em testes de resistência de Destreza."
+			]
+		},
+		{
+			"name": "Posture Flow (Fluxo das Posturas)",
+			"source": "MundoDeKyrSubclasses",
+			"page": 0,
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"subclassShortName": "Veiled Blade",
+			"subclassSource": "MundoDeKyrSubclasses",
+			"level": 10,
+			"entries": [
+				"Você domina o fluxo perfeito entre ataque, defesa e mobilidade.",
+				"Enquanto estiver em sua Quickdraw Stance, você pode adotar uma das Três Posturas da Lâmina Velada, trocando entre elas como ação bônus no seu turno (ao trocar, você automaticamente embainha a arma).",
+				"Cada postura altera sua energia e percepção, concedendo benefícios diferentes enquanto ativa.",
+				"Além disso, cada postura aprimora uma Weapon Mastery específica, integrando-a à sua técnica pessoal.",
+				"{@b Earth Stance — A Lâmina Inabalável}. Você ancora o corpo e o espírito, transformando defesa em equilíbrio. Enquanto estiver nessa postura: Ganha +1 na CA. Pode usar sua reação para reduzir o dano de um ataque corpo a corpo que o acerte em {@dice 1d10} + seu modificador de Sabedoria + metade do seu nível de Fighter. Quando usar a Mastery Topple, a criatura tem desvantagem no teste de resistência.",
+				"{@b Flame Stance — A Lâmina Ardente}.  Você transforma cada respiração em ofensiva. Enquanto estiver nessa postura: Uma vez por turno, você pode garantir vantagem em um ataque corpo a corpo. Quando reduzir uma criatura a 0 PV, você pode imediatamente adotar outra postura sem custo. Seus ataques ativam automaticamente a Mastery Vex, mesmo se a arma não a possuir. A chama não pensa; apenas corta.",
+				"{@b Gale Stance — A Lâmina do Vento}. Seu movimento torna-se extensão da lâmina, e o inimigo jamais o alcança. Enquanto estiver nessa postura: Pode se mover até 3 m (10 ft.) após cada ataque corpo a corpo. Quando atingir uma criatura com a arma que estava embainhada, pode ativar a Mastery Cleave, mesmo que a arma não a possua. Sua velocidade aumenta em 3 m (10 ft.)."
+			]
+		},
+		{
+			"name": "Moment of Perfect Cut",
+			"source": "MundoDeKyrSubclasses",
+			"page": 0,
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"subclassShortName": "Veiled Blade",
+			"subclassSource": "MundoDeKyrSubclasses",
+			"level": 15,
+			"entries": [
+				"Você aprendeu o verdadeiro significado da Lâmina Velada — o corte que existe entre o instante e a eternidade.",
+				"Uma vez por {@variantrule Short Rest|XPHB} ou longo, quando fizer um ataque com sua arma a partir da Quickdraw Stance, você pode declarar o Corte Perfeito: (i) O ataque tem vantagem; (ii) Ignora resistência ao dano; (iii) se o ataque acertar, ele é considerado crítico automático.",
+				"Após usar essa habilidade, você não pode usá-la novamente até finalizar um {@variantrule Short Rest|XPHB} ou longo.",
+				"“O instante perfeito não é medido em tempo, mas em silêncio.”"
+			]
+		},
+		{
+			"name": "The Veiled World",
+			"source": "MundoDeKyrSubclasses",
+			"page": 0,
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"subclassShortName": "Veiled Blade",
+			"subclassSource": "MundoDeKyrSubclasses",
+			"level": 18,
+			"entries": [
+				"No auge de sua maestria, seu corpo e sua lâmina tornam-se um só.",
+				"O espaço entre o pensamento e o movimento desaparece.",
+				"Você pode adotar ou trocar de postura sem gastar ação.",
+				"Uma vez por turno ao adotar uma nova postura, você ganha um bônus de metade da sua proficiência como dano em todos os ataques até o fim do seu turno.",
+				"Quando usar sua reação para realizar um ataque de saque, você pode se mover até 6 metros sem provocar ataques de oportunidade antes ou depois do ataque."
+			]
+		},
+		{
+			"name": "Sangue Desperto",
+			"source": "MundoDeKyrSubclasses",
+			"page": 0,
+			"className": "Barbarian",
+			"classSource": "XPHB",
+			"subclassShortName": "Oni",
+			"subclassSource": "MundoDeKyrSubclasses",
+			"level": 3,
+			"entries": [
+				"“Dentro de cada guerreiro há um demônio à espera.",
+				"O Oni não o teme — ele o alimenta.”",
+				"Os bárbaros que seguem o Caminho do Oni caminham na fronteira entre o mundo dos mortais e o domínio das trevas.",
+				"Eles acreditam que a fúria não é apenas emoção, mas um poder primordial herdado dos antigos Onis — espíritos de força, fome e imortalidade.",
+				"Ao liberar a raiva, o corpo do Oni se distorce, o sangue ferve e os ossos se expandem.",
+				"Esses guerreiros canalizam sua dor como arma, e seu sangue torna-se o condutor de energias demoníacas.",
+				"Com o tempo, o Oni deixa de ser apenas um homem em fúria — e se torna a própria fúria encarnada.",
+				"Ao escolher este caminho no 3º nível, o poder Oni desperta em suas veias, permitindo que sua fúria e vitalidade se tornem uma só força.",
+				{
+					"type": "entries",
+					"name": "Arma ou Corpo Oni",
+					"entries": [
+						"Quando entra em Fúria, escolha manifestar a Arma Oni ou o Corpo Oni. Você pode alternar entre elas como ação bônus durante a Fúria.",
+						"{@b Arma Oni.} Você escolhe uma arma que esteja com você e que tenha proficiência, seus ataques com a arma escolhida causam {@dice 1d4} de dano necrótico adicional. O dano aumenta quando você atinge certos níveis nesta classe, aumentando para {@dice 1d6} no 9º nível e {@dice 1d8} no 16º nível.",
+						"{@b Corpo Oni}. Seus ataques desarmados causam {@dice 1d8} + Força + Constituição de dano cortante, perfurante, contundente ou necrótico (à sua escolha a cada ataque). Esses ataques contam como armas marciais e podem usar Golpe Brutal (Brutal Strike). O dano aumenta quando você atinge certos níveis nesta classe, aumentando para {@dice 1d10} no 9º nível e {@dice 1d12} no 16º nível."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Ritual do Sangue",
+					"entries": [
+						"Uma vez por turno, quando atingir uma criatura com um ataque corpo a corpo, você pode gastar 1 dado de vida para amplificar o golpe com energia demoníaca. O ataque causa dano adicional igual ao valor do dado + seu modificador de Constituição (do mesmo tipo do ataque)."
+					]
+				}
+			]
+		},
+		{
+			"name": "Marca do Oni",
+			"source": "MundoDeKyrSubclasses",
+			"page": 0,
+			"className": "Barbarian",
+			"classSource": "XPHB",
+			"subclassShortName": "Oni",
+			"subclassSource": "MundoDeKyrSubclasses",
+			"level": 6,
+			"entries": [
+				"A corrupção passa a se manifestar fisicamente. Seus olhos brilham, os chifres crescem, e o sangue lateja com energia sobrenatural. Escolha uma das opções abaixo. Sempre que terminar um {@variantrule Long Rest|XPHB}, você pode mudar sua escolha:",
+				"{@b Chifres do Demônio}. Como ação bônus, você pode realizar um ataque desarmado com seus chifres, causando {@dice 1d6} + for de dano perfurante ou Corpo Oni. Se o alvo não for mais que um tamanho maior que o seu, a menos que ele seja bem-sucedido em um teste de resistência de Força contra uma CD igual a 8 + seu bônus de proficiência + seu modificador de Força, você o empurra até 3 metros para longe de você.",
+				"{@b Visão Profana}. Você ganha visão no escuro de 18 m e visão {@condition Blinded|XPHB} até 3 m.",
+				"{@b Sangue Resiliente}. Sempre que usar o Ritual do Sangue, você ganha pontos de vida temporários igual ao dano adicional causado."
+			]
+		},
+		{
+			"name": "Técnicas Carmesins",
+			"source": "MundoDeKyrSubclasses",
+			"page": 0,
+			"className": "Barbarian",
+			"classSource": "XPHB",
+			"subclassShortName": "Oni",
+			"subclassSource": "MundoDeKyrSubclasses",
+			"level": 10,
+			"entries": [
+				"Seu sangue Oni torna-se um canal para técnicas demoníacas devastadoras. Você pode gastar de 1 a 2 dados de vida por turno e usar uma ação, ação bônus ou reação para liberar um dos efeitos a seguir. O CD para testes de resistência é 8 + bônus de proficiência + modificador de Constituição.",
+				"{@b Explosão Carmesim (Ação)}. Você libera uma onda de sangue demoníaco em um cone de 4,5 metros. Cada criatura na área deve realizar um teste de resistência de destreza. Em uma falha, sofre {@dice 1d10 + 1}d10 por dado de vida gasto de dano necrótico; em sucesso, metade do dano.",
+				"{@b Regeneração Oni (Ação Bônus)}. Você consome seu próprio sangue para acelerar sua regeneração. Recupere {@dice 1d8 + 1}d8 por dado de vida gasto + modificador de Constituição pontos de vida.",
+				"{@b Instinto de {@skill Survival|XPHB} (Reação)}. Quando for atingido por um ataque ou falhar em um teste de resistência, você pode usar sua reação para envolver seu corpo em energia Oni. Ganha um bônus de CA igual a 1 + {@dice 1d4} por dado de vida gasto, potencialmente fazendo com que o ataque erre você, ou somar o resultado ao teste falho."
+			]
+		},
+		{
+			"name": "Natureza Oni",
+			"source": "MundoDeKyrSubclasses",
+			"page": 0,
+			"className": "Barbarian",
+			"classSource": "XPHB",
+			"subclassShortName": "Oni",
+			"subclassSource": "MundoDeKyrSubclasses",
+			"level": 14,
+			"entries": [
+				"Ao ativar sua Fúria, você pode liberar o verdadeiro poder demoníaco que habita em seu sangue. Você entra em Frenesi Oni por 1 minuto ou até que sua fúria termine, além disso você conta como uma criatura Fiend. Após usar esta característica, você não pode usá-la novamente até terminar um {@variantrule Long Rest|XPHB}. Enquanto estiver em Frenesi Oni:",
+				"{@b Sede Carmesim}. Após usar uma Técnica Carmesim, seus ataques com Arma Oni e Corpo Oni causam +{@dice 1d6} de dano necrótico até o final do seu próximo turno.",
+				"{@b Atacando Ponto Fraco}. Seus ataques ignoram a resistência a dano físico e necrótico.",
+				"{@b Imparável}. Você é imune a dano necrótico e não pode ser {@condition Charmed|XPHB} nem {@condition Frightened|XPHB}."
+			]
+		},
+		{
+			"name": "Escolha do Dragão Ancestral",
+			"source": "MundoDeKyrSubclasses",
+			"page": 0,
+			"className": "Paladin",
+			"classSource": "XPHB",
+			"subclassShortName": "Despertar Dracônico",
+			"subclassSource": "MundoDeKyrSubclasses",
+			"level": 3,
+			"entries": [
+				"“O fogo dos Primevos ainda queima sob a carne do mundo.",
+				"Que o meu juramento seja a chama que o desperta.”",
+				"Os paladinos do Juramento do Despertar Dracônico canalizam o poder e a presença dos Dragões Ancestrais, as primeiras vozes da criação.",
+				"Eles não veneram deuses, mas honram as forças primordiais que moldaram Kÿr — chamas, ventos e trovões que um dia rugiram com vontade própria.",
+				"Esses paladinos buscam despertar a centelha dracônica dentro de si, tornando-se pontes entre o poder sagrado e a fúria elemental.",
+				"Sua justiça é ardente, sua honra é pesada como escamas, e seu juramento ecoa como um rugido entre os planos.",
+				{
+					"type": "entries",
+					"name": "Os Preceitos Dracônicos",
+					"entries": [
+						"Os princípios desse juramento refletem o código dos Primevos, equilibrando domínio e sabedoria:",
+						"{@b Honre a Linhagem}. Seja a continuação digna do poder que o precede.",
+						"{@b Preserve o Equilíbrio}. Use o fogo com propósito; destrua apenas o que impede a vida.",
+						"{@b Domine o Instinto}. O dragão interior é força, não tirano.",
+						"{@b Guie pelo Exemplo}. Que sua presença inspire reverência, não medo.",
+						"Ao fazer o Juramento do Dragão Ancestral, você escolhe o tipo de dragão que despertou em sua alma.",
+						"Essa escolha define o tipo de dano da sua Linhagem Ancestral:",
+						"╔═════════════════════╦══════════════╦═══════════╗",
+						"║ Dragão              ║ Tipo de Dano ║ Linhagem  ║",
+						"╠═════════════════════╬══════════════╬═══════════╣",
+						"║ Black (Negro)       ║ Ácido        ║ Cromático ║",
+						"╠═════════════════════╬══════════════╬═══════════╣",
+						"║ Blue (Azul)         ║ Elétrico     ║ Cromático ║",
+						"╠═════════════════════╬══════════════╬═══════════╣",
+						"║ Green (Verde)       ║ Veneno       ║ Cromático ║",
+						"╠═════════════════════╬══════════════╬═══════════╣",
+						"║ Red (Vermelho)      ║ Fogo         ║ Cromático ║",
+						"╠═════════════════════╬══════════════╬═══════════╣",
+						"║ White (Branco)      ║ Frio         ║ Cromático ║",
+						"╠═════════════════════╬══════════════╬═══════════╣",
+						"║ Amethyst (Ametista) ║ Força        ║ Gemático  ║",
+						"╠═════════════════════╬══════════════╬═══════════╣",
+						"║ Crystal (Cristal)   ║ Radiante     ║ Gemático  ║",
+						"╠═════════════════════╬══════════════╬═══════════╣",
+						"║ Emerald (Esmeralda) ║ Psíquico     ║ Gemático  ║",
+						"╠═════════════════════╬══════════════╬═══════════╣",
+						"║ Sapphire (Safira)   ║ Trovão       ║ Gemático  ║",
+						"╠═════════════════════╬══════════════╬═══════════╣",
+						"║ Topaz (Topázio)     ║ Necrótico    ║ Gemático  ║",
+						"╠═════════════════════╬══════════════╬═══════════╣",
+						"║ Brass (Latão)       ║ Fogo         ║ Metálico  ║",
+						"╠═════════════════════╬══════════════╬═══════════╣",
+						"║ Bronze (Bronze)     ║ Elétrico     ║ Metálico  ║",
+						"╠═════════════════════╬══════════════╬═══════════╣",
+						"║ Copper (Cobre)      ║ Ácido        ║ Metálico  ║",
+						"╠═════════════════════╬══════════════╬═══════════╣",
+						"║ Gold (Ouro)         ║ Fogo         ║ Metálico  ║",
+						"╠═════════════════════╬══════════════╬═══════════╣",
+						"║ Silver (Prata)      ║ Frio         ║ Metálico  ║",
+						"╚═════════════════════╩══════════════╩═══════════╝"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Escamas Despertas",
+					"entries": [
+						"Enquanto não estiver usando armadura média ou pesada, você adiciona o seu modificador de Carisma à sua CA (além da Destreza). Você pode usar escudo e manter este benefício."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Smite Dracônico",
+					"entries": [
+						"Quando usa {@spell Divine Smite|XPHB}, você pode substituir o dano radiante pelo tipo de dano da sua Linhagem Ancestral.",
+						"Se o alvo for resistente a esse tipo de dano, você ignora essa resistência."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Canalizar Divindade: Manifestações Dracônicas",
+					"entries": [
+						"Ao atingir um inimigo com o {@spell Divine Smite|XPHB}, você pode gastar um uso de Canalizar Divindade para liberar uma manifestação física do seu patrono dracônico.",
+						"Escolha uma das opções abaixo:",
+						"{@b Rugido Ancestral.} Você libera um rugido de pura presença dracônica. Cada criatura hostil de sua escolha em um raio de 3 m (10 ft.) deve fazer um teste de Sabedoria (CD das suas magias). Em falha, fica {@condition Frightened|XPHB} por 1 minuto. Ela pode repetir o teste no fim de cada turno.",
+						"{@b Alento Primevo.} Você expele energia elemental em um cone de 4,5 m (15 ft.), do tipo de dano da sua Linhagem. Criaturas na área fazem um teste de Destreza (CD das suas magias). Em falha, sofrem {@dice 2d8} de dano ({@dice 3d8} no 11º nível, {@dice 4d8} no 17º); metade em sucesso.",
+						"{@b Batida de Asas.} Uma onda de energia {@condition Invisible|XPHB} explode de você. Cada criatura hostil em um raio de 3 m (10 ft.) deve fazer um teste de Força (CD das suas magias). Em falha, é empurrada 3 m (10 ft.) e derrubada ({@condition Prone|XPHB}). Após isso, você pode mover-se até metade do seu deslocamento sem provocar ataques de oportunidade."
+					]
+				}
+			],
+			"consumes": {
+				"name": "Channel Divinity"
+			}
+		},
+		{
+			"name": "Aura Dracônica",
+			"source": "MundoDeKyrSubclasses",
+			"page": 0,
+			"className": "Paladin",
+			"classSource": "XPHB",
+			"subclassShortName": "Despertar Dracônico",
+			"subclassSource": "MundoDeKyrSubclasses",
+			"level": 7,
+			"entries": [
+				"Enquanto estiver consciente, você emana uma aura de energia dracônica que se estende a 3 m (10 ft.) de você.",
+				"Você e seus aliados dentro da aura têm resistência ao tipo de dano da sua Linhagem Ancestral. Criaturas na sua aura têm vantagem em testes de resistência contra sopros de dragão e magias/efeitos que emulem sopros (como Dragon’s Breath).",
+				"Sempre que você ou um aliado dentro da aura causar dano relacionado a 'família' do seu Dragão Ancestral (ácido, elétrico, veneno, fogo e frio para cromático; força, radiante, psíquico, trovão ou necrótico para gemático; fogo, elétrico, ácido ou frio para metálico), esse ataque causa +1 de dano por nível de Paladino, dividido por dois, arredondado para cima."
+			]
+		},
+		{
+			"name": "Coração dos Primevos",
+			"source": "MundoDeKyrSubclasses",
+			"page": 0,
+			"className": "Paladin",
+			"classSource": "XPHB",
+			"subclassShortName": "Despertar Dracônico",
+			"subclassSource": "MundoDeKyrSubclasses",
+			"level": 15,
+			"entries": [
+				"A essência dos Primevos finalmente desperta em você. Sua Alma Dracônica (Cromática, Metálica ou Gemática), desperta.",
+				{
+					"type": "entries",
+					"name": "Alma Cromática – Fúria da Criação",
+					"entries": [
+						"{@b Infusão Cromática.} Como ação bônus, você canaliza energia elemental em sua arma.",
+						"Por 1 minuto, ela causa +{@dice 1d8} de dano do tipo da sua Linhagem e ignora resistências a esse tipo de dano. Você pode usar esta habilidade um número de vezes igual ao seu modificador de Carisma por {@variantrule Long Rest|XPHB}.",
+						"{@b Explosão Destrutiva.} Quando reduz uma criatura a 0 PV, energia dracônica explode do corpo dela. Cada inimigo em um raio de 3 m (10 ft.) sofre {@dice 2d8} de dano (CD de Destreza das suas magias para metade)."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Alma Metálica – Graça Restauradora",
+					"entries": [
+						"{@b Sopro Curativo.} Como ação bônus, você emite um cone de 4,5 m (15 ft.) de energia purificadora. Você e aliados na área recuperam {@dice 2d8} + Carisma pontos de vida e ganham vantagem em testes contra medo e encantamento até o início do seu próximo turno.",
+						"Usos iguais ao seu bônus de proficiência por {@variantrule Long Rest|XPHB}.",
+						"{@b Asas de Aegis.} Quando você ou um aliado dentro de sua aura for atingido, use sua reação para reduzir o dano em {@dice 1d10} + Carisma + Nível de Paladino. Se o dano for reduzido a 0, o alvo recupera seu modificador de Carisma em PV."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Alma Geminada – O Equilíbrio dos Dois Mundos",
+					"entries": [
+						"{@b Ressonância Dupla.} Ao usar {@spell Divine Smite|XPHB}, adicione +{@dice 1d8} de dano radiante e +{@dice 1d8} do tipo da sua Linhagem.",
+						"{@b Presença Equilibrante.} Enquanto estiver com menos da metade de seus PV máximos, você tem vantagem em ataques e testes de resistência. Sempre que receber cura, adicione +{@dice 1d8} aos PV recuperados."
+					]
+				}
+			]
+		},
+		{
+			"name": "Avatar Dracônico",
+			"source": "MundoDeKyrSubclasses",
+			"page": 0,
+			"className": "Paladin",
+			"classSource": "XPHB",
+			"subclassShortName": "Despertar Dracônico",
+			"subclassSource": "MundoDeKyrSubclasses",
+			"level": 20,
+			"entries": [
+				"Como ação bônus, você assume sua Forma Avatar dos Primevos por 1 minuto. Você pode usar esta habilidade uma vez por {@variantrule Long Rest|XPHB}, ou ao gastar um espaço de magia de 5º nível. Enquanto estiver nesta forma:",
+				"Ganha voo 12 m (40 ft.) e pode pairar.",
+				"É imune ao tipo de dano da sua Linhagem.",
+				"Seus ataques e magias causam +{@dice 1d8} de dano adicional do tipo da sua Linhagem.",
+				"Sempre que usar {@spell Divine Smite|XPHB}, você recupera 2 PV por dado de dano gasto.",
+				"Ao usar o Rugido Ancestral de sua Canalização, o alcance dobra e criaturas afetadas têm desvantagem no primeiro teste de resistência.",
+				"# Magias Sempre Preparadas",
+				"╔═══════════════════╦══════════════════════════════════════╗",
+				"║ Nível do Paladino ║ Magias Preparadas                    ║",
+				"╠═══════════════════╬══════════════════════════════════════╣",
+				"║ 3º                ║ Chromatic Orb, Chromatic Smite       ║",
+				"╠═══════════════════╬══════════════════════════════════════╣",
+				"║ 5º                ║ Dragon’s Breath, Chromatic Weapon    ║",
+				"╠═══════════════════╬══════════════════════════════════════╣",
+				"║ 9º                ║ Fly, Fear                            ║",
+				"╠═══════════════════╬══════════════════════════════════════╣",
+				"║ 13º               ║ Fire Shield, Elemental Bane          ║",
+				"╠═══════════════════╬══════════════════════════════════════╣",
+				"║ 17º               ║ Flame Strike, Summon Dragon          ║",
+				"╚═══════════════════╩══════════════════════════════════════╝"
+			]
+		},
+		{
+			"name": "Elo Místico",
+			"source": "MundoDeKyrSubclasses",
+			"page": 0,
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"subclassShortName": "Criaturas Místicas",
+			"subclassSource": "MundoDeKyrSubclasses",
+			"level": 3,
+			"entries": [
+				"“O mago que compreende a vida não a controla — ele a convida.”",
+				"Os magos da Escola das Criaturas Místicas estudam o elo que une o Aether à essência viva dos seres.",
+				"Para eles, toda criatura é um fragmento consciente do fluxo natural de Kÿr — uma expressão tangível do que os antigos chamavam de Ecos Primordiais.",
+				"Esses magos não evocam monstros; eles despertam memórias ancestrais da natureza, permitindo que espíritos místicos caminhem novamente no mundo material.",
+				"Diferente dos conjuradores comuns, o Mago Místico não impõe controle sobre suas criações.",
+				"Ele age em harmonia com elas, como um maestro de um coro arcano de vidas antigas.",
+				"Você aprende a magia {@spell Find Familiar|XPHB} ({@spell Find Familiar|XPHB}) alterando seu tempo de conjuração para uma ação ({@variantrule Magic Action|XPHB}). Além diso você pode conjurá-la sem gastar um espaço de magia e sem componente material, uma vez por {@variantrule Long Rest|XPHB}.",
+				"O seu familiar passa a agir no seu turno. Ao conjurar a magia, você pode escolher uma forma normal de familiar ou uma das formas especiais a seguir, representando manifestações espirituais únicas do mundo de Kÿr:",
+				"{@b Formas Místicas Disponíveis:}",
+				"Imp, Pseudodragão, Quasit, Esqueleto, Sprite, Slaad Tadpole, Sphinx of Wonder, Lobo de Névoa, Fênix Menor, Serpente Ácida, Grifo Jovem ou Tartaruga Etérea. (As fichas dessas criaturas místicas estão listadas no Apêndice do Grimório Místico.)",
+				"Além disso, você estabelece um vínculo espiritual com seu familiar:",
+				"{@b Ataque Vinculado}. Quando você realiza a Ação de Ataque, pode abrir mão de um de seus ataques para permitir que seu familiar faça um ataque com sua Reação.",
+				"Seu familiar é uma extensão viva de sua própria alma — uma centelha da harmonia perdida."
+			]
+		},
+		{
+			"name": "Harmonia Invocada",
+			"source": "MundoDeKyrSubclasses",
+			"page": 0,
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"subclassShortName": "Criaturas Místicas",
+			"subclassSource": "MundoDeKyrSubclasses",
+			"level": 6,
+			"entries": [
+				"Você aprende a infundir suas criaturas invocadas com fragmentos do seu poder arcano, fortalecendo-as e ampliando sua ligação.",
+				"Você tem a magia {@i {@spell Find Steed|XPHB}} sempre preparada, e ela conta como uma Magia de Mago pra você.",
+				"Sempre que você conjurar {@spell Find Familiar|XPHB}, ou uma magia de Conjuração que crie ou invoque criaturas, as criaturas afetadas recebem os seguintes benefícios:",
+				"{@b Ataques Arcanos}. O familiar usa seu Spell Attack Modifier em vez de seu próprio bônus de ataque.",
+				"{@b Essência Anímica}. Quando a criatura invocada aparece, escolha um tipo de movimento adicional: voar ou nadar (12 metros / 40 pés).",
+				"{@b Ataque Áurico}. Como Ação Bônus, você pode ordenar ao familiar que realize um Ataque (Attack Action).",
+				"{@b Forma Energética}. Sempre que a criatura invocada causar dano físico (contundente, perfurante ou cortante), você pode escolher que ele cause dano necrótico ou radiante em vez disso.",
+				"{@b Vínculo Vital}. Sempre que você conjurar {@spell Find Familiar|XPHB}, {@spell Find Steed|XPHB}, ou qualquer magia da família \"Summon\" usando um espaço de magia, a criatura invocada ganha Pontos de Vida Temporários iguais ao dobro do seu nível de mago."
+			]
+		},
+		{
+			"name": "Convergência Espiritual",
+			"source": "MundoDeKyrSubclasses",
+			"page": 0,
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"subclassShortName": "Criaturas Místicas",
+			"subclassSource": "MundoDeKyrSubclasses",
+			"level": 10,
+			"entries": [
+				"Seu elo com as Criaturas Místicas torna-se uma ponte viva entre mago e invocado.",
+				"Você pode canalizar magia através de suas criaturas e ampliar seus reflexos em campo.",
+				"Seu familiar ganha as seguintes melhorias:",
+				"{@b Extra Ataque}. Quando usa a Ação de Ataque, ele pode atacar duas vezes.",
+				"{@b Evasão}. Se o familiar for alvo de um efeito que permita um teste de Destreza para reduzir o dano à metade, ele sofre nenhum dano em sucesso e metade em falha.",
+				"{@b Essência de Proteção}. Enquanto tiver Pontos de Vida Temporários concedidos por você, o familiar tem resistência a todos os tipos de dano.",
+				"{@b Eco Compartilhado}. Uma vez por turno, quando você ou uma de suas criaturas invocadas causar dano, você pode adicionar seu modificador de Inteligência ao dano causado."
+			]
+		},
+		{
+			"name": "Chamado da Legião Ancestral",
+			"source": "MundoDeKyrSubclasses",
+			"page": 0,
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"subclassShortName": "Criaturas Místicas",
+			"subclassSource": "MundoDeKyrSubclasses",
+			"level": 14,
+			"entries": [
+				"No 14º nível, seu familiar torna-se uma criatura verdadeiramente viva e evolutiva, um fragmento da alma que cresce ao seu lado.",
+				"Ao final de um {@variantrule Long Rest|XPHB}, você pode conceder até quatro Aprimoramentos Místicos ao seu familiar, escolhendo da Lista de Aprimoramentos abaixo.",
+				"Você pode alterar essas escolhas após um {@variantrule Long Rest|XPHB}.",
+				{
+					"type": "entries",
+					"name": "Lista de Aprimoramentos Místicos",
+					"entries": [
+						{
+							"type": "entries",
+							"name": ":crossed_swords: Aprimoramentos Ofensivos",
+							"entries": [
+								"{@b Lâminas do Eco}. O familiar causa +{@dice 1d6} de dano extra em todos os ataques.",
+								"{@b Garras Infusas}. Escolha entre ácido, frio, fogo, elétrico, radiante ou necrótico. Os ataques do familiar causam esse tipo de dano.",
+								"{@b Golpe Vinculado}. Quando o familiar acerta um ataque, você pode usar sua reação para causar +{@dice 1d8} de dano do mesmo tipo.",
+								"{@b Ataque Aéreo}. Quando o familiar atacar de voo, tem vantagem na jogada de ataque.",
+								"{@b Explosão {@skill Arcana|XPHB} (1/Dia)}. Como ação bônus, o familiar emite uma onda de energia em 3 m (10 ft), causando {@dice 2d8} de dano do tipo do seu ataque (teste de Destreza CD = 8 + PB + INT)."
+							]
+						},
+						{
+							"type": "entries",
+							"name": ":shield: Aprimoramentos Defensivos",
+							"entries": [
+								"{@b Pele Anímica}. Você adiciona o seu modificador de inteligência na CA do seu familiar.",
+								"{@b Resistência Elemental}. Escolha um tipo de dano (ácido, fogo, frio, elétrico, veneno, radiante ou necrótico). O familiar é resistente a esse dano.",
+								"{@b Reflexo Espiritual}. Quando sofrer dano, pode usar sua Reação para se teletransportar até 4,5 m (15 ft.) para um espaço desocupado.",
+								"{@b Parrudo}. Dobra a vida do familiar.",
+								"{@b Regeneração Espiritual}. No início do turno dele, o familiar recupera {@dice 1d4} + seu modificador de Inteligência pontos de vida se tiver ao menos 1 PV."
+							]
+						},
+						{
+							"type": "entries",
+							"name": ":sparkles: Aprimoramentos Mágicos",
+							"entries": [
+								"{@b Canalizador Arcano}. O familiar torna-se um {@i caster} de 3º nível, podendo preparar até 4 magias da lista de mago, além de aprender 2 truques.",
+								"{@b Eco Reflexivo}. Quando você conjurar uma magia de alvo único, o familiar pode refletir uma segunda instância dela em um alvo diferente a até 3 m (10 ft.)",
+								"{@b Olhar do Véu}. O familiar ganha visão verdadeira em 9 m (30 ft).",
+								"{@b Barreira Espiritual (1/Dia)}. Como ação bônus, o familiar cria uma barreira translúcida a até 3 m (10 ft.) de raio. Criaturas aliadas têm vantagem em testes de resistência até o fim do próximo turno do familiar.",
+								"{@b Nó de Concentração (1/Dia).} Quando você conjurar uma magia de 2º nível ou inferior que requeira concentração, você pode vincular a concentração ao familiar em vez de a si mesmo. Enquanto o familiar estiver consciente e a até 9 m de você, ele realiza os testes de concentração usando sua CD de magia e seu bônus apropriado. Se o familiar se afastar além de 9 m de você ou cair a 0 PV, a magia termina imediatamente.",
+								"`Não permite manter duas concentrações ao mesmo tempo — apenas transfere quem concentra.`"
+							]
+						},
+						{
+							"type": "entries",
+							"name": ":dove: Aprimoramentos Utilitários",
+							"entries": [
+								"{@b Olhos do Mestre}. Enquanto o familiar estiver a até 1,5 km de distância, você pode ver e ouvir através dos sentidos dele como se fossem os seus. Durante esse tempo, você fica surdo e cego em relação ao seu próprio corpo.",
+								"{@b Eco de Passos}. O familiar e você não provocam ataques de oportunidade quando se movimentam. Além disso, vocês podem alternar de posição instantaneamente (teleporte de até 9 m) uma vez por {@variantrule Short Rest|XPHB}.",
+								"{@b Sombra Espiritual.} O familiar pode conjurar, uma vez por dia, a magia {@i Passos sem rastros}.",
+								"{@b Língua dos Ecos.} Seu familiar aprende a se comunicar fluentemente com qualquer criatura inteligente que tenha linguagem, traduzindo mensagens entre vocês de forma empática e instintiva. Enquanto ele estiver a até 30 metros de você, ambos podem compreender e se expressar em qualquer idioma conhecido por uma das partes envolvidas.",
+								"{@b Memória Ancestral.} O familiar carrega fragmentos de lembranças de eras passadas. Quando você ou um aliado fizer um teste de {@skill History|XPHB}, {@skill Religion|XPHB} ou {@skill Nature|XPHB}, o familiar pode oferecer um eco de sabedoria esquecida. Uma vez por {@variantrule Short Rest|XPHB}, ele permite que o teste seja feito com vantagem, ou revela uma visão simbólica (a critério do Mestre) sobre o evento, local ou criatura analisada."
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"subclassFluff": [
+		{
+			"name": "Escola da Umbramancia",
+			"shortName": "Umbramancia",
+			"source": "MundoDeKyrSubclasses",
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"entries": [
+				"“Onde não há lembrança, nasce a sombra.”",
+				"Os magos da Escola da Umbramancia estudam aquilo que não ecoa.",
+				"Enquanto a Ecomancia escuta o que o mundo lembra, a Umbramancia investiga o que foi apagado, silenciado ou nunca existiu plenamente.",
+				"Em Kÿr, a sombra não é ausência de luz — é ausência de memória.",
+				"Os Umbramantes manipulam falhas no tecido da realidade, zonas onde os Ecos se rompem, criando espaços de silêncio arcano, medo primordial e dissolução conceitual.",
+				"Eles não evocam trevas vivas.",
+				"Eles retiram significado."
+			]
+		},
+		{
+			"name": "Umbra Sorcery",
+			"shortName": "Umbra",
+			"source": "MundoDeKyrSubclasses",
+			"className": "Sorcerer",
+			"classSource": "XPHB",
+			"entries": [
+				"A Umbramancia é a origem de feiticeiros cuja magia atua na retirada, não na criação. Onde seu poder se manifesta, o mundo deixa de insistir: sons cessam, movimentos perdem urgência e presenças tornam-se incertas. Esses feiticeiros não controlam sombras, mas os limites entre estar e não estar, aprendendo cedo que cada ausência tem peso e que nem tudo o que é removido pode ser devolvido. Ainda assim, alguns aceitam esse fardo, acreditando que há momentos em que a única forma de preservar o que importa é permitir que algo deixe de existir.",
+				"Alguns feiticeiros não manifestam magia criando energia, matéria ou forma. Sua magia atua na permanência das coisas. Onde ela toca, o mundo deixa de insistir. Um Umbramante não controla sombras. Ele remove relevância.",
+				{
+					"type": "entries",
+					"name": "Magias da Umbramancia",
+					"entries": [
+						"Você sempre tem as magias abaixo preparadas. Elas contam como magias de feiticeiro para você e não contam contra o limite de magias conhecidas.",
+						"Nível de magia | Magias",
+						"{@b 1º.} Corte de Ausência, Pressão do Vazio, Silêncio Direcionado, Véu de Intersticio",
+						"{@b 2º.} Câmara de Não-Testemunho, Supressão de Presença",
+						"{@b 3º.} Deslocamento para o Interstício, Dreno de Ausência",
+						"{@b 4º.} Extração de Identidade, Zona de Não-Existência",
+						"{@b 5º.} Câmara de Ausência Total, Cancelamento de Vínculo"
+					]
+				}
+			]
+		},
+		{
+			"name": "Caminho do Guardião do Dohyō",
+			"shortName": "Guardião do Dohyō",
+			"source": "MundoDeKyrSubclasses",
+			"className": "Monk",
+			"classSource": "XPHB",
+			"entries": [
+				"Os monges do Caminho do Guardião do Dohyō tratam o corpo como um templo sagrado e o combate como um ritual de purificação. Por meio de ritos ancestrais, peso espiritual e disciplina absoluta, eles se tornam bastiões vivos contra forças hostis."
+			]
+		},
+		{
+			"name": "Escola da Rizomancia",
+			"shortName": "Rizomancia",
+			"source": "MundoDeKyrSubclasses",
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"entries": [
+				"“Nada cresce sozinho.”",
+				"Os magos da Escola da Rizomancia estudam as ligações invisíveis que unem criaturas, lugares e magias. Para um rizomante, o mundo não é feito de pontos isolados, mas de nós interconectados — raízes arcanas que se espalham silenciosamente sob a superfície da realidade.",
+				"Onde outros veem um alvo, o rizomante vê uma rede.",
+				"Onde outros lançam uma magia, o rizomante planta uma semente.",
+				"A Rizomancia não cria efeitos imediatos e explosivos: ela se espalha, se fortalece com o tempo e cobra seu preço."
+			]
+		},
+		{
+			"name": "Caminho do Mantra Arcano",
+			"shortName": "Mantra Arcano",
+			"source": "MundoDeKyrSubclasses",
+			"className": "Monk",
+			"classSource": "XPHB",
+			"entries": [
+				"Os monges do Caminho do Mantra Arcano aprendem a integrar fórmulas arcanas ao fluxo do ki. Em vez de gestos complexos ou componentes externos, esses monges utilizam respiração, postura e movimento como catalisadores mágicos."
+			]
+		},
+		{
+			"name": "Colégio da Confraria dos Ecos",
+			"shortName": "Confraria dos Ecos",
+			"source": "MundoDeKyrSubclasses",
+			"className": "Bard",
+			"classSource": "XPHB",
+			"entries": [
+				"Alguns bardos não cantam para o público.",
+				"Eles cantam para o mundo — e o mundo responde.",
+				"Os Bardos da Confraria dos Ecos aprenderam a ouvir aquilo que não foi dito:",
+				"vozes do passado, emoções fossilizadas, memórias presas em lugares, objetos e almas.",
+				"Em Kÿr, onde os Ecos acompanham todos os seres vivos, esses bardos são intérpretes do legado, manipulando lembranças, espíritos residuais e verdades antigas.",
+				"Eles não criam magia — eles despertam o que já existe."
+			]
+		},
+		{
+			"name": "Escola de Ecomancia",
+			"shortName": "Ecomancia",
+			"source": "MundoDeKyrSubclasses",
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"entries": [
+				"“Nada se perde no mundo. Tudo deixa um eco.”",
+				"Os magos da Escola da Ecomancia estudam os Ecos — vestígios espirituais, emocionais e arcanos deixados por criaturas, eventos e magias. Em Kÿr, os Ecos não são meras lembranças: são entidades espectrais sutis que permeiam o mundo, conectando passado, presente e possibilidade.",
+				"Um ecomante não cria magia do nada. Ele escuta, resgata e reverbera aquilo que já existiu."
+			]
+		},
+		{
+			"name": "Domínio do Caos",
+			"shortName": "Caos",
+			"source": "MundoDeKyrSubclasses",
+			"className": "Cleric",
+			"classSource": "XPHB",
+			"entries": [
+				"“A criação não nasceu estável.",
+				"Ela nasceu quebrada — e ainda pulsa.”",
+				"Os Clérigos da Ordem do Caos veneram o Princípio da Ruptura: a força primordial que antecede leis, ciclos e estruturas.",
+				"Eles não servem a um deus único, mas à Vontade Caótica que se manifesta nos Fragmentos do Caos, nas mutações do mundo e nos momentos em que a realidade se recusa a obedecer.",
+				"Para esses clérigos, estabilidade é estagnação.",
+				"O Caos não é mal — é possibilidade infinita.",
+				"# Magias do Domínio do Caos",
+				"Você sempre tem as seguintes magias preparadas. Elas não contam para o número de magias que você pode preparar.",
+				"Nível de Clérigo    Magias",
+				"3º    Chromatic Orb, Identify, Mirror Image, Find Traps",
+				"5º    Blur, Blink",
+				"7º    Compulsion,Confusion",
+				"9º    Circle of Power, Dominate Person"
+			]
+		},
+		{
+			"name": "Domínio da Ordem dos Ancestrais",
+			"shortName": "Ordem dos Ancestrais",
+			"source": "MundoDeKyrSubclasses",
+			"className": "Cleric",
+			"classSource": "XPHB",
+			"entries": [
+				"“Antes dos deuses terem nomes, havia vozes.",
+				"Antes dos templos, havia ecos.”",
+				"Os Clérigos da Ordem dos Ancestrais não veneram deuses jovens nem dogmas recentes.",
+				"Eles servem aos Deuses Antigos — entidades primordiais, esquecidas ou temidas, cujas vontades moldaram o mundo antes da história ser escrita.",
+				"Esses clérigos atuam como intérpretes da memória do mundo, ouvindo os Ecos deixados por eras passadas e canalizando poderes que não buscam adoração, mas continuidade.",
+				"A fé desses clérigos não é conforto: é peso, legado e responsabilidade.",
+				"# Magias do Domínio dos Ancestrais",
+				"Você sempre tem as seguintes magias preparadas. Elas não contam para o número de magias que você pode preparar.",
+				"Nível de Clérigo    Magias",
+				"3º    Bane, {@spell Detect Magic|XPHB}, Crown of Madness, Gentle Repouse",
+				"5º    Crusader’s Mantle, Hunger of Hadar",
+				"7º    Death Ward, Phantasmal Killer",
+				"9º    Commune, Legend Lore"
+			]
+		},
+		{
+			"name": "Caminho dos Ecos Ressonantes",
+			"shortName": "Ecos Ressonantes",
+			"source": "MundoDeKyrSubclasses",
+			"className": "Monk",
+			"classSource": "XPHB",
+			"entries": [
+				"Os monges do Caminho dos Ecos Ressonantes acreditam que o mundo é tecido de vibrações — ecos primordiais deixados pela criação da Árvore do Mundo. Cada passo, cada golpe e cada sopro de ar carrega uma frequência única, e ao dominar essas ondas invisíveis, o monge pode dobrar o próprio som para ofender, defender e até desaparecer.",
+				"Ao seguir esse caminho, você aprende a canalizar sua energia interior como ressonância, transformando vibrações em armas que confundem, rompem e paralisam. Seus golpes nunca são apenas físicos: são estalos que ecoam como trovões contidos, capazes de despedaçar foco, equilíbrio e intenção."
+			]
+		},
+		{
+			"name": "Circle of Mythic Beasts",
+			"shortName": "Mythic Beasts",
+			"source": "MundoDeKyrSubclasses",
+			"className": "Druid",
+			"classSource": "XPHB",
+			"entries": [
+				"“A natureza não é apenas o que cresce — é o que sonha.",
+				"Cada criatura mítica é um fragmento do coração vivo do mundo.”",
+				"Os druidas do Círculo das Criaturas Místicas são condutores vivos dos arquétipos primordiais — seres que encarnam as memórias mais antigas e os instintos mais puros do mundo.",
+				"Eles reverenciam não apenas as feras e florestas, mas os espíritos da própria criação: dragões que dormem sob as montanhas, lobos antigos como a lua, grifos que agitam os ventos do amanhecer e águias tempestuosas que gritam o nome do trovão antes mesmo dos deuses.",
+				"Quando esses druidas entram em combate, não se transformam em animais comuns — eles fundem corpo e alma ao mito, tornando-se uma extensão viva dessas entidades lendárias.",
+				"Em batalha, seus olhos brilham com luz ancestral, suas vozes ecoam como rugidos de eras esquecidas, e cada passo reverbera nas raízes da Árvore do Mundo."
+			]
+		},
+		{
+			"name": "Arqueiro Elemental",
+			"shortName": "Arqueiro Elemental",
+			"source": "MundoDeKyrSubclasses",
+			"className": "Ranger",
+			"classSource": "XPHB",
+			"entries": [
+				"“O arco é o fio que liga o caçador ao trovão.",
+				"Cada flecha — um fragmento da criação.”",
+				"Arqueiros Elementais aprendem a canalizar o Aether primordial diretamente através de armas à distância, fundindo técnica marcial, foco elemental e precisão ritual. Em vez de perseguir a presa por marcas persistentes, esses rangers tornam cada disparo uma manifestação controlada da Fonte Primordial, moldando flechas que carregam fogo, gelo, trovão ou outros ecos elementais da Trama."
+			]
+		},
+		{
+			"name": "Shinobi",
+			"shortName": "Shinobi",
+			"source": "MundoDeKyrSubclasses",
+			"className": "Rogue",
+			"classSource": "XPHB",
+			"entries": [
+				"“A sombra é minha lâmina, o silêncio é meu juramento.”",
+				"Os Rogues do Caminho do Shinobi são artistas da {@condition Invisible|XPHB} e da precisão.",
+				"Para eles, o campo de batalha é um tabuleiro de respiração e ritmo: cada passo é uma decisão, cada golpe é o resultado inevitável da paciência.",
+				"O Shinobi não é apenas um assassino — é um estudioso do momento."
+			]
+		},
+		{
+			"name": "Crepúsculo Eterno",
+			"shortName": "Crepúsculo Eterno",
+			"source": "MundoDeKyrSubclasses",
+			"className": "Sorcerer",
+			"classSource": "XPHB",
+			"entries": [
+				"`“Entre a primeira luz e a última sombra, o mundo respira.",
+				"E eu respiro com ele.”`",
+				"O poder dos feiticeiros do Crepúsculo Eterno nasce do instante em que a vida e a morte se encontram, onde o brilho e a escuridão se tocam sem se destruírem.",
+				"Esses conjuradores são descendentes de um fenômeno cósmico conhecido como o Eclipse Primordial, o momento em que a Árvore do Mundo brilhou e escureceu ao mesmo tempo, fundindo criação e término em um único suspiro divino.",
+				"Sua magia muda conforme a luz que o envolve: em claridade, ela cura e ilumina; na sombra, ela corrompe e silencia.",
+				"Para um Feiticeiro do Crepúsculo, a moralidade é irrelevante — a luz e a escuridão são apenas estados de um mesmo ciclo.",
+				"# Magias da Linhagem do Crepúsculo",
+				"Quando você escolhe esta linhagem no 3º nível, ganha magias adicionais conforme avança.",
+				"Essas magias sempre são conhecidas por você e não contam para o limite normal de magias conhecidas.",
+				"Algumas dessas magias mudam de efeito, tipo de dano ou aparência conforme a luz incidente sobre você (veja “Equilíbrio Luminoso”).",
+				"{@b 3º}. Starry Wisp, Toll the Dead, Cure Wounds, Inflict Wounds, Darkness, Moonbeam.",
+				"{@b 5º}. Spirit Guardians, Aura of Vitality",
+				"{@b 7º}. Death Ward, Blight",
+				"{@b 9º}. Mass Cure Wounds, Contagion"
+			]
+		},
+		{
+			"name": "Lâmina Primordial",
+			"shortName": "Lâmina Primordial",
+			"source": "MundoDeKyrSubclasses",
+			"className": "Sorcerer",
+			"classSource": "XPHB",
+			"entries": [
+				"“Quando o Fragmento desperta dentro de ti, até o aço aprende a respirar.”",
+				"A magia de um feiticeiro da Lâmina Primordial não é apenas estudada — é forjada.",
+				"Esses guerreiros arcanos carregam em seu sangue o poder bruto dos Fragmentos Primordiais, relíquias vivas que pulsam com as forças elementais da criação.",
+				"Para eles, a lâmina é mais que uma arma: é o espelho da alma.",
+				"O Fragmento canta, e o aço responde."
+			]
+		},
+		{
+			"name": "Way of the Veiled Blade",
+			"shortName": "Veiled Blade",
+			"source": "MundoDeKyrSubclasses",
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"entries": [
+				"“Entre o som do vento e o toque da lâmina há um instante de silêncio.",
+				"O guerreiro perfeito vive nesse instante.”",
+				"Os mestres do Caminho da Lâmina Velada treinam até que o ato de desembainhar uma arma torne-se mais rápido do que o pensamento.",
+				"Para eles, o combate é arte e meditação — cada movimento, uma oração ao instante perfeito.",
+				"Esses guerreiros estudam o Fluxo do Saque (Iaiflow), um estilo que une paciência e explosão, controle e morte em um único gesto.",
+				"Um samurai desse caminho não busca a força bruta, mas o domínio absoluto do tempo: a capacidade de cortar o ar antes que a batalha realmente comece.",
+				"Quando lutam, o mundo parece desacelerar — e quando voltam a embainhar a espada, o inimigo já caiu."
+			]
+		},
+		{
+			"name": "Path of the Oni",
+			"shortName": "Oni",
+			"source": "MundoDeKyrSubclasses",
+			"className": "Barbarian",
+			"classSource": "XPHB",
+			"entries": [
+				"“Dentro de cada guerreiro há um demônio à espera.",
+				"O Oni não o teme — ele o alimenta.”",
+				"Os bárbaros que seguem o Caminho do Oni caminham na fronteira entre o mundo dos mortais e o domínio das trevas.",
+				"Eles acreditam que a fúria não é apenas emoção, mas um poder primordial herdado dos antigos Onis — espíritos de força, fome e imortalidade.",
+				"Ao liberar a raiva, o corpo do Oni se distorce, o sangue ferve e os ossos se expandem.",
+				"Esses guerreiros canalizam sua dor como arma, e seu sangue torna-se o condutor de energias demoníacas.",
+				"Com o tempo, o Oni deixa de ser apenas um homem em fúria — e se torna a própria fúria encarnada."
+			]
+		},
+		{
+			"name": "Juramento do Despertar Dracônico",
+			"shortName": "Despertar Dracônico",
+			"source": "MundoDeKyrSubclasses",
+			"className": "Paladin",
+			"classSource": "XPHB",
+			"entries": [
+				"“O fogo dos Primevos ainda queima sob a carne do mundo.",
+				"Que o meu juramento seja a chama que o desperta.”",
+				"Os paladinos do Juramento do Despertar Dracônico canalizam o poder e a presença dos Dragões Ancestrais, as primeiras vozes da criação.",
+				"Eles não veneram deuses, mas honram as forças primordiais que moldaram Kÿr — chamas, ventos e trovões que um dia rugiram com vontade própria.",
+				"Esses paladinos buscam despertar a centelha dracônica dentro de si, tornando-se pontes entre o poder sagrado e a fúria elemental.",
+				"Sua justiça é ardente, sua honra é pesada como escamas, e seu juramento ecoa como um rugido entre os planos.",
+				{
+					"type": "entries",
+					"name": "Os Preceitos Dracônicos",
+					"entries": [
+						"Os princípios desse juramento refletem o código dos Primevos, equilibrando domínio e sabedoria:",
+						"{@b Honre a Linhagem}. Seja a continuação digna do poder que o precede.",
+						"{@b Preserve o Equilíbrio}. Use o fogo com propósito; destrua apenas o que impede a vida.",
+						"{@b Domine o Instinto}. O dragão interior é força, não tirano.",
+						"{@b Guie pelo Exemplo}. Que sua presença inspire reverência, não medo."
+					]
+				}
+			]
+		},
+		{
+			"name": "Criaturas Místicas",
+			"shortName": "Criaturas Místicas",
+			"source": "MundoDeKyrSubclasses",
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"entries": [
+				"“O mago que compreende a vida não a controla — ele a convida.”",
+				"Os magos da Escola das Criaturas Místicas estudam o elo que une o Aether à essência viva dos seres.",
+				"Para eles, toda criatura é um fragmento consciente do fluxo natural de Kÿr — uma expressão tangível do que os antigos chamavam de Ecos Primordiais.",
+				"Esses magos não evocam monstros; eles despertam memórias ancestrais da natureza, permitindo que espíritos místicos caminhem novamente no mundo material.",
+				"Diferente dos conjuradores comuns, o Mago Místico não impõe controle sobre suas criações.",
+				"Ele age em harmonia com elas, como um maestro de um coro arcano de vidas antigas."
+			]
+		}
+	],
+	"monster": [
+		{
+			"name": "Eco Corrompido",
+			"source": "MundoDeKyrSubclasses",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "undead",
+				"tags": [
+					"eco"
+				]
+			},
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"carapaça etérea instável"
+					]
+				}
+			],
+			"hp": {
+				"average": 45,
+				"formula": "6d8 + 18"
+			},
+			"speed": {
+				"walk": 30,
+				"fly": 30,
+				"canHover": true
+			},
+			"str": 8,
+			"dex": 16,
+			"con": 16,
+			"int": 6,
+			"wis": 12,
+			"cha": 15,
+			"save": {
+				"con": "+7",
+				"wis": "+5"
+			},
+			"skill": {
+				"perception": "+4"
+			},
+			"immune": [
+				"psychic",
+				"necrotic"
+			],
+			"resist": [
+				"piercing",
+				"slashing"
+			],
+			"conditionImmune": [
+				"charmed",
+				"frightened"
+			],
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 14,
+			"languages": [
+				"entende os idiomas da criatura cuja magia originou o Eco, mas não fala"
+			],
+			"cr": "4",
+			"trait": [
+				{
+					"name": "Natureza Corrompida",
+					"entries": [
+						"O Eco Corrompido nasce do colapso de uma magia sustentada por memória. Ele não possui identidade própria — apenas fome de apagamento."
+					]
+				},
+				{
+					"name": "Fome de Existência",
+					"entries": [
+						"Sempre que uma criatura conjura uma magia a até 20 pés do Eco Corrompido, o Eco pode usar sua reação para causar {@damage 1d6} de dano psíquico à criatura conjuradora. Se o dano causar perda de concentração, o Eco recupera 10 pontos de vida."
+					]
+				},
+				{
+					"name": "Corrosão de Memória",
+					"entries": [
+						"Criaturas que iniciam o turno a até 10 pés do Eco Corrompido têm desvantagem no primeiro teste de Inteligência, Sabedoria ou Carisma que realizarem naquele turno."
+					]
+				},
+				{
+					"name": "Instabilidade Ontológica",
+					"entries": [
+						"Quando o Eco Corrompido é reduzido a 0 pontos de vida, todas as criaturas a até 10 pés devem realizar um teste de resistência de Constituição ({@dc 14}). Em falha, sofrem {@damage 2d8} de dano psíquico; em sucesso, metade do dano."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Toque de Apagamento",
+					"entries": [
+						"{@atk ms} {@hit 6} para atingir, alcance 5 pés, um alvo. {@h} {@damage 2d8 + 3} de dano psíquico. Se o alvo estiver mantendo concentração, ele realiza o teste de resistência para manter concentração com desvantagem. Em falha, além de perder a concentração, sofre {@damage 1d6} de dano psíquico adicional."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Ressonância Faminta",
+					"entries": [
+						"Quando uma criatura a até 20 pés perde concentração em uma magia, o Eco Corrompido pode se mover até metade do seu deslocamento em direção à criatura sem provocar ataques de oportunidade."
+					]
+				}
+			]
+		}
+	]
+}
