@@ -746,19 +746,10 @@
 				"A Umbramancia é a origem de feiticeiros cuja magia atua na retirada, não na criação. Onde seu poder se manifesta, o mundo deixa de insistir: sons cessam, movimentos perdem urgência e presenças tornam-se incertas. Esses feiticeiros não controlam sombras, mas os limites entre estar e não estar, aprendendo cedo que cada ausência tem peso e que nem tudo o que é removido pode ser devolvido. Ainda assim, alguns aceitam esse fardo, acreditando que há momentos em que a única forma de preservar o que importa é permitir que algo deixe de existir.",
 				"Alguns feiticeiros não manifestam magia criando energia, matéria ou forma. Sua magia atua na permanência das coisas. Onde ela toca, o mundo deixa de insistir. Um Umbramante não controla sombras. Ele remove relevância.",
 				{
-					"type": "entries",
-					"name": "Magias da Umbramancia",
-					"entries": [
-						"Você sempre tem as magias abaixo preparadas. Elas contam como magias de feiticeiro para você e não contam contra o limite de magias conhecidas.",
-						"Nível de magia | Magias",
-						"{@b 1º.} Corte de Ausência, Pressão do Vazio, Silêncio Direcionado, Véu de Intersticio",
-						"{@b 2º.} Câmara de Não-Testemunho, Supressão de Presença",
-						"{@b 3º.} Deslocamento para o Interstício, Dreno de Ausência",
-						"{@b 4º.} Extração de Identidade, Zona de Não-Existência",
-						"{@b 5º.} Câmara de Ausência Total, Cancelamento de Vínculo",
-						"Sua conexão com a Umbramancia se manifesta como a capacidade de agir onde a realidade falha em registrar presença."
-					]
+					"type": "refSubclassFeature",
+					"subclassFeature": "Magias da Umbramancia|Sorcerer|XPHB|Umbra|MundoDeKyrSubclasses|3"
 				},
+				"Sua conexão com a Umbramancia se manifesta como a capacidade de agir onde a realidade falha em registrar presença.",
 				{
 					"type": "entries",
 					"name": "Marca Umbral",
@@ -1490,13 +1481,10 @@
 				"Eles não servem a um deus único, mas à Vontade Caótica que se manifesta nos Fragmentos do Caos, nas mutações do mundo e nos momentos em que a realidade se recusa a obedecer.",
 				"Para esses clérigos, estabilidade é estagnação.",
 				"O Caos não é mal — é possibilidade infinita.",
-				"# Magias do Domínio do Caos",
-				"Você sempre tem as seguintes magias preparadas. Elas não contam para o número de magias que você pode preparar.",
-				"Nível de Clérigo    Magias",
-				"3º    Chromatic Orb, Identify, Mirror Image, Find Traps",
-				"5º    Blur, Blink",
-				"7º    Compulsion,Confusion",
-				"9º    Circle of Power, Dominate Person",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Magias do Domínio do Caos|Cleric|XPHB|Caos|MundoDeKyrSubclasses|3"
+				},
 				"Ao escolher este domínio, sua conexão com o Caos se manifesta de forma volátil.",
 				{
 					"type": "list",
@@ -1591,13 +1579,10 @@
 				"Eles servem aos Deuses Antigos — entidades primordiais, esquecidas ou temidas, cujas vontades moldaram o mundo antes da história ser escrita.",
 				"Esses clérigos atuam como intérpretes da memória do mundo, ouvindo os Ecos deixados por eras passadas e canalizando poderes que não buscam adoração, mas continuidade.",
 				"A fé desses clérigos não é conforto: é peso, legado e responsabilidade.",
-				"# Magias do Domínio dos Ancestrais",
-				"Você sempre tem as seguintes magias preparadas. Elas não contam para o número de magias que você pode preparar.",
-				"Nível de Clérigo    Magias",
-				"3º    Bane, {@spell Detect Magic|XPHB}, Crown of Madness, Gentle Repouse",
-				"5º    Crusader’s Mantle, Hunger of Hadar",
-				"7º    Death Ward, Phantasmal Killer",
-				"9º    Commune, Legend Lore",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Magias do Domínio dos Ancestrais|Cleric|XPHB|Ordem dos Ancestrais|MundoDeKyrSubclasses|3"
+				},
 				"Ao escolher este domínio, você aprende a ouvir e interpretar os Ecos deixados pelos Deuses Antigos.",
 				{
 					"type": "list",
@@ -1980,15 +1965,8 @@
 					]
 				},
 				{
-					"type": "entries",
-					"name": "Magias do Arqueiro Elemental",
-					"entries": [
-						"{@b 3º}. Goodberry",
-						"{@b 5º}.    Pass Without Trace",
-						"{@b 9º}.    Haste",
-						"{@b 13º}. Freedom of Movement",
-						"{@b 17º}. Commune with Nature"
-					]
+					"type": "refSubclassFeature",
+					"subclassFeature": "Magias do Arqueiro Elemental|Ranger|XPHB|Arqueiro Elemental|MundoDeKyrSubclasses|3"
 				}
 			]
 		},
@@ -2167,14 +2145,10 @@
 				"Esses conjuradores são descendentes de um fenômeno cósmico conhecido como o Eclipse Primordial, o momento em que a Árvore do Mundo brilhou e escureceu ao mesmo tempo, fundindo criação e término em um único suspiro divino.",
 				"Sua magia muda conforme a luz que o envolve: em claridade, ela cura e ilumina; na sombra, ela corrompe e silencia.",
 				"Para um Feiticeiro do Crepúsculo, a moralidade é irrelevante — a luz e a escuridão são apenas estados de um mesmo ciclo.",
-				"# Magias da Linhagem do Crepúsculo",
-				"Quando você escolhe esta linhagem no 3º nível, ganha magias adicionais conforme avança.",
-				"Essas magias sempre são conhecidas por você e não contam para o limite normal de magias conhecidas.",
-				"Algumas dessas magias mudam de efeito, tipo de dano ou aparência conforme a luz incidente sobre você (veja “Equilíbrio Luminoso”).",
-				"{@b 3º}. Starry Wisp, Toll the Dead, Cure Wounds, Inflict Wounds, Darkness, Moonbeam.",
-				"{@b 5º}. Spirit Guardians, Aura of Vitality",
-				"{@b 7º}. Death Ward, Blight",
-				"{@b 9º}. Mass Cure Wounds, Contagion",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Magias da Linhagem do Crepúsculo|Sorcerer|XPHB|Crepúsculo Eterno|MundoDeKyrSubclasses|3"
+				},
 				"Seu corpo e alma se ajustam ao ciclo da luz.",
 				"Sua magia muda de natureza conforme o ambiente luminoso que o cerca.",
 				"{@b Em Luz Intensa (Bright Light)}: Você adiciona o modificador de Carisma a qualquer magia que cure pontos de vida.",
@@ -2613,6 +2587,10 @@
 					]
 				},
 				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Magias do Juramento Dracônico|Paladin|XPHB|Despertar Dracônico|MundoDeKyrSubclasses|3"
+				},
+				{
 					"type": "entries",
 					"name": "Escamas Despertas",
 					"entries": [
@@ -2712,21 +2690,7 @@
 				"É imune ao tipo de dano da sua Linhagem.",
 				"Seus ataques e magias causam +{@dice 1d8} de dano adicional do tipo da sua Linhagem.",
 				"Sempre que usar {@spell Divine Smite|XPHB}, você recupera 2 PV por dado de dano gasto.",
-				"Ao usar o Rugido Ancestral de sua Canalização, o alcance dobra e criaturas afetadas têm desvantagem no primeiro teste de resistência.",
-				"# Magias Sempre Preparadas",
-				"╔═══════════════════╦══════════════════════════════════════╗",
-				"║ Nível do Paladino ║ Magias Preparadas                    ║",
-				"╠═══════════════════╬══════════════════════════════════════╣",
-				"║ 3º                ║ Chromatic Orb, Chromatic Smite       ║",
-				"╠═══════════════════╬══════════════════════════════════════╣",
-				"║ 5º                ║ Dragon’s Breath, Chromatic Weapon    ║",
-				"╠═══════════════════╬══════════════════════════════════════╣",
-				"║ 9º                ║ Fly, Fear                            ║",
-				"╠═══════════════════╬══════════════════════════════════════╣",
-				"║ 13º               ║ Fire Shield, Elemental Bane          ║",
-				"╠═══════════════════╬══════════════════════════════════════╣",
-				"║ 17º               ║ Flame Strike, Summon Dragon          ║",
-				"╚═══════════════════╩══════════════════════════════════════╝"
+				"Ao usar o Rugido Ancestral de sua Canalização, o alcance dobra e criaturas afetadas têm desvantagem no primeiro teste de resistência."
 			]
 		},
 		{
@@ -2855,6 +2819,279 @@
 								"{@b Memória Ancestral.} O familiar carrega fragmentos de lembranças de eras passadas. Quando você ou um aliado fizer um teste de {@skill History|XPHB}, {@skill Religion|XPHB} ou {@skill Nature|XPHB}, o familiar pode oferecer um eco de sabedoria esquecida. Uma vez por {@variantrule Short Rest|XPHB}, ele permite que o teste seja feito com vantagem, ou revela uma visão simbólica (a critério do Mestre) sobre o evento, local ou criatura analisada."
 							]
 						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Magias da Umbramancia",
+			"source": "MundoDeKyrSubclasses",
+			"page": 0,
+			"className": "Sorcerer",
+			"classSource": "XPHB",
+			"subclassShortName": "Umbra",
+			"subclassSource": "MundoDeKyrSubclasses",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"Você sempre tem as magias abaixo preparadas. Elas contam como magias de Feiticeiro para você e não contam contra o número de magias que você pode preparar.",
+				{
+					"type": "table",
+					"caption": "Magias da Umbramancia",
+					"colLabels": [
+						"Nível de Feiticeiro",
+						"Magias Preparadas"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"3º",
+							"{@spell Corte de Ausência|MundoDeKyrLivroDasMagiasDeKyr}, {@spell Pressão do Vazio|MundoDeKyrLivroDasMagiasDeKyr}, {@spell Silêncio Direcionado|MundoDeKyrLivroDasMagiasDeKyr}, {@spell Véu de Intersticio|MundoDeKyrLivroDasMagiasDeKyr}, {@spell Câmara de Não-Testemunho|MundoDeKyrLivroDasMagiasDeKyr}, {@spell Supressão de Presença|MundoDeKyrLivroDasMagiasDeKyr}"
+						],
+						[
+							"5º",
+							"{@spell Deslocamento para o Interstício|MundoDeKyrLivroDasMagiasDeKyr}, {@spell Dreno de Ausência|MundoDeKyrLivroDasMagiasDeKyr}"
+						],
+						[
+							"7º",
+							"{@spell Extração de Identidade|MundoDeKyrLivroDasMagiasDeKyr}, {@spell Zona de Não-Existência|MundoDeKyrLivroDasMagiasDeKyr}"
+						],
+						[
+							"9º",
+							"{@spell Câmara de Ausência Total|MundoDeKyrLivroDasMagiasDeKyr}, {@spell Cancelamento de Vínculo|MundoDeKyrLivroDasMagiasDeKyr}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Magias do Domínio do Caos",
+			"source": "MundoDeKyrSubclasses",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "XPHB",
+			"subclassShortName": "Caos",
+			"subclassSource": "MundoDeKyrSubclasses",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"Sua conexão com o Caos garante que você sempre tenha certas magias preparadas. Quando você alcançar um nível de Clérigo especificado na tabela Magias do Domínio do Caos, você sempre terá as magias listadas preparadas.",
+				{
+					"type": "table",
+					"caption": "Magias do Domínio do Caos",
+					"colLabels": [
+						"Nível de Clérigo",
+						"Magias Preparadas"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"3º",
+							"{@spell Chromatic Orb|XPHB}, {@spell Identify|XPHB}, {@spell Mirror Image|XPHB}, {@spell Find Traps|XPHB}"
+						],
+						[
+							"5º",
+							"{@spell Blur|XPHB}, {@spell Blink|XPHB}"
+						],
+						[
+							"7º",
+							"{@spell Compulsion|XPHB}, {@spell Confusion|XPHB}"
+						],
+						[
+							"9º",
+							"{@spell Circle of Power|XPHB}, {@spell Dominate Person|XPHB}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Magias do Domínio dos Ancestrais",
+			"source": "MundoDeKyrSubclasses",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "XPHB",
+			"subclassShortName": "Ordem dos Ancestrais",
+			"subclassSource": "MundoDeKyrSubclasses",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"Sua conexão com os Deuses Antigos garante que você sempre tenha certas magias preparadas. Quando você alcançar um nível de Clérigo especificado na tabela Magias do Domínio dos Ancestrais, você sempre terá as magias listadas preparadas.",
+				{
+					"type": "table",
+					"caption": "Magias do Domínio dos Ancestrais",
+					"colLabels": [
+						"Nível de Clérigo",
+						"Magias Preparadas"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"3º",
+							"{@spell Bane|XPHB}, {@spell Detect Magic|XPHB}, {@spell Crown of Madness|XPHB}, {@spell Gentle Repose|XPHB}"
+						],
+						[
+							"5º",
+							"{@spell Crusader's Mantle|XPHB}, {@spell Hunger of Hadar|XPHB}"
+						],
+						[
+							"7º",
+							"{@spell Death Ward|XPHB}, {@spell Phantasmal Killer|XPHB}"
+						],
+						[
+							"9º",
+							"{@spell Commune|XPHB}, {@spell Legend Lore|XPHB}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Magias do Arqueiro Elemental",
+			"source": "MundoDeKyrSubclasses",
+			"page": 0,
+			"className": "Ranger",
+			"classSource": "XPHB",
+			"subclassShortName": "Arqueiro Elemental",
+			"subclassSource": "MundoDeKyrSubclasses",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"Sua conexão com o Aether elemental garante que você sempre tenha certas magias preparadas. Quando você alcançar um nível de Patrulheiro especificado na tabela Magias do Arqueiro Elemental, você sempre terá as magias listadas preparadas.",
+				{
+					"type": "table",
+					"caption": "Magias do Arqueiro Elemental",
+					"colLabels": [
+						"Nível de Patrulheiro",
+						"Magias Preparadas"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"3º",
+							"{@spell Goodberry|XPHB}"
+						],
+						[
+							"5º",
+							"{@spell Pass without Trace|XPHB}"
+						],
+						[
+							"9º",
+							"{@spell Haste|XPHB}"
+						],
+						[
+							"13º",
+							"{@spell Freedom of Movement|XPHB}"
+						],
+						[
+							"17º",
+							"{@spell Commune with Nature|XPHB}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Magias da Linhagem do Crepúsculo",
+			"source": "MundoDeKyrSubclasses",
+			"page": 0,
+			"className": "Sorcerer",
+			"classSource": "XPHB",
+			"subclassShortName": "Crepúsculo Eterno",
+			"subclassSource": "MundoDeKyrSubclasses",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"Quando você escolhe esta linhagem no 3º nível, ganha magias adicionais conforme avança. Essas magias sempre estão preparadas para você, contam como magias de Feiticeiro e não contam contra o número de magias que você pode preparar.",
+				"Algumas dessas magias mudam de efeito, tipo de dano ou aparência conforme a luz incidente sobre você, conforme descrito em Equilíbrio Luminoso.",
+				{
+					"type": "table",
+					"caption": "Magias da Linhagem do Crepúsculo",
+					"colLabels": [
+						"Nível de Feiticeiro",
+						"Magias Preparadas"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"3º",
+							"{@spell Starry Wisp|XPHB}, {@spell Toll the Dead|XPHB}, {@spell Cure Wounds|XPHB}, {@spell Inflict Wounds|XPHB}, {@spell Darkness|XPHB}, {@spell Moonbeam|XPHB}"
+						],
+						[
+							"5º",
+							"{@spell Spirit Guardians|XPHB}, {@spell Aura of Vitality|XPHB}"
+						],
+						[
+							"7º",
+							"{@spell Death Ward|XPHB}, {@spell Blight|XPHB}"
+						],
+						[
+							"9º",
+							"{@spell Mass Cure Wounds|XPHB}, {@spell Contagion|XPHB}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Magias do Juramento Dracônico",
+			"source": "MundoDeKyrSubclasses",
+			"page": 0,
+			"className": "Paladin",
+			"classSource": "XPHB",
+			"subclassShortName": "Despertar Dracônico",
+			"subclassSource": "MundoDeKyrSubclasses",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"Seu juramento desperta uma lista de magias dracônicas. Quando você alcançar um nível de Paladino especificado na tabela Magias do Juramento Dracônico, você sempre terá as magias listadas preparadas.",
+				{
+					"type": "table",
+					"caption": "Magias do Juramento Dracônico",
+					"colLabels": [
+						"Nível de Paladino",
+						"Magias Preparadas"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"3º",
+							"{@spell Chromatic Orb|XPHB}, {@spell Chromatic Smite|MundoDeKyrLivroDasMagiasDeKyr}"
+						],
+						[
+							"5º",
+							"{@spell Dragon's Breath|XPHB}, {@spell Chromatic Weapon|MundoDeKyrLivroDasMagiasDeKyr}"
+						],
+						[
+							"9º",
+							"{@spell Fly|XPHB}, {@spell Fear|XPHB}"
+						],
+						[
+							"13º",
+							"{@spell Fire Shield|XPHB}, {@spell Elemental Bane|XPHB}"
+						],
+						[
+							"17º",
+							"{@spell Flame Strike|XPHB}, {@spell Summon Dragon|XPHB}"
+						]
 					]
 				}
 			]
