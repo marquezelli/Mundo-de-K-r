@@ -1,0 +1,1048 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "MundoDeKyrItens",
+				"abbreviation": "KyrItens",
+				"full": "Mundo de Kÿr — Itens Mágicos",
+				"authors": [
+					"Felipe Marquezelli"
+				],
+				"convertedBy": [
+					"ChatGPT"
+				],
+				"version": "1.0.0",
+				"url": "https://github.com/TheGiddyLimit/homebrew",
+				"dateAdded": 1777995910
+			}
+		]
+	},
+	"item": [
+		{
+			"name": "Bota do Passo Leve",
+			"source": "MundoDeKyrItens",
+			"page": 0,
+			"type": "W",
+			"rarity": "common",
+			"entries": [
+				"Enquanto estiver usando estas botas, seu deslocamento aumenta em 5 pés."
+			]
+		},
+		{
+			"name": "Pingente do Cristal Rubro",
+			"source": "MundoDeKyrItens",
+			"page": 0,
+			"type": "W",
+			"rarity": "common",
+			"entries": [
+				"Enquanto estiver usando este pingente, seu máximo de {@variantrule Hit Points|XPHB|Pontos de Vida} aumenta em 3."
+			]
+		},
+		{
+			"name": "Amuleto do Cristal Safira",
+			"source": "MundoDeKyrItens",
+			"page": 0,
+			"type": "W",
+			"rarity": "common",
+			"entries": [
+				"Uma vez por {@variantrule Long Rest|XPHB|Descanso Longo}, quando você conjurar uma magia de 1º nível, você pode reduzir o custo em um espaço de magia, até o mínimo de 0."
+			]
+		},
+		{
+			"name": "Colar da Vontade Inicial",
+			"source": "MundoDeKyrItens",
+			"page": 0,
+			"type": "W",
+			"rarity": "common",
+			"entries": [
+				"Uma vez por {@variantrule Long Rest|XPHB|Descanso Longo}, antes de realizar uma jogada de ataque mágico ou antes de uma criatura realizar um teste de resistência contra a CD de uma magia sua, você pode declarar o uso deste colar para receber +1 nessa jogada de ataque mágico ou nessa CD de magia."
+			]
+		},
+		{
+			"name": "Medalhão do Escudo Frágil",
+			"source": "MundoDeKyrItens",
+			"page": 0,
+			"type": "W",
+			"rarity": "common",
+			"entries": [
+				"Uma vez por {@variantrule Long Rest|XPHB|Descanso Longo}, quando você falhar em um teste de resistência contra magia, você pode adicionar {@dice 1d4} ao resultado, potencialmente transformando a falha em sucesso."
+			]
+		},
+		{
+			"name": "Livro do Aprendizado Básico",
+			"source": "MundoDeKyrItens",
+			"page": 0,
+			"type": "W",
+			"rarity": "common",
+			"entries": [
+				"Uma vez por {@variantrule Long Rest|XPHB|Descanso Longo}, quando você falhar em um teste de {@skill Arcana|XPHB}, {@skill Religion|XPHB|Religião} ou {@skill Nature|XPHB|Natureza}, você pode repetir o teste, ficando com o novo resultado."
+			]
+		},
+		{
+			"name": "Orbe do Caminho Revelado",
+			"source": "MundoDeKyrItens",
+			"page": 0,
+			"type": "W",
+			"rarity": "common",
+			"entries": [
+				"Uma vez por {@variantrule Long Rest|XPHB|Descanso Longo}, ao segurar o orbe por 1 minuto, você recebe {@variantrule Advantage|XPHB|Vantagem} no próximo teste de Sabedoria ({@skill Survival|XPHB|Sobrevivência} ou {@skill Nature|XPHB|Natureza}) feito para explorar uma área desconhecida."
+			]
+		},
+		{
+			"name": "Óculos do Controle de Visão",
+			"source": "MundoDeKyrItens",
+			"page": 0,
+			"type": "W",
+			"rarity": "common",
+			"entries": [
+				"Enquanto estiver usando esta lente, você recebe +1 em testes de Sabedoria ({@skill Perception|XPHB|Percepção}) feitos para perceber armadilhas simples, fios, marcas ocultas ou alterações artificiais no ambiente."
+			]
+		},
+		{
+			"name": "Ampulheta dos Ecos Leves",
+			"source": "MundoDeKyrItens",
+			"page": 0,
+			"type": "W",
+			"rarity": "common",
+			"entries": [
+				"Uma pequena ampulheta de vidro opalescente, cuja areia se move de forma irregular, como se respondesse a correntes invisíveis da Aether.",
+				"Enquanto estiver em posse da ampulheta, você sempre sabe exatamente quanto tempo passou desde o último {@variantrule Short Rest|XPHB|Descanso Curto} ou {@variantrule Long Rest|XPHB|Descanso Longo}.",
+				"Além disso, uma vez por dia, ao virar a ampulheta, você pode determinar com precisão quanto tempo falta até um evento simples previamente observado, como o amanhecer, a maré baixar, o soar de um sino conhecido ou a abertura rotineira de um local."
+			]
+		},
+		{
+			"name": "Lenço de Voz Baixa",
+			"source": "MundoDeKyrItens",
+			"page": 0,
+			"type": "W",
+			"rarity": "common",
+			"entries": [
+				"Um lenço de tecido fino, bordado com runas quase apagadas que vibram suavemente quando palavras são sussurradas.",
+				"Enquanto usado cobrindo a boca, sua voz só pode ser ouvida claramente por criaturas a até 10 pés de você. Para qualquer outra criatura além dessa distância, sua fala soa como um murmúrio indistinto e incompreensível.",
+				"Esse efeito não funciona para gritos, palavras de comando mágico ou vocalizações deliberadamente amplificadas."
+			]
+		},
+		{
+			"name": "Cantil da Água Honesta",
+			"source": "MundoDeKyrItens",
+			"page": 0,
+			"type": "W",
+			"rarity": "common",
+			"entries": [
+				"Um cantil metálico simples, sempre frio ao toque, independentemente do ambiente.",
+				"Qualquer líquido não mágico colocado dentro do cantil se transforma lentamente em água potável ao longo de 10 minutos. O cantil não cria líquido nem aumenta volume; ele apenas purifica e estabiliza substâncias comuns.",
+				"Líquidos mágicos, venenosos, alquímicos ou amaldiçoados não são afetados por este efeito."
+			]
+		},
+		{
+			"name": "Espelho de Memória Breve",
+			"source": "MundoDeKyrItens",
+			"page": 0,
+			"type": "W",
+			"rarity": "common",
+			"entries": [
+				"Um pequeno espelho oval, de moldura escura, cuja superfície nunca reflete luz de forma plena.",
+				"Uma vez por dia, ao olhar para o espelho por 1 minuto, você pode reviver mentalmente, com clareza absoluta, qualquer cena que tenha presenciado nas últimas 24 horas, por até 10 segundos contínuos.",
+				"A visão ocorre apenas na mente do usuário. O espelho não revela informações ocultas nem cenas que o portador não tenha testemunhado pessoalmente."
+			]
+		},
+		{
+			"name": "Pedra de Orientação Aetérica",
+			"source": "MundoDeKyrItens",
+			"page": 0,
+			"type": "W",
+			"rarity": "common",
+			"entries": [
+				"Uma pedra lisa e fria, marcada com um único símbolo espiralado gravado até o núcleo.",
+				"Ao segurar a pedra por 10 segundos, ela passa a apontar sutilmente para o local fixo mais próximo que você já tenha visitado e considere seguro — como uma taverna conhecida, um acampamento recorrente ou uma cidade aliada.",
+				"Caso nenhum local assim exista em sua memória, a pedra permanece completamente inerte."
+			]
+		},
+		{
+			"name": "Caneta do Traço Fiel",
+			"source": "MundoDeKyrItens",
+			"page": 0,
+			"type": "W",
+			"rarity": "common",
+			"entries": [
+				"Uma caneta de metal escuro com pena translúcida, levemente quente quando utilizada.",
+				"Tudo o que for escrito ou desenhado com esta caneta permanece exatamente como foi traçado, sem borrar, desbotar ou se deformar com o tempo ou com o clima.",
+				"O efeito não impede que o suporte físico seja rasgado, queimado ou destruído deliberadamente; ele apenas preserva a fidelidade absoluta do traço enquanto o material existir."
+			]
+		},
+		{
+			"name": "Lente do Olhar Atento",
+			"source": "MundoDeKyrItens",
+			"page": 0,
+			"type": "W",
+			"rarity": "common",
+			"entries": [
+				"Uma lente circular montada em aro simples de cobre.",
+				"Ao observar um objeto, símbolo ou escrita por pelo menos 30 segundos, você consegue distinguir detalhes físicos mínimos — rachaduras, marcas de uso, diferenças de tinta ou gravações ocultas por desgaste natural. A lente não revela ilusões, magia ativa ou informações sobrenaturais."
+			]
+		},
+		{
+			"name": "Bússola do Horizonte Fixo",
+			"source": "MundoDeKyrItens",
+			"page": 0,
+			"type": "W",
+			"rarity": "common",
+			"entries": [
+				"Uma bússola de metal fosco, cujo ponteiro nunca gira de forma errática.",
+				"Enquanto estiver em posse da bússola, você tem {@variantrule Advantage|XPHB|Vantagem} em testes de Sabedoria ({@skill Survival|XPHB|Sobrevivência}) feitos para não se perder durante viagens terrestres em ambientes naturais conhecidos, como florestas, planícies, desertos ou colinas."
+			]
+		},
+		{
+			"name": "Lâmpada da Luz Medida",
+			"source": "MundoDeKyrItens",
+			"page": 0,
+			"type": "W",
+			"rarity": "common",
+			"entries": [
+				"Uma pequena lâmpada de óleo com cristal leitoso no interior.",
+				"Enquanto acesa, a lâmpada concede {@variantrule Advantage|XPHB|Vantagem} em testes de Sabedoria ({@skill Perception|XPHB|Percepção}) feitos para perceber detalhes não vivos, como trilhas, marcas, objetos e inscrições, em ambientes de baixa luminosidade. Ela não funciona em escuridão total."
+			]
+		},
+		{
+			"name": "Talismã do Fôlego Guardado",
+			"source": "MundoDeKyrItens",
+			"page": 0,
+			"type": "W",
+			"rarity": "common",
+			"entries": [
+				"Um amuleto de pedra porosa preso a um fio de couro.",
+				"Uma vez por {@variantrule Long Rest|XPHB|Descanso Longo}, ao realizar um teste de Constituição relacionado a viagem exaustiva, clima severo ou esforço prolongado, você pode rolar {@dice 1d4} e adicionar o resultado ao teste."
+			]
+		},
+		{
+			"name": "Lâmina do Golpe Medido",
+			"source": "MundoDeKyrItens",
+			"page": 0,
+			"type": "M|XPHB",
+			"rarity": "uncommon",
+			"entries": [
+				"Esta arma apresenta marcações rúnicas discretas ao longo do cabo.",
+				"Uma vez por turno, quando você atingir uma criatura com um ataque corpo a corpo usando esta arma, você pode causar {@damage 1d6} de dano adicional se não tiver se movido mais de 10 pés nesse turno. O tipo do dano adicional é o mesmo da arma."
+			]
+		},
+		{
+			"name": "Manto da Presença Convincente",
+			"source": "MundoDeKyrItens",
+			"page": 0,
+			"type": "W",
+			"rarity": "uncommon",
+			"entries": [
+				"Um manto bem cortado, cuja aparência parece sempre adequada ao ambiente social.",
+				"Enquanto estiver sintonizado, você recebe +1 em testes de Carisma ({@skill Persuasion|XPHB|Persuasão}) e Carisma ({@skill Intimidation|XPHB|Intimidação}).",
+				"Além disso, uma vez por {@variantrule Short Rest|XPHB|Descanso Curto}, você pode ganhar {@variantrule Advantage|XPHB|Vantagem} em um único teste de Carisma feito durante uma interação social direta."
+			],
+			"reqAttune": true
+		},
+		{
+			"name": "Anel da Defesa Oportuna",
+			"source": "MundoDeKyrItens",
+			"page": 0,
+			"type": "RG",
+			"rarity": "uncommon",
+			"entries": [
+				"Um anel de prata marcado com um único glifo defensivo.",
+				"Quando você for atingido por um ataque, você pode usar sua {@variantrule Reaction|XPHB|Reação} para ganhar +2 de CA contra esse ataque, possivelmente fazendo-o errar."
+			],
+			"reqAttune": true
+		},
+		{
+			"name": "Broche do Retorno Seguro",
+			"source": "MundoDeKyrItens",
+			"page": 0,
+			"type": "W",
+			"rarity": "uncommon",
+			"entries": [
+				"Um broche metálico em forma de nó fechado.",
+				"Uma vez por {@variantrule Long Rest|XPHB|Descanso Longo}, ao falhar em um teste de habilidade durante exploração ou deslocamento, você pode rolar novamente o teste e escolher qual resultado usar."
+			]
+		},
+		{
+			"name": "Bracelete do Impacto Controlado",
+			"source": "MundoDeKyrItens",
+			"page": 0,
+			"type": "W",
+			"rarity": "uncommon",
+			"entries": [
+				"Um bracelete pesado, marcado por microfissuras arcanas.",
+				"Uma vez por turno, quando você causar dano Contundente, Cortante ou Perfurante com um ataque corpo a corpo, você pode empurrar o alvo 5 pés, desde que o alvo seja Grande ou menor."
+			],
+			"reqAttune": true
+		},
+		{
+			"name": "Lâmina Ígnea Contida",
+			"source": "MundoDeKyrItens",
+			"page": 0,
+			"type": "M|XPHB",
+			"rarity": "uncommon",
+			"entries": [
+				"A lâmina mantém um brilho avermelhado constante, sem jamais se inflamar por completo.",
+				"Você recebe um bônus de +1 nas jogadas de ataque e dano feitas com esta arma.",
+				"Além disso, uma vez por turno, quando você atingir uma criatura com esta arma, ela sofre {@damage 1d6} de dano de fogo."
+			],
+			"bonusWeapon": "+1"
+		},
+		{
+			"name": "Machado da Fenda Gélida",
+			"source": "MundoDeKyrItens",
+			"page": 0,
+			"type": "M|XPHB",
+			"rarity": "uncommon",
+			"entries": [
+				"O metal do machado é frio ao toque e exala vapor em ambientes quentes.",
+				"Quando você atingir uma criatura com esta arma, você pode reduzir o deslocamento do alvo em 10 pés até o início do seu próximo turno. Esse efeito pode ser aplicado uma vez por turno.",
+				"Além disso, a arma causa {@damage 1d4} de dano de frio no primeiro ataque bem-sucedido de cada turno."
+			]
+		},
+		{
+			"name": "Arco da Centelha Guiada",
+			"source": "MundoDeKyrItens",
+			"page": 0,
+			"type": "R|XPHB",
+			"rarity": "uncommon",
+			"entries": [
+				"Fios energéticos percorrem a corda do arco quando uma flecha é encaixada.",
+				"Você recebe um bônus de +1 nas jogadas de ataque feitas com esta arma.",
+				"Além disso, uma vez por turno, quando você atingir um alvo com um ataque à distância usando este arco, você pode causar {@damage 1d4} de dano elétrico e ignorar {@variantrule Cover|XPHB|Meia Cobertura} para esse ataque."
+			],
+			"bonusWeapon": "+1"
+		},
+		{
+			"name": "Adaga da Sombra Ardente",
+			"source": "MundoDeKyrItens",
+			"page": 0,
+			"type": "M|XPHB",
+			"rarity": "uncommon",
+			"entries": [
+				"A lâmina oscila entre tons escuros e brasas internas.",
+				"Você recebe um bônus de +1 nas jogadas de ataque e dano feitas com esta arma.",
+				"Além disso, uma vez por {@variantrule Short Rest|XPHB|Descanso Curto}, quando você acertar um ataque com {@variantrule Advantage|XPHB|Vantagem}, você pode causar {@damage 2d6} de dano adicional de fogo ou necrótico, à sua escolha."
+			],
+			"reqAttune": true,
+			"baseItem": "dagger|xphb",
+			"weaponCategory": "simple",
+			"property": [
+				"F|XPHB",
+				"L|XPHB",
+				"T|XPHB"
+			],
+			"dmg1": "1d4",
+			"dmgType": "P",
+			"bonusWeapon": "+1"
+		},
+		{
+			"name": "Coração da Vontade Ancorada",
+			"source": "MundoDeKyrItens",
+			"page": 0,
+			"type": "W",
+			"rarity": "rare",
+			"entries": [
+				"Um cristal opaco incrustado em um suporte metálico, pulsando no ritmo do portador.",
+				"Enquanto estiver sintonizado, você tem {@variantrule Advantage|XPHB|Vantagem} em testes de resistência de Sabedoria e Carisma.",
+				"Além disso, uma vez por {@variantrule Long Rest|XPHB|Descanso Longo}, quando falhar em um teste de resistência, você pode escolher tratar o resultado como um sucesso."
+			],
+			"reqAttune": true
+		},
+		{
+			"name": "Talismã da Raposa Espiritual",
+			"source": "MundoDeKyrItens",
+			"page": 0,
+			"type": "W",
+			"rarity": "uncommon",
+			"entries": [
+				"Este pequeno talismã de papel sagrado carrega a bênção travessa de uma antiga kitsune, reagindo à astúcia e ao movimento do portador.",
+				"Como uma {@variantrule Bonus Action|XPHB|ação bônus}, você pode ativar o talismã por 1 minuto. Enquanto estiver ativo, você recebe os seguintes benefícios.",
+				{
+					"type": "entries",
+					"name": "Passos da Kitsune",
+					"entries": [
+						"Você pode realizar a ação {@action Disengage|XPHB|Desengajar} como uma {@variantrule Bonus Action|XPHB|ação bônus}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Ilusão Astuta",
+					"entries": [
+						"Como uma {@variantrule Bonus Action|XPHB|ação bônus}, você cria uma ilusão menor de si mesmo em um espaço desocupado a até 15 pés de você, que dura até o início do seu próximo turno. Até lá, ataques feitos contra você têm {@variantrule Disadvantage|XPHB|Desvantagem}."
+					]
+				},
+				"Após ativar o talismã, ele não pode ser ativado novamente até que você termine um {@variantrule Long Rest|XPHB|Descanso Longo}."
+			],
+			"reqAttune": true
+		},
+		{
+			"name": "Martelo do Trovão Ancestral",
+			"source": "MundoDeKyrItens",
+			"page": 0,
+			"type": "M|XPHB",
+			"rarity": "rare",
+			"entries": [
+				"Este martelo foi forjado para aqueles que avançam sem hesitação, carregando em seu núcleo ecos de tempestades antigas.",
+				"Você recebe um bônus de +1 nas jogadas de ataque e dano feitas com esta arma.",
+				{
+					"type": "entries",
+					"name": "Impacto Eletrificado",
+					"entries": [
+						"Sempre que você acertar um ataque corpo a corpo com esta arma, o ataque causa {@damage 1d10} de dano elétrico adicional."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Corpo da Tempestade",
+					"entries": [
+						"Enquanto estiver empunhando este martelo, você possui {@variantrule Resistance|XPHB|Resistência} a dano elétrico."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Avanço Irrefreável",
+					"entries": [
+						"Se você se mover pelo menos 10 pés em linha reta imediatamente antes de realizar um ataque com esta arma, o alvo tem {@variantrule Disadvantage|XPHB|Desvantagem} no primeiro teste de resistência contra empurrão ou queda causado por você até o final do turno."
+					]
+				}
+			],
+			"reqAttune": "by a Barbarian or Paladin",
+			"reqAttuneTags": [
+				{
+					"class": "Barbarian"
+				},
+				{
+					"class": "Paladin"
+				}
+			],
+			"baseItem": "warhammer|xphb",
+			"weaponCategory": "martial",
+			"property": [
+				"V|XPHB"
+			],
+			"mastery": [
+				"Push|XPHB"
+			],
+			"dmg1": "1d8",
+			"dmgType": "B",
+			"dmg2": "1d10",
+			"bonusWeapon": "+1",
+			"resist": [
+				"lightning"
+			]
+		},
+		{
+			"name": "Núcleo Arcano de Combate",
+			"source": "MundoDeKyrItens",
+			"page": 0,
+			"type": "W",
+			"rarity": "rare",
+			"entries": [
+				"Este reator miniaturizado converte foco arcano em potência destrutiva controlada.",
+				"Você recebe +1 na CD das suas magias e nas jogadas de ataque mágico.",
+				{
+					"type": "entries",
+					"name": "Amplificação de Impacto",
+					"entries": [
+						"Sempre que você causar dano com uma magia, adicione 1 ponto de dano adicional para cada dado de dano rolado pela magia, até o máximo de +5."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Estabilidade Arcana",
+					"entries": [
+						"Enquanto estiver sintonizado com este item, você tem {@variantrule Advantage|XPHB|Vantagem} em testes de resistência contra {@condition Exhaustion|XPHB|Exaustão} causada por magia ou sobrecarga arcana."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Potência Controlada",
+					"entries": [
+						"Magias de dano conjuradas por você nunca causam dano mínimo. Se todos os dados de dano resultarem no menor valor possível, trate um deles como se tivesse rolado o valor máximo."
+					]
+				}
+			],
+			"reqAttune": "by an Artificer, Sorcerer, or Wizard",
+			"reqAttuneTags": [
+				{
+					"class": "Artificer"
+				},
+				{
+					"class": "Sorcerer"
+				},
+				{
+					"class": "Wizard"
+				}
+			],
+			"bonusSpellAttack": "+1",
+			"bonusSpellSaveDc": "+1"
+		},
+		{
+			"name": "Manto do Guardião do Véu",
+			"source": "MundoDeKyrItens",
+			"page": 0,
+			"type": "W",
+			"rarity": "rare",
+			"entries": [
+				"Este manto reage antes mesmo da vontade consciente, dobrando o véu da realidade ao redor de seu portador.",
+				"Enquanto estiver vestindo este manto, você recebe +1 de CA.",
+				{
+					"type": "entries",
+					"name": "Mente Protegida",
+					"entries": [
+						"Você tem {@variantrule Advantage|XPHB|Vantagem} em testes de resistência de Sabedoria e Inteligência."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Resposta Instintiva",
+					"entries": [
+						"Sempre que você for alvo direto de uma magia, role {@dice 1d6}. Com resultado 1 ou 2, nenhum efeito adicional ocorre. Com resultado 3 a 6, você reduz o dano da magia em {@dice 1d8} + seu modificador de conjuração."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Passo Suspenso",
+					"entries": [
+						"O manto flutua levemente ao seu redor, permitindo que você ignore terreno difícil não mágico."
+					]
+				}
+			],
+			"reqAttune": "by a Spellcaster",
+			"reqAttuneTags": [
+				{
+					"spellcasting": true
+				}
+			],
+			"bonusAc": "+1"
+		},
+		{
+			"name": "Garras do Predador Silencioso",
+			"source": "MundoDeKyrItens",
+			"page": 0,
+			"type": "W",
+			"rarity": "rare",
+			"entries": [
+				"Estas lâminas não rugem; elas chegam tarde demais para serem ouvidas.",
+				"As garras contam como armas mágicas e concedem +1 nas jogadas de ataque e dano.",
+				{
+					"type": "entries",
+					"name": "Ataque Oportuno",
+					"entries": [
+						"Sempre que você acertar um ataque com {@variantrule Advantage|XPHB|Vantagem} usando estas garras, o ataque causa {@damage 1d6} de dano adicional do mesmo tipo da arma."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Sentidos Aguçados",
+					"entries": [
+						"Você tem {@variantrule Advantage|XPHB|Vantagem} em testes de Destreza ({@skill Acrobatics|XPHB|Acrobacia}) e Sabedoria ({@skill Perception|XPHB|Percepção}) baseados em audição ou movimento."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Deslocamento nas Sombras",
+					"entries": [
+						"Enquanto estiver em Luz Baixa ou áreas de sombra, seu deslocamento aumenta em 10 pés."
+					]
+				}
+			],
+			"reqAttune": "by a Monk or Ranger",
+			"reqAttuneTags": [
+				{
+					"class": "Monk"
+				},
+				{
+					"class": "Ranger"
+				}
+			],
+			"bonusWeapon": "+1"
+		},
+		{
+			"name": "Arma de Yomigami",
+			"source": "MundoDeKyrItens",
+			"page": 0,
+			"type": "M|XPHB",
+			"rarity": "rare",
+			"entries": [
+				"Esta arma é forjada em um material claro e quase translúcido, atravessado por runas alaranjadas que se movem lentamente sob sua superfície. Um pulso constante emana de seu núcleo, como se algo vivo observasse através da lâmina.",
+				"Enquanto estiver sintonizado e empunhando esta arma, você recebe os seguintes benefícios.",
+				{
+					"type": "entries",
+					"name": "Vida Exuberante",
+					"entries": [
+						"Enquanto seus {@variantrule Hit Points|XPHB|Pontos de Vida} atuais estiverem no máximo, você recebe +2 nas jogadas de ataque e dano feitas com esta arma. Além disso, seus ataques com ela causam {@damage 1d4} de dano radiante adicional. Esse dano adicional aumenta para {@damage 2d4} no 9º nível e {@damage 3d4} no 17º nível."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Vigor Contido",
+					"entries": [
+						"Enquanto estiver empunhando a arma, uma vez por turno, quando você acertar um ataque com ela, você pode recuperar {@variantrule Hit Points|XPHB|Pontos de Vida} iguais ao seu bônus de proficiência."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Rito de Rejuvenescimento",
+					"entries": [
+						"Uma vez por {@variantrule Long Rest|XPHB|Descanso Longo}, como uma {@variantrule Bonus Action|XPHB|ação bônus}, você pode gastar até dois Dados de Vida, rolá-los e recuperar {@variantrule Hit Points|XPHB|Pontos de Vida} iguais ao resultado somado ao seu modificador de Constituição."
+					]
+				}
+			],
+			"reqAttune": true
+		},
+		{
+			"name": "Brinco de Kasugami",
+			"source": "MundoDeKyrItens",
+			"page": 0,
+			"type": "W",
+			"rarity": "rare",
+			"entries": [
+				"Este brinco é marcado com o símbolo desgastado de uma entidade esquecida, associada à manipulação sutil do fluxo do tempo.",
+				"O brinco possui um número de cargas igual ao seu bônus de proficiência. Ele recupera 1 carga ao amanhecer.",
+				{
+					"type": "entries",
+					"name": "Reflexo Divino",
+					"entries": [
+						"Quando você gasta sua {@variantrule Reaction|XPHB|Reação}, você pode gastar 1 carga do brinco para recuperar imediatamente o uso da sua {@variantrule Reaction|XPHB|Reação}. Você não pode usar esse efeito se estiver sob a condição {@condition Incapacitated|XPHB|Incapacitado}, e não pode recuperar mais de uma reação adicional por rodada por meio deste item."
+					]
+				},
+				"{@i Item criado por @Markin-Septimus[14/4] Lav[10/1].}"
+			],
+			"reqAttune": true
+		},
+		{
+			"name": "Shiranui",
+			"source": "MundoDeKyrItens",
+			"page": 0,
+			"type": "M|XPHB",
+			"rarity": "rare",
+			"entries": [
+				"Este armamento foi forjado com materiais raros e guarda em seu interior uma fração da luz solar, que pulsa suavemente sob a superfície da lâmina.",
+				"Você recebe um bônus de +2 nas jogadas de ataque e dano realizadas com esta arma.",
+				{
+					"type": "entries",
+					"name": "Chama Solar",
+					"entries": [
+						"Os ataques realizados com esta arma causam {@damage 2d4} de dano adicional de fogo ou radiante, à sua escolha a cada acerto."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Visão do Sol Velado",
+					"entries": [
+						"Enquanto estiver sintonizado com esta arma, você adquire {@sense Darkvision|XPHB|Visão no Escuro} com alcance de 30 pés. Se você já possuir {@sense Darkvision|XPHB|Visão no Escuro}, o alcance dela aumenta em 15 pés."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Fulgor Solar",
+					"entries": [
+						"Como uma {@variantrule Bonus Action|XPHB|ação bônus}, você pode conjurar {@spell Daylight|XPHB}. Após usar esta propriedade, você não pode usá-la novamente até terminar um {@variantrule Long Rest|XPHB|Descanso Longo}."
+					]
+				}
+			],
+			"reqAttune": true,
+			"bonusWeapon": "+2"
+		},
+		{
+			"name": "Escudo do Juramento Inquebrável",
+			"source": "MundoDeKyrItens",
+			"page": 0,
+			"type": "S|XPHB",
+			"rarity": "rare",
+			"entries": [
+				"Este escudo pode ser usado como escudo e como arma.",
+				"Enquanto estiver empunhando o escudo, você recebe +1 de bônus à sua Classe de Armadura, além do bônus normal de CA do {@item Shield|XPHB|Escudo}.",
+				{
+					"type": "entries",
+					"name": "Arma de Arremesso",
+					"entries": [
+						"O escudo também é uma arma marcial corpo a corpo. Em um acerto, ele causa {@damage 1d4} de dano contundente e {@damage 1d4} de dano cortante. Ele possui Arremesso (30/60 pés), Retorno, Finesse e a maestria {@b Topple}. Após o ataque, acertando ou errando, o escudo retorna imediatamente à sua mão."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Baluarte",
+					"entries": [
+						"Você tem {@variantrule Advantage|XPHB|Vantagem} em testes e testes de resistência para evitar ser Empurrado, Derrubado ou deslocado à força."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Touro de Ataque",
+					"entries": [
+						"Quando você acertar um ataque com o escudo, você pode empurrar o alvo 5 pés, desde que ele seja Grande ou menor."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Um por Todos",
+					"entries": [
+						"Você ganha o Estilo de Combate {@feat Protection|XPHB|Protetor} ou {@feat Interception|XPHB|Interceptador}. Sempre que usar sua {@variantrule Reaction|XPHB|Reação} para reduzir dano ou proteger um aliado, o próximo ataque que acertar com este escudo causa {@damage 1d6} de dano adicional contundente."
+					]
+				}
+			],
+			"reqAttune": true,
+			"baseItem": "shield|xphb",
+			"bonusAc": "+1"
+		},
+		{
+			"name": "Armadura da Marcha Incansável",
+			"source": "MundoDeKyrItens",
+			"page": 0,
+			"type": "MA|XPHB",
+			"rarity": "rare",
+			"entries": [
+				"Placas e encaixes foram moldados para distribuir esforço de forma antinatural.",
+				"A armadura concede +1 de CA.",
+				"Enquanto estiver vestindo esta armadura, você ignora os efeitos negativos do primeiro nível de {@condition Exhaustion|XPHB|Exaustão}.",
+				"Além disso, uma vez por {@variantrule Long Rest|XPHB|Descanso Longo}, você pode remover 1 nível de {@condition Exhaustion|XPHB|Exaustão} ao final de um {@variantrule Short Rest|XPHB|Descanso Curto}."
+			],
+			"reqAttune": true,
+			"bonusAc": "+1"
+		},
+		{
+			"name": "Lâmina da Decisão Final",
+			"source": "MundoDeKyrItens",
+			"page": 0,
+			"type": "M|XPHB",
+			"rarity": "rare",
+			"entries": [
+				"A lâmina parece perfeitamente equilibrada, como se aguardasse apenas o momento certo.",
+				"Você recebe um bônus de +2 nas jogadas de ataque e dano feitas com esta arma.",
+				"Além disso, uma vez por turno, quando você acertar um ataque com {@variantrule Advantage|XPHB|Vantagem}, você causa {@damage 2d6} de dano adicional do mesmo tipo da arma."
+			],
+			"bonusWeapon": "+2"
+		},
+		{
+			"name": "Medalhão do Sangue Frio",
+			"source": "MundoDeKyrItens",
+			"page": 0,
+			"type": "W",
+			"rarity": "rare",
+			"entries": [
+				"Um medalhão pesado que permanece gelado mesmo em ambientes quentes.",
+				"Você tem {@variantrule Advantage|XPHB|Vantagem} em testes de resistência contra ser {@condition Frightened|XPHB|Amedrontado} ou {@condition Charmed|XPHB|Enfeitiçado}.",
+				"Além disso, uma vez por {@variantrule Long Rest|XPHB|Descanso Longo}, ao falhar em um desses testes, você pode escolher ter sucesso automaticamente."
+			]
+		},
+		{
+			"name": "Anel da Segunda Leitura",
+			"source": "MundoDeKyrItens",
+			"page": 0,
+			"type": "RG",
+			"rarity": "rare",
+			"entries": [
+				"Um anel simples, marcado por inscrições quase invisíveis.",
+				"Uma vez por {@variantrule Short Rest|XPHB|Descanso Curto}, após falhar em um teste de habilidade, você pode rolar novamente o teste e escolher qual resultado utilizar.",
+				"Esse efeito não pode ser usado em testes de resistência ou jogadas de ataque."
+			]
+		},
+		{
+			"name": "Botas da Retirada Impecável",
+			"source": "MundoDeKyrItens",
+			"page": 0,
+			"type": "W",
+			"rarity": "rare",
+			"entries": [
+				"Botas reforçadas com solas flexíveis e silenciosas.",
+				"Duas vezes por {@variantrule Long Rest|XPHB|Descanso Longo}, você pode usar uma {@variantrule Bonus Action|XPHB|Ação Bônus} para realizar a ação {@action Disengage|XPHB|Desengajar}.",
+				"Além disso, você tem {@variantrule Advantage|XPHB|Vantagem} em testes de Destreza ({@skill Acrobatics|XPHB|Acrobacia}) feitos para evitar quedas, escorregões ou perder o equilíbrio."
+			]
+		},
+		{
+			"name": "Máscara da Voz Irrecusável",
+			"source": "MundoDeKyrItens",
+			"page": 0,
+			"type": "W",
+			"rarity": "rare",
+			"entries": [
+				"Uma máscara cerimonial usada em negociações e julgamentos antigos.",
+				"Enquanto estiver sintonizado, você recebe +2 em testes de Carisma ({@skill Persuasion|XPHB|Persuasão}) e Carisma ({@skill Intimidation|XPHB|Intimidação}).",
+				"Além disso, uma vez por {@variantrule Long Rest|XPHB|Descanso Longo}, ao realizar um teste de Carisma em interação social direta, você pode tratar qualquer resultado abaixo de 10 no {@dice d20} como 10."
+			],
+			"reqAttune": true
+		},
+		{
+			"name": "Braçadeiras do Pandemônio Elemental",
+			"source": "MundoDeKyrItens",
+			"page": 0,
+			"type": "W",
+			"rarity": "very rare",
+			"entries": [
+				"Estas braçadeiras foram forjadas por um mestre que ultrapassou os limites da infusão elemental comum. Runas instáveis percorrem sua superfície, reagindo conforme diferentes forças primordiais são canalizadas.",
+				"As braçadeiras possuem 10 cargas. Elas recuperam metade das cargas ao final de um {@variantrule Long Rest|XPHB|Descanso Longo}.",
+				"Enquanto estiver vestindo as braçadeiras, você tem acesso às seguintes propriedades.",
+				{
+					"type": "entries",
+					"name": "Afinidade Elemental",
+					"entries": [
+						"Você pode conjurar o truque {@spell Elementalism|XPHB} à vontade. O atributo de conjuração é determinado pelo seu modificador mental mais alto."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Absorção Elemental",
+					"entries": [
+						"Quando você sofrer dano ácido, frio, fogo, elétrico ou trovejante, você pode gastar sua {@variantrule Reaction|XPHB|Reação} e 1 carga para ganhar {@variantrule Resistance|XPHB|Resistência} ao tipo de dano que desencadeou a reação até o início do seu próximo turno."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Desastre Elemental (Nível 9+)",
+					"entries": [
+						"Você pode gastar 3 cargas para conjurar {@spell Elemental Weapon|XPHB} em uma arma que esteja empunhando. Ao conjurar a magia, você pode gastar 2 cargas adicionais para que ela não exija {@status Concentration|XPHB|Concentração}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Guardião Elemental (Nível 13+)",
+					"entries": [
+						"Você pode gastar 5 cargas para conjurar {@spell Summon Elemental|XPHB}. Ao conjurar a magia, você pode gastar 2 cargas adicionais para que ela não exija {@status Concentration|XPHB|Concentração}."
+					]
+				}
+			],
+			"reqAttune": true,
+			"charges": 10
+		},
+		{
+			"name": "Presságio Celeste",
+			"source": "MundoDeKyrItens",
+			"page": 0,
+			"type": "WD",
+			"rarity": "very rare",
+			"entries": [
+				"Esta varinha é imbuída com poderes de adivinhação, capazes de revelar sinais simples ou presságios complexos. Quanto maior a experiência do portador, mais profundamente a varinha responde.",
+				"A varinha possui um número de cargas igual ao dobro do seu bônus de proficiência. Ela recupera {@dice 1d4} cargas ao amanhecer.",
+				"Enquanto estiver empunhando a varinha, você tem acesso às seguintes propriedades.",
+				{
+					"type": "entries",
+					"name": "Orientação",
+					"entries": [
+						"Você pode conjurar o truque {@spell Guidance|XPHB} à vontade. Quando conjurar esse truque, você pode gastar 1 carga para que o bônus concedido seja igual ao seu bônus de proficiência, em vez do valor normal."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Presságio Mínimo (Qualquer nível)",
+					"entries": [
+						"Você pode gastar 1 carga para conjurar {@spell Comprehend Languages|XPHB}, {@spell Detect Evil and Good|XPHB}, {@spell Detect Magic|XPHB}, {@spell Detect Poison and Disease|XPHB} ou {@spell Identify|XPHB}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Presságio Menor (Nível 3+)",
+					"entries": [
+						"Você pode gastar 2 cargas para conjurar {@spell Augury|XPHB}, {@spell Locate Animals or Plants|XPHB}, {@spell Locate Object|XPHB}, {@spell See Invisibility|XPHB} ou {@spell Warp Sense|MundoDeKyrLivroDasMagiasDeKyr}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Presságio Moderado (Nível 5+)",
+					"entries": [
+						"Você pode gastar 3 cargas para conjurar {@spell Clairvoyance|XPHB} ou {@spell Tongues|XPHB}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Presságio Maior (Nível 7+)",
+					"entries": [
+						"Você pode gastar 4 cargas para conjurar {@spell Arcane Eye|XPHB}, {@spell Divination|XPHB} ou {@spell Locate Creature|XPHB}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Presságio Superior (Nível 9+)",
+					"entries": [
+						"Você pode gastar 5 cargas para conjurar {@spell Commune|XPHB}, {@spell Commune with Nature|XPHB} ou {@spell Legend Lore|XPHB}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Presságio Extremo (Nível 11+)",
+					"entries": [
+						"Você pode gastar 6 cargas para conjurar {@spell Find the Path|XPHB} ou {@spell True Seeing|XPHB}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Presságio Divino (Nível 17+)",
+					"entries": [
+						"Você pode gastar 9 cargas para conjurar {@spell Foresight|XPHB}."
+					]
+				}
+			],
+			"reqAttune": true
+		},
+		{
+			"name": "Tecelão Shield",
+			"source": "MundoDeKyrItens",
+			"page": 0,
+			"type": "S|XPHB",
+			"rarity": "very rare",
+			"entries": [
+				"Este escudo é tecido com fios arcanos cristalizados, formando padrões que lembram uma teia em constante movimento. Quando a magia o atinge, os fios vibram e tentam puxar a energia para dentro de si.",
+				"Enquanto estiver empunhando este escudo, você recebe +1 de CA.",
+				"Quando você for afetado por uma magia, seja como alvo direto ou como parte de uma área de efeito, você pode usar sua {@variantrule Reaction|XPHB|Reação} para ativar o escudo e tentar absorver a energia mágica.",
+				"Ao fazê-lo, você realiza um teste de resistência de Constituição contra uma CD igual a 13 + o nível da magia.",
+				"Em caso de sucesso, a magia é absorvida pelo escudo e não produz nenhum de seus efeitos normais sobre você. Ao absorver uma magia dessa forma, você sofre os efeitos descritos abaixo.",
+				{
+					"type": "entries",
+					"name": "Impacto Arcano",
+					"entries": [
+						"A energia violenta sacode seu corpo, e você sofre dano de força igual ao nível da magia absorvida."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Carga Residual",
+					"entries": [
+						"Até o final do seu próximo turno, você recebe um bônus de +2 na Classe de Armadura."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Transmutação Tecelada",
+					"entries": [
+						"Até o final do seu próximo turno, você pode escolher aplicar um bônus na rolagem de ataque ou no dano do próximo ataque ou magia que conjurar. O bônus é igual à metade do nível da magia absorvida, arredondada para cima."
+					]
+				},
+				"Em caso de falha no teste de resistência, a magia afeta você normalmente, e o escudo não concede nenhum benefício adicional."
+			],
+			"reqAttune": true,
+			"bonusAc": "+1"
+		},
+		{
+			"name": "Katana do Vento Cortante",
+			"source": "MundoDeKyrItens",
+			"page": 0,
+			"type": "M|XPHB",
+			"rarity": "very rare",
+			"entries": [
+				"Esta lâmina fina vibra sutilmente, como se correntes de ar estivessem presas dentro do aço, reagindo ao movimento do portador.",
+				"Você recebe um bônus de +1 nas jogadas de ataque e dano feitas com esta arma.",
+				{
+					"type": "entries",
+					"name": "Lâmina do Fujin",
+					"entries": [
+						"Esta arma possui alcance adicional de 5 pés."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Corte Aéreo",
+					"entries": [
+						"Uma vez por turno, quando você atingir uma criatura com um ataque feito com esta arma, você pode empurrar o alvo até 10 pés em linha reta para longe de você. Nenhum teste de resistência é necessário."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Parry do Vendaval",
+					"entries": [
+						"Quando uma criatura que você possa ver realizar um ataque corpo a corpo ou à distância contra você enquanto você estiver empunhando esta arma, você pode usar sua {@variantrule Reaction|XPHB|Reação} para ganhar um bônus à CA igual ao seu bônus de proficiência contra esse ataque, potencialmente fazendo com que ele erre."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Retaliação do Vento Cortante",
+					"entries": [
+						"Quando você usar Parry do Vendaval e o ataque errar como resultado desse bônus de CA, você pode, como parte da mesma {@variantrule Reaction|XPHB|Reação}, realizar um ataque com esta arma contra a mesma criatura, desde que ela esteja a até 30 pés de você. Em um acerto, o alvo sofre {@damage 6d10} de dano de força, e você pode se teleportar para um espaço desocupado a até 10 pés do alvo. Você pode utilizar esse ataque uma quantidade de vezes igual à metade do seu bônus de proficiência, arredondado para cima, por {@variantrule Long Rest|XPHB|Descanso Longo}."
+					]
+				}
+			],
+			"reqAttune": true,
+			"bonusWeapon": "+1"
+		},
+		{
+			"name": "Escudo do Gepard",
+			"source": "MundoDeKyrItens",
+			"page": 0,
+			"type": "S|XPHB",
+			"rarity": "very rare",
+			"entries": [
+				"Este grande escudo azul-gelado foi feito a partir de uma ombreira reaproveitada de um gigante do gelo. Runas antigas gravadas em sua superfície canalizam parte do poder elemental do frio para o seu portador.",
+				{
+					"type": "entries",
+					"name": "Alma de Gelo",
+					"entries": [
+						"Seu valor de Constituição aumenta em 2, até o máximo de 20. Além disso, você adquire {@variantrule Resistance|XPHB|Resistência} a dano de frio."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Baluarte Glacial",
+					"entries": [
+						"Como uma ação, você pode plantar o escudo no chão e conjurar imediatamente {@spell Wall of Ice|XPHB}, tendo o escudo como ponto de origem do efeito. Quando conjurada desta forma, a CD do teste de resistência da magia é igual a 8 + seu modificador de Constituição + seu bônus de proficiência."
+					]
+				},
+				"Após usar esta propriedade, você não pode usá-la novamente até terminar um {@variantrule Short Rest|XPHB|Descanso Curto} ou {@variantrule Long Rest|XPHB|Descanso Longo}."
+			],
+			"reqAttune": true,
+			"resist": [
+				"cold"
+			],
+			"ability": [
+				{
+					"con": 2,
+					"max": 20
+				}
+			]
+		},
+		{
+			"name": "Saya da Serpente Branca",
+			"source": "MundoDeKyrItens",
+			"page": 0,
+			"type": "W",
+			"rarity": "very rare",
+			"entries": [
+				"Esta saya de madeira laqueada em branco leitoso é gravada com padrões sutis de escamas. Dizem que foi consagrada a um antigo kami-serpente, que destila venenos silenciosos enquanto a lâmina descansa.",
+				"A saya pode conter adagas ou espadas com lâmina sólida, como katanas ou wakizashis, ou funcionar como uma aljava ritual, comportando até 20 munições. Quando usada como aljava, apenas uma munição pode ser revestida por vez.",
+				"Se uma arma ou munição permanecer guardada nesta saya por 1 hora, ela se torna revestida com veneno espiritual por 1 minuto após ser sacada, ou até atingir uma criatura que não seja imune a veneno. No caso de munição, o revestimento dura apenas até o final do turno em que ela for disparada.",
+				"Enquanto a arma ou munição estiver revestida, ela concede os seguintes benefícios.",
+				{
+					"type": "entries",
+					"name": "Veneno do Kami Silencioso",
+					"entries": [
+						"Quando você atingir uma criatura que não seja imune a veneno com a arma ou munição revestida, a criatura deve realizar um teste de resistência de Constituição CD 15. Em caso de falha, a criatura sofre {@damage 3d6} de dano de veneno e fica {@condition Poisoned|XPHB|Envenenada} por 1 minuto. Em caso de sucesso, a criatura sofre metade do dano e não fica {@condition Poisoned|XPHB|Envenenada}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Laca Conservadora",
+					"entries": [
+						"Se você guardar na saya uma arma que já esteja revestida por qualquer outro veneno, esse veneno não perde sua duração enquanto a arma permanecer guardada, ignorando o tempo normal de dissipação. Após permanecer embainhada por 1 hora, esse veneno passa a herdar as propriedades da Saya da Serpente Branca. Se a CD original do veneno for inferior a 15, ela se torna 15 enquanto o veneno estiver preservado pela saya."
+					]
+				}
+			],
+			"reqAttune": true
+		},
+		{
+			"name": "Orbe do Caos Contido",
+			"source": "MundoDeKyrItens",
+			"page": 0,
+			"type": "W",
+			"rarity": "very rare",
+			"entries": [
+				"Esta esfera concentra probabilidades instáveis em seu interior, distorcendo a realidade ao redor do portador a cada manifestação de poder arcano.",
+				"Você recebe +2 na CD das suas magias.",
+				{
+					"type": "entries",
+					"name": "Caos Sempre Presente",
+					"entries": [
+						"Sempre que você conjurar uma magia de 1º nível ou superior, role na tabela de Wild Magic imediatamente após a conjuração, independentemente de a magia ter sido bem-sucedida ou não."
+					]
+				}
+			],
+			"reqAttune": "by a Sorcerer or Warlock",
+			"reqAttuneTags": [
+				{
+					"class": "Sorcerer"
+				},
+				{
+					"class": "Warlock"
+				}
+			],
+			"bonusSpellSaveDc": "+2"
+		}
+	]
+}
