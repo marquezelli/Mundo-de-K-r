@@ -3,15 +3,15 @@
 		"sources": [
 			{
 				"json": "MundoDeKyrFeats",
-				"abbreviation": "Kÿr",
-				"full": "Mundo de Kÿr: Feats de Origem e Gerais",
+				"abbreviation": "KyrFeats",
+				"full": "Mundo de Kÿr: Feats de Origem, Gerais e Extras de Nível 8",
 				"authors": [
 					"Mundo de Kÿr"
 				],
 				"convertedBy": [
 					"ChatGPT"
 				],
-				"version": "1.1.0",
+				"version": "1.2.0",
 				"url": "https://github.com/TheGiddyLimit/homebrew",
 				"dateAdded": 1777852800
 			}
@@ -4256,6 +4256,1855 @@
 					"entries": [
 						"Se nenhuma criatura entrar no espaço marcado antes do início do seu próximo turno, você pode usar sua {@variantrule Reaction|XPHB|Reação} para descobrir a direção geral para a qual a criatura originalmente marcada se moveu, desde que ela ainda esteja a até 60 pés de você."
 					]
+				}
+			]
+		},
+		{
+			"name": "Raízes que Não Cedem",
+			"source": "MundoDeKyrFeats",
+			"page": 201,
+			"category": "EX",
+			"prerequisite": [
+				{
+					"level": 8,
+					"other": "Nascido Rizomante; Adepto Rizomante ou Geometria Radicular"
+				}
+			],
+			"entries": [
+				"Você aprendeu a fincar sua presença no mundo com tal firmeza que deslocá-lo exige esforço real.",
+				{
+					"type": "entries",
+					"name": "Ancoragem Vital",
+					"entries": [
+						"Você tem {@variantrule Advantage|XPHB|Vantagem} em testes de habilidade e testes de resistência feitos para resistir a ser Empurrado, Puxado, Derrubado, {@condition Restrained|XPHB|Restrito} ou movido contra sua vontade."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Corpo Enraizado",
+					"entries": [
+						"Enquanto estiver em contato com o solo, o primeiro deslocamento forçado que você sofreria a cada rodada é reduzido em 10 pés."
+					]
+				}
+			]
+		},
+		{
+			"name": "Pulso de Regeneração",
+			"source": "MundoDeKyrFeats",
+			"page": 202,
+			"category": "EX",
+			"prerequisite": [
+				{
+					"level": 8,
+					"other": "Nascido Rizomante; Seiva Restauradora ou Adepto Rizomante"
+				}
+			],
+			"entries": [
+				"Sua cura não explode; ela permanece.",
+				{
+					"type": "entries",
+					"name": "Fluxo Restaurador",
+					"entries": [
+						"Uma vez por turno, quando você restaurar {@variantrule Hit Points|XPHB|Pontos de Vida} de uma criatura com uma magia ou característica, essa criatura recupera {@variantrule Hit Points|XPHB|Pontos de Vida} adicionais iguais ao seu {@variantrule Proficiency|XPHB|bônus de proficiência}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Seiva Persistente",
+					"entries": [
+						"Uma vez por turno, quando você conceder {@variantrule Temporary Hit Points|XPHB|Pontos de Vida Temporários} a uma criatura por uma magia ou característica, aumente essa quantidade em valor igual ao seu {@variantrule Proficiency|XPHB|bônus de proficiência}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Jardim de Atrito",
+			"source": "MundoDeKyrFeats",
+			"page": 203,
+			"category": "EX",
+			"prerequisite": [
+				{
+					"level": 8,
+					"other": "Nascido Rizomante; Geometria Radicular ou Seiva Restauradora"
+				}
+			],
+			"entries": [
+				"Você transforma resistência em terreno.",
+				{
+					"type": "entries",
+					"name": "Malha Persistente",
+					"entries": [
+						"Terreno difícil criado por suas magias ou características de Rizomancia também reduz em 10 pés o primeiro deslocamento voluntário de cada criatura hostil que entrar nele a cada turno."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Passagem Natural",
+					"entries": [
+						"Você ignora {@variantrule Difficult Terrain|XPHB|terreno difícil} criado por suas próprias magias e características de Rizomancia."
+					]
+				}
+			]
+		},
+		{
+			"name": "Leitura Além do Véu",
+			"source": "MundoDeKyrFeats",
+			"page": 204,
+			"category": "EX",
+			"prerequisite": [
+				{
+					"level": 8,
+					"other": "Nascido Ecomante; Adepto Ecomante ou Leitor de Rupturas"
+				}
+			],
+			"entries": [
+				"Você desenvolveu sensibilidade às falhas sutis da realidade.",
+				{
+					"type": "entries",
+					"name": "Percepção das Fendas",
+					"entries": [
+						"Você tem {@variantrule Advantage|XPHB|Vantagem} em testes de Sabedoria ({@skill Perception|XPHB|Percepção}) e Inteligência ({@skill Investigation|XPHB|Investigação}) feitos para detectar ilusões, passagens ocultas, distorções espaciais, sobreposições mágicas, áreas tocadas por Fragmentos ou instabilidades do Véu."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Natureza do Risco",
+					"entries": [
+						"Quando obtiver sucesso em um desses testes, você também descobre a natureza geral do fenômeno detectado: arcana, divina, primordial, sombria, anímica, extraplanar ou ligada a Fragmentos, a critério do Mestre."
+					]
+				}
+			]
+		},
+		{
+			"name": "Cartógrafo das Cicatrizes",
+			"source": "MundoDeKyrFeats",
+			"page": 205,
+			"category": "EX",
+			"prerequisite": [
+				{
+					"level": 8,
+					"other": "Nascido Ecomante; Leitor de Rupturas ou Ressonância Ecoante"
+				}
+			],
+			"entries": [
+				"Você aprendeu a transformar cicatriz em rota.",
+				{
+					"type": "entries",
+					"name": "Cartografia de Ruína",
+					"entries": [
+						"Você ganha proficiência com Ferramentas de Cartógrafo, Ferramentas de Navegador ou {@skill Survival|XPHB|Sobrevivência}. Se já possuir a proficiência escolhida, você ganha Especialização nela."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Rota Registrada",
+					"entries": [
+						"Você e aliados a até 30 pés recebem {@dice +1d4} em testes feitos para seguir, refazer ou escapar por uma rota que você tenha identificado ou registrado."
+					]
+				}
+			],
+			"toolProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"cartographer's tools",
+							"navigator's tools"
+						]
+					}
+				}
+			],
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"survival"
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Registro de Impacto",
+			"source": "MundoDeKyrFeats",
+			"page": 206,
+			"category": "EX",
+			"prerequisite": [
+				{
+					"level": 8,
+					"other": "Nascido Ecomante; Adepto Ecomante ou Ressonância Ecoante"
+				}
+			],
+			"entries": [
+				"Você aprendeu a fazer o impacto de uma magia permanecer por um instante a mais.",
+				{
+					"type": "entries",
+					"name": "Eco Marcado",
+					"entries": [
+						"Uma vez por turno, quando uma criatura falhar em um teste de resistência contra uma magia sua de Ecomancia ou for atingida por um truque seu de Ecomancia, o próximo dano que ela sofrer antes do início do seu próximo turno aumenta em valor igual ao seu {@variantrule Proficiency|XPHB|bônus de proficiência}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Memória do Golpe",
+					"entries": [
+						"A primeira criatura aliada que atingir esse alvo antes do início do seu próximo turno também recebe {@dice +1d4} no próximo teste de {@skill Perception|XPHB|Percepção}, {@skill Investigation|XPHB|Investigação}, {@skill Insight|XPHB|Intuição} ou {@skill Arcana|XPHB|Arcanismo} feito contra ele."
+					]
+				}
+			]
+		},
+		{
+			"name": "Marca de Esvaziamento",
+			"source": "MundoDeKyrFeats",
+			"page": 207,
+			"category": "EX",
+			"prerequisite": [
+				{
+					"level": 8,
+					"other": "Nascido Umbromante; Fome do Vazio ou Adepto Umbromante"
+				}
+			],
+			"entries": [
+				"Você aprendeu a tornar a restauração incompleta.",
+				{
+					"type": "entries",
+					"name": "Cura Rarefeita",
+					"entries": [
+						"Uma vez por turno, quando você causar dano Necrótico ou Psíquico a uma criatura, a primeira cura que ela receber antes do início do seu próximo turno é reduzida em valor igual ao seu {@variantrule Proficiency|XPHB|bônus de proficiência}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Vigor Negado",
+					"entries": [
+						"Se essa cura concederia {@variantrule Temporary Hit Points|XPHB|Pontos de Vida Temporários}, esses {@variantrule Temporary Hit Points|XPHB|Pontos de Vida Temporários} também são reduzidos pelo mesmo valor."
+					]
+				}
+			]
+		},
+		{
+			"name": "Silêncio Predatório",
+			"source": "MundoDeKyrFeats",
+			"page": 208,
+			"category": "EX",
+			"prerequisite": [
+				{
+					"level": 8,
+					"other": "Nascido Umbromante; Adepto Umbromante ou Fome do Vazio"
+				}
+			],
+			"entries": [
+				"Sua Umbramancia interfere na intenção antes que ela se torne comando.",
+				{
+					"type": "entries",
+					"name": "Magia Umbral",
+					"entries": [
+						"Você tem a magia {@spell Silêncio de Intenção|MundoDeKyrLivroDasMagiasDeKyr} sempre preparada. Ela não conta contra o número de magias que você pode preparar. Você pode conjurá-la uma vez sem gastar espaço de magia, recuperando esse uso ao finalizar um {@variantrule Long Rest|XPHB|Descanso Longo}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Concentração Reprimida",
+					"entries": [
+						"Quando uma criatura falhar em um teste de resistência contra uma magia sua de Umbramancia, ela subtrai {@dice 1d4} do próximo teste que realizar para manter {@status Concentration|XPHB|Concentração} antes do início do seu próximo turno."
+					]
+				}
+			],
+			"additionalSpells": [
+				{
+					"prepared": {
+						"_": [
+							"silêncio de intenção|MundoDeKyrLivroDasMagiasDeKyr"
+						],
+						"daily": {
+							"1": [
+								"silêncio de intenção|MundoDeKyrLivroDasMagiasDeKyr"
+							]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "Passos pelas Lacunas",
+			"source": "MundoDeKyrFeats",
+			"page": 209,
+			"category": "EX",
+			"prerequisite": [
+				{
+					"level": 8,
+					"other": "Nascido Umbromante; Adepto Umbromante ou Véu do Apagamento"
+				}
+			],
+			"entries": [
+				"Você aprendeu a se mover pelos intervalos de percepção.",
+				{
+					"type": "entries",
+					"name": "Movimento sem Testemunha",
+					"entries": [
+						"Depois de realizar a {@action Magic|XPHB|Ação Mágica} ou a ação {@action Hide|XPHB|Esconder-se}, você pode se mover 10 pés sem provocar {@action Opportunity Attack|XPHB|Ataques de Oportunidade}, desde que comece ou termine esse movimento em {@variantrule Dim Light|XPHB|Luz Baixa}, {@variantrule Darkness|XPHB|Escuridão} ou em uma área obscurecida por uma magia ou efeito que você tenha criado."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Presença Desvanecida",
+					"entries": [
+						"{@action Opportunity Attack|XPHB|Ataques de Oportunidade} feitos contra você têm {@variantrule Disadvantage|XPHB|Desvantagem} enquanto você estiver em {@variantrule Dim Light|XPHB|Luz Baixa}, {@variantrule Darkness|XPHB|Escuridão} ou em uma área obscurecida por uma magia ou efeito que você tenha criado."
+					]
+				}
+			]
+		},
+		{
+			"name": "Ascendência Dracônica Aprimorada",
+			"source": "MundoDeKyrFeats",
+			"page": 210,
+			"category": "EX",
+			"prerequisite": [
+				{
+					"level": 8,
+					"other": "Herdeiro do Dragão; Escamas do Ancestral ou Sopro Dracônico"
+				}
+			],
+			"entries": [
+				"Seu vínculo com o ancestral se estabiliza.",
+				{
+					"type": "entries",
+					"name": "Resistência Dracônica",
+					"entries": [
+						"Você ganha {@variantrule Resistance|XPHB|Resistência} ao tipo de dano associado à sua Ancestralidade Dracônica."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Ruptura Ancestral",
+					"entries": [
+						"Se você já possuir {@variantrule Resistance|XPHB|Resistência} a esse tipo de dano por outra fonte, quando causar dano do tipo associado à sua Ancestralidade Dracônica, você ignora {@variantrule Resistance|XPHB|Resistência} a esse tipo de dano uma vez por turno."
+					]
+				}
+			],
+			"resist": [
+				{
+					"choose": {
+						"from": [
+							"acid",
+							"cold",
+							"fire",
+							"lightning",
+							"poison"
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Investida do Predador",
+			"source": "MundoDeKyrFeats",
+			"page": 211,
+			"category": "EX",
+			"prerequisite": [
+				{
+					"level": 8,
+					"other": "Herdeiro do Dragão; Escamas do Ancestral ou Voz do Suserano"
+				}
+			],
+			"entries": [
+				"Você reproduz a violência direta dos grandes predadores dracônicos.",
+				{
+					"type": "entries",
+					"name": "Bote Escamado",
+					"entries": [
+						"Uma vez por turno, quando você se mover pelo menos 10 pés em linha reta em direção a uma criatura e atingi-la com um ataque corpo a corpo no mesmo turno, esse ataque causa {@damage 1d8} de dano adicional do tipo associado à sua Ancestralidade Dracônica."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Impacto Dominante",
+					"entries": [
+						"Quando causar esse dano adicional, você tem {@variantrule Advantage|XPHB|Vantagem} no próximo teste de Força ({@skill Athletics|XPHB|Atletismo}) feito contra a criatura atingida antes do fim do turno atual."
+					]
+				}
+			]
+		},
+		{
+			"name": "Olhar do Tirano",
+			"source": "MundoDeKyrFeats",
+			"page": 212,
+			"category": "EX",
+			"prerequisite": [
+				{
+					"level": 8,
+					"other": "Herdeiro do Dragão; Voz do Suserano ou Sopro Dracônico"
+				}
+			],
+			"entries": [
+				"Você aprendeu a usar medo como instrumento de hierarquia.",
+				{
+					"type": "entries",
+					"name": "Medo Hierárquico",
+					"entries": [
+						"Enquanto uma criatura estiver Amedrontada por você, ela não pode realizar Reações contra você."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Autoridade do Sangue",
+					"entries": [
+						"Você ganha proficiência em {@skill Intimidation|XPHB|Intimidação} ou {@skill Arcana|XPHB|Arcanismo}. Se já possuir a proficiência escolhida, você ganha Especialização nela."
+					]
+				}
+			],
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"intimidation",
+							"arcana"
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Luz que Permanece",
+			"source": "MundoDeKyrFeats",
+			"page": 213,
+			"category": "EX",
+			"prerequisite": [
+				{
+					"level": 8,
+					"other": "Tocado pela Aurora; Brilho Tutelar ou Guardião da Aurora"
+				}
+			],
+			"entries": [
+				"A Aurora permanece por um instante depois da proteção.",
+				{
+					"type": "entries",
+					"name": "Claridade Residual",
+					"entries": [
+						"Uma vez por turno, quando você restaurar {@variantrule Hit Points|XPHB|Pontos de Vida}, reduzir dano ou conceder {@variantrule Temporary Hit Points|XPHB|Pontos de Vida Temporários} a uma criatura, ela reduz o próximo dano que sofrer antes do início do seu próximo turno em valor igual ao seu {@variantrule Proficiency|XPHB|bônus de proficiência}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Firmeza da Aurora",
+					"entries": [
+						"A criatura beneficiada por Claridade Residual recebe {@dice +1d4} no próximo teste de resistência contra {@condition Frightened|XPHB|Amedrontado} ou {@condition Charmed|XPHB|Enfeitiçado} antes do início do seu próximo turno."
+					]
+				}
+			]
+		},
+		{
+			"name": "Protetor da Aurora",
+			"source": "MundoDeKyrFeats",
+			"page": 214,
+			"category": "EX",
+			"prerequisite": [
+				{
+					"level": 8,
+					"other": "Tocado pela Aurora; Guardião da Aurora ou Brilho Tutelar"
+				}
+			],
+			"entries": [
+				"Sua proteção passa a carregar restauração luminosa.",
+				{
+					"type": "entries",
+					"name": "Magia da Aurora",
+					"entries": [
+						"Você tem a magia {@spell Toque da Aurora Invernal|MundoDeKyrLivroDasMagiasDeKyr} sempre preparada. Ela não conta contra o número de magias que você pode preparar. Você pode conjurá-la uma vez sem gastar espaço de magia, recuperando esse uso ao finalizar um {@variantrule Long Rest|XPHB|Descanso Longo}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Cura Tutelar",
+					"entries": [
+						"Quando você conjurar {@spell Toque da Aurora Invernal|MundoDeKyrLivroDasMagiasDeKyr} ou outra magia que restaure {@variantrule Hit Points|XPHB|Pontos de Vida}, uma criatura curada por ela recebe {@variantrule Temporary Hit Points|XPHB|Pontos de Vida Temporários} adicionais iguais ao seu {@variantrule Proficiency|XPHB|bônus de proficiência}."
+					]
+				}
+			],
+			"additionalSpells": [
+				{
+					"prepared": {
+						"_": [
+							"toque da aurora invernal|MundoDeKyrLivroDasMagiasDeKyr"
+						],
+						"daily": {
+							"1": [
+								"toque da aurora invernal|MundoDeKyrLivroDasMagiasDeKyr"
+							]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "Linha Intransponível",
+			"source": "MundoDeKyrFeats",
+			"page": 215,
+			"category": "EX",
+			"prerequisite": [
+				{
+					"level": 8,
+					"other": "Tocado pela Aurora; Vigília Inquebrável ou Brilho Tutelar"
+				}
+			],
+			"entries": [
+				"Você transforma proximidade em proteção.",
+				{
+					"type": "entries",
+					"name": "Guarda Compartilhada",
+					"entries": [
+						"Enquanto você estiver a até 5 pés de uma criatura aliada e não estiver {@condition Incapacitated|XPHB|Incapacitado}, você e essa criatura têm {@variantrule Advantage|XPHB|Vantagem} em testes de resistência contra {@condition Frightened|XPHB|Amedrontado}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Passo Protegido",
+					"entries": [
+						"{@action Opportunity Attack|XPHB|Ataques de Oportunidade} contra você e contra criaturas aliadas a até 5 pés de você têm {@variantrule Disadvantage|XPHB|Desvantagem}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Persistência do Sobrevivente",
+			"source": "MundoDeKyrFeats",
+			"page": 216,
+			"category": "EX",
+			"prerequisite": [
+				{
+					"level": 8,
+					"other": "Forjado pelo Mundo Hostil; Pulmão da Tempestade ou Passo do Ermo"
+				}
+			],
+			"entries": [
+				"Você continua funcional quando outros já teriam cedido.",
+				{
+					"type": "entries",
+					"name": "Resistência ao Colapso",
+					"entries": [
+						"O primeiro nível de {@condition Exhaustion|XPHB|Exaustão} que você adquirir não produz efeitos sobre você. Esse nível ainda é contabilizado normalmente para fins de progressão da condição."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Corpo Aclimatado",
+					"entries": [
+						"Você tem {@variantrule Advantage|XPHB|Vantagem} em testes de resistência contra clima extremo, fome, sede, marcha forçada, sufocamento e perigos ambientais naturais."
+					]
+				}
+			]
+		},
+		{
+			"name": "Marca de Sobrevivente de Kÿr",
+			"source": "MundoDeKyrFeats",
+			"page": 217,
+			"category": "EX",
+			"prerequisite": [
+				{
+					"level": 8,
+					"other": "Forjado pelo Mundo Hostil; Instinto de Refúgio ou Pulmão da Tempestade"
+				}
+			],
+			"entries": [
+				"Você carrega marcas de um mundo que não perdoa erro.",
+				{
+					"type": "entries",
+					"name": "Persistência do Mundo Real",
+					"entries": [
+						"Você tem {@variantrule Advantage|XPHB|Vantagem} em testes de resistência contra {@condition Frightened|XPHB|Amedrontado}, {@condition Charmed|XPHB|Enfeitiçado} e efeitos que tentem forçar suas ações."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Recuperação Pragmática",
+					"entries": [
+						"Quando concluir um {@variantrule Short Rest|XPHB|Descanso Curto}, você recebe {@variantrule Temporary Hit Points|XPHB|Pontos de Vida Temporários} iguais a duas vezes seu {@variantrule Proficiency|XPHB|bônus de proficiência}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Leitor de Intempéries",
+			"source": "MundoDeKyrFeats",
+			"page": 218,
+			"category": "EX",
+			"prerequisite": [
+				{
+					"level": 8,
+					"other": "Forjado pelo Mundo Hostil; Passo do Ermo ou Instinto de Refúgio"
+				}
+			],
+			"entries": [
+				"Você lê o ambiente antes que ele mostre os dentes.",
+				{
+					"type": "entries",
+					"name": "Presságio do Terreno",
+					"entries": [
+						"Você tem {@variantrule Advantage|XPHB|Vantagem} em testes de {@skill Survival|XPHB|Sobrevivência}, {@skill Perception|XPHB|Percepção} e {@skill Investigation|XPHB|Investigação} feitos para detectar armadilhas naturais, desabamentos, clima perigoso, trilhas falsas, rotas seguras ou sinais de predadores."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Especialista do Ermo",
+					"entries": [
+						"Você ganha proficiência em {@skill Survival|XPHB|Sobrevivência} ou {@skill Perception|XPHB|Percepção}. Se já possuir a proficiência escolhida, você ganha Especialização nela."
+					]
+				}
+			],
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"survival",
+							"perception"
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Muralha de Aço",
+			"source": "MundoDeKyrFeats",
+			"page": 219,
+			"category": "EX",
+			"prerequisite": [
+				{
+					"level": 8,
+					"other": "Senhor das Linhas; Pressão de Campo ou Guarda Territorial"
+				}
+			],
+			"entries": [
+				"Sua ameaça ocupa espaço real.",
+				{
+					"type": "entries",
+					"name": "Passo de Muralha",
+					"entries": [
+						"Quando você realiza um {@action Opportunity Attack|XPHB|Ataque de Oportunidade}, pode se mover até 10 pés antes ou depois do ataque, sem provocar {@action Opportunity Attack|XPHB|Ataques de Oportunidade} da criatura atacada."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Fecho de Passagem",
+					"entries": [
+						"Se o {@action Opportunity Attack|XPHB|Ataque de Oportunidade} atingir, o deslocamento da criatura atingida é reduzido em 10 pés até o fim do turno atual."
+					]
+				}
+			]
+		},
+		{
+			"name": "Campo de Impasse",
+			"source": "MundoDeKyrFeats",
+			"page": 220,
+			"category": "EX",
+			"prerequisite": [
+				{
+					"level": 8,
+					"other": "Senhor das Linhas; Guarda Territorial ou Pressão de Campo"
+				}
+			],
+			"entries": [
+				"Você transforma adjacência em decisão difícil.",
+				{
+					"type": "entries",
+					"name": "Zona Contestada",
+					"entries": [
+						"Criaturas hostis a até 5 pés de você tratam esse espaço como {@variantrule Difficult Terrain|XPHB|terreno difícil}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Pressão de Alvo",
+					"entries": [
+						"Criaturas marcadas por você sofrem {@dice -1d4} na primeira jogada de ataque que realizarem contra um alvo que não seja você antes do início do seu próximo turno."
+					]
+				}
+			]
+		},
+		{
+			"name": "Ruptura Calculada",
+			"source": "MundoDeKyrFeats",
+			"page": 221,
+			"category": "EX",
+			"prerequisite": [
+				{
+					"level": 8,
+					"other": "Senhor das Linhas; Instinto de Ruptura ou Guarda Territorial"
+				}
+			],
+			"entries": [
+				"Você pune erro com precisão.",
+				{
+					"type": "entries",
+					"name": "Exploração da Falha",
+					"entries": [
+						"Quando uma criatura errar um ataque contra você, seu próximo ataque contra ela antes do fim do seu próximo turno causa dano adicional igual ao seu {@variantrule Proficiency|XPHB|bônus de proficiência}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Resposta Cortada",
+					"entries": [
+						"Se esse ataque atingir, a criatura não pode realizar {@action Opportunity Attack|XPHB|Ataques de Oportunidade} até o início do seu próximo turno."
+					]
+				}
+			]
+		},
+		{
+			"name": "Fratura da Brasa Invernal",
+			"source": "MundoDeKyrFeats",
+			"page": 222,
+			"category": "EX",
+			"prerequisite": [
+				{
+					"level": 8,
+					"other": "Tocado pela Chama Fria; Brasa Invernal ou Guardião da Chama Fria"
+				}
+			],
+			"entries": [
+				"Você usa o frio para quebrar ritmo e reação.",
+				{
+					"type": "entries",
+					"name": "Fratura Térmica",
+					"entries": [
+						"Uma vez por turno, quando você causar dano de Frio a uma criatura com deslocamento reduzido, ela não pode realizar {@action Opportunity Attack|XPHB|Ataques de Oportunidade} até o início do seu próximo turno."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Estilhaço Pálido",
+					"entries": [
+						"Quando você converter dano de Fogo ou Radiante em Frio, o primeiro alvo que sofrer esse dano recebe dano de Frio adicional igual ao seu {@variantrule Proficiency|XPHB|bônus de proficiência}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Selo do Inverno Branco",
+			"source": "MundoDeKyrFeats",
+			"page": 223,
+			"category": "EX",
+			"prerequisite": [
+				{
+					"level": 8,
+					"other": "Tocado pela Chama Fria; Círculo da Geada Branca ou Brasa Invernal"
+				}
+			],
+			"entries": [
+				"Você aprendeu a fazer a geada permanecer.",
+				{
+					"type": "entries",
+					"name": "Geada Expandida",
+					"entries": [
+						"A área criada por sua Geada Delimitadora aumenta para 10 pés de raio."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Selo Cortante",
+					"entries": [
+						"A primeira vez em cada turno que uma criatura hostil começar o turno na área criada por sua Geada Delimitadora, ela sofre dano de Frio igual ao seu {@variantrule Proficiency|XPHB|bônus de proficiência}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Misericórdia Glacial",
+			"source": "MundoDeKyrFeats",
+			"page": 224,
+			"category": "EX",
+			"prerequisite": [
+				{
+					"level": 8,
+					"other": "Tocado pela Chama Fria; Guardião da Chama Fria ou Círculo da Geada Branca"
+				}
+			],
+			"entries": [
+				"A Chama Fria não conforta; ela estabiliza.",
+				{
+					"type": "entries",
+					"name": "Magia Glacial",
+					"entries": [
+						"Você tem a magia {@spell Toque da Aurora Invernal|MundoDeKyrLivroDasMagiasDeKyr} sempre preparada. Ela não conta contra o número de magias que você pode preparar. Você pode conjurá-la uma vez sem gastar espaço de magia, recuperando esse uso ao finalizar um {@variantrule Long Rest|XPHB|Descanso Longo}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Cura Invernal",
+					"entries": [
+						"Uma vez por turno, quando você restaurar {@variantrule Hit Points|XPHB|Pontos de Vida} de uma criatura com uma magia ou característica, ela recebe {@variantrule Temporary Hit Points|XPHB|Pontos de Vida Temporários} adicionais iguais ao seu {@variantrule Proficiency|XPHB|bônus de proficiência} se você tiver causado dano de Frio desde o início do seu último turno."
+					]
+				}
+			],
+			"additionalSpells": [
+				{
+					"prepared": {
+						"_": [
+							"toque da aurora invernal|MundoDeKyrLivroDasMagiasDeKyr"
+						],
+						"daily": {
+							"1": [
+								"toque da aurora invernal|MundoDeKyrLivroDasMagiasDeKyr"
+							]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "Transbordo da Seiva Dourada",
+			"source": "MundoDeKyrFeats",
+			"page": 225,
+			"category": "EX",
+			"prerequisite": [
+				{
+					"level": 8,
+					"other": "ao menos 2 feats no total entre Rizomancia e Aurora / Proteção"
+				}
+			],
+			"entries": [
+				"Você aprendeu a não desperdiçar restauração.",
+				{
+					"type": "entries",
+					"name": "Cura que Não se Perde",
+					"entries": [
+						"Quando uma criatura recuperar {@variantrule Hit Points|XPHB|Pontos de Vida} por uma magia ou característica sua, qualquer cura que exceda os {@variantrule Hit Points|XPHB|Pontos de Vida} máximos dela se converte em {@variantrule Temporary Hit Points|XPHB|Pontos de Vida Temporários}, até um máximo igual a duas vezes seu {@variantrule Proficiency|XPHB|bônus de proficiência}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Reserva Luminosa",
+					"entries": [
+						"Uma vez por turno, quando uma criatura receber {@variantrule Temporary Hit Points|XPHB|Pontos de Vida Temporários} por essa feat, ela recebe {@dice +1d4} no próximo teste de resistência contra {@condition Frightened|XPHB|Amedrontado}, {@condition Charmed|XPHB|Enfeitiçado} ou ser movida contra a vontade antes do início do seu próximo turno."
+					]
+				}
+			]
+		},
+		{
+			"name": "Reservatório da Casca Dourada",
+			"source": "MundoDeKyrFeats",
+			"page": 226,
+			"category": "EX",
+			"prerequisite": [
+				{
+					"level": 8,
+					"other": "ao menos 2 feats no total entre Rizomancia e Aurora / Proteção"
+				}
+			],
+			"entries": [
+				"Você torna proteção cumulativa.",
+				{
+					"type": "entries",
+					"name": "Casca Acumulada",
+					"entries": [
+						"Quando uma criatura que já possua {@variantrule Temporary Hit Points|XPHB|Pontos de Vida Temporários} concedidos por você receber novos {@variantrule Temporary Hit Points|XPHB|Pontos de Vida Temporários} de uma magia ou característica sua, ela pode somar o novo valor ao total atual. O total acumulado não pode exceder seu modificador de Constituição, Sabedoria ou Carisma + duas vezes seu {@variantrule Proficiency|XPHB|bônus de proficiência}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Quebra Absorvida",
+					"entries": [
+						"Uma vez por rodada, quando uma criatura perder todos os {@variantrule Temporary Hit Points|XPHB|Pontos de Vida Temporários} concedidos por você, ela pode mover-se 5 pés sem provocar {@action Opportunity Attack|XPHB|Ataques de Oportunidade}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Limiar Intransponível",
+			"source": "MundoDeKyrFeats",
+			"page": 227,
+			"category": "EX",
+			"prerequisite": [
+				{
+					"level": 8,
+					"other": "ao menos 2 feats no total entre Aurora / Proteção e Território / Controle Marcial"
+				}
+			],
+			"entries": [
+				"Você transforma proteção em barreira.",
+				{
+					"type": "entries",
+					"name": "Guarda de Limiar",
+					"entries": [
+						"Enquanto você estiver adjacente a uma criatura aliada, criaturas hostis tratam os espaços adjacentes a você como {@variantrule Difficult Terrain|XPHB|terreno difícil}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Presença que Fecha",
+					"entries": [
+						"A primeira jogada de ataque feita por uma criatura hostil contra uma criatura aliada adjacente a você sofre {@dice -1d4}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Rito da Pausa Clara",
+			"source": "MundoDeKyrFeats",
+			"page": 228,
+			"category": "EX",
+			"prerequisite": [
+				{
+					"level": 8,
+					"other": "ao menos 2 feats no total entre Aurora / Proteção e Chama Fria"
+				}
+			],
+			"entries": [
+				"Você cria pausas breves onde a violência perde continuidade.",
+				{
+					"type": "entries",
+					"name": "Pausa Disciplinar",
+					"entries": [
+						"Uma vez por turno, quando você restaurar {@variantrule Hit Points|XPHB|Pontos de Vida}, reduzir dano ou conceder {@variantrule Temporary Hit Points|XPHB|Pontos de Vida Temporários} a uma criatura aliada, o próximo ataque de oportunidade contra ela antes do início do seu próximo turno sofre {@variantrule Disadvantage|XPHB|Desvantagem}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Temperança Tática",
+					"entries": [
+						"A criatura também encerra em si a condição {@condition Frightened|XPHB|Amedrontado} se o efeito que a beneficiou veio de uma magia ou característica de Aurora, Proteção ou Chama Fria."
+					]
+				}
+			]
+		},
+		{
+			"name": "Trilha do Frio Habitável",
+			"source": "MundoDeKyrFeats",
+			"page": 229,
+			"category": "EX",
+			"prerequisite": [
+				{
+					"level": 8,
+					"other": "ao menos 2 feats no total entre Chama Fria e Sobrevivência do Mundo Hostil"
+				}
+			],
+			"entries": [
+				"Você deixa uma rota boa para os seus e ruim para os outros.",
+				{
+					"type": "entries",
+					"name": "Trilha Fria",
+					"entries": [
+						"Depois que você causar dano de Frio ou conceder {@variantrule Temporary Hit Points|XPHB|Pontos de Vida Temporários}, escolha um caminho contínuo de até 15 pés que você possa ver a até 30 pés. Até o início do seu próximo turno, aliados tratam esse caminho como terreno normal, e criaturas hostis tratam esse caminho como {@variantrule Difficult Terrain|XPHB|terreno difícil}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Frio Habitável",
+					"entries": [
+						"Você e aliados nesse caminho têm {@variantrule Advantage|XPHB|Vantagem} em testes de resistência contra frio extremo, ventos fortes e terreno escorregadio natural."
+					]
+				}
+			]
+		},
+		{
+			"name": "Âncora Vazia",
+			"source": "MundoDeKyrFeats",
+			"page": 230,
+			"category": "EX",
+			"prerequisite": [
+				{
+					"level": 8,
+					"other": "ao menos 2 feats no total entre Rizomancia e Umbramancia"
+				}
+			],
+			"entries": [
+				"Você aprendeu a suprimir uma propriedade específica do espaço.",
+				{
+					"type": "entries",
+					"name": "Supressão Local",
+					"entries": [
+						"Quando você criar {@variantrule Difficult Terrain|XPHB|terreno difícil}, marcar um espaço ou criar uma área por uma magia ou característica de Rizomancia ou Umbramancia, escolha uma propriedade a ser suprimida nesse espaço até o início do seu próximo turno: teleporte para dentro ou para fora dele, ganho de {@variantrule Temporary Hit Points|XPHB|Pontos de Vida Temporários} nele, ou benefício de {@variantrule Half Cover|XPHB|Meia Cobertura} nele."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Permanência da Lacuna",
+					"entries": [
+						"Você pode manter até dois espaços suprimidos ao mesmo tempo. Se criar um terceiro, o mais antigo termina."
+					]
+				}
+			]
+		},
+		{
+			"name": "Raízes que Lembram",
+			"source": "MundoDeKyrFeats",
+			"page": 231,
+			"category": "EX",
+			"prerequisite": [
+				{
+					"level": 8,
+					"other": "ao menos 2 feats no total entre Rizomancia e Ecomancia"
+				}
+			],
+			"entries": [
+				"Você aprendeu a fixar ecos por mais tempo.",
+				{
+					"type": "entries",
+					"name": "Eco Ancorado",
+					"entries": [
+						"Quando você marcar uma criatura, objeto ou espaço por uma magia ou característica de Rizomancia ou Ecomancia, a marca dura até o início do seu próximo turno completo, mesmo que a criatura marcada se mova."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Leitura da Permanência",
+					"entries": [
+						"Você e aliados a até 30 pés recebem {@dice +1d4} em testes de {@skill Perception|XPHB|Percepção}, {@skill Investigation|XPHB|Investigação}, {@skill Insight|XPHB|Intuição} ou {@skill Arcana|XPHB|Arcanismo} feitos contra criaturas, objetos ou espaços marcados por você."
+					]
+				}
+			]
+		},
+		{
+			"name": "Escama da Madeira Antiga",
+			"source": "MundoDeKyrFeats",
+			"page": 232,
+			"category": "EX",
+			"prerequisite": [
+				{
+					"level": 8,
+					"other": "ao menos 2 feats no total entre Rizomancia e Dracônica"
+				}
+			],
+			"entries": [
+				"Você faz seu legado dracônico se comportar como matéria viva antiga.",
+				{
+					"type": "entries",
+					"name": "Couraça de Permanência",
+					"entries": [
+						"Enquanto você possuir {@variantrule Temporary Hit Points|XPHB|Pontos de Vida Temporários} concedidos por uma magia ou característica sua, você tem {@variantrule Advantage|XPHB|Vantagem} em testes de resistência contra ser Empurrado, Puxado, Derrubado ou movido contra a vontade."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Sopro que Fixa",
+					"entries": [
+						"Quando uma criatura falhar no teste de resistência contra seu Sopro Ancestral, o deslocamento dela é reduzido em 10 pés até o início do seu próximo turno."
+					]
+				}
+			]
+		},
+		{
+			"name": "Guardião das Raízes Profundas",
+			"source": "MundoDeKyrFeats",
+			"page": 233,
+			"category": "EX",
+			"prerequisite": [
+				{
+					"level": 8,
+					"other": "Nascido Rizomante; Adepto Rizomante ou Geometria Radicular"
+				}
+			],
+			"entries": [
+				"Você aprendeu a conjurar a partir das camadas profundas do mundo, onde raiz, pedra e memória física ainda se confundem.",
+				{
+					"type": "entries",
+					"name": "Magias Rizomânticas",
+					"entries": [
+						"Você tem {@spell Seiva de Sustentação|MundoDeKyrLivroDasMagiasDeKyr} e {@spell Leitura de Raízes Profundas|MundoDeKyrLivroDasMagiasDeKyr} sempre preparadas. Elas não contam contra o número de magias que você pode preparar. Você pode conjurar {@spell Seiva de Sustentação|MundoDeKyrLivroDasMagiasDeKyr} uma vez sem gastar espaço de magia, recuperando esse uso ao finalizar um {@variantrule Long Rest|XPHB|Descanso Longo}. Você também pode conjurar ambas normalmente usando quaisquer espaços de magia que possuir."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Percepção Subterrânea",
+					"entries": [
+						"Enquanto estiver em contato com o solo, você tem {@variantrule Advantage|XPHB|Vantagem} em testes de Sabedoria ({@skill Perception|XPHB|Percepção}) feitos para detectar criaturas em movimento, tremores, cavidades, passagens subterrâneas ou instabilidade estrutural natural."
+					]
+				}
+			],
+			"additionalSpells": [
+				{
+					"prepared": {
+						"_": [
+							"seiva de sustentação|MundoDeKyrLivroDasMagiasDeKyr",
+							"leitura de raízes profundas|MundoDeKyrLivroDasMagiasDeKyr"
+						],
+						"daily": {
+							"1": [
+								"seiva de sustentação|MundoDeKyrLivroDasMagiasDeKyr"
+							]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "Tecelão da Trama Viva",
+			"source": "MundoDeKyrFeats",
+			"page": 234,
+			"category": "EX",
+			"prerequisite": [
+				{
+					"level": 8,
+					"other": "Nascido Rizomante; Seiva Restauradora ou Adepto Rizomante"
+				}
+			],
+			"entries": [
+				"Você aprendeu a sustentar aliados por vínculos vivos, fazendo a proteção circular entre corpos próximos.",
+				{
+					"type": "entries",
+					"name": "Magias da Trama Viva",
+					"entries": [
+						"Você tem {@spell Armadura de Espinhos|MundoDeKyrLivroDasMagiasDeKyr} e {@spell Trama de Suporte|MundoDeKyrLivroDasMagiasDeKyr} sempre preparadas. Elas não contam contra o número de magias que você pode preparar. Você pode conjurar {@spell Armadura de Espinhos|MundoDeKyrLivroDasMagiasDeKyr} uma vez sem gastar espaço de magia, recuperando esse uso ao finalizar um {@variantrule Long Rest|XPHB|Descanso Longo}. Você também pode conjurar ambas normalmente usando quaisquer espaços de magia que possuir."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Seiva Compartilhada",
+					"entries": [
+						"Uma vez por turno, quando uma criatura sob efeito de uma magia sua de Rizomancia receber {@variantrule Temporary Hit Points|XPHB|Pontos de Vida Temporários}, aumente essa quantidade em valor igual ao seu {@variantrule Proficiency|XPHB|bônus de proficiência}."
+					]
+				}
+			],
+			"additionalSpells": [
+				{
+					"prepared": {
+						"_": [
+							"armadura de espinhos|MundoDeKyrLivroDasMagiasDeKyr",
+							"trama de suporte|MundoDeKyrLivroDasMagiasDeKyr"
+						],
+						"daily": {
+							"1": [
+								"armadura de espinhos|MundoDeKyrLivroDasMagiasDeKyr"
+							]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "Arquivista dos Ecos",
+			"source": "MundoDeKyrFeats",
+			"page": 235,
+			"category": "EX",
+			"prerequisite": [
+				{
+					"level": 8,
+					"other": "Nascido Ecomante; Adepto Ecomante ou Leitor de Rupturas"
+				}
+			],
+			"entries": [
+				"Você aprendeu a transformar vestígios em registros utilizáveis. Para você, uma cena nunca está completamente silenciosa.",
+				{
+					"type": "entries",
+					"name": "Magias de Arquivo",
+					"entries": [
+						"Você tem {@spell Impressão Residual|MundoDeKyrLivroDasMagiasDeKyr} e {@spell Memória Ancorada|MundoDeKyrLivroDasMagiasDeKyr} sempre preparadas. Elas não contam contra o número de magias que você pode preparar. Você pode conjurar {@spell Impressão Residual|MundoDeKyrLivroDasMagiasDeKyr} uma vez sem gastar espaço de magia, recuperando esse uso ao finalizar um {@variantrule Long Rest|XPHB|Descanso Longo}. Você também pode conjurar ambas normalmente usando quaisquer espaços de magia que possuir."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Leitura Documental",
+					"entries": [
+						"Você ganha proficiência em {@skill Investigation|XPHB|Investigação} ou {@skill History|XPHB|História}. Se já possuir a proficiência escolhida, você ganha Especialização nela."
+					]
+				}
+			],
+			"additionalSpells": [
+				{
+					"prepared": {
+						"_": [
+							"impressão residual|MundoDeKyrLivroDasMagiasDeKyr",
+							"memória ancorada|MundoDeKyrLivroDasMagiasDeKyr"
+						],
+						"daily": {
+							"1": [
+								"impressão residual|MundoDeKyrLivroDasMagiasDeKyr"
+							]
+						}
+					}
+				}
+			],
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"investigation",
+							"history"
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Selo do Mundo Ferido",
+			"source": "MundoDeKyrFeats",
+			"page": 236,
+			"category": "EX",
+			"prerequisite": [
+				{
+					"level": 8,
+					"other": "Nascido Ecomante; Leitor de Rupturas ou Ressonância Ecoante"
+				}
+			],
+			"entries": [
+				"Você aprendeu a reconhecer quando o mundo foi tocado por algo que não deveria permanecer oculto.",
+				{
+					"type": "entries",
+					"name": "Magias de Selo",
+					"entries": [
+						"Você tem {@spell Eco Persistente|MundoDeKyrLivroDasMagiasDeKyr} e {@spell Selo de Lembrança|MundoDeKyrLivroDasMagiasDeKyr} sempre preparadas. Elas não contam contra o número de magias que você pode preparar. Você pode conjurar {@spell Eco Persistente|MundoDeKyrLivroDasMagiasDeKyr} uma vez sem gastar espaço de magia, recuperando esse uso ao finalizar um {@variantrule Long Rest|XPHB|Descanso Longo}. Você também pode conjurar ambas normalmente usando quaisquer espaços de magia que possuir."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Registro Confiável",
+					"entries": [
+						"Quando você obtiver sucesso em um teste de {@skill Investigation|XPHB|Investigação}, {@skill Perception|XPHB|Percepção} ou {@skill Arcana|XPHB|Arcanismo} para detectar rastros mágicos, objetos alterados, áreas afetadas por magia ou vestígios de passagem, você também identifica se o vestígio é recente, antigo ou recorrente, a critério do Mestre."
+					]
+				}
+			],
+			"additionalSpells": [
+				{
+					"prepared": {
+						"_": [
+							"eco persistente|MundoDeKyrLivroDasMagiasDeKyr",
+							"selo de lembrança|MundoDeKyrLivroDasMagiasDeKyr"
+						],
+						"daily": {
+							"1": [
+								"eco persistente|MundoDeKyrLivroDasMagiasDeKyr"
+							]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "Intercessor do Silêncio",
+			"source": "MundoDeKyrFeats",
+			"page": 237,
+			"category": "EX",
+			"prerequisite": [
+				{
+					"level": 8,
+					"other": "Nascido Umbromante; Adepto Umbromante ou Fome do Vazio"
+				}
+			],
+			"entries": [
+				"Você aprendeu a interromper intenção antes que ela se torne forma completa.",
+				{
+					"type": "entries",
+					"name": "Magias de Interdição",
+					"entries": [
+						"Você tem {@spell Silêncio de Intenção|MundoDeKyrLivroDasMagiasDeKyr} e {@spell Véu de Interstício|MundoDeKyrLivroDasMagiasDeKyr} sempre preparadas. Elas não contam contra o número de magias que você pode preparar. Você pode conjurar {@spell Silêncio de Intenção|MundoDeKyrLivroDasMagiasDeKyr} uma vez sem gastar espaço de magia, recuperando esse uso ao finalizar um {@variantrule Long Rest|XPHB|Descanso Longo}. Você também pode conjurar ambas normalmente usando quaisquer espaços de magia que possuir."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Resposta Rarefeita",
+					"entries": [
+						"Quando uma criatura falhar em um teste de resistência contra uma magia sua de Umbramancia, ela subtrai {@dice 1d4} do próximo teste que realizar para manter {@status Concentration|XPHB|Concentração} antes do início do seu próximo turno."
+					]
+				}
+			],
+			"additionalSpells": [
+				{
+					"prepared": {
+						"_": [
+							"silêncio de intenção|MundoDeKyrLivroDasMagiasDeKyr",
+							"véu de interstício|MundoDeKyrLivroDasMagiasDeKyr"
+						],
+						"daily": {
+							"1": [
+								"silêncio de intenção|MundoDeKyrLivroDasMagiasDeKyr"
+							]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "Geometria da Ausência",
+			"source": "MundoDeKyrFeats",
+			"page": 238,
+			"category": "EX",
+			"prerequisite": [
+				{
+					"level": 8,
+					"other": "Nascido Umbromante; Adepto Umbromante ou Véu do Apagamento"
+				}
+			],
+			"entries": [
+				"Você aprendeu a usar a ausência como meio de deslocamento, troca e contenção.",
+				{
+					"type": "entries",
+					"name": "Magias de Lacuna",
+					"entries": [
+						"Você tem {@spell Vínculo de Sombra|MundoDeKyrLivroDasMagiasDeKyr} e {@spell Imagem Negativa|MundoDeKyrLivroDasMagiasDeKyr} sempre preparadas. Elas não contam contra o número de magias que você pode preparar. Você pode conjurar {@spell Vínculo de Sombra|MundoDeKyrLivroDasMagiasDeKyr} uma vez sem gastar espaço de magia, recuperando esse uso ao finalizar um {@variantrule Long Rest|XPHB|Descanso Longo}. Você também pode conjurar ambas normalmente usando quaisquer espaços de magia que possuir."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Forma Incompleta",
+					"entries": [
+						"Enquanto estiver em {@variantrule Dim Light|XPHB|Luz Baixa}, {@variantrule Darkness|XPHB|Escuridão} ou em uma área obscurecida por uma magia ou efeito que você tenha criado, {@action Opportunity Attack|XPHB|Ataques de Oportunidade} contra você têm {@variantrule Disadvantage|XPHB|Desvantagem}."
+					]
+				}
+			],
+			"additionalSpells": [
+				{
+					"prepared": {
+						"_": [
+							"vínculo de sombra|MundoDeKyrLivroDasMagiasDeKyr",
+							"imagem negativa|MundoDeKyrLivroDasMagiasDeKyr"
+						],
+						"daily": {
+							"1": [
+								"vínculo de sombra|MundoDeKyrLivroDasMagiasDeKyr"
+							]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "Portador da Aurora Invernal",
+			"source": "MundoDeKyrFeats",
+			"page": 239,
+			"category": "EX",
+			"prerequisite": [
+				{
+					"level": 8,
+					"other": "Tocado pela Aurora; Brilho Tutelar ou Guardião da Aurora"
+				}
+			],
+			"entries": [
+				"Você aprendeu a transformar luz fria em cura, vigor e continuidade.",
+				{
+					"type": "entries",
+					"name": "Magias da Aurora",
+					"entries": [
+						"Você tem {@spell Toque da Aurora Invernal|MundoDeKyrLivroDasMagiasDeKyr} e {@spell Sopro de Vida|MundoDeKyrLivroDasMagiasDeKyr} sempre preparadas. Elas não contam contra o número de magias que você pode preparar. Você pode conjurar {@spell Toque da Aurora Invernal|MundoDeKyrLivroDasMagiasDeKyr} uma vez sem gastar espaço de magia, recuperando esse uso ao finalizar um {@variantrule Long Rest|XPHB|Descanso Longo}. Você também pode conjurar ambas normalmente usando quaisquer espaços de magia que possuir."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Cura Luminosa",
+					"entries": [
+						"Uma vez por turno, quando você restaurar {@variantrule Hit Points|XPHB|Pontos de Vida} de uma criatura com uma magia, ela recebe {@variantrule Temporary Hit Points|XPHB|Pontos de Vida Temporários} adicionais iguais ao seu {@variantrule Proficiency|XPHB|bônus de proficiência}."
+					]
+				}
+			],
+			"additionalSpells": [
+				{
+					"prepared": {
+						"_": [
+							"toque da aurora invernal|MundoDeKyrLivroDasMagiasDeKyr",
+							"sopro de vida|MundoDeKyrLivroDasMagiasDeKyr"
+						],
+						"daily": {
+							"1": [
+								"toque da aurora invernal|MundoDeKyrLivroDasMagiasDeKyr"
+							]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "Discípulo da Barreira Aethérica",
+			"source": "MundoDeKyrFeats",
+			"page": 240,
+			"category": "EX",
+			"prerequisite": [
+				{
+					"level": 8,
+					"other": "capacidade de conjurar magias; proficiência em Arcanismo"
+				}
+			],
+			"entries": [
+				"Você aprendeu a tratar impacto como fluxo a ser absorvido, retido e redirecionado.",
+				{
+					"type": "entries",
+					"name": "Magias Aethéricas",
+					"entries": [
+						"Você tem {@spell Barreira Etérea|MundoDeKyrLivroDasMagiasDeKyr} e {@spell Impacto Retido|MundoDeKyrLivroDasMagiasDeKyr} sempre preparadas. Elas não contam contra o número de magias que você pode preparar. Você pode conjurar {@spell Barreira Etérea|MundoDeKyrLivroDasMagiasDeKyr} uma vez sem gastar espaço de magia, recuperando esse uso ao finalizar um {@variantrule Long Rest|XPHB|Descanso Longo}. Você também pode conjurar ambas normalmente usando quaisquer espaços de magia que possuir."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Controle de Impacto",
+					"entries": [
+						"Uma vez por turno, quando uma magia sua reduzir dano sofrido por uma criatura, aumente essa redução em valor igual ao seu {@variantrule Proficiency|XPHB|bônus de proficiência}."
+					]
+				}
+			],
+			"additionalSpells": [
+				{
+					"prepared": {
+						"_": [
+							"barreira etérea|MundoDeKyrLivroDasMagiasDeKyr",
+							"impacto retido|MundoDeKyrLivroDasMagiasDeKyr"
+						],
+						"daily": {
+							"1": [
+								"barreira etérea|MundoDeKyrLivroDasMagiasDeKyr"
+							]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "Gume Cromático",
+			"source": "MundoDeKyrFeats",
+			"page": 241,
+			"category": "EX",
+			"prerequisite": [
+				{
+					"level": 8,
+					"other": "Herdeiro do Dragão; Sopro Dracônico ou Escamas do Ancestral"
+				}
+			],
+			"entries": [
+				"Você aprendeu a conduzir sua ancestralidade por armas, golpes e canais elementais precisos.",
+				{
+					"type": "entries",
+					"name": "Magias Cromáticas",
+					"entries": [
+						"Você tem {@spell Lâmina Cromática|MundoDeKyrLivroDasMagiasDeKyr} e {@spell Golpe Cromático|MundoDeKyrLivroDasMagiasDeKyr} sempre preparadas. Elas não contam contra o número de magias que você pode preparar. Você pode conjurar {@spell Golpe Cromático|MundoDeKyrLivroDasMagiasDeKyr} uma vez sem gastar espaço de magia, recuperando esse uso ao finalizar um {@variantrule Long Rest|XPHB|Descanso Longo}. Você também pode conjurar ambas normalmente usando quaisquer espaços de magia que possuir."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Afinidade Elemental",
+					"entries": [
+						"Uma vez por turno, quando você causar dano do tipo associado à sua Ancestralidade Dracônica com uma magia ou ataque de arma, você causa dano adicional desse mesmo tipo igual ao seu {@variantrule Proficiency|XPHB|bônus de proficiência}."
+					]
+				}
+			],
+			"additionalSpells": [
+				{
+					"prepared": {
+						"_": [
+							"lâmina cromática|MundoDeKyrLivroDasMagiasDeKyr",
+							"golpe cromático|MundoDeKyrLivroDasMagiasDeKyr"
+						],
+						"daily": {
+							"1": [
+								"golpe cromático|MundoDeKyrLivroDasMagiasDeKyr"
+							]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "Vigia dos Ecos Hostis",
+			"source": "MundoDeKyrFeats",
+			"page": 242,
+			"category": "EX",
+			"prerequisite": [
+				{
+					"level": 8,
+					"other": "Forjado pelo Mundo Hostil; Passo do Ermo ou Leitor de Intempéries"
+				}
+			],
+			"entries": [
+				"Você aprendeu a sobreviver não apenas lendo clima e trilha, mas ouvindo o que o mundo registrou antes da ameaça aparecer.",
+				{
+					"type": "entries",
+					"name": "Magias de Vigília",
+					"entries": [
+						"Você tem {@spell Eco Persistente|MundoDeKyrLivroDasMagiasDeKyr} e {@spell Sentir Terreno|MundoDeKyrLivroDasMagiasDeKyr} sempre preparadas. Elas não contam contra o número de magias que você pode preparar. Você pode conjurar {@spell Sentir Terreno|MundoDeKyrLivroDasMagiasDeKyr} uma vez sem gastar espaço de magia, recuperando esse uso ao finalizar um {@variantrule Long Rest|XPHB|Descanso Longo}. Você também pode conjurar ambas normalmente usando quaisquer espaços de magia que possuir."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Alerta de Travessia",
+					"entries": [
+						"Você tem {@variantrule Advantage|XPHB|Vantagem} em testes de Sabedoria ({@skill Survival|XPHB|Sobrevivência}) e Sabedoria ({@skill Perception|XPHB|Percepção}) feitos para detectar predadores, emboscadas, terreno instável, desabamentos, trilhas falsas ou criaturas em deslocamento natural."
+					]
+				}
+			],
+			"additionalSpells": [
+				{
+					"prepared": {
+						"_": [
+							"eco persistente|MundoDeKyrLivroDasMagiasDeKyr",
+							"sentir terreno|MundoDeKyrLivroDasMagiasDeKyr"
+						],
+						"daily": {
+							"1": [
+								"sentir terreno|MundoDeKyrLivroDasMagiasDeKyr"
+							]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "Sobrevivente da Escalada",
+			"source": "MundoDeKyrFeats",
+			"page": 243,
+			"category": "EX",
+			"prerequisite": [
+				{
+					"level": 8
+				}
+			],
+			"entries": [
+				"Você foi exposto a eventos em que a realidade precisou se adaptar rápido demais. Desde então, seu corpo e sua mente reconhecem o início de uma distorção antes que ela se complete.",
+				{
+					"type": "entries",
+					"name": "Instinto de Escalada",
+					"entries": [
+						"Você tem {@variantrule Advantage|XPHB|Vantagem} em testes de resistência contra efeitos causados por Zonas de Eco, Fragmentos Primordiais, distorções do Véu ou instabilidade mágica ambiental."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Corpo Ajustado",
+					"entries": [
+						"A primeira vez em cada {@variantrule Long Rest|XPHB|Descanso Longo} que você falhar em um teste de resistência contra um desses efeitos, você pode adicionar {@dice 1d4} ao resultado, potencialmente transformando a falha em sucesso."
+					]
+				}
+			]
+		},
+		{
+			"name": "Técnico de Campo",
+			"source": "MundoDeKyrFeats",
+			"page": 244,
+			"category": "EX",
+			"prerequisite": [
+				{
+					"level": 8,
+					"other": "Proficiência com pelo menos uma Ferramenta de Artesão"
+				}
+			],
+			"entries": [
+				"Você aprendeu a trabalhar em condições ruins, com materiais imperfeitos e tempo limitado. Seu ofício não depende de conforto; depende de método.",
+				{
+					"type": "entries",
+					"name": "Ritmo de Oficina",
+					"entries": [
+						"Sempre que gastar ao menos 8 horas de Downtime em crafting, reparo ou modificação de item, você conta como se tivesse trabalhado 10 horas para fins de progresso."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Especialização Prática",
+					"entries": [
+						"Escolha uma Ferramenta de Artesão com a qual você seja proficiente. Você ganha Especialização com essa ferramenta."
+					]
+				}
+			]
+		},
+		{
+			"name": "Diplomata de Fronteira",
+			"source": "MundoDeKyrFeats",
+			"page": 245,
+			"category": "EX",
+			"prerequisite": [
+				{
+					"level": 8
+				}
+			],
+			"entries": [
+				"Você aprendeu a negociar em terras onde costume, fé, raça, guilda e poder local importam tanto quanto a verdade dita em voz alta.",
+				{
+					"type": "entries",
+					"name": "Leitura de Costumes",
+					"entries": [
+						"Você ganha proficiência em {@skill Persuasion|XPHB|Persuasão}, {@skill Insight|XPHB|Intuição} ou {@skill History|XPHB|História}. Se já possuir a proficiência escolhida, você ganha Especialização nela."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Etiqueta Adaptável",
+					"entries": [
+						"Quando fizer um teste de Carisma para interagir com uma cultura, facção, corte, guilda ou autoridade local que você tenha observado por pelo menos 1 minuto, você pode adicionar {@dice 1d4} ao teste."
+					]
+				}
+			],
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"persuasion",
+							"insight",
+							"history"
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Caçador de Anomalias",
+			"source": "MundoDeKyrFeats",
+			"page": 246,
+			"category": "EX",
+			"prerequisite": [
+				{
+					"level": 8
+				}
+			],
+			"entries": [
+				"Você não caça apenas criaturas. Você caça sinais de que algo no mundo está fora do lugar.",
+				{
+					"type": "entries",
+					"name": "Rastro Anômalo",
+					"entries": [
+						"Você tem {@variantrule Advantage|XPHB|Vantagem} em testes de {@skill Perception|XPHB|Percepção}, {@skill Investigation|XPHB|Investigação} e {@skill Survival|XPHB|Sobrevivência} feitos para rastrear aberrações, criaturas extraplanares, portadores de Fragmentos, efeitos de Véu instável ou manifestações de magia antiga."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Golpe Preparado",
+					"entries": [
+						"Uma vez por turno, quando você causar dano a uma criatura que tenha sido rastreada ou identificada por Rastro Anômalo nesta cena, você causa dano adicional igual ao seu {@variantrule Proficiency|XPHB|bônus de proficiência}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Vontade Contra o Impossível",
+			"source": "MundoDeKyrFeats",
+			"page": 247,
+			"category": "EX",
+			"prerequisite": [
+				{
+					"level": 8
+				}
+			],
+			"entries": [
+				"Você já viu o mundo contrariar lógica, memória e destino. Isso o tornou mais difícil de quebrar.",
+				{
+					"type": "entries",
+					"name": "Mente Ancorada",
+					"entries": [
+						"Você tem {@variantrule Advantage|XPHB|Vantagem} em testes de resistência contra {@condition Frightened|XPHB|Amedrontado}, {@condition Charmed|XPHB|Enfeitiçado} e efeitos que alterem memória, percepção ou senso de direção."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Recusa Interna",
+					"entries": [
+						"Quando você obtiver sucesso em um teste de resistência contra um desses efeitos, recebe {@variantrule Temporary Hit Points|XPHB|Pontos de Vida Temporários} iguais ao seu {@variantrule Proficiency|XPHB|bônus de proficiência}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Escriba de Selos Duradouros",
+			"source": "MundoDeKyrFeats",
+			"page": 248,
+			"category": "EX",
+			"prerequisite": [
+				{
+					"level": 8,
+					"other": "Capacidade de conjurar magias ou proficiência em Arcanismo"
+				}
+			],
+			"entries": [
+				"Você aprendeu a gravar magia como registro, selo e advertência. Para você, portas, baús, livros e câmaras não são apenas objetos; são testemunhas que podem ser instruídas a lembrar.",
+				{
+					"type": "entries",
+					"name": "Magias de Selo",
+					"entries": [
+						"Você tem {@spell Eco Persistente|MundoDeKyrLivroDasMagiasDeKyr}, {@spell Impressão Residual|MundoDeKyrLivroDasMagiasDeKyr} e {@spell Selo de Lembrança|MundoDeKyrLivroDasMagiasDeKyr} sempre preparadas. Elas não contam contra o número de magias que você pode preparar. Você pode conjurar {@spell Eco Persistente|MundoDeKyrLivroDasMagiasDeKyr} uma vez sem gastar espaço de magia, recuperando esse uso ao finalizar um {@variantrule Long Rest|XPHB|Descanso Longo}. Você também pode conjurar essas magias normalmente usando quaisquer espaços de magia que possuir."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Arquivo Confiável",
+					"entries": [
+						"Quando você conjurar uma magia que registre, marque, preserve ou revele um vestígio, você tem {@variantrule Advantage|XPHB|Vantagem} no primeiro teste de Inteligência ({@skill Investigation|XPHB|Investigação}), Inteligência ({@skill Arcana|XPHB|Arcanismo}) ou Sabedoria ({@skill Perception|XPHB|Percepção}) feito para interpretar o resultado dessa magia antes do fim da cena."
+					]
+				}
+			],
+			"additionalSpells": [
+				{
+					"prepared": {
+						"_": [
+							"eco persistente|MundoDeKyrLivroDasMagiasDeKyr",
+							"impressão residual|MundoDeKyrLivroDasMagiasDeKyr",
+							"selo de lembrança|MundoDeKyrLivroDasMagiasDeKyr"
+						],
+						"daily": {
+							"1": [
+								"eco persistente|MundoDeKyrLivroDasMagiasDeKyr"
+							]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "Retentor de Impactos",
+			"source": "MundoDeKyrFeats",
+			"page": 249,
+			"category": "EX",
+			"prerequisite": [
+				{
+					"level": 8,
+					"spellcasting2020": true
+				}
+			],
+			"entries": [
+				"Você aprendeu a tratar impacto como algo que pode ser retido, amortecido e devolvido. Sua magia não bloqueia a força bruta; ela a atrasa por tempo suficiente para que o corpo sobreviva.",
+				{
+					"type": "entries",
+					"name": "Magias de Retenção",
+					"entries": [
+						"Você tem {@spell Barreira Etérea|MundoDeKyrLivroDasMagiasDeKyr}, {@spell Impacto Retido|MundoDeKyrLivroDasMagiasDeKyr} e {@spell Ressonância Punitiva|MundoDeKyrLivroDasMagiasDeKyr} sempre preparadas. Elas não contam contra o número de magias que você pode preparar. Você pode conjurar {@spell Barreira Etérea|MundoDeKyrLivroDasMagiasDeKyr} uma vez sem gastar espaço de magia, recuperando esse uso ao finalizar um {@variantrule Long Rest|XPHB|Descanso Longo}. Você também pode conjurar essas magias normalmente usando quaisquer espaços de magia que possuir."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Absorção Controlada",
+					"entries": [
+						"Uma vez por turno, quando uma magia sua reduzir dano sofrido por uma criatura, aumente essa redução em valor igual ao seu {@variantrule Proficiency|XPHB|bônus de proficiência}."
+					]
+				}
+			],
+			"additionalSpells": [
+				{
+					"prepared": {
+						"_": [
+							"barreira etérea|MundoDeKyrLivroDasMagiasDeKyr",
+							"impacto retido|MundoDeKyrLivroDasMagiasDeKyr",
+							"ressonância punitiva|MundoDeKyrLivroDasMagiasDeKyr"
+						],
+						"daily": {
+							"1": [
+								"barreira etérea|MundoDeKyrLivroDasMagiasDeKyr"
+							]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "Artesão Cromático de Guerra",
+			"source": "MundoDeKyrFeats",
+			"page": 250,
+			"category": "EX",
+			"prerequisite": [
+				{
+					"level": 8,
+					"other": "Capacidade de conjurar magias ou proficiência com armas marciais"
+				}
+			],
+			"entries": [
+				"Você aprendeu a estabilizar energia elemental em armas, golpes e canais breves. A cor não é ornamento: é método, escolha e consequência.",
+				{
+					"type": "entries",
+					"name": "Magias Cromáticas",
+					"entries": [
+						"Você tem {@spell Lâmina Cromática|MundoDeKyrLivroDasMagiasDeKyr}, {@spell Golpe Cromático|MundoDeKyrLivroDasMagiasDeKyr} e {@spell Arma Cromática|MundoDeKyrLivroDasMagiasDeKyr} sempre preparadas. Elas não contam contra o número de magias que você pode preparar. Você pode conjurar {@spell Golpe Cromático|MundoDeKyrLivroDasMagiasDeKyr} uma vez sem gastar espaço de magia, recuperando esse uso ao finalizar um {@variantrule Long Rest|XPHB|Descanso Longo}. Você também pode conjurar essas magias normalmente usando quaisquer espaços de magia que possuir."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Estabilização Elemental",
+					"entries": [
+						"Uma vez por turno, quando você causar dano Ácido, Flamejante, Frio, Elétrico, Trovejante ou Venenoso com uma magia ou ataque de arma, você pode tratar um único dado de dano que tenha resultado 1 como 2."
+					]
+				}
+			],
+			"additionalSpells": [
+				{
+					"prepared": {
+						"_": [
+							"lâmina cromática|MundoDeKyrLivroDasMagiasDeKyr",
+							"golpe cromático|MundoDeKyrLivroDasMagiasDeKyr",
+							"arma cromática|MundoDeKyrLivroDasMagiasDeKyr"
+						],
+						"daily": {
+							"1": [
+								"golpe cromático|MundoDeKyrLivroDasMagiasDeKyr"
+							]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "Interditor de Passagens",
+			"source": "MundoDeKyrFeats",
+			"page": 251,
+			"category": "EX",
+			"prerequisite": [
+				{
+					"level": 8,
+					"spellcasting2020": true
+				}
+			],
+			"entries": [
+				"Você aprendeu a fechar rotas sem erguer muralhas. Sua magia transforma sombra, vínculo e terreno em proibição silenciosa.",
+				{
+					"type": "entries",
+					"name": "Magias de Interdição",
+					"entries": [
+						"Você tem {@spell Véu de Interstício|MundoDeKyrLivroDasMagiasDeKyr}, {@spell Vínculo de Sombra|MundoDeKyrLivroDasMagiasDeKyr} e {@spell Zona de Passos Negados|MundoDeKyrLivroDasMagiasDeKyr} sempre preparadas. Elas não contam contra o número de magias que você pode preparar. Você pode conjurar {@spell Véu de Interstício|MundoDeKyrLivroDasMagiasDeKyr} uma vez sem gastar espaço de magia, recuperando esse uso ao finalizar um {@variantrule Long Rest|XPHB|Descanso Longo}. Você também pode conjurar essas magias normalmente usando quaisquer espaços de magia que possuir."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Passagem Comprometida",
+					"entries": [
+						"Criaturas hostis em {@variantrule Difficult Terrain|XPHB|terreno difícil} criado por uma magia sua sofrem uma penalidade de {@dice 1d4} no primeiro teste de resistência de Força ou Destreza que realizarem para escapar, atravessar, sair ou resistir a uma restrição imposta por essa magia."
+					]
+				}
+			],
+			"additionalSpells": [
+				{
+					"prepared": {
+						"_": [
+							"véu de interstício|MundoDeKyrLivroDasMagiasDeKyr",
+							"vínculo de sombra|MundoDeKyrLivroDasMagiasDeKyr",
+							"zona de passos negados|MundoDeKyrLivroDasMagiasDeKyr"
+						],
+						"daily": {
+							"1": [
+								"véu de interstício|MundoDeKyrLivroDasMagiasDeKyr"
+							]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "Cirurgião da Aurora Viva",
+			"source": "MundoDeKyrFeats",
+			"page": 252,
+			"category": "EX",
+			"prerequisite": [
+				{
+					"level": 8,
+					"other": "Capacidade de conjurar magias ou proficiência em Medicina"
+				}
+			],
+			"entries": [
+				"Você aprendeu que cura não é apenas fechar feridas. É restaurar ritmo, respiração, postura e continuidade.",
+				{
+					"type": "entries",
+					"name": "Magias Restauradoras",
+					"entries": [
+						"Você tem {@spell Toque da Aurora Invernal|MundoDeKyrLivroDasMagiasDeKyr}, {@spell Sopro de Vida|MundoDeKyrLivroDasMagiasDeKyr} e {@spell Trama de Suporte|MundoDeKyrLivroDasMagiasDeKyr} sempre preparadas. Elas não contam contra o número de magias que você pode preparar. Você pode conjurar {@spell Toque da Aurora Invernal|MundoDeKyrLivroDasMagiasDeKyr} uma vez sem gastar espaço de magia, recuperando esse uso ao finalizar um {@variantrule Long Rest|XPHB|Descanso Longo}. Você também pode conjurar essas magias normalmente usando quaisquer espaços de magia que possuir."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Restauração Sustentada",
+					"entries": [
+						"Uma vez por turno, quando você restaurar {@variantrule Hit Points|XPHB|Pontos de Vida} de uma criatura com uma magia, ela recebe {@variantrule Temporary Hit Points|XPHB|Pontos de Vida Temporários} iguais ao seu {@variantrule Proficiency|XPHB|bônus de proficiência} se ainda não possuir {@variantrule Temporary Hit Points|XPHB|Pontos de Vida Temporários}."
+					]
+				}
+			],
+			"additionalSpells": [
+				{
+					"prepared": {
+						"_": [
+							"toque da aurora invernal|MundoDeKyrLivroDasMagiasDeKyr",
+							"sopro de vida|MundoDeKyrLivroDasMagiasDeKyr",
+							"trama de suporte|MundoDeKyrLivroDasMagiasDeKyr"
+						],
+						"daily": {
+							"1": [
+								"toque da aurora invernal|MundoDeKyrLivroDasMagiasDeKyr"
+							]
+						}
+					}
 				}
 			]
 		}
