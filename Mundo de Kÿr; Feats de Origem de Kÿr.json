@@ -2,16 +2,16 @@
 	"_meta": {
 		"sources": [
 			{
-				"json": "MundoDeKyrFeats",
-				"abbreviation": "KyrFeats",
-				"full": "Mundo de Kÿr: Feats de Origem, Gerais e Extras de Nível 8",
+				"json": "MundoDeKyr",
+				"abbreviation": "Kyr",
+				"full": "Mundo de Kÿr: Feats de Origem, Gerais, Extras, Boosts e Facções de Bornewulf",
 				"authors": [
-					"Mundo de Kÿr"
+					"Felipe M"
 				],
 				"convertedBy": [
 					"ChatGPT"
 				],
-				"version": "1.2.0",
+				"version": "1.4.0",
 				"url": "https://github.com/TheGiddyLimit/homebrew",
 				"dateAdded": 1777852800
 			}
@@ -846,6 +846,228 @@
 					"entries": [
 						"Durante um {@variantrule Long Rest|XPHB|Descanso Longo}, você pode permanecer em vigília sem impedir que receba os benefícios do descanso, desde que não realize outra atividade extenuante."
 					]
+				}
+			]
+		},
+		{
+			"name": "Recruta da Guarda Luminar",
+			"source": "MundoDeKyrFeats",
+			"page": 401,
+			"category": "O",
+			"entries": [
+				"Você foi treinado para transformar presença em ordem. Sua postura denuncia que você pertence a uma força que não precisa gritar para ser obedecida.",
+				{
+					"type": "entries",
+					"name": "Proficiência de Facção",
+					"entries": [
+						"Você ganha proficiência em {@skill Perception|XPHB|Percepção} ou {@skill Intimidation|XPHB|Intimidação}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Presença Oficial",
+					"entries": [
+						"Quando fizer um teste de Carisma para impor ordem, dispersar uma multidão, exigir identificação ou conduzir alguém em custódia, você pode adicionar {@dice 1d4} ao resultado. Você pode usar este benefício um número de vezes igual ao seu {@variantrule Proficiency|XPHB|bônus de proficiência} por {@variantrule Long Rest|XPHB|Descanso Longo}."
+					]
+				}
+			],
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"perception",
+							"intimidation"
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Iniciado da Luz Vigilante",
+			"source": "MundoDeKyrFeats",
+			"page": 407,
+			"category": "O",
+			"entries": [
+				"Você foi treinado para reconhecer o Aether antes que ele se manifeste plenamente.",
+				{
+					"type": "entries",
+					"name": "Proficiência de Facção",
+					"entries": [
+						"Você ganha proficiência em {@skill Arcana|XPHB|Arcanismo} ou {@skill Investigation|XPHB|Investigação}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Sinal de Conjuração",
+					"entries": [
+						"Quando uma criatura que você possa ver conjurar uma magia, você pode adicionar {@dice 1d4} ao próximo teste de {@skill Arcana|XPHB|Arcanismo}, {@skill Perception|XPHB|Percepção} ou {@skill Insight|XPHB|Intuição} feito para identificar, rastrear ou compreender essa magia antes do fim da cena. Você pode usar este benefício um número de vezes igual ao seu {@variantrule Proficiency|XPHB|bônus de proficiência} por {@variantrule Long Rest|XPHB|Descanso Longo}."
+					]
+				}
+			],
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"arcana",
+							"investigation"
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Nome Velado",
+			"source": "MundoDeKyrFeats",
+			"page": 413,
+			"category": "O",
+			"entries": [
+				"Você aprendeu que um nome é uma ferramenta, não uma verdade.",
+				{
+					"type": "entries",
+					"name": "Proficiência de Facção",
+					"entries": [
+						"Você ganha proficiência em {@skill Deception|XPHB|Enganação} ou {@skill Stealth|XPHB|Furtividade}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Documento Vivo",
+					"entries": [
+						"Quando fizer um teste de {@skill Deception|XPHB|Enganação} ou {@skill Performance|XPHB|Atuação} para sustentar uma identidade falsa, você pode adicionar {@dice 1d4} ao resultado. Você pode usar este benefício um número de vezes igual ao seu {@variantrule Proficiency|XPHB|bônus de proficiência} por {@variantrule Long Rest|XPHB|Descanso Longo}."
+					]
+				}
+			],
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"deception",
+							"stealth"
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Agente do Pulso Verde",
+			"source": "MundoDeKyrFeats",
+			"page": 419,
+			"category": "O",
+			"entries": [
+				"Você aprendeu que fluxo é poder: rotas, preços, atrasos e promessas movem reinos.",
+				{
+					"type": "entries",
+					"name": "Olho de Valor",
+					"entries": [
+						"Você ganha proficiência em {@skill Persuasion|XPHB|Persuasão}, {@skill Investigation|XPHB|Investigação} ou Ferramentas de Comerciante, se existirem na campanha; se não existirem, escolha uma Ferramenta de Artesão."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Preço Real",
+					"entries": [
+						"Quando fizer um teste para avaliar mercadorias, contratos, rotas, suprimentos ou escassez local, você pode adicionar {@dice 1d4} ao resultado. Você pode usar este benefício um número de vezes igual ao seu {@variantrule Proficiency|XPHB|bônus de proficiência} por {@variantrule Long Rest|XPHB|Descanso Longo}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Caçador da Orla",
+			"source": "MundoDeKyrFeats",
+			"page": 425,
+			"category": "O",
+			"entries": [
+				"Você aprendeu a sobreviver longe da segurança de Lumenkar, onde contratos terminam e instinto começa.",
+				{
+					"type": "entries",
+					"name": "Proficiência de Facção",
+					"entries": [
+						"Você ganha proficiência em {@skill Survival|XPHB|Sobrevivência} ou {@skill Perception|XPHB|Percepção}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Contrato de Risco",
+					"entries": [
+						"Quando fizer um teste para rastrear criatura, encontrar rota segura ou evitar perigo natural, você pode adicionar {@dice 1d4} ao resultado. Você pode usar este benefício um número de vezes igual ao seu {@variantrule Proficiency|XPHB|bônus de proficiência} por {@variantrule Long Rest|XPHB|Descanso Longo}."
+					]
+				}
+			],
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"survival",
+							"perception"
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Testemunha da Raiz",
+			"source": "MundoDeKyrFeats",
+			"page": 431,
+			"category": "O",
+			"entries": [
+				"Você foi treinado para guardar o que o poder tentou apagar.",
+				{
+					"type": "entries",
+					"name": "Proficiência de Facção",
+					"entries": [
+						"Você ganha proficiência em {@skill History|XPHB|História} ou {@skill Investigation|XPHB|Investigação}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Registro Proibido",
+					"entries": [
+						"Quando fizer um teste para lembrar, recuperar, decifrar ou preservar informação apagada, você pode adicionar {@dice 1d4} ao resultado. Você pode usar este benefício um número de vezes igual ao seu {@variantrule Proficiency|XPHB|bônus de proficiência} por {@variantrule Long Rest|XPHB|Descanso Longo}."
+					]
+				}
+			],
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"history",
+							"investigation"
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Semente Rebelde",
+			"source": "MundoDeKyrFeats",
+			"page": 437,
+			"category": "O",
+			"entries": [
+				"Você foi iniciado em uma causa que cresce sob repressão.",
+				{
+					"type": "entries",
+					"name": "Proficiência de Facção",
+					"entries": [
+						"Você ganha proficiência em {@skill Stealth|XPHB|Furtividade} ou {@skill Persuasion|XPHB|Persuasão} ou {@skill Survival|XPHB|Sobrevivência}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Mensagem Verde",
+					"entries": [
+						"Quando fizer um teste para transmitir, esconder, recuperar ou interpretar uma mensagem clandestina, você pode adicionar {@dice 1d4} ao resultado. Você pode usar este benefício um número de vezes igual ao seu {@variantrule Proficiency|XPHB|bônus de proficiência} por {@variantrule Long Rest|XPHB|Descanso Longo}."
+					]
+				}
+			],
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"stealth",
+							"persuasion",
+							"survival"
+						]
+					}
 				}
 			]
 		},
@@ -4260,6 +4482,712 @@
 			]
 		},
 		{
+			"name": "Patrulha Inevitável",
+			"source": "MundoDeKyrFeats",
+			"page": 402,
+			"category": "G",
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"recruta da guarda luminar|MundoDeKyrFeats"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"con",
+							"wis"
+						]
+					}
+				}
+			],
+			"entries": [
+				"Você aprendeu a transformar aproximação, cerco e patrulha em pressão física imediata.",
+				{
+					"type": "entries",
+					"name": "Aumento de Atributo",
+					"entries": [
+						"Aumente sua Força, Constituição ou Sabedoria em 1, até o máximo de 20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Cerco de Rua",
+					"entries": [
+						"Uma vez por turno, quando você atingir uma criatura com um ataque corpo a corpo, ela sofre uma penalidade de {@dice 1d4} no próximo teste de Destreza ({@skill Acrobatics|XPHB|Acrobacia}), Força ({@skill Athletics|XPHB|Atletismo}) ou teste feito para escapar de agarrão, algemas, contenção ou bloqueio físico antes do início do seu próximo turno."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Olhar de Patrulha",
+					"entries": [
+						"Você tem {@variantrule Advantage|XPHB|Vantagem} em testes de {@skill Perception|XPHB|Percepção} feitos para notar armas ocultas, movimentação suspeita, fuga preparada ou tentativa de esconder algo em uma multidão."
+					]
+				}
+			]
+		},
+		{
+			"name": "Interrogatório sem Marcas",
+			"source": "MundoDeKyrFeats",
+			"page": 403,
+			"category": "G",
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"recruta da guarda luminar|MundoDeKyrFeats"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"int",
+							"wis",
+							"cha"
+						]
+					}
+				}
+			],
+			"entries": [
+				"Você aprendeu que autoridade eficiente não precisa deixar feridas visíveis.",
+				{
+					"type": "entries",
+					"name": "Aumento de Atributo",
+					"entries": [
+						"Aumente sua Inteligência, Sabedoria ou Carisma em 1, até o máximo de 20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Pergunta Repetida",
+					"entries": [
+						"Quando uma criatura falhar em um teste de {@skill Deception|XPHB|Enganação} contra sua {@skill Insight|XPHB|Intuição}, ela subtrai {@dice 1d4} do próximo teste de {@skill Deception|XPHB|Enganação} que fizer contra você antes do fim da cena."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Pressão Educada",
+					"entries": [
+						"Você ganha proficiência em {@skill Insight|XPHB|Intuição} ou {@skill Investigation|XPHB|Investigação}. Se já possuir a proficiência escolhida, ganha Especialização nela."
+					]
+				}
+			],
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"insight",
+							"investigation"
+						]
+					}
+				}
+			],
+			"expertise": [
+				{
+					"choose": {
+						"from": [
+							"insight",
+							"investigation"
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Rastreador Arcano",
+			"source": "MundoDeKyrFeats",
+			"page": 408,
+			"category": "G",
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"iniciado da luz vigilante|MundoDeKyrFeats"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"int",
+							"wis",
+							"cha"
+						]
+					}
+				}
+			],
+			"entries": [
+				"Você aprendeu a reconstruir a passagem de magia a partir de resíduo, padrão e consequência.",
+				{
+					"type": "entries",
+					"name": "Aumento de Atributo",
+					"entries": [
+						"Aumente sua Inteligência, Sabedoria ou Carisma em 1, até o máximo de 20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Resíduo Lido",
+					"entries": [
+						"Você tem {@variantrule Advantage|XPHB|Vantagem} em testes de {@skill Arcana|XPHB|Arcanismo} e {@skill Investigation|XPHB|Investigação} feitos para detectar vestígios de magia conjurada nas últimas 24 horas. Se a magia detectada foi conjurada em local público, urbano ou institucional, você também sabe se ela foi discreta, ritualística, violenta ou sustentada."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Padrão Previsto",
+					"entries": [
+						"Quando obtiver sucesso em um teste para identificar uma magia ou efeito mágico, você recebe +{@dice 1d4} no próximo teste de resistência que fizer contra esse mesmo efeito ou contra outro efeito da mesma fonte antes do fim da cena."
+					]
+				}
+			]
+		},
+		{
+			"name": "Executor de Contenção",
+			"source": "MundoDeKyrFeats",
+			"page": 409,
+			"category": "G",
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"iniciado da luz vigilante|MundoDeKyrFeats"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"con",
+							"int",
+							"wis"
+						]
+					}
+				}
+			],
+			"entries": [
+				"Você aprendeu a intervir quando a magia falha, vaza ou se sustenta por concentração frágil.",
+				{
+					"type": "entries",
+					"name": "Aumento de Atributo",
+					"entries": [
+						"Aumente sua Constituição, Inteligência ou Sabedoria em 1, até o máximo de 20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Passo de Contenção",
+					"entries": [
+						"Quando uma criatura a até 30 pés de você falhar em um teste de resistência contra uma magia, você pode usar sua {@variantrule Reaction|XPHB|Reação} para mover-se até 10 pés em direção a ela, sem provocar {@action Opportunity Attack|XPHB|Ataques de Oportunidade}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Ruptura de Canal",
+					"entries": [
+						"Uma vez por turno, quando você causar dano a uma criatura que esteja mantendo {@status Concentration|XPHB|Concentração}, ela subtrai {@dice 1d4} do próximo teste para manter {@status Concentration|XPHB|Concentração} antes do início do seu próximo turno."
+					]
+				}
+			]
+		},
+		{
+			"name": "Rosto de Missão",
+			"source": "MundoDeKyrFeats",
+			"page": 414,
+			"category": "G",
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"nome velado|MundoDeKyrFeats"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"dex",
+							"int",
+							"cha"
+						]
+					}
+				}
+			],
+			"entries": [
+				"Você transforma identidade falsa em ferramenta operacional.",
+				{
+					"type": "entries",
+					"name": "Aumento de Atributo",
+					"entries": [
+						"Aumente sua Destreza, Inteligência ou Carisma em 1, até o máximo de 20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Máscara Funcional",
+					"entries": [
+						"Você tem {@variantrule Advantage|XPHB|Vantagem} em testes de {@skill Deception|XPHB|Enganação} feitos para manter uma identidade falsa que já tenha preparado por pelo menos 10 minutos."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Acesso por Disfarce",
+					"entries": [
+						"Quando estiver usando uma identidade falsa coerente com o ambiente, você adiciona {@dice 1d4} ao primeiro teste de Carisma feito para obter passagem, acesso ou informação naquela cena."
+					]
+				}
+			]
+		},
+		{
+			"name": "Ausência Necessária",
+			"source": "MundoDeKyrFeats",
+			"page": 415,
+			"category": "G",
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"nome velado|MundoDeKyrFeats"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"dex",
+							"wis",
+							"cha"
+						]
+					}
+				}
+			],
+			"entries": [
+				"Você aprendeu que o melhor ato é aquele que não deixa autoria.",
+				{
+					"type": "entries",
+					"name": "Aumento de Atributo",
+					"entries": [
+						"Aumente sua Destreza, Sabedoria ou Carisma em 1, até o máximo de 20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Sem Vestígio",
+					"entries": [
+						"Você tem {@variantrule Advantage|XPHB|Vantagem} em testes de {@skill Stealth|XPHB|Furtividade} feitos para deixar uma cena sem ser notado, desde que não esteja em combate."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Remoção Limpa",
+					"entries": [
+						"A primeira vez em cada combate que você atingir uma criatura que ainda não tenha agido, você causa dano adicional igual ao seu {@variantrule Proficiency|XPHB|bônus de proficiência}. Se esse dano reduzir a criatura a 0 {@variantrule Hit Points|XPHB|Pontos de Vida}, você tem {@variantrule Advantage|XPHB|Vantagem} no próximo teste de {@skill Stealth|XPHB|Furtividade} ou {@skill Deception|XPHB|Enganação} feito para ocultar sua participação antes do fim da cena."
+					]
+				}
+			]
+		},
+		{
+			"name": "Contrato Vivo",
+			"source": "MundoDeKyrFeats",
+			"page": 420,
+			"category": "G",
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"agente do pulso verde|MundoDeKyrFeats"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"int",
+							"wis",
+							"cha"
+						]
+					}
+				}
+			],
+			"entries": [
+				"Você sabe transformar promessa em instrumento de poder.",
+				{
+					"type": "entries",
+					"name": "Aumento de Atributo",
+					"entries": [
+						"Aumente sua Inteligência, Sabedoria ou Carisma em 1, até o máximo de 20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Cláusula Favorável",
+					"entries": [
+						"Você tem {@variantrule Advantage|XPHB|Vantagem} em testes de {@skill Persuasion|XPHB|Persuasão} e {@skill Investigation|XPHB|Investigação} feitos para negociar pagamento, prazo, multa, acesso ou fornecimento."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Promessa Registrada",
+					"entries": [
+						"Quando uma criatura aceitar formalmente um acordo com você, você recebe +{@dice 1d4} no próximo teste social feito contra ela antes do fim da cena."
+					]
+				}
+			]
+		},
+		{
+			"name": "Rota de Escassez",
+			"source": "MundoDeKyrFeats",
+			"page": 421,
+			"category": "G",
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"agente do pulso verde|MundoDeKyrFeats"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"int",
+							"dex",
+							"cha"
+						]
+					}
+				}
+			],
+			"entries": [
+				"Você compreende que todo recurso cria dependência.",
+				{
+					"type": "entries",
+					"name": "Aumento de Atributo",
+					"entries": [
+						"Aumente sua Inteligência, Destreza ou Carisma em 1, até o máximo de 20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Mapa de Suprimentos",
+					"entries": [
+						"Você tem {@variantrule Advantage|XPHB|Vantagem} em testes para encontrar, proteger, esconder ou redirecionar suprimentos, caravanas, cargas e rotas comerciais."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Pressão Logística",
+					"entries": [
+						"Quando uma criatura ou grupo depender de um recurso que você controla ou negociou, você adiciona {@dice 1d4} a testes de {@skill Persuasion|XPHB|Persuasão} ou {@skill Intimidation|XPHB|Intimidação} feitos contra eles."
+					]
+				}
+			]
+		},
+		{
+			"name": "Guia do Fim do Mapa",
+			"source": "MundoDeKyrFeats",
+			"page": 426,
+			"category": "G",
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"caçador da orla|MundoDeKyrFeats"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"dex",
+							"con",
+							"wis"
+						]
+					}
+				}
+			],
+			"entries": [
+				"Você sabe atravessar o que mapas não descrevem.",
+				{
+					"type": "entries",
+					"name": "Aumento de Atributo",
+					"entries": [
+						"Aumente sua Destreza, Constituição ou Sabedoria em 1, até o máximo de 20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Trilha Improvável",
+					"entries": [
+						"Você tem {@variantrule Advantage|XPHB|Vantagem} em testes de {@skill Survival|XPHB|Sobrevivência} feitos para navegar florestas densas, zonas instáveis, regiões sem mapa ou territórios que mudam."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Passo de Orla",
+					"entries": [
+						"Uma vez por turno, quando você entrar em terreno difícil não mágico, pode mover-se 5 pés adicional sem gastar movimento."
+					]
+				}
+			]
+		},
+		{
+			"name": "Contrato de Caça",
+			"source": "MundoDeKyrFeats",
+			"page": 427,
+			"category": "G",
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"caçador da orla|MundoDeKyrFeats"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"wis"
+						]
+					}
+				}
+			],
+			"entries": [
+				"Você transforma rastreamento em vantagem de combate.",
+				{
+					"type": "entries",
+					"name": "Aumento de Atributo",
+					"entries": [
+						"Aumente sua Força, Destreza ou Sabedoria em 1, até o máximo de 20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Alvo Contratado",
+					"entries": [
+						"Após rastrear uma criatura por pelo menos 10 minutos ou estudá-la por 1 minuto, você recebe +{@dice 1d4} no primeiro ataque ou teste de {@skill Survival|XPHB|Sobrevivência} feito contra ela antes do fim da cena."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Pagamento em Sobrevivência",
+					"entries": [
+						"Quando reduzir uma criatura hostil a 0 {@variantrule Hit Points|XPHB|Pontos de Vida}, você ganha {@variantrule Temporary Hit Points|XPHB|{@variantrule Hit Points|XPHB|Pontos de Vida} Temporários} iguais ao seu {@variantrule Proficiency|XPHB|bônus de proficiência}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Registro Proibido",
+			"source": "MundoDeKyrFeats",
+			"page": 432,
+			"category": "G",
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"testemunha da raiz|MundoDeKyrFeats"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"int",
+							"wis",
+							"cha"
+						]
+					}
+				}
+			],
+			"entries": [
+				"Você aprendeu a ler documentos que sobreviveram à censura e à alteração.",
+				{
+					"type": "entries",
+					"name": "Aumento de Atributo",
+					"entries": [
+						"Aumente sua Inteligência, Sabedoria ou Carisma em 1, até o máximo de 20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Arquivo Oculto",
+					"entries": [
+						"Você tem {@variantrule Advantage|XPHB|Vantagem} em testes de {@skill Investigation|XPHB|Investigação} e {@skill History|XPHB|História} feitos para lidar com documentos proibidos, nomes apagados, genealogias ocultas ou registros alterados."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Nota Marginal",
+					"entries": [
+						"Quando obtiver sucesso em um teste de {@skill History|XPHB|História} ou {@skill Investigation|XPHB|Investigação} para lidar com documentos proibidos, nomes apagados, genealogias ocultas ou registros alterados, você recebe +{@dice 1d4} no próximo teste de {@skill Insight|XPHB|Intuição}, {@skill Religion|XPHB|Religião} ou {@skill Arcana|XPHB|Arcanismo} feito para interpretar aquele mesmo registro antes do fim da cena."
+					]
+				}
+			]
+		},
+		{
+			"name": "Recuperador de Memórias",
+			"source": "MundoDeKyrFeats",
+			"page": 433,
+			"category": "G",
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"testemunha da raiz|MundoDeKyrFeats"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"dex",
+							"int",
+							"wis"
+						]
+					}
+				}
+			],
+			"entries": [
+				"Você recupera lembranças e registros por vias silenciosas.",
+				{
+					"type": "entries",
+					"name": "Aumento de Atributo",
+					"entries": [
+						"Aumente sua Destreza, Inteligência ou Sabedoria em 1, até o máximo de 20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Entrada Silenciosa",
+					"entries": [
+						"Você tem {@variantrule Advantage|XPHB|Vantagem} em testes de {@skill Stealth|XPHB|Furtividade} feitos para entrar ou sair de arquivos, bibliotecas, cartórios, casas de registro, templos ou salas de documento."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Memória Incompleta",
+					"entries": [
+						"Quando uma criatura falhar em um teste de {@skill Deception|XPHB|Enganação} contra sua {@skill Insight|XPHB|Intuição}, você recebe +{@dice 1d4} no próximo teste para descobrir o que ela omitiu."
+					]
+				}
+			]
+		},
+		{
+			"name": "Mensageiro das Células",
+			"source": "MundoDeKyrFeats",
+			"page": 438,
+			"category": "G",
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"semente rebelde|MundoDeKyrFeats"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"dex",
+							"wis",
+							"cha"
+						]
+					}
+				}
+			],
+			"entries": [
+				"Você aprendeu a atravessar vigilância carregando o que não pode ser dito em voz alta.",
+				{
+					"type": "entries",
+					"name": "Aumento de Atributo",
+					"entries": [
+						"Aumente sua Destreza, Sabedoria ou Carisma em 1, até o máximo de 20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Rota Insurgente",
+					"entries": [
+						"Você tem {@variantrule Advantage|XPHB|Vantagem} em testes de {@skill Stealth|XPHB|Furtividade} e {@skill Survival|XPHB|Sobrevivência} feitos para atravessar território vigiado, fugir de patrulhas ou entregar mensagens clandestinas."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Passagem Rápida",
+					"entries": [
+						"A primeira vez em cada cena que você usar {@action Dash|XPHB|Correr} ou {@action Disengage|XPHB|Desengajar}, pode mover-se 5 pés adicional."
+					]
+				}
+			]
+		},
+		{
+			"name": "Raízamar Vive",
+			"source": "MundoDeKyrFeats",
+			"page": 439,
+			"category": "G",
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"semente rebelde|MundoDeKyrFeats"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"con",
+							"cha"
+						]
+					}
+				}
+			],
+			"entries": [
+				"Você transforma causa em resistência e retaliação coordenada.",
+				{
+					"type": "entries",
+					"name": "Aumento de Atributo",
+					"entries": [
+						"Aumente sua Força, Constituição ou Carisma em 1, até o máximo de 20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Fé na Causa",
+					"entries": [
+						"Você tem {@variantrule Advantage|XPHB|Vantagem} em testes de resistência contra {@condition Frightened|XPHB|Amedrontado} enquanto estiver agindo para proteger um aliado, fugir de repressão ou cumprir objetivo da resistência."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Golpe de Levante",
+					"entries": [
+						"Uma vez por turno, quando você atingir uma criatura que tenha causado dano a um aliado desde o início do seu último turno, cause dano adicional igual ao seu {@variantrule Proficiency|XPHB|bônus de proficiência}. Se o aliado estiver em menor número ou cercado por criaturas hostis, ele também pode mover-se 5 pés sem provocar {@action Opportunity Attack|XPHB|Ataques de Oportunidade}."
+					]
+				}
+			]
+		},
+		{
 			"name": "Raízes que Não Cedem",
 			"source": "MundoDeKyrFeats",
 			"page": 201,
@@ -6105,6 +7033,3018 @@
 							]
 						}
 					}
+				}
+			]
+		},
+		{
+			"name": "Ordem que Fecha",
+			"source": "MundoDeKyrFeats",
+			"page": 404,
+			"category": "EX",
+			"prerequisite": [
+				{
+					"level": 8,
+					"feat": [
+						"patrulha inevitável|MundoDeKyrFeats"
+					]
+				},
+				{
+					"level": 8,
+					"feat": [
+						"interrogatório sem marcas|MundoDeKyrFeats"
+					]
+				}
+			],
+			"entries": [
+				"Sua autoridade fecha rotas e sustenta aliados contra o medo.",
+				{
+					"type": "entries",
+					"name": "Linha de Contenção",
+					"entries": [
+						"Criaturas hostis a até 5 pés de você não podem se beneficiar de {@variantrule Advantage|XPHB|Vantagem} em testes feitos para escapar de agarrões, algemas, contenções físicas ou cerco formado por você e seus aliados."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Autoridade Presente",
+					"entries": [
+						"Aliados a até 10 pés de você recebem +{@dice 1d4} em testes de resistência contra {@condition Frightened|XPHB|Amedrontado} enquanto você não estiver {@condition Incapacitated|XPHB|Incapacitado}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Registro de Suspeitos",
+			"source": "MundoDeKyrFeats",
+			"page": 405,
+			"category": "EX",
+			"prerequisite": [
+				{
+					"level": 8,
+					"feat": [
+						"patrulha inevitável|MundoDeKyrFeats"
+					]
+				},
+				{
+					"level": 8,
+					"feat": [
+						"interrogatório sem marcas|MundoDeKyrFeats"
+					]
+				}
+			],
+			"entries": [
+				"Você aprende a registrar padrões de fuga, mentira e reincidência.",
+				{
+					"type": "entries",
+					"name": "Memória de Patrulha",
+					"entries": [
+						"Você tem {@variantrule Advantage|XPHB|Vantagem} em testes de {@skill Investigation|XPHB|Investigação}, {@skill Perception|XPHB|Percepção} e {@skill Insight|XPHB|Intuição} feitos para reconhecer uma criatura que já tenha interrogado, vigiado, perseguido ou prendido."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Padrão de Fuga",
+					"entries": [
+						"Uma vez por turno, quando uma criatura que você possa ver usar a ação {@action Dash|XPHB|Correr} ou {@action Disengage|XPHB|Desengajar}, você recebe +{@dice 1d4} no próximo ataque ou teste de {@skill Perception|XPHB|Percepção} feito contra ela antes do início do seu próximo turno."
+					]
+				}
+			]
+		},
+		{
+			"name": "Geometria da Vigilância",
+			"source": "MundoDeKyrFeats",
+			"page": 410,
+			"category": "EX",
+			"prerequisite": [
+				{
+					"level": 8,
+					"feat": [
+						"rastreador arcano|MundoDeKyrFeats"
+					]
+				},
+				{
+					"level": 8,
+					"feat": [
+						"executor de contenção|MundoDeKyrFeats"
+					]
+				}
+			],
+			"entries": [
+				"Você enxerga padrões antes que eles se convertam em perigo manifesto.",
+				{
+					"type": "entries",
+					"name": "Mapa de Padrões",
+					"entries": [
+						"Você tem {@variantrule Advantage|XPHB|Vantagem} em testes de {@skill Arcana|XPHB|Arcanismo} e {@skill Investigation|XPHB|Investigação} feitos para detectar padrões mágicos recorrentes, áreas de conjuração repetida, focos arcanos ocultos ou anomalias no Aether."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Previsão de Manifestação",
+					"entries": [
+						"A primeira vez em cada cena que você rolar Iniciativa contra uma criatura que tenha conjurado magia antes do início do combate, você pode adicionar {@dice 1d4} à sua Iniciativa."
+					]
+				}
+			]
+		},
+		{
+			"name": "Contenção Controlada",
+			"source": "MundoDeKyrFeats",
+			"page": 411,
+			"category": "EX",
+			"prerequisite": [
+				{
+					"level": 8,
+					"feat": [
+						"rastreador arcano|MundoDeKyrFeats"
+					]
+				},
+				{
+					"level": 8,
+					"feat": [
+						"executor de contenção|MundoDeKyrFeats"
+					]
+				}
+			],
+			"entries": [
+				"Sua técnica resiste à instabilidade e corta concentração com precisão.",
+				{
+					"type": "entries",
+					"name": "Resistência ao Instável",
+					"entries": [
+						"Você tem {@variantrule Advantage|XPHB|Vantagem} em testes de resistência contra efeitos mágicos que tentem movê-lo, silenciá-lo, cegá-lo ou alterar sua percepção."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Resposta Técnica",
+					"entries": [
+						"Uma vez por turno, quando uma criatura falhar em um teste de resistência contra uma magia sua ou contra uma magia que você tenha identificado, ela subtrai {@dice 1d4} do próximo teste de {@status Concentration|XPHB|Concentração} que realizar antes do início do seu próximo turno."
+					]
+				}
+			]
+		},
+		{
+			"name": "Missão Inexistente",
+			"source": "MundoDeKyrFeats",
+			"page": 416,
+			"category": "EX",
+			"prerequisite": [
+				{
+					"level": 8,
+					"feat": [
+						"rosto de missão|MundoDeKyrFeats"
+					]
+				},
+				{
+					"level": 8,
+					"feat": [
+						"ausência necessária|MundoDeKyrFeats"
+					]
+				}
+			],
+			"entries": [
+				"Você apaga autoria antes que ela se torne prova.",
+				{
+					"type": "entries",
+					"name": "Registro Apagado",
+					"entries": [
+						"Você tem {@variantrule Advantage|XPHB|Vantagem} em testes feitos para negar envolvimento, apagar rastros sociais, ocultar autoria ou impedir que uma ação seja ligada a você."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Saída sem Nome",
+					"entries": [
+						"A primeira vez em cada cena que você usar a ação {@action Hide|XPHB|Esconder-se} ou {@action Disengage|XPHB|Desengajar}, você pode mover-se 10 pés adicionais."
+					]
+				}
+			]
+		},
+		{
+			"name": "Protocolo Nyxar",
+			"source": "MundoDeKyrFeats",
+			"page": 417,
+			"category": "EX",
+			"prerequisite": [
+				{
+					"level": 8,
+					"feat": [
+						"rosto de missão|MundoDeKyrFeats"
+					]
+				},
+				{
+					"level": 8,
+					"feat": [
+						"ausência necessária|MundoDeKyrFeats"
+					]
+				}
+			],
+			"entries": [
+				"Sua identidade foi compartimentalizada para resistir a leitura, confissão e rastreamento.",
+				{
+					"type": "entries",
+					"name": "Pessoa Compartimentada",
+					"entries": [
+						"Você tem {@variantrule Advantage|XPHB|Vantagem} em testes de resistência contra efeitos que leiam pensamentos, revelem identidade, obriguem confissão ou detectem mentiras."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Ordem sem Origem",
+					"entries": [
+						"Quando fizer um teste de {@skill Persuasion|XPHB|Persuasão}, {@skill Deception|XPHB|Enganação} ou {@skill Intimidation|XPHB|Intimidação} usando informações sigilosas, você adiciona {@dice 1d4} ao resultado."
+					]
+				}
+			]
+		},
+		{
+			"name": "Capital Circulante",
+			"source": "MundoDeKyrFeats",
+			"page": 422,
+			"category": "EX",
+			"prerequisite": [
+				{
+					"level": 8,
+					"feat": [
+						"contrato vivo|MundoDeKyrFeats"
+					]
+				},
+				{
+					"level": 8,
+					"feat": [
+						"rota de escassez|MundoDeKyrFeats"
+					]
+				}
+			],
+			"entries": [
+				"Você converte reputação mercantil em acesso prático.",
+				{
+					"type": "entries",
+					"name": "Crédito Operacional",
+					"entries": [
+						"Em assentamentos com comércio organizado, você tem {@variantrule Advantage|XPHB|Vantagem} em testes para obter equipamentos comuns, transporte, hospedagem, mensageiros ou informação mercantil."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Margem de Negociação",
+					"entries": [
+						"Quando você comprar, vender ou contratar um serviço em um assentamento com comércio organizado, você adiciona {@dice 1d6} ao teste de {@skill Persuasion|XPHB|Persuasão}, {@skill Intimidation|XPHB|Intimidação} ou {@skill Investigation|XPHB|Investigação} feito para ajustar preço, prazo, prioridade ou forma de pagamento."
+					]
+				}
+			]
+		},
+		{
+			"name": "Mercado que Aperta",
+			"source": "MundoDeKyrFeats",
+			"page": 423,
+			"category": "EX",
+			"prerequisite": [
+				{
+					"level": 8,
+					"feat": [
+						"contrato vivo|MundoDeKyrFeats"
+					]
+				},
+				{
+					"level": 8,
+					"feat": [
+						"rota de escassez|MundoDeKyrFeats"
+					]
+				}
+			],
+			"entries": [
+				"Você entende como escassez dobra a posição social de uma negociação.",
+				{
+					"type": "entries",
+					"name": "Escassez Direcionada",
+					"entries": [
+						"Você adiciona {@dice 1d4} a testes sociais feitos contra criaturas afetadas por falta de suprimentos, dívida, atraso de entrega ou dependência comercial."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Contrato de Pressão",
+					"entries": [
+						"Quando uma criatura falhar em um teste social contestado contra você em uma negociação, ela subtrai {@dice 1d4} do próximo teste social que fizer contra você antes do fim da cena."
+					]
+				}
+			]
+		},
+		{
+			"name": "Instinto da Orla",
+			"source": "MundoDeKyrFeats",
+			"page": 428,
+			"category": "EX",
+			"prerequisite": [
+				{
+					"level": 8,
+					"feat": [
+						"guia do fim do mapa|MundoDeKyrFeats"
+					]
+				},
+				{
+					"level": 8,
+					"feat": [
+						"contrato de caça|MundoDeKyrFeats"
+					]
+				}
+			],
+			"entries": [
+				"Seu instinto reconhece emboscadas e presas antes do confronto direto.",
+				{
+					"type": "entries",
+					"name": "Sentido de Predador",
+					"entries": [
+						"Você tem {@variantrule Advantage|XPHB|Vantagem} em testes de {@skill Perception|XPHB|Percepção} e {@skill Survival|XPHB|Sobrevivência} feitos para detectar emboscadas, predadores, criaturas escondidas ou trilhas falsas."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Primeiro Disparo",
+					"entries": [
+						"A primeira vez em cada combate que você atingir uma criatura que ainda não tenha agido, cause dano adicional igual ao seu {@variantrule Proficiency|XPHB|bônus de proficiência}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Lugar que Não Consta",
+			"source": "MundoDeKyrFeats",
+			"page": 429,
+			"category": "EX",
+			"prerequisite": [
+				{
+					"level": 8,
+					"feat": [
+						"guia do fim do mapa|MundoDeKyrFeats"
+					]
+				},
+				{
+					"level": 8,
+					"feat": [
+						"contrato de caça|MundoDeKyrFeats"
+					]
+				}
+			],
+			"entries": [
+				"Você aprendeu a sobreviver onde rotas oficiais deixam de existir.",
+				{
+					"type": "entries",
+					"name": "Zona Não Mapeada",
+					"entries": [
+						"Você tem {@variantrule Advantage|XPHB|Vantagem} em testes de resistência contra efeitos ambientais de regiões instáveis, zonas mortas, trilhas mutáveis ou fenômenos naturais incomuns."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Memória de Caminho",
+					"entries": [
+						"Após atravessar uma rota perigosa, você e aliados a até 30 pés recebem +{@dice 1d4} em testes feitos para retornar, escapar ou conduzir outros pelo mesmo caminho."
+					]
+				}
+			]
+		},
+		{
+			"name": "Arquivo Dentro do Arquivo",
+			"source": "MundoDeKyrFeats",
+			"page": 434,
+			"category": "EX",
+			"prerequisite": [
+				{
+					"level": 8,
+					"feat": [
+						"registro proibido|MundoDeKyrFeats"
+					]
+				},
+				{
+					"level": 8,
+					"feat": [
+						"recuperador de memórias|MundoDeKyrFeats"
+					]
+				}
+			],
+			"entries": [
+				"Você encontra camadas escondidas dentro de registros aparentemente comuns.",
+				{
+					"type": "entries",
+					"name": "Camada Oculta",
+					"entries": [
+						"Você tem {@variantrule Advantage|XPHB|Vantagem} em testes para encontrar informações escondidas dentro de documentos aparentemente comuns, arquivos incompletos ou registros adulterados."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Citação Impossível",
+					"entries": [
+						"Uma vez por cena, quando você fizer um teste de {@skill History|XPHB|História}, {@skill Investigation|XPHB|Investigação} ou {@skill Religion|XPHB|Religião}, pode adicionar {@dice 1d6} ao resultado se estiver usando um registro físico, anotação, símbolo, testemunho ou fragmento recuperado."
+					]
+				}
+			]
+		},
+		{
+			"name": "Nome que Não Some",
+			"source": "MundoDeKyrFeats",
+			"page": 435,
+			"category": "EX",
+			"prerequisite": [
+				{
+					"level": 8,
+					"feat": [
+						"registro proibido|MundoDeKyrFeats"
+					]
+				},
+				{
+					"level": 8,
+					"feat": [
+						"recuperador de memórias|MundoDeKyrFeats"
+					]
+				}
+			],
+			"entries": [
+				"Você preserva identidade contra apagamento, reescrita e silêncio institucional.",
+				{
+					"type": "entries",
+					"name": "Identidade Preservada",
+					"entries": [
+						"Você tem {@variantrule Advantage|XPHB|Vantagem} em testes de resistência contra efeitos que alterem memória, nome, identidade, história pessoal ou reconhecimento social."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Rastro Nominal",
+					"entries": [
+						"Quando você souber o nome verdadeiro de uma criatura, recebe +{@dice 1d4} em testes de {@skill Investigation|XPHB|Investigação}, {@skill Insight|XPHB|Intuição} ou {@skill History|XPHB|História} feitos para rastrear sua presença em registros, rumores ou arquivos."
+					]
+				}
+			]
+		},
+		{
+			"name": "Contraespionagem Verde",
+			"source": "MundoDeKyrFeats",
+			"page": 440,
+			"category": "EX",
+			"prerequisite": [
+				{
+					"level": 8,
+					"feat": [
+						"mensageiro das células|MundoDeKyrFeats"
+					]
+				},
+				{
+					"level": 8,
+					"feat": [
+						"raízamar vive|MundoDeKyrFeats"
+					]
+				}
+			],
+			"entries": [
+				"Você reconhece vigilância antes que ela se torne captura.",
+				{
+					"type": "entries",
+					"name": "Rede de Células",
+					"entries": [
+						"Você tem {@variantrule Advantage|XPHB|Vantagem} em testes para detectar informantes, patrulhas disfarçadas, mensagens falsas, armadilhas políticas ou vigilância estatal."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Sinal Quebrado",
+					"entries": [
+						"Quando uma criatura falhar em um teste de {@skill Deception|XPHB|Enganação} contra sua {@skill Insight|XPHB|Intuição}, ela subtrai {@dice 1d4} do próximo teste social que fizer contra você ou seus aliados antes do fim da cena."
+					]
+				}
+			]
+		},
+		{
+			"name": "Levante Coordenado",
+			"source": "MundoDeKyrFeats",
+			"page": 441,
+			"category": "EX",
+			"prerequisite": [
+				{
+					"level": 8,
+					"feat": [
+						"mensageiro das células|MundoDeKyrFeats"
+					]
+				},
+				{
+					"level": 8,
+					"feat": [
+						"raízamar vive|MundoDeKyrFeats"
+					]
+				}
+			],
+			"entries": [
+				"Você transforma ataque isolado em ação de célula.",
+				{
+					"type": "entries",
+					"name": "Ação de Célula",
+					"entries": [
+						"Uma vez por turno, quando você atingir uma criatura hostil, o primeiro aliado que atingir a mesma criatura antes do início do seu próximo turno causa dano adicional igual ao seu {@variantrule Proficiency|XPHB|bônus de proficiência}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Retirada Popular",
+					"entries": [
+						"Aliados a até 10 pés de você recebem +{@dice 1d4} em testes de Destreza ou Sabedoria feitos para escapar, esconder-se ou atravessar uma área vigiada."
+					]
+				}
+			]
+		},
+		{
+			"name": "Corpo da Árvore Viva",
+			"source": "MundoDeKyrFeats",
+			"category": "BOOST",
+			"prerequisite": [
+				{
+					"level": 12,
+					"feat": [
+						"raízes que não cedem|MundoDeKyrFeats"
+					]
+				},
+				{
+					"level": 12,
+					"feat": [
+						"pulso de regeneração|MundoDeKyrFeats"
+					]
+				}
+			],
+			"entries": [
+				"Seu corpo deixou de se comportar como carne comum. Cada golpe encontra camadas de matéria viva, seiva densa e fibras profundas que distribuem impacto em vez de apenas suportá-lo.",
+				{
+					"type": "entries",
+					"name": "Aumento de Atributo",
+					"entries": [
+						"Aumente seu valor de Força, Constituição ou Inteligência em 2, até o máximo de 20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Corpo de Matéria Viva",
+					"entries": [
+						"Quando você sofrer dano Contundente, Cortante ou Perfurante causado por um ataque, reduza esse dano em uma quantidade igual ao seu {@variantrule Proficiency|XPHB|bônus de proficiência}. Se você possuir {@variantrule Temporary Hit Points|XPHB|Pontos de Vida Temporários} concedidos por uma magia ou característica sua de Rizomancia, essa redução aumenta em {@dice 1d4}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Crescimento de Combate",
+					"entries": [
+						"Uma vez por turno, quando você reduzir dano por Corpo de Matéria Viva, o próximo ataque corpo a corpo ou truque de Rizomancia que você acertar antes do fim do seu próximo turno causa dano adicional igual ao seu {@variantrule Proficiency|XPHB|bônus de proficiência}."
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"con",
+							"int"
+						],
+						"amount": 2
+					}
+				}
+			]
+		},
+		{
+			"name": "Seiva do Mundo Profundo",
+			"source": "MundoDeKyrFeats",
+			"category": "BOOST",
+			"prerequisite": [
+				{
+					"level": 12,
+					"feat": [
+						"pulso de regeneração|MundoDeKyrFeats"
+					]
+				},
+				{
+					"level": 12,
+					"feat": [
+						"seiva restauradora|MundoDeKyrFeats"
+					]
+				}
+			],
+			"entries": [
+				"Sua seiva não apenas cura feridas. Ela prolonga o funcionamento do corpo, preserva calor, firma respiração e mantém a criatura útil mesmo sob desgaste extremo.",
+				{
+					"type": "entries",
+					"name": "Aumento de Atributo",
+					"entries": [
+						"Aumente seu valor de Constituição ou Sabedoria em 2, até o máximo de 20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Seiva de Continuidade",
+					"entries": [
+						"Uma vez por turno, quando você restaurar {@variantrule Hit Points|XPHB|Pontos de Vida} de uma criatura com uma magia ou característica, essa criatura também recebe {@variantrule Temporary Hit Points|XPHB|Pontos de Vida Temporários} iguais ao seu {@variantrule Proficiency|XPHB|bônus de proficiência}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Reserva Profunda",
+					"entries": [
+						"Enquanto uma criatura possuir {@variantrule Temporary Hit Points|XPHB|Pontos de Vida Temporários} concedidos por você, ela recebe um bônus de +{@dice 1d4} no primeiro teste de resistência contra {@condition Exhaustion|XPHB|Exaustão}, {@condition Poisoned|XPHB|Veneno}, doença, clima extremo ou efeito que reduza seus {@variantrule Hit Points|XPHB|Pontos de Vida} máximos."
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"con",
+							"wis"
+						],
+						"amount": 2
+					}
+				}
+			]
+		},
+		{
+			"name": "Catedral Radicular",
+			"source": "MundoDeKyrFeats",
+			"category": "BOOST",
+			"prerequisite": [
+				{
+					"level": 12,
+					"feat": [
+						"jardim de atrito|MundoDeKyrFeats"
+					]
+				},
+				{
+					"level": 12,
+					"feat": [
+						"raízes que não cedem|MundoDeKyrFeats"
+					]
+				}
+			],
+			"entries": [
+				"Você aprendeu a construir com raízes invisíveis. O campo ao seu redor deixa de ser espaço vazio e passa a se comportar como uma arquitetura viva, feita de apoio, bloqueio e permanência.",
+				{
+					"type": "entries",
+					"name": "Aumento de Atributo",
+					"entries": [
+						"Aumente seu valor de Força ou Inteligência em 2, até o máximo de 20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Arquitetura Radicular",
+					"entries": [
+						"Terreno difícil criado por suas magias ou características de Rizomancia não afeta você nem criaturas aliadas a até 10 feet de você."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Pilares Vivos",
+					"entries": [
+						"Uma vez por turno, quando uma criatura hostil começar o turno ou entrar voluntariamente em terreno difícil criado por uma magia ou característica sua de Rizomancia, ela sofre uma penalidade de {@dice 1d4} na primeira jogada de ataque ou teste de resistência de Destreza que realizar antes do fim do turno atual."
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"int"
+						],
+						"amount": 2
+					}
+				}
+			]
+		},
+		{
+			"name": "Arquivo do Mundo",
+			"source": "MundoDeKyrFeats",
+			"category": "BOOST",
+			"prerequisite": [
+				{
+					"level": 12,
+					"feat": [
+						"leitura além do véu|MundoDeKyrFeats"
+					]
+				},
+				{
+					"level": 12,
+					"feat": [
+						"cartógrafo das cicatrizes|MundoDeKyrFeats"
+					]
+				}
+			],
+			"entries": [
+				"Você aprendeu a consultar a memória residual do mundo. Ruínas, objetos e lugares antigos não são silenciosos; apenas falam em camadas, repetições e vestígios.",
+				{
+					"type": "entries",
+					"name": "Aumento de Atributo",
+					"entries": [
+						"Aumente seu valor de Destreza, Inteligência ou Sabedoria em 2, até o máximo de 20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Leitura Arquivística",
+					"entries": [
+						"Você ganha Especialização em {@skill Investigation|XPHB|Investigação}, {@skill History|XPHB|História} ou {@skill Arcana|XPHB|Arcanismo}. Além disso, você tem {@variantrule Advantage|XPHB|Vantagem} em testes feitos com a perícia escolhida para examinar um local, objeto, criatura, vestígio mágico ou cena antiga."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Memória Material",
+					"entries": [
+						"Após passar 1 minuto examinando um local, objeto ou criatura ligado a um evento antigo, mágico, violento ou extraplanar, você sempre descobre uma impressão verdadeira sobre o evento mais relevante associado ao alvo: sua emoção dominante, força predominante, tipo de criatura envolvida ou natureza geral do risco remanescente, a critério do Mestre."
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"dex",
+							"int",
+							"wis"
+						],
+						"amount": 2
+					}
+				}
+			],
+			"expertise": [
+				{
+					"choose": {
+						"from": [
+							"investigation",
+							"history",
+							"arcana"
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Causalidade Reverberante",
+			"source": "MundoDeKyrFeats",
+			"category": "BOOST",
+			"prerequisite": [
+				{
+					"level": 12,
+					"feat": [
+						"registro de impacto|MundoDeKyrFeats"
+					]
+				},
+				{
+					"level": 12,
+					"feat": [
+						"ressonância ecoante|MundoDeKyrFeats"
+					]
+				}
+			],
+			"entries": [
+				"Você não apenas lê ecos. Você faz com que eles pesem no próximo instante. A falha de uma criatura permanece por tempo suficiente para influenciar o que acontece depois.",
+				{
+					"type": "entries",
+					"name": "Aumento de Atributo",
+					"entries": [
+						"Aumente seu valor de Inteligência ou Carisma em 2, até o máximo de 20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Eco de Consequência",
+					"entries": [
+						"Uma vez por turno, quando uma criatura falhar em um teste de resistência contra uma magia sua de Ecomancia ou for atingida por um truque seu de Ecomancia, o próximo dano que ela sofrer antes do início do seu próximo turno aumenta em uma quantidade igual ao seu {@variantrule Proficiency|XPHB|bônus de proficiência}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Falha Registrada",
+					"entries": [
+						"A primeira vez que essa criatura realizar um teste de resistência antes do início do seu próximo turno, ela subtrai {@dice 1d4} do resultado."
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"int",
+							"cha"
+						],
+						"amount": 2
+					}
+				}
+			]
+		},
+		{
+			"name": "Arquiteto do Invisível",
+			"source": "MundoDeKyrFeats",
+			"category": "BOOST",
+			"prerequisite": [
+				{
+					"level": 12,
+					"feat": [
+						"adepto ecomante|MundoDeKyrFeats"
+					]
+				},
+				{
+					"level": 12,
+					"feat": [
+						"ressonância ecoante|MundoDeKyrFeats"
+					]
+				}
+			],
+			"entries": [
+				"Você aprendeu a perceber estruturas mágicas antes que elas se tornem plenamente visíveis. A magia, para você, possui contorno antes de possuir forma.",
+				{
+					"type": "entries",
+					"name": "Aumento de Atributo",
+					"entries": [
+						"Aumente seu valor de Destreza, Inteligência ou Carisma em 2, até o máximo de 20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Percepção Estrutural",
+					"entries": [
+						"Você percebe a presença de magia ativa a até 30 feet de você como uma detecção passiva. Isso revela apenas que há magia presente, sem identificar automaticamente escola, fonte, nível ou efeito exato."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Moldagem Seletiva",
+					"entries": [
+						"Quando você conjurar uma magia de 5º nível ou inferior que afete uma área, você pode excluir uma criatura da área da magia. Depois de usar este benefício, você só pode usá-lo novamente após finalizar um {@variantrule Short Rest|XPHB|Descanso Curto} ou {@variantrule Long Rest|XPHB|Descanso Longo}."
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"dex",
+							"int",
+							"cha"
+						],
+						"amount": 2
+					}
+				}
+			]
+		},
+		{
+			"name": "Manto das Lacunas",
+			"source": "MundoDeKyrFeats",
+			"category": "BOOST",
+			"prerequisite": [
+				{
+					"level": 12,
+					"feat": [
+						"passos pelas lacunas|MundoDeKyrFeats"
+					]
+				},
+				{
+					"level": 12,
+					"feat": [
+						"véu do apagamento|MundoDeKyrFeats"
+					]
+				}
+			],
+			"entries": [
+				"Você já não apenas se oculta na sombra. Você se move pelos intervalos entre percepção e presença, deixando para trás uma silhueta incompleta onde deveria haver um corpo inteiro.",
+				{
+					"type": "entries",
+					"name": "Aumento de Atributo",
+					"entries": [
+						"Aumente seu valor de Destreza, Inteligência ou Sabedoria em 2, até o máximo de 20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Corpo Intermitente",
+					"entries": [
+						"Enquanto estiver em Luz Baixa, Escuridão ou em uma área obscurecida por uma magia ou efeito que você tenha criado, seu deslocamento aumenta em 10 feet, e você pode atravessar espaços ocupados por criaturas hostis, desde que não termine seu movimento neles."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Silhueta Deslocada",
+					"entries": [
+						"Se você se mover pelo menos 10 feet enquanto estiver sob as condições de Corpo Intermitente, o primeiro ataque feito contra você antes do início do seu próximo turno sofre {@variantrule Disadvantage|XPHB|Desvantagem}."
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"dex",
+							"int",
+							"wis"
+						],
+						"amount": 2
+					}
+				}
+			]
+		},
+		{
+			"name": "Gramática do Vazio",
+			"source": "MundoDeKyrFeats",
+			"category": "BOOST",
+			"prerequisite": [
+				{
+					"level": 12,
+					"feat": [
+						"marca de esvaziamento|MundoDeKyrFeats"
+					]
+				},
+				{
+					"level": 12,
+					"feat": [
+						"silêncio predatório|MundoDeKyrFeats"
+					]
+				}
+			],
+			"entries": [
+				"Você aprendeu a escrever ausência dentro da própria estrutura da magia. Onde sua Umbramancia toca, restauração, continuidade e presença passam a obedecer regras incompletas.",
+				{
+					"type": "entries",
+					"name": "Aumento de Atributo",
+					"entries": [
+						"Aumente seu valor de Constituição, Inteligência ou Carisma em 2, até o máximo de 20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Sintaxe da Ausência",
+					"entries": [
+						"Uma vez por turno, quando uma criatura falhar em um teste de resistência contra uma magia sua de Umbramancia ou sofrer dano Necrótico ou Psíquico causado por você, ela fica marcada pelo Vazio até o início do seu próximo turno."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Restauração Incompleta",
+					"entries": [
+						"Enquanto estiver marcada pelo Vazio, a primeira vez que a criatura recuperar {@variantrule Hit Points|XPHB|Pontos de Vida} ou receber {@variantrule Temporary Hit Points|XPHB|Pontos de Vida Temporários}, reduza esse valor em uma quantidade igual ao seu {@variantrule Proficiency|XPHB|bônus de proficiência} + seu modificador de Inteligência ou Carisma, mínimo de 1."
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"con",
+							"int",
+							"cha"
+						],
+						"amount": 2
+					}
+				}
+			]
+		},
+		{
+			"name": "Trono do Silêncio",
+			"source": "MundoDeKyrFeats",
+			"category": "BOOST",
+			"prerequisite": [
+				{
+					"level": 12,
+					"feat": [
+						"silêncio predatório|MundoDeKyrFeats"
+					]
+				},
+				{
+					"level": 12,
+					"feat": [
+						"marca de esvaziamento|MundoDeKyrFeats"
+					]
+				}
+			],
+			"entries": [
+				"Você aprendeu a impor silêncio como jurisdição. Perto de você, palavras de comando, concentração e respostas imediatas perdem firmeza.",
+				{
+					"type": "entries",
+					"name": "Aumento de Atributo",
+					"entries": [
+						"Aumente seu valor de Destreza, Inteligência ou Carisma em 2, até o máximo de 20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Jurisdição Silenciosa",
+					"entries": [
+						"Criaturas hostis a até 10 feet de você subtraem {@dice 1d4} dos testes que realizarem para manter Concentração."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Resposta Suprimida",
+					"entries": [
+						"Uma vez por turno, quando uma criatura hostil a até 30 feet falhar em um teste de resistência contra uma magia sua de Umbramancia, ela não pode realizar Reações até o início do seu próximo turno."
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"dex",
+							"int",
+							"cha"
+						],
+						"amount": 2
+					}
+				}
+			]
+		},
+		{
+			"name": "Coração de Escamas Antigas",
+			"source": "MundoDeKyrFeats",
+			"category": "BOOST",
+			"prerequisite": [
+				{
+					"level": 12,
+					"feat": [
+						"ascendência dracônica aprimorada|MundoDeKyrFeats"
+					]
+				},
+				{
+					"level": 12,
+					"feat": [
+						"investida do predador|MundoDeKyrFeats"
+					]
+				}
+			],
+			"entries": [
+				"Seu corpo se aproxima da resistência silenciosa dos dragões antigos. Golpes ainda o ferem, mas perdem ímpeto ao encontrar escama, sangue e orgulho ancestral.",
+				{
+					"type": "entries",
+					"name": "Aumento de Atributo",
+					"entries": [
+						"Aumente seu valor de Força ou Constituição em 2, até o máximo de 20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Escamas Milenares",
+					"entries": [
+						"Quando você sofrer dano Contundente, Cortante ou Perfurante causado por um ataque, reduza esse dano em uma quantidade igual ao seu {@variantrule Proficiency|XPHB|bônus de proficiência}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Vitalidade Ancestral",
+					"entries": [
+						"Seu máximo de {@variantrule Hit Points|XPHB|Pontos de Vida} aumenta em uma quantidade igual ao seu nível de personagem. Além disso, quando você receber {@variantrule Temporary Hit Points|XPHB|Pontos de Vida Temporários} de uma característica dracônica, aumente essa quantidade em valor igual ao seu {@variantrule Proficiency|XPHB|bônus de proficiência}."
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"con"
+						],
+						"amount": 2
+					}
+				}
+			]
+		},
+		{
+			"name": "Trono da Presença Dracônica",
+			"source": "MundoDeKyrFeats",
+			"category": "BOOST",
+			"prerequisite": [
+				{
+					"level": 12,
+					"feat": [
+						"olhar do tirano|MundoDeKyrFeats"
+					]
+				},
+				{
+					"level": 12,
+					"feat": [
+						"voz do suserano|MundoDeKyrFeats"
+					]
+				}
+			],
+			"entries": [
+				"Você aprendeu a transformar presença em território político. Sua autoridade altera o ritmo da cena antes mesmo que a violência comece.",
+				{
+					"type": "entries",
+					"name": "Aumento de Atributo",
+					"entries": [
+						"Aumente seu valor de Força, Destreza ou Carisma em 2, até o máximo de 20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Autoridade Ancestral",
+					"entries": [
+						"Você ganha Especialização em {@skill Intimidation|XPHB|Intimidação} ou {@skill Persuasion|XPHB|Persuasão}. Além disso, quando interagir com criaturas que reconheçam símbolos de linhagem, hierarquia, domínio territorial ou poder dracônico, você adiciona {@dice 1d6} aos testes feitos com a perícia escolhida."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Medo Hierárquico",
+					"entries": [
+						"Enquanto uma criatura estiver {@condition Frightened|XPHB|Amedrontada} por você, ela não pode realizar Reações contra você, e o primeiro ataque que ela fizer contra uma criatura que não seja você sofre uma penalidade de {@dice 1d4}."
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"cha"
+						],
+						"amount": 2
+					}
+				}
+			],
+			"expertise": [
+				{
+					"choose": {
+						"from": [
+							"intimidation",
+							"persuasion"
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Fôlego do Cataclismo",
+			"source": "MundoDeKyrFeats",
+			"category": "BOOST",
+			"prerequisite": [
+				{
+					"level": 12,
+					"feat": [
+						"sopro dracônico|MundoDeKyrFeats"
+					]
+				},
+				{
+					"level": 12,
+					"feat": [
+						"ascendência dracônica aprimorada|MundoDeKyrFeats"
+					]
+				}
+			],
+			"entries": [
+				"Seu sopro deixa de ser apenas uma herança. Ele passa a se comportar como desastre concentrado: breve, violento e difícil de absorver.",
+				{
+					"type": "entries",
+					"name": "Aumento de Atributo",
+					"entries": [
+						"Aumente seu valor de Constituição ou Carisma em 2, até o máximo de 20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Sopro Cataclísmico",
+					"entries": [
+						"O dano do seu Sopro Ancestral aumenta em {@dice 1d6}, e sua área aumenta em 5 feet se for cone, ou 10 feet se for linha."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Ruptura Elemental",
+					"entries": [
+						"Uma vez por turno, quando você causar dano do tipo associado à sua Ancestralidade Dracônica, você causa dano adicional desse mesmo tipo igual ao seu {@variantrule Proficiency|XPHB|bônus de proficiência} se o alvo tiver falhado em um teste de resistência contra seu Sopro Ancestral desde o início do seu último turno."
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"con",
+							"cha"
+						],
+						"amount": 2
+					}
+				}
+			]
+		},
+		{
+			"name": "Égide do Alvorecer",
+			"source": "MundoDeKyrFeats",
+			"category": "BOOST",
+			"prerequisite": [
+				{
+					"level": 12,
+					"feat": [
+						"luz que permanece|MundoDeKyrFeats"
+					]
+				},
+				{
+					"level": 12,
+					"feat": [
+						"protetor da aurora|MundoDeKyrFeats"
+					]
+				}
+			],
+			"entries": [
+				"Você se tornou um ponto de claridade persistente. Sua proteção não termina quando a cura fecha a ferida; ela permanece como uma camada de coragem sobre quem você sustenta.",
+				{
+					"type": "entries",
+					"name": "Aumento de Atributo",
+					"entries": [
+						"Aumente seu valor de Sabedoria ou Carisma em 2, até o máximo de 20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Claridade Protetora",
+					"entries": [
+						"Uma vez por turno, quando você restaurar {@variantrule Hit Points|XPHB|Pontos de Vida}, reduzir dano ou conceder {@variantrule Temporary Hit Points|XPHB|Pontos de Vida Temporários} a uma criatura, ela reduz o próximo dano que sofrer antes do início do seu próximo turno em uma quantidade igual ao seu {@variantrule Proficiency|XPHB|bônus de proficiência}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Coragem Residual",
+					"entries": [
+						"Enquanto uma criatura possuir {@variantrule Temporary Hit Points|XPHB|Pontos de Vida Temporários} concedidos por você, ela tem {@variantrule Advantage|XPHB|Vantagem} em testes de resistência contra {@condition Frightened|XPHB|Amedrontado} e {@condition Charmed|XPHB|Enfeitiçado}."
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"wis",
+							"cha"
+						],
+						"amount": 2
+					}
+				}
+			]
+		},
+		{
+			"name": "Bastião da Primeira Luz",
+			"source": "MundoDeKyrFeats",
+			"category": "BOOST",
+			"prerequisite": [
+				{
+					"level": 12,
+					"feat": [
+						"linha intransponível|MundoDeKyrFeats"
+					]
+				},
+				{
+					"level": 12,
+					"feat": [
+						"guardião da aurora|MundoDeKyrFeats"
+					]
+				}
+			],
+			"entries": [
+				"Você aprendeu a transformar presença em abrigo. Ao seu redor, aliados não encontram apenas defesa; encontram posição, cobertura e tempo para respirar.",
+				{
+					"type": "entries",
+					"name": "Aumento de Atributo",
+					"entries": [
+						"Aumente seu valor de Força, Constituição ou Sabedoria em 2, até o máximo de 20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Bastião Vivo",
+					"entries": [
+						"Enquanto você estiver a até 5 feet de uma criatura aliada e não estiver {@condition Incapacitated|XPHB|Incapacitado}, essa criatura recebe {@variantrule Cover|XPHB|Meia Cobertura} contra ataques à distância e magias que exijam jogada de ataque."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Linha de Amparo",
+					"entries": [
+						"{@action Opportunity Attack|XPHB|Ataques de Oportunidade} contra você e contra criaturas aliadas a até 5 feet de você têm {@variantrule Disadvantage|XPHB|Desvantagem}."
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"con",
+							"wis"
+						],
+						"amount": 2
+					}
+				}
+			]
+		},
+		{
+			"name": "Milagre de Intercessão",
+			"source": "MundoDeKyrFeats",
+			"category": "BOOST",
+			"prerequisite": [
+				{
+					"level": 12,
+					"feat": [
+						"guardião da aurora|MundoDeKyrFeats"
+					]
+				},
+				{
+					"level": 12,
+					"feat": [
+						"protetor da aurora|MundoDeKyrFeats"
+					]
+				}
+			],
+			"entries": [
+				"Você aprendeu a chegar no instante em que o destino ainda não terminou de se decidir. Sua intercessão não apaga o perigo; ela altera o desfecho imediato.",
+				{
+					"type": "entries",
+					"name": "Aumento de Atributo",
+					"entries": [
+						"Aumente seu valor de Destreza, Sabedoria ou Carisma em 2, até o máximo de 20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Intercessão Ampliada",
+					"entries": [
+						"Quando você usar Intervenção Defensiva, aumente a redução de dano em uma quantidade igual ao modificador do atributo aumentado por este talento, mínimo de 1."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Passo do Intercessor",
+					"entries": [
+						"Depois que você usar Intervenção Defensiva, você e a criatura protegida podem se mover 5 feet sem provocar {@action Opportunity Attack|XPHB|Ataques de Oportunidade}."
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"dex",
+							"wis",
+							"cha"
+						],
+						"amount": 2
+					}
+				}
+			]
+		},
+		{
+			"name": "Explorador do Impossível",
+			"source": "MundoDeKyrFeats",
+			"category": "BOOST",
+			"prerequisite": [
+				{
+					"level": 12,
+					"feat": [
+						"leitor de intempéries|MundoDeKyrFeats"
+					]
+				},
+				{
+					"level": 12,
+					"feat": [
+						"cartógrafo das cicatrizes|MundoDeKyrFeats"
+					]
+				}
+			],
+			"entries": [
+				"Você atravessou lugares onde mapas falham, bússolas mentem e a paisagem tenta reescrever o caminho. Poucos ambientes ainda conseguem detê-lo.",
+				{
+					"type": "entries",
+					"name": "Aumento de Atributo",
+					"entries": [
+						"Aumente seu valor de Destreza, Inteligência ou Sabedoria em 2, até o máximo de 20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Mestre da Sobrevivência Extrema",
+					"entries": [
+						"Você ganha proficiência em {@skill Survival|XPHB|Sobrevivência} ou {@skill Investigation|XPHB|Investigação}. Se já possuir a proficiência escolhida, você ganha Especialização nela. Além disso, você tem {@variantrule Advantage|XPHB|Vantagem} nos testes feitos com essa proficiência para navegação, rastreamento, orientação, análise de terreno ou identificação de perigo ambiental."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Movimento Improvável",
+					"entries": [
+						"Você ignora terreno difícil não mágico. Além disso, Escalar e Nadar não custam movimento adicional para você."
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"dex",
+							"int",
+							"wis"
+						],
+						"amount": 2
+					}
+				}
+			],
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"survival",
+							"investigation"
+						]
+					}
+				}
+			],
+			"expertise": [
+				{
+					"choose": {
+						"from": [
+							"survival",
+							"investigation"
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Corpo que Recusa Colapso",
+			"source": "MundoDeKyrFeats",
+			"category": "BOOST",
+			"prerequisite": [
+				{
+					"level": 12,
+					"feat": [
+						"persistência do sobrevivente|MundoDeKyrFeats"
+					]
+				},
+				{
+					"level": 12,
+					"feat": [
+						"marca de sobrevivente de kÿr|MundoDeKyrFeats"
+					]
+				}
+			],
+			"entries": [
+				"Seu corpo reorganiza esforço, absorve ruína e continua funcional mesmo quando já deveria ter parado. Você não vence o desgaste; você aprende a operar dentro dele.",
+				{
+					"type": "entries",
+					"name": "Aumento de Atributo",
+					"entries": [
+						"Aumente seu valor de Força ou Constituição em 2, até o máximo de 20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Estrutura de Continuidade",
+					"entries": [
+						"Seu máximo de {@variantrule Hit Points|XPHB|Pontos de Vida} aumenta em uma quantidade igual ao seu nível de personagem."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Colapso Adiado",
+					"entries": [
+						"O primeiro nível de {@condition Exhaustion|XPHB|Exaustão} que você adquirir não produz efeitos sobre você. Esse nível ainda é contabilizado normalmente para fins de progressão da condição."
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"con"
+						],
+						"amount": 2
+					}
+				}
+			]
+		},
+		{
+			"name": "Vontade de Permanecer",
+			"source": "MundoDeKyrFeats",
+			"category": "BOOST",
+			"prerequisite": [
+				{
+					"level": 12,
+					"feat": [
+						"marca de sobrevivente de kÿr|MundoDeKyrFeats"
+					]
+				},
+				{
+					"level": 12,
+					"feat": [
+						"persistência do sobrevivente|MundoDeKyrFeats"
+					]
+				}
+			],
+			"entries": [
+				"Sua mente aprendeu a não ceder quando o mundo tenta dobrá-lo por medo, compulsão ou imposição direta. Você permanece porque escolhe permanecer.",
+				{
+					"type": "entries",
+					"name": "Aumento de Atributo",
+					"entries": [
+						"Aumente seu valor de Constituição, Sabedoria ou Carisma em 2, até o máximo de 20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Presença Insubmissa",
+					"entries": [
+						"Você tem {@variantrule Advantage|XPHB|Vantagem} em testes de resistência contra {@condition Frightened|XPHB|Amedrontado}, {@condition Charmed|XPHB|Enfeitiçado} e efeitos que determinem seu movimento, alvo ou ação contra sua vontade."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Quebra de Domínio",
+					"entries": [
+						"Quando obtiver sucesso em um teste de resistência contra um desses efeitos, você recebe {@variantrule Temporary Hit Points|XPHB|Pontos de Vida Temporários} iguais ao seu {@variantrule Proficiency|XPHB|bônus de proficiência} e pode se mover 5 feet sem provocar {@action Opportunity Attack|XPHB|Ataques de Oportunidade}."
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"con",
+							"wis",
+							"cha"
+						],
+						"amount": 2
+					}
+				}
+			]
+		},
+		{
+			"name": "Rastro de Guerra Ancestral",
+			"source": "MundoDeKyrFeats",
+			"category": "BOOST",
+			"prerequisite": [
+				{
+					"level": 12,
+					"feat": [
+						"ruptura calculada|MundoDeKyrFeats"
+					]
+				},
+				{
+					"level": 12,
+					"feat": [
+						"campo de impasse|MundoDeKyrFeats"
+					]
+				}
+			],
+			"entries": [
+				"Você não apenas participa de batalhas. Você deixa nelas uma memória física: passos mais pesados, hesitações mais longas e marcas que seus aliados aprendem a seguir.",
+				{
+					"type": "entries",
+					"name": "Aumento de Atributo",
+					"entries": [
+						"Aumente seu valor de Força, Destreza ou Constituição em 2, até o máximo de 20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Rastro Marcial",
+					"entries": [
+						"Uma vez por turno, quando você atingir uma criatura com um ataque corpo a corpo, ela fica marcada pelo seu rastro até o início do seu próximo turno. Enquanto estiver marcada, a primeira jogada de ataque feita por uma criatura aliada contra ela recebe +{@dice 1d4}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Memória da Violência",
+					"entries": [
+						"Se uma criatura marcada pelo seu rastro se mover voluntariamente antes do início do seu próximo turno, o primeiro ataque corpo a corpo que você fizer contra ela antes do fim do seu próximo turno causa dano adicional igual ao seu {@variantrule Proficiency|XPHB|bônus de proficiência}."
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con"
+						],
+						"amount": 2
+					}
+				}
+			]
+		},
+		{
+			"name": "Senhor do Território",
+			"source": "MundoDeKyrFeats",
+			"category": "BOOST",
+			"prerequisite": [
+				{
+					"level": 12,
+					"feat": [
+						"muralha de aço|MundoDeKyrFeats"
+					]
+				},
+				{
+					"level": 12,
+					"feat": [
+						"campo de impasse|MundoDeKyrFeats"
+					]
+				}
+			],
+			"entries": [
+				"Você não apenas ocupa um espaço. Você transforma alcance em fronteira. Entrar ou sair da sua presença exige respeito tático.",
+				{
+					"type": "entries",
+					"name": "Aumento de Atributo",
+					"entries": [
+						"Aumente seu valor de Força ou Carisma em 2, até o máximo de 20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Fronteira Declarada",
+					"entries": [
+						"Criaturas hostis provocam {@action Opportunity Attack|XPHB|Ataques de Oportunidade} de você quando entram voluntariamente no seu alcance corpo a corpo pela primeira vez em um turno."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Golpe de Retenção",
+					"entries": [
+						"Quando você acerta uma criatura com um {@action Opportunity Attack|XPHB|Ataque de Oportunidade}, ela sofre dano adicional igual ao seu {@variantrule Proficiency|XPHB|bônus de proficiência}, e o deslocamento dela é reduzido em 10 feet até o fim do turno atual."
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"cha"
+						],
+						"amount": 2
+					}
+				}
+			]
+		},
+		{
+			"name": "Comando de Interdição",
+			"source": "MundoDeKyrFeats",
+			"category": "BOOST",
+			"prerequisite": [
+				{
+					"level": 12,
+					"feat": [
+						"ruptura calculada|MundoDeKyrFeats"
+					]
+				},
+				{
+					"level": 12,
+					"feat": [
+						"muralha de aço|MundoDeKyrFeats"
+					]
+				}
+			],
+			"entries": [
+				"Você aprendeu a comandar o campo com gestos mínimos. Seus aliados reconhecem suas aberturas antes que você precise dizer qualquer coisa.",
+				{
+					"type": "entries",
+					"name": "Aumento de Atributo",
+					"entries": [
+						"Aumente seu valor de Força, Destreza ou Sabedoria em 2, até o máximo de 20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Leitura de Campo",
+					"entries": [
+						"Você ganha proficiência em {@skill Perception|XPHB|Percepção} ou {@skill Insight|XPHB|Intuição}. Se já possuir a proficiência escolhida, você ganha Especialização nela."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Abertura Comandada",
+					"entries": [
+						"Uma vez por turno, quando você atingir uma criatura com um ataque corpo a corpo, criaturas aliadas a até 20 feet de você não provocam {@action Opportunity Attack|XPHB|Ataques de Oportunidade} dessa criatura até o início do seu próximo turno."
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"wis"
+						],
+						"amount": 2
+					}
+				}
+			],
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"perception",
+							"insight"
+						]
+					}
+				}
+			],
+			"expertise": [
+				{
+					"choose": {
+						"from": [
+							"perception",
+							"insight"
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Coração do Degelo Impossível",
+			"source": "MundoDeKyrFeats",
+			"category": "BOOST",
+			"prerequisite": [
+				{
+					"level": 12,
+					"feat": [
+						"misericórdia glacial|MundoDeKyrFeats"
+					]
+				},
+				{
+					"level": 12,
+					"feat": [
+						"guardião da chama fria|MundoDeKyrFeats"
+					]
+				}
+			],
+			"entries": [
+				"Você aprendeu a inverter o instante crítico. Onde outros esperam colapso, sua Chama Fria estabiliza, purifica e devolve continuidade.",
+				{
+					"type": "entries",
+					"name": "Aumento de Atributo",
+					"entries": [
+						"Aumente seu valor de Sabedoria ou Carisma em 2, até o máximo de 20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Degelo Restaurador",
+					"entries": [
+						"Uma vez por turno, quando você restaurar {@variantrule Hit Points|XPHB|Pontos de Vida} de uma criatura com uma magia ou característica, ela pode encerrar uma redução de deslocamento que esteja sofrendo e passa a ignorar terreno difícil não mágico até o início do seu próximo turno."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Sopro de Continuidade",
+					"entries": [
+						"Você tem a magia {@spell Sopro de Vida|MundoDeKyrLivroDasMagiasDeKyr} sempre preparada. Ela não conta contra o número de magias que você pode preparar."
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"wis",
+							"cha"
+						],
+						"amount": 2
+					}
+				}
+			],
+			"additionalSpells": [
+				{
+					"prepared": {
+						"_": [
+							"Sopro de Vida|MundoDeKyrLivroDasMagiasDeKyr"
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Trono da Brasa Pálida",
+			"source": "MundoDeKyrFeats",
+			"category": "BOOST",
+			"prerequisite": [
+				{
+					"level": 12,
+					"feat": [
+						"fratura da brasa invernal|MundoDeKyrFeats"
+					]
+				},
+				{
+					"level": 12,
+					"feat": [
+						"misericórdia glacial|MundoDeKyrFeats"
+					]
+				}
+			],
+			"entries": [
+				"Você aprendeu a impor à sua energia a lógica de um inverno soberano: frio que queima, disciplina que desacelera e calor que se converte em silêncio branco.",
+				{
+					"type": "entries",
+					"name": "Aumento de Atributo",
+					"entries": [
+						"Aumente seu valor de Destreza, Inteligência ou Carisma em 2, até o máximo de 20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Brasa Pálida",
+					"entries": [
+						"Uma vez por turno, quando você causar dano de Frio a uma criatura, ela subtrai {@dice 1d4} da próxima jogada de ataque que realizar antes do início do seu próximo turno se tiver se movido voluntariamente desde o início do último turno dela."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Reescrita Gélida",
+					"entries": [
+						"Quando você conjurar uma magia que cause dano de Fogo, Radiante ou Frio, você pode converter todo esse dano em Frio. A primeira criatura que sofrer esse dano em cada turno sofre dano adicional de Frio igual ao seu {@variantrule Proficiency|XPHB|bônus de proficiência}."
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"dex",
+							"int",
+							"cha"
+						],
+						"amount": 2
+					}
+				}
+			]
+		},
+		{
+			"name": "Catedral da Quietude Invernal",
+			"source": "MundoDeKyrFeats",
+			"category": "BOOST",
+			"prerequisite": [
+				{
+					"level": 12,
+					"feat": [
+						"selo do inverno branco|MundoDeKyrFeats"
+					]
+				},
+				{
+					"level": 12,
+					"feat": [
+						"trilha do frio habitável|MundoDeKyrFeats"
+					]
+				}
+			],
+			"entries": [
+				"Você aprendeu a converter geada em arquitetura espiritual. Onde sua Chama Fria toca o chão, o combate perde pressa e aliados encontram silêncio.",
+				{
+					"type": "entries",
+					"name": "Aumento de Atributo",
+					"entries": [
+						"Aumente seu valor de Constituição, Inteligência ou Sabedoria em 2, até o máximo de 20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Arquitetura Invernal",
+					"entries": [
+						"Quando uma área criada por uma magia ou característica sua de Chama Fria faria terreno se tornar difícil até o início do seu próximo turno, esse efeito dura até o fim do seu próximo turno."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Quietude Protetora",
+					"entries": [
+						"Criaturas aliadas em terreno difícil criado por suas magias ou características de Chama Fria têm {@variantrule Advantage|XPHB|Vantagem} em testes de resistência contra {@condition Frightened|XPHB|Amedrontado}, {@condition Charmed|XPHB|Enfeitiçado} e efeitos que tentem movê-las contra a vontade."
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"con",
+							"int",
+							"wis"
+						],
+						"amount": 2
+					}
+				}
+			]
+		},
+		{
+			"name": "Milagre da Seiva Áurea",
+			"source": "MundoDeKyrFeats",
+			"category": "BOOST",
+			"prerequisite": [
+				{
+					"level": 12,
+					"other": "ao menos 3 feats no total entre Rizomancia e Aurora / Proteção"
+				}
+			],
+			"entries": [
+				"Você domina a forma mais elevada do amparo persistente. Sua cura não termina quando os ferimentos se fecham; ela permanece como seiva luminosa, sustentando o corpo e recusando a queda.",
+				{
+					"type": "entries",
+					"name": "Aumento de Atributo",
+					"entries": [
+						"Aumente seu valor de Constituição, Sabedoria ou Carisma em 2, até o máximo de 20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Cura que Não se Perde",
+					"entries": [
+						"Uma vez por turno, quando uma criatura recuperar {@variantrule Hit Points|XPHB|Pontos de Vida} por uma magia ou característica sua, qualquer cura que exceda os {@variantrule Hit Points|XPHB|Pontos de Vida} máximos dela se converte em {@variantrule Temporary Hit Points|XPHB|Pontos de Vida Temporários}, até um máximo igual a três vezes seu {@variantrule Proficiency|XPHB|bônus de proficiência}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Permanência Áurea",
+					"entries": [
+						"Enquanto uma criatura possuir {@variantrule Temporary Hit Points|XPHB|Pontos de Vida Temporários} concedidos por você, ela recebe +{@dice 1d4} no primeiro teste de resistência que realizar contra {@condition Frightened|XPHB|Amedrontado}, {@condition Charmed|XPHB|Enfeitiçado}, {@condition Exhaustion|XPHB|Exaustão} ou contra ser Empurrada, Puxada, Derrubada ou movida contra a vontade."
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"con",
+							"wis",
+							"cha"
+						],
+						"amount": 2
+					}
+				}
+			]
+		},
+		{
+			"name": "Bastião da Passagem Negada",
+			"source": "MundoDeKyrFeats",
+			"category": "BOOST",
+			"prerequisite": [
+				{
+					"level": 12,
+					"other": "ao menos 3 feats no total entre Aurora / Proteção e Território / Controle Marcial"
+				}
+			],
+			"entries": [
+				"Você dominou a forma mais severa da interposição. Sua presença cria uma fronteira moral e física: atravessar sua guarda significa enfrentar luz, corpo e disciplina de campo.",
+				{
+					"type": "entries",
+					"name": "Aumento de Atributo",
+					"entries": [
+						"Aumente seu valor de Força, Constituição ou Sabedoria em 2, até o máximo de 20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Linha de Interdição",
+					"entries": [
+						"Enquanto você estiver a até 5 feet de uma criatura aliada e não estiver {@condition Incapacitated|XPHB|Incapacitado}, criaturas hostis não podem atravessar o espaço entre vocês sem tratar esse deslocamento como terreno difícil."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Guarda Inevitável",
+					"entries": [
+						"A primeira vez em cada turno que uma criatura hostil atingir uma criatura aliada a até 5 feet de você, a próxima jogada de ataque feita contra essa criatura hostil por você antes do fim do seu próximo turno recebe +{@dice 1d4}."
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"con",
+							"wis"
+						],
+						"amount": 2
+					}
+				}
+			]
+		},
+		{
+			"name": "Sol do Inverno Imóvel",
+			"source": "MundoDeKyrFeats",
+			"category": "BOOST",
+			"prerequisite": [
+				{
+					"level": 12,
+					"other": "ao menos 3 feats no total entre Aurora / Proteção e Chama Fria"
+				}
+			],
+			"entries": [
+				"Você domina uma serenidade impossível: luz que não aquece, frio que não mata, pausa que impede a violência de continuar crescendo.",
+				{
+					"type": "entries",
+					"name": "Aumento de Atributo",
+					"entries": [
+						"Aumente seu valor de Destreza, Sabedoria ou Carisma em 2, até o máximo de 20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Janela de Inverno Claro",
+					"entries": [
+						"Uma vez por turno, quando você restaurar {@variantrule Hit Points|XPHB|Pontos de Vida}, reduzir dano ou conceder {@variantrule Temporary Hit Points|XPHB|Pontos de Vida Temporários} a uma criatura, ela não provoca {@action Opportunity Attack|XPHB|Ataques de Oportunidade} até o início do seu próximo turno."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Claridade Imóvel",
+					"entries": [
+						"Enquanto uma criatura possuir {@variantrule Temporary Hit Points|XPHB|Pontos de Vida Temporários} concedidos por você, criaturas hostis não podem obter {@variantrule Advantage|XPHB|Vantagem} em ataques contra ela se estiverem a até 10 feet de você."
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"dex",
+							"wis",
+							"cha"
+						],
+						"amount": 2
+					}
+				}
+			]
+		},
+		{
+			"name": "Arquivo das Raízes do Mundo",
+			"source": "MundoDeKyrFeats",
+			"category": "BOOST",
+			"prerequisite": [
+				{
+					"level": 12,
+					"other": "ao menos 3 feats no total entre Rizomancia e Ecomancia"
+				}
+			],
+			"entries": [
+				"Você se tornou um ponto onde permanência e memória se fundem. As raízes sustentam; os ecos recordam; e você aprendeu a consultar aquilo que o mundo ainda não esqueceu.",
+				{
+					"type": "entries",
+					"name": "Aumento de Atributo",
+					"entries": [
+						"Aumente seu valor de Constituição, Inteligência ou Sabedoria em 2, até o máximo de 20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Arquivo Vivo",
+					"entries": [
+						"Você ganha Especialização em {@skill History|XPHB|História}, {@skill Nature|XPHB|Natureza} ou {@skill Investigation|XPHB|Investigação}. Além disso, você tem {@variantrule Advantage|XPHB|Vantagem} em testes feitos com a perícia escolhida para examinar um local, objeto, criatura, vestígio mágico, ruína ou terreno antigo."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Memória Enraizada",
+					"entries": [
+						"Uma vez por turno, quando uma criatura falhar em um teste de resistência contra uma magia sua de Rizomancia ou Ecomancia, o espaço que ela ocupa guarda uma memória até o início do seu próximo turno. O primeiro aliado que entrar nesse espaço recebe +{@dice 1d4} no próximo teste de {@skill Perception|XPHB|Percepção}, {@skill Investigation|XPHB|Investigação}, {@skill Insight|XPHB|Intuição} ou {@skill Arcana|XPHB|Arcanismo} feito antes do fim do turno atual."
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"con",
+							"int",
+							"wis"
+						],
+						"amount": 2
+					}
+				}
+			],
+			"expertise": [
+				{
+					"choose": {
+						"from": [
+							"history",
+							"nature",
+							"investigation"
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Catedral das Raízes Ausentes",
+			"source": "MundoDeKyrFeats",
+			"category": "BOOST",
+			"prerequisite": [
+				{
+					"level": 12,
+					"other": "ao menos 3 feats no total entre Rizomancia e Umbramancia"
+				}
+			],
+			"entries": [
+				"Você aprendeu a construir com permanência e ausência ao mesmo tempo. Suas raízes não apenas fixam o mundo; elas também retiram dele aquilo que não deveria continuar.",
+				{
+					"type": "entries",
+					"name": "Aumento de Atributo",
+					"entries": [
+						"Aumente seu valor de Constituição, Inteligência ou Carisma em 2, até o máximo de 20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Solo Negativo",
+					"entries": [
+						"Terreno difícil criado por suas magias ou características de Rizomancia ou Umbramancia também impede que criaturas hostis recebam {@variantrule Temporary Hit Points|XPHB|Pontos de Vida Temporários} enquanto permanecerem nele."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Raiz de Supressão",
+					"entries": [
+						"Uma vez por turno, quando uma criatura hostil falhar em um teste de resistência contra uma magia sua de Rizomancia ou Umbramancia enquanto estiver em contato com o solo, ela subtrai {@dice 1d4} do próximo teste que realizar para manter Concentração antes do início do seu próximo turno."
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"con",
+							"int",
+							"cha"
+						],
+						"amount": 2
+					}
+				}
+			]
+		},
+		{
+			"name": "Coração do Dragão Enraizado",
+			"source": "MundoDeKyrFeats",
+			"category": "BOOST",
+			"prerequisite": [
+				{
+					"level": 12,
+					"other": "ao menos 3 feats no total entre Rizomancia e Dracônica"
+				}
+			],
+			"entries": [
+				"Sua linhagem já não se manifesta apenas como escama, sopro ou orgulho. Ela criou raízes no mundo, transformando sua presença em fronteira viva entre ancestralidade e permanência.",
+				{
+					"type": "entries",
+					"name": "Aumento de Atributo",
+					"entries": [
+						"Aumente seu valor de Força, Constituição ou Carisma em 2, até o máximo de 20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Escama Radicular",
+					"entries": [
+						"Enquanto você possuir {@variantrule Temporary Hit Points|XPHB|Pontos de Vida Temporários} concedidos por uma magia ou característica sua, você tem Resistência ao tipo de dano associado à sua Ancestralidade Dracônica. Se já possuir Resistência a esse tipo de dano, quando causar dano desse tipo, você ignora Resistência a esse tipo uma vez por turno."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Sopro que Fixa",
+					"entries": [
+						"Quando uma criatura falhar no teste de resistência contra seu Sopro Ancestral, ela não pode se beneficiar de terreno difícil ignorado, deslocamento de voo ou deslocamento de escalada até o início do seu próximo turno, salvo se estiver pairando ou sustentada magicamente."
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"con",
+							"cha"
+						],
+						"amount": 2
+					}
+				}
+			]
+		},
+		{
+			"name": "Testemunha do Impossível",
+			"source": "MundoDeKyrFeats",
+			"category": "BOOST",
+			"prerequisite": [
+				{
+					"level": 12
+				}
+			],
+			"entries": [
+				"Você viu algo que não deveria ser compreendido, e sobreviveu com uma certeza incômoda: quando a realidade falha, ela deixa padrões.",
+				{
+					"type": "entries",
+					"name": "Aumento de Atributo",
+					"entries": [
+						"Aumente seu valor de Inteligência, Sabedoria ou Carisma em 2, até o máximo de 20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Memória Incompatível",
+					"entries": [
+						"Você tem {@variantrule Advantage|XPHB|Vantagem} em testes de resistência contra ilusões, alterações de memória, efeitos de sonho e efeitos que tentem alterar sua percepção da realidade."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Leitura do Irreal",
+					"entries": [
+						"Quando realizar um teste de {@skill Arcana|XPHB|Arcanismo}, {@skill Investigation|XPHB|Investigação}, {@skill Insight|XPHB|Intuição}, {@skill Perception|XPHB|Percepção} ou {@skill Religion|XPHB|Religião} para identificar magia antiga, distorção temporal, Véu, Fragmentos, sonhos, espelhos, zonas instáveis ou fenômenos extraplanares, você adiciona {@dice 1d6} ao resultado."
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"int",
+							"wis",
+							"cha"
+						],
+						"amount": 2
+					}
+				}
+			]
+		},
+		{
+			"name": "Nome que Abre Portas",
+			"source": "MundoDeKyrFeats",
+			"category": "BOOST",
+			"prerequisite": [
+				{
+					"level": 12
+				}
+			],
+			"entries": [
+				"Seu nome, título, linhagem ou reputação passou a ter peso próprio. Mesmo onde você não é amado, dificilmente é tratado como irrelevante.",
+				{
+					"type": "entries",
+					"name": "Aumento de Atributo",
+					"entries": [
+						"Aumente seu valor de Carisma ou Inteligência em 2, até o máximo de 20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Reputação Operante",
+					"entries": [
+						"Você ganha Especialização em {@skill Persuasion|XPHB|Persuasão}, {@skill Intimidation|XPHB|Intimidação} ou {@skill History|XPHB|História}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Peso Institucional",
+					"entries": [
+						"Em interações com cortes, guildas, ordens religiosas, autoridades militares, burocracias, casas nobres ou conselhos locais, você adiciona {@dice 1d6} a testes de Carisma feitos para obter audiência, permissão, salvo-conduto, acesso formal, patrocínio limitado ou suspensão temporária de hostilidade."
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"cha",
+							"int"
+						],
+						"amount": 2
+					}
+				}
+			],
+			"expertise": [
+				{
+					"choose": {
+						"from": [
+							"persuasion",
+							"intimidation",
+							"history"
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Dívida que Ainda Respira",
+			"source": "MundoDeKyrFeats",
+			"category": "BOOST",
+			"prerequisite": [
+				{
+					"level": 12
+				}
+			],
+			"entries": [
+				"Você deixou favores, promessas e gestos de salvação espalhados pelo mundo. O efeito disso não é sorte; é capital social acumulado.",
+				{
+					"type": "entries",
+					"name": "Aumento de Atributo",
+					"entries": [
+						"Aumente seu valor de Carisma, Sabedoria ou Inteligência em 2, até o máximo de 20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Capital de Confiança",
+					"entries": [
+						"Você tem {@variantrule Advantage|XPHB|Vantagem} em testes de Carisma feitos para pedir abrigo, passagem, informação, ocultação temporária, mediação ou acesso social quando estiver lidando com pessoas, facções ou comunidades que já tenham ouvido falar de seus feitos."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Favor Convertido",
+					"entries": [
+						"Uma vez por {@variantrule Long Rest|XPHB|Descanso Longo}, quando falhar em um teste de {@skill Persuasion|XPHB|Persuasão}, {@skill Intimidation|XPHB|Intimidação} ou {@skill Deception|XPHB|Enganação} em uma interação política ou social, você pode adicionar {@dice 1d6} ao resultado, potencialmente transformando a falha em sucesso. Se o teste ainda falhar, você não piora a atitude inicial do alvo apenas por ter feito o pedido."
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"cha",
+							"wis",
+							"int"
+						],
+						"amount": 2
+					}
+				}
+			]
+		},
+		{
+			"name": "Juramento que Pesa",
+			"source": "MundoDeKyrFeats",
+			"category": "BOOST",
+			"prerequisite": [
+				{
+					"level": 12
+				}
+			],
+			"entries": [
+				"Suas promessas deixaram de ser simples palavras. Quando você firma um compromisso, seu corpo e sua presença passam a se organizar ao redor dele.",
+				{
+					"type": "entries",
+					"name": "Aumento de Atributo",
+					"entries": [
+						"Aumente seu valor de Força, Constituição ou Carisma em 2, até o máximo de 20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Palavra Vinculante",
+					"entries": [
+						"Você tem {@variantrule Advantage|XPHB|Vantagem} em testes de resistência contra efeitos que tentem forçá-lo a agir contra um juramento, promessa ou missão que você tenha declarado em voz alta."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Peso do Compromisso",
+					"entries": [
+						"Enquanto estiver agindo diretamente para cumprir um juramento declarado, você adiciona {@dice 1d6} ao primeiro teste de habilidade ou teste de resistência que realizar em cada cena contra obstáculo diretamente ligado ao juramento."
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"con",
+							"cha"
+						],
+						"amount": 2
+					}
+				}
+			]
+		},
+		{
+			"name": "Herdeiro de Ruínas",
+			"source": "MundoDeKyrFeats",
+			"category": "BOOST",
+			"prerequisite": [
+				{
+					"level": 12
+				}
+			],
+			"entries": [
+				"Ruínas, fortalezas mortas, templos soterrados e cidades destruídas não são apenas lugares para você. Elas são sistemas quebrados que ainda podem ser lidos.",
+				{
+					"type": "entries",
+					"name": "Aumento de Atributo",
+					"entries": [
+						"Aumente seu valor de Destreza, Inteligência ou Sabedoria em 2, até o máximo de 20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Leitura de Estruturas Mortas",
+					"entries": [
+						"Você ganha Especialização em {@skill Investigation|XPHB|Investigação}, {@skill History|XPHB|História} ou {@skill Survival|XPHB|Sobrevivência}. Além disso, você tem {@variantrule Advantage|XPHB|Vantagem} em testes feitos com a perícia escolhida para explorar ruínas, fortalezas abandonadas, cidades destruídas, masmorras antigas ou estruturas colapsadas."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Instinto de Colapso",
+					"entries": [
+						"Você tem {@variantrule Advantage|XPHB|Vantagem} em testes de resistência contra armadilhas, desabamentos, pisos instáveis, mecanismos antigos e perigos ambientais de estruturas arruinadas. Quando obtiver sucesso em um desses testes, você pode mover-se 5 feet sem provocar {@action Opportunity Attack|XPHB|Ataques de Oportunidade}."
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"dex",
+							"int",
+							"wis"
+						],
+						"amount": 2
+					}
+				}
+			],
+			"expertise": [
+				{
+					"choose": {
+						"from": [
+							"investigation",
+							"history",
+							"survival"
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Presença de Último Recurso",
+			"source": "MundoDeKyrFeats",
+			"category": "BOOST",
+			"prerequisite": [
+				{
+					"level": 12
+				}
+			],
+			"entries": [
+				"Quando tudo falha, sua presença ainda organiza os outros. Você não precisa ter controle absoluto; basta impedir que o grupo se desfaça.",
+				{
+					"type": "entries",
+					"name": "Aumento de Atributo",
+					"entries": [
+						"Aumente seu valor de Sabedoria, Carisma ou Constituição em 2, até o máximo de 20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Centro da Crise",
+					"entries": [
+						"Criaturas aliadas a até 10 feet de você têm {@variantrule Advantage|XPHB|Vantagem} em testes de resistência contra {@condition Frightened|XPHB|Amedrontado} enquanto você não estiver {@condition Incapacitated|XPHB|Incapacitado}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Ordem no Colapso",
+					"entries": [
+						"A primeira vez em cada cena que uma criatura aliada a até 30 feet falhar em um teste de habilidade durante fuga, perseguição, desastre ambiental, colapso social, negociação crítica ou combate em desvantagem numérica, ela pode adicionar {@dice 1d6} ao resultado."
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"wis",
+							"cha",
+							"con"
+						],
+						"amount": 2
+					}
+				}
+			]
+		},
+		{
+			"name": "Pactuante sem Correntes",
+			"source": "MundoDeKyrFeats",
+			"category": "BOOST",
+			"prerequisite": [
+				{
+					"level": 12
+				}
+			],
+			"entries": [
+				"Você aprendeu a lidar com entidades, patronos, espíritos, nobres, demônios, deuses menores e forças antigas sem entregar a própria autonomia.",
+				{
+					"type": "entries",
+					"name": "Aumento de Atributo",
+					"entries": [
+						"Aumente seu valor de Inteligência, Sabedoria ou Carisma em 2, até o máximo de 20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Cláusula Interna",
+					"entries": [
+						"Você tem {@variantrule Advantage|XPHB|Vantagem} em testes de resistência contra compulsão, comandos sobrenaturais, juramentos forçados, geas, pactos coercitivos e efeitos mágicos que tentem restringir sua vontade."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Leitura Contratual",
+					"entries": [
+						"Em negociações com entidades poderosas, autoridades políticas, patronos, guildas, casas nobres, cultos ou forças extraplanares, você adiciona {@dice 1d6} a testes de {@skill Insight|XPHB|Intuição}, {@skill Investigation|XPHB|Investigação} ou {@skill Persuasion|XPHB|Persuasão} feitos para identificar termos abusivos, contradições, ameaças veladas, custos ocultos ou margem de negociação."
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"int",
+							"wis",
+							"cha"
+						],
+						"amount": 2
+					}
+				}
+			]
+		},
+		{
+			"name": "Cartógrafo de Fugas",
+			"source": "MundoDeKyrFeats",
+			"category": "BOOST",
+			"prerequisite": [
+				{
+					"level": 12
+				}
+			],
+			"entries": [
+				"Você não pensa em lugares como destinos. Você pensa em saídas, linhas de recuo, pontos cegos e rotas que ainda não foram usadas.",
+				{
+					"type": "entries",
+					"name": "Aumento de Atributo",
+					"entries": [
+						"Aumente seu valor de Destreza, Inteligência ou Sabedoria em 2, até o máximo de 20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Geometria de Retirada",
+					"entries": [
+						"Você tem {@variantrule Advantage|XPHB|Vantagem} em testes de {@skill Investigation|XPHB|Investigação}, {@skill Perception|XPHB|Percepção} e {@skill Survival|XPHB|Sobrevivência} feitos para encontrar rotas de fuga, atalhos, passagens ocultas, janelas táticas, pontos cegos ou caminhos alternativos."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Saída Calculada",
+					"entries": [
+						"A primeira vez em cada cena que você usar a ação {@action Disengage|XPHB|Desengajar}, Correr ou Esconder-se durante uma fuga, perseguição, infiltração ou cerco, você pode mover-se 10 feet adicionais e adicionar {@dice 1d6} ao próximo teste de Destreza, Inteligência ou Sabedoria feito para escapar, despistar, abrir caminho ou evitar captura antes do fim da cena."
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"dex",
+							"int",
+							"wis"
+						],
+						"amount": 2
+					}
+				}
+			]
+		},
+		{
+			"name": "Lenda Mal Contada",
+			"source": "MundoDeKyrFeats",
+			"category": "BOOST",
+			"prerequisite": [
+				{
+					"level": 12
+				}
+			],
+			"entries": [
+				"Histórias sobre você já começaram a se distorcer. Isso atrapalha inimigos, confunde testemunhas e torna difícil saber o que você realmente é capaz de fazer.",
+				{
+					"type": "entries",
+					"name": "Aumento de Atributo",
+					"entries": [
+						"Aumente seu valor de Carisma, Destreza ou Inteligência em 2, até o máximo de 20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Reputação Contraditória",
+					"entries": [
+						"Você tem {@variantrule Advantage|XPHB|Vantagem} em testes de {@skill Deception|XPHB|Enganação}, {@skill Performance|XPHB|Atuação} ou {@skill Stealth|XPHB|Furtividade} feitos para se passar por uma versão falsa, exagerada, incompleta ou contraditória de si mesmo."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Rumor Protetor",
+					"entries": [
+						"A primeira vez em cada cena que uma criatura fizer um teste para identificá-lo, prever suas capacidades, lembrar detalhes exatos sobre você, rastreá-lo por reputação ou usar seu nome contra você em contexto social, ela subtrai {@dice 1d6} do resultado."
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"cha",
+							"dex",
+							"int"
+						],
+						"amount": 2
+					}
+				}
+			]
+		},
+		{
+			"name": "Âncora de Era",
+			"source": "MundoDeKyrFeats",
+			"category": "BOOST",
+			"prerequisite": [
+				{
+					"level": 12
+				}
+			],
+			"entries": [
+				"Você carrega algo que pertence a uma era maior que a sua: um símbolo, cicatriz, relíquia, juramento ou verdade que faz o mundo antigo pesar sobre suas ações.",
+				{
+					"type": "entries",
+					"name": "Aumento de Atributo",
+					"entries": [
+						"Aumente um atributo à sua escolha em 2, até o máximo de 20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Peso Histórico",
+					"entries": [
+						"Você tem {@variantrule Advantage|XPHB|Vantagem} em testes de {@skill History|XPHB|História}, {@skill Religion|XPHB|Religião} ou {@skill Arcana|XPHB|Arcanismo} feitos para lidar com ruínas primordiais, relíquias antigas, linhagens esquecidas, registros de eras passadas, selos ancestrais ou forças anteriores aos reinos atuais."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Autoridade de Era",
+					"entries": [
+						"Quando interagir com guardiões, ordens antigas, instituições religiosas, casas nobres, cultos, estudiosos, relíquias conscientes, espíritos ou criaturas que reconheçam valor em antiguidade, linhagem, profecia ou tradição, você adiciona {@dice 1d6} a testes de {@skill Persuasion|XPHB|Persuasão}, {@skill Intimidation|XPHB|Intimidação}, {@skill Religion|XPHB|Religião} ou {@skill History|XPHB|História} feitos para exigir passagem, respeito, negociação, trégua ou reconhecimento formal."
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						],
+						"amount": 2
+					}
+				}
+			]
+		},
+		{
+			"name": "Mão Visível de Tarth",
+			"source": "MundoDeKyrFeats",
+			"page": 406,
+			"category": "BOOST",
+			"prerequisite": [
+				{
+					"level": 12,
+					"other": "Dois talentos da facção Guarda Luminar"
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"con",
+							"cha"
+						],
+						"amount": 2
+					}
+				}
+			],
+			"entries": [
+				"Você se tornou a face institucional da custódia e da ordem em campo.",
+				{
+					"type": "entries",
+					"name": "Aumento de Atributo",
+					"entries": [
+						"Aumente sua Força, Constituição ou Carisma em 2, até o máximo de 20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Ordem Imposta",
+					"entries": [
+						"Criaturas hostis a até 10 pés de você subtraem {@dice 1d4} do primeiro teste de {@skill Deception|XPHB|Enganação}, {@skill Intimidation|XPHB|Intimidação} ou {@skill Stealth|XPHB|Furtividade} que realizarem em cada cena."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Autoridade de Custódia",
+					"entries": [
+						"Quando você atingir uma criatura com um {@action Opportunity Attack|XPHB|Ataque de Oportunidade}, ela subtrai {@dice 1d4} do próximo teste de habilidade ou teste de resistência feito para escapar, mover-se contra sua contenção ou resistir a ser agarrada antes do fim do turno atual."
+					]
+				}
+			]
+		},
+		{
+			"name": "Arquiteto da Contenção",
+			"source": "MundoDeKyrFeats",
+			"page": 412,
+			"category": "BOOST",
+			"prerequisite": [
+				{
+					"level": 12,
+					"other": "Dois talentos da facção Colégio da Luz Vigilante"
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"int",
+							"wis",
+							"cha"
+						],
+						"amount": 2
+					}
+				}
+			],
+			"entries": [
+				"Sua leitura da magia permite conter antes da ruptura completa.",
+				{
+					"type": "entries",
+					"name": "Aumento de Atributo",
+					"entries": [
+						"Aumente sua Inteligência, Sabedoria ou Carisma em 2, até o máximo de 20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Leitura Preventiva",
+					"entries": [
+						"Você não pode ser Surpreendido por uma criatura cuja magia ou resíduo mágico você tenha detectado antes do início da cena."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Campo de Análise",
+					"entries": [
+						"Criaturas hostis a até 30 pés de você que estejam mantendo {@status Concentration|XPHB|Concentração} subtraem {@dice 1d4} do primeiro teste para manter {@status Concentration|XPHB|Concentração} que realizarem em cada rodada."
+					]
+				}
+			]
+		},
+		{
+			"name": "Pessoa que Não Consta",
+			"source": "MundoDeKyrFeats",
+			"page": 418,
+			"category": "BOOST",
+			"prerequisite": [
+				{
+					"level": 12,
+					"other": "Dois talentos da facção Véu de Nyxar"
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"dex",
+							"int",
+							"cha"
+						],
+						"amount": 2
+					}
+				}
+			],
+			"entries": [
+				"Você se tornou uma presença difícil de nomear, rastrear ou provar.",
+				{
+					"type": "entries",
+					"name": "Aumento de Atributo",
+					"entries": [
+						"Aumente sua Destreza, Inteligência ou Carisma em 2, até o máximo de 20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Identidade Fraturada",
+					"entries": [
+						"Você tem {@variantrule Advantage|XPHB|Vantagem} em testes de resistência contra adivinhação, leitura mental, compulsão de verdade e efeitos que tentem determinar seu nome verdadeiro, lealdade ou localização."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Desaparecimento Operacional",
+					"entries": [
+						"Quando você usar a ação {@action Hide|XPHB|Esconder-se}, {@action Disengage|XPHB|Desengajar} ou {@action Dash|XPHB|Correr} em {@variantrule Dim Light|XPHB|Luz Baixa}, {@variantrule Darkness|XPHB|Escuridão} ou multidão, {@action Opportunity Attack|XPHB|Ataques de Oportunidade} contra você têm {@variantrule Disadvantage|XPHB|Desvantagem} até o início do seu próximo turno. Se nenhum ataque atingir você durante esse movimento, você recebe +{@dice 1d6} no próximo teste de {@skill Stealth|XPHB|Furtividade} ou {@skill Deception|XPHB|Enganação} feito antes do fim da cena."
+					]
+				}
+			]
+		},
+		{
+			"name": "Primazia do Fluxo",
+			"source": "MundoDeKyrFeats",
+			"page": 424,
+			"category": "BOOST",
+			"prerequisite": [
+				{
+					"level": 12,
+					"other": "Dois talentos da facção Consórcio do Pulso Verde"
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"int",
+							"wis",
+							"cha"
+						],
+						"amount": 2
+					}
+				}
+			],
+			"entries": [
+				"Você domina a circulação de bens, rotas e concessões como força política.",
+				{
+					"type": "entries",
+					"name": "Aumento de Atributo",
+					"entries": [
+						"Aumente sua Inteligência, Sabedoria ou Carisma em 2, até o máximo de 20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Rede de Rotas",
+					"entries": [
+						"Você e aliados a até 30 pés adicionam {@dice 1d4} a testes feitos para viajar por rotas comerciais, evitar bloqueios, encontrar suprimentos ou negociar passagem."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Valor de Todas as Coisas",
+					"entries": [
+						"Uma vez por cena, quando uma criatura falhar em um teste social contestado contra você durante uma negociação, ela subtrai {@dice 1d4} do próximo teste social que fizer contra você antes do fim da cena, salvo se oferecer uma concessão concreta, como pagamento, informação, serviço, acesso ou prazo favorável."
+					]
+				}
+			]
+		},
+		{
+			"name": "Onde o Mapa Acaba",
+			"source": "MundoDeKyrFeats",
+			"page": 430,
+			"category": "BOOST",
+			"prerequisite": [
+				{
+					"level": 12,
+					"other": "Dois talentos da facção Caçadores da Orla"
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"dex",
+							"con",
+							"wis"
+						],
+						"amount": 2
+					}
+				}
+			],
+			"entries": [
+				"Você opera com segurança onde a cartografia termina.",
+				{
+					"type": "entries",
+					"name": "Aumento de Atributo",
+					"entries": [
+						"Aumente sua Destreza, Constituição ou Sabedoria em 2, até o máximo de 20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Sobrevivente do Desconhecido",
+					"entries": [
+						"Você ignora terreno difícil não mágico e tem {@variantrule Advantage|XPHB|Vantagem} em testes de resistência contra perigos ambientais naturais."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Caçada de Fronteira",
+					"entries": [
+						"Uma vez por turno, quando você causar dano a uma criatura que tenha rastreado, estudado ou identificado nesta cena, cause dano adicional igual ao seu {@variantrule Proficiency|XPHB|bônus de proficiência}. Esse benefício só pode afetar a mesma criatura uma vez por rodada."
+					]
+				}
+			]
+		},
+		{
+			"name": "Nada que Foi Vivido se Perde",
+			"source": "MundoDeKyrFeats",
+			"page": 436,
+			"category": "BOOST",
+			"prerequisite": [
+				{
+					"level": 12,
+					"other": "Dois talentos da facção Arquivistas da Raiz"
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"int",
+							"wis",
+							"cha"
+						],
+						"amount": 2
+					}
+				}
+			],
+			"entries": [
+				"Você tornou memória preservada em ferramenta de confronto, revelação e proteção.",
+				{
+					"type": "entries",
+					"name": "Aumento de Atributo",
+					"entries": [
+						"Aumente sua Inteligência, Sabedoria ou Carisma em 2, até o máximo de 20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Memória Preservada",
+					"entries": [
+						"Você e aliados a até 10 pés têm {@variantrule Advantage|XPHB|Vantagem} em testes de resistência contra efeitos que alterem memória, identidade ou percepção de eventos passados."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Arquivo Vivo",
+					"entries": [
+						"Quando você obtiver sucesso em um teste de {@skill History|XPHB|História}, {@skill Investigation|XPHB|Investigação}, {@skill Insight|XPHB|Intuição} ou {@skill Religion|XPHB|Religião} ligado a um evento apagado, escolha uma criatura que possa ouvir sua revelação. Até o fim da cena, você recebe +{@dice 1d6} no primeiro teste social feito contra essa criatura para confrontá-la, persuadi-la ou desestabilizá-la com essa verdade."
+					]
+				}
+			]
+		},
+		{
+			"name": "O Que Foi Arrancado Ainda Cresce",
+			"source": "MundoDeKyrFeats",
+			"page": 442,
+			"category": "BOOST",
+			"prerequisite": [
+				{
+					"level": 12,
+					"other": "Dois talentos da facção Herdeiros do Verde"
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"wis",
+							"cha"
+						],
+						"amount": 2
+					}
+				}
+			],
+			"entries": [
+				"Você se tornou símbolo funcional de resistência coletiva.",
+				{
+					"type": "entries",
+					"name": "Aumento de Atributo",
+					"entries": [
+						"Aumente sua Força, Sabedoria ou Carisma em 2, até o máximo de 20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Causa Inquebrável",
+					"entries": [
+						"Você e aliados a até 10 pés têm {@variantrule Advantage|XPHB|Vantagem} em testes de resistência contra {@condition Frightened|XPHB|Amedrontado} enquanto estiverem em menor número, fugindo de uma força estatal ou enfrentando agentes de uma facção opressora."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Crescimento da Revolta",
+					"entries": [
+						"Uma vez por turno, quando você causar dano a uma criatura que tenha causado dano a um aliado desde o início do seu último turno, escolha um aliado a até 30 pés. Esse aliado pode mover-se 5 pés sem provocar {@action Opportunity Attack|XPHB|Ataques de Oportunidade} e recebe +{@dice 1d4} no próximo teste de resistência contra {@condition Frightened|XPHB|Amedrontado} antes do início do seu próximo turno."
+					]
 				}
 			]
 		}
