@@ -704,42 +704,14 @@
 			"page": 0,
 			"edition": "one",
 			"subclassFeatures": [
-				"Magias Preparadas do Despertar Dracônico|Paladin|XPHB|Despertar Dracônico|MundoDeKyrSubclasses|3",
-				"Magias Dracônicas por Linhagem|Paladin|XPHB|Despertar Dracônico|MundoDeKyrSubclasses|3",
+							"Magias Dracônicas por Linhagem|Paladin|XPHB|Despertar Dracônico|MundoDeKyrSubclasses|3",
 				"Escolha do Dragão Ancestral|Paladin|XPHB|Despertar Dracônico|MundoDeKyrSubclasses|3",
 				"Aura Dracônica|Paladin|XPHB|Despertar Dracônico|MundoDeKyrSubclasses|7",
 				"Coração dos Primevos|Paladin|XPHB|Despertar Dracônico|MundoDeKyrSubclasses|15",
 				"Avatar Dracônico|Paladin|XPHB|Despertar Dracônico|MundoDeKyrSubclasses|20"
 			],
-			"hasFluff": true,
-			"additionalSpells": [
-				{
-					"prepared": {
-						"3": [
-							"Chromatic Orb|xphb",
-							"Golpe Cromático|MundoDeKyrLivroDasMagiasDeKyr"
-						],
-						"5": [
-							"Dragon's Breath|xphb",
-							"Arma Cromática|MundoDeKyrLivroDasMagiasDeKyr"
-						],
-						"9": [
-							"Fly|xphb",
-							"Fear|xphb"
-						],
-						"13": [
-							"Fire Shield|xphb",
-							"Fount of Moonlight|MundoDeKyrLivroDasMagiasDeKyr"
-						],
-						"17": [
-							"Flame Strike|xphb",
-							"Summon Dragon|MundoDeKyrLivroDasMagiasDeKyr"
-						]
-					}
-				}
-			]
-		},
-		{
+		}
+			{
 			"name": "Domínio do Caos",
 			"shortName": "Caos",
 			"source": "MundoDeKyrSubclasses",
