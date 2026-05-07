@@ -11,7 +11,7 @@
 				"convertedBy": [
 					"ChatGPT"
 				],
-				"version": "2.2.0",
+				"version": "2.3.0",
 				"url": "https://github.com/TheGiddyLimit/homebrew",
 				"dateAdded": 1778194620
 			}
@@ -417,9 +417,6 @@
 			"edition": "one",
 			"subclassFeatures": [
 				"Pacto do Eco|Warlock|XPHB|Eco|MundoDeKyrSubclasses|3",
-				"Marca da Degradação|Warlock|XPHB|Eco|MundoDeKyrSubclasses|3",
-				"Enraizamento Aethérico|Warlock|XPHB|Eco|MundoDeKyrSubclasses|3",
-				"Ressonância Íntegra|Warlock|XPHB|Eco|MundoDeKyrSubclasses|3",
 				"Corpo em Ressonância|Warlock|XPHB|Eco|MundoDeKyrSubclasses|6",
 				"Persistência do Vestígio|Warlock|XPHB|Eco|MundoDeKyrSubclasses|10",
 				"Aura Ecoante|Warlock|XPHB|Eco|MundoDeKyrSubclasses|14"
@@ -2204,152 +2201,161 @@
 			"level": 3,
 			"entries": [
 				"{@i 3º nível de característica de subclasse de Warlock.}",
-				"Ao atingir o 3º nível, você escolhe um tipo de Eco com o qual firma seu pacto: Eco Corrompido, Eco Rizomântico ou Eco Puro. Essa escolha é permanente e define a natureza do seu vínculo. Cada Eco concede uma lista de magias sempre preparadas e uma habilidade exclusiva no 3º nível. Além disso, ao escolher o Eco de seu pacto, ele concede acesso as magias da escola a ele vinculadas.",
-				"{@b Eco Corrompido}",
-				"O Eco Corrompido é o vestígio do que foi negado, apodrecido ou violentado pela realidade. Ele não busca destruir — apenas continuar existindo, mesmo que isso signifique degradar tudo ao redor.",
-				"{@b Magias do Eco Corrompido}",
-				"Você ganha acesso às magias da Escola de Umbramancia. Além disso, as magias a seguir estão sempre preparadas para você e não contam para o número de magias preparadas.",
+				"Ao atingir o 3º nível, você escolhe um tipo de Eco com o qual firma seu pacto: Eco Corrompido, Eco Rizomântico ou Eco Puro. Essa escolha é permanente e define a natureza do seu vínculo. Cada Eco concede uma lista de magias sempre preparadas e uma habilidade exclusiva no 3º nível. Além disso, ao escolher o Eco de seu pacto, ele concede acesso às magias da escola a ele vinculada.",
 				{
-					"type": "table",
-					"colLabels": [
-						"Nível de Bruxo",
-						"Magias"
-					],
-					"rows": [
-						[
-							"3",
-							"{@spell Arranhão de Ausência|MundoDeKyrLivroDasMagiasDeKyr}, {@spell Azorrague Infernal|MundoDeKyrLivroDasMagiasDeKyr}, {@spell Pressão do Vazio|MundoDeKyrLivroDasMagiasDeKyr}, {@spell Corte de Reação|MundoDeKyrLivroDasMagiasDeKyr}, {@spell Extração de Silêncio|MundoDeKyrLivroDasMagiasDeKyr}"
-						],
-						[
-							"5",
-							"{@spell Dreno de Ausência|MundoDeKyrLivroDasMagiasDeKyr}, {@spell Dispel Magic|XPHB}"
-						],
-						[
-							"7",
-							"{@spell Extração de Identidade|MundoDeKyrLivroDasMagiasDeKyr}, {@spell Zona de Não-Existência|MundoDeKyrLivroDasMagiasDeKyr}"
-						],
-						[
-							"9",
-							"{@spell Cancelamento de Vínculo|MundoDeKyrLivroDasMagiasDeKyr}, {@spell Raise Dead|XPHB}"
-						]
-					],
-					"caption": "Magias do Eco Corrompido",
-					"colStyles": [
-						"col-2 text-center",
-						"col-10"
+					"type": "entries",
+					"name": "Eco Corrompido",
+					"entries": [
+						"O Eco Corrompido é o vestígio do que foi negado, apodrecido ou violentado pela realidade. Ele não busca destruir — apenas continuar existindo, mesmo que isso signifique degradar tudo ao redor.",
+						{
+							"type": "entries",
+							"name": "Magias do Eco Corrompido",
+							"entries": [
+								"Você ganha acesso às magias da Escola de Umbramancia. Além disso, as magias a seguir estão sempre preparadas para você e não contam para o número de magias preparadas.",
+								{
+									"type": "table",
+									"colLabels": [
+										"Nível de Bruxo",
+										"Magias"
+									],
+									"rows": [
+										[
+											"3",
+											"{@spell Arranhão de Ausência|MundoDeKyrLivroDasMagiasDeKyr}, {@spell Azorrague Infernal|MundoDeKyrLivroDasMagiasDeKyr}, {@spell Pressão do Vazio|MundoDeKyrLivroDasMagiasDeKyr}, {@spell Corte de Reação|MundoDeKyrLivroDasMagiasDeKyr}, {@spell Extração de Silêncio|MundoDeKyrLivroDasMagiasDeKyr}"
+										],
+										[
+											"5",
+											"{@spell Dreno de Ausência|MundoDeKyrLivroDasMagiasDeKyr}, {@spell Dispel Magic|XPHB}"
+										],
+										[
+											"7",
+											"{@spell Extração de Identidade|MundoDeKyrLivroDasMagiasDeKyr}, {@spell Zona de Não-Existência|MundoDeKyrLivroDasMagiasDeKyr}"
+										],
+										[
+											"9",
+											"{@spell Cancelamento de Vínculo|MundoDeKyrLivroDasMagiasDeKyr}, {@spell Raise Dead|XPHB}"
+										]
+									],
+									"caption": "Magias do Eco Corrompido",
+									"colStyles": [
+										"col-2 text-center",
+										"col-10"
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Marca da Degradação",
+							"entries": [
+								"Quando você causar dano a uma criatura com uma magia de bruxo, você pode marcá-la com um sinal de decomposição até o início do seu próximo turno. Enquanto estiver marcada, a criatura tem desvantagem no primeiro teste de resistência que realizar antes do fim do efeito. Você pode usar esta habilidade um número de vezes igual ao seu modificador de Carisma (mínimo 1), recuperando todos os usos ao terminar um {@variantrule Short Rest|XPHB|Descanso Curto} ou longo."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Eco Rizomântico",
+					"entries": [
+						"O Eco Rizomântico é a memória viva do mundo: raízes que se espalham, laços que se recusam a romper, estruturas que sustentam mesmo após eras de abandono.",
+						{
+							"type": "entries",
+							"name": "Magias do Eco Rizomântico",
+							"entries": [
+								"Você ganha acesso às magias da Escola de Rizomancia. Além disso, as magias a seguir estão sempre preparadas para você e não contam para o número de magias preparadas.",
+								{
+									"type": "table",
+									"colLabels": [
+										"Nível de Bruxo",
+										"Magias"
+									],
+									"rows": [
+										[
+											"3",
+											"{@spell Pulso do Subsolo|MundoDeKyrLivroDasMagiasDeKyr}, {@spell Armadura de Espinhos|MundoDeKyrLivroDasMagiasDeKyr}, {@spell Goodberry|XPHB}, {@spell Leitura das Raízes Profundas|XPHB}, {@spell Ruptura Rizomática|MundoDeKyrLivroDasMagiasDeKyr}"
+										],
+										[
+											"5",
+											"{@spell Colapso Radicular|MundoDeKyrLivroDasMagiasDeKyr}, {@spell Prisão Rizomática|MundoDeKyrLivroDasMagiasDeKyr}"
+										],
+										[
+											"7",
+											"{@spell Erosão Vital|MundoDeKyrLivroDasMagiasDeKyr}, {@spell Guardião Rizomático|MundoDeKyrLivroDasMagiasDeKyr}"
+										],
+										[
+											"9",
+											"{@spell Rizoma da Retirada|MundoDeKyrLivroDasMagiasDeKyr}, {@spell Transferência Rizomática|MundoDeKyrLivroDasMagiasDeKyr}"
+										]
+									],
+									"caption": "Magias do Eco Rizomântico",
+									"colStyles": [
+										"col-2 text-center",
+										"col-10"
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Enraizamento Aethérico",
+							"entries": [
+								"Sempre que você conjurar uma magia de bruxo, você pode escolher uma criatura que possa ver a até 9 metros. A energia do rizoma ancestral pode ser canalizado através dessa criatura, concedendo a ela uma quantidade de {@variantrule Temporary Hit Points|XPHB|{@variantrule Hit Points|XPHB|Pontos de Vida} Temporários} igual seu nível de bruxo, mais seu modificador de Carisma (mínimo 1).",
+								"Você pode usar esta habilidade um número de vezes igual ao seu modificador de Carisma (mínimo 1), recuperando todos os usos ao terminar um {@variantrule Short Rest|XPHB|Descanso Curto} ou longo."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Eco Puro",
+					"entries": [
+						"O Eco Puro é aquilo que permaneceu íntegro: verdade sem ruído, vontade sem fratura, coerência absoluta. Ele não impõe moralidade, apenas alinhamento.",
+						{
+							"type": "entries",
+							"name": "Magias do Eco Puro",
+							"entries": [
+								"Você ganha acesso às magias da Escola de Ecomancia. Além disso, as magias a seguir estão sempre preparadas para você e não contam para o número de magias preparadas.",
+								{
+									"type": "table",
+									"colLabels": [
+										"Nível de Bruxo",
+										"Magias"
+									],
+									"rows": [
+										[
+											"3",
+											"{@spell Instante Suspenso|MundoDeKyrLivroDasMagiasDeKyr}, {@spell Bless|XPHB}, {@spell Eco Persistente|MundoDeKyrLivroDasMagiasDeKyr}, {@spell Lesser Restoration|XPHB}, {@spell Selo de Lembrança|MundoDeKyrLivroDasMagiasDeKyr}"
+										],
+										[
+											"5",
+											"{@spell Eco de Caminho|MundoDeKyrLivroDasMagiasDeKyr}, {@spell Spirit Guardians|XPHB}"
+										],
+										[
+											"7",
+											"{@spell Manifestação Ecoante|MundoDeKyrLivroDasMagiasDeKyr}, {@spell Reconstituir Cena|MundoDeKyrLivroDasMagiasDeKyr}"
+										],
+										[
+											"9",
+											"{@spell Linha de Causalidade|MundoDeKyrLivroDasMagiasDeKyr}, {@spell Holy Weapon|XPHB}"
+										]
+									],
+									"caption": "Magias do Eco Puro",
+									"colStyles": [
+										"col-2 text-center",
+										"col-10"
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Ressonância Íntegra",
+							"entries": [
+								"Quando uma criatura que você possa ver a até 18 metros faz uma rolagem de dado, você pode gastar sua reação para conceder um bônus à rolagem igual ao seu modificador de Carisma (mínimo 1). Você pode usar esta habilidade um número de vezes igual ao seu modificador de Carisma (mínimo 1), recuperando todos os usos ao terminar um {@variantrule Short Rest|XPHB|Descanso Curto} ou longo."
+							]
+						}
 					]
 				}
-			]
-		},
-		{
-			"name": "Marca da Degradação",
-			"source": "MundoDeKyrSubclasses",
-			"page": 0,
-			"className": "Warlock",
-			"classSource": "XPHB",
-			"subclassShortName": "Eco",
-			"subclassSource": "MundoDeKyrSubclasses",
-			"level": 3,
-			"entries": [
-				"{@i 3º nível de característica de subclasse de Warlock.}",
-				"Quando você causar dano a uma criatura com uma magia de bruxo, você pode marcá-la com um sinal de decomposição até o início do seu próximo turno. Enquanto estiver marcada, a criatura tem desvantagem no primeiro teste de resistência que realizar antes do fim do efeito. Você pode usar esta habilidade um número de vezes igual ao seu modificador de Carisma (mínimo 1), recuperando todos os usos ao terminar um {@variantrule Short Rest|XPHB|Descanso Curto} ou longo.",
-				"{@b Eco Rizomântico}",
-				"O Eco Rizomântico é a memória viva do mundo: raízes que se espalham, laços que se recusam a romper, estruturas que sustentam mesmo após eras de abandono.",
-				"{@b Magias do Eco Rizomântico}",
-				"Você ganha acesso às magias da Escola de Rizomancia. Além disso, as magias a seguir estão sempre preparadas para você e não contam para o número de magias preparadas.",
-				{
-					"type": "table",
-					"colLabels": [
-						"Nível de Bruxo",
-						"Magias"
-					],
-					"rows": [
-						[
-							"3",
-							"{@spell Pulso do Subsolo|MundoDeKyrLivroDasMagiasDeKyr}, {@spell Armadura de Espinhos|MundoDeKyrLivroDasMagiasDeKyr}, {@spell Goodberry|XPHB}, {@spell Leitura das Raízes Profundas|XPHB}, {@spell Ruptura Rizomática|MundoDeKyrLivroDasMagiasDeKyr}"
-						],
-						[
-							"5",
-							"{@spell Colapso Radicular|MundoDeKyrLivroDasMagiasDeKyr}, {@spell Prisão Rizomática|MundoDeKyrLivroDasMagiasDeKyr}"
-						],
-						[
-							"7",
-							"{@spell Erosão Vital|MundoDeKyrLivroDasMagiasDeKyr}, {@spell Guardião Rizomático|MundoDeKyrLivroDasMagiasDeKyr}"
-						],
-						[
-							"9",
-							"{@spell Rizoma da Retirada|MundoDeKyrLivroDasMagiasDeKyr}, {@spell Transferência Rizomática|MundoDeKyrLivroDasMagiasDeKyr}"
-						]
-					],
-					"caption": "Magias do Eco Rizomântico",
-					"colStyles": [
-						"col-2 text-center",
-						"col-10"
-					]
-				}
-			]
-		},
-		{
-			"name": "Enraizamento Aethérico",
-			"source": "MundoDeKyrSubclasses",
-			"page": 0,
-			"className": "Warlock",
-			"classSource": "XPHB",
-			"subclassShortName": "Eco",
-			"subclassSource": "MundoDeKyrSubclasses",
-			"level": 3,
-			"entries": [
-				"{@i 3º nível de característica de subclasse de Warlock.}",
-				"Sempre que você conjurar uma magia de bruxo, você pode escolher uma criatura que possa ver a até 9 metros. A energia do rizoma ancestral pode ser canalizado através dessa criatura, concedendo a ela uma quantidade de {@variantrule Temporary Hit Points|XPHB|{@variantrule Hit Points|XPHB|Pontos de Vida} Temporários} igual seu nível de bruxo, mais seu modificador de Carisma (mínimo 1).",
-				"Você pode usar esta habilidade um número de vezes igual ao seu modificador de Carisma (mínimo 1), recuperando todos os usos ao terminar um {@variantrule Short Rest|XPHB|Descanso Curto} ou longo.",
-				"{@b Eco Puro}",
-				"O Eco Puro é aquilo que permaneceu íntegro: verdade sem ruído, vontade sem fratura, coerência absoluta. Ele não impõe moralidade, apenas alinhamento.",
-				"{@b Magias do Eco Puro}",
-				"Você ganha acesso às magias da Escola de Ecomancia. Além disso, as magias a seguir estão sempre preparadas para você e não contam para o número de magias preparadas.",
-				{
-					"type": "table",
-					"colLabels": [
-						"Nível de Bruxo",
-						"Magias"
-					],
-					"rows": [
-						[
-							"3",
-							"{@spell Instante Suspenso|MundoDeKyrLivroDasMagiasDeKyr}, {@spell Bless|XPHB}, {@spell Eco Persistente|MundoDeKyrLivroDasMagiasDeKyr}, {@spell Lesser Restoration|XPHB}, {@spell Selo de Lembrança|MundoDeKyrLivroDasMagiasDeKyr}"
-						],
-						[
-							"5",
-							"{@spell Eco de Caminho|MundoDeKyrLivroDasMagiasDeKyr}, {@spell Spirit Guardians|XPHB}"
-						],
-						[
-							"7",
-							"{@spell Manifestação Ecoante|MundoDeKyrLivroDasMagiasDeKyr}, {@spell Reconstituir Cena|MundoDeKyrLivroDasMagiasDeKyr}"
-						],
-						[
-							"9",
-							"{@spell Linha de Causalidade|MundoDeKyrLivroDasMagiasDeKyr}, {@spell Holy Weapon|XPHB}"
-						]
-					],
-					"caption": "Magias do Eco Puro",
-					"colStyles": [
-						"col-2 text-center",
-						"col-10"
-					]
-				}
-			]
-		},
-		{
-			"name": "Ressonância Íntegra",
-			"source": "MundoDeKyrSubclasses",
-			"page": 0,
-			"className": "Warlock",
-			"classSource": "XPHB",
-			"subclassShortName": "Eco",
-			"subclassSource": "MundoDeKyrSubclasses",
-			"level": 3,
-			"entries": [
-				"{@i 3º nível de característica de subclasse de Warlock.}",
-				"Quando uma criatura que você possa ver a até 18 metros faz uma rolagem de dado, você pode gastar sua reação para conceder um bônus à rolagem igual ao seu modificador de Carisma (mínimo 1). Você pode usar esta habilidade um número de vezes igual ao seu modificador de Carisma (mínimo 1), recuperando todos os usos ao terminar um {@variantrule Short Rest|XPHB|Descanso Curto} ou longo."
 			]
 		},
 		{
@@ -2399,13 +2405,28 @@
 			"entries": [
 				"{@i 14º nível de característica de subclasse de Warlock.}",
 				"Você se torna uma manifestação viva do vestígio que o sustenta. Uma vez por {@variantrule Long Rest|XPHB|Descanso Longo}, como Ação Bônus, você manifesta uma aura de ressonância com 9 metros de raio que dura 1 minuto ou até você ficar {@condition Incapacitated|XPHB|Incapacitado}. A aura se move com você. O efeito da aura depende do Eco com o qual você firmou pacto.",
-				"{@b Eco Corrompido — Campo de Degradação}",
-				"A realidade ao seu redor começa a falhar. Criaturas hostis que iniciarem o turno na aura devem realizar um teste de resistência de Carisma contra sua CD de magia de bruxo. Em caso de falha, sofrem {@dice 4d8} de dano necrótico e têm desvantagem no próximo teste de resistência que realizarem antes do início do turno seguinte delas. Em caso de sucesso, sofrem metade do dano e não sofrem a desvantagem.",
-				"{@b Eco Rizomântico — Campo de Sustentação}",
-				"Raízes invisíveis se estendem sob todos os pés. Criaturas aliadas que iniciarem o turno na aura recebem {@variantrule Temporary Hit Points|XPHB|{@variantrule Hit Points|XPHB|Pontos de Vida} Temporários} iguais ao seu modificador de Carisma + seu nível de bruxo. Enquanto possuírem esses {@variantrule Temporary Hit Points|XPHB|{@variantrule Hit Points|XPHB|Pontos de Vida} Temporários}, têm vantagem em testes de resistência para manter Concentração.",
-				"{@b Eco Puro — Campo de Alinhamento}",
-				"A coerência do mundo se impõe. Criaturas aliadas que iniciarem o turno na aura podem escolher rolar novamente um dado de ataque, teste de habilidade ou teste de resistência que realizarem naquele turno, devendo usar o novo resultado. Cada criatura pode se beneficiar disso apenas uma vez por turno.",
-				"Criaturas aliadas beneficiadas pela aura têm Vantagem em testes de resistência contra magias."
+				{
+					"type": "entries",
+					"name": "Eco Corrompido — Campo de Degradação",
+					"entries": [
+						"A realidade ao seu redor começa a falhar. Criaturas hostis que iniciarem o turno na aura devem realizar um teste de resistência de Carisma contra sua CD de magia de bruxo. Em caso de falha, sofrem {@dice 4d8} de dano necrótico e têm desvantagem no próximo teste de resistência que realizarem antes do início do turno seguinte delas. Em caso de sucesso, sofrem metade do dano e não sofrem a desvantagem."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Eco Rizomântico — Campo de Sustentação",
+					"entries": [
+						"Raízes invisíveis se estendem sob todos os pés. Criaturas aliadas que iniciarem o turno na aura recebem {@variantrule Temporary Hit Points|XPHB|{@variantrule Hit Points|XPHB|Pontos de Vida} Temporários} iguais ao seu modificador de Carisma + seu nível de bruxo. Enquanto possuírem esses {@variantrule Temporary Hit Points|XPHB|{@variantrule Hit Points|XPHB|Pontos de Vida} Temporários}, têm vantagem em testes de resistência para manter Concentração."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Eco Puro — Campo de Alinhamento",
+					"entries": [
+						"A coerência do mundo se impõe. Criaturas aliadas que iniciarem o turno na aura podem escolher rolar novamente um dado de ataque, teste de habilidade ou teste de resistência que realizarem naquele turno, devendo usar o novo resultado. Cada criatura pode se beneficiar disso apenas uma vez por turno.",
+						"Criaturas aliadas beneficiadas pela aura têm Vantagem em testes de resistência contra magias."
+					]
+				}
 			]
 		},
 		{
