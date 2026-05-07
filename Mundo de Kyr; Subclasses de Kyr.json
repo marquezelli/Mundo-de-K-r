@@ -11,7 +11,7 @@
 				"convertedBy": [
 					"ChatGPT"
 				],
-				"version": "2.6.0",
+				"version": "2.5.0",
 				"url": "https://github.com/TheGiddyLimit/homebrew",
 				"dateAdded": 1778194620
 			}
@@ -5214,61 +5214,23 @@
 					"name": "Oscilação Caótica",
 					"entries": [
 						"Uma vez por turno, quando você causar dano com uma magia de clérigo, role {@dice 1d10} para determinar o tipo de energia liberada:",
+						"{@b d10    Damage Type}",
+						"{@b 1    Acid}",
+						"{@b 2    Cold}",
+						"{@b 3    Fire}",
+						"{@b 4    Force}",
+						"{@b 5    Lightning}",
+						"{@b 6    Necrotic}",
+						"{@b 7    Poison}",
+						"{@b 8    Psychic}",
+						"{@b 9    Radiant}",
 						{
-							"type": "table",
-							"caption": "Oscilação Caótica",
-							"colLabels": [
-								"{@dice d10}",
-								"Tipo de Dano"
-							],
-							"colStyles": [
-								"col-2 text-center",
-								"col-10"
-							],
-							"rows": [
-								[
-									1,
-									"Ácido"
-								],
-								[
-									2,
-									"Frio"
-								],
-								[
-									3,
-									"Fogo"
-								],
-								[
-									4,
-									"Força"
-								],
-								[
-									5,
-									"Relâmpago"
-								],
-								[
-									6,
-									"Necrótico"
-								],
-								[
-									7,
-									"Veneno"
-								],
-								[
-									8,
-									"Psíquico"
-								],
-								[
-									9,
-									"Radiante"
-								],
-								[
-									10,
-									"Trovejante"
-								]
+							"type": "entries",
+							"name": "10    Thunder",
+							"entries": [
+								"Você pode aceitar o resultado ou sofrer {@dice 1d6} de dano do tipo rolado para escolher outro resultado à sua vontade."
 							]
-						},
-						"Você pode aceitar o resultado ou sofrer {@dice 1d6} de dano do tipo rolado para escolher outro resultado à sua vontade."
+						}
 					]
 				},
 				{
@@ -5276,7 +5238,7 @@
 					"name": "Canalizar Divindade: Surto Entrópico",
 					"entries": [
 						"“Quebre o que parecia certo.”",
-						"Como {@variantrule Magic Action|XPHB}, você libera uma explosão de instabilidade primordial. Criaturas de sua escolha em um raio de 9 m (30 ft.) devem fazer um teste de resistência de Constituição. Em caso de falha sofrem {@dice 3d10} de dano caótico (o tipo é determinado pela Oscilação Caótica) e ficam Desorientadas (desvantagem no próximo ataque ou teste de resistência). Sofrem metade do dano e nenhum efeito adicional em caso de sucesso.",
+						"Como {@variantrule {@variantrule Magic Action|XPHB}|XPHB}, você libera uma explosão de instabilidade primordial. Criaturas de sua escolha em um raio de 9 m (30 ft.) devem fazer um teste de resistência de Constituição. Em caso de falha sofrem {@dice 3d10} de dano caótico (o tipo é determinado pela Oscilação Caótica) e ficam Desorientadas (desvantagem no próximo ataque ou teste de resistência). Sofrem metade do dano e nenhum efeito adicional em caso de sucesso.",
 						"Além disso, até o início do seu próximo turno, qualquer magia conjurada na área trata resultados de 1 e 20 no d20 como críticos automáticos."
 					]
 				}
