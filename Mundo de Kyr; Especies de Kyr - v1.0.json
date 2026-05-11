@@ -11,7 +11,7 @@
 				"convertedBy": [
 					"ChatGPT"
 				],
-				"version": "1.0.0",
+				"version": "2.0.0",
 				"url": "https://github.com/TheGiddyLimit/homebrew",
 				"dateAdded": 1778452149
 			}
@@ -33,7 +33,6 @@
 				"fey"
 			],
 			"entries": [
-				"{@i [Kÿr – Aetherin Aquático]}",
 				"{@b Tipo de Criatura:} Feérico",
 				"{@b Tamanho:} Médio",
 				"{@b Deslocamento:} 9 metros (30 pés), natação 9 metros (30 pés)",
@@ -48,7 +47,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Visão Aquática (1,5 Pontos)",
+					"name": "Visão Aquática (2 Pontos)",
 					"entries": [
 						"Você possui Visão no Escuro com alcance de 18 metros (60 pés). Além disso, você não sofre desvantagem em testes de Sabedoria ({@skill Perception|XPHB|Percepção}) baseados em visão enquanto estiver submerso em água clara."
 					]
@@ -62,7 +61,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Passo das Correntes (1,5 Pontos)",
+					"name": "Passo das Correntes (1 Ponto)",
 					"entries": [
 						"Você ignora terreno difícil não mágico causado por água, lama, pântano, chuva intensa ou superfícies inundadas."
 					]
@@ -76,7 +75,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Magia do Aether Aquático (3 Pontos)",
+					"name": "Magia do Aether Aquático (4 Pontos)",
 					"entries": [
 						"Você conhece o truque {@spell Shape Water|XGE|shape water}. A partir do 3º nível, você pode conjurar {@spell Create Or Destroy Water|XPHB|create or destroy water} com este traço. A partir do 5º nível, você também pode conjurar {@spell Water Walk|XPHB|water walk} com este traço. Depois de conjurar uma dessas magias com este traço, você não pode conjurá-la novamente com ele até terminar um {@variantrule Long Rest|XPHB|Descanso Longo}. Você também pode conjurá-las usando espaços de magia que possua. Inteligência, Sabedoria ou Carisma é sua habilidade de conjuração, escolhida ao criar o personagem."
 					]
@@ -108,7 +107,6 @@
 				"fey"
 			],
 			"entries": [
-				"{@i [Kÿr – Aetherin Ígneo]}",
 				"{@b Tipo de Criatura:} Feérico",
 				"{@b Tamanho:} Médio",
 				"{@b Deslocamento:} 9 metros (30 pés)",
@@ -130,14 +128,14 @@
 				},
 				{
 					"type": "entries",
-					"name": "Passo das Brasas (1,5 Pontos)",
+					"name": "Passo das Brasas (1 Ponto)",
 					"entries": [
 						"Você ignora terreno difícil não mágico causado por cinzas, brasas, lava resfriada, superfícies superaquecidas ou escombros queimados."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Explosão Reflexa (2,5 Pontos)",
+					"name": "Explosão Reflexa (3 Pontos)",
 					"entries": [
 						"Quando uma criatura que você possa ver acertar você com um ataque corpo a corpo, você pode usar sua reação para causar dano de fogo à criatura igual ao seu bônus de proficiência + seu modificador de Constituição, Inteligência ou Carisma (escolha ao criar o personagem). Você pode usar este traço um número de vezes igual ao seu bônus de proficiência, recuperando todos os usos ao terminar um {@variantrule Long Rest|XPHB|Descanso Longo}."
 					]
@@ -151,9 +149,9 @@
 				},
 				{
 					"type": "entries",
-					"name": "Magia do Aether Ígneo (3 Pontos)",
+					"name": "Magia do Aether Ígneo (4 Pontos)",
 					"entries": [
-						"Você conhece o truque control flames. A partir do 3º nível, você pode conjurar {@spell Burning Hands|XPHB|burning hands} com este traço. A partir do 5º nível, você também pode conjurar {@spell Flaming Sphere|XPHB|flaming sphere} com este traço. Depois de conjurar uma dessas magias com este traço, você não pode conjurá-la novamente com ele até terminar um {@variantrule Long Rest|XPHB|Descanso Longo}. Você também pode conjurá-las usando espaços de magia que possua. Inteligência, Sabedoria ou Carisma é sua habilidade de conjuração, escolhida ao criar o personagem."
+						"Você conhece o truque {@spell Control Flames|XGE|control flames}. A partir do 3º nível, você pode conjurar {@spell Burning Hands|XPHB|burning hands} com este traço. A partir do 5º nível, você também pode conjurar {@spell Flaming Sphere|XPHB|flaming sphere} com este traço. Depois de conjurar uma dessas magias com este traço, você não pode conjurá-la novamente com ele até terminar um {@variantrule Long Rest|XPHB|Descanso Longo}. Você também pode conjurá-las usando espaços de magia que possua. Inteligência, Sabedoria ou Carisma é sua habilidade de conjuração, escolhida ao criar o personagem."
 					]
 				},
 				{
@@ -182,7 +180,6 @@
 				"fey"
 			],
 			"entries": [
-				"{@i [Kÿr – Aetherin Aéreo]}",
 				"{@b Tipo de Criatura:} Feérico",
 				"{@b Tamanho:} Médio",
 				"{@b Deslocamento:} 9 metros (30 pés)",
@@ -204,23 +201,23 @@
 				},
 				{
 					"type": "entries",
-					"name": "Passo das Brisas (1,5 Pontos)",
+					"name": "Passo das Brisas (1 Ponto)",
 					"entries": [
 						"Você ignora terreno difícil não mágico causado por vento forte, detritos leves, areia solta, neve superficial ou superfícies instáveis."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Impulso Aéreo (2,5 Pontos)",
+					"name": "Impulso Aéreo (2 Pontos)",
 					"entries": [
 						"Como uma ação bônus, você ganha deslocamento de voo de 9 metros (30 pés) até o final do turno atual. Se terminar esse movimento no ar, você cai normalmente. Você pode usar este traço um número de vezes igual ao seu bônus de proficiência, recuperando todos os usos ao terminar um {@variantrule Long Rest|XPHB|Descanso Longo}."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Queda Suave (1,5 Pontos)",
+					"name": "Queda Suave (1 Ponto)",
 					"entries": [
-						"Quando você cair e não estiver {@condition Incapacitated|XPHB|Incapacitado}, pode usar sua reação para reduzir o dano de queda a 0."
+						"Quando você cair e não estiver incapacitado, pode usar sua reação para reduzir o dano de queda a 0."
 					]
 				},
 				{
@@ -232,16 +229,16 @@
 				},
 				{
 					"type": "entries",
-					"name": "Magia do Aether Aéreo (3 Pontos)",
+					"name": "Magia do Aether Aéreo (4 Pontos)",
 					"entries": [
 						"Você conhece o truque {@spell Thunderclap|XGE|thunderclap}. A partir do 3º nível, você pode conjurar {@spell Feather Fall|XPHB|feather fall} com este traço. A partir do 5º nível, você também pode conjurar {@spell Gust Of Wind|XPHB|gust of wind} com este traço. Depois de conjurar uma dessas magias com este traço, você não pode conjurá-la novamente com ele até terminar um {@variantrule Long Rest|XPHB|Descanso Longo}. Você também pode conjurá-las usando espaços de magia que possua. Inteligência, Sabedoria ou Carisma é sua habilidade de conjuração, escolhida ao criar o personagem."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Fonte Primordial (0,5 Ponto)",
+					"name": "Fonte Primordial (2 Pontos)",
 					"entries": [
-						"Você ganha acesso à Fonte Primordial. Nesta linhagem, o peso principal da Fonte já está absorvido pela progressão de magia."
+						"Você ganha acesso à Fonte Primordial."
 					]
 				},
 				"{@b Total:} 16 Pontos"
@@ -263,7 +260,6 @@
 				"fey"
 			],
 			"entries": [
-				"{@i [Kÿr – Aetherin Telúrico]}",
 				"{@b Tipo de Criatura:} Feérico",
 				"{@b Tamanho:} Médio",
 				"{@b Deslocamento:} 9 metros (30 pés)",
@@ -285,7 +281,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Passo das Rochas (1,5 Pontos)",
+					"name": "Passo das Rochas (1 Ponto)",
 					"entries": [
 						"Você ignora terreno difícil não mágico causado por pedra solta, cascalho, entulho, túneis estreitos, lama endurecida ou superfícies naturais irregulares."
 					]
@@ -301,28 +297,28 @@
 					"type": "entries",
 					"name": "Casca Telúrica (2 Pontos)",
 					"entries": [
-						"Quando você não estiver usando armadura, sua Classe de Armadura base é 12 + seu modificador de Constituição. Você pode usar um escudo e ainda receber esse benefício."
+						"Quando você não estiver usando armadura, sua {@variantrule Armor Class|XPHB|Classe de Armadura} base é 12 + seu modificador de Constituição. Você pode usar um escudo e ainda receber esse benefício."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Impacto de Pedra (2 Pontos)",
+					"name": "Impacto de Pedra (1 Ponto)",
 					"entries": [
 						"Uma vez por turno, quando você acertar uma criatura Grande ou menor com um ataque corpo a corpo, você pode empurrá-la 1,5 metro (5 pés). Você pode usar este traço um número de vezes igual ao seu bônus de proficiência, recuperando todos os usos ao terminar um {@variantrule Long Rest|XPHB|Descanso Longo}."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Magia do Aether Telúrico (3 Pontos)",
+					"name": "Magia do Aether Telúrico (4 Pontos)",
 					"entries": [
 						"Você conhece o truque {@spell Blade Ward|XPHB|blade ward}. A partir do 3º nível, você pode conjurar {@spell Espinho Ascendente|MundoDeKyrLivroDasMagiasDeKyr|Espinho Ascendente} com este traço. A partir do 5º nível, você também pode conjurar {@spell Ruptura Rizomática|MundoDeKyrLivroDasMagiasDeKyr|Ruptura Rizomática} com este traço. Depois de conjurar uma dessas magias com este traço, você não pode conjurá-la novamente com ele até terminar um {@variantrule Long Rest|XPHB|Descanso Longo}. Você também pode conjurá-las usando espaços de magia que possua. Inteligência, Sabedoria ou Carisma é sua habilidade de conjuração, escolhida ao criar o personagem."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Fonte Primordial (0,5 Ponto)",
+					"name": "Fonte Primordial (2 Pontos)",
 					"entries": [
-						"Você ganha acesso à Fonte Primordial. Nesta linhagem, o peso principal da Fonte já está absorvido pela progressão de magia."
+						"Você ganha acesso à Fonte Primordial."
 					]
 				},
 				"{@b Total:} 16 Pontos"
@@ -344,7 +340,6 @@
 				"fey"
 			],
 			"entries": [
-				"{@i [Kÿr – Aetherin Sombrio]}",
 				"{@b Tipo de Criatura:} Feérico",
 				"{@b Tamanho:} Médio",
 				"{@b Deslocamento:} 9 metros (30 pés)",
@@ -352,14 +347,14 @@
 				"Apresentam marcas de influência sombria: olhos incomuns, sombras persistentes, pele roxa ou tatuagens umbromantes.",
 				{
 					"type": "entries",
-					"name": "Visão Umbral (1,5 Pontos)",
+					"name": "Visão Umbral (2 Pontos)",
 					"entries": [
 						"Você possui Visão no Escuro com alcance de 18 metros (60 pés). Em escuridão total, enxerga formas com nitidez incomum, ignorando obscurecimento leve."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Marca do Véu (2,5 Pontos)",
+					"name": "Marca do Véu (3 Pontos)",
 					"entries": [
 						"Você tem vantagem em testes de resistência para evitar ou encerrar as condições {@condition Frightened|XPHB|Amedrontado} e {@condition Charmed|XPHB|Enfeitiçado}."
 					]
@@ -380,14 +375,14 @@
 				},
 				{
 					"type": "entries",
-					"name": "Magia do Véu Sombrio (3 Pontos)",
+					"name": "Magia do Véu Sombrio (4 Pontos)",
 					"entries": [
 						"Você conhece o truque {@spell Arranhão de Ausência|MundoDeKyrLivroDasMagiasDeKyr|Arranhão de Ausência}. A partir do 3º nível, você pode conjurar {@spell Pressão do Vazio|MundoDeKyrLivroDasMagiasDeKyr|Pressão do Vazio} com este traço. A partir do 5º nível, você também pode conjurar {@spell Extração de Silêncio|MundoDeKyrLivroDasMagiasDeKyr|Extração de Silêncio} com este traço. Depois de conjurar uma dessas magias com este traço, você não pode conjurá-la novamente com ele até terminar um {@variantrule Long Rest|XPHB|Descanso Longo}. Você também pode conjurá-las usando espaços de magia que possua. Inteligência, Sabedoria ou Carisma é sua habilidade de conjuração, escolhida ao criar o personagem."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Fonte Sombria (3 Pontos)",
+					"name": "Fonte Sombria (2 Pontos)",
 					"entries": [
 						"Você ganha acesso à Fonte Sombria."
 					]
@@ -410,12 +405,18 @@
 				"fey"
 			],
 			"entries": [
-				"{@i [Kÿr – Aetherborn]}",
 				"{@b Tipo de Criatura:} Feérico",
 				"{@b Tamanho:} Médio",
 				"{@b Deslocamento:} 9 metros (30 pés)",
 				"Veyra não possuem ciclo de vida natural estável. São criaturas que tiveram Aether infundido no corpo, preservando traços e memórias de uma existência anterior.",
 				"Sua aparência pode incluir pele azulada, veios dourados, olhos assimétricos, marcas pulsantes ou sinais de instabilidade corporal.",
+				{
+					"type": "entries",
+					"name": "Infusão de Aether (8 Pontos)",
+					"entries": [
+						"Um atributo à sua escolha aumenta em 1, até o máximo de 20."
+					]
+				},
 				{
 					"type": "entries",
 					"name": "Visão Aetérea (1 Ponto)",
@@ -432,23 +433,16 @@
 				},
 				{
 					"type": "entries",
-					"name": "Fome Vital (-1 Ponto)",
+					"name": "Fome Vital (-4 Pontos)",
 					"entries": [
-						"A cada 2 dias, você deve consumir energia vital de uma criatura viva. Isso ocorre quando reduz uma criatura a 0 pontos de vida ou causa dano com seu Drenar Vida. Caso não satisfaça essa necessidade, você sofre {@dice 2d6} de dano de força, e seu máximo de pontos de vida é reduzido em quantidade igual ao dano sofrido. Essa redução não pode ser prevenida ou reduzida. Seu máximo retorna ao normal quando satisfaz a Fome Vital."
+						"Sua existência exige consumo periódico de energia vital. Uma vez a cada 2 dias, ou antes de terminar seu segundo {@variantrule Long Rest|XPHB|Descanso Longo} desde a última alimentação, você deve satisfazer essa fome por meio de seu Drenar Vida ou ao reduzir uma criatura viva significativa a 0 pontos de vida. Se você não satisfizer a Fome Vital dentro desse período, sofre 1 nível de Exaustão ao final do {@variantrule Long Rest|XPHB|Descanso Longo}. Essa Exaustão não pode ser removida enquanto você não satisfizer a Fome Vital. Além disso, enquanto estiver sob os efeitos dessa Fome Vital não satisfeita, você não recupera usos de Drenar Vida nem de Ruptura de Forma ao terminar um {@variantrule Long Rest|XPHB|Descanso Longo}. Depois que você satisfaz a Fome Vital, passa a poder remover normalmente a Exaustão causada por este traço."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Drenar Vida (3 Pontos)",
 					"entries": [
-						"Seus ataques desarmados causam {@dice 1d4} de dano necrótico em vez do dano normal. Você pode usar Constituição no lugar de Força para as jogadas de ataque e dano desses ataques. Quando causa dano com esse ataque, recupera pontos de vida iguais ao dano causado. Você pode recuperar pontos de vida dessa forma um número de vezes igual ao seu bônus de proficiência, recuperando todos os usos ao terminar um {@variantrule Long Rest|XPHB|Descanso Longo}."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Instabilidade Existencial (3 Pontos)",
-					"entries": [
-						"Quando você falhar em um teste de resistência, pode escolher obter sucesso em vez disso. Ao fazê-lo, sofre dano de força igual ao dobro do seu bônus de proficiência. Esse dano não pode ser reduzido. Depois de usar este traço, você não pode usá-lo novamente até terminar um {@variantrule Long Rest|XPHB|Descanso Longo}."
+						"Seus ataques desarmados causam {@dice 1d4} de dano necrótico em vez do dano normal. Você pode usar Constituição no lugar de Força para as jogadas de ataque e dano desses ataques. Quando causa dano com esse ataque a uma criatura que não seja Constructo nem Morto-Vivo, você recupera pontos de vida iguais ao dano causado. Você pode recuperar pontos de vida dessa forma um número de vezes igual ao seu bônus de proficiência, recuperando todos os usos ao terminar um {@variantrule Long Rest|XPHB|Descanso Longo}."
 					]
 				},
 				{
@@ -460,16 +454,32 @@
 				},
 				{
 					"type": "entries",
-					"name": "Fonte Aetérea (3 Pontos)",
+					"name": "Fonte Aetérea (2 Pontos)",
 					"entries": [
-						"Você ganha acesso à Fonte Primordial ou Sombria (escolha ao criar o personagem). Você pode conjurar magias associadas à Fonte escolhida mesmo que sua classe normalmente não tenha acesso a ela, desde que possua espaços de magia apropriados."
+						"Você ganha acesso à Fonte Primordial ou à Fonte Sombria, escolhida ao criar o personagem. Você pode conjurar magias associadas à Fonte escolhida mesmo que sua classe normalmente não tenha acesso a ela, desde que possua espaços de magia apropriados."
 					]
 				},
 				"{@b Total:} 16 Pontos"
 			],
 			"traitTags": [
+				"Ability Score Increase",
 				"Damage Resistance",
 				"Darkvision"
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						],
+						"amount": 1
+					}
+				}
 			]
 		},
 		{
@@ -488,7 +498,6 @@
 					"type": "entries",
 					"name": "Traços Base de Anão",
 					"entries": [
-						"{@i [Kÿr – Dwarf]}",
 						"{@b Tipo de Criatura:} Humanoide",
 						"{@b Tamanho:} Médio",
 						"{@b Deslocamento:} 9 metros (30 pés)",
@@ -535,7 +544,6 @@
 					"type": "entries",
 					"name": "Traços Específicos",
 					"entries": [
-						"{@i [Kÿr – Subespécie Anã]}",
 						{
 							"type": "entries",
 							"name": "Vida de Salão e Mercado (1 Ponto)",
@@ -581,7 +589,6 @@
 					"type": "entries",
 					"name": "Traços Base de Anão",
 					"entries": [
-						"{@i [Kÿr – Dwarf]}",
 						"{@b Tipo de Criatura:} Humanoide",
 						"{@b Tamanho:} Médio",
 						"{@b Deslocamento:} 9 metros (30 pés)",
@@ -628,10 +635,9 @@
 					"type": "entries",
 					"name": "Traços Específicos",
 					"entries": [
-						"{@i [Kÿr – Subespécie Anã]}",
 						{
 							"type": "entries",
-							"name": "Treinamento de Encosta (1,5 Pontos)",
+							"name": "Treinamento de Encosta (2 Pontos)",
 							"entries": [
 								"Sua velocidade não é reduzida por usar Armadura Pesada. Além disso, você tem vantagem em testes de Força feitos para escalar rocha, gelo ou superfícies naturais íngremes."
 							]
@@ -645,9 +651,9 @@
 						},
 						{
 							"type": "entries",
-							"name": "Pé de Granito (1,5 Pontos)",
+							"name": "Pé de Granito (1 Ponto)",
 							"entries": [
-								"Você tem vantagem em testes de resistência feitos para resistir a ser empurrado ou {@condition Prone|XPHB|Derrubado}."
+								"Você tem vantagem em testes de resistência feitos para resistir a ser empurrado ou derrubado."
 							]
 						}
 					]
@@ -674,7 +680,6 @@
 					"type": "entries",
 					"name": "Traços Base de Anão",
 					"entries": [
-						"{@i [Kÿr – Dwarf]}",
 						"{@b Tipo de Criatura:} Humanoide",
 						"{@b Tamanho:} Médio",
 						"{@b Deslocamento:} 9 metros (30 pés)",
@@ -721,7 +726,6 @@
 					"type": "entries",
 					"name": "Traços Específicos",
 					"entries": [
-						"{@i [Kÿr – Subespécie Anã]}",
 						{
 							"type": "entries",
 							"name": "Conhecimento do Ermo (1 Ponto)",
@@ -767,7 +771,6 @@
 					"type": "entries",
 					"name": "Traços Base de Anão",
 					"entries": [
-						"{@i [Kÿr – Dwarf]}",
 						"{@b Tipo de Criatura:} Humanoide",
 						"{@b Tamanho:} Médio",
 						"{@b Deslocamento:} 9 metros (30 pés)",
@@ -814,7 +817,6 @@
 					"type": "entries",
 					"name": "Traços Específicos",
 					"entries": [
-						"{@i [Kÿr – Subespécie Anã]}",
 						{
 							"type": "entries",
 							"name": "Ferramentas das Profundezas (1 Ponto)",
@@ -863,7 +865,6 @@
 				"construct"
 			],
 			"entries": [
-				"{@i [Kÿr – Autognome]}",
 				"{@b Tipo de Criatura:} Constructo",
 				"{@b Tamanho:} Pequeno",
 				"{@b Deslocamento:} 9 metros (30 pés)",
@@ -885,14 +886,14 @@
 				},
 				{
 					"type": "entries",
-					"name": "Natureza Artificial (1,5 Pontos)",
+					"name": "Natureza Artificial (2 Pontos)",
 					"entries": [
 						"Você não precisa comer, beber ou respirar."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Descanso Construído (1,5 Pontos)",
+					"name": "Descanso Construído (1 Ponto)",
 					"entries": [
 						"Você não precisa dormir, e magia não pode colocá-lo para dormir. Para obter os benefícios de um {@variantrule Long Rest|XPHB|Descanso Longo}, você deve permanecer inativo por 6 horas, durante as quais permanece consciente."
 					]
@@ -901,7 +902,7 @@
 					"type": "entries",
 					"name": "Casco Reforçado (3 Pontos)",
 					"entries": [
-						"Quando você não estiver usando armadura, sua Classe de Armadura base é 13 + seu modificador de Destreza. Você pode usar um escudo e ainda receber esse benefício."
+						"Quando você não estiver usando armadura, sua {@variantrule Armor Class|XPHB|Classe de Armadura} base é 13 + seu modificador de Destreza. Você pode usar um escudo e ainda receber esse benefício."
 					]
 				},
 				{
@@ -947,7 +948,6 @@
 					"type": "entries",
 					"name": "Traços Base de Caa’ni",
 					"entries": [
-						"{@i [Kÿr – Pherae Canídeo]}",
 						"{@b Tipo de Criatura:} Humanoide",
 						"{@b Tamanho:} Médio",
 						"{@b Deslocamento:} 9 metros (30 pés)",
@@ -961,7 +961,7 @@
 						},
 						{
 							"type": "entries",
-							"name": "Sentidos Aguçados (1,5 Pontos)",
+							"name": "Sentidos Aguçados (2 Pontos)",
 							"entries": [
 								"Você tem vantagem em testes de Sabedoria ({@skill Perception|XPHB|Percepção}) baseados em olfato ou audição."
 							]
@@ -975,7 +975,7 @@
 						},
 						{
 							"type": "entries",
-							"name": "Rastro de Caça (2,5 Pontos)",
+							"name": "Rastro de Caça (2 Pontos)",
 							"entries": [
 								"Você adquire proficiência em {@skill Perception|XPHB|Percepção} ou {@skill Survival|XPHB|Sobrevivência}. Além disso, quando fizer um teste de Sabedoria ({@skill Survival|XPHB|Sobrevivência}) para rastrear uma criatura cujo cheiro, sangue ou pegadas você tenha encontrado, pode rolar {@dice 1d4} e adicionar ao teste. Você pode usar este benefício um número de vezes igual ao seu bônus de proficiência por {@variantrule Long Rest|XPHB|Descanso Longo}."
 							]
@@ -993,7 +993,6 @@
 					"type": "entries",
 					"name": "Traços Específicos",
 					"entries": [
-						"{@i [Kÿr – Subespécie Caa’ni]}",
 						{
 							"type": "entries",
 							"name": "Proficiência Tribal (1 Ponto)",
@@ -1010,14 +1009,14 @@
 						},
 						{
 							"type": "entries",
-							"name": "Investida de Alcateia (2,5 Pontos)",
+							"name": "Investida de Alcateia (3 Pontos)",
 							"entries": [
 								"Uma vez por turno, se você se mover pelo menos 6 metros em linha reta em direção a uma criatura e acertá-la com um ataque corpo a corpo, causa dano adicional igual ao seu bônus de proficiência."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Tenacidade do Sobrevivente (2,5 Pontos)",
+							"name": "Tenacidade do Sobrevivente (2 Pontos)",
 							"entries": [
 								"Quando seus pontos de vida forem reduzidos a metade ou menos do máximo pela primeira vez após um {@variantrule Long Rest|XPHB|Descanso Longo}, você ganha pontos de vida temporários iguais ao seu bônus de proficiência + seu modificador de Constituição. Além disso, tem vantagem no próximo teste de resistência de Força ou Constituição que fizer antes do final do próximo turno."
 							]
@@ -1045,7 +1044,6 @@
 					"type": "entries",
 					"name": "Traços Base de Caa’ni",
 					"entries": [
-						"{@i [Kÿr – Pherae Canídeo]}",
 						"{@b Tipo de Criatura:} Humanoide",
 						"{@b Tamanho:} Médio",
 						"{@b Deslocamento:} 9 metros (30 pés)",
@@ -1059,7 +1057,7 @@
 						},
 						{
 							"type": "entries",
-							"name": "Sentidos Aguçados (1,5 Pontos)",
+							"name": "Sentidos Aguçados (2 Pontos)",
 							"entries": [
 								"Você tem vantagem em testes de Sabedoria ({@skill Perception|XPHB|Percepção}) baseados em olfato ou audição."
 							]
@@ -1073,7 +1071,7 @@
 						},
 						{
 							"type": "entries",
-							"name": "Rastro de Caça (2,5 Pontos)",
+							"name": "Rastro de Caça (2 Pontos)",
 							"entries": [
 								"Você adquire proficiência em {@skill Perception|XPHB|Percepção} ou {@skill Survival|XPHB|Sobrevivência}. Além disso, quando fizer um teste de Sabedoria ({@skill Survival|XPHB|Sobrevivência}) para rastrear uma criatura cujo cheiro, sangue ou pegadas você tenha encontrado, pode rolar {@dice 1d4} e adicionar ao teste. Você pode usar este benefício um número de vezes igual ao seu bônus de proficiência por {@variantrule Long Rest|XPHB|Descanso Longo}."
 							]
@@ -1091,7 +1089,6 @@
 					"type": "entries",
 					"name": "Traços Específicos",
 					"entries": [
-						"{@i [Kÿr – Subespécie Caa’ni]}",
 						{
 							"type": "entries",
 							"name": "Astúcia Natural (1 Ponto)",
@@ -1108,14 +1105,14 @@
 						},
 						{
 							"type": "entries",
-							"name": "Evasão Instintiva (2,5 Pontos)",
+							"name": "Evasão Instintiva (3 Pontos)",
 							"entries": [
 								"Quando uma criatura que você possa ver errar um ataque corpo a corpo contra você, pode usar sua reação para se mover até 3 metros sem provocar ataques de oportunidade. Você pode usar este traço um número de vezes igual ao seu bônus de proficiência por {@variantrule Long Rest|XPHB|Descanso Longo}."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Finta de Raposa (2,5 Pontos)",
+							"name": "Finta de Raposa (2 Pontos)",
 							"entries": [
 								"Como ação bônus, escolha uma criatura que possa ver a até 9 metros. Até o início do seu próximo turno, a próxima jogada de ataque feita por você ou por um aliado contra essa criatura recebe {@dice 1d4}. Você pode usar este traço um número de vezes igual ao seu bônus de proficiência por {@variantrule Long Rest|XPHB|Descanso Longo}."
 							]
@@ -1143,7 +1140,6 @@
 					"type": "entries",
 					"name": "Traços Base de Caa’ni",
 					"entries": [
-						"{@i [Kÿr – Pherae Canídeo]}",
 						"{@b Tipo de Criatura:} Humanoide",
 						"{@b Tamanho:} Médio",
 						"{@b Deslocamento:} 9 metros (30 pés)",
@@ -1157,7 +1153,7 @@
 						},
 						{
 							"type": "entries",
-							"name": "Sentidos Aguçados (1,5 Pontos)",
+							"name": "Sentidos Aguçados (2 Pontos)",
 							"entries": [
 								"Você tem vantagem em testes de Sabedoria ({@skill Perception|XPHB|Percepção}) baseados em olfato ou audição."
 							]
@@ -1171,7 +1167,7 @@
 						},
 						{
 							"type": "entries",
-							"name": "Rastro de Caça (2,5 Pontos)",
+							"name": "Rastro de Caça (2 Pontos)",
 							"entries": [
 								"Você adquire proficiência em {@skill Perception|XPHB|Percepção} ou {@skill Survival|XPHB|Sobrevivência}. Além disso, quando fizer um teste de Sabedoria ({@skill Survival|XPHB|Sobrevivência}) para rastrear uma criatura cujo cheiro, sangue ou pegadas você tenha encontrado, pode rolar {@dice 1d4} e adicionar ao teste. Você pode usar este benefício um número de vezes igual ao seu bônus de proficiência por {@variantrule Long Rest|XPHB|Descanso Longo}."
 							]
@@ -1189,7 +1185,6 @@
 					"type": "entries",
 					"name": "Traços Específicos",
 					"entries": [
-						"{@i [Kÿr – Subespécie Caa’ni]}",
 						{
 							"type": "entries",
 							"name": "Disciplina de Alcateia (1 Ponto)",
@@ -1199,9 +1194,9 @@
 						},
 						{
 							"type": "entries",
-							"name": "Coordenação Predatória (2,5 Pontos)",
+							"name": "Coordenação Predatória (3 Pontos)",
 							"entries": [
-								"Uma vez por turno, quando fizer um ataque corpo a corpo contra uma criatura que esteja a até 1,5 metro de um aliado seu que não esteja {@condition Incapacitated|XPHB|Incapacitado}, você pode ganhar vantagem nesse ataque. Você pode usar este traço um número de vezes igual ao seu bônus de proficiência por {@variantrule Long Rest|XPHB|Descanso Longo}."
+								"Uma vez por turno, quando fizer um ataque corpo a corpo contra uma criatura que esteja a até 1,5 metro de um aliado seu que não esteja incapacitado, você pode ganhar vantagem nesse ataque. Você pode usar este traço um número de vezes igual ao seu bônus de proficiência por {@variantrule Long Rest|XPHB|Descanso Longo}."
 							]
 						},
 						{
@@ -1213,7 +1208,7 @@
 						},
 						{
 							"type": "entries",
-							"name": "Ataque de Cerco (2,5 Pontos)",
+							"name": "Ataque de Cerco (2 Pontos)",
 							"entries": [
 								"Quando um aliado que você possa ver acertar um ataque contra uma criatura a até 1,5 metro de você, você pode usar sua reação para causar dano adicional ao alvo igual ao seu bônus de proficiência, do mesmo tipo do ataque. Você pode usar este traço um número de vezes igual ao seu bônus de proficiência por {@variantrule Long Rest|XPHB|Descanso Longo}."
 							]
@@ -1241,7 +1236,6 @@
 					"type": "entries",
 					"name": "Traços Base de Caa’ni",
 					"entries": [
-						"{@i [Kÿr – Pherae Canídeo]}",
 						"{@b Tipo de Criatura:} Humanoide",
 						"{@b Tamanho:} Médio",
 						"{@b Deslocamento:} 9 metros (30 pés)",
@@ -1255,7 +1249,7 @@
 						},
 						{
 							"type": "entries",
-							"name": "Sentidos Aguçados (1,5 Pontos)",
+							"name": "Sentidos Aguçados (2 Pontos)",
 							"entries": [
 								"Você tem vantagem em testes de Sabedoria ({@skill Perception|XPHB|Percepção}) baseados em olfato ou audição."
 							]
@@ -1269,7 +1263,7 @@
 						},
 						{
 							"type": "entries",
-							"name": "Rastro de Caça (2,5 Pontos)",
+							"name": "Rastro de Caça (2 Pontos)",
 							"entries": [
 								"Você adquire proficiência em {@skill Perception|XPHB|Percepção} ou {@skill Survival|XPHB|Sobrevivência}. Além disso, quando fizer um teste de Sabedoria ({@skill Survival|XPHB|Sobrevivência}) para rastrear uma criatura cujo cheiro, sangue ou pegadas você tenha encontrado, pode rolar {@dice 1d4} e adicionar ao teste. Você pode usar este benefício um número de vezes igual ao seu bônus de proficiência por {@variantrule Long Rest|XPHB|Descanso Longo}."
 							]
@@ -1287,7 +1281,6 @@
 					"type": "entries",
 					"name": "Traços Específicos",
 					"entries": [
-						"{@i [Kÿr – Subespécie Caa’ni]}",
 						{
 							"type": "entries",
 							"name": "Treinamento de Guarda (1 Ponto)",
@@ -1304,16 +1297,16 @@
 						},
 						{
 							"type": "entries",
-							"name": "Postura Defensiva (2,5 Pontos)",
+							"name": "Postura Defensiva (3 Pontos)",
 							"entries": [
 								"Quando uma criatura que você possa ver atacar um aliado a até 1,5 metro de você, pode usar sua reação para impor desvantagem nessa jogada de ataque. Você pode usar este traço um número de vezes igual ao seu bônus de proficiência por {@variantrule Long Rest|XPHB|Descanso Longo}."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Mordida de Retenção (2,5 Pontos)",
+							"name": "Mordida de Retenção (2 Pontos)",
 							"entries": [
-								"Quando acertar uma criatura com sua Mordida Canídea, você pode forçá-la a realizar um teste de resistência de Força contra CD = 8 + seu bônus de proficiência + seu modificador de Força ou Constituição. Em falha, o deslocamento da criatura é reduzido a 0 até o início do seu próximo turno. Você pode usar este traço um número de vezes igual ao seu bônus de proficiência por {@variantrule Long Rest|XPHB|Descanso Longo}."
+								"Quando acertar uma criatura com sua Mordida Canídea, você pode forçá-la a realizar um teste de resistência de Força contra {@dc 8} + seu bônus de proficiência + seu modificador de Força ou Constituição. Em falha, o deslocamento da criatura é reduzido a 0 até o início do seu próximo turno. Você pode usar este traço um número de vezes igual ao seu bônus de proficiência por {@variantrule Long Rest|XPHB|Descanso Longo}."
 							]
 						}
 					]
@@ -1335,7 +1328,6 @@
 				"fey"
 			],
 			"entries": [
-				"{@i [Kÿr – Centaur]}",
 				"{@b Tipo de Criatura:} Feérico",
 				"{@b Tamanho:} Grande",
 				"{@b Deslocamento:} 12 metros (40 pés)",
@@ -1384,7 +1376,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Investida (2,5 Pontos)",
+					"name": "Investida (2 Pontos)",
 					"entries": [
 						"Uma vez por turno, se você se mover pelo menos 9 metros em linha reta em direção a uma criatura e acertá-la com um ataque corpo a corpo no mesmo turno, causa dano adicional igual ao seu bônus de proficiência."
 					]
@@ -1398,7 +1390,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Galope Livre (1,5 Pontos)",
+					"name": "Galope Livre (1 Ponto)",
 					"entries": [
 						"Quando você realizar a ação {@action Dash|XPHB|Correr}, terreno difícil não mágico não custa movimento extra até o final do turno, desde que o terreno seja amplo o suficiente para seu corpo."
 					]
@@ -1435,14 +1427,13 @@
 				"humanoid"
 			],
 			"entries": [
-				"{@i [Kÿr – Chelóna]}",
 				"{@b Tipo de Criatura:} Humanoide",
 				"{@b Tamanho:} Médio",
 				"{@b Deslocamento:} 9 metros (30 pés), natação 6 metros (20 pés)",
 				"Chelóna vivem entre 1000 e 1350 anos. Possuem corpos robustos e casco natural rígido, guiados por ciclos naturais e tradição oral.",
 				{
 					"type": "entries",
-					"name": "Natação 6 Metros (1,5 Pontos)",
+					"name": "Natação 6 Metros (1 Ponto)",
 					"entries": [
 						"Você possui deslocamento de natação de 6 metros (20 pés)."
 					]
@@ -1451,14 +1442,14 @@
 					"type": "entries",
 					"name": "Casco Natural (3 Pontos)",
 					"entries": [
-						"Quando você não estiver usando armadura, sua Classe de Armadura base é 13 + seu modificador de Constituição. Você pode usar um escudo e ainda receber esse benefício."
+						"Quando você não estiver usando armadura, sua {@variantrule Armor Class|XPHB|Classe de Armadura} base é 13 + seu modificador de Constituição. Você pode usar um escudo e ainda receber esse benefício."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Peso Ancestral (2 Pontos)",
 					"entries": [
-						"Você conta como uma categoria de tamanho maior para determinar sua capacidade de carga e o peso que pode empurrar, arrastar ou levantar. Além disso, tem vantagem em testes de resistência para evitar ser empurrado ou {@condition Prone|XPHB|Derrubado}."
+						"Você conta como uma categoria de tamanho maior para determinar sua capacidade de carga e o peso que pode empurrar, arrastar ou levantar. Além disso, tem vantagem em testes de resistência para evitar ser empurrado ou derrubado."
 					]
 				},
 				{
@@ -1484,9 +1475,9 @@
 				},
 				{
 					"type": "entries",
-					"name": "Impacto de Saída (1,5 Pontos)",
+					"name": "Impacto de Saída (2 Pontos)",
 					"entries": [
-						"Quando sai da Retração Defensiva, pode escolher uma criatura a até 1,5 metro de você. Ela deve ser bem-sucedida em um teste de resistência de Força contra CD = 8 + seu bônus de proficiência + seu modificador de Constituição ou será empurrada 1,5 metro. Você pode usar este benefício um número de vezes igual ao seu bônus de proficiência por {@variantrule Long Rest|XPHB|Descanso Longo}."
+						"Quando sai da Retração Defensiva, pode escolher uma criatura a até 1,5 metro de você. Ela deve ser bem-sucedida em um teste de resistência de Força contra {@dc 8} + seu bônus de proficiência + seu modificador de Constituição ou será empurrada 1,5 metro. Você pode usar este benefício um número de vezes igual ao seu bônus de proficiência por {@variantrule Long Rest|XPHB|Descanso Longo}."
 					]
 				},
 				"{@b Total:} 16 Pontos"
@@ -1508,7 +1499,6 @@
 				"fey"
 			],
 			"entries": [
-				"{@i [Kÿr – Changeling]}",
 				"{@b Tipo de Criatura:} Feérico",
 				"{@b Tamanho:} Médio",
 				"{@b Deslocamento:} 9 metros (30 pés)",
@@ -1543,14 +1533,14 @@
 				},
 				{
 					"type": "entries",
-					"name": "Leitura de Comportamento (1,5 Pontos)",
+					"name": "Leitura de Comportamento (1 Ponto)",
 					"entries": [
 						"Você tem vantagem em testes de Sabedoria ({@skill Insight|XPHB|Intuição}) feitos para determinar se uma criatura está mentindo, ocultando informações ou sustentando uma identidade falsa."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Maneirismo Roubado (2,5 Pontos)",
+					"name": "Maneirismo Roubado (2 Pontos)",
 					"entries": [
 						"Se observar uma criatura humanoide por pelo menos 1 minuto, pode memorizar gestos, ritmo de fala e postura social. Pelas próximas 24 horas, enquanto usar Metamorfose para se passar por ela, pode adicionar {@dice 1d4} a testes de Carisma ({@skill Deception|XPHB|Enganação}) ou Carisma ({@skill Performance|XPHB|Atuação}) feitos para sustentar essa identidade. Você pode memorizar criaturas dessa forma um número de vezes igual ao seu bônus de proficiência por {@variantrule Long Rest|XPHB|Descanso Longo}."
 					]
@@ -1564,7 +1554,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Rosto Inesquecível (2 Pontos)",
+					"name": "Rosto Inesquecível (3 Pontos)",
 					"entries": [
 						"Como ação bônus, torna sua aparência momentaneamente inquietante ou impossível de fixar. Até o início do seu próximo turno, criaturas à sua escolha a até 9 metros têm desvantagem em testes de Sabedoria ({@skill Perception|XPHB|Percepção}) e Sabedoria ({@skill Insight|XPHB|Intuição}) para reconhecer você, identificar sua expressão ou perceber intenção oculta. Você pode usar este traço um número de vezes igual ao seu bônus de proficiência por {@variantrule Long Rest|XPHB|Descanso Longo}."
 					]
@@ -1587,21 +1577,20 @@
 				"humanoid"
 			],
 			"entries": [
-				"{@i [Kÿr – Gnome]}",
 				"{@b Tipo de Criatura:} Humanoide",
 				"{@b Tamanho:} Pequeno",
 				"{@b Deslocamento:} 7,5 metros (25 pés)",
 				"Duendes são pequenos humanoides de olhos atentos e traços expressivos, associados à curiosidade, inventividade e adaptação.",
 				{
 					"type": "entries",
-					"name": "Tamanho Pequeno (0,5 Ponto)",
+					"name": "Tamanho Pequeno (1 Ponto)",
 					"entries": [
 						"Seu tamanho é Pequeno."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Deslocamento Reduzido (-0,5 Ponto)",
+					"name": "Deslocamento Reduzido (-1 Ponto)",
 					"entries": [
 						"Seu deslocamento base de caminhada é 7,5 metros (25 pés)."
 					]
@@ -1636,14 +1625,14 @@
 				},
 				{
 					"type": "entries",
-					"name": "Truque de Oficina (1,5 Pontos)",
+					"name": "Truque de Oficina (1 Ponto)",
 					"entries": [
 						"Você conhece um truque da lista de magias de Mago. Inteligência, Sabedoria ou Carisma é sua habilidade de conjuração para esse truque, escolhida ao criar o personagem."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Solução Improvável (2,5 Pontos)",
+					"name": "Solução Improvável (3 Pontos)",
 					"entries": [
 						"Quando falhar em um teste de Inteligência ou em um teste feito com uma ferramenta na qual tenha proficiência, pode rolar {@dice 1d4} e adicionar ao teste. Você pode usar este traço um número de vezes igual ao seu bônus de proficiência por {@variantrule Long Rest|XPHB|Descanso Longo}."
 					]
@@ -1680,14 +1669,13 @@
 				"humanoid"
 			],
 			"entries": [
-				"{@i [Kÿr – Cervan]}",
 				"{@b Tipo de Criatura:} Humanoide",
 				"{@b Tamanho:} Médio",
 				"{@b Deslocamento:} 10,5 metros (35 pés)",
 				"Eláfor são humanoides cervídeos de galhadas, pernas digitígradas e postura de vigília. Valorizam equilíbrio, território e ciclos naturais.",
 				{
 					"type": "entries",
-					"name": "Deslocamento 10,5 Metros (1,5 Pontos)",
+					"name": "Deslocamento 10,5 Metros (2 Pontos)",
 					"entries": [
 						"Seu deslocamento base de caminhada é 10,5 metros (35 pés)."
 					]
@@ -1701,7 +1689,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Passos Silvestres (1,5 Pontos)",
+					"name": "Passos Silvestres (1 Ponto)",
 					"entries": [
 						"Você ignora terreno difícil não mágico causado por vegetação natural, como raízes, arbustos, folhas densas, cipós e solo irregular de floresta."
 					]
@@ -1731,28 +1719,21 @@
 					"type": "entries",
 					"name": "Investida da Galhada (3 Pontos)",
 					"entries": [
-						"Uma vez por turno, se você se mover pelo menos 6 metros em linha reta em direção a uma criatura e acertá-la com um ataque corpo a corpo, causa dano adicional igual ao seu bônus de proficiência. Se o ataque foi feito com sua Galhada Natural, o alvo deve passar em teste de resistência de Força contra CD = 8 + bônus de proficiência + modificador de Força ou Destreza, ou será empurrado 1,5 metro. Você pode forçar esse teste um número de vezes igual ao seu bônus de proficiência por {@variantrule Long Rest|XPHB|Descanso Longo}."
+						"Uma vez por turno, se você se mover pelo menos 6 metros em linha reta em direção a uma criatura e acertá-la com um ataque corpo a corpo, causa dano adicional igual ao seu bônus de proficiência. Se o ataque foi feito com sua Galhada Natural, o alvo deve passar em teste de resistência de Força contra {@dc 8} + bônus de proficiência + modificador de Força ou Destreza, ou será empurrado 1,5 metro. Você pode forçar esse teste um número de vezes igual ao seu bônus de proficiência por {@variantrule Long Rest|XPHB|Descanso Longo}."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Alerta do Rebanho (2 Pontos)",
+					"name": "Alerta do Rebanho (1 Ponto)",
 					"entries": [
 						"Quando rolar Iniciativa, pode escolher aliados que possa ver a até 9 metros, até o máximo igual ao seu bônus de proficiência. Cada criatura escolhida adiciona {@dice 1d4} à própria Iniciativa. Depois de usar este traço, você não pode usá-lo novamente até terminar um {@variantrule Long Rest|XPHB|Descanso Longo}."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Magia Primeva (3 Pontos)",
+					"name": "Magia Primeva (4 Pontos)",
 					"entries": [
 						"Você conhece o truque {@spell Druidcraft|XPHB|druidcraft}. A partir do 3º nível, pode conjurar {@spell Longstrider|XPHB|longstrider} com este traço. A partir do 5º nível, também pode conjurar {@spell Pass Without Trace|XPHB|pass without trace}. Depois de conjurar uma dessas magias com este traço, não pode conjurá-la novamente com ele até terminar um {@variantrule Long Rest|XPHB|Descanso Longo}. Você também pode conjurá-las usando espaços de magia que possua. Inteligência, Sabedoria ou Carisma é sua habilidade de conjuração, escolhida ao criar o personagem."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Fonte Primordial (0 Pontos)",
-					"entries": [
-						"Você ganha acesso à Fonte Primordial. O peso mecânico está incluído em Magia Primeva."
 					]
 				},
 				"{@b Total:} 16 Pontos"
@@ -1777,7 +1758,6 @@
 					"type": "entries",
 					"name": "Traços Base de Elfo",
 					"entries": [
-						"{@i [Kÿr – Elf]}",
 						"{@b Tipo de Criatura:} Humanoide",
 						"{@b Tamanho:} Médio",
 						"{@b Deslocamento:} 9 metros (30 pés)",
@@ -1805,14 +1785,14 @@
 						},
 						{
 							"type": "entries",
-							"name": "Transe (1,5 Pontos)",
+							"name": "Transe (1 Ponto)",
 							"entries": [
 								"Você não precisa dormir e magia não pode colocá-lo para dormir. Para obter os benefícios de um {@variantrule Long Rest|XPHB|Descanso Longo}, pode meditar por 4 horas, permanecendo semiconsciente."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Memória Élfica (2,5 Pontos)",
+							"name": "Memória Élfica (3 Pontos)",
 							"entries": [
 								"Quando falhar em um teste de Inteligência, Sabedoria ou Carisma relacionado a memória, tradição, etiqueta, magia, história, presságios ou leitura de ambiente, pode rolar {@dice 1d4} e adicionar ao teste. Você pode usar este traço um número de vezes igual ao seu bônus de proficiência por {@variantrule Long Rest|XPHB|Descanso Longo}."
 							]
@@ -1823,7 +1803,6 @@
 					"type": "entries",
 					"name": "Traços Específicos",
 					"entries": [
-						"{@i [Kÿr – Linhagem Élfica]}",
 						{
 							"type": "entries",
 							"name": "Fonte Divina (2 Pontos)",
@@ -1868,7 +1847,6 @@
 					"type": "entries",
 					"name": "Traços Base de Elfo",
 					"entries": [
-						"{@i [Kÿr – Elf]}",
 						"{@b Tipo de Criatura:} Humanoide",
 						"{@b Tamanho:} Médio",
 						"{@b Deslocamento:} 9 metros (30 pés)",
@@ -1896,14 +1874,14 @@
 						},
 						{
 							"type": "entries",
-							"name": "Transe (1,5 Pontos)",
+							"name": "Transe (1 Ponto)",
 							"entries": [
 								"Você não precisa dormir e magia não pode colocá-lo para dormir. Para obter os benefícios de um {@variantrule Long Rest|XPHB|Descanso Longo}, pode meditar por 4 horas, permanecendo semiconsciente."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Memória Élfica (2,5 Pontos)",
+							"name": "Memória Élfica (3 Pontos)",
 							"entries": [
 								"Quando falhar em um teste de Inteligência, Sabedoria ou Carisma relacionado a memória, tradição, etiqueta, magia, história, presságios ou leitura de ambiente, pode rolar {@dice 1d4} e adicionar ao teste. Você pode usar este traço um número de vezes igual ao seu bônus de proficiência por {@variantrule Long Rest|XPHB|Descanso Longo}."
 							]
@@ -1914,7 +1892,6 @@
 					"type": "entries",
 					"name": "Traços Específicos",
 					"entries": [
-						"{@i [Kÿr – Linhagem Élfica]}",
 						{
 							"type": "entries",
 							"name": "Fonte Arcana (2 Pontos)",
@@ -1924,14 +1901,14 @@
 						},
 						{
 							"type": "entries",
-							"name": "Magia Arcana (3,5 Pontos)",
+							"name": "Magia Arcana (4 Pontos)",
 							"entries": [
 								"Você conhece um truque da lista de magias de Mago ou Feiticeiro. A partir do 3º nível, pode conjurar {@spell Detect Magic|XPHB|detect magic}. A partir do 5º nível, pode conjurar {@spell Misty Step|XPHB|misty step}. Depois de conjurar uma dessas magias com este traço, não pode conjurá-la novamente com ele até terminar um {@variantrule Long Rest|XPHB|Descanso Longo}. Você também pode conjurá-las usando espaços de magia. Inteligência, Sabedoria ou Carisma é sua habilidade de conjuração."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Precisão de Estudo (2,5 Pontos)",
+							"name": "Precisão de Estudo (2 Pontos)",
 							"entries": [
 								"Quando falhar em um teste de Inteligência ({@skill Arcana|XPHB|Arcanismo}), Inteligência ({@skill Investigation|XPHB|Investigação}) ou em teste para identificar magia, item mágico ou efeito arcano, pode rolar {@dice 1d4} e adicionar ao teste. Você pode usar este traço um número de vezes igual ao seu bônus de proficiência por {@variantrule Long Rest|XPHB|Descanso Longo}."
 							]
@@ -1959,7 +1936,6 @@
 					"type": "entries",
 					"name": "Traços Base de Elfo",
 					"entries": [
-						"{@i [Kÿr – Elf]}",
 						"{@b Tipo de Criatura:} Humanoide",
 						"{@b Tamanho:} Médio",
 						"{@b Deslocamento:} 9 metros (30 pés)",
@@ -1987,14 +1963,14 @@
 						},
 						{
 							"type": "entries",
-							"name": "Transe (1,5 Pontos)",
+							"name": "Transe (1 Ponto)",
 							"entries": [
 								"Você não precisa dormir e magia não pode colocá-lo para dormir. Para obter os benefícios de um {@variantrule Long Rest|XPHB|Descanso Longo}, pode meditar por 4 horas, permanecendo semiconsciente."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Memória Élfica (2,5 Pontos)",
+							"name": "Memória Élfica (3 Pontos)",
 							"entries": [
 								"Quando falhar em um teste de Inteligência, Sabedoria ou Carisma relacionado a memória, tradição, etiqueta, magia, história, presságios ou leitura de ambiente, pode rolar {@dice 1d4} e adicionar ao teste. Você pode usar este traço um número de vezes igual ao seu bônus de proficiência por {@variantrule Long Rest|XPHB|Descanso Longo}."
 							]
@@ -2005,7 +1981,6 @@
 					"type": "entries",
 					"name": "Traços Específicos",
 					"entries": [
-						"{@i [Kÿr – Linhagem Élfica]}",
 						{
 							"type": "entries",
 							"name": "Fonte Divina (2 Pontos)",
@@ -2015,14 +1990,14 @@
 						},
 						{
 							"type": "entries",
-							"name": "Magia Lunar (3,5 Pontos)",
+							"name": "Magia Lunar (4 Pontos)",
 							"entries": [
 								"Você conhece o truque {@spell Dancing Lights|XPHB|dancing lights}. A partir do 3º nível, pode conjurar {@spell Faerie Fire|XPHB|faerie fire}. A partir do 5º nível, pode conjurar {@spell Moonbeam|XPHB|moonbeam}. Depois de conjurar uma dessas magias com este traço, não pode conjurá-la novamente com ele até terminar um {@variantrule Long Rest|XPHB|Descanso Longo}. Você também pode conjurá-las usando espaços de magia. Inteligência, Sabedoria ou Carisma é sua habilidade de conjuração."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Passo do Luar (2,5 Pontos)",
+							"name": "Passo do Luar (2 Pontos)",
 							"entries": [
 								"Enquanto estiver em luz fraca, luar, penumbra natural ou iluminação mágica suave, pode realizar {@action Disengage|XPHB|Desengajar} como ação bônus. Você pode usar este traço um número de vezes igual ao seu bônus de proficiência por {@variantrule Long Rest|XPHB|Descanso Longo}."
 							]
@@ -2050,7 +2025,6 @@
 					"type": "entries",
 					"name": "Traços Base de Elfo",
 					"entries": [
-						"{@i [Kÿr – Elf]}",
 						"{@b Tipo de Criatura:} Humanoide",
 						"{@b Tamanho:} Médio",
 						"{@b Deslocamento:} 9 metros (30 pés)",
@@ -2078,14 +2052,14 @@
 						},
 						{
 							"type": "entries",
-							"name": "Transe (1,5 Pontos)",
+							"name": "Transe (1 Ponto)",
 							"entries": [
 								"Você não precisa dormir e magia não pode colocá-lo para dormir. Para obter os benefícios de um {@variantrule Long Rest|XPHB|Descanso Longo}, pode meditar por 4 horas, permanecendo semiconsciente."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Memória Élfica (2,5 Pontos)",
+							"name": "Memória Élfica (3 Pontos)",
 							"entries": [
 								"Quando falhar em um teste de Inteligência, Sabedoria ou Carisma relacionado a memória, tradição, etiqueta, magia, história, presságios ou leitura de ambiente, pode rolar {@dice 1d4} e adicionar ao teste. Você pode usar este traço um número de vezes igual ao seu bônus de proficiência por {@variantrule Long Rest|XPHB|Descanso Longo}."
 							]
@@ -2096,7 +2070,6 @@
 					"type": "entries",
 					"name": "Traços Específicos",
 					"entries": [
-						"{@i [Kÿr – Linhagem Élfica]}",
 						{
 							"type": "entries",
 							"name": "Fonte Sombria (2 Pontos)",
@@ -2106,14 +2079,14 @@
 						},
 						{
 							"type": "entries",
-							"name": "Magia do Crepúsculo (3,5 Pontos)",
+							"name": "Magia do Crepúsculo (4 Pontos)",
 							"entries": [
 								"Você conhece o truque {@spell Minor Illusion|XPHB|minor illusion}. A partir do 3º nível, pode conjurar {@spell Fog Cloud|XPHB|fog cloud}. A partir do 5º nível, pode conjurar {@spell Darkness|XPHB|darkness}. Depois de conjurar uma dessas magias com este traço, não pode conjurá-la novamente com ele até terminar um {@variantrule Long Rest|XPHB|Descanso Longo}. Você também pode conjurá-las usando espaços de magia. Inteligência, Sabedoria ou Carisma é sua habilidade de conjuração."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Véu entre Luzes (2,5 Pontos)",
+							"name": "Véu entre Luzes (2 Pontos)",
 							"entries": [
 								"Quando uma criatura que você possa ver fizer uma jogada de ataque contra você enquanto você estiver em luz fraca, escuridão ou obscurecimento leve, pode usar sua reação para impor desvantagem. Você pode usar este traço um número de vezes igual ao seu bônus de proficiência por {@variantrule Long Rest|XPHB|Descanso Longo}."
 							]
@@ -2144,7 +2117,6 @@
 					"type": "entries",
 					"name": "Traços Base de Elfo",
 					"entries": [
-						"{@i [Kÿr – Elf]}",
 						"{@b Tipo de Criatura:} Humanoide",
 						"{@b Tamanho:} Médio",
 						"{@b Deslocamento:} 9 metros (30 pés)",
@@ -2172,14 +2144,14 @@
 						},
 						{
 							"type": "entries",
-							"name": "Transe (1,5 Pontos)",
+							"name": "Transe (1 Ponto)",
 							"entries": [
 								"Você não precisa dormir e magia não pode colocá-lo para dormir. Para obter os benefícios de um {@variantrule Long Rest|XPHB|Descanso Longo}, pode meditar por 4 horas, permanecendo semiconsciente."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Memória Élfica (2,5 Pontos)",
+							"name": "Memória Élfica (3 Pontos)",
 							"entries": [
 								"Quando falhar em um teste de Inteligência, Sabedoria ou Carisma relacionado a memória, tradição, etiqueta, magia, história, presságios ou leitura de ambiente, pode rolar {@dice 1d4} e adicionar ao teste. Você pode usar este traço um número de vezes igual ao seu bônus de proficiência por {@variantrule Long Rest|XPHB|Descanso Longo}."
 							]
@@ -2190,7 +2162,6 @@
 					"type": "entries",
 					"name": "Traços Específicos",
 					"entries": [
-						"{@i [Kÿr – Linhagem Élfica]}",
 						{
 							"type": "entries",
 							"name": "Fonte Primordial (2 Pontos)",
@@ -2200,14 +2171,14 @@
 						},
 						{
 							"type": "entries",
-							"name": "Filho da Maré (3 Pontos)",
+							"name": "Filho da Maré (2 Pontos)",
 							"entries": [
 								"Você ganha deslocamento de natação igual ao seu deslocamento de caminhada e pode respirar ar e água."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Magia Marítima (3 Pontos)",
+							"name": "Magia Marítima (4 Pontos)",
 							"entries": [
 								"Você conhece o truque {@spell Shape Water|XGE|shape water}. A partir do 3º nível, pode conjurar {@spell Fog Cloud|XPHB|fog cloud}. A partir do 5º nível, pode conjurar {@spell Misty Step|XPHB|misty step}, manifestando-se por névoa, espuma ou água. Depois de conjurar uma dessas magias com este traço, não pode conjurá-la novamente com ele até terminar um {@variantrule Long Rest|XPHB|Descanso Longo}. Você também pode conjurá-las usando espaços de magia. Inteligência, Sabedoria ou Carisma é sua habilidade de conjuração."
 							]
@@ -2236,7 +2207,6 @@
 					"type": "entries",
 					"name": "Traços Base de Elfo",
 					"entries": [
-						"{@i [Kÿr – Elf]}",
 						"{@b Tipo de Criatura:} Humanoide",
 						"{@b Tamanho:} Médio",
 						"{@b Deslocamento:} 9 metros (30 pés)",
@@ -2264,14 +2234,14 @@
 						},
 						{
 							"type": "entries",
-							"name": "Transe (1,5 Pontos)",
+							"name": "Transe (1 Ponto)",
 							"entries": [
 								"Você não precisa dormir e magia não pode colocá-lo para dormir. Para obter os benefícios de um {@variantrule Long Rest|XPHB|Descanso Longo}, pode meditar por 4 horas, permanecendo semiconsciente."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Memória Élfica (2,5 Pontos)",
+							"name": "Memória Élfica (3 Pontos)",
 							"entries": [
 								"Quando falhar em um teste de Inteligência, Sabedoria ou Carisma relacionado a memória, tradição, etiqueta, magia, história, presságios ou leitura de ambiente, pode rolar {@dice 1d4} e adicionar ao teste. Você pode usar este traço um número de vezes igual ao seu bônus de proficiência por {@variantrule Long Rest|XPHB|Descanso Longo}."
 							]
@@ -2282,7 +2252,6 @@
 					"type": "entries",
 					"name": "Traços Específicos",
 					"entries": [
-						"{@i [Kÿr – Linhagem Élfica]}",
 						{
 							"type": "entries",
 							"name": "Fonte Primordial (2 Pontos)",
@@ -2292,21 +2261,21 @@
 						},
 						{
 							"type": "entries",
-							"name": "Passo das Folhas (1,5 Pontos)",
+							"name": "Passo das Folhas (1 Ponto)",
 							"entries": [
 								"Você ignora terreno difícil não mágico causado por vegetação natural, como raízes, arbustos, galhos, folhas densas, cipós e solo irregular de floresta."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Magia Silvestre (3 Pontos)",
+							"name": "Magia Silvestre (4 Pontos)",
 							"entries": [
 								"Você conhece o truque {@spell Druidcraft|XPHB|druidcraft}. A partir do 3º nível, pode conjurar {@spell Longstrider|XPHB|longstrider}. A partir do 5º nível, pode conjurar {@spell Pass Without Trace|XPHB|pass without trace}. Depois de conjurar uma dessas magias com este traço, não pode conjurá-la novamente com ele até terminar um {@variantrule Long Rest|XPHB|Descanso Longo}. Você também pode conjurá-las usando espaços de magia. Inteligência, Sabedoria ou Carisma é sua habilidade de conjuração."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Caçador das Copas (1,5 Pontos)",
+							"name": "Caçador das Copas (1 Ponto)",
 							"entries": [
 								"Quando fizer um teste de Sabedoria ({@skill Survival|XPHB|Sobrevivência}), Destreza ({@skill Stealth|XPHB|Furtividade}) ou Sabedoria ({@skill Perception|XPHB|Percepção}) em floresta, selva, bosque, ruína tomada por vegetação ou ambiente natural denso, pode rolar {@dice 1d4} e adicionar ao teste. Você pode usar este traço um número de vezes igual ao seu bônus de proficiência por {@variantrule Long Rest|XPHB|Descanso Longo}."
 							]
@@ -2334,7 +2303,6 @@
 					"type": "entries",
 					"name": "Traços Base de Elfo",
 					"entries": [
-						"{@i [Kÿr – Elf]}",
 						"{@b Tipo de Criatura:} Humanoide",
 						"{@b Tamanho:} Médio",
 						"{@b Deslocamento:} 9 metros (30 pés)",
@@ -2362,14 +2330,14 @@
 						},
 						{
 							"type": "entries",
-							"name": "Transe (1,5 Pontos)",
+							"name": "Transe (1 Ponto)",
 							"entries": [
 								"Você não precisa dormir e magia não pode colocá-lo para dormir. Para obter os benefícios de um {@variantrule Long Rest|XPHB|Descanso Longo}, pode meditar por 4 horas, permanecendo semiconsciente."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Memória Élfica (2,5 Pontos)",
+							"name": "Memória Élfica (3 Pontos)",
 							"entries": [
 								"Quando falhar em um teste de Inteligência, Sabedoria ou Carisma relacionado a memória, tradição, etiqueta, magia, história, presságios ou leitura de ambiente, pode rolar {@dice 1d4} e adicionar ao teste. Você pode usar este traço um número de vezes igual ao seu bônus de proficiência por {@variantrule Long Rest|XPHB|Descanso Longo}."
 							]
@@ -2380,7 +2348,6 @@
 					"type": "entries",
 					"name": "Traços Específicos",
 					"entries": [
-						"{@i [Kÿr – Linhagem Élfica]}",
 						{
 							"type": "entries",
 							"name": "Fonte Sombria (2 Pontos)",
@@ -2397,14 +2364,14 @@
 						},
 						{
 							"type": "entries",
-							"name": "Magia Subterrânea (3 Pontos)",
+							"name": "Magia Subterrânea (4 Pontos)",
 							"entries": [
-								"Você conhece o truque {@spell Minor Illusion|XPHB|minor illusion}. A partir do 3º nível, pode conjurar {@spell Dissonant Whispers|XPHB|dissonant whispers}. A partir do 5º nível, pode conjurar {@spell Mind Spike|XPHB|mind spike}. Depois de conjurar uma dessas magias com este traço, não pode conjurá-la novamente com ele até terminar um {@variantrule Long Rest|XPHB|Descanso Longo}. Você também pode conjurá-las usando espaços de magia. Inteligência, Sabedoria ou Carisma é sua habilidade de conjuração."
+								"Você conhece o truque {@spell Minor Illusion|XPHB|minor illusion}. A partir do 3º nível, pode conjurar {@spell Dissonant Whispers|XPHB|dissonant whispers}. A partir do 5º nível, pode conjurar {@spell Mind Spike|XGE|mind spike}. Depois de conjurar uma dessas magias com este traço, não pode conjurá-la novamente com ele até terminar um {@variantrule Long Rest|XPHB|Descanso Longo}. Você também pode conjurá-las usando espaços de magia. Inteligência, Sabedoria ou Carisma é sua habilidade de conjuração."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Pressão das Profundezas (2 Pontos)",
+							"name": "Pressão das Profundezas (1 Ponto)",
 							"entries": [
 								"Quando uma criatura falhar em um teste de resistência contra uma magia que você conjurou, você pode causar dano psíquico adicional igual ao seu bônus de proficiência. Você pode usar este traço um número de vezes igual ao seu bônus de proficiência por {@variantrule Long Rest|XPHB|Descanso Longo}."
 							]
@@ -2432,7 +2399,6 @@
 					"type": "entries",
 					"name": "Traços Base de Elfo",
 					"entries": [
-						"{@i [Kÿr – Elf]}",
 						"{@b Tipo de Criatura:} Humanoide",
 						"{@b Tamanho:} Médio",
 						"{@b Deslocamento:} 9 metros (30 pés)",
@@ -2460,14 +2426,14 @@
 						},
 						{
 							"type": "entries",
-							"name": "Transe (1,5 Pontos)",
+							"name": "Transe (1 Ponto)",
 							"entries": [
 								"Você não precisa dormir e magia não pode colocá-lo para dormir. Para obter os benefícios de um {@variantrule Long Rest|XPHB|Descanso Longo}, pode meditar por 4 horas, permanecendo semiconsciente."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Memória Élfica (2,5 Pontos)",
+							"name": "Memória Élfica (3 Pontos)",
 							"entries": [
 								"Quando falhar em um teste de Inteligência, Sabedoria ou Carisma relacionado a memória, tradição, etiqueta, magia, história, presságios ou leitura de ambiente, pode rolar {@dice 1d4} e adicionar ao teste. Você pode usar este traço um número de vezes igual ao seu bônus de proficiência por {@variantrule Long Rest|XPHB|Descanso Longo}."
 							]
@@ -2478,7 +2444,6 @@
 					"type": "entries",
 					"name": "Traços Específicos",
 					"entries": [
-						"{@i [Kÿr – Linhagem Élfica]}",
 						{
 							"type": "entries",
 							"name": "Fonte Anímica (2 Pontos)",
@@ -2488,14 +2453,14 @@
 						},
 						{
 							"type": "entries",
-							"name": "Magia Rubra (3,5 Pontos)",
+							"name": "Magia Rubra (4 Pontos)",
 							"entries": [
 								"Você conhece o truque {@spell Fire Bolt|XPHB|fire bolt}. A partir do 3º nível, pode conjurar {@spell False Life|XPHB|false life}. A partir do 5º nível, pode conjurar {@spell Scorching Ray|XPHB|scorching ray}. Depois de conjurar uma dessas magias com este traço, não pode conjurá-la novamente com ele até terminar um {@variantrule Long Rest|XPHB|Descanso Longo}. Você também pode conjurá-las usando espaços de magia. Inteligência, Sabedoria ou Carisma é sua habilidade de conjuração."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Sangue em Chamas (2,5 Pontos)",
+							"name": "Sangue em Chamas (2 Pontos)",
 							"entries": [
 								"Quando você causar dano de fogo ou ganhar pontos de vida temporários, pode escolher uma criatura que possa ver a até 9 metros. Essa criatura sofre dano de fogo igual ao seu bônus de proficiência. Você pode usar este traço um número de vezes igual ao seu bônus de proficiência por {@variantrule Long Rest|XPHB|Descanso Longo}."
 							]
@@ -2522,7 +2487,6 @@
 				"fey"
 			],
 			"entries": [
-				"{@i [Kÿr – Fairy]}",
 				"{@b Tipo de Criatura:} Feérico",
 				"{@b Tamanho:} Minúsculo",
 				"{@b Deslocamento:} 6 metros (20 pés), voo 9 metros (30 pés)",
@@ -2571,21 +2535,21 @@
 				},
 				{
 					"type": "entries",
-					"name": "Magia do Sonhar (3,5 Pontos)",
+					"name": "Magia do Sonhar (4 Pontos)",
 					"entries": [
 						"Você conhece o truque {@spell Druidcraft|XPHB|druidcraft}. A partir do 3º nível, pode conjurar {@spell Faerie Fire|XPHB|faerie fire}. A partir do 5º nível, pode conjurar {@spell Misty Step|XPHB|misty step}. Depois de conjurar uma dessas magias com este traço, não pode conjurá-la novamente com ele até terminar um {@variantrule Long Rest|XPHB|Descanso Longo}. Você também pode conjurá-las usando espaços de magia. Inteligência, Sabedoria ou Carisma é sua habilidade de conjuração."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Fonte Feérica (1,5 Pontos)",
+					"name": "Fonte Feérica (2 Pontos)",
 					"entries": [
 						"Você ganha acesso à Fonte Feérica."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Pó de Distração (2 Pontos)",
+					"name": "Pó de Distração (1 Ponto)",
 					"entries": [
 						"Quando uma criatura que você possa ver fizer uma jogada de ataque contra você, pode usar sua reação para impor desvantagem nessa jogada. Você pode usar este traço um número de vezes igual ao seu bônus de proficiência por {@variantrule Long Rest|XPHB|Descanso Longo}."
 					]
@@ -2608,7 +2572,6 @@
 				"humanoid"
 			],
 			"entries": [
-				"{@i [Kÿr – Gaanor]}",
 				"{@b Tipo de Criatura:} Humanoide",
 				"{@b Tamanho:} Médio",
 				"{@b Deslocamento:} 9 metros (30 pés)",
@@ -2617,28 +2580,28 @@
 					"type": "entries",
 					"name": "Pele Espessa (3 Pontos)",
 					"entries": [
-						"Quando você não estiver usando armadura, sua Classe de Armadura base é 13 + seu modificador de Constituição. Você pode usar um escudo e ainda receber esse benefício."
+						"Quando você não estiver usando armadura, sua {@variantrule Armor Class|XPHB|Classe de Armadura} base é 13 + seu modificador de Constituição. Você pode usar um escudo e ainda receber esse benefício."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Porte de Colosso (2 Pontos)",
 					"entries": [
-						"Você conta como uma categoria de tamanho maior para determinar sua capacidade de carga e o peso que pode empurrar, arrastar ou levantar. Além disso, tem vantagem em testes de Força feitos para resistir a ser empurrado ou {@condition Prone|XPHB|Derrubado}."
+						"Você conta como uma categoria de tamanho maior para determinar sua capacidade de carga e o peso que pode empurrar, arrastar ou levantar. Além disso, tem vantagem em testes de Força feitos para resistir a ser empurrado ou derrubado."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Tromba Preênsil (1,5 Pontos)",
+					"name": "Tromba Preênsil (1 Ponto)",
 					"entries": [
 						"Você pode usar sua tromba para interagir com objetos simples, como abrir portas destrancadas, pegar ou soltar itens, puxar alavancas, carregar objetos leves ou realizar gestos simples. Sua tromba tem alcance de 3 metros para interações com objetos. Ela não pode empunhar armas, usar escudos, realizar componentes somáticos ou ativar itens mágicos."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Tromba de Contenção (2,5 Pontos)",
+					"name": "Tromba de Contenção (2 Pontos)",
 					"entries": [
-						"Quando realizar a ação Agarrar ou Empurrar, pode usar sua tromba para fazê-lo com alcance de 3 metros. Você pode usar este benefício um número de vezes igual ao seu bônus de proficiência por {@variantrule Long Rest|XPHB|Descanso Longo}."
+						"Quando realizar a ação {@action Grapple|XPHB|Agarrar} ou {@action Shove|XPHB|Empurrar}, pode usar sua tromba para fazê-lo com alcance de 3 metros. Você pode usar este benefício um número de vezes igual ao seu bônus de proficiência por {@variantrule Long Rest|XPHB|Descanso Longo}."
 					]
 				},
 				{
@@ -2650,7 +2613,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Bênção do Caminho Livre (3 Pontos)",
+					"name": "Bênção do Caminho Livre (4 Pontos)",
 					"entries": [
 						"Quando você ou um aliado que possa ver a até 9 metros falhar em um teste de habilidade, pode usar sua reação para adicionar seu bônus de proficiência à rolagem, potencialmente transformando a falha em sucesso. Você pode usar este traço um número de vezes igual ao seu bônus de proficiência por {@variantrule Long Rest|XPHB|Descanso Longo}."
 					]
@@ -2685,21 +2648,20 @@
 					"type": "entries",
 					"name": "Traços Base de Fal’trez",
 					"entries": [
-						"{@i [Kÿr – Aviares]}",
 						"{@b Tipo de Criatura:} Humanoide",
 						"{@b Tamanho:} Pequeno ou Médio",
 						"{@b Deslocamento:} 9 metros (30 pés)",
 						"Fal’trez possuem corpos leves, ossos ocos, asas funcionais, talões e traços aviários evidentes. Sua plumagem varia conforme a subespécie.",
 						{
 							"type": "entries",
-							"name": "Queda Controlada (1,5 Pontos)",
+							"name": "Queda Controlada (1 Ponto)",
 							"entries": [
-								"Quando você cair e não estiver {@condition Incapacitated|XPHB|Incapacitado}, pode usar sua reação para reduzir o dano da queda em quantidade igual a cinco vezes seu bônus de proficiência."
+								"Quando você cair e não estiver incapacitado, pode usar sua reação para reduzir o dano da queda em quantidade igual a cinco vezes seu bônus de proficiência."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Visão Aérea (1,5 Pontos)",
+							"name": "Visão Aérea (2 Pontos)",
 							"entries": [
 								"Você tem vantagem em testes de Sabedoria ({@skill Perception|XPHB|Percepção}) baseados em visão enquanto estiver a pelo menos 6 metros acima do solo."
 							]
@@ -2731,7 +2693,6 @@
 					"type": "entries",
 					"name": "Traços Específicos",
 					"entries": [
-						"{@i [Kÿr – Subespécie Fal’trez]}",
 						{
 							"type": "entries",
 							"name": "Voo de Rapina (4 Pontos)",
@@ -2741,14 +2702,14 @@
 						},
 						{
 							"type": "entries",
-							"name": "Mergulho de Rapina (2,5 Pontos)",
+							"name": "Mergulho de Rapina (3 Pontos)",
 							"entries": [
 								"Uma vez por turno, se você descer pelo menos 6 metros em linha reta antes de acertar uma criatura com um ataque corpo a corpo no mesmo turno, causa dano adicional igual ao seu bônus de proficiência."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Olhos das Alturas (1,5 Pontos)",
+							"name": "Olhos das Alturas (1 Ponto)",
 							"entries": [
 								"Quando fizer teste de Sabedoria ({@skill Perception|XPHB|Percepção}) ou Sabedoria ({@skill Survival|XPHB|Sobrevivência}) para observar, rastrear ou localizar uma criatura a partir de posição elevada, pode rolar {@dice 1d4} e adicionar ao teste. Você pode usar este traço um número de vezes igual ao seu bônus de proficiência por {@variantrule Long Rest|XPHB|Descanso Longo}."
 							]
@@ -2787,21 +2748,20 @@
 					"type": "entries",
 					"name": "Traços Base de Fal’trez",
 					"entries": [
-						"{@i [Kÿr – Aviares]}",
 						"{@b Tipo de Criatura:} Humanoide",
 						"{@b Tamanho:} Pequeno ou Médio",
 						"{@b Deslocamento:} 9 metros (30 pés)",
 						"Fal’trez possuem corpos leves, ossos ocos, asas funcionais, talões e traços aviários evidentes. Sua plumagem varia conforme a subespécie.",
 						{
 							"type": "entries",
-							"name": "Queda Controlada (1,5 Pontos)",
+							"name": "Queda Controlada (1 Ponto)",
 							"entries": [
-								"Quando você cair e não estiver {@condition Incapacitated|XPHB|Incapacitado}, pode usar sua reação para reduzir o dano da queda em quantidade igual a cinco vezes seu bônus de proficiência."
+								"Quando você cair e não estiver incapacitado, pode usar sua reação para reduzir o dano da queda em quantidade igual a cinco vezes seu bônus de proficiência."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Visão Aérea (1,5 Pontos)",
+							"name": "Visão Aérea (2 Pontos)",
 							"entries": [
 								"Você tem vantagem em testes de Sabedoria ({@skill Perception|XPHB|Percepção}) baseados em visão enquanto estiver a pelo menos 6 metros acima do solo."
 							]
@@ -2833,7 +2793,6 @@
 					"type": "entries",
 					"name": "Traços Específicos",
 					"entries": [
-						"{@i [Kÿr – Subespécie Fal’trez]}",
 						{
 							"type": "entries",
 							"name": "Voo Curto (3 Pontos)",
@@ -2850,14 +2809,14 @@
 						},
 						{
 							"type": "entries",
-							"name": "Grito Desafiador (2,5 Pontos)",
+							"name": "Grito Desafiador (3 Pontos)",
 							"entries": [
 								"Como ação bônus, escolha uma criatura a até 9 metros que possa ouvir você. Até o início do seu próximo turno, a primeira jogada de ataque dessa criatura é feita com desvantagem se o ataque não tiver você como alvo. Você pode usar este traço um número de vezes igual ao seu bônus de proficiência por {@variantrule Long Rest|XPHB|Descanso Longo}."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Postura de Duelista (2,5 Pontos)",
+							"name": "Postura de Duelista (2 Pontos)",
 							"entries": [
 								"Quando uma criatura que você possa ver errar um ataque corpo a corpo contra você, pode usar sua reação para causar dano perfurante a ela igual ao seu bônus de proficiência. Você pode usar este traço um número de vezes igual ao seu bônus de proficiência por {@variantrule Long Rest|XPHB|Descanso Longo}."
 							]
@@ -2896,21 +2855,20 @@
 					"type": "entries",
 					"name": "Traços Base de Fal’trez",
 					"entries": [
-						"{@i [Kÿr – Aviares]}",
 						"{@b Tipo de Criatura:} Humanoide",
 						"{@b Tamanho:} Pequeno ou Médio",
 						"{@b Deslocamento:} 9 metros (30 pés)",
 						"Fal’trez possuem corpos leves, ossos ocos, asas funcionais, talões e traços aviários evidentes. Sua plumagem varia conforme a subespécie.",
 						{
 							"type": "entries",
-							"name": "Queda Controlada (1,5 Pontos)",
+							"name": "Queda Controlada (1 Ponto)",
 							"entries": [
-								"Quando você cair e não estiver {@condition Incapacitated|XPHB|Incapacitado}, pode usar sua reação para reduzir o dano da queda em quantidade igual a cinco vezes seu bônus de proficiência."
+								"Quando você cair e não estiver incapacitado, pode usar sua reação para reduzir o dano da queda em quantidade igual a cinco vezes seu bônus de proficiência."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Visão Aérea (1,5 Pontos)",
+							"name": "Visão Aérea (2 Pontos)",
 							"entries": [
 								"Você tem vantagem em testes de Sabedoria ({@skill Perception|XPHB|Percepção}) baseados em visão enquanto estiver a pelo menos 6 metros acima do solo."
 							]
@@ -2942,10 +2900,9 @@
 					"type": "entries",
 					"name": "Traços Específicos",
 					"entries": [
-						"{@i [Kÿr – Subespécie Fal’trez]}",
 						{
 							"type": "entries",
-							"name": "Voo de Corvídeo (3,5 Pontos)",
+							"name": "Voo de Corvídeo (4 Pontos)",
 							"entries": [
 								"Você possui deslocamento de voo de 9 metros (30 pés). Você não pode usar esse deslocamento enquanto estiver usando armadura pesada."
 							]
@@ -2954,7 +2911,7 @@
 							"type": "entries",
 							"name": "Mímica (1 Ponto)",
 							"entries": [
-								"Você pode imitar sons que tenha ouvido, incluindo vozes. Uma criatura que ouvir a imitação pode discernir que é falsa com teste de Sabedoria ({@skill Insight|XPHB|Intuição}) contra CD = 8 + seu bônus de proficiência + seu modificador de Carisma."
+								"Você pode imitar sons que tenha ouvido, incluindo vozes. Uma criatura que ouvir a imitação pode discernir que é falsa com teste de Sabedoria ({@skill Insight|XPHB|Intuição}) contra {@dc 8} + seu bônus de proficiência + seu modificador de Carisma."
 							]
 						},
 						{
@@ -2973,7 +2930,7 @@
 						},
 						{
 							"type": "entries",
-							"name": "Roubo de Oportunidade (2,5 Pontos)",
+							"name": "Roubo de Oportunidade (2 Pontos)",
 							"entries": [
 								"Quando uma criatura que você possa ver a até 9 metros falhar em um teste de habilidade, pode usar sua reação para ganhar vantagem no próximo teste de habilidade que fizer antes do final do seu próximo turno, desde que o teste use a mesma perícia ou atributo. Você pode usar este traço um número de vezes igual ao seu bônus de proficiência por {@variantrule Long Rest|XPHB|Descanso Longo}."
 							]
@@ -3005,21 +2962,20 @@
 					"type": "entries",
 					"name": "Traços Base de Fal’trez",
 					"entries": [
-						"{@i [Kÿr – Aviares]}",
 						"{@b Tipo de Criatura:} Humanoide",
 						"{@b Tamanho:} Pequeno ou Médio",
 						"{@b Deslocamento:} 9 metros (30 pés)",
 						"Fal’trez possuem corpos leves, ossos ocos, asas funcionais, talões e traços aviários evidentes. Sua plumagem varia conforme a subespécie.",
 						{
 							"type": "entries",
-							"name": "Queda Controlada (1,5 Pontos)",
+							"name": "Queda Controlada (1 Ponto)",
 							"entries": [
-								"Quando você cair e não estiver {@condition Incapacitated|XPHB|Incapacitado}, pode usar sua reação para reduzir o dano da queda em quantidade igual a cinco vezes seu bônus de proficiência."
+								"Quando você cair e não estiver incapacitado, pode usar sua reação para reduzir o dano da queda em quantidade igual a cinco vezes seu bônus de proficiência."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Visão Aérea (1,5 Pontos)",
+							"name": "Visão Aérea (2 Pontos)",
 							"entries": [
 								"Você tem vantagem em testes de Sabedoria ({@skill Perception|XPHB|Percepção}) baseados em visão enquanto estiver a pelo menos 6 metros acima do solo."
 							]
@@ -3051,31 +3007,30 @@
 					"type": "entries",
 					"name": "Traços Específicos",
 					"entries": [
-						"{@i [Kÿr – Subespécie Fal’trez]}",
 						{
 							"type": "entries",
-							"name": "Voo Luminar (3,5 Pontos)",
+							"name": "Voo Luminar (4 Pontos)",
 							"entries": [
 								"Você possui deslocamento de voo de 12 metros (40 pés). Você não pode usar esse deslocamento enquanto estiver usando armadura média ou pesada."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Plumagem Luminosa (0,5 Ponto)",
+							"name": "Plumagem Luminosa (1 Ponto)",
 							"entries": [
 								"Você pode emitir luz fraca em raio de 3 metros, ativando ou suprimindo a luz como ação bônus."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Ofuscar Instintivo (2,5 Pontos)",
+							"name": "Ofuscar Instintivo (2 Pontos)",
 							"entries": [
 								"Quando uma criatura que você possa ver errar um ataque contra você, pode usar sua reação para impor desvantagem no próximo ataque dessa criatura antes do final do próximo turno dela. Você pode usar este traço um número de vezes igual ao seu bônus de proficiência por {@variantrule Long Rest|XPHB|Descanso Longo}."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Sinal de Guia (2,5 Pontos)",
+							"name": "Sinal de Guia (2 Pontos)",
 							"entries": [
 								"Como ação bônus, escolha um aliado que possa ver você a até 18 metros. Até o início do seu próximo turno, essa criatura pode adicionar {@dice 1d4} ao próximo teste de Sabedoria ({@skill Perception|XPHB|Percepção}), Sabedoria ({@skill Survival|XPHB|Sobrevivência}) ou Destreza ({@skill Stealth|XPHB|Furtividade}). Você pode usar este traço um número de vezes igual ao seu bônus de proficiência por {@variantrule Long Rest|XPHB|Descanso Longo}."
 							]
@@ -3114,21 +3069,20 @@
 					"type": "entries",
 					"name": "Traços Base de Fal’trez",
 					"entries": [
-						"{@i [Kÿr – Aviares]}",
 						"{@b Tipo de Criatura:} Humanoide",
 						"{@b Tamanho:} Pequeno ou Médio",
 						"{@b Deslocamento:} 9 metros (30 pés)",
 						"Fal’trez possuem corpos leves, ossos ocos, asas funcionais, talões e traços aviários evidentes. Sua plumagem varia conforme a subespécie.",
 						{
 							"type": "entries",
-							"name": "Queda Controlada (1,5 Pontos)",
+							"name": "Queda Controlada (1 Ponto)",
 							"entries": [
-								"Quando você cair e não estiver {@condition Incapacitated|XPHB|Incapacitado}, pode usar sua reação para reduzir o dano da queda em quantidade igual a cinco vezes seu bônus de proficiência."
+								"Quando você cair e não estiver incapacitado, pode usar sua reação para reduzir o dano da queda em quantidade igual a cinco vezes seu bônus de proficiência."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Visão Aérea (1,5 Pontos)",
+							"name": "Visão Aérea (2 Pontos)",
 							"entries": [
 								"Você tem vantagem em testes de Sabedoria ({@skill Perception|XPHB|Percepção}) baseados em visão enquanto estiver a pelo menos 6 metros acima do solo."
 							]
@@ -3160,7 +3114,6 @@
 					"type": "entries",
 					"name": "Traços Específicos",
 					"entries": [
-						"{@i [Kÿr – Subespécie Fal’trez]}",
 						{
 							"type": "entries",
 							"name": "Voo de Caçador (4 Pontos)",
@@ -3223,21 +3176,20 @@
 					"type": "entries",
 					"name": "Traços Base de Fal’trez",
 					"entries": [
-						"{@i [Kÿr – Aviares]}",
 						"{@b Tipo de Criatura:} Humanoide",
 						"{@b Tamanho:} Pequeno ou Médio",
 						"{@b Deslocamento:} 9 metros (30 pés)",
 						"Fal’trez possuem corpos leves, ossos ocos, asas funcionais, talões e traços aviários evidentes. Sua plumagem varia conforme a subespécie.",
 						{
 							"type": "entries",
-							"name": "Queda Controlada (1,5 Pontos)",
+							"name": "Queda Controlada (1 Ponto)",
 							"entries": [
-								"Quando você cair e não estiver {@condition Incapacitated|XPHB|Incapacitado}, pode usar sua reação para reduzir o dano da queda em quantidade igual a cinco vezes seu bônus de proficiência."
+								"Quando você cair e não estiver incapacitado, pode usar sua reação para reduzir o dano da queda em quantidade igual a cinco vezes seu bônus de proficiência."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Visão Aérea (1,5 Pontos)",
+							"name": "Visão Aérea (2 Pontos)",
 							"entries": [
 								"Você tem vantagem em testes de Sabedoria ({@skill Perception|XPHB|Percepção}) baseados em visão enquanto estiver a pelo menos 6 metros acima do solo."
 							]
@@ -3269,7 +3221,6 @@
 					"type": "entries",
 					"name": "Traços Específicos",
 					"entries": [
-						"{@i [Kÿr – Subespécie Fal’trez]}",
 						{
 							"type": "entries",
 							"name": "Voo Silencioso (4 Pontos)",
@@ -3333,7 +3284,6 @@
 					"type": "entries",
 					"name": "Traços Base de Celestial",
 					"entries": [
-						"{@i [Kÿr – Abençoado Astral]}",
 						"{@b Tipo de Criatura:} Celestial",
 						"{@b Tamanho:} Pequeno ou Médio",
 						"{@b Deslocamento:} 9 metros (30 pés)",
@@ -3368,14 +3318,14 @@
 						},
 						{
 							"type": "entries",
-							"name": "Asas Manifestas (2 Pontos)",
+							"name": "Asas Manifestas (1 Ponto)",
 							"entries": [
-								"A partir do 5º nível, pode manifestar asas celestiais como ação bônus. Enquanto manifestas, possui deslocamento de voo igual ao seu deslocamento de caminhada. Você não pode usar esse voo com armadura pesada. As asas permanecem até você retraí-las, ficar {@condition Incapacitated|XPHB|Incapacitado} ou terminar um {@variantrule Long Rest|XPHB|Descanso Longo}."
+								"A partir do 5º nível, pode manifestar asas celestiais como ação bônus. Enquanto manifestas, possui deslocamento de voo igual ao seu deslocamento de caminhada. Você não pode usar esse voo com armadura pesada. As asas permanecem até você retraí-las, ficar incapacitado ou terminar um {@variantrule Long Rest|XPHB|Descanso Longo}."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Fonte Divina (1 Ponto)",
+							"name": "Fonte Divina (2 Pontos)",
 							"entries": [
 								"Você ganha acesso à Fonte Divina."
 							]
@@ -3386,10 +3336,9 @@
 					"type": "entries",
 					"name": "Traços Específicos",
 					"entries": [
-						"{@i [Kÿr – Caminho Celestial]}",
 						{
 							"type": "entries",
-							"name": "Luz Reveladora (2,5 Pontos)",
+							"name": "Luz Reveladora (3 Pontos)",
 							"entries": [
 								"Você conhece o truque {@spell Light|XPHB|light}. A partir do 3º nível, pode conjurar {@spell Guiding Bolt|XPHB|guiding bolt} com este traço. Depois de conjurar com este traço, não pode conjurá-la novamente até terminar um {@variantrule Long Rest|XPHB|Descanso Longo}. Você também pode conjurá-la usando espaços de magia. Inteligência, Sabedoria ou Carisma é sua habilidade de conjuração."
 							]
@@ -3403,7 +3352,7 @@
 						},
 						{
 							"type": "entries",
-							"name": "Presença Coerente (1,5 Pontos)",
+							"name": "Presença Coerente (1 Ponto)",
 							"entries": [
 								"Quando fizer um teste de Carisma ({@skill Persuasion|XPHB|Persuasão}) ou Sabedoria ({@skill Insight|XPHB|Intuição}) para restaurar confiança, encerrar conflito, mediar acordo ou perceber mentira direta, pode rolar {@dice 1d4} e adicionar ao teste. Você pode usar este traço um número de vezes igual ao seu bônus de proficiência por {@variantrule Long Rest|XPHB|Descanso Longo}."
 							]
@@ -3437,7 +3386,6 @@
 					"type": "entries",
 					"name": "Traços Base de Celestial",
 					"entries": [
-						"{@i [Kÿr – Abençoado Astral]}",
 						"{@b Tipo de Criatura:} Celestial",
 						"{@b Tamanho:} Pequeno ou Médio",
 						"{@b Deslocamento:} 9 metros (30 pés)",
@@ -3472,14 +3420,14 @@
 						},
 						{
 							"type": "entries",
-							"name": "Asas Manifestas (2 Pontos)",
+							"name": "Asas Manifestas (1 Ponto)",
 							"entries": [
-								"A partir do 5º nível, pode manifestar asas celestiais como ação bônus. Enquanto manifestas, possui deslocamento de voo igual ao seu deslocamento de caminhada. Você não pode usar esse voo com armadura pesada. As asas permanecem até você retraí-las, ficar {@condition Incapacitated|XPHB|Incapacitado} ou terminar um {@variantrule Long Rest|XPHB|Descanso Longo}."
+								"A partir do 5º nível, pode manifestar asas celestiais como ação bônus. Enquanto manifestas, possui deslocamento de voo igual ao seu deslocamento de caminhada. Você não pode usar esse voo com armadura pesada. As asas permanecem até você retraí-las, ficar incapacitado ou terminar um {@variantrule Long Rest|XPHB|Descanso Longo}."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Fonte Divina (1 Ponto)",
+							"name": "Fonte Divina (2 Pontos)",
 							"entries": [
 								"Você ganha acesso à Fonte Divina."
 							]
@@ -3490,17 +3438,16 @@
 					"type": "entries",
 					"name": "Traços Específicos",
 					"entries": [
-						"{@i [Kÿr – Caminho Celestial]}",
 						{
 							"type": "entries",
-							"name": "Olhar do Julgamento (1 Ponto)",
+							"name": "Olhar do Julgamento (2 Pontos)",
 							"entries": [
 								"A partir do 3º nível, pode conjurar {@spell Compelled Duel|XPHB|compelled duel} com este traço. Depois de conjurar com este traço, não pode conjurá-la novamente até terminar um {@variantrule Long Rest|XPHB|Descanso Longo}. Você também pode conjurá-la usando espaços de magia. Inteligência, Sabedoria ou Carisma é sua habilidade de conjuração."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Peso da Decisão (2 Pontos)",
+							"name": "Peso da Decisão (1 Ponto)",
 							"entries": [
 								"Quando uma criatura que você possa ver causar dano a você ou a um aliado a até 9 metros, pode usar sua reação para impor desvantagem na próxima jogada de ataque dessa criatura antes do final do próximo turno dela. Você pode usar este traço um número de vezes igual ao seu bônus de proficiência por {@variantrule Long Rest|XPHB|Descanso Longo}."
 							]
@@ -3538,7 +3485,6 @@
 					"type": "entries",
 					"name": "Traços Base de Infernal",
 					"entries": [
-						"{@i [Kÿr – Herdeiro Infernal]}",
 						"{@b Tipo de Criatura:} Humanoide",
 						"{@b Tamanho:} Pequeno ou Médio",
 						"{@b Deslocamento:} 9 metros (30 pés)",
@@ -3584,7 +3530,6 @@
 					"type": "entries",
 					"name": "Traços Específicos",
 					"entries": [
-						"{@i [Kÿr – Pacto Infernal]}",
 						{
 							"type": "entries",
 							"name": "Resistência Ígnea (3 Pontos)",
@@ -3594,14 +3539,14 @@
 						},
 						{
 							"type": "entries",
-							"name": "Explosão Ardente (2,5 Pontos)",
+							"name": "Explosão Ardente (2 Pontos)",
 							"entries": [
 								"Quando causar dano a uma criatura com um ataque ou magia, pode causar dano de fogo adicional igual ao seu bônus de proficiência. Você pode usar este traço um número de vezes igual ao seu bônus de proficiência por {@variantrule Long Rest|XPHB|Descanso Longo}."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Magia Infernal Ígnea (3,5 Pontos)",
+							"name": "Magia Infernal Ígnea (4 Pontos)",
 							"entries": [
 								"A partir do 3º nível, pode conjurar {@spell Chromatic Orb|XPHB|chromatic orb} com este traço, causando apenas fogo. A partir do 5º nível, pode conjurar {@spell Scorching Ray|XPHB|scorching ray}. Depois de conjurar uma dessas magias com este traço, não pode conjurá-la novamente com ele até terminar um {@variantrule Long Rest|XPHB|Descanso Longo}. Você também pode conjurá-las usando espaços de magia. Inteligência, Sabedoria ou Carisma é sua habilidade de conjuração."
 							]
@@ -3631,7 +3576,6 @@
 					"type": "entries",
 					"name": "Traços Base de Infernal",
 					"entries": [
-						"{@i [Kÿr – Herdeiro Infernal]}",
 						"{@b Tipo de Criatura:} Humanoide",
 						"{@b Tamanho:} Pequeno ou Médio",
 						"{@b Deslocamento:} 9 metros (30 pés)",
@@ -3677,7 +3621,6 @@
 					"type": "entries",
 					"name": "Traços Específicos",
 					"entries": [
-						"{@i [Kÿr – Pacto Infernal]}",
 						{
 							"type": "entries",
 							"name": "Resistência Gélida (3 Pontos)",
@@ -3687,21 +3630,21 @@
 						},
 						{
 							"type": "entries",
-							"name": "Toque Entorpecente (2 Pontos)",
+							"name": "Toque Entorpecente (1 Ponto)",
 							"entries": [
 								"Uma vez por turno, quando causar dano de frio a uma criatura, pode reduzir o deslocamento dela em 3 metros até o início do seu próximo turno. Você pode aplicar este traço um número de vezes igual ao seu bônus de proficiência por {@variantrule Long Rest|XPHB|Descanso Longo}."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Frieza Imóvel (0,5 Ponto)",
+							"name": "Frieza Imóvel (1 Ponto)",
 							"entries": [
 								"Você tem vantagem em testes de resistência para evitar ou encerrar a condição {@condition Prone|XPHB|Derrubado}."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Magia Infernal Gélida (3,5 Pontos)",
+							"name": "Magia Infernal Gélida (4 Pontos)",
 							"entries": [
 								"A partir do 3º nível, pode conjurar {@spell Armor Of Agathys|XPHB|armor of agathys}. A partir do 5º nível, pode conjurar {@spell Hold Person|XPHB|hold person}. Depois de conjurar uma dessas magias com este traço, não pode conjurá-la novamente com ele até terminar um {@variantrule Long Rest|XPHB|Descanso Longo}. Você também pode conjurá-las usando espaços de magia. Inteligência, Sabedoria ou Carisma é sua habilidade de conjuração."
 							]
@@ -3731,7 +3674,6 @@
 					"type": "entries",
 					"name": "Traços Base de Infernal",
 					"entries": [
-						"{@i [Kÿr – Herdeiro Infernal]}",
 						"{@b Tipo de Criatura:} Humanoide",
 						"{@b Tamanho:} Pequeno ou Médio",
 						"{@b Deslocamento:} 9 metros (30 pés)",
@@ -3777,7 +3719,6 @@
 					"type": "entries",
 					"name": "Traços Específicos",
 					"entries": [
-						"{@i [Kÿr – Pacto Infernal]}",
 						{
 							"type": "entries",
 							"name": "Resistência Necrótica (3 Pontos)",
@@ -3787,7 +3728,7 @@
 						},
 						{
 							"type": "entries",
-							"name": "Dreno Vital (2 Pontos)",
+							"name": "Dreno Vital (1 Ponto)",
 							"entries": [
 								"Uma vez por turno, quando causar dano necrótico a uma criatura, pode recuperar pontos de vida iguais ao seu bônus de proficiência. Você pode usar este traço um número de vezes igual ao seu bônus de proficiência por {@variantrule Long Rest|XPHB|Descanso Longo}."
 							]
@@ -3801,7 +3742,7 @@
 						},
 						{
 							"type": "entries",
-							"name": "Magia Infernal da Ruína (3 Pontos)",
+							"name": "Magia Infernal da Ruína (4 Pontos)",
 							"entries": [
 								"A partir do 3º nível, pode conjurar {@spell False Life|XPHB|false life}. A partir do 5º nível, pode conjurar {@spell Blindness/Deafness|XPHB|blindness/deafness}. Depois de conjurar uma dessas magias com este traço, não pode conjurá-la novamente com ele até terminar um {@variantrule Long Rest|XPHB|Descanso Longo}. Você também pode conjurá-las usando espaços de magia. Inteligência, Sabedoria ou Carisma é sua habilidade de conjuração."
 							]
@@ -3831,7 +3772,6 @@
 					"type": "entries",
 					"name": "Traços Base de Infernal",
 					"entries": [
-						"{@i [Kÿr – Herdeiro Infernal]}",
 						"{@b Tipo de Criatura:} Humanoide",
 						"{@b Tamanho:} Pequeno ou Médio",
 						"{@b Deslocamento:} 9 metros (30 pés)",
@@ -3877,31 +3817,30 @@
 					"type": "entries",
 					"name": "Traços Específicos",
 					"entries": [
-						"{@i [Kÿr – Pacto Infernal]}",
 						{
 							"type": "entries",
-							"name": "Resistência Venenosa (3,5 Pontos)",
+							"name": "Resistência Venenosa (3 Pontos)",
 							"entries": [
 								"Você possui resistência a dano de veneno e tem vantagem em testes de resistência para evitar ou encerrar a condição {@condition Poisoned|XPHB|Envenenado}."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Sangue Tóxico (2 Pontos)",
+							"name": "Sangue Tóxico (1 Ponto)",
 							"entries": [
 								"Quando uma criatura atingir você com ataque corpo a corpo, pode usar sua reação para causar dano de veneno a ela igual ao seu bônus de proficiência. Você pode usar este traço um número de vezes igual ao seu bônus de proficiência por {@variantrule Long Rest|XPHB|Descanso Longo}."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Odor Pestilento (0,5 Ponto)",
+							"name": "Odor Pestilento (1 Ponto)",
 							"entries": [
 								"Você adquire proficiência em {@skill Intimidation|XPHB|Intimidação} ou {@skill Medicine|XPHB|Medicina}. Se já tiver proficiência na perícia escolhida, escolha outra entre essas duas ou {@skill Nature|XPHB|Natureza}."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Magia Infernal Venenosa (3 Pontos)",
+							"name": "Magia Infernal Venenosa (4 Pontos)",
 							"entries": [
 								"A partir do 3º nível, pode conjurar {@spell Ray Of Sickness|XPHB|ray of sickness}. A partir do 5º nível, pode conjurar {@spell Suggestion|XPHB|suggestion}. Depois de conjurar uma dessas magias com este traço, não pode conjurá-la novamente com ele até terminar um {@variantrule Long Rest|XPHB|Descanso Longo}. Você também pode conjurá-las usando espaços de magia. Inteligência, Sabedoria ou Carisma é sua habilidade de conjuração."
 							]
@@ -3931,7 +3870,6 @@
 					"type": "entries",
 					"name": "Traços Base de Infernal",
 					"entries": [
-						"{@i [Kÿr – Herdeiro Infernal]}",
 						"{@b Tipo de Criatura:} Humanoide",
 						"{@b Tamanho:} Pequeno ou Médio",
 						"{@b Deslocamento:} 9 metros (30 pés)",
@@ -3977,7 +3915,6 @@
 					"type": "entries",
 					"name": "Traços Específicos",
 					"entries": [
-						"{@i [Kÿr – Pacto Infernal]}",
 						{
 							"type": "entries",
 							"name": "Resistência Mental (3 Pontos)",
@@ -3987,7 +3924,7 @@
 						},
 						{
 							"type": "entries",
-							"name": "Pressão Interna (2 Pontos)",
+							"name": "Pressão Interna (1 Ponto)",
 							"entries": [
 								"Quando uma criatura falhar em um teste de resistência contra uma magia que você conjurou, pode causar dano psíquico adicional igual ao seu bônus de proficiência. Você pode usar este traço um número de vezes igual ao seu bônus de proficiência por {@variantrule Long Rest|XPHB|Descanso Longo}."
 							]
@@ -4001,9 +3938,9 @@
 						},
 						{
 							"type": "entries",
-							"name": "Magia Infernal Psíquica (3 Pontos)",
+							"name": "Magia Infernal Psíquica (4 Pontos)",
 							"entries": [
-								"A partir do 3º nível, pode conjurar {@spell Dissonant Whispers|XPHB|dissonant whispers}. A partir do 5º nível, pode conjurar {@spell Mind Spike|XPHB|mind spike}. Depois de conjurar uma dessas magias com este traço, não pode conjurá-la novamente com ele até terminar um {@variantrule Long Rest|XPHB|Descanso Longo}. Você também pode conjurá-las usando espaços de magia. Inteligência, Sabedoria ou Carisma é sua habilidade de conjuração."
+								"A partir do 3º nível, pode conjurar {@spell Dissonant Whispers|XPHB|dissonant whispers}. A partir do 5º nível, pode conjurar {@spell Mind Spike|XGE|mind spike}. Depois de conjurar uma dessas magias com este traço, não pode conjurá-la novamente com ele até terminar um {@variantrule Long Rest|XPHB|Descanso Longo}. Você também pode conjurá-las usando espaços de magia. Inteligência, Sabedoria ou Carisma é sua habilidade de conjuração."
 							]
 						}
 					]
@@ -4026,21 +3963,20 @@
 				"humanoid"
 			],
 			"entries": [
-				"{@i [Kÿr – Goblin]}",
 				"{@b Tipo de Criatura:} Humanoide",
 				"{@b Tamanho:} Pequeno",
 				"{@b Deslocamento:} 10,5 metros (35 pés)",
 				"Goblins são pequenos, ágeis, atentos e extremamente práticos. Sua força está em oportunidade, cobertura e combate sujo em grupo.",
 				{
 					"type": "entries",
-					"name": "Tamanho Pequeno (0,5 Ponto)",
+					"name": "Tamanho Pequeno (1 Ponto)",
 					"entries": [
 						"Seu tamanho é Pequeno."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Deslocamento 10,5 Metros (1,5 Pontos)",
+					"name": "Deslocamento 10,5 Metros (1 Ponto)",
 					"entries": [
 						"Seu deslocamento base de caminhada é 10,5 metros (35 pés)."
 					]
@@ -4084,7 +4020,7 @@
 					"type": "entries",
 					"name": "Caçador de Matilha (3 Pontos)",
 					"entries": [
-						"No início do seu turno, pode declarar este traço sem gastar ação. Até o início do seu próximo turno, tem vantagem em jogadas de ataque contra criaturas a até 1,5 metro de um aliado seu não {@condition Incapacitated|XPHB|Incapacitado}. Você pode usar este traço um número de vezes igual ao seu bônus de proficiência por {@variantrule Long Rest|XPHB|Descanso Longo}."
+						"No início do seu turno, pode declarar este traço sem gastar ação. Até o início do seu próximo turno, tem vantagem em jogadas de ataque contra criaturas a até 1,5 metro de um aliado seu não incapacitado. Você pode usar este traço um número de vezes igual ao seu bônus de proficiência por {@variantrule Long Rest|XPHB|Descanso Longo}."
 					]
 				},
 				{
@@ -4119,7 +4055,6 @@
 				"monstrosity"
 			],
 			"entries": [
-				"{@i [Kÿr – Insectoid]}",
 				"{@b Tipo de Criatura:} Monstruosidade",
 				"{@b Tamanho:} Médio",
 				"{@b Deslocamento:} 9 metros (30 pés)",
@@ -4135,7 +4070,7 @@
 					"type": "entries",
 					"name": "Carapaça Quitinosa (3 Pontos)",
 					"entries": [
-						"Quando você não estiver usando armadura, sua Classe de Armadura base é 13 + seu modificador de Destreza. Você pode usar um escudo e ainda receber esse benefício."
+						"Quando você não estiver usando armadura, sua {@variantrule Armor Class|XPHB|Classe de Armadura} base é 13 + seu modificador de Destreza. Você pode usar um escudo e ainda receber esse benefício."
 					]
 				},
 				{
@@ -4168,14 +4103,14 @@
 				},
 				{
 					"type": "entries",
-					"name": "Antenas Sensoriais (1,5 Pontos)",
+					"name": "Antenas Sensoriais (2 Pontos)",
 					"entries": [
 						"Você adquire proficiência em {@skill Perception|XPHB|Percepção}. Além disso, tem vantagem em testes de Sabedoria ({@skill Perception|XPHB|Percepção}) para perceber vibrações, movimento próximo, criaturas escondidas em vegetação densa ou deslocamento sobre superfícies que você esteja tocando."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Reflexos Segmentados (2,5 Pontos)",
+					"name": "Reflexos Segmentados (2 Pontos)",
 					"entries": [
 						"Quando falhar em um teste de resistência de Destreza, pode rolar {@dice 1d4} e adicionar ao teste. Você pode usar este traço um número de vezes igual ao seu bônus de proficiência por {@variantrule Long Rest|XPHB|Descanso Longo}."
 					]
@@ -4195,7 +4130,6 @@
 				"monstrosity"
 			],
 			"entries": [
-				"{@i [Kÿr – Kobold]}",
 				"{@b Tipo de Criatura:} Monstruosidade",
 				"{@b Tamanho:} Pequeno",
 				"{@b Deslocamento:} 9 metros (30 pés)",
@@ -4209,7 +4143,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Tamanho Pequeno (0,5 Ponto)",
+					"name": "Tamanho Pequeno (1 Ponto)",
 					"entries": [
 						"Seu tamanho é Pequeno."
 					]
@@ -4230,7 +4164,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Sangue Dracônico (1,5 Pontos)",
+					"name": "Sangue Dracônico (1 Ponto)",
 					"entries": [
 						"Para fins de talentos, habilidades e pré-requisitos que exijam ser dracônico ou pertencer a grupo dracônico, você conta como pertencente à Fonte Dracônica."
 					]
@@ -4251,21 +4185,21 @@
 				},
 				{
 					"type": "entries",
-					"name": "Magia da Ancestralidade (2,5 Pontos)",
+					"name": "Magia da Ancestralidade (3 Pontos)",
 					"entries": [
-						"Você conhece o truque concedido pela sua ancestralidade: {@spell Acid Splash|XPHB|acid splash}, {@spell Ray Of Frost|XPHB|ray of frost}, {@spell Fire Bolt|XPHB|fire bolt}, {@spell Shocking Grasp|XPHB|shocking grasp} ou {@spell Poison Spray|XPHB|poison spray}. Você também pode conjurar a magia de 1º nível correspondente com este traço: {@spell Chromatic Orb|XPHB|chromatic orb} ácido, {@spell Ice Knife|XPHB|ice knife}, {@spell Burning Hands|XPHB|burning hands}, {@spell Witch Bolt|XPHB|witch bolt} ou {@spell Ray Of Sickness|XPHB|ray of sickness}. Depois de conjurar essa magia com este traço, não pode conjurá-la novamente com ele até terminar um {@variantrule Long Rest|XPHB|Descanso Longo}. Você também pode conjurá-la usando espaços de magia. Inteligência, Sabedoria ou Carisma é sua habilidade de conjuração."
+						"Você conhece o truque concedido pela sua ancestralidade: acid splash, ray of frost, {@spell Fire Bolt|XPHB|fire bolt}, shocking grasp ou poison spray. Você também pode conjurar a magia de 1º nível correspondente com este traço: {@spell Chromatic Orb|XPHB|chromatic orb} ácido, {@spell Ice Knife|XGE|ice knife}, {@spell Burning Hands|XPHB|burning hands}, {@spell Witch Bolt|XPHB|witch bolt} ou {@spell Ray Of Sickness|XPHB|ray of sickness}. Depois de conjurar essa magia com este traço, não pode conjurá-la novamente com ele até terminar um {@variantrule Long Rest|XPHB|Descanso Longo}. Você também pode conjurá-la usando espaços de magia. Inteligência, Sabedoria ou Carisma é sua habilidade de conjuração."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Grito Cromático (2,5 Pontos)",
+					"name": "Grito Cromático (2 Pontos)",
 					"entries": [
 						"Como ação bônus, escolha uma criatura que possa ver a até 9 metros. Até o início do seu próximo turno, a primeira vez que você ou um aliado acertar o alvo com uma jogada de ataque, o ataque causa dano adicional igual ao seu bônus de proficiência, do tipo escolhido pela Ancestralidade Cromática. Você pode usar este traço um número de vezes igual ao seu bônus de proficiência por {@variantrule Long Rest|XPHB|Descanso Longo}."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Restrição de Idioma (0 Pontos)",
+					"name": "Restrição de Idioma",
 					"entries": [
 						"Você fala, lê e escreve Dracônico. Na criação do personagem, não pode escolher ou aprender Comum por meio da espécie."
 					]
@@ -4292,14 +4226,13 @@
 					"type": "entries",
 					"name": "Traços Base de Kurullä",
 					"entries": [
-						"{@i [Kÿr – Pherae Felino]}",
 						"{@b Tipo de Criatura:} Humanoide",
 						"{@b Tamanho:} Médio",
 						"{@b Deslocamento:} 10,5 metros (35 pés)",
 						"Kurullä são humanoides felinos de musculatura definida, garras retráteis, cauda expressiva e olhos predatórios.",
 						{
 							"type": "entries",
-							"name": "Deslocamento 10,5 Metros (1,5 Pontos)",
+							"name": "Deslocamento 10,5 Metros (2 Pontos)",
 							"entries": [
 								"Seu deslocamento base de caminhada é 10,5 metros (35 pés)."
 							]
@@ -4329,12 +4262,12 @@
 							"type": "entries",
 							"name": "Queda Felina (1 Ponto)",
 							"entries": [
-								"Quando cair e não estiver {@condition Incapacitated|XPHB|Incapacitado}, pode usar sua reação para reduzir o dano da queda em quantidade igual a cinco vezes seu bônus de proficiência."
+								"Quando cair e não estiver incapacitado, pode usar sua reação para reduzir o dano da queda em quantidade igual a cinco vezes seu bônus de proficiência."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Agilidade Predatória (2,5 Pontos)",
+							"name": "Agilidade Predatória (2 Pontos)",
 							"entries": [
 								"Uma vez em cada um dos seus turnos, quando se mover pelo menos 6 metros, pode ignorar ataques de oportunidade provocados por esse movimento."
 							]
@@ -4345,7 +4278,6 @@
 					"type": "entries",
 					"name": "Traços Específicos",
 					"entries": [
-						"{@i [Kÿr – Subespécie Kurullä]}",
 						{
 							"type": "entries",
 							"name": "Presença do Rei-Besta (1 Ponto)",
@@ -4355,14 +4287,14 @@
 						},
 						{
 							"type": "entries",
-							"name": "Rugido Aterrador (2,5 Pontos)",
+							"name": "Rugido Aterrador (3 Pontos)",
 							"entries": [
-								"Como ação bônus, criaturas à sua escolha a até 3 metros que possam ouvir você devem passar em teste de resistência de Sabedoria contra CD = 8 + bônus de proficiência + modificador de Constituição ou Carisma, ou ficarão Amedrontadas por você até o final do seu próximo turno. Você pode usar este traço um número de vezes igual ao seu bônus de proficiência por {@variantrule Long Rest|XPHB|Descanso Longo}."
+								"Como ação bônus, criaturas à sua escolha a até 3 metros que possam ouvir você devem passar em teste de resistência de Sabedoria contra {@dc 8} + bônus de proficiência + modificador de Constituição ou Carisma, ou ficarão Amedrontadas por você até o final do seu próximo turno. Você pode usar este traço um número de vezes igual ao seu bônus de proficiência por {@variantrule Long Rest|XPHB|Descanso Longo}."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Avanço Dominante (1,5 Pontos)",
+							"name": "Avanço Dominante (1 Ponto)",
 							"entries": [
 								"Uma vez por turno, quando acertar criatura Amedrontada por você com ataque corpo a corpo, causa dano adicional igual ao seu bônus de proficiência."
 							]
@@ -4404,14 +4336,13 @@
 					"type": "entries",
 					"name": "Traços Base de Kurullä",
 					"entries": [
-						"{@i [Kÿr – Pherae Felino]}",
 						"{@b Tipo de Criatura:} Humanoide",
 						"{@b Tamanho:} Médio",
 						"{@b Deslocamento:} 10,5 metros (35 pés)",
 						"Kurullä são humanoides felinos de musculatura definida, garras retráteis, cauda expressiva e olhos predatórios.",
 						{
 							"type": "entries",
-							"name": "Deslocamento 10,5 Metros (1,5 Pontos)",
+							"name": "Deslocamento 10,5 Metros (2 Pontos)",
 							"entries": [
 								"Seu deslocamento base de caminhada é 10,5 metros (35 pés)."
 							]
@@ -4441,12 +4372,12 @@
 							"type": "entries",
 							"name": "Queda Felina (1 Ponto)",
 							"entries": [
-								"Quando cair e não estiver {@condition Incapacitated|XPHB|Incapacitado}, pode usar sua reação para reduzir o dano da queda em quantidade igual a cinco vezes seu bônus de proficiência."
+								"Quando cair e não estiver incapacitado, pode usar sua reação para reduzir o dano da queda em quantidade igual a cinco vezes seu bônus de proficiência."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Agilidade Predatória (2,5 Pontos)",
+							"name": "Agilidade Predatória (2 Pontos)",
 							"entries": [
 								"Uma vez em cada um dos seus turnos, quando se mover pelo menos 6 metros, pode ignorar ataques de oportunidade provocados por esse movimento."
 							]
@@ -4457,7 +4388,6 @@
 					"type": "entries",
 					"name": "Traços Específicos",
 					"entries": [
-						"{@i [Kÿr – Subespécie Kurullä]}",
 						{
 							"type": "entries",
 							"name": "Versatilidade Felina (1 Ponto)",
@@ -4515,7 +4445,6 @@
 				"undead"
 			],
 			"entries": [
-				"{@i [Kÿr – Herdeiro da Fome]}",
 				"{@b Tipo de Criatura:} Morto-Vivo",
 				"{@b Tamanho:} Médio",
 				"{@b Deslocamento:} 9 metros (30 pés)",
@@ -4543,23 +4472,23 @@
 				},
 				{
 					"type": "entries",
-					"name": "Deslocamento Aracnídeo (2,5 Pontos)",
+					"name": "Deslocamento Aracnídeo (3 Pontos)",
 					"entries": [
-						"Você possui deslocamento de escalada igual ao seu deslocamento de caminhada. A partir do 3º nível, pode se mover por superfícies verticais e tetos sem usar as mãos, desde que não esteja {@condition Incapacitated|XPHB|Incapacitado}."
+						"Você possui deslocamento de escalada igual ao seu deslocamento de caminhada. A partir do 3º nível, pode se mover por superfícies verticais e tetos sem usar as mãos, desde que não esteja incapacitado."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Fome Incontrolável (-1 Ponto)",
+					"name": "Fome Incontrolável (-2 Pontos)",
 					"entries": [
 						"Ao criar o personagem, escolha Sangue, Aether ou Memórias. Uma vez a cada 7 dias, deve saciar essa fome por meio da Mordida Predatória ou método aprovado pelo DM. Se não saciar, sofre 1 nível de Exaustão ao final do sétimo dia; essa Exaustão não pode ser removida por {@variantrule Long Rest|XPHB|Descanso Longo} até que sacie a fome."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Mordida Predatória (3 Pontos)",
+					"name": "Mordida Predatória (4 Pontos)",
 					"entries": [
-						"Você possui mordida predatória como ataque desarmado. Pode usar Constituição em vez de Força para ataque e dano. Em acerto, causa {@dice 1d4} perfurante. Ao acertar criatura que não seja Constructo nem Morto-Vivo, pode ativar o benefício da sua fome: Sangue recupera PV iguais ao dano; Aether concede PV temporários iguais ao bônus de proficiência e vantagem no próximo teste contra magia até o fim do próximo turno; Memórias concede vantagem no próximo teste de {@skill Insight|XPHB|Intuição}, {@skill Investigation|XPHB|Investigação} ou {@skill Perception|XPHB|Percepção} até o fim do próximo turno. Você pode ativar esse benefício um número de vezes igual ao seu bônus de proficiência por {@variantrule Long Rest|XPHB|Descanso Longo}."
+						"Você possui mordida predatória como ataque desarmado. Pode usar Constituição em vez de Força para ataque e dano. Em acerto, causa {@dice 1d4} perfurante. Ao acertar criatura que não seja Constructo nem Morto-Vivo, pode ativar o benefício da sua fome: Sangue recupera {@variantrule Hit Points|XPHB|PV} iguais ao dano; Aether concede {@variantrule Temporary Hit Points|XPHB|PV temporários} iguais ao bônus de proficiência e vantagem no próximo teste contra magia até o fim do próximo turno; Memórias concede vantagem no próximo teste de {@skill Insight|XPHB|Intuição}, {@skill Investigation|XPHB|Investigação} ou {@skill Perception|XPHB|Percepção} até o fim do próximo turno. Você pode ativar esse benefício um número de vezes igual ao seu bônus de proficiência por {@variantrule Long Rest|XPHB|Descanso Longo}."
 					]
 				},
 				{
@@ -4571,7 +4500,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Predador da Noite (2,5 Pontos)",
+					"name": "Predador da Noite (4 Pontos)",
 					"entries": [
 						"Quando estiver em luz fraca ou escuridão, pode realizar {@action Hide|XPHB|Esconder-se} como ação bônus. Você pode usar este traço um número de vezes igual ao seu bônus de proficiência por {@variantrule Long Rest|XPHB|Descanso Longo}."
 					]
@@ -4602,7 +4531,6 @@
 					"type": "entries",
 					"name": "Traços Base de Ondirin",
 					"entries": [
-						"{@i [Kÿr – Povo das Marés]}",
 						"{@b Tipo de Criatura:} Humanoide",
 						"{@b Tamanho:} Médio",
 						"{@b Deslocamento:} 9 metros (30 pés), natação 9 metros (30 pés)",
@@ -4655,10 +4583,9 @@
 					"type": "entries",
 					"name": "Traços Específicos",
 					"entries": [
-						"{@i [Kÿr – Subespécie Ondirin]}",
 						{
 							"type": "entries",
-							"name": "Metamorfose Anfíbia (0,5 Ponto)",
+							"name": "Metamorfose Anfíbia (1 Ponto)",
 							"entries": [
 								"Quando está em terra, o Aether transforma sua cauda em pernas funcionais, mas você mantém escamas e traços oceânicos. Isso não altera estatísticas."
 							]
@@ -4672,9 +4599,9 @@
 						},
 						{
 							"type": "entries",
-							"name": "Voz Hipnótica (2,5 Pontos)",
+							"name": "Voz Hipnótica (3 Pontos)",
 							"entries": [
-								"Como ação, escolha criatura que possa ouvir você a até 9 metros. Ela deve passar em teste de resistência de Sabedoria contra CD = 8 + bônus de proficiência + modificador de Carisma ou ficará Enfeitiçada por você até o final do seu próximo turno. O efeito termina se a criatura sofrer dano. Sucesso torna a criatura imune por 24 horas. Você pode usar este traço um número de vezes igual ao seu bônus de proficiência por {@variantrule Long Rest|XPHB|Descanso Longo}."
+								"Como ação, escolha criatura que possa ouvir você a até 9 metros. Ela deve passar em teste de resistência de Sabedoria contra {@dc 8} + bônus de proficiência + modificador de Carisma ou ficará Enfeitiçada por você até o final do seu próximo turno. O efeito termina se a criatura sofrer dano. Sucesso torna a criatura imune por 24 horas. Você pode usar este traço um número de vezes igual ao seu bônus de proficiência por {@variantrule Long Rest|XPHB|Descanso Longo}."
 							]
 						},
 						{
@@ -4686,7 +4613,7 @@
 						},
 						{
 							"type": "entries",
-							"name": "Recuo Ondulante (2 Pontos)",
+							"name": "Recuo Ondulante (1 Ponto)",
 							"entries": [
 								"Quando criatura que você possa ver errar ataque corpo a corpo contra você, pode usar sua reação para se mover até 3 metros sem provocar ataques de oportunidade. Se estiver na água, o movimento aumenta para 4,5 metros. Você pode usar este traço um número de vezes igual ao seu bônus de proficiência por {@variantrule Long Rest|XPHB|Descanso Longo}."
 							]
@@ -4718,7 +4645,6 @@
 					"type": "entries",
 					"name": "Traços Base de Ondirin",
 					"entries": [
-						"{@i [Kÿr – Povo das Marés]}",
 						"{@b Tipo de Criatura:} Humanoide",
 						"{@b Tamanho:} Médio",
 						"{@b Deslocamento:} 9 metros (30 pés), natação 9 metros (30 pés)",
@@ -4771,7 +4697,6 @@
 					"type": "entries",
 					"name": "Traços Específicos",
 					"entries": [
-						"{@i [Kÿr – Subespécie Ondirin]}",
 						{
 							"type": "entries",
 							"name": "Corpo Adaptado a Extremos (5 Pontos)",
@@ -4828,7 +4753,6 @@
 					"type": "entries",
 					"name": "Traços Base de Liz-E",
 					"entries": [
-						"{@i [Kÿr – Lizardfolk]}",
 						"{@b Tipo de Criatura:} Humanoide",
 						"{@b Tamanho:} Médio",
 						"{@b Deslocamento:} 9 metros (30 pés), natação 9 metros (30 pés)",
@@ -4844,7 +4768,7 @@
 							"type": "entries",
 							"name": "Carapaça Escamosa (3 Pontos)",
 							"entries": [
-								"Quando você não estiver usando armadura, sua Classe de Armadura base é 13 + seu modificador de Destreza. Você pode usar um escudo e ainda receber esse benefício."
+								"Quando você não estiver usando armadura, sua {@variantrule Armor Class|XPHB|Classe de Armadura} base é 13 + seu modificador de Destreza. Você pode usar um escudo e ainda receber esse benefício."
 							]
 						},
 						{
@@ -4874,7 +4798,6 @@
 					"type": "entries",
 					"name": "Traços Específicos",
 					"entries": [
-						"{@i [Kÿr – Subespécie Liz-E]}",
 						{
 							"type": "entries",
 							"name": "Proficiência Predatória (1 Ponto)",
@@ -4886,7 +4809,7 @@
 							"type": "entries",
 							"name": "Mordida Infectante (3 Pontos)",
 							"entries": [
-								"Quando acerta criatura com sua Mandíbula, pode causar {@dice 1d4} de dano de veneno adicional. A criatura deve passar em teste de resistência de Constituição contra CD = 8 + bônus de proficiência + modificador de Constituição ou ficará Envenenada até o final do seu próximo turno. Você pode usar este traço um número de vezes igual ao seu bônus de proficiência por {@variantrule Long Rest|XPHB|Descanso Longo}."
+								"Quando acerta criatura com sua Mandíbula, pode causar {@dice 1d4} de dano de veneno adicional. A criatura deve passar em teste de resistência de Constituição contra {@dc 8} + bônus de proficiência + modificador de Constituição ou ficará Envenenada até o final do seu próximo turno. Você pode usar este traço um número de vezes igual ao seu bônus de proficiência por {@variantrule Long Rest|XPHB|Descanso Longo}."
 							]
 						},
 						{
@@ -4922,7 +4845,6 @@
 					"type": "entries",
 					"name": "Traços Base de Liz-E",
 					"entries": [
-						"{@i [Kÿr – Lizardfolk]}",
 						"{@b Tipo de Criatura:} Humanoide",
 						"{@b Tamanho:} Médio",
 						"{@b Deslocamento:} 9 metros (30 pés), natação 9 metros (30 pés)",
@@ -4938,7 +4860,7 @@
 							"type": "entries",
 							"name": "Carapaça Escamosa (3 Pontos)",
 							"entries": [
-								"Quando você não estiver usando armadura, sua Classe de Armadura base é 13 + seu modificador de Destreza. Você pode usar um escudo e ainda receber esse benefício."
+								"Quando você não estiver usando armadura, sua {@variantrule Armor Class|XPHB|Classe de Armadura} base é 13 + seu modificador de Destreza. Você pode usar um escudo e ainda receber esse benefício."
 							]
 						},
 						{
@@ -4968,7 +4890,6 @@
 					"type": "entries",
 					"name": "Traços Específicos",
 					"entries": [
-						"{@i [Kÿr – Subespécie Liz-E]}",
 						{
 							"type": "entries",
 							"name": "Proficiência de Emboscada (1 Ponto)",
@@ -4978,16 +4899,16 @@
 						},
 						{
 							"type": "entries",
-							"name": "Aperto Mandibular (2,5 Pontos)",
+							"name": "Aperto Mandibular (3 Pontos)",
 							"entries": [
-								"Quando acerta criatura com sua Mandíbula, pode tentar Agarrar o alvo como parte do mesmo ataque, sem gastar ação adicional. A CD para escapar é 8 + bônus de proficiência + modificador de Força ou Constituição, escolhido ao criar o personagem. Se estiver na água, o alvo tem desvantagem no primeiro teste para escapar. Você pode usar este traço um número de vezes igual ao seu bônus de proficiência por {@variantrule Long Rest|XPHB|Descanso Longo}."
+								"Quando acerta criatura com sua Mandíbula, pode tentar {@action Grapple|XPHB|Agarrar} o alvo como parte do mesmo ataque, sem gastar ação adicional. A CD para escapar é 8 + bônus de proficiência + modificador de Força ou Constituição, escolhido ao criar o personagem. Se estiver na água, o alvo tem desvantagem no primeiro teste para escapar. Você pode usar este traço um número de vezes igual ao seu bônus de proficiência por {@variantrule Long Rest|XPHB|Descanso Longo}."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Rolagem da Morte (2,5 Pontos)",
+							"name": "Rolagem da Morte (2 Pontos)",
 							"entries": [
-								"Se estiver agarrando uma criatura, pode usar ação bônus para executar rotação violenta. A criatura sofre uma quantidade de d6 de dano contundente igual à metade do seu bônus de proficiência, arredondado para cima, e deve passar em teste de resistência de Força contra CD = 8 + bônus de proficiência + modificador de Constituição ou ficará Derrubada. Você pode usar este traço uma quantidade de vezes igual à metade do seu bônus de proficiência, arredondado para cima, por {@variantrule Long Rest|XPHB|Descanso Longo}."
+								"Se estiver agarrando uma criatura, pode usar ação bônus para executar rotação violenta. A criatura sofre uma quantidade de d6 de dano contundente igual à metade do seu bônus de proficiência, arredondado para cima, e deve passar em teste de resistência de Força contra {@dc 8} + bônus de proficiência + modificador de Constituição ou ficará Derrubada. Você pode usar este traço uma quantidade de vezes igual à metade do seu bônus de proficiência, arredondado para cima, por {@variantrule Long Rest|XPHB|Descanso Longo}."
 							]
 						}
 					]
@@ -5012,7 +4933,6 @@
 				"humanoid"
 			],
 			"entries": [
-				"{@i [Kÿr – Hadozee]}",
 				"{@b Tipo de Criatura:} Humanoide",
 				"{@b Tamanho:} Médio",
 				"{@b Deslocamento:} 9 metros (30 pés), escalada 9 metros (30 pés)",
@@ -5026,21 +4946,21 @@
 				},
 				{
 					"type": "entries",
-					"name": "Mãos e Pés Preênseis (1,5 Pontos)",
+					"name": "Mãos e Pés Preênseis (1 Ponto)",
 					"entries": [
 						"Você tem vantagem em testes de Força ({@skill Athletics|XPHB|Atletismo}) feitos para escalar, se pendurar, se balançar em cordas ou manter-se firme em superfícies instáveis."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Planar (2,5 Pontos)",
+					"name": "Planar (3 Pontos)",
 					"entries": [
-						"Quando cair e não estiver {@condition Incapacitated|XPHB|Incapacitado}, pode usar sua reação para reduzir o dano de queda a 0 e mover-se até 9 metros horizontalmente antes de aterrissar, desde que não esteja usando armadura pesada."
+						"Quando cair e não estiver incapacitado, pode usar sua reação para reduzir o dano de queda a 0 e mover-se até 9 metros horizontalmente antes de aterrissar, desde que não esteja usando armadura pesada."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Defesa Acrobática (2,5 Pontos)",
+					"name": "Defesa Acrobática (3 Pontos)",
 					"entries": [
 						"Quando uma criatura que você possa ver realizar um ataque contra você, pode usar sua reação para ganhar +2 na CA contra esse ataque, potencialmente fazendo-o errar. Você pode usar este traço um número de vezes igual ao seu bônus de proficiência por {@variantrule Long Rest|XPHB|Descanso Longo}."
 					]
@@ -5054,7 +4974,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Arrancada do Cordame (1,5 Pontos)",
+					"name": "Arrancada do Cordame (1 Ponto)",
 					"entries": [
 						"Quando se mover pelo menos 6 metros no seu turno, terreno difícil não mágico não custa movimento extra até o final desse turno."
 					]
@@ -5098,7 +5018,6 @@
 					"type": "entries",
 					"name": "Traços Base de Nagesh",
 					"entries": [
-						"{@i [Kÿr – Serpentino-Reptiliano]}",
 						"{@b Tipo de Criatura:} Humanoide",
 						"{@b Tamanho:} Médio",
 						"{@b Deslocamento:} 9 metros (30 pés), natação 9 metros (30 pés)",
@@ -5126,14 +5045,14 @@
 						},
 						{
 							"type": "entries",
-							"name": "Resiliência Venenosa (3,5 Pontos)",
+							"name": "Resiliência Venenosa (3 Pontos)",
 							"entries": [
 								"Você possui resistência a dano de veneno e tem vantagem em testes de resistência para evitar ou encerrar a condição {@condition Poisoned|XPHB|Envenenado}."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Sangue Frio (0,5 Ponto)",
+							"name": "Sangue Frio (1 Ponto)",
 							"entries": [
 								"Você tem vantagem em testes feitos para suportar calor extremo, permanecer imóvel por longos períodos ou resistir a fadiga causada por espera, vigília ou emboscada prolongada."
 							]
@@ -5144,17 +5063,16 @@
 					"type": "entries",
 					"name": "Traços Específicos",
 					"entries": [
-						"{@i [Kÿr – Subespécie Nagesh]}",
 						{
 							"type": "entries",
-							"name": "Deslocamento Serpentino (1,5 Pontos)",
+							"name": "Deslocamento Serpentino (1 Ponto)",
 							"entries": [
 								"Seu deslocamento de caminhada aumenta para 10,5 metros."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Corpo Serpentino (1,5 Pontos)",
+							"name": "Corpo Serpentino (1 Ponto)",
 							"entries": [
 								"Seu corpo inferior é serpentino. Você não pode equipar botas, mas pode equipar até dois cintos ao mesmo tempo, desde que ambos sejam itens do tipo cinto."
 							]
@@ -5168,9 +5086,9 @@
 						},
 						{
 							"type": "entries",
-							"name": "Constrição (4 Pontos)",
+							"name": "Constrição (5 Pontos)",
 							"entries": [
-								"Seus ataques desarmados podem ser constrições, causando {@dice 1d6} de dano contundente. Quando acertar criatura Grande ou menor, pode forçá-la a teste de resistência de Força ou Destreza, à escolha dela, contra CD = 8 + bônus de proficiência + modificador de Força ou Constituição. Em falha, a criatura fica Agarrada por você. Se iniciar agarrão dessa forma, pode fazer com que o alvo também fique {@condition Restrained|XPHB|Restrito} até o início do seu próximo turno ou até o agarrão terminar. Você pode aplicar {@condition Restrained|XPHB|Restrito} um número de vezes igual ao seu bônus de proficiência por {@variantrule Long Rest|XPHB|Descanso Longo}."
+								"Seus ataques desarmados podem ser constrições, causando {@dice 1d6} de dano contundente. Quando acertar criatura Grande ou menor, pode forçá-la a teste de resistência de Força ou Destreza, à escolha dela, contra {@dc 8} + bônus de proficiência + modificador de Força ou Constituição. Em falha, a criatura fica Agarrada por você. Se iniciar agarrão dessa forma, pode fazer com que o alvo também fique {@condition Restrained|XPHB|Restrito} até o início do seu próximo turno ou até o agarrão terminar. Você pode aplicar {@condition Restrained|XPHB|Restrito} um número de vezes igual ao seu bônus de proficiência por {@variantrule Long Rest|XPHB|Descanso Longo}."
 							]
 						}
 					]
@@ -5201,7 +5119,6 @@
 					"type": "entries",
 					"name": "Traços Base de Nagesh",
 					"entries": [
-						"{@i [Kÿr – Serpentino-Reptiliano]}",
 						"{@b Tipo de Criatura:} Humanoide",
 						"{@b Tamanho:} Médio",
 						"{@b Deslocamento:} 9 metros (30 pés), natação 9 metros (30 pés)",
@@ -5229,14 +5146,14 @@
 						},
 						{
 							"type": "entries",
-							"name": "Resiliência Venenosa (3,5 Pontos)",
+							"name": "Resiliência Venenosa (3 Pontos)",
 							"entries": [
 								"Você possui resistência a dano de veneno e tem vantagem em testes de resistência para evitar ou encerrar a condição {@condition Poisoned|XPHB|Envenenado}."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Sangue Frio (0,5 Ponto)",
+							"name": "Sangue Frio (1 Ponto)",
 							"entries": [
 								"Você tem vantagem em testes feitos para suportar calor extremo, permanecer imóvel por longos períodos ou resistir a fadiga causada por espera, vigília ou emboscada prolongada."
 							]
@@ -5247,7 +5164,6 @@
 					"type": "entries",
 					"name": "Traços Específicos",
 					"entries": [
-						"{@i [Kÿr – Subespécie Nagesh]}",
 						{
 							"type": "entries",
 							"name": "Proficiência de Culto (1 Ponto)",
@@ -5264,14 +5180,14 @@
 						},
 						{
 							"type": "entries",
-							"name": "Olhar Hipnótico (2,5 Pontos)",
+							"name": "Olhar Hipnótico (3 Pontos)",
 							"entries": [
-								"Como ação, escolha uma criatura que possa ver a até 9 metros. Ela deve passar em teste de resistência de Sabedoria contra CD = 8 + bônus de proficiência + modificador de Carisma ou ficará Enfeitiçada por você até o final do seu próximo turno. Sucesso torna a criatura imune por 24 horas. Você pode usar este traço um número de vezes igual ao seu bônus de proficiência por {@variantrule Long Rest|XPHB|Descanso Longo}."
+								"Como ação, escolha uma criatura que possa ver a até 9 metros. Ela deve passar em teste de resistência de Sabedoria contra {@dc 8} + bônus de proficiência + modificador de Carisma ou ficará Enfeitiçada por você até o final do seu próximo turno. Sucesso torna a criatura imune por 24 horas. Você pode usar este traço um número de vezes igual ao seu bônus de proficiência por {@variantrule Long Rest|XPHB|Descanso Longo}."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Sussurro Ritual (2,5 Pontos)",
+							"name": "Sussurro Ritual (2 Pontos)",
 							"entries": [
 								"Quando fizer teste de Carisma ({@skill Deception|XPHB|Enganação}), Sabedoria ({@skill Insight|XPHB|Intuição}), Carisma ({@skill Persuasion|XPHB|Persuasão}) ou Inteligência ({@skill Religion|XPHB|Religião}) em interação social envolvendo hierarquia, fé, medo, segredo ou obediência, pode rolar {@dice 1d4} e adicionar ao teste. Você pode usar este traço um número de vezes igual ao seu bônus de proficiência por {@variantrule Long Rest|XPHB|Descanso Longo}."
 							]
@@ -5305,7 +5221,6 @@
 					"type": "entries",
 					"name": "Traços Base de Nagri",
 					"entries": [
-						"{@i [Kÿr – Roedores]}",
 						"{@b Tipo de Criatura:} Humanoide",
 						"{@b Tamanho:} Pequeno ou Minúsculo",
 						"{@b Deslocamento:} 9 metros (30 pés), escalada 9 metros (30 pés)",
@@ -5358,7 +5273,6 @@
 					"type": "entries",
 					"name": "Traços Específicos",
 					"entries": [
-						"{@i [Kÿr – Subespécie Nagri]}",
 						{
 							"type": "entries",
 							"name": "Proficiência de Mensageiro (1 Ponto)",
@@ -5368,14 +5282,14 @@
 						},
 						{
 							"type": "entries",
-							"name": "Disparo entre Galhos (2,5 Pontos)",
+							"name": "Disparo entre Galhos (3 Pontos)",
 							"entries": [
 								"Uma vez em cada um dos seus turnos, quando se mover pelo menos 3 metros, você não provoca ataques de oportunidade durante esse movimento."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Escalador Incansável (1,5 Pontos)",
+							"name": "Escalador Incansável (1 Ponto)",
 							"entries": [
 								"Você ignora terreno difícil não mágico causado por troncos, raízes, galhos, cipós, telhados, ruínas, cordas e superfícies estreitas."
 							]
@@ -5391,7 +5305,7 @@
 							"type": "entries",
 							"name": "Salto de Galho (1 Ponto)",
 							"entries": [
-								"Seu alcance de salto em distância e altura é dobrado. Além disso, quando cair e não estiver {@condition Incapacitated|XPHB|Incapacitado}, pode usar sua reação para reduzir o dano de queda em quantidade igual a cinco vezes seu bônus de proficiência."
+								"Seu alcance de salto em distância e altura é dobrado. Além disso, quando cair e não estiver incapacitado, pode usar sua reação para reduzir o dano de queda em quantidade igual a cinco vezes seu bônus de proficiência."
 							]
 						}
 					]
@@ -5422,7 +5336,6 @@
 					"type": "entries",
 					"name": "Traços Base de Nagri",
 					"entries": [
-						"{@i [Kÿr – Roedores]}",
 						"{@b Tipo de Criatura:} Humanoide",
 						"{@b Tamanho:} Pequeno ou Minúsculo",
 						"{@b Deslocamento:} 9 metros (30 pés), escalada 9 metros (30 pés)",
@@ -5475,7 +5388,6 @@
 					"type": "entries",
 					"name": "Traços Específicos",
 					"entries": [
-						"{@i [Kÿr – Subespécie Nagri]}",
 						{
 							"type": "entries",
 							"name": "Proficiência de Sobrevivente (1 Ponto)",
@@ -5485,9 +5397,9 @@
 						},
 						{
 							"type": "entries",
-							"name": "Farol de Comunidade (1,5 Pontos)",
+							"name": "Farol de Comunidade (1 Ponto)",
 							"entries": [
-								"Quando estiver a até 1,5 metro de um aliado não {@condition Incapacitated|XPHB|Incapacitado}, tem vantagem em testes de resistência para evitar ou encerrar a condição {@condition Frightened|XPHB|Amedrontado}."
+								"Quando estiver a até 1,5 metro de um aliado não incapacitado, tem vantagem em testes de resistência para evitar ou encerrar a condição {@condition Frightened|XPHB|Amedrontado}."
 							]
 						},
 						{
@@ -5499,7 +5411,7 @@
 						},
 						{
 							"type": "entries",
-							"name": "Alarme de Toca (1,5 Pontos)",
+							"name": "Alarme de Toca (2 Pontos)",
 							"entries": [
 								"Quando você ou aliado a até 9 metros rolar Iniciativa, pode usar sua reação para permitir que essa criatura role {@dice 1d4} e adicione à Iniciativa. Você pode usar este traço um número de vezes igual ao seu bônus de proficiência por {@variantrule Long Rest|XPHB|Descanso Longo}."
 							]
@@ -5508,7 +5420,7 @@
 							"type": "entries",
 							"name": "Retorno ao Abrigo (2 Pontos)",
 							"entries": [
-								"Quando uma criatura que você possa ver errar ataque corpo a corpo contra você, pode se mover 1,5 metro sem provocar ataques de oportunidade. Se terminar adjacente a aliado ou em cobertura, ganha PV temporários iguais ao seu bônus de proficiência."
+								"Quando uma criatura que você possa ver errar ataque corpo a corpo contra você, pode se mover 1,5 metro sem provocar ataques de oportunidade. Se terminar adjacente a aliado ou em cobertura, ganha {@variantrule Temporary Hit Points|XPHB|PV temporários} iguais ao seu bônus de proficiência."
 							]
 						}
 					]
@@ -5539,7 +5451,6 @@
 					"type": "entries",
 					"name": "Traços Base de Nagri",
 					"entries": [
-						"{@i [Kÿr – Roedores]}",
 						"{@b Tipo de Criatura:} Humanoide",
 						"{@b Tamanho:} Pequeno ou Minúsculo",
 						"{@b Deslocamento:} 9 metros (30 pés), escalada 9 metros (30 pés)",
@@ -5592,7 +5503,6 @@
 					"type": "entries",
 					"name": "Traços Específicos",
 					"entries": [
-						"{@i [Kÿr – Subespécie Nagri]}",
 						{
 							"type": "entries",
 							"name": "Proficiência de Botânico (1 Ponto)",
@@ -5609,7 +5519,7 @@
 						},
 						{
 							"type": "entries",
-							"name": "Bola de Espinhos (2,5 Pontos)",
+							"name": "Bola de Espinhos (3 Pontos)",
 							"entries": [
 								"Como ação bônus, você se encolhe até o início do seu próximo turno. Enquanto estiver assim, recebe +2 na CA, tem vantagem em testes de resistência de Constituição e seu deslocamento é 0. Durante esse período, se uma criatura atingir você com ataque corpo a corpo, ela sofre dano perfurante igual ao dobro do seu bônus de proficiência. Depois de usar este traço, não pode usá-lo novamente até terminar {@variantrule Long Rest|XPHB|Descanso Longo}."
 							]
@@ -5623,7 +5533,7 @@
 						},
 						{
 							"type": "entries",
-							"name": "Defesa Instintiva (1,5 Pontos)",
+							"name": "Defesa Instintiva (1 Ponto)",
 							"entries": [
 								"Quando sofrer dano, pode usar sua reação para reduzir esse dano em quantidade igual ao bônus de proficiência + modificador de Constituição. Você pode usar este traço quantidade de vezes igual à metade do seu bônus de proficiência, arredondado para cima, por {@variantrule Long Rest|XPHB|Descanso Longo}."
 							]
@@ -5651,7 +5561,6 @@
 				"humanoid"
 			],
 			"entries": [
-				"{@i [Kÿr – Hippo Folk]}",
 				"{@b Tipo de Criatura:} Humanoide",
 				"{@b Tamanho:} Médio",
 				"{@b Deslocamento:} 9 metros (30 pés), natação 9 metros (30 pés)",
@@ -5674,12 +5583,12 @@
 					"type": "entries",
 					"name": "Pele Grossa (3 Pontos)",
 					"entries": [
-						"Quando você não estiver usando armadura, sua Classe de Armadura base é 13 + seu modificador de Constituição. Você pode usar escudo e ainda receber esse benefício."
+						"Quando você não estiver usando armadura, sua {@variantrule Armor Class|XPHB|Classe de Armadura} base é 13 + seu modificador de Constituição. Você pode usar escudo e ainda receber esse benefício."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Anfíbio de Estuário (1,5 Pontos)",
+					"name": "Anfíbio de Estuário (1 Ponto)",
 					"entries": [
 						"Você pode prender a respiração por até 1 hora. Além disso, tem vantagem em testes para nadar contra correntezas, resistir a ser movido pela água ou permanecer submerso sem se desorientar."
 					]
@@ -5695,12 +5604,12 @@
 					"type": "entries",
 					"name": "Corpo de Barragem (2 Pontos)",
 					"entries": [
-						"Você conta como uma categoria de tamanho maior para determinar capacidade de carga e peso que pode empurrar, arrastar ou levantar. Além disso, tem vantagem em testes de resistência para evitar ser empurrado ou {@condition Prone|XPHB|Derrubado}."
+						"Você conta como uma categoria de tamanho maior para determinar capacidade de carga e peso que pode empurrar, arrastar ou levantar. Além disso, tem vantagem em testes de resistência para evitar ser empurrado ou derrubado."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Treinamento de Mercenário (1,5 Pontos)",
+					"name": "Treinamento de Mercenário (2 Pontos)",
 					"entries": [
 						"Você adquire proficiência em {@skill Athletics|XPHB|Atletismo} ou {@skill Intimidation|XPHB|Intimidação}. Além disso, adquire proficiência com lanças, machados de batalha ou maças de guerra."
 					]
@@ -5732,7 +5641,6 @@
 				"ooze"
 			],
 			"entries": [
-				"{@i [Kÿr – Ooze Folk]}",
 				"{@b Tipo de Criatura:} Ooze",
 				"{@b Tamanho:} Pequeno ou Médio",
 				"{@b Deslocamento:} 9 metros (30 pés)",
@@ -5753,7 +5661,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Pseudópodes (1,5 Pontos)",
+					"name": "Pseudópodes (1 Ponto)",
 					"entries": [
 						"Você pode criar extensões simples do corpo para interagir com objetos, abrir portas destrancadas, pegar ou soltar itens leves e manipular mecanismos simples a até 3 metros. Pseudópodes não empunham armas, usam escudos, ativam itens mágicos ou realizam componentes somáticos."
 					]
@@ -5783,12 +5691,12 @@
 					"type": "entries",
 					"name": "Absorção de Ooze (2 Pontos)",
 					"entries": [
-						"Como ação, você pode absorver parte de um Ooze morto ao alcance que tenha morrido há no máximo 1 minuto. Você ganha PV temporários iguais ao bônus de proficiência + modificador de Constituição e escolhe por 1 hora: Acidez Residual (1/turno, dano ácido adicional igual ao bônus de proficiência em ataque desarmado), Forma Escorregadia (move pelo espaço de criaturas Médias ou maiores e tem vantagem para escapar de agarrões), ou Memória Viscosa (vantagem no próximo teste de {@skill Investigation|XPHB|Investigação}, {@skill Perception|XPHB|Percepção} ou {@skill Survival|XPHB|Sobrevivência} para rastrear/analisar criatura que tocou o Ooze). Depois de usar este traço, não pode usá-lo novamente até terminar {@variantrule Long Rest|XPHB|Descanso Longo}."
+						"Como ação, você pode absorver parte de um Ooze morto ao alcance que tenha morrido há no máximo 1 minuto. Você ganha {@variantrule Temporary Hit Points|XPHB|PV temporários} iguais ao bônus de proficiência + modificador de Constituição e escolhe por 1 hora: Acidez Residual (1/turno, dano ácido adicional igual ao bônus de proficiência em ataque desarmado), Forma Escorregadia (move pelo espaço de criaturas Médias ou maiores e tem vantagem para escapar de agarrões), ou Memória Viscosa (vantagem no próximo teste de {@skill Investigation|XPHB|Investigação}, {@skill Perception|XPHB|Percepção} ou {@skill Survival|XPHB|Sobrevivência} para rastrear/analisar criatura que tocou o Ooze). Depois de usar este traço, não pode usá-lo novamente até terminar {@variantrule Long Rest|XPHB|Descanso Longo}."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Reação Amorfa (1,5 Pontos)",
+					"name": "Reação Amorfa (2 Pontos)",
 					"entries": [
 						"Quando sofrer dano contundente, cortante ou perfurante, pode usar reação para reduzir o dano em quantidade igual ao bônus de proficiência + modificador de Constituição. Você pode usar este traço quantidade de vezes igual à metade do seu bônus de proficiência, arredondado para cima, por {@variantrule Long Rest|XPHB|Descanso Longo}."
 					]
@@ -5815,7 +5723,6 @@
 				"humanoid"
 			],
 			"entries": [
-				"{@i [Kÿr – Roedor Urbano]}",
 				"{@b Tipo de Criatura:} Humanoide",
 				"{@b Tamanho:} Pequeno ou Minúsculo",
 				"{@b Deslocamento:} 9 metros (30 pés), escalada 9 metros (30 pés)",
@@ -5857,23 +5764,23 @@
 				},
 				{
 					"type": "entries",
-					"name": "Mãos Rápidas (2,5 Pontos)",
+					"name": "Mãos Rápidas (3 Pontos)",
 					"entries": [
-						"Você adquire proficiência em {@skill Sleight of Hand|XPHB|Prestidigitação}. Além disso, um número de vezes igual ao seu bônus de proficiência por {@variantrule Long Rest|XPHB|Descanso Longo}, pode realizar a ação {@action Utilize|XPHB|Utilizar} como ação bônus, desde que envolva objeto Pequeno ou menor que esteja com você, em superfície próxima ou em criatura adjacente."
+						"Você adquire proficiência em {@skill Sleight of Hand|XPHB|Prestidigitação}. Além disso, um número de vezes igual ao seu bônus de proficiência por {@variantrule Long Rest|XPHB|Descanso Longo}, pode realizar a ação Utilizar como ação bônus, desde que envolva objeto Pequeno ou menor que esteja com você, em superfície próxima ou em criatura adjacente."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Coletor de Sucata (2,5 Pontos)",
+					"name": "Coletor de Sucata (3 Pontos)",
 					"entries": [
 						"Você adquire proficiência em Ferramentas de Funileiro ou Ferramentas de Ladrão. Quando falhar em teste de Inteligência ({@skill Investigation|XPHB|Investigação}), Destreza ({@skill Sleight of Hand|XPHB|Prestidigitação}) ou com a ferramenta escolhida, pode rolar {@dice 1d4} e adicionar. Você pode usar este benefício um número de vezes igual ao seu bônus de proficiência por {@variantrule Long Rest|XPHB|Descanso Longo}."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Bolso Oculto (2 Pontos)",
+					"name": "Bolso Oculto (1 Ponto)",
 					"entries": [
-						"Como ação bônus, pode sacar ou guardar item Pequeno ou menor com você sem que isso seja percebido. Criatura observando pode notar com teste de Sabedoria ({@skill Perception|XPHB|Percepção}) contra CD = 8 + bônus de proficiência + modificador de Destreza."
+						"Como ação bônus, pode sacar ou guardar item Pequeno ou menor com você sem que isso seja percebido. Criatura observando pode notar com teste de Sabedoria ({@skill Perception|XPHB|Percepção}) contra {@dc 8} + bônus de proficiência + modificador de Destreza."
 					]
 				},
 				{
@@ -5905,14 +5812,13 @@
 				"humanoid"
 			],
 			"entries": [
-				"{@i [Kÿr – Pherae Texugo/Mapache]}",
 				"{@b Tipo de Criatura:} Humanoide",
 				"{@b Tamanho:} Pequeno",
 				"{@b Deslocamento:} 9 metros (30 pés), escalada 9 metros (30 pés)",
 				"Procyon são técnicos, curiosos, inventivos e excelentes solucionadores de campo, com traços de texugo ou mapache.",
 				{
 					"type": "entries",
-					"name": "Tamanho Pequeno (0,5 Ponto)",
+					"name": "Tamanho Pequeno (1 Ponto)",
 					"entries": [
 						"Seu tamanho é Pequeno."
 					]
@@ -5954,21 +5860,21 @@
 				},
 				{
 					"type": "entries",
-					"name": "Improviso Esperto (2,5 Pontos)",
+					"name": "Improviso Esperto (3 Pontos)",
 					"entries": [
 						"Quando falhar em teste de Inteligência ou teste feito com Ferramentas de Ferreiro, pode rolar {@dice 1d4} e adicionar. Você pode usar este traço um número de vezes igual ao seu bônus de proficiência por {@variantrule Long Rest|XPHB|Descanso Longo}."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Escavador Obstinado (1,5 Pontos)",
+					"name": "Escavador Obstinado (1 Ponto)",
 					"entries": [
 						"Você tem vantagem em testes de Força ({@skill Athletics|XPHB|Atletismo}) feitos para cavar, abrir passagem, remover entulho, quebrar madeira frágil, soltar peças emperradas ou arrancar objetos presos."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Conserto de Campo (2,5 Pontos)",
+					"name": "Conserto de Campo (2 Pontos)",
 					"entries": [
 						"Como ação, pode ajustar rapidamente arma, armadura, escudo, ferramenta ou objeto mundano ao alcance. Escolha criatura usando ou carregando o item. Até o início do seu próximo turno, ela pode adicionar {@dice 1d4} a uma jogada de ataque, teste de habilidade ou teste de resistência diretamente relacionado ao item ajustado. Você pode usar este traço um número de vezes igual ao seu bônus de proficiência por {@variantrule Long Rest|XPHB|Descanso Longo}."
 					]
@@ -5999,7 +5905,6 @@
 				"humanoid"
 			],
 			"entries": [
-				"{@i [Kÿr – Amazona Anímica]}",
 				"{@b Tipo de Criatura:} Humanoide",
 				"{@b Tamanho:} Médio",
 				"{@b Deslocamento:} 9 metros (30 pés)",
@@ -6027,14 +5932,14 @@
 				},
 				{
 					"type": "entries",
-					"name": "Disparo de Abertura (3,5 Pontos)",
+					"name": "Disparo de Abertura (3 Pontos)",
 					"entries": [
 						"Uma vez por combate, quando acertar criatura que ainda não tenha agido com ataque de arma ou magia, causa dano adicional igual a uma quantidade de d6 igual ao seu bônus de proficiência, do mesmo tipo do ataque ou magia."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Passo de Caçadora (1,5 Pontos)",
+					"name": "Passo de Caçadora (1 Ponto)",
 					"entries": [
 						"Quando realizar {@action Hide|XPHB|Esconder-se} ou {@action Dash|XPHB|Correr} em terreno natural, ruínas, vegetação, campo aberto, colinas, florestas ou áreas de caça, terreno difícil não mágico não custa movimento extra até o final do turno."
 					]
@@ -6048,9 +5953,9 @@
 				},
 				{
 					"type": "entries",
-					"name": "Magia de Caça (3 Pontos)",
+					"name": "Magia de Caça (4 Pontos)",
 					"entries": [
-						"Você conhece o truque {@spell Guidance|XPHB|guidance}. A partir do 3º nível, pode conjurar hunter’s mark. A partir do 5º nível, pode conjurar {@spell Pass Without Trace|XPHB|pass without trace}. Depois de conjurar hunter’s mark ou {@spell Pass Without Trace|XPHB|pass without trace} com este traço, não pode conjurar essa magia novamente com ele até terminar um {@variantrule Long Rest|XPHB|Descanso Longo}. Você também pode conjurá-las usando espaços de magia. Inteligência, Sabedoria ou Carisma é sua habilidade de conjuração."
+						"Você conhece o truque {@spell Guidance|XPHB|guidance}. A partir do 3º nível, pode conjurar {@spell Hunter's Mark|XPHB|hunter’s mark}. A partir do 5º nível, pode conjurar {@spell Pass Without Trace|XPHB|pass without trace}. Depois de conjurar {@spell Hunter's Mark|XPHB|hunter’s mark} ou {@spell Pass Without Trace|XPHB|pass without trace} com este traço, não pode conjurar essa magia novamente com ele até terminar um {@variantrule Long Rest|XPHB|Descanso Longo}. Você também pode conjurá-las usando espaços de magia. Inteligência, Sabedoria ou Carisma é sua habilidade de conjuração."
 					]
 				},
 				"{@b Total:} 16 Pontos"
@@ -6068,7 +5973,6 @@
 				"fey"
 			],
 			"entries": [
-				"{@i [Kÿr – Satyr]}",
 				"{@b Tipo de Criatura:} Feérico",
 				"{@b Tamanho:} Médio",
 				"{@b Deslocamento:} 9 metros (30 pés)",
@@ -6147,7 +6051,6 @@
 				"fey"
 			],
 			"entries": [
-				"{@i [Kÿr – Nakudama]}",
 				"{@b Tipo de Criatura:} Feérico",
 				"{@b Tamanho:} Pequeno",
 				"{@b Deslocamento:} 7,5 metros (25 pés), natação 9 metros (30 pés)",
@@ -6161,14 +6064,14 @@
 				},
 				{
 					"type": "entries",
-					"name": "Tamanho Pequeno (0,5 Ponto)",
+					"name": "Tamanho Pequeno (1 Ponto)",
 					"entries": [
 						"Seu tamanho é Pequeno."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Deslocamento Reduzido (-0,5 Ponto)",
+					"name": "Deslocamento Reduzido (-1 Ponto)",
 					"entries": [
 						"Seu deslocamento base de caminhada é 7,5 metros."
 					]
@@ -6210,9 +6113,9 @@
 				},
 				{
 					"type": "entries",
-					"name": "Língua Pegajosa (2,5 Pontos)",
+					"name": "Língua Pegajosa (3 Pontos)",
 					"entries": [
-						"Como parte da interação com objeto, pode puxar até sua mão objeto Pequeno ou menor solto e desprotegido a até 3 metros. Além disso, como ação bônus, pode tentar desequilibrar criatura Pequena ou menor a até 3 metros; ela deve passar em teste de resistência de Destreza contra CD = 8 + bônus de proficiência + modificador de Destreza ou Constituição, ou ficará Derrubada. Você pode usar este segundo benefício um número de vezes igual ao seu bônus de proficiência por {@variantrule Long Rest|XPHB|Descanso Longo}."
+						"Como parte da interação com objeto, pode puxar até sua mão objeto Pequeno ou menor solto e desprotegido a até 3 metros. Além disso, como ação bônus, pode tentar desequilibrar criatura Pequena ou menor a até 3 metros; ela deve passar em teste de resistência de Destreza contra {@dc 8} + bônus de proficiência + modificador de Destreza ou Constituição, ou ficará Derrubada. Você pode usar este segundo benefício um número de vezes igual ao seu bônus de proficiência por {@variantrule Long Rest|XPHB|Descanso Longo}."
 					]
 				},
 				{
@@ -6231,7 +6134,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Imobilidade de Predador (2 Pontos)",
+					"name": "Imobilidade de Predador (1 Ponto)",
 					"entries": [
 						"Se você não se mover durante seu turno, pode escolher uma criatura que possa ver a até 9 metros. Até o início do seu próximo turno, a primeira jogada de ataque dessa criatura contra você sofre penalidade de {@dice 1d4}. Você pode usar este traço um número de vezes igual ao seu bônus de proficiência por {@variantrule Long Rest|XPHB|Descanso Longo}."
 					]
@@ -6254,7 +6157,6 @@
 				"humanoid"
 			],
 			"entries": [
-				"{@i [Kÿr – Minotaur]}",
 				"{@b Tipo de Criatura:} Humanoide",
 				"{@b Tamanho:} Grande",
 				"{@b Deslocamento:} 9 metros (30 pés)",
@@ -6275,7 +6177,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Investida (2,5 Pontos)",
+					"name": "Investida (2 Pontos)",
 					"entries": [
 						"Uma vez por turno, se você se mover pelo menos 6 metros em linha reta em direção a uma criatura e acertá-la com ataque corpo a corpo, causa dano adicional igual ao seu bônus de proficiência."
 					]
@@ -6284,12 +6186,12 @@
 					"type": "entries",
 					"name": "Porte de Minotauro (2 Pontos)",
 					"entries": [
-						"Você conta como uma categoria de tamanho maior para determinar capacidade de carga e peso que pode empurrar, arrastar ou levantar. Além disso, tem vantagem em testes de resistência para evitar ser empurrado ou {@condition Prone|XPHB|Derrubado}."
+						"Você conta como uma categoria de tamanho maior para determinar capacidade de carga e peso que pode empurrar, arrastar ou levantar. Além disso, tem vantagem em testes de resistência para evitar ser empurrado ou derrubado."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Quebrador de Labirintos (1,5 Pontos)",
+					"name": "Quebrador de Labirintos (1 Ponto)",
 					"entries": [
 						"Você tem vantagem em testes de Força feitos para arrombar, derrubar ou romper obstáculos e estruturas."
 					]
@@ -6317,7 +6219,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Fúria do Corredor (2 Pontos)",
+					"name": "Fúria do Corredor (3 Pontos)",
 					"entries": [
 						"Quando sofrer dano de uma criatura a até 1,5 metro, pode usar reação para reduzir esse dano em quantidade igual ao bônus de proficiência + modificador de Constituição. Você pode usar este traço quantidade de vezes igual à metade do seu bônus de proficiência, arredondado para cima, por {@variantrule Long Rest|XPHB|Descanso Longo}."
 					]
@@ -6337,7 +6239,6 @@
 				"fey"
 			],
 			"entries": [
-				"{@i [Kÿr – Bugbear]}",
 				"{@b Tipo de Criatura:} Feérico",
 				"{@b Tamanho:} Médio",
 				"{@b Deslocamento:} 9 metros (30 pés)",
@@ -6365,14 +6266,14 @@
 				},
 				{
 					"type": "entries",
-					"name": "Violência Irrefreável (2,5 Pontos)",
+					"name": "Violência Irrefreável (3 Pontos)",
 					"entries": [
 						"Uma vez por turno, quando causar dano a uma criatura com ataque corpo a corpo, pode causar dano adicional igual ao seu bônus de proficiência."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Fera Corpulenta (2,5 Pontos)",
+					"name": "Fera Corpulenta (2 Pontos)",
 					"entries": [
 						"Você tem vantagem em testes de resistência e testes de habilidade feitos para evitar ou encerrar as condições {@condition Grappled|XPHB|Agarrado}, {@condition Prone|XPHB|Derrubado} ou {@condition Restrained|XPHB|Restrito}."
 					]
@@ -6386,14 +6287,14 @@
 				},
 				{
 					"type": "entries",
-					"name": "Massa de Brutamontes (1,5 Pontos)",
+					"name": "Massa de Brutamontes (1 Ponto)",
 					"entries": [
 						"Você conta como uma categoria de tamanho maior para determinar capacidade de carga e peso que pode empurrar, arrastar ou levantar. Além disso, terreno difícil não mágico causado por entulho leve, portas quebradas, móveis destruídos, vegetação baixa ou barricadas frágeis não custa movimento extra."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Fúria de Impacto (2,5 Pontos)",
+					"name": "Fúria de Impacto (3 Pontos)",
 					"entries": [
 						"Quando sofrer dano de uma criatura a até 1,5 metro, pode usar reação para reduzir o dano em quantidade igual ao bônus de proficiência + modificador de Constituição. Depois, pode empurrar essa criatura 1,5 metro se ela for Grande ou menor. Você pode usar este traço quantidade de vezes igual à metade do seu bônus de proficiência, arredondado para cima, por {@variantrule Long Rest|XPHB|Descanso Longo}."
 					]
@@ -6423,7 +6324,6 @@
 					"type": "entries",
 					"name": "Traços Base de Urkhan",
 					"entries": [
-						"{@i [Kÿr – Bearfolk]}",
 						"{@b Tipo de Criatura:} Humanoide",
 						"{@b Tamanho:} Médio",
 						"{@b Deslocamento:} 9 metros (30 pés)",
@@ -6469,7 +6369,6 @@
 					"type": "entries",
 					"name": "Traços Específicos",
 					"entries": [
-						"{@i [Kÿr – Subespécie Urkhan]}",
 						{
 							"type": "entries",
 							"name": "Resistência ao Frio (3 Pontos)",
@@ -6486,21 +6385,21 @@
 						},
 						{
 							"type": "entries",
-							"name": "Marcha na Neve (1,5 Pontos)",
+							"name": "Marcha na Neve (1 Ponto)",
 							"entries": [
 								"Você ignora terreno difícil não mágico causado por neve, gelo, lama congelada, cascalho glacial ou superfícies naturais escorregadias de ambiente frio."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Camuflagem Ártica (1,5 Pontos)",
+							"name": "Camuflagem Ártica (1 Ponto)",
 							"entries": [
 								"Enquanto estiver em neve, gelo, neblina fria natural, tempestade de neve ou terreno predominantemente branco, pode tentar se Esconder mesmo quando estiver apenas levemente obscurecido."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Rastreador do Branco (1 Ponto)",
+							"name": "Rastreador do Branco (2 Pontos)",
 							"entries": [
 								"Você adquire proficiência em {@skill Survival|XPHB|Sobrevivência}. Além disso, quando fizer teste de Sabedoria ({@skill Survival|XPHB|Sobrevivência}) para rastrear criaturas em ambientes frios, nevados, glaciais ou montanhosos, pode rolar {@dice 1d4} e adicionar ao teste. Você pode usar este benefício um número de vezes igual ao seu bônus de proficiência por {@variantrule Long Rest|XPHB|Descanso Longo}."
 							]
@@ -6530,7 +6429,6 @@
 					"type": "entries",
 					"name": "Traços Base de Urkhan",
 					"entries": [
-						"{@i [Kÿr – Bearfolk]}",
 						"{@b Tipo de Criatura:} Humanoide",
 						"{@b Tamanho:} Médio",
 						"{@b Deslocamento:} 9 metros (30 pés)",
@@ -6576,7 +6474,6 @@
 					"type": "entries",
 					"name": "Traços Específicos",
 					"entries": [
-						"{@i [Kÿr – Subespécie Urkhan]}",
 						{
 							"type": "entries",
 							"name": "Proficiência Brutal (1 Ponto)",
@@ -6588,21 +6485,21 @@
 							"type": "entries",
 							"name": "Pele de Guerra (2 Pontos)",
 							"entries": [
-								"Quando você não estiver usando armadura, sua Classe de Armadura base é 12 + seu modificador de Constituição. Você pode usar escudo e ainda receber esse benefício."
+								"Quando você não estiver usando armadura, sua {@variantrule Armor Class|XPHB|Classe de Armadura} base é 12 + seu modificador de Constituição. Você pode usar escudo e ainda receber esse benefício."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Fúria Territorial (2,5 Pontos)",
+							"name": "Fúria Territorial (3 Pontos)",
 							"entries": [
 								"Uma vez por turno, quando acertar uma criatura com ataque corpo a corpo, pode causar dano adicional igual ao seu bônus de proficiência."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Impacto Predatório (2,5 Pontos)",
+							"name": "Impacto Predatório (2 Pontos)",
 							"entries": [
-								"Quando acertar uma criatura Grande ou menor com ataque corpo a corpo, pode forçá-la a teste de resistência de Força contra CD = 8 + bônus de proficiência + modificador de Força ou Constituição. Em falha, a criatura fica Derrubada. Você pode usar este traço um número de vezes igual ao seu bônus de proficiência por {@variantrule Long Rest|XPHB|Descanso Longo}."
+								"Quando acertar uma criatura Grande ou menor com ataque corpo a corpo, pode forçá-la a teste de resistência de Força contra {@dc 8} + bônus de proficiência + modificador de Força ou Constituição. Em falha, a criatura fica Derrubada. Você pode usar este traço um número de vezes igual ao seu bônus de proficiência por {@variantrule Long Rest|XPHB|Descanso Longo}."
 							]
 						},
 						{
@@ -6635,7 +6532,6 @@
 					"type": "entries",
 					"name": "Traços Base de Urkhan",
 					"entries": [
-						"{@i [Kÿr – Bearfolk]}",
 						"{@b Tipo de Criatura:} Humanoide",
 						"{@b Tamanho:} Médio",
 						"{@b Deslocamento:} 9 metros (30 pés)",
@@ -6681,12 +6577,11 @@
 					"type": "entries",
 					"name": "Traços Específicos",
 					"entries": [
-						"{@i [Kÿr – Subespécie Urkhan]}",
 						{
 							"type": "entries",
 							"name": "Pele Paciente (3 Pontos)",
 							"entries": [
-								"Quando você não estiver usando armadura, sua Classe de Armadura base é 13 + seu modificador de Constituição. Você pode usar escudo e ainda receber esse benefício."
+								"Quando você não estiver usando armadura, sua {@variantrule Armor Class|XPHB|Classe de Armadura} base é 13 + seu modificador de Constituição. Você pode usar escudo e ainda receber esse benefício."
 							]
 						},
 						{
@@ -6736,7 +6631,6 @@
 				"construct"
 			],
 			"entries": [
-				"{@i [Kÿr – Warforged]}",
 				"{@b Tipo de Criatura:} Constructo",
 				"{@b Tamanho:} Médio",
 				"{@b Deslocamento:} 9 metros (30 pés)",
@@ -6750,7 +6644,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Natureza Artificial (1,5 Pontos)",
+					"name": "Natureza Artificial (1 Ponto)",
 					"entries": [
 						"Você não precisa comer, beber ou respirar."
 					]
@@ -6764,7 +6658,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Sentinela Desperta (1,5 Pontos)",
+					"name": "Sentinela Desperta (1 Ponto)",
 					"entries": [
 						"Você não precisa dormir, e magia não pode colocá-lo para dormir. Para obter os benefícios de um {@variantrule Long Rest|XPHB|Descanso Longo}, deve permanecer inativo por 4 horas, durante as quais permanece consciente."
 					]
@@ -6773,12 +6667,12 @@
 					"type": "entries",
 					"name": "Placas Integradas (3 Pontos)",
 					"entries": [
-						"Você só pode usar armaduras feitas majoritariamente de metal, madeira, osso, pedra ou outro material rígido que possa ser integrado ao corpo. Vestir ou remover uma armadura exige 1 hora. Enquanto estiver usando armadura integrada, recebe +1 na Classe de Armadura."
+						"Você só pode usar armaduras feitas majoritariamente de metal, madeira, osso, pedra ou outro material rígido que possa ser integrado ao corpo. Vestir ou remover uma armadura exige 1 hora. Enquanto estiver usando armadura integrada, recebe +1 na {@variantrule Armor Class|XPHB|Classe de Armadura}."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Reparos de Campo (2,5 Pontos)",
+					"name": "Reparos de Campo (3 Pontos)",
 					"entries": [
 						"Como ação, pode recuperar pontos de vida iguais ao bônus de proficiência + modificador de Constituição. Você pode usar este traço um número de vezes igual ao seu bônus de proficiência por {@variantrule Long Rest|XPHB|Descanso Longo}."
 					]
@@ -6792,7 +6686,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Protocolo de Emergência (0,5 Ponto)",
+					"name": "Protocolo de Emergência (1 Ponto)",
 					"entries": [
 						"Quando falhar em teste de resistência de Força, Constituição ou Destreza, pode rolar {@dice 1d4} e adicionar ao teste. Você pode usar este traço quantidade de vezes igual à metade do seu bônus de proficiência, arredondado para cima, por {@variantrule Long Rest|XPHB|Descanso Longo}."
 					]
@@ -6816,22 +6710,68 @@
 				"humanoid"
 			],
 			"entries": [
-				"{@i [Kÿr – Herdeiro de Múltiplos Sangues]}",
 				"{@b Tipo de Criatura:} Humanoide",
 				"{@b Tamanho:} Pequeno ou Médio",
 				"{@b Deslocamento:} 9 metros (30 pés)",
 				"Mestiços não seguem regra única de maturidade ou longevidade. Combinam traços físicos de duas ou mais espécies de Kÿr, podendo carregar sinais discretos ou evidentes de múltiplas origens.",
 				"Ao criar um Mestiço, escolha de duas a quatro espécies de Kÿr como ascendências. Se uma espécie possuir subespécies, pactos, linhagens ou caminhos internos, escolha qual manifestação específica integra sua herança.",
-				"Ascendências. Você é considerado Mestiço. Além disso, para pré-requisitos de talentos, itens, magias, habilidades ou efeitos que exijam uma espécie específica, você conta como uma ascendência escolhida se tiver gasto pelo menos 4 Pontos de Herança em traços associados a ela.",
-				"Pontos de Herança. Você possui 16 Pontos de Herança, que usa para comprar habilidades das espécies escolhidas como ascendências. Cada habilidade comprada deve vir de uma das suas ascendências e usa o custo descrito no nome da habilidade de espécie. Você não recebe automaticamente todos os traços de nenhuma espécie ancestral; cada traço precisa ser comprado separadamente.",
-				"Distribuição Mínima. Você deve gastar pelo menos 2 Pontos de Herança em cada ascendência escolhida. Você não pode gastar mais de 10 Pontos de Herança em uma única ascendência, salvo autorização do DM.",
-				"Débitos de Herança. Você pode escolher debuffs permanentes para receber Pontos de Herança adicionais. Esses debuffs representam falhas anatômicas, instabilidade de linhagem, mutações incompletas, marcas de maldição ou incompatibilidades entre espécies ancestrais. Você pode receber no máximo 8 Pontos de Herança adicionais dessa forma, chegando a até 24 Pontos de Herança.",
-				"Neutralização de Debuffs. Um debuff só concede pontos se tiver impacto real em jogo. Se magia, prótese, item mágico, habilidade de espécie ou escolha mecânica neutralizar o debuff de forma permanente, você perde os Pontos de Herança recebidos por ele ou deve remover habilidades equivalentes, a critério do DM.",
-				"Limites de Compra. Você não pode comprar a mesma habilidade duas vezes. Não pode comprar mais de uma habilidade que defina sua Classe de Armadura base. Não pode acumular múltiplos deslocamentos de voo; use apenas a melhor versão. Pode ter no máximo duas resistências a dano vindas de herança e no máximo duas Fontes de Magia por herança. Ataques naturais diferentes coexistem, mas não concedem ataques adicionais.",
-				"Tipo de Criatura. Seu tipo inicial é Humanoide. Se comprar habilidade que altere ou represente outro tipo, como Feérico, Celestial, Constructo, Ooze, Morto-Vivo ou Monstruosidade, pode contar como esse tipo para pré-requisitos e interações específicas, conforme aprovado pelo DM. Você só pode ter um tipo mecânico principal além de Humanoide.",
-				"Coerência de Herança. Toda habilidade comprada deve ser coerente com pelo menos uma das ascendências escolhidas. O DM tem a palavra final sobre combinações extremas, especialmente tamanho Minúsculo ou Grande, voo, tipo Constructo, tipo Morto-Vivo, múltiplas Fontes de Magia ou anatomias incompatíveis.",
-				"Total base: 16 Pontos de Herança, podendo chegar a 24 com debuffs.",
-				"Tabela de Debuffs do Mestiço",
+				{
+					"type": "entries",
+					"name": "Ascendências",
+					"entries": [
+						"Você é considerado Mestiço. Além disso, para pré-requisitos de talentos, itens, magias, habilidades ou efeitos que exijam uma espécie específica, você conta como uma ascendência escolhida se tiver gasto pelo menos 4 Pontos de Herança em traços associados a ela."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Pontos de Herança",
+					"entries": [
+						"Você possui 16 Pontos de Herança, que usa para comprar habilidades das espécies escolhidas como ascendências. Cada habilidade comprada deve vir de uma das suas ascendências e usa o custo descrito no nome da habilidade de espécie. Você não recebe automaticamente todos os traços de nenhuma espécie ancestral; cada traço precisa ser comprado separadamente."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Distribuição Mínima",
+					"entries": [
+						"Você deve gastar pelo menos 2 Pontos de Herança em cada ascendência escolhida. Você não pode gastar mais de 10 Pontos de Herança em uma única ascendência, salvo autorização do DM."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Débitos de Herança",
+					"entries": [
+						"Você pode escolher debuffs permanentes para receber Pontos de Herança adicionais. Esses debuffs representam falhas anatômicas, instabilidade de linhagem, mutações incompletas, marcas de maldição ou incompatibilidades entre espécies ancestrais. Você pode receber no máximo 8 Pontos de Herança adicionais dessa forma, chegando a até 24 Pontos de Herança."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Neutralização de Debuffs",
+					"entries": [
+						"Um debuff só concede pontos se tiver impacto real em jogo. Se magia, prótese, item mágico, habilidade de espécie ou escolha mecânica neutralizar o debuff de forma permanente, você perde os Pontos de Herança recebidos por ele ou deve remover habilidades equivalentes, a critério do DM."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Limites de Compra",
+					"entries": [
+						"Você não pode comprar a mesma habilidade duas vezes. Não pode comprar mais de uma habilidade que defina sua {@variantrule Armor Class|XPHB|Classe de Armadura} base. Não pode acumular múltiplos deslocamentos de voo; use apenas a melhor versão. Pode ter no máximo duas resistências a dano vindas de herança e no máximo duas Fontes de Magia por herança. Ataques naturais diferentes coexistem, mas não concedem ataques adicionais."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tipo de Criatura",
+					"entries": [
+						"Seu tipo inicial é Humanoide. Se comprar habilidade que altere ou represente outro tipo, como Feérico, Celestial, Constructo, Ooze, Morto-Vivo ou Monstruosidade, pode contar como esse tipo para pré-requisitos e interações específicas, conforme aprovado pelo DM. Você só pode ter um tipo mecânico principal além de Humanoide."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Coerência de Herança",
+					"entries": [
+						"Toda habilidade comprada deve ser coerente com pelo menos uma das ascendências escolhidas. O DM tem a palavra final sobre combinações extremas, especialmente tamanho Minúsculo ou Grande, voo, tipo Constructo, tipo Morto-Vivo, múltiplas Fontes de Magia ou anatomias incompatíveis."
+					]
+				},
+				"{@b Total base:} 16 Pontos de Herança, podendo chegar a 24 com debuffs.",
 				{
 					"type": "table",
 					"caption": "Tabela de Debuffs do Mestiço",
@@ -6849,17 +6789,17 @@
 						[
 							"Caolho",
 							"+2",
-							"Você tem desvantagem em testes de Sabedoria (Percepção) baseados em visão. Além disso, não pode receber vantagem nesses testes por traços de espécie baseados em visão aguçada."
+							"Você tem desvantagem em testes de Sabedoria ({@skill Perception|XPHB|Percepção}) baseados em visão. Além disso, não pode receber vantagem nesses testes por traços de espécie baseados em visão aguçada."
 						],
 						[
 							"Audição Comprometida",
 							"+2",
-							"Você tem desvantagem em testes de Sabedoria (Percepção) baseados em audição. Além disso, não pode receber vantagem nesses testes por traços de espécie baseados em audição aguçada."
+							"Você tem desvantagem em testes de Sabedoria ({@skill Perception|XPHB|Percepção}) baseados em audição. Além disso, não pode receber vantagem nesses testes por traços de espécie baseados em audição aguçada."
 						],
 						[
 							"Voz Danificada",
 							"+2",
-							"Você tem desvantagem em testes de Carisma (Atuação), Carisma (Persuasão) ou Carisma (Intimidação) que dependam claramente da voz. Criaturas a mais de 9 metros não conseguem ouvir sua fala com clareza em combate, multidão, chuva forte ou ruído intenso."
+							"Você tem desvantagem em testes de Carisma ({@skill Performance|XPHB|Atuação}), Carisma ({@skill Persuasion|XPHB|Persuasão}) ou Carisma ({@skill Intimidation|XPHB|Intimidação}) que dependam claramente da voz. Criaturas a mais de 9 metros não conseguem ouvir sua fala com clareza em combate, multidão, chuva forte ou ruído intenso."
 						],
 						[
 							"Mão Inutilizada",
@@ -6869,7 +6809,7 @@
 						[
 							"Claudicação Permanente",
 							"+2",
-							"Seu deslocamento de caminhada é reduzido em 1,5 metro. Você tem desvantagem em testes de Força (Atletismo) ou Destreza (Acrobacia) feitos para saltar, correr, equilibrar-se ou atravessar terreno instável."
+							"Seu deslocamento de caminhada é reduzido em 1,5 metro. Você tem desvantagem em testes de Força ({@skill Athletics|XPHB|Atletismo}) ou Destreza ({@skill Acrobatics|XPHB|Acrobacia}) feitos para saltar, correr, equilibrar-se ou atravessar terreno instável."
 						],
 						[
 							"Fragilidade Vital",
@@ -6884,17 +6824,17 @@
 						[
 							"Perna Perdida",
 							"+4",
-							"Seu deslocamento de caminhada é reduzido em 3 metros. Levantar-se da condição Derrubado custa todo o seu movimento. Você tem desvantagem em testes de Força (Atletismo) e Destreza (Acrobacia) feitos para correr, saltar, escalar, equilibrar-se ou resistir a ser derrubado. Se uma prótese restaurar plenamente essa função, este debuff deixa de conceder pontos."
+							"Seu deslocamento de caminhada é reduzido em 3 metros. Levantar-se da condição {@condition Prone|XPHB|Derrubado} custa todo o seu movimento. Você tem desvantagem em testes de Força ({@skill Athletics|XPHB|Atletismo}) e Destreza ({@skill Acrobatics|XPHB|Acrobacia}) feitos para correr, saltar, escalar, equilibrar-se ou resistir a ser derrubado. Se uma prótese restaurar plenamente essa função, este debuff deixa de conceder pontos."
 						],
 						[
 							"Surdez Total",
 							"+4",
-							"Você fica permanentemente sob os efeitos da condição Surdo. Você falha automaticamente em testes de Sabedoria (Percepção) que dependam exclusivamente de audição, não pode ouvir comandos verbais e não pode ser afetado por habilidades benéficas que exijam que você ouça o usuário."
+							"Você fica permanentemente sob os efeitos da condição {@condition Deafened|XPHB|Surdo}. Você falha automaticamente em testes de Sabedoria ({@skill Perception|XPHB|Percepção}) que dependam exclusivamente de audição, não pode ouvir comandos verbais e não pode ser afetado por habilidades benéficas que exijam que você ouça o usuário."
 						],
 						[
 							"Suscetibilidade Condicional",
 							"+3",
-							"Escolha Amedrontado, Enfeitiçado, Envenenado, Derrubado, Agarrado ou Restrito. Você tem desvantagem em testes de resistência ou habilidade feitos para evitar ou encerrar a condição escolhida. Você não pode escolher uma habilidade de espécie que conceda vantagem contra a mesma condição."
+							"Escolha {@condition Frightened|XPHB|Amedrontado}, {@condition Charmed|XPHB|Enfeitiçado}, {@condition Poisoned|XPHB|Envenenado}, {@condition Prone|XPHB|Derrubado}, {@condition Grappled|XPHB|Agarrado} ou {@condition Restrained|XPHB|Restrito}. Você tem desvantagem em testes de resistência ou habilidade feitos para evitar ou encerrar a condição escolhida. Você não pode escolher uma habilidade de espécie que conceda vantagem contra a mesma condição."
 						],
 						[
 							"Vulnerabilidade Elemental",
