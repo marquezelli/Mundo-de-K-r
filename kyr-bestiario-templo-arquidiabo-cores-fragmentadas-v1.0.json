@@ -1,0 +1,1914 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "MundoDeKyrTemploCoresFragmentadas",
+				"abbreviation": "Kyr-TemploCores",
+				"full": "Mundo de Kÿr — Criaturas do Templo do Arqui-Diabo das Cores Fragmentadas",
+				"authors": [
+					"Felipe Marquezelli"
+				],
+				"convertedBy": [
+					"ChatGPT"
+				],
+				"version": "1.0.0",
+				"url": "https://github.com/TheGiddyLimit/homebrew",
+				"dateAdded": 1778798400,
+				"dateModified": "2026-05-14"
+			}
+		]
+	},
+	"monster": [
+		{
+			"name": "Reflexo Menor",
+			"source": "MundoDeKyrTemploCoresFragmentadas",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"type": "construct",
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				13
+			],
+			"hp": {
+				"average": 12,
+				"formula": "3d8 - 1"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 8,
+			"dex": 16,
+			"con": 9,
+			"int": 10,
+			"wis": 11,
+			"cha": 14,
+			"cr": {
+				"cr": "1/2",
+				"xp": 100
+			},
+			"skill": {
+				"deception": "+4",
+				"stealth": "+5"
+			},
+			"resist": [
+				"psychic"
+			],
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"frightened",
+				"poisoned"
+			],
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 10,
+			"languages": [
+				"understands the languages of its reflected creature but can't speak normally"
+			],
+			"trait": [
+				{
+					"name": "Reflexo Instável",
+					"entries": [
+						"When the Reflexo Menor is reduced to 0 hit points, it shatters into light. The creature that destroyed it must succeed on a {@dc 13} Wisdom saving throw or the temple learns one superficial guilt from that creature."
+					]
+				},
+				{
+					"name": "Presença Espelhada",
+					"entries": [
+						"The Reflexo Menor can occupy the space of an allied creature, provided it ends its turn in an unoccupied space."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Corte Refletido",
+					"entries": [
+						"{@atkr m} {@hit 5}, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) Psychic damage."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"Função: Lacaio ilusório de classificação.",
+					"Tática: Usado para bloquear corredores, atrapalhar conjuradores e forçar testes de Sabedoria logo no início do templo."
+				]
+			},
+			"miscTags": [
+				"MA"
+			]
+		},
+		{
+			"name": "Thri-kreen Pactuado",
+			"source": "MundoDeKyrTemploCoresFragmentadas",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"type": "monstrosity",
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				16
+			],
+			"hp": {
+				"average": 52,
+				"formula": "8d8 + 16"
+			},
+			"speed": {
+				"walk": 40,
+				"climb": 30
+			},
+			"str": 14,
+			"dex": 18,
+			"con": 14,
+			"int": 11,
+			"wis": 13,
+			"cha": 10,
+			"cr": {
+				"cr": "3",
+				"xp": 700
+			},
+			"save": {
+				"dex": "+6",
+				"wis": "+3"
+			},
+			"skill": {
+				"athletics": "+4",
+				"perception": "+3",
+				"stealth": "+6",
+				"survival": "+3"
+			},
+			"resist": [
+				"fire"
+			],
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 13,
+			"languages": [
+				"Thri-kreen",
+				"Infernal",
+				"telepathy 60 ft."
+			],
+			"trait": [
+				{
+					"name": "Passo nas Paredes",
+					"entries": [
+						"The thri-kreen ignores Difficult Terrain created by walls, pillars, rubble, and irregular stone surfaces while climbing."
+					]
+				},
+				{
+					"name": "Marca de Pacto",
+					"entries": [
+						"Once per turn, when the thri-kreen hits a creature that has failed a Wisdom saving throw since the start of this combat, the attack deals an extra 3 ({@damage 1d6}) Psychic damage."
+					]
+				},
+				{
+					"name": "Múltiplos Braços",
+					"entries": [
+						"The thri-kreen can interact with one additional object on its turn, provided the object is on its body or within reach."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The thri-kreen makes two attacks, using Lâmina de Quitina or Dardo de Cinza in any combination."
+					]
+				},
+				{
+					"name": "Lâmina de Quitina",
+					"entries": [
+						"{@atkr m} {@hit 6}, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) Slashing damage."
+					]
+				},
+				{
+					"name": "Dardo de Cinza",
+					"entries": [
+						"{@atkr r} {@hit 6}, range 60 ft., one target. {@h}7 ({@damage 1d6 + 4}) Piercing damage plus 3 ({@damage 1d6}) Fire damage."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Reposicionar nas Paredes",
+					"entries": [
+						"The thri-kreen moves up to 10 feet without provoking Opportunity Attacks if it is adjacent to a wall, pillar, or vertical structure."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"Função: Agressor móvel dos pactuados thri-kreen.",
+					"Tática: Ataca pelas laterais, tenta isolar personagens feridos e usa altura ou paredes para quebrar linhas de visão."
+				]
+			},
+			"actionTags": [
+				"Multiattack"
+			],
+			"miscTags": [
+				"MA",
+				"RA"
+			]
+		},
+		{
+			"name": "Escriba Menor do Pacto",
+			"source": "MundoDeKyrTemploCoresFragmentadas",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "fiend",
+				"tags": [
+					"devil"
+				]
+			},
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				14
+			],
+			"hp": {
+				"average": 38,
+				"formula": "7d8 + 7"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 8,
+			"dex": 14,
+			"con": 12,
+			"int": 16,
+			"wis": 13,
+			"cha": 15,
+			"cr": {
+				"cr": "2",
+				"xp": 450
+			},
+			"save": {
+				"int": "+5",
+				"cha": "+4"
+			},
+			"skill": {
+				"arcana": "+5",
+				"deception": "+4",
+				"insight": "+3",
+				"religion": "+5"
+			},
+			"resist": [
+				"fire",
+				"psychic"
+			],
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"poisoned"
+			],
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 11,
+			"languages": [
+				"Common",
+				"Infernal",
+				"Thri-kreen"
+			],
+			"trait": [
+				{
+					"name": "Leitura de Fraqueza",
+					"entries": [
+						"The Escriba has Advantage on Intelligence checks made to identify magic, contracts, inscriptions, or ritual effects inside the temple."
+					]
+				},
+				{
+					"name": "Cláusula de Retirada",
+					"entries": [
+						"When the Escriba has 10 hit points or fewer, it can take the Disengage action as a Bonus Action. If it escapes, it reappears in a later encounter as a witness."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Caneta de Corrente",
+					"entries": [
+						"{@atkr r} {@hit 5}, range 60 ft., one target. {@h}9 ({@damage 2d8}) Psychic damage."
+					]
+				},
+				{
+					"name": "Registrar Fraqueza",
+					"entries": [
+						"The Escriba chooses one creature it can see within 60 feet. Until the start of the Escriba's next turn, the first attack roll against that creature has Advantage."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Anotar Ferida",
+					"entries": [
+						"When an allied creature within 60 feet hits with an attack, the Escriba adds 3 ({@damage 1d6}) Psychic damage to the attack's damage."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"Função: Suporte, observador e burocrata infernal menor.",
+					"Tática: Fica no fundo do encontro. Ele não quer morrer: quer medir padrões, registrar reações e fugir com informações."
+				]
+			},
+			"miscTags": [
+				"RA"
+			]
+		},
+		{
+			"name": "Sentinela Prismática",
+			"source": "MundoDeKyrTemploCoresFragmentadas",
+			"page": 0,
+			"size": [
+				"L"
+			],
+			"type": "construct",
+			"alignment": [
+				"L",
+				"N"
+			],
+			"ac": [
+				17
+			],
+			"hp": {
+				"average": 60,
+				"formula": "8d10 + 16"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 18,
+			"dex": 12,
+			"con": 15,
+			"int": 8,
+			"wis": 13,
+			"cha": 10,
+			"cr": {
+				"cr": "5",
+				"xp": 1800
+			},
+			"save": {
+				"str": "+7",
+				"con": "+5"
+			},
+			"skill": {
+				"perception": "+4"
+			},
+			"resist": [
+				"fire",
+				"cold",
+				"lightning",
+				"psychic"
+			],
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"frightened",
+				"poisoned"
+			],
+			"senses": [
+				"darkvision 90 ft."
+			],
+			"passive": 14,
+			"languages": [
+				"understands Infernal and Primordial but doesn't speak"
+			],
+			"trait": [
+				{
+					"name": "Refratar Magia",
+					"entries": [
+						"Once per round, when the Sentinela takes damage from a spell, it reduces that damage by {@dice 1d10}."
+					]
+				},
+				{
+					"name": "Guardião de Ressonância",
+					"entries": [
+						"While within 10 feet of a Cristal de Ressonância, the Sentinela has Advantage on saving throws against effects that would move it or knock it Prone."
+					]
+				},
+				{
+					"name": "Cor Variável",
+					"entries": [
+						"The extra damage of its Lâmina Prismática changes with each attack. Roll {@dice 1d6}: 1, Fire; 2, Cold; 3, Lightning; 4, Acid; 5, Psychic; 6, Radiant."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The Sentinela makes two Lâmina Prismática attacks."
+					]
+				},
+				{
+					"name": "Lâmina Prismática",
+					"entries": [
+						"{@atkr m} {@hit 7}, reach 10 ft., one target. {@h}9 ({@damage 1d10 + 4}) Slashing damage plus 3 ({@damage 1d6}) damage of a variable type."
+					]
+				},
+				{
+					"name": "Pulso de Vidro {@recharge 5}",
+					"entries": [
+						"Each creature of the Sentinela's choice within 10 feet must make a {@dc 15} Constitution saving throw. On a failed save, a creature takes 13 ({@damage 3d8}) Force damage and is pushed 10 feet. On a successful save, a creature takes half as much damage and isn't pushed."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"Função: Defensora prismática da Câmara dos Fragmentos.",
+					"Tática: Protege cristais, ocupa gargalos e usa alcance para impedir que os personagens estabilizem a sala com facilidade."
+				]
+			},
+			"actionTags": [
+				"Multiattack"
+			],
+			"miscTags": [
+				"AOE",
+				"MA"
+			]
+		},
+		{
+			"name": "Fragmento Falso",
+			"source": "MundoDeKyrTemploCoresFragmentadas",
+			"page": 0,
+			"size": [
+				"S"
+			],
+			"type": "aberration",
+			"alignment": [
+				"C",
+				"N"
+			],
+			"ac": [
+				15
+			],
+			"hp": {
+				"average": 35,
+				"formula": "10d6"
+			},
+			"speed": {
+				"walk": 0,
+				"fly": {
+					"number": 30,
+					"condition": "hover"
+				}
+			},
+			"str": 6,
+			"dex": 18,
+			"con": 10,
+			"int": 12,
+			"wis": 11,
+			"cha": 16,
+			"cr": {
+				"cr": "3",
+				"xp": 700
+			},
+			"save": {
+				"dex": "+6",
+				"cha": "+5"
+			},
+			"skill": {
+				"arcana": "+3",
+				"deception": "+5"
+			},
+			"resist": [
+				"bludgeoning, piercing, and slashing from nonmagical attacks",
+				"psychic"
+			],
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"grappled",
+				"prone",
+				"restrained",
+				"poisoned"
+			],
+			"senses": [
+				"blindsight 30 ft.",
+				"darkvision 60 ft."
+			],
+			"passive": 10,
+			"languages": [
+				"telepathy 60 ft.; speaks in incomplete phrases"
+			],
+			"trait": [
+				{
+					"name": "Identidade Rachada",
+					"entries": [
+						"When the Fragmento Falso hits a creature, the target must make a {@dc 14} Charisma saving throw. On a failed save, the target can't benefit from Advantage until the start of the Fragmento's next turn."
+					]
+				},
+				{
+					"name": "Forma Inacabada",
+					"entries": [
+						"The Fragmento can move through hostile creatures' spaces as Difficult Terrain, but it can't end its turn in another creature's space."
+					]
+				},
+				{
+					"name": "Desfazer Forma",
+					"entries": [
+						"When reduced to 0 hit points, the Fragmento explodes into shards of color. Each creature within 10 feet must make a {@dc 14} Dexterity saving throw, taking 7 ({@damage 2d6}) Slashing damage on a failed save, or half as much damage on a successful one."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Toque Inacabado",
+					"entries": [
+						"{@atkr m} {@hit 5}, reach 5 ft., one target. {@h}9 ({@damage 2d8}) Psychic damage."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Cintilar",
+					"entries": [
+						"The Fragmento teleports up to 15 feet to an unoccupied space it can see, provided the destination is in dim light, near a reflection, or near crystal."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"Função: Criatura instável gerada por ressonância conceitual falsa.",
+					"Tática: Irrita conjuradores, quebra vantagem e explode quando destruído. Deve ser frágil, mas incômodo."
+				]
+			},
+			"miscTags": [
+				"AOE",
+				"MA"
+			]
+		},
+		{
+			"name": "Arquivista Infernal",
+			"source": "MundoDeKyrTemploCoresFragmentadas",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "fiend",
+				"tags": [
+					"devil"
+				]
+			},
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				16
+			],
+			"hp": {
+				"average": 85,
+				"formula": "10d8 + 40"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 16,
+			"con": 18,
+			"int": 20,
+			"wis": 16,
+			"cha": 17,
+			"cr": {
+				"cr": "7",
+				"xp": 2900
+			},
+			"save": {
+				"int": "+8",
+				"wis": "+6",
+				"cha": "+6"
+			},
+			"skill": {
+				"arcana": "+8",
+				"history": "+8",
+				"insight": "+6",
+				"investigation": "+8",
+				"religion": "+8"
+			},
+			"resist": [
+				"fire",
+				"psychic"
+			],
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"poisoned"
+			],
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 13,
+			"languages": [
+				"Common",
+				"Infernal",
+				"Celestial",
+				"Primordial",
+				"telepathy 60 ft."
+			],
+			"trait": [
+				{
+					"name": "Autoridade Bibliográfica",
+					"entries": [
+						"While at least one allied Escriba de Corrente is alive and within 60 feet of the Arquivista, the Arquivista gains a +2 bonus to AC."
+					]
+				},
+				{
+					"name": "Registro Parcial",
+					"entries": [
+						"Once per turn, when a creature fails an Intelligence, Wisdom, or Charisma saving throw against the Arquivista, that creature receives a Marca de Arquivo."
+					]
+				},
+				{
+					"name": "Arquivo Vivo",
+					"entries": [
+						"The Arquivista has Advantage on saving throws against effects that would give it the Incapacitated condition or prevent it from speaking."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Página Cortante",
+					"entries": [
+						"{@atkr r} {@hit 8}, range 90 ft., one target. {@h}9 ({@damage 2d8}) Slashing damage plus 7 ({@damage 2d6}) Psychic damage."
+					]
+				},
+				{
+					"name": "Comando de Rodapé",
+					"entries": [
+						"One creature that can hear the Arquivista within 60 feet must make a {@dc 15} Wisdom saving throw. On a failed save, the target uses its Reaction, if available, to move up to 15 feet toward a bookshelf, pulpit, or point indicated by the Arquivista."
+					]
+				},
+				{
+					"name": "Reescrever Conclusão {@recharge 5}",
+					"entries": [
+						"One creature with a Marca de Arquivo within 60 feet must make a {@dc 15} Charisma saving throw. On a failed save, the target has the Incapacitated condition until the end of its next turn, trapped in a contradictory version of itself."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Correção Marginal",
+					"entries": [
+						"When the Arquivista fails a saving throw, it can remove a Marca de Arquivo from one creature within 60 feet to reroll the save."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"Função: Controlador da Biblioteca das Mentiras.",
+					"Tática: Tenta marcar Lars ou Miana. Não luta por brutalidade; manipula posição, registro e conclusão."
+				]
+			},
+			"miscTags": [
+				"RA"
+			]
+		},
+		{
+			"name": "Escriba de Corrente",
+			"source": "MundoDeKyrTemploCoresFragmentadas",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "fiend",
+				"tags": [
+					"devil"
+				]
+			},
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				14
+			],
+			"hp": {
+				"average": 32,
+				"formula": "5d8 + 10"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 11,
+			"dex": 14,
+			"con": 14,
+			"int": 16,
+			"wis": 12,
+			"cha": 13,
+			"cr": {
+				"cr": "2",
+				"xp": 450
+			},
+			"save": {
+				"int": "+5"
+			},
+			"skill": {
+				"arcana": "+5",
+				"investigation": "+5",
+				"religion": "+5"
+			},
+			"resist": [
+				"fire",
+				"psychic"
+			],
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"poisoned"
+			],
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 11,
+			"languages": [
+				"Common",
+				"Infernal"
+			],
+			"trait": [
+				{
+					"name": "Vínculo de Autoridade",
+					"entries": [
+						"While within 60 feet of an Arquivista Infernal, the Escriba can't be Frightened."
+					]
+				},
+				{
+					"name": "Anotar Ferida",
+					"entries": [
+						"When an ally within 60 feet hits with an attack, the Escriba can use its Reaction to add 3 ({@damage 1d6}) Psychic damage to the attack's damage."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Corrente de Tinta",
+					"entries": [
+						"{@atkr r} {@hit 5}, range 30 ft., one target. {@h}7 ({@damage 1d8 + 3}) Bludgeoning damage plus 3 ({@damage 1d6}) Psychic damage."
+					]
+				},
+				{
+					"name": "Puxão de Cláusula",
+					"entries": [
+						"One creature within 30 feet must make a {@dc 13} Strength saving throw. On a failed save, the target is pulled 10 feet toward the Escriba or toward a pulpit."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"Função: Suporte burocrático e amplificador do Arquivista.",
+					"Tática: Fica em meia cobertura, adiciona dano e arrasta personagens para posições ruins na biblioteca."
+				]
+			},
+			"miscTags": [
+				"RA"
+			]
+		},
+		{
+			"name": "Livro-Mordaça",
+			"source": "MundoDeKyrTemploCoresFragmentadas",
+			"page": 0,
+			"size": [
+				"T"
+			],
+			"type": "construct",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				12
+			],
+			"hp": {
+				"average": 8,
+				"formula": "2d4 + 3"
+			},
+			"speed": {
+				"walk": 5,
+				"fly": {
+					"number": 30,
+					"condition": "hover"
+				}
+			},
+			"str": 4,
+			"dex": 15,
+			"con": 12,
+			"int": 6,
+			"wis": 10,
+			"cha": 6,
+			"cr": {
+				"cr": "1/4",
+				"xp": 50
+			},
+			"skill": {
+				"stealth": "+4"
+			},
+			"immune": [
+				"poison",
+				"psychic"
+			],
+			"conditionImmune": [
+				"charmed",
+				"frightened",
+				"poisoned",
+				"prone"
+			],
+			"senses": [
+				"blindsight 30 ft."
+			],
+			"passive": 10,
+			"languages": [
+				"understands Infernal commands"
+			],
+			"trait": [
+				{
+					"name": "Caligrafia Sufocante",
+					"entries": [
+						"If three or more Livros-Mordaça are adjacent to the same target, that target can't use verbal components until it moves away from at least one of them or destroys at least one of them."
+					]
+				},
+				{
+					"name": "Objeto Animado",
+					"entries": [
+						"The Livro-Mordaça appears to be an ordinary book while it remains motionless on a shelf or table."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Mordida de Página",
+					"entries": [
+						"{@atkr m} {@hit 4}, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) Slashing damage."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"Função: Lacaio anti-conjuração da Biblioteca das Mentiras.",
+					"Tática: Enxames pequenos contra conjuradores. Devem incomodar, não consumir turnos demais."
+				]
+			},
+			"miscTags": [
+				"MA"
+			]
+		},
+		{
+			"name": "Reflexo Confessional",
+			"source": "MundoDeKyrTemploCoresFragmentadas",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"type": "construct",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				15
+			],
+			"hp": {
+				"average": 55,
+				"formula": "10d8 + 10"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 16,
+			"con": 12,
+			"int": 13,
+			"wis": 14,
+			"cha": 18,
+			"cr": {
+				"cr": "4",
+				"xp": 1100
+			},
+			"save": {
+				"wis": "+4",
+				"cha": "+6"
+			},
+			"skill": {
+				"deception": "+6",
+				"insight": "+4",
+				"performance": "+6"
+			},
+			"resist": [
+				"psychic",
+				"necrotic"
+			],
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"frightened",
+				"poisoned"
+			],
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 12,
+			"languages": [
+				"speaks in the voices of the characters"
+			],
+			"trait": [
+				{
+					"name": "Eu Sobrevivi Porque Fui Embora",
+					"entries": [
+						"The Reflexo has Advantage on attack rolls against creatures that are more than 30 feet away from all conscious allies."
+					]
+				},
+				{
+					"name": "Verdade Contradita",
+					"entries": [
+						"When a creature within 30 feet confesses a relevant truth about fear, guilt, abandonment, or attachment, the Reflexo loses 20 hit points. If that truth directly contradicts the Reflexo's existence, the Reflexo disappears."
+					]
+				},
+				{
+					"name": "Espelho de Saída",
+					"entries": [
+						"The Reflexo can pass through doors and nonmagical reflective surfaces as if they were Difficult Terrain."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The Reflexo makes two Golpe de Versão attacks."
+					]
+				},
+				{
+					"name": "Golpe de Versão",
+					"entries": [
+						"{@atkr m} {@hit 5}, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 3}) Psychic damage."
+					]
+				},
+				{
+					"name": "Fala que Fere",
+					"entries": [
+						"One creature within 30 feet must make a {@dc 15} Wisdom saving throw. On a failed save, the target takes 9 ({@damage 2d8}) Psychic damage and can't benefit from the Help action until the start of its next turn."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Escolha Melhor {@recharge 5}",
+					"entries": [
+						"The Reflexo teleports up to 30 feet to an unoccupied space near a door, exit, or mirror. Until the start of its next turn, attack rolls against it have Disadvantage."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"Função: Inimigo emocional das Câmaras da Confissão.",
+					"Tática: Divide emocionalmente. O combate deve incentivar falas reais dos personagens para derrotá-lo de forma mais limpa."
+				]
+			},
+			"actionTags": [
+				"Multiattack"
+			],
+			"miscTags": [
+				"MA"
+			]
+		},
+		{
+			"name": "Eco da Tempestade",
+			"source": "MundoDeKyrTemploCoresFragmentadas",
+			"page": 0,
+			"size": [
+				"L"
+			],
+			"type": {
+				"type": "elemental",
+				"tags": [
+					"echo"
+				]
+			},
+			"alignment": [
+				"C",
+				"N"
+			],
+			"ac": [
+				16
+			],
+			"hp": {
+				"average": 95,
+				"formula": "10d10 + 40"
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 20,
+			"dex": 14,
+			"con": 18,
+			"int": 10,
+			"wis": 13,
+			"cha": 14,
+			"cr": {
+				"cr": "8",
+				"xp": 3900
+			},
+			"save": {
+				"str": "+8",
+				"con": "+7"
+			},
+			"skill": {
+				"athletics": "+8",
+				"intimidation": "+5"
+			},
+			"resist": [
+				"lightning",
+				"thunder",
+				"slashing"
+			],
+			"immune": [
+				"prone"
+			],
+			"senses": [
+				"darkvision 90 ft."
+			],
+			"passive": 11,
+			"languages": [
+				"Primordial; understands memories of war"
+			],
+			"trait": [
+				{
+					"name": "Quebrar o Estagnado",
+					"entries": [
+						"The Eco deals an extra 4 ({@damage 1d8}) damage against creatures that haven't moved since the end of their last turn."
+					]
+				},
+				{
+					"name": "Corpo de Ruptura",
+					"entries": [
+						"When the Eco takes Lightning or Thunder damage, it can choose not to apply its resistance to that damage. If it does so, its next attack before the end of its next turn deals an extra 7 ({@damage 2d6}) Thunder damage."
+					]
+				},
+				{
+					"name": "Memória de Guerra",
+					"entries": [
+						"The Eco isn't the true bearer of Tempestade or Destruição, but a historical reverberation. Effects that reveal extraplanar creatures perceive it as an echo, not a complete entity."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The Eco makes two Machado de Trovão attacks."
+					]
+				},
+				{
+					"name": "Machado de Trovão",
+					"entries": [
+						"{@atkr m} {@hit 8}, reach 10 ft., one target. {@h}14 ({@damage 2d8 + 5}) Slashing damage plus 4 ({@damage 1d8}) Thunder damage."
+					]
+				},
+				{
+					"name": "Ruptura Necessária {@recharge 5}",
+					"entries": [
+						"The Eco releases force in a 15-foot Cone. Each creature in that area must make a {@dc 15} Constitution saving throw. On a failed save, a creature takes 18 ({@damage 4d8}) Thunder damage and has the Prone condition. On a successful save, a creature takes half as much damage and isn't Prone."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"Função: Elite ofensiva do Salão dos Ecos.",
+					"Tática: Pressiona quem fica parado e quebra formações rígidas. É a expressão de que destruição pode ser vista como cura brutal."
+				]
+			},
+			"actionTags": [
+				"Multiattack"
+			],
+			"miscTags": [
+				"AOE",
+				"MA"
+			],
+			"conditionInflict": [
+				"prone"
+			],
+			"savingThrowForced": [
+				"constitution"
+			]
+		},
+		{
+			"name": "Eco do Desejo",
+			"source": "MundoDeKyrTemploCoresFragmentadas",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "fiend",
+				"tags": [
+					"celestial echo"
+				]
+			},
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				15
+			],
+			"hp": {
+				"average": 70,
+				"formula": "11d8 + 22"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 8,
+			"dex": 16,
+			"con": 14,
+			"int": 14,
+			"wis": 15,
+			"cha": 20,
+			"cr": {
+				"cr": "6",
+				"xp": 2300
+			},
+			"save": {
+				"wis": "+5",
+				"cha": "+8"
+			},
+			"skill": {
+				"deception": "+8",
+				"insight": "+5",
+				"persuasion": "+8"
+			},
+			"resist": [
+				"psychic",
+				"radiant"
+			],
+			"conditionImmune": [
+				"charmed"
+			],
+			"senses": [
+				"darkvision 90 ft."
+			],
+			"passive": 12,
+			"languages": [
+				"Common",
+				"Infernal",
+				"telepathy 90 ft."
+			],
+			"trait": [
+				{
+					"name": "Promessa Atraente",
+					"entries": [
+						"Creatures Charmed by the Eco do Desejo don't perceive the Eco as hostile unless it directly deals damage to them."
+					]
+				},
+				{
+					"name": "Controle Sedutor",
+					"entries": [
+						"The Eco has Advantage on Charisma checks against creatures that have accepted an offer, promise, or pact in this temple."
+					]
+				},
+				{
+					"name": "Memória de Guerra",
+					"entries": [
+						"The Eco represents desire as a force that preserves bonds by imposing will."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Toque da Promessa",
+					"entries": [
+						"{@atkr m} {@hit 8}, reach 5 ft., one target. {@h}9 ({@damage 2d8}) Psychic damage."
+					]
+				},
+				{
+					"name": "Vem Comigo",
+					"entries": [
+						"One creature within 60 feet must make a {@dc 15} Wisdom saving throw. On a failed save, it uses its movement, if possible, to approach the Eco. This movement doesn't provoke Opportunity Attacks, as it isn't voluntary flight."
+					]
+				},
+				{
+					"name": "Oferta Perfeita {@recharge 5}",
+					"entries": [
+						"One creature within 60 feet hears a personal promise and must make a {@dc 15} Charisma saving throw. On a failed save, the target has the Charmed condition until the end of its next turn. While Charmed this way, the target can't attack the Eco do Desejo."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Olhar de Aproximação",
+					"entries": [
+						"The Eco chooses one creature within 30 feet. The next attack roll against that creature before the start of the Eco's next turn gains a +1d4 bonus."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"Função: Controlador sedutor do Salão dos Ecos.",
+					"Tática: Puxa alvos para fora da formação e tenta converter medo em adesão. Deve falar enquanto luta."
+				]
+			},
+			"miscTags": [
+				"MA"
+			],
+			"conditionInflict": [
+				"charmed"
+			],
+			"savingThrowForced": [
+				"wisdom",
+				"charisma"
+			]
+		},
+		{
+			"name": "Eco da Morte",
+			"source": "MundoDeKyrTemploCoresFragmentadas",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "undead",
+				"tags": [
+					"echo"
+				]
+			},
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				17
+			],
+			"hp": {
+				"average": 75,
+				"formula": "10d8 + 30"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 16,
+			"dex": 14,
+			"con": 16,
+			"int": 13,
+			"wis": 18,
+			"cha": 12,
+			"cr": {
+				"cr": "6",
+				"xp": 2300
+			},
+			"save": {
+				"con": "+6",
+				"wis": "+7"
+			},
+			"skill": {
+				"insight": "+7",
+				"perception": "+7"
+			},
+			"resist": [
+				"necrotic",
+				"cold"
+			],
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"poisoned"
+			],
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 17,
+			"languages": [
+				"Common",
+				"Primordial; speaks rarely"
+			],
+			"trait": [
+				{
+					"name": "Finalizar Ciclo",
+					"entries": [
+						"When the Eco hits a Bloodied creature, the attack deals an extra 9 ({@damage 2d8}) Necrotic damage."
+					]
+				},
+				{
+					"name": "Ausência de Crueldade",
+					"entries": [
+						"The Eco da Morte doesn't pursue unconscious creatures unless the temple forces it to do so. It ends cycles; it doesn't savor suffering."
+					]
+				},
+				{
+					"name": "Memória de Guerra",
+					"entries": [
+						"The Eco represents Death as a necessary conclusion against corrupted or overextended permanence."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Foice do Encerramento",
+					"entries": [
+						"{@atkr m} {@hit 7}, reach 10 ft., one target. {@h}15 ({@damage 2d10 + 4}) Necrotic damage."
+					]
+				},
+				{
+					"name": "Silêncio do Fim {@recharge 5}",
+					"entries": [
+						"One creature within 30 feet must make a {@dc 15} Constitution saving throw. On a failed save, the target can't regain hit points until the end of its next turn."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Interromper Persistência",
+					"entries": [
+						"When a creature within 30 feet regains hit points, the Eco reduces the healing by 7 ({@damage 2d6})."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"Função: Executor conceitual do Salão dos Ecos.",
+					"Tática: Ataca alvos Bloodied e nega cura por janelas curtas. Deve parecer inevitável, não raivoso."
+				]
+			},
+			"miscTags": [
+				"MA"
+			]
+		},
+		{
+			"name": "Eco Menor de Guerra",
+			"source": "MundoDeKyrTemploCoresFragmentadas",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "construct",
+				"tags": [
+					"echo"
+				]
+			},
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				13
+			],
+			"hp": {
+				"average": 18,
+				"formula": "4d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 13,
+			"dex": 12,
+			"con": 10,
+			"int": 8,
+			"wis": 11,
+			"cha": 8,
+			"cr": {
+				"cr": "1",
+				"xp": 200
+			},
+			"skill": {
+				"perception": "+2"
+			},
+			"resist": [
+				"psychic"
+			],
+			"conditionImmune": [
+				"frightened"
+			],
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 12,
+			"languages": [
+				"understands fragments of old commands"
+			],
+			"trait": [
+				{
+					"name": "Zona de Memória Instável",
+					"entries": [
+						"When the Eco Menor dies, it leaves a 10-foot zone until the end of the next round. The first creature that enters the zone or starts its turn there must succeed on a {@dc 13} Intelligence saving throw or lose 10 feet of movement on that turn as it sees a fragment of an ancient battle."
+					]
+				},
+				{
+					"name": "Soldado Sem Exército",
+					"entries": [
+						"The Eco has Advantage on the first attack roll it makes against a creature that is already adjacent to another Eco."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Ataque Variável",
+					"entries": [
+						"{@atkr m} {@hit 3}, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 2}) damage. The DM chooses the damage type from Slashing, Fire, Lightning, Necrotic, or Psychic, according to the memory being projected."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"Função: Lacaio memorial do Salão dos Ecos.",
+					"Tática: Serve para ocupar espaço, ativar zonas de memória e dar corpo ao campo de batalha histórico."
+				]
+			},
+			"miscTags": [
+				"AOE",
+				"MA"
+			]
+		},
+		{
+			"name": "Verris, Oficial de Aproximação",
+			"source": "MundoDeKyrTemploCoresFragmentadas",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "fiend",
+				"tags": [
+					"devil"
+				]
+			},
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				17
+			],
+			"hp": {
+				"average": 135,
+				"formula": "18d8 + 54"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 12,
+			"dex": 18,
+			"con": 16,
+			"int": 18,
+			"wis": 16,
+			"cha": 20,
+			"cr": {
+				"cr": "10",
+				"xp": 5900
+			},
+			"save": {
+				"dex": "+8",
+				"int": "+8",
+				"wis": "+7",
+				"cha": "+9"
+			},
+			"skill": {
+				"arcana": "+8",
+				"deception": "+9",
+				"insight": "+7",
+				"persuasion": "+9",
+				"religion": "+8"
+			},
+			"resist": [
+				"fire",
+				"cold",
+				"lightning",
+				"psychic"
+			],
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"poisoned"
+			],
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 13,
+			"languages": [
+				"Common",
+				"Infernal",
+				"Thri-kreen",
+				"telepathy 120 ft."
+			],
+			"trait": [
+				{
+					"name": "Oficial do Protocolo",
+					"entries": [
+						"Verris doesn't initiate combat if the group accepts dialogue. If attacked, the entire Santuário Central treats the group as approaching by force."
+					]
+				},
+				{
+					"name": "Classificar Variável",
+					"entries": [
+						"When a creature fails a saving throw against Verris, until the end of that creature's next turn, it can't benefit from Advantage."
+					]
+				},
+				{
+					"name": "Presença Administrativa",
+					"entries": [
+						"Allied creatures within 30 feet of Verris have Advantage on saving throws against being Charmed or Frightened."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Verris makes two Lâmina de Vidro attacks, or makes one Lâmina de Vidro attack and uses Ordem de Protocolo."
+					]
+				},
+				{
+					"name": "Lâmina de Vidro",
+					"entries": [
+						"{@atkr m} {@hit 9}, reach 5 ft., one target. {@h}14 ({@damage 2d8 + 5}) Slashing damage plus 7 ({@damage 2d6}) Psychic damage."
+					]
+				},
+				{
+					"name": "Ordem de Protocolo",
+					"entries": [
+						"One creature within 60 feet that can hear Verris must make a {@dc 16} Wisdom saving throw. On a failed save, Verris chooses one effect: the target drops one item it is holding; the target moves 15 feet to an indicated area; or the target loses its Reaction until the start of its next turn."
+					]
+				},
+				{
+					"name": "Classificar Variável {@recharge 5}",
+					"entries": [
+						"One creature within 60 feet must make a {@dc 16} Charisma saving throw. On a failed save, the target can't benefit from Advantage until the end of its next turn."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Correção de Reflexo",
+					"entries": [
+						"When Verris is hit by an attack, he reduces the damage by {@dice 1d10 + 5} and teleports 10 feet to an unoccupied space he can see."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"Função: Pré-chefe social/combativo e mestre de cerimônias do Avatar.",
+					"Tática: Só deve lutar se os personagens escolherem força. Usa teleporte curto, negação de vantagem e ordens para controlar o campo."
+				]
+			},
+			"actionTags": [
+				"Multiattack"
+			],
+			"miscTags": [
+				"MA"
+			]
+		},
+		{
+			"name": "Guardião Prismático",
+			"source": "MundoDeKyrTemploCoresFragmentadas",
+			"page": 0,
+			"size": [
+				"L"
+			],
+			"type": "construct",
+			"alignment": [
+				"L",
+				"N"
+			],
+			"ac": [
+				18
+			],
+			"hp": {
+				"average": 80,
+				"formula": "10d10 + 25"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 19,
+			"dex": 12,
+			"con": 16,
+			"int": 7,
+			"wis": 12,
+			"cha": 8,
+			"cr": {
+				"cr": "5",
+				"xp": 1800
+			},
+			"save": {
+				"str": "+7",
+				"con": "+6"
+			},
+			"skill": {
+				"perception": "+4"
+			},
+			"resist": [
+				"fire",
+				"cold",
+				"lightning",
+				"psychic",
+				"radiant"
+			],
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"frightened",
+				"poisoned"
+			],
+			"senses": [
+				"darkvision 90 ft."
+			],
+			"passive": 14,
+			"languages": [
+				"understands Infernal protocol"
+			],
+			"trait": [
+				{
+					"name": "Proteger Protocolo",
+					"entries": [
+						"If Verris is within 10 feet, the Guardião can impose Disadvantage on one attack roll against him as a Reaction."
+					]
+				},
+				{
+					"name": "Ancoragem Prismática",
+					"entries": [
+						"The Guardião has Advantage on saving throws against effects that would push it, knock it Prone, or teleport it against its will."
+					]
+				},
+				{
+					"name": "Corpo de Cores Pesadas",
+					"entries": [
+						"When the Guardião takes damage of a type to which it has resistance, its next attack before the end of its next turn deals an extra 3 ({@damage 1d6}) Radiant damage."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The Guardião makes two Punho Prismático attacks."
+					]
+				},
+				{
+					"name": "Punho Prismático",
+					"entries": [
+						"{@atkr m} {@hit 7}, reach 10 ft., one target. {@h}10 ({@damage 1d12 + 4}) Bludgeoning damage plus 3 ({@damage 1d6}) Radiant damage."
+					]
+				},
+				{
+					"name": "Impacto de Protocolo {@recharge 5}",
+					"entries": [
+						"Each creature in a 30-foot Line that is 5 feet wide must make a {@dc 15} Strength saving throw. On a failed save, a creature takes 13 ({@damage 3d8}) Bludgeoning damage and is pushed 10 feet. On a successful save, a creature takes half as much damage and isn't pushed."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"Função: Defensor pesado do Santuário Central.",
+					"Tática: Fica próximo de Verris e dos pontos centrais. Serve para punir avanço direto e proteger o protocolo."
+				]
+			},
+			"actionTags": [
+				"Multiattack"
+			],
+			"miscTags": [
+				"AOE",
+				"MA"
+			],
+			"savingThrowForced": [
+				"strength"
+			]
+		},
+		{
+			"name": "Avatar do Arqui-Diabo das Cores Fragmentadas",
+			"source": "MundoDeKyrTemploCoresFragmentadas",
+			"page": 0,
+			"size": [
+				"H"
+			],
+			"type": {
+				"type": "fiend",
+				"tags": [
+					"devil"
+				]
+			},
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				19
+			],
+			"hp": {
+				"average": 260,
+				"formula": "20d12 + 130"
+			},
+			"speed": {
+				"walk": 40,
+				"fly": 60
+			},
+			"str": 22,
+			"dex": 18,
+			"con": 23,
+			"int": 20,
+			"wis": 18,
+			"cha": 24,
+			"cr": {
+				"cr": "16",
+				"xp": 15000
+			},
+			"save": {
+				"dex": "+10",
+				"con": "+11",
+				"int": "+11",
+				"wis": "+10",
+				"cha": "+13"
+			},
+			"skill": {
+				"arcana": "+11",
+				"deception": "+13",
+				"insight": "+10",
+				"intimidation": "+13",
+				"perception": "+10",
+				"persuasion": "+13",
+				"religion": "+11"
+			},
+			"resist": [
+				"fire",
+				"cold",
+				"lightning",
+				"psychic",
+				"necrotic",
+				"bludgeoning, piercing, and slashing from nonmagical attacks"
+			],
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"frightened",
+				"poisoned"
+			],
+			"senses": [
+				"truesight 60 ft.",
+				"darkvision 120 ft."
+			],
+			"passive": 20,
+			"languages": [
+				"all languages it heard in the temple",
+				"telepathy 120 ft."
+			],
+			"trait": [
+				{
+					"name": "Forma que Não Aparece Inteira",
+					"entries": [
+						"The Avatar doesn't occupy space in the same way for everyone. Attack rolls against it can't have Advantage while fewer than three conscious characters are within 30 feet of one another."
+					]
+				},
+				{
+					"name": "Fraqueza de Convergência",
+					"entries": [
+						"While Miana and Tal'Akhar are conscious and within 60 feet of each other, the Avatar loses resistance to Psychic and Force damage."
+					]
+				},
+				{
+					"name": "Observador do Espelho Negro",
+					"entries": [
+						"The Avatar has Advantage on Wisdom (Insight) checks against Miana and creatures that have directly interacted with reflections, ritual mirrors, or pacts inside the temple."
+					]
+				},
+				{
+					"name": "Resistência Mágica",
+					"entries": [
+						"The Avatar has Advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Resistência Lendária (3/Day)",
+					"entries": [
+						"If the Avatar fails a saving throw, it can choose to succeed instead."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The Avatar makes three attacks: two Garra Prismática attacks and one Voz do Vidro attack."
+					]
+				},
+				{
+					"name": "Garra Prismática",
+					"entries": [
+						"{@atkr m} {@hit 11}, reach 10 ft., one target. {@h}17 ({@damage 2d10 + 6}) Slashing damage plus 9 ({@damage 2d8}) Psychic damage."
+					]
+				},
+				{
+					"name": "Voz do Vidro",
+					"entries": [
+						"One creature within 60 feet that can hear the Avatar must make a {@dc 17} Wisdom saving throw. On a failed save, the target takes 18 ({@damage 4d8}) Psychic damage and can't use Reactions until the start of its next turn. On a successful save, the target takes half as much damage only."
+					]
+				},
+				{
+					"name": "Reflexo Quebrado {@recharge 5}",
+					"entries": [
+						"The Avatar projects fractured reflections in a 30-foot Cone. Each creature in that area must make a {@dc 17} Dexterity saving throw. On a failed save, a creature takes 27 ({@damage 6d8}) damage, divided by the Avatar between Slashing and Psychic. On a successful save, a creature takes half as much damage."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Oferta Menor",
+					"entries": [
+						"One creature within 60 feet must make a {@dc 16} Charisma saving throw. On a failed save, the target has Disadvantage on the next saving throw it makes against the Avatar before the end of the Avatar's next turn."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Desalinhamento Espelhado",
+					"entries": [
+						"When a creature hits the Avatar with an attack, the Avatar can force the attacker to make a {@dc 16} Charisma saving throw. On a failed save, the attacker is teleported 10 feet to an unoccupied space the Avatar can see."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Mover Reflexo",
+					"entries": [
+						"The Avatar moves up to half its Speed without provoking Opportunity Attacks."
+					]
+				},
+				{
+					"name": "Corte de Cor",
+					"entries": [
+						"The Avatar makes one Garra Prismática attack."
+					]
+				},
+				{
+					"name": "Oferta Menor",
+					"entries": [
+						"The Avatar uses Oferta Menor."
+					]
+				},
+				{
+					"name": "Reposicionar Peça (Costs 2 Actions)",
+					"entries": [
+						"The Avatar chooses one creature within 60 feet. The creature must make a {@dc 16} Charisma saving throw. On a failed save, it is teleported up to 30 feet to an unoccupied space the Avatar can see."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"Função: Boss narrativo do templo.",
+					"Tática: Fase 1 mede e provoca. Fase 2 tenta separar. Fase 3 oferece saídas pessoais. O objetivo não é apenas matar: é classificar o grupo como separável ou inseparável."
+				]
+			},
+			"traitTags": [
+				"Legendary Resistances",
+				"Magic Resistance"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"miscTags": [
+				"AOE",
+				"MA"
+			],
+			"senseTags": [
+				"U"
+			],
+			"conditionInflict": [
+				"charmed"
+			],
+			"savingThrowForced": [
+				"charisma",
+				"dexterity",
+				"wisdom"
+			]
+		}
+	]
+}
