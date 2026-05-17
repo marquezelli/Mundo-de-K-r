@@ -25621,7 +25621,7 @@
 						[
 							"Vulnerabilidade de Fonte",
 							"+4",
-							"Escolha uma Fonte de Aether: Arcana, Divina, Primordial, Sombria, Anímica ou Feérica. Sempre que sofrer dano causado por magia ou efeito associado a essa Fonte, você sofre dano adicional igual ao seu bônus de proficiência. Além disso, tem desvantagem no primeiro teste de resistência que fizer contra essa Fonte após terminar um {@variantrule Long Rest|XPHB|Descanso Longo}."
+							"Escolha uma Fonte de Aether: Arcana, Divina, Primordial, Sombria ou Anímica. Sempre que sofrer dano causado por magia ou efeito associado a essa Fonte, você sofre dano adicional igual ao seu bônus de proficiência. Além disso, tem desvantagem no primeiro teste de resistência que fizer contra essa Fonte após terminar um {@variantrule Long Rest|XPHB|Descanso Longo}."
 						],
 						[
 							"Vulnerabilidade Elemental",
