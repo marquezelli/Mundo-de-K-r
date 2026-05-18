@@ -9571,8 +9571,7 @@
 						"Cada facção possui 1 Talento de Origem, 2 Talentos Gerais de nível 4, 2 Talentos Extras de nível 8 e 1 Talento de Impulso de nível 12. Os textos abaixo incorporam a calibragem final de identidade, progressão e poder mecânico."
 					]
 				},
-				"Resumo de progressão",
-				"I. Guarda Luminar",
+
 				{
 					"type": "entries",
 					"name": "“A ordem não falha",
@@ -9580,7 +9579,6 @@
 						"Ela é imposta.”"
 					]
 				},
-				"Identidade mecânica: Contenção, custódia, patrulha, interrogatório e autoridade institucional."
 			]
 		},
 		{
@@ -9636,7 +9634,6 @@
 					]
 				},
 				"“Ver é impedir.”",
-				"Identidade mecânica: Detecção arcana, contenção técnica, análise de padrões e prevenção institucional da magia."
 			]
 		},
 		{
@@ -9691,8 +9688,6 @@
 						"Véu de Nyxar"
 					]
 				},
-				"“O necessário não deixa vestígios.”",
-				"Identidade mecânica: Identidades falsas, infiltração, apagamento de autoria, compartimentalização e saída limpa."
 			]
 		},
 		{
@@ -9747,8 +9742,6 @@
 						"Consórcio do Pulso Verde"
 					]
 				},
-				"“O reino vive porque o fluxo circula.”",
-				"Identidade mecânica: Contratos, rotas, suprimentos, escassez, negociação e pressão econômica."
 			]
 		},
 		{
@@ -9796,9 +9789,6 @@
 						"Uma vez por cena, quando uma criatura falhar em um teste social contestado contra você durante uma negociação, ela subtrai {@dice 1d4} do próximo teste social que fizer contra você antes do fim da cena, salvo se oferecer uma concessão concreta, como pagamento, informação, serviço, acesso ou prazo favorável."
 					]
 				},
-				"V. Caçadores da Orla",
-				"“Nós vamos onde o mapa acaba.”",
-				"Identidade mecânica: Exploração, contratos perigosos, rastreamento, fronteira, criaturas não catalogadas e regiões instáveis."
 			]
 		},
 		{
@@ -9853,8 +9843,6 @@
 						"Arquivistas da Raiz"
 					]
 				},
-				"“Nada que foi vivido se perde.”",
-				"Identidade mecânica: Memória, arquivo, investigação, identidade preservada e recuperação de informações apagadas."
 			]
 		},
 		{
@@ -9909,8 +9897,6 @@
 						"Herdeiros do Verde"
 					]
 				},
-				"“O que foi arrancado ainda cresce.”",
-				"Identidade mecânica: Contraespionagem, células rebeldes, levante, mensagens clandestinas e causa insurgente."
 			]
 		},
 		{
