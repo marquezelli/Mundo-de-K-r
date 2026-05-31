@@ -1,0 +1,1438 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "MundoDeKyrSkhatryxBestiario",
+				"abbreviation": "KÿrSkhatryx",
+				"full": "Mundo de Kÿr — Bestiário de Skhatryx",
+				"authors": [
+					"Mundo de Kÿr"
+				],
+				"convertedBy": [
+					"ChatGPT"
+				],
+				"version": "1.0.0",
+				"url": "https://github.com/TheGiddyLimit/homebrew",
+				"dateReleased": "2026-05-31"
+			}
+		],
+		"dependencies": {
+			"condition": [
+				"MundoDeKyrRegras"
+			]
+		}
+	},
+	"monster": [
+		{
+			"name": "Filhote Profanado de Skhatryx",
+			"source": "MundoDeKyrSkhatryxBestiario",
+			"page": 1,
+			"size": [
+				"M"
+			],
+			"type": "dragon",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				15
+			],
+			"hp": {
+				"average": 76,
+				"formula": "12d8 + 22"
+			},
+			"speed": {
+				"walk": 30,
+				"climb": 30,
+				"fly": 60
+			},
+			"initiative": {
+				"bonus": 2
+			},
+			"str": 18,
+			"dex": 14,
+			"con": 16,
+			"int": 8,
+			"wis": 12,
+			"cha": 12,
+			"save": {
+				"str": "+4",
+				"dex": "+5",
+				"con": "+6",
+				"int": "-1",
+				"wis": "+4",
+				"cha": "+1"
+			},
+			"skill": {
+				"perception": "+4",
+				"stealth": "+5"
+			},
+			"resist": [
+				"cold",
+				"necrotic"
+			],
+			"senses": [
+				"blindsight 10 ft.",
+				"darkvision 60 ft."
+			],
+			"passive": 14,
+			"languages": [
+				"Draconic",
+				"understands Va'Norai"
+			],
+			"cr": "4",
+			"trait": [
+				{
+					"name": "Cria do Covil",
+					"entries": [
+						"O filhote ignora {@variantrule Difficult Terrain|XPHB|terreno difícil} causado por gelo, neve ou terreno congelado."
+					]
+				},
+				{
+					"name": "Fome de Eco",
+					"entries": [
+						"Uma vez por turno, quando o filhote acerta uma criatura que já sofreu dano desde o início do último turno dele, o ataque causa 4 ({@damage 1d8}) de dano necrótico adicional."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"O filhote realiza dois ataques: um com Bite e um com Claw."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atkr m} {@hit 7}, alcance 5 pés. {@h}9 ({@damage 1d10 + 4}) de dano perfurante mais 3 ({@damage 1d6}) de dano de frio."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atkr m} {@hit 7}, alcance 5 pés. {@h}8 ({@damage 1d8 + 4}) de dano cortante."
+					]
+				},
+				{
+					"name": "Breath of Dead Frost {@recharge 5}",
+					"entries": [
+						"{@actSave con} {@dc 14}, cada criatura em um {@variantrule Cone [Area of Effect]|XPHB|Cone} de 30 pés. {@actSaveFail} 17 ({@damage 5d6}) de dano de frio mais 17 ({@damage 5d6}) de dano necrótico, e o deslocamento da criatura é reduzido em 10 pés até o final do próximo turno dela. {@actSaveSuccess} Metade do dano, sem redução de deslocamento."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Wing Skitter",
+					"entries": [
+						"O filhote se move até 20 pés sem provocar {@action Opportunity Attack|XPHB|Opportunity Attacks} se estiver sobre gelo, neve ou rocha congelada."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Grave Chill",
+					"entries": [
+						"{@actTrigger} Uma criatura acerta o filhote com um ataque corpo a corpo. {@actResponse} A criatura deve ser bem-sucedida em uma salvaguarda de Constituição {@dc 14} ou não pode realizar {@variantrule Reaction|XPHB|Reactions} até o início do próximo turno dela."
+					]
+				}
+			],
+			"senseTags": [
+				"B",
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"DR"
+			],
+			"damageTags": [
+				"C",
+				"N",
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"AOE",
+				"MA"
+			],
+			"savingThrowForced": [
+				"constitution"
+			]
+		},
+		{
+			"name": "Dragão Menor da Geada Cadavérica",
+			"source": "MundoDeKyrSkhatryxBestiario",
+			"page": 2,
+			"size": [
+				"L"
+			],
+			"type": "dragon",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				17
+			],
+			"hp": {
+				"average": 145,
+				"formula": "14d10 + 68"
+			},
+			"speed": {
+				"walk": 40,
+				"climb": 40,
+				"fly": 80
+			},
+			"initiative": {
+				"bonus": 3
+			},
+			"str": 20,
+			"dex": 16,
+			"con": 20,
+			"int": 10,
+			"wis": 14,
+			"cha": 16,
+			"save": {
+				"str": "+8",
+				"dex": "+6",
+				"con": "+8",
+				"int": "+0",
+				"wis": "+5",
+				"cha": "+6"
+			},
+			"skill": {
+				"perception": "+8",
+				"stealth": "+6"
+			},
+			"resist": [
+				"necrotic"
+			],
+			"immune": [
+				"cold"
+			],
+			"senses": [
+				"blindsight 30 ft.",
+				"darkvision 120 ft."
+			],
+			"passive": 18,
+			"languages": [
+				"Draconic",
+				"Va'Norai"
+			],
+			"cr": "8",
+			"trait": [
+				{
+					"name": "Glacial Predator",
+					"entries": [
+						"O dragão tem {@variantrule Advantage|XPHB|Vantagem} em jogadas de ataque contra criaturas que estejam em {@variantrule Difficult Terrain|XPHB|terreno difícil} de gelo ou neve."
+					]
+				},
+				{
+					"name": "Cadaveric Frost",
+					"entries": [
+						"Uma criatura que sofre dano necrótico do dragão não pode recuperar {@variantrule Hit Points|XPHB|Pontos de Vida} até o início do próximo turno dela."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"O dragão realiza três ataques: um com Bite e dois com Claw."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atkr m} {@hit 8}, alcance 10 pés. {@h}16 ({@damage 2d10 + 5}) de dano perfurante mais 7 ({@damage 2d6}) de dano de frio."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atkr m} {@hit 8}, alcance 5 pés. {@h}12 ({@damage 2d6 + 5}) de dano cortante."
+					]
+				},
+				{
+					"name": "Dead Frost Breath {@recharge 5}",
+					"entries": [
+						"{@actSave con} {@dc 16}, cada criatura em um {@variantrule Cone [Area of Effect]|XPHB|Cone} de 45 pés. {@actSaveFail} 27 ({@damage 6d8}) de dano de frio mais 18 ({@damage 4d8}) de dano necrótico, e a criatura recebe a condição {@condition Resfriado|MundoDeKyrRegras}. A condição dura até o final do próximo turno dela. {@actSaveSuccess} Metade do dano, sem a condição."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Predatory Glide",
+					"entries": [
+						"O dragão voa até metade de seu deslocamento de voo. Se terminar esse movimento em uma elevação, ele tem {@variantrule Advantage|XPHB|Vantagem} no próximo ataque de Bite que realizar antes do fim do turno atual."
+					]
+				}
+			],
+			"senseTags": [
+				"B",
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"DR"
+			],
+			"damageTags": [
+				"C",
+				"N",
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"AOE",
+				"MA"
+			],
+			"savingThrowForced": [
+				"constitution"
+			]
+		},
+		{
+			"name": "Suserano Glacial Necrótico de Skhatryx",
+			"source": "MundoDeKyrSkhatryxBestiario",
+			"page": 3,
+			"size": [
+				"H"
+			],
+			"type": "dragon",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				19
+			],
+			"hp": {
+				"average": 225,
+				"formula": "18d12 + 108"
+			},
+			"speed": {
+				"walk": 40,
+				"climb": 40,
+				"fly": 80
+			},
+			"initiative": {
+				"bonus": 4
+			},
+			"str": 24,
+			"dex": 18,
+			"con": 22,
+			"int": 14,
+			"wis": 18,
+			"cha": 20,
+			"save": {
+				"str": "+12",
+				"dex": "+9",
+				"con": "+11",
+				"int": "+7",
+				"wis": "+9",
+				"cha": "+10"
+			},
+			"skill": {
+				"perception": "+14",
+				"intimidation": "+10",
+				"stealth": "+9"
+			},
+			"resist": [
+				"necrotic",
+				"bludgeoning",
+				"piercing",
+				"slashing"
+			],
+			"immune": [
+				"cold"
+			],
+			"conditionImmune": [
+				"frightened"
+			],
+			"senses": [
+				"blindsight 60 ft.",
+				"darkvision 120 ft."
+			],
+			"passive": 24,
+			"languages": [
+				"Common",
+				"Draconic",
+				"Giant",
+				"Va'Norai"
+			],
+			"cr": "13",
+			"trait": [
+				{
+					"name": "Legendary Resistance (2/Day)",
+					"entries": [
+						"If the dragon fails a saving throw, it can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Ancient Frost Body",
+					"entries": [
+						"O dragão é imune às condições {@condition Resfriado|MundoDeKyrRegras} e {@condition Congelado|MundoDeKyrRegras}."
+					]
+				},
+				{
+					"name": "Aura of the Ancient Prison",
+					"entries": [
+						"Criaturas inimigas que começam o turno a até 10 pés do dragão têm seu deslocamento reduzido em 10 pés até o início do próximo turno delas. Uma criatura sob a condição {@condition Resfriado|MundoDeKyrRegras} dentro da aura não pode realizar {@action Opportunity Attack|XPHB|Opportunity Attacks}."
+					]
+				},
+				{
+					"name": "Necrotic Ice",
+					"entries": [
+						"Quando o dragão causa dano de frio, ele pode converter metade desse dano em dano necrótico."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"O dragão realiza três ataques: um com Bite e dois com Claw."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atkr m} {@hit 12}, alcance 10 pés. {@h}18 ({@damage 2d10 + 7}) de dano perfurante mais 9 ({@damage 2d8}) de dano de frio."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atkr m} {@hit 12}, alcance 5 pés. {@h}14 ({@damage 2d6 + 7}) de dano cortante."
+					]
+				},
+				{
+					"name": "Tail",
+					"entries": [
+						"{@atkr m} {@hit 12}, alcance 15 pés. {@h}16 ({@damage 2d8 + 7}) de dano contundente, e o alvo deve ser bem-sucedido em uma salvaguarda de Força {@dc 20} ou recebe a condição {@condition Prone|XPHB}."
+					]
+				},
+				{
+					"name": "Breath of the Chained Grave {@recharge 5}",
+					"entries": [
+						"{@actSave con} {@dc 20}, cada criatura em um {@variantrule Cone [Area of Effect]|XPHB|Cone} de 60 pés. {@actSaveFail} 54 ({@damage 12d8}) de dano de frio mais 27 ({@damage 6d8}) de dano necrótico, e a criatura recebe a condição {@condition Resfriado|MundoDeKyrRegras} por 1 minuto. A criatura repete a salvaguarda no final de cada um dos turnos dela, encerrando a condição em si em caso de sucesso. {@actSaveSuccess} Metade do dano, sem a condição."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Frozen Command",
+					"entries": [
+						"Uma criatura aliada do dragão que possa ouvi-lo usa sua {@variantrule Reaction|XPHB|Reaction} para se mover até metade do deslocamento dela ou realizar um ataque com arma."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Wing Interruption",
+					"entries": [
+						"{@actTrigger} Uma criatura se move para fora do alcance do dragão. {@actResponse} O dragão bate as asas. A criatura deve ser bem-sucedida em uma salvaguarda de Destreza {@dc 20} ou sofre 13 ({@damage 3d8}) de dano de frio e recebe a condição {@condition Prone|XPHB}."
+					]
+				}
+			],
+			"legendaryActions": 2,
+			"legendary": [
+				{
+					"name": "Detect",
+					"entries": [
+						"O dragão realiza um teste de Sabedoria ({@skill Perception})."
+					]
+				},
+				{
+					"name": "Tail Strike",
+					"entries": [
+						"O dragão realiza um ataque de Tail."
+					]
+				},
+				{
+					"name": "Glacial Shift (Costs 2 Actions)",
+					"entries": [
+						"O dragão se move até metade de seu deslocamento sem provocar {@action Opportunity Attack|XPHB|Opportunity Attacks}. O espaço que ele deixa se torna {@variantrule Difficult Terrain|XPHB|terreno difícil} até o fim da próxima rodada."
+					]
+				}
+			],
+			"traitTags": [
+				"Legendary Resistances"
+			],
+			"senseTags": [
+				"B",
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"DR",
+				"GI"
+			],
+			"damageTags": [
+				"B",
+				"C",
+				"N",
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"AOE",
+				"MA",
+				"RCH"
+			],
+			"conditionInflict": [
+				"prone"
+			],
+			"savingThrowForced": [
+				"constitution",
+				"dexterity",
+				"strength"
+			]
+		},
+		{
+			"name": "Acólito da Fome Eterna",
+			"source": "MundoDeKyrSkhatryxBestiario",
+			"page": 4,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"cultist"
+				]
+			},
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				13
+			],
+			"hp": {
+				"average": 44,
+				"formula": "8d8 + 8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"initiative": {
+				"bonus": 2
+			},
+			"str": 10,
+			"dex": 14,
+			"con": 14,
+			"int": 12,
+			"wis": 16,
+			"cha": 12,
+			"save": {
+				"str": "+0",
+				"dex": "+2",
+				"con": "+2",
+				"int": "+1",
+				"wis": "+5",
+				"cha": "+1"
+			},
+			"skill": {
+				"religion": "+3",
+				"stealth": "+4"
+			},
+			"resist": [
+				"cold"
+			],
+			"passive": 13,
+			"languages": [
+				"Common",
+				"Va'Norai"
+			],
+			"cr": "2",
+			"trait": [
+				{
+					"name": "Servant of the Hunger",
+					"entries": [
+						"Quando o acólito reduz uma criatura a 0 {@variantrule Hit Points|XPHB|Pontos de Vida}, ou vê uma criatura ser reduzida a 0 Pontos de Vida a até 30 pés, ele ganha 10 {@variantrule Temporary Hit Points|XPHB|Pontos de Vida Temporários}."
+					]
+				},
+				{
+					"name": "Ritual Pack",
+					"entries": [
+						"Enquanto estiver a até 30 pés de outro cultista aliado, o acólito tem {@variantrule Advantage|XPHB|Vantagem} em salvaguardas de Sabedoria contra as condições {@condition Charmed|XPHB} e {@condition Frightened|XPHB}."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Ritual Dagger",
+					"entries": [
+						"{@atkr m} {@hit 4}, alcance 5 pés. {@h}5 ({@damage 1d6 + 2}) de dano perfurante mais 7 ({@damage 2d6}) de dano necrótico."
+					]
+				},
+				{
+					"name": "Arranhão de Ausência",
+					"entries": [
+						"{@atkr r} {@hit 5}, alcance 60 pés. {@h}13 ({@damage 3d8}) de dano necrótico, e o alvo subtrai {@dice 1d4} da próxima jogada de ataque que realizar antes do final do próximo turno dele."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Feed the Line",
+					"entries": [
+						"Um cultista aliado a até 30 pés ganha 5 {@variantrule Temporary Hit Points|XPHB|Pontos de Vida Temporários}."
+					]
+				}
+			],
+			"damageTags": [
+				"N",
+				"P"
+			],
+			"miscTags": [
+				"MA",
+				"RA"
+			]
+		},
+		{
+			"name": "Tece-Fenda de Velthuun",
+			"source": "MundoDeKyrSkhatryxBestiario",
+			"page": 5,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"cultist"
+				]
+			},
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				16
+			],
+			"hp": {
+				"average": 112,
+				"formula": "15d8 + 45"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"initiative": {
+				"bonus": 3
+			},
+			"str": 8,
+			"dex": 16,
+			"con": 16,
+			"int": 20,
+			"wis": 16,
+			"cha": 18,
+			"save": {
+				"str": "-1",
+				"dex": "+6",
+				"con": "+6",
+				"int": "+8",
+				"wis": "+6",
+				"cha": "+7"
+			},
+			"skill": {
+				"arcana": "+11",
+				"religion": "+9",
+				"deception": "+7"
+			},
+			"resist": [
+				"cold",
+				"necrotic",
+				"psychic"
+			],
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 13,
+			"languages": [
+				"Common",
+				"Draconic",
+				"Va'Norai",
+				"Umbral"
+			],
+			"cr": "7",
+			"trait": [
+				{
+					"name": "Void-Taught Caster",
+					"entries": [
+						"O Tece-Fenda tem {@variantrule Advantage|XPHB|Vantagem} em salvaguardas contra magias de Ilusão ou Encantamento."
+					]
+				},
+				{
+					"name": "Fractured Concentration",
+					"entries": [
+						"Quando o Tece-Fenda falha em uma salvaguarda de Constituição para manter {@variantrule Concentration|XPHB|Concentração}, ele pode sofrer 10 de dano psíquico para transformar a falha em sucesso. Esse dano não pode ser reduzido."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Void Lash",
+					"entries": [
+						"{@atkr m,r} {@hit 8}, alcance 10 pés ou alcance 90 pés. {@h}22 ({@damage 4d8 + 4}) de dano necrótico, e o alvo deve ser bem-sucedido em uma salvaguarda de Força {@dc 16} ou recebe a condição {@condition Restrained|XPHB} por correntes de sombra até o final do próximo turno dele."
+					]
+				},
+				{
+					"name": "Split Reality {@recharge 5}",
+					"entries": [
+						"O Tece-Fenda escolhe um ponto que possa ver a até 90 pés. {@actSave wis} {@dc 16}, cada criatura em uma {@variantrule Sphere [Area of Effect]|XPHB|Sphere} de 20 pés centrada nesse ponto. {@actSaveFail} 27 ({@damage 6d8}) de dano psíquico mais 9 ({@damage 2d8}) de dano necrótico, e a criatura não pode realizar {@variantrule Reaction|XPHB|Reactions} até o final do próximo turno dela. {@actSaveSuccess} Metade do dano."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Shift Through the Crack",
+					"entries": [
+						"O Tece-Fenda teleporta até 30 pés para um espaço que possa ver em {@variantrule Dim Light|XPHB|luz baixa} ou {@variantrule Darkness|XPHB|escuridão}."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Negação de Círculo {@recharge 5}",
+					"entries": [
+						"{@actTrigger} Uma criatura a até 60 pés conjura uma magia de 5º nível ou inferior. {@actResponse} O Tece-Fenda força o conjurador a realizar um teste com seu atributo de conjuração contra {@dc 16}. Em uma falha, a magia não produz efeito até o início do próximo turno do conjurador. O espaço de magia não é gasto."
+					]
+				}
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"C",
+				"DR"
+			],
+			"damageTags": [
+				"N",
+				"Y"
+			],
+			"miscTags": [
+				"AOE",
+				"MA",
+				"RA"
+			],
+			"conditionInflict": [
+				"restrained"
+			],
+			"savingThrowForced": [
+				"strength",
+				"wisdom"
+			]
+		},
+		{
+			"name": "Sacerdote da Fome Eterna",
+			"source": "MundoDeKyrSkhatryxBestiario",
+			"page": 6,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"cultist"
+				]
+			},
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				17
+			],
+			"hp": {
+				"average": 162,
+				"formula": "25d8 + 50"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"initiative": {
+				"bonus": 2
+			},
+			"str": 12,
+			"dex": 14,
+			"con": 18,
+			"int": 16,
+			"wis": 20,
+			"cha": 18,
+			"save": {
+				"str": "+1",
+				"dex": "+5",
+				"con": "+7",
+				"int": "+6",
+				"wis": "+9",
+				"cha": "+8"
+			},
+			"skill": {
+				"insight": "+9",
+				"religion": "+10",
+				"persuasion": "+8"
+			},
+			"resist": [
+				"cold",
+				"necrotic"
+			],
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 15,
+			"languages": [
+				"Common",
+				"Draconic",
+				"Giant",
+				"Va'Norai"
+			],
+			"cr": "10",
+			"trait": [
+				{
+					"name": "Aura of Hunger",
+					"entries": [
+						"Inimigos a até 10 pés do sacerdote não podem recuperar {@variantrule Hit Points|XPHB|Pontos de Vida}. Uma criatura que começa o turno nessa aura deve ser bem-sucedida em uma salvaguarda de Sabedoria {@dc 17} ou tem {@variantrule Disadvantage|XPHB|Desvantagem} no próximo {@variantrule D20 Test|XPHB|D20 Test} que realizar antes do fim do turno atual."
+					]
+				},
+				{
+					"name": "Ritual Authority",
+					"entries": [
+						"Cultistas aliados a até 60 pés do sacerdote somam +2 às suas salvaguardas."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"O sacerdote realiza dois ataques com Black-Ice Staff, ou usa Black-Ice Staff e Devour Echo, se Devour Echo estiver disponível."
+					]
+				},
+				{
+					"name": "Black-Ice Staff",
+					"entries": [
+						"{@atkr m} {@hit 8}, alcance 5 pés. {@h}10 ({@damage 1d10 + 5}) de dano contundente mais 13 ({@damage 3d8}) de dano necrótico."
+					]
+				},
+				{
+					"name": "Devour Echo {@recharge 5}",
+					"entries": [
+						"{@actSave wis} {@dc 17}, uma criatura que o sacerdote possa ver a até 60 pés. {@actSaveFail} 36 ({@damage 8d8}) de dano necrótico, a criatura não pode realizar {@variantrule Reaction|XPHB|Reactions} e tem {@variantrule Disadvantage|XPHB|Desvantagem} na próxima salvaguarda que realizar antes do fim do próximo turno dela. {@actSaveSuccess} Metade do dano, sem efeitos adicionais."
+					]
+				},
+				{
+					"name": "Prayer of the Hollow Mountain (1/Day)",
+					"entries": [
+						"O sacerdote escolhe até três aliados a até 60 pés. Cada um recupera 25 {@variantrule Hit Points|XPHB|Pontos de Vida} e pode se mover até metade de seu deslocamento sem provocar {@action Opportunity Attack|XPHB|Opportunity Attacks}."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Command the Starved",
+					"entries": [
+						"Um cultista ou híbrido aliado a até 60 pés usa sua {@variantrule Reaction|XPHB|Reaction} para realizar um ataque."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Take the Offering",
+					"entries": [
+						"{@actTrigger} Um aliado a até 30 pés sofre dano. {@actResponse} O sacerdote reduz esse dano em 15. O sacerdote sofre 7 de dano necrótico que não pode ser reduzido."
+					]
+				}
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"DR",
+				"GI"
+			],
+			"damageTags": [
+				"B",
+				"N"
+			],
+			"miscTags": [
+				"MA",
+				"RCH"
+			],
+			"savingThrowForced": [
+				"wisdom"
+			]
+		},
+		{
+			"name": "Yeti-Dragão Acorrentado",
+			"source": "MundoDeKyrSkhatryxBestiario",
+			"page": 7,
+			"size": [
+				"L"
+			],
+			"type": "monstrosity",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				16
+			],
+			"hp": {
+				"average": 136,
+				"formula": "16d10 + 48"
+			},
+			"speed": {
+				"walk": 40,
+				"climb": 30
+			},
+			"initiative": {
+				"bonus": 1
+			},
+			"str": 22,
+			"dex": 12,
+			"con": 20,
+			"int": 6,
+			"wis": 14,
+			"cha": 12,
+			"save": {
+				"str": "+9",
+				"dex": "+4",
+				"con": "+8",
+				"int": "-2",
+				"wis": "+5",
+				"cha": "+1"
+			},
+			"skill": {
+				"athletics": "+9",
+				"perception": "+5"
+			},
+			"resist": [
+				"necrotic"
+			],
+			"immune": [
+				"cold"
+			],
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 15,
+			"languages": [
+				"Giant",
+				"understands Draconic"
+			],
+			"cr": "7",
+			"trait": [
+				{
+					"name": "Frozen Bulk",
+					"entries": [
+						"O Yeti-Dragão tem {@variantrule Advantage|XPHB|Vantagem} em salvaguardas contra efeitos que o moveriam contra sua vontade ou o deixariam {@condition Prone|XPHB}."
+					]
+				},
+				{
+					"name": "Chained Hide",
+					"entries": [
+						"Enquanto estiver com metade dos Pontos de Vida máximos ou menos, o Yeti-Dragão tem resistência a dano cortante."
+					]
+				},
+				{
+					"name": "Ancient Frost Body",
+					"entries": [
+						"O Yeti-Dragão é imune às condições {@condition Resfriado|MundoDeKyrRegras} e {@condition Congelado|MundoDeKyrRegras}."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"O Yeti-Dragão realiza dois ataques: Chain Slam e Claw."
+					]
+				},
+				{
+					"name": "Chain Slam",
+					"entries": [
+						"{@atkr m} {@hit 9}, alcance 10 pés. {@h}17 ({@damage 2d10 + 6}) de dano contundente mais 7 ({@damage 2d6}) de dano de frio. O alvo deve ser bem-sucedido em uma salvaguarda de Força {@dc 17} ou é puxado 10 pés."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atkr m} {@hit 9}, alcance 5 pés. {@h}15 ({@damage 2d8 + 6}) de dano cortante."
+					]
+				},
+				{
+					"name": "Dead Frost Gaze {@recharge 5}",
+					"entries": [
+						"{@actSave con} {@dc 16}, uma criatura que o Yeti-Dragão possa ver a até 30 pés. {@actSaveFail} 21 ({@damage 6d6}) de dano de frio, e a criatura recebe a condição {@condition Resfriado|MundoDeKyrRegras} por 1 minuto. {@actSaveSuccess} Metade do dano, sem a condição."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Avalanche Lunge",
+					"entries": [
+						"O Yeti-Dragão se move até 20 pés em linha reta. Se terminar esse movimento adjacente a uma criatura, pode forçá-la a realizar uma salvaguarda de Destreza {@dc 17}; em uma falha, a criatura recebe a condição {@condition Prone|XPHB}."
+					]
+				}
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"GI",
+				"DR"
+			],
+			"damageTags": [
+				"B",
+				"C",
+				"S"
+			],
+			"miscTags": [
+				"MA"
+			],
+			"conditionInflict": [
+				"prone"
+			],
+			"savingThrowForced": [
+				"constitution",
+				"dexterity",
+				"strength"
+			]
+		},
+		{
+			"name": "Mestiço Ossogelado",
+			"source": "MundoDeKyrSkhatryxBestiario",
+			"page": 8,
+			"size": [
+				"M"
+			],
+			"type": "humanoid",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				16
+			],
+			"hp": {
+				"average": 85,
+				"formula": "10d8 + 40"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"initiative": {
+				"bonus": 3
+			},
+			"str": 18,
+			"dex": 16,
+			"con": 16,
+			"int": 10,
+			"wis": 12,
+			"cha": 8,
+			"save": {
+				"str": "+6",
+				"dex": "+5",
+				"con": "+5",
+				"int": "+0",
+				"wis": "+3",
+				"cha": "-1"
+			},
+			"skill": {
+				"athletics": "+6",
+				"stealth": "+5",
+				"survival": "+3"
+			},
+			"resist": [
+				"cold",
+				"necrotic"
+			],
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 11,
+			"languages": [
+				"Common",
+				"Giant"
+			],
+			"cr": "4",
+			"trait": [
+				{
+					"name": "Hybrid Vigor",
+					"entries": [
+						"Quando o mestiço fica com metade dos Pontos de Vida máximos ou menos pela primeira vez, ele ganha 15 {@variantrule Temporary Hit Points|XPHB|Pontos de Vida Temporários}."
+					]
+				},
+				{
+					"name": "Ossos de Gelo",
+					"entries": [
+						"Quando uma criatura a até 5 pés acerta o mestiço com um ataque corpo a corpo, essa criatura sofre 3 de dano de frio."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"O mestiço realiza dois ataques com Ice Hook Spear."
+					]
+				},
+				{
+					"name": "Ice Hook Spear",
+					"entries": [
+						"{@atkr m} {@hit 6}, alcance 10 pés. {@h}10 ({@damage 1d12 + 4}) de dano perfurante mais 3 ({@damage 1d6}) de dano de frio. Se o alvo for Large ou menor, ele deve ser bem-sucedido em uma salvaguarda de Força {@dc 14} ou é puxado 5 pés."
+					]
+				},
+				{
+					"name": "Bone Shard Volley {@recharge 6}",
+					"entries": [
+						"{@actSave dex} {@dc 14}, cada criatura em uma {@variantrule Line [Area of Effect]|XPHB|Line} de 30 pés. {@actSaveFail} 18 ({@damage 4d8}) de dano perfurante. {@actSaveSuccess} Metade do dano."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Hook and Hold",
+					"entries": [
+						"{@actTrigger} Uma criatura a até 10 pés tenta se mover para longe do mestiço. {@actResponse} O mestiço realiza um ataque com Ice Hook Spear contra ela."
+					]
+				}
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"GI"
+			],
+			"damageTags": [
+				"C",
+				"P"
+			],
+			"miscTags": [
+				"AOE",
+				"MA"
+			],
+			"savingThrowForced": [
+				"dexterity",
+				"strength"
+			]
+		},
+		{
+			"name": "Eco Faminto de Tandril",
+			"source": "MundoDeKyrSkhatryxBestiario",
+			"page": 9,
+			"size": [
+				"M"
+			],
+			"type": "undead",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				15
+			],
+			"hp": {
+				"average": 93,
+				"formula": "11d8 + 44"
+			},
+			"speed": {
+				"walk": 0,
+				"fly": 40,
+				"canHover": true
+			},
+			"initiative": {
+				"bonus": 4
+			},
+			"str": 6,
+			"dex": 18,
+			"con": 16,
+			"int": 14,
+			"wis": 16,
+			"cha": 18,
+			"save": {
+				"str": "-2",
+				"dex": "+7",
+				"con": "+6",
+				"int": "+5",
+				"wis": "+6",
+				"cha": "+7"
+			},
+			"skill": {
+				"insight": "+6",
+				"perception": "+6",
+				"stealth": "+7"
+			},
+			"resist": [
+				"acid",
+				"cold",
+				"fire",
+				"lightning",
+				"thunder",
+				"bludgeoning",
+				"piercing",
+				"slashing"
+			],
+			"immune": [
+				"necrotic",
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"grappled",
+				"paralyzed",
+				"petrified",
+				"poisoned",
+				"prone",
+				"restrained"
+			],
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 16,
+			"languages": [
+				"understands the languages it knew in life but speaks only in broken whispers"
+			],
+			"cr": "5",
+			"trait": [
+				{
+					"name": "Incorporeal Movement",
+					"entries": [
+						"O Eco pode se mover através de criaturas e objetos como se fossem {@variantrule Difficult Terrain|XPHB|terreno difícil}. Se terminar o turno dentro de um objeto, sofre 5 de dano de força."
+					]
+				},
+				{
+					"name": "Hunger for Memory",
+					"entries": [
+						"Uma criatura atingida pelo Eco tem {@variantrule Disadvantage|XPHB|Desvantagem} na próxima salvaguarda de Inteligência, Sabedoria ou Carisma que realizar antes do final do próximo turno dela."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"O Eco realiza dois ataques com Echo Touch."
+					]
+				},
+				{
+					"name": "Echo Touch",
+					"entries": [
+						"{@atkr m} {@hit 7}, alcance 5 pés. {@h}18 ({@damage 4d8}) de dano necrótico, e o alvo não pode realizar {@variantrule Reaction|XPHB|Reactions} até o início do próximo turno dele."
+					]
+				},
+				{
+					"name": "Tandril's Whisper {@recharge 5}",
+					"entries": [
+						"{@actSave wis} {@dc 15}, cada criatura escolhida pelo Eco em uma {@variantrule Sphere [Area of Effect]|XPHB|Sphere} de 20 pés centrada em um ponto a até 60 pés. {@actSaveFail} 22 ({@damage 5d8}) de dano psíquico, e a criatura recebe a condição {@condition Frightened|XPHB} até o final do próximo turno dela. {@actSaveSuccess} Metade do dano, sem a condição."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Fade Between Decisions",
+					"entries": [
+						"O Eco teleporta até 30 pés para um espaço em {@variantrule Dim Light|XPHB|luz baixa}, {@variantrule Darkness|XPHB|escuridão} ou sobre gelo negro."
+					]
+				}
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"N",
+				"Y"
+			],
+			"miscTags": [
+				"AOE",
+				"MA"
+			],
+			"conditionInflict": [
+				"frightened"
+			],
+			"savingThrowForced": [
+				"wisdom"
+			]
+		},
+		{
+			"name": "Quimera de Gelo e Fome",
+			"source": "MundoDeKyrSkhatryxBestiario",
+			"page": 10,
+			"size": [
+				"L"
+			],
+			"type": "monstrosity",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				18
+			],
+			"hp": {
+				"average": 178,
+				"formula": "17d10 + 85"
+			},
+			"speed": {
+				"walk": 40,
+				"climb": 30,
+				"fly": 60
+			},
+			"initiative": {
+				"bonus": 2
+			},
+			"str": 22,
+			"dex": 14,
+			"con": 20,
+			"int": 6,
+			"wis": 16,
+			"cha": 14,
+			"save": {
+				"str": "+10",
+				"dex": "+6",
+				"con": "+9",
+				"int": "-2",
+				"wis": "+7",
+				"cha": "+6"
+			},
+			"skill": {
+				"perception": "+11"
+			},
+			"resist": [
+				"necrotic"
+			],
+			"immune": [
+				"cold"
+			],
+			"conditionImmune": [
+				"frightened"
+			],
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 21,
+			"languages": [
+				"understands Draconic and Giant"
+			],
+			"cr": "11",
+			"trait": [
+				{
+					"name": "Threefold Hunger",
+					"entries": [
+						"A Quimera tem três cabeças. Enquanto tiver mais de 0 Pontos de Vida, ela tem {@variantrule Advantage|XPHB|Vantagem} em salvaguardas contra as condições {@condition Blinded|XPHB}, {@condition Charmed|XPHB}, {@condition Deafened|XPHB}, {@condition Frightened|XPHB}, {@condition Stunned|XPHB} e {@condition Unconscious|XPHB}."
+					]
+				},
+				{
+					"name": "Ancient Frost Body",
+					"entries": [
+						"A Quimera é imune às condições {@condition Resfriado|MundoDeKyrRegras} e {@condition Congelado|MundoDeKyrRegras}."
+					]
+				},
+				{
+					"name": "Campal Predator",
+					"entries": [
+						"A Quimera causa 7 ({@damage 2d6}) de dano adicional contra uma criatura isolada, isto é, uma criatura sem aliados a até 10 pés dela."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"A Quimera realiza três ataques: Bite, Horns e Claw."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atkr m} {@hit 10}, alcance 10 pés. {@h}17 ({@damage 2d10 + 6}) de dano perfurante mais 7 ({@damage 2d6}) de dano necrótico."
+					]
+				},
+				{
+					"name": "Horns",
+					"entries": [
+						"{@atkr m} {@hit 10}, alcance 5 pés. {@h}15 ({@damage 2d8 + 6}) de dano perfurante. Se a Quimera se moveu pelo menos 20 pés em linha reta antes do ataque, o alvo deve ser bem-sucedido em uma salvaguarda de Força {@dc 18} ou recebe a condição {@condition Prone|XPHB}."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atkr m} {@hit 10}, alcance 5 pés. {@h}13 ({@damage 2d6 + 6}) de dano cortante."
+					]
+				},
+				{
+					"name": "Breath of Starved Winter {@recharge 5}",
+					"entries": [
+						"{@actSave con} {@dc 17}, cada criatura em uma {@variantrule Line [Area of Effect]|XPHB|Line} de 60 pés por 10 pés de largura. {@actSaveFail} 36 ({@damage 8d8}) de dano de frio mais 18 ({@damage 4d8}) de dano necrótico. {@actSaveSuccess} Metade do dano."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Winged Reposition",
+					"entries": [
+						"A Quimera voa até 30 pés sem provocar {@action Opportunity Attack|XPHB|Opportunity Attacks}."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Three-Headed Retaliation",
+					"entries": [
+						"{@actTrigger} Uma criatura erra um ataque contra a Quimera. {@actResponse} A Quimera realiza um ataque de Bite contra essa criatura."
+					]
+				}
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"DR",
+				"GI"
+			],
+			"damageTags": [
+				"C",
+				"N",
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"AOE",
+				"MA"
+			],
+			"conditionInflict": [
+				"prone"
+			],
+			"savingThrowForced": [
+				"constitution",
+				"strength"
+			]
+		}
+	]
+}
