@@ -4,14 +4,14 @@
 			{
 				"json": "MundoDeKyrFeats",
 				"abbreviation": "KyrFeats",
-				"full": "Mundo de Kÿr: Feats v5.4 — Versão Final",
+				"full": "Mundo de Kÿr: Feats v5.5 — Validação contra Espécies",
 				"authors": [
 					"Felipe Marquezelli"
 				],
 				"convertedBy": [
 					"ChatGPT"
 				],
-				"version": "5.4.0",
+				"version": "5.5.0",
 				"url": "https://github.com/TheGiddyLimit/homebrew",
 				"dateAdded": 1779327521,
 				"dateModified": "2026-06-04"
@@ -79,14 +79,14 @@
 			{
 				"json": "MundoDeKyrCompendioCompleto",
 				"abbreviation": "Kÿr-COMP",
-				"full": "Mundo de Kÿr — Compêndio Completo v2.14 — Feats Versão Final",
+				"full": "Mundo de Kÿr — Compêndio Completo v2.15 — Feats validadas contra Espécies",
 				"authors": [
 					"Felipe Marquezelli"
 				],
 				"convertedBy": [
 					"ChatGPT"
 				],
-				"version": "2.14.0",
+				"version": "2.15.0",
 				"url": "https://github.com/TheGiddyLimit/homebrew",
 				"dateAdded": 1778520000,
 				"dateModified": "2026-06-04"
@@ -2813,16 +2813,16 @@
 				"Seu corpo aprende a devolver pressão como maré curta.",
 				{
 					"type": "entries",
-					"name": "Recuo Líquido Maior",
+					"name": "Corpo Fluido Maior",
 					"entries": [
-						"Quando usar Recuo Líquido, aumente a redução de dano em {@dice 1d4}."
+						"Quando você sofrer dano de Frio, pode usar sua {@variantrule Reaction|XPHB|Reação} para reduzir esse dano em {@dice 1d4} + seu Bônus de Proficiência, antes de aplicar Resistência. Você pode usar este benefício um número de vezes igual ao seu Bônus de Proficiência, recuperando todos os usos ao terminar um {@variantrule Long Rest|XPHB|Descanso Longo}."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Pulmão das Marés",
 					"entries": [
-						"Seu deslocamento de natação aumenta em 10 pés, e você tem Vantagem em testes de resistência contra ser Envenenado, sufocado ou deslocado por correntezas."
+						"Seu deslocamento de natação aumenta em 10 pés, e você tem Vantagem em testes de resistência contra a condição {@condition Poisoned|XPHB|Envenenado}, sufocamento ou efeitos que tentem deslocar você por correntezas."
 					]
 				}
 			]
@@ -2925,9 +2925,9 @@
 				},
 				{
 					"type": "entries",
-					"name": "Impacto de Pedra Maior",
+					"name": "Peso de Impacto",
 					"entries": [
-						"Quando usar Impacto de Pedra e o alvo colidir com obstáculo ou criatura, ele sofre dano Contundente igual ao seu Bônus de Proficiência."
+						"Uma vez por turno, quando você empurrar uma criatura ou quando uma criatura falhar em um teste para empurrar você enquanto você estiver em contato com pedra, terra ou madeira trabalhada, ela sofre dano Contundente igual ao seu Bônus de Proficiência."
 					]
 				}
 			]
@@ -2953,9 +2953,9 @@
 				"Sua sombra espera falhas e as transforma em custo.",
 				{
 					"type": "entries",
-					"name": "Eco Maldito Maior",
+					"name": "Passo Mordente",
 					"entries": [
-						"Quando usar Eco Maldito, o alvo também sofre dano Necrótico igual ao seu Bônus de Proficiência."
+						"Quando você usar Passo do Limiar, escolha uma criatura a até 5 pés de você. Ela sofre dano Necrótico igual ao seu Bônus de Proficiência."
 					]
 				},
 				{
@@ -3801,14 +3801,14 @@
 					"type": "entries",
 					"name": "Canto de Maré",
 					"entries": [
-						"Quando uma criatura falhar contra Voz Hipnótica ou quando você empurrar criatura com Impacto da Maré, ela subtrai {@dice 1d4} do próximo teste de Sabedoria antes do início do seu próximo turno."
+						"Quando uma criatura falhar contra Voz Hipnótica ou quando você empurrar uma criatura com Impacto da Maré, ela subtrai {@dice 1d4} do próximo teste de Sabedoria antes do início do seu próximo turno."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Recuo de Espuma",
+					"name": "Espuma de Composição",
 					"entries": [
-						"Quando Recuo Ondulante for ativado, você recebe Pontos de Vida Temporários iguais ao seu Bônus de Proficiência."
+						"Quando uma criatura falhar contra Voz Hipnótica ou for empurrada por Impacto da Maré, você recebe Pontos de Vida Temporários iguais ao seu Bônus de Proficiência. Você só pode receber esses Pontos de Vida Temporários uma vez por rodada."
 					]
 				}
 			]
@@ -3921,9 +3921,9 @@
 				},
 				{
 					"type": "entries",
-					"name": "Sangue Frio",
+					"name": "Frieza Serpentina",
 					"entries": [
-						"Você tem Vantagem em testes de resistência contra Envenenado e Enfeitiçado."
+						"Você tem Vantagem em testes de resistência contra {@condition Poisoned|XPHB|Envenenado} e {@condition Charmed|XPHB|Enfeitiçado}."
 					]
 				}
 			]
@@ -3966,9 +3966,9 @@
 				},
 				{
 					"type": "entries",
-					"name": "Retorno ao Abrigo Maior",
+					"name": "Abrigo Memorizado",
 					"entries": [
-						"Quando Retorno ao Abrigo conceder Pontos de Vida Temporários, aumente esse valor em {@dice 1d4}."
+						"Quando você adicionar o dado de Mapa de Bigodes a um teste e ainda assim falhar, você recebe Pontos de Vida Temporários iguais ao seu Bônus de Proficiência e pode se mover 5 pés sem provocar Ataques de Oportunidade. Você pode receber esse benefício uma vez por {@variantrule Short Rest|XPHB|Descanso Curto} ou {@variantrule Long Rest|XPHB|Descanso Longo}."
 					]
 				}
 			]
@@ -4134,16 +4134,16 @@
 				"Um ritmo errado no momento certo estraga coragem, mira e solenidade.",
 				{
 					"type": "entries",
-					"name": "Música Desconcertante Maior",
+					"name": "Ritmo Desconcertante",
 					"entries": [
-						"Quando uma criatura sofrer efeito de sua Música Desconcertante, ela também subtrai {@dice 1d4} do próximo teste de Intuição ou Percepção antes do início do seu próximo turno."
+						"Como uma {@variantrule Bonus Action|XPHB|Ação Bônus}, escolha uma criatura que possa ouvir você a até 30 pés. Ela subtrai {@dice 1d4} do próximo teste de Sabedoria ({@skill Insight|XPHB|Intuição}) ou Sabedoria ({@skill Perception|XPHB|Percepção}) que fizer antes do início do seu próximo turno. Você pode usar este benefício um número de vezes igual ao seu Bônus de Proficiência, recuperando todos os usos ao terminar um {@variantrule Long Rest|XPHB|Descanso Longo}."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Chifre no Contratempo",
 					"entries": [
-						"Uma vez por turno, quando acertar com Chifres uma criatura afetada por sua Música Desconcertante, cause dano adicional igual ao seu Bônus de Proficiência."
+						"Uma vez por turno, quando acertar com Chifres uma criatura afetada por seu Ritmo Desconcertante, cause dano adicional igual ao seu Bônus de Proficiência."
 					]
 				}
 			]
@@ -4251,14 +4251,14 @@
 					"type": "entries",
 					"name": "Armadura Selada",
 					"entries": [
-						"Enquanto estiver usando sua armadura integrada, você tem Vantagem em testes de resistência contra Envenenado. Além disso, a primeira vez em cada rodada que você sofrer dano de Veneno, Ácido ou Relâmpago, reduza esse dano em {@dice 1d4}."
+						"Enquanto estiver usando sua armadura integrada, você tem Vantagem em testes de resistência contra {@condition Poisoned|XPHB|Envenenado}. Além disso, a primeira vez em cada rodada que você sofrer dano de Veneno, Ácido ou Relâmpago, reduza esse dano em {@dice 1d4}."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Reparo de Linha",
+					"name": "Manutenção de Linha",
 					"entries": [
-						"Quando usar Reparos de Campo, recupere Pontos de Vida adicionais iguais ao seu Bônus de Proficiência."
+						"Durante um {@variantrule Short Rest|XPHB|Descanso Curto}, quando você gastar pelo menos um Dado de Vida e tiver acesso a uma Ferramenta de Artífice na qual seja proficiente, recupere Pontos de Vida adicionais iguais ao seu Bônus de Proficiência."
 					]
 				}
 			]
@@ -4601,7 +4601,7 @@
 					"type": "entries",
 					"name": "Fluxo Reativo",
 					"entries": [
-						"Quando você usar Recuo Líquido, pode empurrar uma criatura Grande ou menor a até 1,5 metro de você por 1,5 metro, desde que ela tenha causado o dano reduzido."
+						"Quando uma criatura Grande ou menor a até 5 pés de você causar dano a você enquanto você estiver em contato com água, lama, chuva intensa ou uma superfície inundada, você pode usar sua {@variantrule Reaction|XPHB|Reação} para empurrá-la 5 pés. Você pode usar este benefício um número de vezes igual ao seu Bônus de Proficiência, recuperando todos os usos ao terminar um {@variantrule Long Rest|XPHB|Descanso Longo}."
 					]
 				},
 				{
@@ -4641,9 +4641,9 @@
 				},
 				{
 					"type": "entries",
-					"name": "Recuo Abissal",
+					"name": "Fluxo Abissal",
 					"entries": [
-						"Quando você usar Recuo Líquido, aumente a redução de dano em uma quantidade igual ao seu Bônus de Proficiência. Se o ataque ainda causar dano a você, o atacante subtrai {@dice 1d4} da próxima jogada de ataque que fizer antes do início do próximo turno dele."
+						"Quando você sofrer dano de uma criatura que possa ver enquanto estiver na água, parcialmente submerso, sob chuva intensa ou sobre uma superfície inundada, você pode usar sua {@variantrule Reaction|XPHB|Reação} para reduzir o dano em uma quantidade igual ao seu Bônus de Proficiência. Se o ataque ainda causar dano a você, o atacante subtrai {@dice 1d4} da próxima jogada de ataque que fizer antes do início do próximo turno dele. Você pode usar este benefício um número de vezes igual ao seu Bônus de Proficiência, recuperando todos os usos ao terminar um {@variantrule Long Rest|XPHB|Descanso Longo}."
 					]
 				}
 			]
@@ -5856,9 +5856,34 @@
 					"level": 4,
 					"race": [
 						{
-							"name": "Fal'trez",
+							"name": "Fal’trez — Aerin",
 							"source": "MundoDeKyrEspecies",
-							"displayEntry": "Fal'trez"
+							"displayEntry": "Fal’trez"
+						},
+						{
+							"name": "Fal’trez — Gallan",
+							"source": "MundoDeKyrEspecies",
+							"displayEntry": "Fal’trez"
+						},
+						{
+							"name": "Fal’trez — Krayl",
+							"source": "MundoDeKyrEspecies",
+							"displayEntry": "Fal’trez"
+						},
+						{
+							"name": "Fal’trez — Lumaril",
+							"source": "MundoDeKyrEspecies",
+							"displayEntry": "Fal’trez"
+						},
+						{
+							"name": "Fal’trez — Raptan",
+							"source": "MundoDeKyrEspecies",
+							"displayEntry": "Fal’trez"
+						},
+						{
+							"name": "Fal’trez — Strigoi",
+							"source": "MundoDeKyrEspecies",
+							"displayEntry": "Fal’trez"
 						}
 					]
 				}
@@ -5888,12 +5913,37 @@
 			"category": "EX",
 			"prerequisite": [
 				{
-					"level": 8,
+					"level": 4,
 					"race": [
 						{
-							"name": "Fal'trez",
+							"name": "Fal’trez — Aerin",
 							"source": "MundoDeKyrEspecies",
-							"displayEntry": "Fal'trez"
+							"displayEntry": "Fal’trez"
+						},
+						{
+							"name": "Fal’trez — Gallan",
+							"source": "MundoDeKyrEspecies",
+							"displayEntry": "Fal’trez"
+						},
+						{
+							"name": "Fal’trez — Krayl",
+							"source": "MundoDeKyrEspecies",
+							"displayEntry": "Fal’trez"
+						},
+						{
+							"name": "Fal’trez — Lumaril",
+							"source": "MundoDeKyrEspecies",
+							"displayEntry": "Fal’trez"
+						},
+						{
+							"name": "Fal’trez — Raptan",
+							"source": "MundoDeKyrEspecies",
+							"displayEntry": "Fal’trez"
+						},
+						{
+							"name": "Fal’trez — Strigoi",
+							"source": "MundoDeKyrEspecies",
+							"displayEntry": "Fal’trez"
 						}
 					]
 				}
@@ -6505,9 +6555,9 @@
 				},
 				{
 					"type": "entries",
-					"name": "Espuma de Recuo",
+					"name": "Espuma de Pressão",
 					"entries": [
-						"Quando Recuo Ondulante for ativado, você recebe Pontos de Vida Temporários iguais ao seu Bônus de Proficiência."
+						"Quando uma criatura falhar contra sua Voz Hipnótica ou for empurrada por Impacto da Maré, você recebe Pontos de Vida Temporários iguais ao seu Bônus de Proficiência. Você só pode receber esses Pontos de Vida Temporários uma vez por rodada."
 					]
 				}
 			]
@@ -6735,7 +6785,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Espera de Sangue Frio",
+					"name": "Espera Serpentina",
 					"entries": [
 						"Você tem Vantagem em testes de resistência contra Exaustão causada por vigília, espera prolongada ou emboscada."
 					]
@@ -6858,16 +6908,16 @@
 				"Sua sobrevivência melhora quando há alguém para avisar, proteger e encontrar depois.",
 				{
 					"type": "entries",
-					"name": "Retorno Reforçado",
+					"name": "Abrigo Coletivo",
 					"entries": [
-						"Quando Retorno ao Abrigo conceder Pontos de Vida Temporários, aumente esse valor em {@dice 1d6}."
+						"Quando você rolar Iniciativa, escolha até duas criaturas aliadas a até 30 pés que possam ouvir você. Cada uma recebe Pontos de Vida Temporários iguais ao seu Bônus de Proficiência."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Alarme Coletivo",
 					"entries": [
-						"Quando você rolar Iniciativa, escolha até duas criaturas aliadas a até 9 metros que possam ouvir você. Cada uma recebe +{@dice 1d4} na Iniciativa."
+						"Quando você rolar Iniciativa, escolha até duas criaturas aliadas a até 30 pés que possam ouvir você. Cada uma recebe +{@dice 1d4} na Iniciativa."
 					]
 				}
 			]
@@ -7138,16 +7188,16 @@
 				"Você repara porque alguém vai precisar disso nos próximos seis segundos.",
 				{
 					"type": "entries",
-					"name": "Conserto Maior",
+					"name": "Improviso Maior",
 					"entries": [
-						"Quando usar Conserto de Campo, o dado concedido se torna {@dice 1d6}."
+						"Quando usar Improviso Esperto em um teste feito com Ferramentas de Ferreiro, role {@dice 1d6} em vez de {@dice 1d4}."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Mecânica de Sobrevivência",
 					"entries": [
-						"Quando uma criatura usar um dado concedido por seu Conserto de Campo e ainda falhar no teste, ela recebe Pontos de Vida Temporários iguais ao seu Bônus de Proficiência."
+						"Quando você usar Improviso Esperto em um teste feito com Ferramentas de Ferreiro e ainda falhar no teste, você recebe Pontos de Vida Temporários iguais ao seu Bônus de Proficiência."
 					]
 				}
 			]
@@ -7245,14 +7295,14 @@
 					"type": "entries",
 					"name": "Ritmo Desconcertante",
 					"entries": [
-						"Quando uma criatura sofrer efeito de sua Música Desconcertante, ela também subtrai {@dice 1d4} do próximo teste de Sabedoria (Percepção) ou Sabedoria (Intuição) que fizer antes do início do seu próximo turno."
+						"Como uma {@variantrule Bonus Action|XPHB|Ação Bônus}, escolha uma criatura que possa ouvir você a até 30 pés. Ela subtrai {@dice 1d4} do próximo teste de Sabedoria ({@skill Perception|XPHB|Percepção}) ou Sabedoria ({@skill Insight|XPHB|Intuição}) que fizer antes do início do seu próximo turno. Você pode usar este benefício um número de vezes igual ao seu Bônus de Proficiência, recuperando todos os usos ao terminar um {@variantrule Long Rest|XPHB|Descanso Longo}."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Chifre no Ritmo",
 					"entries": [
-						"Uma vez por turno, quando acertar com Chifres uma criatura afetada por sua Música Desconcertante, cause dano adicional igual ao seu Bônus de Proficiência."
+						"Uma vez por turno, quando acertar com Chifres uma criatura afetada por seu Ritmo Desconcertante, cause dano adicional igual ao seu Bônus de Proficiência."
 					]
 				}
 			]
@@ -7616,25 +7666,19 @@
 				}
 			],
 			"entries": [
-				{
-					"type": "entries",
-					"name": "Sua armadura não é vestida",
-					"entries": [
-						"Ela responde como parte do corpo."
-					]
-				},
+				"Sua armadura não é vestida. Ela responde como parte do corpo.",
 				{
 					"type": "entries",
 					"name": "Blindagem Reativa",
 					"entries": [
-						"Quando uma criatura atingir você com uma jogada de ataque enquanto estiver usando sua armadura integrada, você pode usar sua Reação para reduzir o dano sofrido em {@dice 1d6} + seu Bônus de Proficiência. Se reduzir o dano a 0, você recebe Pontos de Vida Temporários iguais ao seu Bônus de Proficiência. Você pode usar esta característica um número de vezes igual ao seu Bônus de Proficiência, recuperando todos os usos ao terminar um Descanso Longo."
+						"Quando uma criatura atingir você com uma jogada de ataque enquanto estiver usando sua armadura integrada, você pode usar sua {@variantrule Reaction|XPHB|Reação} para reduzir o dano sofrido em {@dice 1d6} + seu Bônus de Proficiência. Se reduzir o dano a 0, você recebe Pontos de Vida Temporários iguais ao seu Bônus de Proficiência. Você pode usar esta característica um número de vezes igual ao seu Bônus de Proficiência por {@variantrule Long Rest|XPHB|Descanso Longo}."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Reparo de Linha",
+					"name": "Manutenção de Linha",
 					"entries": [
-						"Quando usar Reparos de Campo, recupere Pontos de Vida adicionais iguais ao seu Bônus de Proficiência."
+						"Durante um {@variantrule Short Rest|XPHB|Descanso Curto}, quando você gastar pelo menos um Dado de Vida e tiver acesso a uma Ferramenta de Artífice na qual seja proficiente, recupere Pontos de Vida adicionais iguais ao seu Bônus de Proficiência."
 					]
 				}
 			]
@@ -7662,14 +7706,14 @@
 					"type": "entries",
 					"name": "Emergência Marcada",
 					"entries": [
-						"Quando usar Protocolo de Emergência, role {@dice 1d6} em vez de {@dice 1d4}."
+						"Uma vez por {@variantrule Long Rest|XPHB|Descanso Longo}, quando você falhar em um teste de resistência, pode rolar {@dice 1d6} e adicionar o resultado, potencialmente transformando a falha em sucesso."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Blindagem Funcional",
 					"entries": [
-						"Sua Armadura Natural ou armadura integrada recebe +1 na Classe de Armadura, até o máximo permitido pela característica que a concede. Além disso, você tem Vantagem em testes de resistência contra Veneno."
+						"Enquanto estiver usando sua armadura integrada por Placas Integradas, sua Classe de Armadura aumenta em 1 adicional. Além disso, você tem Vantagem em testes de resistência contra {@condition Poisoned|XPHB|Envenenado}."
 					]
 				}
 			]
