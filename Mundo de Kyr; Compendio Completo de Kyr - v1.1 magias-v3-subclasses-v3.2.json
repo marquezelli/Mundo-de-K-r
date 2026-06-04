@@ -4,14 +4,14 @@
 			{
 				"json": "MundoDeKyrFeats",
 				"abbreviation": "KyrFeats",
-				"full": "Mundo de Kÿr: Feats v5.8 — Boosts de Nível 12 Revisados",
+				"full": "Mundo de Kÿr: Feats v5.11 — Ajustes de Espécies",
 				"authors": [
 					"Felipe Marquezelli"
 				],
 				"convertedBy": [
 					"ChatGPT"
 				],
-				"version": "5.8.0",
+				"version": "5.11.0",
 				"url": "https://github.com/TheGiddyLimit/homebrew",
 				"dateAdded": 1779327521,
 				"dateModified": "2026-06-04"
@@ -79,14 +79,14 @@
 			{
 				"json": "MundoDeKyrCompendioCompleto",
 				"abbreviation": "Kÿr-COMP",
-				"full": "Mundo de Kÿr — Compêndio Completo v2.18 — Boosts de Nível 12 Revisados",
+				"full": "Mundo de Kÿr — Compêndio Completo v2.21 — Ajustes de Espécies",
 				"authors": [
 					"Felipe Marquezelli"
 				],
 				"convertedBy": [
 					"ChatGPT"
 				],
-				"version": "2.18.0",
+				"version": "2.21.0",
 				"url": "https://github.com/TheGiddyLimit/homebrew",
 				"dateAdded": 1778520000,
 				"dateModified": "2026-06-04"
@@ -1687,18 +1687,19 @@
 				}
 			],
 			"entries": [
+				"O sangue antigo endurece em escamas, fôlego e presença. Você não apenas carrega uma ancestralidade dracônica; ela passa a sustentar seu corpo.",
 				{
 					"type": "entries",
 					"name": "Escamas Milenares",
 					"entries": [
-						"Quando você sofrer dano Contundente, Cortante ou Perfurante causado por ataque, reduza esse dano em seu Bônus de Proficiência."
+						"Quando você sofrer dano Contundente, Cortante ou Perfurante causado por um ataque, reduza esse dano em seu Bônus de Proficiência."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Vitalidade Ancestral",
 					"entries": [
-						"Seu máximo de Pontos de Vida aumenta em uma quantidade igual ao seu nível de personagem. Quando receber Pontos de Vida Temporários de uma característica dracônica, aumente essa quantidade em seu Bônus de Proficiência."
+						"Seu máximo de Pontos de Vida aumenta em uma quantidade igual ao seu nível de personagem. Além disso, uma vez por turno, quando você receber Pontos de Vida Temporários, aumente essa quantidade em valor igual ao seu Bônus de Proficiência."
 					]
 				}
 			]
@@ -3345,19 +3346,20 @@
 				}
 			],
 			"entries": [
-				"Sua magia feérica cria impossibilidades pequenas.",
+				"Sua magia feérica cria impossibilidades pequenas, enganos de escala e instantes em que o mundo parece esquecer exatamente onde você está.",
 				{
 					"type": "entries",
 					"name": "Magias do Sonhar",
 					"entries": [
-						"Você tem {@spell Porta Falsa|MundoDeKyrLivroDasMagiasDeKyr} sempre preparada. Pode conjurá-la uma vez sem gastar espaço de magia por Descanso Longo e também com espaços apropriados. Inteligência, Sabedoria ou Carisma é sua habilidade de conjuração, escolhida ao adquirir este talento."
+						"Você tem {@spell Porta Falsa|MundoDeKyrLivroDasMagiasDeKyr} sempre preparada. Pode conjurá-la uma vez sem gastar espaço de magia, recuperando esse uso ao terminar um Descanso Longo. Você também pode conjurá-la usando espaços de magia apropriados. Inteligência, Sabedoria ou Carisma é sua habilidade de conjuração, escolhida ao adquirir este talento."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Corpo de Fresta",
+					"name": "Escala Impossível",
 					"entries": [
-						"Você pode se mover por espaços ocupados por criaturas Médias ou maiores, mas não pode terminar o movimento nesses espaços."
+						"Quando uma criatura Média ou maior que você possa ver fizer uma jogada de ataque contra você, você pode usar sua Reação para distorcer sua posição e proporção. A criatura subtrai {@dice 1d6} da jogada de ataque. Se o ataque errar, você fica Invisível para essa criatura até o início do seu próximo turno.",
+						"Você pode usar esta característica um número de vezes igual ao seu Bônus de Proficiência, recuperando todos os usos ao terminar um Descanso Longo."
 					]
 				}
 			]
@@ -3755,19 +3757,27 @@
 				}
 			],
 			"entries": [
-				"Sua voz carrega correnteza, encanto ou pressão abissal.",
+				"Sua voz carrega correnteza, encanto ou pressão abissal. Mesmo quando não domina, ela pesa sobre quem escuta.",
 				{
 					"type": "entries",
-					"name": "Canto de Maré",
+					"name": "Cadência Oceânica",
 					"entries": [
-						"Quando uma criatura falhar contra Voz Hipnótica ou quando você empurrar uma criatura com Impacto da Maré, ela subtrai {@dice 1d4} do próximo teste de Sabedoria antes do início do seu próximo turno."
+						"Você ganha proficiência em Persuasão ou Atuação. Se já possuir a proficiência escolhida, ganha Especialização nela."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Espuma de Composição",
+					"name": "Pressão de Maré",
 					"entries": [
-						"Quando uma criatura falhar contra Voz Hipnótica ou for empurrada por Impacto da Maré, você recebe Pontos de Vida Temporários iguais ao seu Bônus de Proficiência. Você só pode receber esses Pontos de Vida Temporários uma vez por rodada."
+						"Quando você realizar a ação Influenciar contra uma criatura que possa ouvir você, você pode adicionar {@dice 1d4} ao teste. Se o teste for bem-sucedido, escolha uma das opções abaixo:",
+						{
+							"type": "list",
+							"items": [
+								"a criatura subtrai {@dice 1d4} do próximo teste de Sabedoria ou Carisma que fizer antes de passarem 10 minutos;",
+								"ou a criatura subtrai {@dice 1d4} da próxima jogada de ataque que fizer antes do início do seu próximo turno."
+							]
+						},
+						"Você pode usar esta característica um número de vezes igual ao seu Bônus de Proficiência, recuperando todos os usos ao terminar um Descanso Longo."
 					]
 				}
 			]
@@ -4676,14 +4686,17 @@
 					"type": "entries",
 					"name": "Resistência das Profundezas",
 					"entries": [
-						"Você ganha Resistência a dano de Frio."
+						"Você ganha Resistência a dano Trovejante ou Ácido, escolhido ao adquirir este talento."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Fluxo Abissal",
 					"entries": [
-						"Quando você sofrer dano de uma criatura que possa ver enquanto estiver na água, parcialmente submerso, sob chuva intensa ou sobre uma superfície inundada, você pode usar sua {@variantrule Reaction|XPHB|Reação} para reduzir o dano em uma quantidade igual ao seu Bônus de Proficiência. Se o ataque ainda causar dano a você, o atacante subtrai {@dice 1d4} da próxima jogada de ataque que fizer antes do início do próximo turno dele. Você pode usar este benefício um número de vezes igual ao seu Bônus de Proficiência, recuperando todos os usos ao terminar um {@variantrule Long Rest|XPHB|Descanso Longo}."
+						"Quando uma criatura que você possa ver causar dano a você, você pode usar sua Reação para reduzir esse dano em uma quantidade igual ao seu Bônus de Proficiência.",
+						"Se você estiver na água, parcialmente submerso, sob chuva intensa ou sobre uma superfície inundada, reduza esse dano em {@dice 1d8} + seu Bônus de Proficiência em vez disso.",
+						"Se o ataque ainda causar dano a você, a criatura atacante subtrai {@dice 1d4} da próxima jogada de ataque que fizer antes do início do próximo turno dela.",
+						"Você pode usar esta característica um número de vezes igual ao seu Bônus de Proficiência, recuperando todos os usos ao terminar um Descanso Longo."
 					]
 				}
 			]
@@ -4706,18 +4719,13 @@
 				}
 			],
 			"entries": [
-				{
-					"type": "entries",
-					"name": "Sua chama não espera comando perfeito",
-					"entries": [
-						"Ela responde a ameaça, dor e presença hostil."
-					]
-				},
+				"Sua chama não espera comando perfeito. Ela responde à ameaça, dor e presença hostil.",
 				{
 					"type": "entries",
 					"name": "Ignição Defensiva",
 					"entries": [
-						"Quando uma criatura a até 1,5 metro de você atingir você com um ataque corpo a corpo, você pode usar sua Reação para causar dano de Fogo a ela igual ao seu Bônus de Proficiência. Você pode usar este benefício um número de vezes igual ao seu Bônus de Proficiência, recuperando todos os usos ao terminar um Descanso Longo."
+						"Você também pode usar Explosão Reflexa quando uma criatura que você possa ver a até 5 pés de você atingir uma criatura aliada a até 5 pés de você com um ataque corpo a corpo.",
+						"Se a criatura atacante sofrer dano de Fogo de sua Explosão Reflexa, ela subtrai {@dice 1d4} da próxima jogada de ataque que fizer antes do início do seu próximo turno."
 					]
 				},
 				{
@@ -4962,14 +4970,14 @@
 					"type": "entries",
 					"name": "Resistência Umbral",
 					"entries": [
-						"Você ganha Resistência a dano Necrótico ou Psíquico, escolhido ao adquirir este talento."
+						"Você ganha Resistência a dano Psíquico. Além disso, quando sofrer dano Necrótico, você recebe Pontos de Vida Temporários iguais ao seu Bônus de Proficiência. Você só pode receber Pontos de Vida Temporários desta forma uma vez por turno."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Limiar Predatório",
 					"entries": [
-						"Uma vez por turno, quando você atingir uma criatura enquanto estiver em {@spell Light|XPHB|Luz} Baixa ou Escuridão, ela não pode se beneficiar da condição Invisível contra você até o início do seu próximo turno, e o ataque causa dano adicional igual ao seu Bônus de Proficiência."
+						"Uma vez por turno, quando você atingir uma criatura enquanto estiver em Luz Baixa ou Escuridão, ela não pode se beneficiar da condição Invisível contra você até o início do seu próximo turno, e o ataque causa dano adicional igual ao seu Bônus de Proficiência."
 					]
 				}
 			]
@@ -5027,25 +5035,19 @@
 				}
 			],
 			"entries": [
+				"Sua forma instável deixa de ser um problema, e passa a ser solução.",
 				{
 					"type": "entries",
-					"name": "Sua Ruptura de Forma deixou de parecer acidente",
+					"name": "Aether Inabalável",
 					"entries": [
-						"Agora ela é modo de caça."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Resistência do Corpo Falho",
-					"entries": [
-						"Você ganha Resistência a dano Necrótico."
+						"Você pode preparar uma quantidade extra de magias igual ao seu Bônus de Proficiência."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Ruptura Devora-Luz",
 					"entries": [
-						"Quando usar Ruptura de Forma, escolha uma criatura a até 1,5 metro de você. Ela subtrai {@dice 1d4} do próximo teste de resistência de Constituição ou Sabedoria que fizer antes do início do seu próximo turno."
+						"Quando causar dano Necrótico, você pode absorver parte da energia, transformando metade do dano causado em Pontos de Vida Temporários por 1 minuto."
 					]
 				}
 			]
@@ -5764,19 +5766,20 @@
 				}
 			],
 			"entries": [
-				"Seu pó feérico não apaga presença; troca a atenção de lugar.",
+				"Seu pó feérico não apaga presença; ele troca a atenção de lugar.",
 				{
 					"type": "entries",
 					"name": "Brilho Desviado",
 					"entries": [
-						"Quando uma criatura errar um ataque contra você, você pode usar sua Reação para impor -{@dice 1d4} ao próximo teste de Sabedoria (Percepção) ou Sabedoria (Intuição) que ela fizer antes do início do seu próximo turno."
+						"Quando uma criatura que você possa ver a até 30 pés fizer uma jogada de ataque contra você, você pode usar sua Reação para subtrair {@dice 1d6} da jogada. Se o ataque errar, você pode imediatamente realizar a ação Esconder-se como parte da mesma Reação, desde que tenha cobertura, Luz Baixa, Escuridão, folhagem, multidão ou outro elemento que permita se esconder.",
+						"Você pode usar esta característica um número de vezes igual ao seu Bônus de Proficiência, recuperando todos os usos ao terminar um Descanso Longo."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Asa Nervosa",
+					"name": "Poeira de Distração",
 					"entries": [
-						"Você tem Vantagem em testes de Destreza (Acrobacia) feitos para escapar da condição Agarrado."
+						"Quando você obtiver sucesso em um teste de Destreza (Furtividade), Carisma (Enganação) ou Carisma (Atuação) contra uma criatura, essa criatura subtrai {@dice 1d4} do próximo teste de Sabedoria (Percepção) ou Sabedoria (Intuição) que fizer contra você antes do início do seu próximo turno."
 					]
 				}
 			]
@@ -6585,19 +6588,19 @@
 				}
 			],
 			"entries": [
-				"Sua voz não ordena; ela puxa como maré.",
+				"Sua presença não ordena como comando seco; ela puxa como maré, abre ritmo e força o inimigo a responder tarde demais.",
 				{
 					"type": "entries",
-					"name": "Canto de Pressão",
+					"name": "Ritmo da Corrente",
 					"entries": [
-						"Quando uma criatura falhar contra sua Voz Hipnótica, ela subtrai {@dice 1d4} do próximo teste de Sabedoria que fizer antes do início do seu próximo turno."
+						"Uma vez por turno, quando você causar dano de Frio ou Trovejante, empurrar uma criatura, ou quando uma criatura falhar em um teste de resistência contra uma característica de Ondirin sua ou uma magia da Fonte Primordial sua, escolha uma criatura aliada a até 30 pés de você que possa ver ou ouvir você. A próxima jogada de ataque dessa criatura aliada contra o alvo antes do início do seu próximo turno recebe +{@dice 1d4}."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Espuma de Pressão",
+					"name": "Espuma de Retorno",
 					"entries": [
-						"Quando uma criatura falhar contra sua Voz Hipnótica ou for empurrada por Impacto da Maré, você recebe Pontos de Vida Temporários iguais ao seu Bônus de Proficiência. Você só pode receber esses Pontos de Vida Temporários uma vez por rodada."
+						"Quando uma criatura aliada atingir um ataque beneficiado por Ritmo da Corrente, você recebe Pontos de Vida Temporários iguais ao seu Bônus de Proficiência."
 					]
 				}
 			]
@@ -6625,19 +6628,20 @@
 				}
 			],
 			"entries": [
-				"Sua maré interior sabe quando puxar, quando empurrar e quando afogar o ritmo inimigo.",
+				"Sua maré interior sabe quando puxar, quando empurrar e quando afogar o ritmo inimigo. Seja pela voz, pelo impacto ou pelo Aether primordial, você transforma pressão em retorno.",
 				{
 					"type": "entries",
 					"name": "Resistência de Maré",
 					"entries": [
-						"Você ganha Resistência a dano de Frio ou Trovejante, escolhido ao adquirir este talento."
+						"Você ganha Resistência a dano de Frio ou Trovejante, escolhido ao adquirir este talento. Se já possuir Resistência ao tipo escolhido, escolha o outro tipo."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Impacto de Retorno",
+					"name": "Ressaca Crescente",
 					"entries": [
-						"Uma vez por turno, quando você empurrar uma criatura ou ela falhar contra sua Voz Hipnótica, o próximo ataque que você acertar contra ela antes do fim do seu próximo turno causa dano adicional igual ao seu Bônus de Proficiência."
+						"Uma vez por turno, quando você causar dano de Frio ou Trovejante, empurrar uma criatura, ou quando uma criatura falhar em um teste de resistência contra uma característica de Ondirin sua ou uma magia da Fonte Primordial sua, você pode marcar essa criatura até o fim do seu próximo turno.",
+						"A primeira vez que você atingir a criatura marcada com um ataque ou causar dano a ela com uma magia antes do fim do seu próximo turno, ela sofre dano adicional de Frio ou Trovejante igual ao seu Bônus de Proficiência, escolhido quando o dano é causado."
 					]
 				}
 			]
@@ -9146,16 +9150,16 @@
 				"Você transformou força em linguagem de guerra. Cada golpe seu exige resposta.",
 				{
 					"type": "entries",
-					"name": "Impacto Consagrado",
+					"name": "Ataque Bruto",
 					"entries": [
-						"Uma vez por turno, quando você causar dano com ataque corpo a corpo usando Força, cause dano adicional igual ao seu Bônus de Proficiência."
+						"Uma vez por turno, quando você atingir uma criatura com um ataque corpo a corpo usando Força, o ataque causa dano adicional igual à metade do seu nível de personagem, arredondada para baixo."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Controle de Peso",
+					"name": "Postura Inabalável",
 					"entries": [
-						"Uma vez por turno, quando você rolar dano de um ataque corpo a corpo usando Força, pode tratar um dado de dano da arma que resultou em 1 ou 2 como 3."
+						"Uma vez por rodada, quando um efeito moveria você contra sua vontade ou deixaria você Caído, você pode reduzir o deslocamento forçado em 10 pés e permanecer de pé. Se isso reduzir o deslocamento a 0, você não é movido."
 					]
 				}
 			]
@@ -9192,14 +9196,14 @@
 					"type": "entries",
 					"name": "Precisão Letal",
 					"entries": [
-						"Uma vez por turno, quando você atingir uma criatura com ataque à distância ou arma com a propriedade Acuidade, o ataque causa {@dice 1d8} de dano adicional."
+						"Uma vez por turno, quando você atingir uma criatura com ataque à distância ou com uma arma que possua a propriedade Acuidade, o ataque causa {@dice 1d8} de dano adicional."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Linha Limpa",
 					"entries": [
-						"Seus ataques à distância com arma ignoram Meia Cobertura e Três Quartos de Cobertura."
+						"Se o ataque que for ativar Precisão Letal possuir Vantagem, você pode abrir mão da Vantagem para causar {@dice 2d8} de dano adicional ao invés de {@dice 1d8}."
 					]
 				}
 			]
@@ -9237,9 +9241,9 @@
 				},
 				{
 					"type": "entries",
-					"name": "Peso Imóvel",
+					"name": "Peso de Batalha",
 					"entries": [
-						"Enquanto estiver usando armadura média ou pesada, você tem Vantagem em testes de Força (Atletismo). Além disso, uma vez por Descanso Curto ou Longo, quando um ataque contra você for um acerto crítico, você pode tratar esse ataque como um acerto normal."
+						"Enquanto estiver usando armadura média ou pesada, você tem Vantagem em testes de Força (Atletismo) e em testes de resistência contra Exaustão."
 					]
 				}
 			]
@@ -9279,48 +9283,7 @@
 					"type": "entries",
 					"name": "Foco de Ataque",
 					"entries": [
-						"Uma vez por turno, quando você atingir uma criatura com ataque de arma, o primeiro aliado que atacar o mesmo alvo antes do início do seu próximo turno recebe +{@dice 1d4} na jogada de ataque e causa dano adicional igual ao seu Bônus de Proficiência se atingir."
-					]
-				}
-			]
-		},
-		{
-			"name": "Quebra-Feitiço Veterano",
-			"source": "MundoDeKyrFeats",
-			"page": 233,
-			"category": "BOOST",
-			"prerequisite": [
-				{
-					"level": 12,
-					"other": "proficiência com armas marciais"
-				}
-			],
-			"ability": [
-				{
-					"choose": {
-						"from": [
-							"str",
-							"dex",
-							"wis"
-						],
-						"amount": 2
-					}
-				}
-			],
-			"entries": [
-				"Você aprendeu a punir a magia no ponto em que ela precisa continuar existindo.",
-				{
-					"type": "entries",
-					"name": "Pressão de Concentração",
-					"entries": [
-						"Quando você causar dano a uma criatura mantendo Concentração, ela subtrai {@dice 1d4} do teste de resistência feito para manter essa Concentração."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Resistência Antimagia",
-					"entries": [
-						"Uma vez por Descanso Curto ou Longo, quando falhar em um teste de resistência contra magia, você pode adicionar {@dice 1d6} ao resultado, potencialmente transformando a falha em sucesso."
+						"Uma vez por turno, quando você atingir uma criatura com um ataque de arma, pode marcá-la até o início do seu próximo turno. Aliados têm Vantagem em rolagens de ataque para acertar a criatura marcada. Você pode usar essa característica um número de vezes igual ao seu Bônus de Proficiência por Descanso Longo."
 					]
 				}
 			]
@@ -9507,7 +9470,7 @@
 					"type": "entries",
 					"name": "Forma Reconhecida",
 					"entries": [
-						"Quando conjurar sua Magia Assinatura usando espaço de magia, escolha uma criatura afetada. Ela subtrai {@dice 1d4} do próximo teste de resistência contra uma magia sua antes do início do seu próximo turno."
+						"Quando você conjurar sua Magia Assinatura usando um espaço de magia, escolha uma criatura afetada pela magia. A criatura tem Desvantagem no próximo teste de resistência feito contra uma magia sua."
 					]
 				}
 			]
@@ -9549,7 +9512,7 @@
 					"type": "entries",
 					"name": "Custo de Estabilização",
 					"entries": [
-						"Depois de usar Pulso de Sobrecarga, você subtrai {@dice 1d4} do próximo teste para manter Concentração que fizer antes de terminar um Descanso Curto ou Longo."
+						"Você pode usar Pulso de Sobrecarga uma segunda vez, mas ganha um ponto de exaustão ao fazê-lo. Esse ponto de exaustão só pode ser removido ao final de um Descanso Longo."
 					]
 				}
 			]
@@ -9584,16 +9547,16 @@
 				"Você não apenas luta em batalhas; você altera o campo onde elas acontecem. Onde seu sangue e o de seus inimigos tocam o chão, o mundo passa a reconhecer conquista.",
 				{
 					"type": "entries",
-					"name": "Terreno de Conquista",
+					"name": "Chão Conquistado",
 					"entries": [
-						"Uma vez por turno, quando você atingir uma criatura com um ataque corpo a corpo, você pode marcar o espaço ocupado por ela até o início do seu próximo turno. Esse espaço é terreno difícil para criaturas hostis. A primeira vez que uma criatura hostil entrar voluntariamente no espaço marcado durante o turno dela, ela sofre dano igual ao seu Bônus de Proficiência."
+						"Uma vez por turno, quando você atingir uma criatura com um ataque corpo a corpo usando Força, o ataque causa dano adicional igual ao seu Bônus de Proficiência. Adicionalmente, o deslocamento da criatura é reduzido em 10 pés, e ela não pode se beneficiar de Vantagem em jogadas de ataque contra criaturas que não sejam você."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Memória da Violência",
 					"entries": [
-						"Quando você rolar Iniciativa, pode escolher um número de criaturas hostis que você possa ver igual ao seu modificador de Força ou Constituição, mínimo de 1. Por 1 minuto, quando uma dessas criaturas errar uma jogada de ataque contra você, você pode usar sua Reação para realizar um ataque corpo a corpo contra ela. Depois de usar esta característica, você não pode usá-la novamente até terminar um Descanso Longo."
+						"Quando uma criatura dentro do seu alcance errar uma jogada de ataque ou atingir uma criatura que não seja você com uma jogada de ataque, você pode usar sua Reação para realizar um ataque corpo a corpo contra ela. Se esse ataque atingir, ele causa dano adicional igual à metade do seu nível de personagem, arredondada para baixo. Você pode usar esta característica um número de vezes igual ao seu Bônus de Proficiência, recuperando todos os usos ao terminar um Descanso Longo."
 					]
 				}
 			]
@@ -9633,14 +9596,14 @@
 					"type": "entries",
 					"name": "Intervenção Enraizada",
 					"entries": [
-						"Quando você ou uma criatura aliada a até 30 pés sofrer dano, você pode usar sua Reação para reduzir esse dano em 2d8 + seu Bônus de Proficiência. Se o dano for reduzido a 0, a criatura também recebe Pontos de Vida Temporários iguais ao seu Bônus de Proficiência. Você pode usar esta característica um número de vezes igual ao modificador do atributo aumentado por este talento, mínimo de 1, recuperando todos os usos ao terminar um Descanso Longo."
+						"Quando você ou uma criatura aliada a até 30 pés sofrer dano, você pode usar sua Reação para reduzir esse dano em {@dice 2d8} + seu Bônus de Proficiência. Se o dano for reduzido a 0, a criatura também recebe Pontos de Vida Temporários iguais ao seu Bônus de Proficiência. Você pode usar esta característica um número de vezes igual ao modificador do atributo aumentado por este talento (mínimo de 1), recuperando todos os usos ao terminar um Descanso Longo."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Estabilidade Compartilhada",
 					"entries": [
-						"Enquanto uma criatura aliada estiver a até 10 pés de você, ela recebe +1d4 em testes de resistência contra Amedrontado, Enfeitiçado, Paralisado, Restrito ou Atordoado."
+						"Enquanto uma criatura aliada estiver a até 10 pés de você, ela recebe +{@dice 1d4} em testes de resistência contra Amedrontado, Enfeitiçado, Paralisado, Restrito ou Atordoado."
 					]
 				}
 			]
@@ -9680,14 +9643,15 @@
 					"type": "entries",
 					"name": "Mestre da Sobrevivência Extrema",
 					"entries": [
-						"Você ganha proficiência em Sobrevivência e Investigação. Se já possuir uma dessas proficiências, ganha Especialização nela. Quando realizar um teste de Sabedoria (Sobrevivência) ou Inteligência (Investigação) para navegação, rastreamento, orientação, leitura de terreno, rotas impossíveis ou zonas instáveis, trate qualquer resultado no d20 inferior a 9 como 9."
+						"Você ganha proficiência em Sobrevivência e Investigação. Se já possuir uma dessas proficiências, ganha Especialização nela. Além disso, você não pode ficar perdido por meios naturais.",
+						"Quando você falhar em um teste de Sabedoria (Sobrevivência) ou Inteligência (Investigação) para navegação, rastreamento, orientação, leitura de terreno, rotas impossíveis ou zonas instáveis, pode adicionar {@dice 1d8} ao resultado, potencialmente transformando a falha em sucesso. Você pode usar esta característica um número de vezes igual ao seu Bônus de Proficiência, recuperando todos os usos ao terminar um Descanso Longo."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Movimento Improvável",
 					"entries": [
-						"Você ignora terreno difícil não mágico. Escalar e nadar não custam movimento adicional para você. Além disso, clima extremo e perigos ambientais naturais não impõem Desvantagem em seus testes de habilidade."
+						"Você ignora terreno difícil não mágico e ganha Velocidade de Escalada e Nado iguais à sua Velocidade de Corrida. Além disso, clima extremo e perigos ambientais naturais não impõem Desvantagem em seus testes de habilidade."
 					]
 				}
 			]
@@ -9731,14 +9695,25 @@
 					"type": "entries",
 					"name": "Fronteira Declarada",
 					"entries": [
-						"Como Ação Bônus, você entra em uma postura de domínio até o início do seu próximo turno. Enquanto estiver nessa postura, uma criatura hostil provoca um Ataque de Oportunidade seu quando entra voluntariamente no seu alcance corpo a corpo pela primeira vez no turno dela. Esta característica não concede Reações adicionais. Você pode usar esta característica um número de vezes igual ao seu Bônus de Proficiência, recuperando todos os usos ao terminar um Descanso Longo."
+						"Como Ação Bônus, você entra em uma postura de domínio até o início do seu próximo turno. Enquanto estiver nessa postura, criaturas hostis provocam Ataques de Oportunidade quando entram voluntariamente no seu alcance, ou quando se movem 5 pés ou mais dentro do seu alcance.",
+						"Esse Ataque de Oportunidade ocorre mesmo que a criatura tenha usado a ação Desengajar. Enquanto Fronteira Declarada estiver ativa, você pode fazer até dois ataques corpo a corpo contra a criatura como parte da mesma Reação. Você pode usar Fronteira Declarada um número de vezes igual ao seu Bônus de Proficiência, recuperando todos os usos ao terminar um Descanso Longo."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Golpe de Retenção",
 					"entries": [
-						"Quando você atingir uma criatura com um Ataque de Oportunidade, ela sofre dano adicional igual ao seu Bônus de Proficiência, e o deslocamento dela é reduzido em 10 pés até o fim do turno atual."
+						"Uma vez por Reação, quando você atingir uma criatura com um Ataque de Oportunidade, o ataque causa dano adicional igual ao seu Bônus de Proficiência, e você escolhe um dos seguintes efeitos:",
+						{
+							"type": "list",
+							"items": [
+								"o deslocamento da criatura se torna 0 até o fim do turno atual",
+								"a criatura não pode realizar Reações até o início do próximo turno dela",
+								"a criatura fica Caída, se for Grande ou menor",
+								"a próxima jogada de ataque contra a criatura antes do início do seu próximo turno recebe +{@dice 1d4}",
+								"se a criatura estiver mantendo Concentração, ela subtrai {@dice 1d4} do teste feito para manter essa Concentração contra o dano desse ataque."
+							]
+						}
 					]
 				}
 			]
@@ -9776,9 +9751,9 @@
 						{
 							"type": "list",
 							"items": [
-								"o alcance da magia dobra;",
-								"você altera um tipo de dano da magia para outro tipo de dano elemental: Ácido, Frio, Fogo, Relâmpago, Trovão ou Veneno;",
-								"uma criatura afetada pela magia subtrai 1d4 do primeiro teste de resistência que fizer contra ela;",
+								"o alcance da magia dobra",
+								"você altera um tipo de dano da magia para outro tipo de dano elemental: Ácido, Frio, Fogo, Relâmpago, Trovão ou Veneno",
+								"uma criatura afetada pela magia subtrai {@dice 1d4} do primeiro teste de resistência que fizer contra ela",
 								"você exclui um número de criaturas do efeito da magia igual ao modificador do atributo aumentado por este talento, mínimo de 1."
 							]
 						}
@@ -9828,14 +9803,14 @@
 					"type": "entries",
 					"name": "Presença Insubjugável",
 					"entries": [
-						"Você tem Vantagem em testes de resistência contra Enfeitiçado e Amedrontado. Além disso, se um efeito permitir que outra criatura controle suas ações, determine seu movimento ou escolha seus alvos, você pode repetir o teste de resistência contra esse efeito no início do seu turno, encerrando o controle sobre você em um sucesso."
+						"Você tem Vantagem em testes de resistência contra Amedrontado e Enfeitiçado. Além disso, se um efeito permitir que outra criatura controle suas ações, determine seu movimento ou escolha seus alvos, você pode repetir o teste de resistência contra esse efeito no início do seu turno, encerrando o controle sobre você em um sucesso, permitindo que realize seu turno normalmente."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Quebra de Domínio",
 					"entries": [
-						"Uma vez por Descanso Curto ou Longo, quando você falhar em um teste de resistência de Inteligência, Sabedoria ou Carisma, você pode adicionar 1d8 ao resultado, potencialmente transformando a falha em sucesso."
+						"Uma vez por Descanso Curto ou Longo, quando você falhar em um teste de resistência de Inteligência, Sabedoria ou Carisma, você pode adicionar {@dice 1d8} ao resultado, potencialmente transformando a falha em sucesso."
 					]
 				}
 			]
@@ -9934,14 +9909,14 @@
 					"type": "entries",
 					"name": "Corrente Constante",
 					"entries": [
-						"Você aprende uma Eldritch Invocation da classe Warlock. Você ignora apenas o pré-requisito de ser Warlock de nível 2. Se a invocação tiver qualquer outro pré-requisito, você deve cumpri-lo normalmente. Se a invocação permitir conjurar uma magia, sua habilidade de conjuração para ela é o atributo aumentado por este talento."
+						"Você aprende uma Eldritch Invocation da classe Warlock. Você ignora os pré-requisitos de ser Warlock de nível 2 e, de saber um truque de Warlock, podendo aplicar a invocação a quaisquer truques ao invés disso. Se a invocação tiver qualquer outro pré-requisito, você deve cumpri-lo normalmente. Se a invocação permitir conjurar uma magia, sua habilidade de conjuração para ela é o atributo aumentado por este talento."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Canal Reforçado",
 					"entries": [
-						"Uma vez por turno, quando você conjurar uma magia concedida por uma Invocation ou por uma característica de feat, você pode conceder Pontos de Vida Temporários iguais ao seu Bônus de Proficiência a si mesmo ou a uma criatura a até 30 pés."
+						"Uma vez por turno, quando você consumir um espaço de magia para conjurar uma magia, você pode conceder Pontos de Vida Temporários iguais ao seu Bônus de Proficiência a si mesmo ou a uma criatura a até 30 pés."
 					]
 				}
 			]
@@ -9977,14 +9952,14 @@
 					"type": "entries",
 					"name": "Atletismo Titânico",
 					"entries": [
-						"Você ganha proficiência em Atletismo. Se já possuir proficiência, ganha Especialização nela. Além disso, você tem Vantagem em testes de Força feitos para saltar, escalar, empurrar, agarrar, erguer, arrastar, quebrar ou sustentar peso."
+						"Você ganha proficiência em Atletismo. Se já possuir proficiência, ganha Especialização nela. Além disso, uma vez por Descanso Longo, quando falhar em um teste de Força, você pode transformar essa falha em sucesso."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Golpe de Massa",
 					"entries": [
-						"Uma vez por turno, quando você atingir uma criatura com um ataque usando Força, cause dano adicional igual ao seu Bônus de Proficiência. Se o ataque for feito contra uma criatura que você esteja Agarrando ou contra uma criatura Caída, esse dano adicional aumenta em 1d6."
+						"Uma vez por turno, quando você atingir uma criatura com um ataque usando Força, cause dano adicional igual ao seu Bônus de Proficiência. Se o ataque for feito contra uma criatura que você esteja Agarrando ou contra uma criatura Caída, esse dano adicional aumenta em {@dice 1d6}."
 					]
 				}
 			]
@@ -10158,7 +10133,7 @@
 				}
 			],
 			"entries": [
-				"Sua percepção não é apenas sensorial; é estrutural. Você lê intenção antes da ação.",
+				"Sua percepção não é apenas sensorial; é estrutural. Você lê a intenção antes da ação.",
 				{
 					"type": "entries",
 					"name": "Percepção Ampliada",
@@ -10213,14 +10188,14 @@
 					"type": "entries",
 					"name": "Voz de Autoridade",
 					"entries": [
-						"Escolha Persuasão, Enganação ou Intimidação ao terminar um Descanso Longo. Até terminar seu próximo Descanso Longo, quando realizar a ação Influenciar usando a perícia escolhida, qualquer resultado no d20 inferior a 9 é tratado como 9."
+						"Uma vez por Descanso Longo, quando você falhar em um teste de uma perícia escolhida por Presença Inevitável, você pode transformar essa falha em sucesso."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Destino Inclinado",
+					"name": "Inspirador",
 					"entries": [
-						"Quando você obtiver sucesso em um teste de Carisma feito pela ação Influenciar contra uma criatura Indiferente ou Hostil, escolha essa criatura. A próxima vez que ela fizer um teste de resistência de Sabedoria ou Carisma antes do início do seu próximo turno, ela subtrai 1d4 do resultado. Você pode usar esta característica um número de vezes igual ao seu Bônus de Proficiência, recuperando todos os usos ao terminar um Descanso Longo."
+						"Quando você obtiver sucesso em um teste de Carisma feito pela ação Influenciar, você ganha uma Inspiração Heróica."
 					]
 				}
 			]
