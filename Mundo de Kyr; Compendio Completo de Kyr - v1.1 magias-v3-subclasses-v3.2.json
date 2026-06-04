@@ -4,14 +4,14 @@
 			{
 				"json": "MundoDeKyrFeats",
 				"abbreviation": "KyrFeats",
-				"full": "Mundo de Kÿr: Feats v5.5 — Validação contra Espécies",
+				"full": "Mundo de Kÿr: Feats v5.8 — Boosts de Nível 12 Revisados",
 				"authors": [
 					"Felipe Marquezelli"
 				],
 				"convertedBy": [
 					"ChatGPT"
 				],
-				"version": "5.5.0",
+				"version": "5.8.0",
 				"url": "https://github.com/TheGiddyLimit/homebrew",
 				"dateAdded": 1779327521,
 				"dateModified": "2026-06-04"
@@ -79,14 +79,14 @@
 			{
 				"json": "MundoDeKyrCompendioCompleto",
 				"abbreviation": "Kÿr-COMP",
-				"full": "Mundo de Kÿr — Compêndio Completo v2.15 — Feats validadas contra Espécies",
+				"full": "Mundo de Kÿr — Compêndio Completo v2.18 — Boosts de Nível 12 Revisados",
 				"authors": [
 					"Felipe Marquezelli"
 				],
 				"convertedBy": [
 					"ChatGPT"
 				],
-				"version": "2.15.0",
+				"version": "2.18.0",
 				"url": "https://github.com/TheGiddyLimit/homebrew",
 				"dateAdded": 1778520000,
 				"dateModified": "2026-06-04"
@@ -2482,47 +2482,6 @@
 			]
 		},
 		{
-			"name": "Senhor do Território",
-			"source": "MundoDeKyrFeats",
-			"page": 60,
-			"category": "BOOST",
-			"prerequisite": [
-				{
-					"level": 12,
-					"feat": [
-						"senhor das linhas|MundoDeKyrFeats"
-					]
-				}
-			],
-			"ability": [
-				{
-					"choose": {
-						"from": [
-							"str",
-							"cha"
-						],
-						"amount": 2
-					}
-				}
-			],
-			"entries": [
-				{
-					"type": "entries",
-					"name": "Fronteira Declarada",
-					"entries": [
-						"Criaturas hostis provocam Ataques de Oportunidade de você quando entram voluntariamente no seu alcance corpo a corpo pela primeira vez em um turno."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Golpe de Retenção",
-					"entries": [
-						"Quando você acerta uma criatura com Ataque de Oportunidade, ela sofre dano adicional igual ao seu Bônus de Proficiência e o deslocamento dela é reduzido em 10 pés até o fim do turno atual."
-					]
-				}
-			]
-		},
-		{
 			"name": "Tocado pela Chama Fria",
 			"source": "MundoDeKyrFeats",
 			"page": 61,
@@ -4264,9 +4223,9 @@
 			]
 		},
 		{
-			"name": "Herança que Conflita",
+			"name": "Herança Latente",
 			"source": "MundoDeKyrFeats",
-			"page": 105,
+			"page": 194,
 			"category": "G",
 			"prerequisite": [
 				{
@@ -4281,19 +4240,100 @@
 				}
 			],
 			"entries": [
-				"Sua mistura não é harmonia perfeita; é atrito útil.",
+				"Sua mistura não está concluída. Algumas partes do seu sangue permaneceram silenciosas até que pressão, escolha e sobrevivência as obrigaram a despertar.",
+				"Você ganha os seguintes benefícios.",
 				{
 					"type": "entries",
-					"name": "Traço Dominante",
+					"name": "Pontos Despertos",
 					"entries": [
-						"Escolha uma de suas ascendências na qual você tenha gasto pelo menos 4 Pontos de Herança. Você conta como tendo +2 Pontos de Herança nessa ascendência apenas para cumprir pré-requisitos de Talentos de Espécie."
+						"Você ganha 2 Pontos de Herança adicionais. Distribua esses pontos entre ascendências que já façam parte da sua origem mestiça, respeitando as regras normais de aquisição de características por Pontos de Herança. Esses pontos contam normalmente para determinar quais características você possui, para cumprir pré-requisitos e para definir se você é considerado parte de uma ascendência."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Sutura Instável",
+					"entries": [
+						"Quando você usar uma característica de espécie obtida ou desbloqueada por Pontos de Herança concedidos por este talento, você pode receber {@variantrule Temporary Hit Points|XPHB|Pontos de Vida Temporários} iguais ao seu Bônus de Proficiência. Você pode usar esta característica um número de vezes igual ao seu Bônus de Proficiência, recuperando todos os usos ao terminar um {@variantrule Long Rest|XPHB|Descanso Longo}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Costura de Herança",
+			"source": "MundoDeKyrFeats",
+			"page": 195,
+			"category": "G",
+			"prerequisite": [
+				{
+					"level": 4,
+					"race": [
+						{
+							"name": "Mestiço",
+							"source": "MundoDeKyrEspecies",
+							"displayEntry": "Mestiço"
+						}
+					]
+				}
+			],
+			"entries": [
+				"Sua mistura não é harmonia perfeita; é atrito útil. Você aprendeu a costurar uma ascendência sobre a outra sem deixar que o conflito rasgue o corpo.",
+				"Você ganha os seguintes benefícios.",
+				{
+					"type": "entries",
+					"name": "Expressão Dominante",
+					"entries": [
+						"Ao terminar um {@variantrule Long Rest|XPHB|Descanso Longo}, escolha uma ascendência na qual você tenha gasto pelo menos 4 Pontos de Herança. Em seguida, escolha uma característica de espécie que você possua por causa dessa ascendência. Até terminar seu próximo {@variantrule Long Rest|XPHB|Descanso Longo}, escolha uma das melhorias abaixo que seja aplicável à característica escolhida:",
+						{
+							"type": "list",
+							"items": [
+								"Se a característica tiver usos limitados e não for uma magia nem uma característica que permita conjurar uma magia sem gastar espaço de magia, você ganha um uso adicional dela.",
+								"Se a característica causar dano, restaurar Pontos de Vida, conceder {@variantrule Temporary Hit Points|XPHB|Pontos de Vida Temporários} ou reduzir dano, você aumenta um desses valores em uma quantidade igual ao seu Bônus de Proficiência uma vez por turno.",
+								"Se a característica exigir um teste de resistência, a CD dela aumenta em 1."
+							]
+						}
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Atrito de Sangue",
 					"entries": [
-						"Uma vez por Descanso Curto ou Longo, quando falhar em teste de resistência, adicione {@dice 1d4} ao resultado."
+						"Uma vez por {@variantrule Short Rest|XPHB|Descanso Curto} ou {@variantrule Long Rest|XPHB|Descanso Longo}, quando falhar em um teste de resistência, você pode adicionar {@dice 1d4} ao resultado, potencialmente transformando a falha em sucesso. Se isso transformar a falha em sucesso, você recebe {@variantrule Temporary Hit Points|XPHB|Pontos de Vida Temporários} iguais ao seu Bônus de Proficiência."
+					]
+				}
+			]
+		},
+		{
+			"name": "Herança em Conflito Controlado",
+			"source": "MundoDeKyrFeats",
+			"page": 0,
+			"category": "EX",
+			"prerequisite": [
+				{
+					"level": 8,
+					"race": [
+						{
+							"name": "Mestiço",
+							"source": "MundoDeKyrEspecies",
+							"displayEntry": "Mestiço"
+						}
+					]
+				}
+			],
+			"entries": [
+				"Você aprendeu a fazer duas verdades incompatíveis trabalharem no mesmo corpo.",
+				"Você ganha os seguintes benefícios.",
+				{
+					"type": "entries",
+					"name": "Expressão Híbrida",
+					"entries": [
+						"Escolha um Talento de Espécie de Nível 4+ de uma ascendência para a qual você cumpra os pré-requisitos de Pontos de Herança. Você recebe esse talento."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Resistência de Mistura",
+					"entries": [
+						"Quando terminar um {@variantrule Long Rest|XPHB|Descanso Longo}, escolha um tipo de dano associado a uma de suas ascendências. Você recebe Resistência a esse tipo de dano até terminar seu próximo {@variantrule Long Rest|XPHB|Descanso Longo}. O Mestre pode vetar tipos sem vínculo claro com suas ascendências."
 					]
 				}
 			]
@@ -7719,76 +7759,6 @@
 			]
 		},
 		{
-			"name": "Costura de Herança",
-			"source": "MundoDeKyrFeats",
-			"page": 194,
-			"category": "G",
-			"prerequisite": [
-				{
-					"level": 4,
-					"race": [
-						{
-							"name": "Mestiço",
-							"source": "MundoDeKyrEspecies",
-							"displayEntry": "Mestiço"
-						}
-					]
-				}
-			],
-			"entries": [
-				"Sua mistura não é harmonia perfeita; é atrito útil.",
-				{
-					"type": "entries",
-					"name": "Traço Dominante",
-					"entries": [
-						"Escolha uma de suas ascendências na qual você tenha gasto pelo menos 4 Pontos de Herança. Você conta como tendo +2 Pontos de Herança nessa ascendência apenas para cumprir pré-requisitos de Talentos de Espécie."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Atrito de Sangue",
-					"entries": [
-						"Uma vez por Descanso Curto ou Longo, quando falhar em um teste de resistência, você pode adicionar {@dice 1d4} ao resultado."
-					]
-				}
-			]
-		},
-		{
-			"name": "Herança em Conflito Controlado",
-			"source": "MundoDeKyrFeats",
-			"page": 195,
-			"category": "EX",
-			"prerequisite": [
-				{
-					"level": 8,
-					"race": [
-						{
-							"name": "Mestiço",
-							"source": "MundoDeKyrEspecies",
-							"displayEntry": "Mestiço"
-						}
-					]
-				}
-			],
-			"entries": [
-				"Você aprendeu a fazer duas verdades incompatíveis trabalharem no mesmo corpo.",
-				{
-					"type": "entries",
-					"name": "Expressão Híbrida",
-					"entries": [
-						"Escolha um Talento de Espécie de Nível 4+ de uma ascendência para a qual você cumpra os pré-requisitos de Pontos de Herança. Você recebe esse talento."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Resistência de Mistura",
-					"entries": [
-						"Quando terminar um Descanso Longo, escolha um tipo de dano associado a uma de suas ascendências. Você recebe Resistência a esse tipo de dano até terminar seu próximo Descanso Longo. O Mestre pode vetar tipos sem vínculo claro com suas ascendências."
-					]
-				}
-			]
-		},
-		{
 			"name": "Ruptura de Guarda",
 			"source": "MundoDeKyrFeats",
 			"page": 196,
@@ -9580,6 +9550,677 @@
 					"name": "Custo de Estabilização",
 					"entries": [
 						"Depois de usar Pulso de Sobrecarga, você subtrai {@dice 1d4} do próximo teste para manter Concentração que fizer antes de terminar um Descanso Curto ou Longo."
+					]
+				}
+			]
+		},
+		{
+			"name": "Rastro de Guerra Ancestral",
+			"source": "MundoDeKyrFeats",
+			"page": 0,
+			"category": "BOOST",
+			"prerequisite": [
+				{
+					"level": 12,
+					"ability": [
+						{
+							"str": 13
+						}
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"con"
+						],
+						"amount": 2
+					}
+				}
+			],
+			"entries": [
+				"Você não apenas luta em batalhas; você altera o campo onde elas acontecem. Onde seu sangue e o de seus inimigos tocam o chão, o mundo passa a reconhecer conquista.",
+				{
+					"type": "entries",
+					"name": "Terreno de Conquista",
+					"entries": [
+						"Uma vez por turno, quando você atingir uma criatura com um ataque corpo a corpo, você pode marcar o espaço ocupado por ela até o início do seu próximo turno. Esse espaço é terreno difícil para criaturas hostis. A primeira vez que uma criatura hostil entrar voluntariamente no espaço marcado durante o turno dela, ela sofre dano igual ao seu Bônus de Proficiência."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Memória da Violência",
+					"entries": [
+						"Quando você rolar Iniciativa, pode escolher um número de criaturas hostis que você possa ver igual ao seu modificador de Força ou Constituição, mínimo de 1. Por 1 minuto, quando uma dessas criaturas errar uma jogada de ataque contra você, você pode usar sua Reação para realizar um ataque corpo a corpo contra ela. Depois de usar esta característica, você não pode usá-la novamente até terminar um Descanso Longo."
+					]
+				}
+			]
+		},
+		{
+			"name": "Eco da Árvore do Mundo",
+			"source": "MundoDeKyrFeats",
+			"page": 0,
+			"category": "BOOST",
+			"prerequisite": [
+				{
+					"level": 12,
+					"ability": [
+						{
+							"wis": 15
+						},
+						{
+							"con": 15
+						}
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"wis",
+							"con"
+						],
+						"amount": 2
+					}
+				}
+			],
+			"entries": [
+				"Você ressoa com a estrutura profunda da Árvore do Mundo, tornando-se um ponto de estabilidade para criaturas próximas.",
+				{
+					"type": "entries",
+					"name": "Intervenção Enraizada",
+					"entries": [
+						"Quando você ou uma criatura aliada a até 30 pés sofrer dano, você pode usar sua Reação para reduzir esse dano em 2d8 + seu Bônus de Proficiência. Se o dano for reduzido a 0, a criatura também recebe Pontos de Vida Temporários iguais ao seu Bônus de Proficiência. Você pode usar esta característica um número de vezes igual ao modificador do atributo aumentado por este talento, mínimo de 1, recuperando todos os usos ao terminar um Descanso Longo."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Estabilidade Compartilhada",
+					"entries": [
+						"Enquanto uma criatura aliada estiver a até 10 pés de você, ela recebe +1d4 em testes de resistência contra Amedrontado, Enfeitiçado, Paralisado, Restrito ou Atordoado."
+					]
+				}
+			]
+		},
+		{
+			"name": "Explorador do Impossível",
+			"source": "MundoDeKyrFeats",
+			"page": 0,
+			"category": "BOOST",
+			"prerequisite": [
+				{
+					"level": 12,
+					"ability": [
+						{
+							"dex": 15
+						},
+						{
+							"wis": 15
+						}
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"dex",
+							"wis"
+						],
+						"amount": 2
+					}
+				}
+			],
+			"entries": [
+				"Você atravessou lugares onde mapas falham e a lógica do mundo cede. Poucos ambientes conseguem detê-lo.",
+				{
+					"type": "entries",
+					"name": "Mestre da Sobrevivência Extrema",
+					"entries": [
+						"Você ganha proficiência em Sobrevivência e Investigação. Se já possuir uma dessas proficiências, ganha Especialização nela. Quando realizar um teste de Sabedoria (Sobrevivência) ou Inteligência (Investigação) para navegação, rastreamento, orientação, leitura de terreno, rotas impossíveis ou zonas instáveis, trate qualquer resultado no d20 inferior a 9 como 9."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Movimento Improvável",
+					"entries": [
+						"Você ignora terreno difícil não mágico. Escalar e nadar não custam movimento adicional para você. Além disso, clima extremo e perigos ambientais naturais não impõem Desvantagem em seus testes de habilidade."
+					]
+				}
+			]
+		},
+		{
+			"name": "Senhor do Território",
+			"source": "MundoDeKyrFeats",
+			"page": 0,
+			"category": "BOOST",
+			"prerequisite": [
+				{
+					"level": 12,
+					"ability": [
+						{
+							"str": 15
+						},
+						{
+							"wis": 15
+						},
+						{
+							"cha": 15
+						}
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"wis",
+							"cha"
+						],
+						"amount": 2
+					}
+				}
+			],
+			"entries": [
+				"Você não apenas ocupa um espaço; você o domina. Cada passo inimigo dentro do seu alcance passa a exigir cálculo.",
+				{
+					"type": "entries",
+					"name": "Fronteira Declarada",
+					"entries": [
+						"Como Ação Bônus, você entra em uma postura de domínio até o início do seu próximo turno. Enquanto estiver nessa postura, uma criatura hostil provoca um Ataque de Oportunidade seu quando entra voluntariamente no seu alcance corpo a corpo pela primeira vez no turno dela. Esta característica não concede Reações adicionais. Você pode usar esta característica um número de vezes igual ao seu Bônus de Proficiência, recuperando todos os usos ao terminar um Descanso Longo."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Golpe de Retenção",
+					"entries": [
+						"Quando você atingir uma criatura com um Ataque de Oportunidade, ela sofre dano adicional igual ao seu Bônus de Proficiência, e o deslocamento dela é reduzido em 10 pés até o fim do turno atual."
+					]
+				}
+			]
+		},
+		{
+			"name": "Arquiteto do Invisível",
+			"source": "MundoDeKyrFeats",
+			"page": 0,
+			"category": "BOOST",
+			"prerequisite": [
+				{
+					"level": 12,
+					"other": "Spellcasting ou Pact Magic"
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"int",
+							"wis",
+							"cha"
+						],
+						"amount": 2
+					}
+				}
+			],
+			"entries": [
+				"Você aprendeu a intervir no fluxo arcano antes que ele se estabilize, ajustando sua estrutura no momento da conjuração.",
+				{
+					"type": "entries",
+					"name": "Reconfiguração Arcana",
+					"entries": [
+						"Uma vez por Descanso Longo, quando você conjurar uma magia de 5º nível ou inferior, escolha um dos seguintes efeitos:",
+						{
+							"type": "list",
+							"items": [
+								"o alcance da magia dobra;",
+								"você altera um tipo de dano da magia para outro tipo de dano elemental: Ácido, Frio, Fogo, Relâmpago, Trovão ou Veneno;",
+								"uma criatura afetada pela magia subtrai 1d4 do primeiro teste de resistência que fizer contra ela;",
+								"você exclui um número de criaturas do efeito da magia igual ao modificador do atributo aumentado por este talento, mínimo de 1."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Leitura Estrutural",
+					"entries": [
+						"Você tem Vantagem em testes de Inteligência (Arcanismo) feitos para identificar magias, selos, efeitos mágicos ativos ou Fontes Aethéricas. Além disso, como uma Ação Mágica, você pode detectar a presença de magia ativa a até 30 pés de você até o fim do seu próximo turno, sem precisar de Concentração."
+					]
+				}
+			]
+		},
+		{
+			"name": "Vontade Inquebrável",
+			"source": "MundoDeKyrFeats",
+			"page": 0,
+			"category": "BOOST",
+			"prerequisite": [
+				{
+					"level": 12,
+					"ability": [
+						{
+							"con": 15
+						},
+						{
+							"wis": 15
+						}
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"con",
+							"wis"
+						],
+						"amount": 2
+					}
+				}
+			],
+			"entries": [
+				"Sua vontade não é apenas forte; ela é estrutural. Efeitos que tentam dobrar sua decisão encontram resistência real.",
+				{
+					"type": "entries",
+					"name": "Presença Insubjugável",
+					"entries": [
+						"Você tem Vantagem em testes de resistência contra Enfeitiçado e Amedrontado. Além disso, se um efeito permitir que outra criatura controle suas ações, determine seu movimento ou escolha seus alvos, você pode repetir o teste de resistência contra esse efeito no início do seu turno, encerrando o controle sobre você em um sucesso."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Quebra de Domínio",
+					"entries": [
+						"Uma vez por Descanso Curto ou Longo, quando você falhar em um teste de resistência de Inteligência, Sabedoria ou Carisma, você pode adicionar 1d8 ao resultado, potencialmente transformando a falha em sucesso."
+					]
+				}
+			]
+		},
+		{
+			"name": "Combatente Experiente",
+			"source": "MundoDeKyrFeats",
+			"page": 0,
+			"category": "BOOST",
+			"prerequisite": [
+				{
+					"level": 12,
+					"ability": [
+						{
+							"str": 15
+						},
+						{
+							"dex": 15
+						}
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex"
+						],
+						"amount": 2
+					}
+				}
+			],
+			"entries": [
+				"Você se especializou em um estilo de combate. Ele passou a ser natural para seu corpo.",
+				{
+					"type": "entries",
+					"name": "Estilo Intrínseco",
+					"entries": [
+						"Você aprende um Fighting Style da classe Fighter. Se já possuir um Fighting Style, escolha um diferente."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Corpo Esculpido",
+					"entries": [
+						"Você ganha proficiência em uma arma à sua escolha e em Atletismo ou Acrobacia. Se já possuir a proficiência escolhida, ganha Especialização nela."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Execução Treinada",
+					"entries": [
+						"Uma vez por turno, quando você atingir uma criatura com uma arma que se beneficie do Fighting Style escolhido por este talento, o ataque causa dano adicional igual ao seu Bônus de Proficiência."
+					]
+				}
+			]
+		},
+		{
+			"name": "Fluxo Arcano Reforçado",
+			"source": "MundoDeKyrFeats",
+			"page": 0,
+			"category": "BOOST",
+			"prerequisite": [
+				{
+					"level": 12,
+					"ability": [
+						{
+							"int": 15
+						},
+						{
+							"wis": 15
+						},
+						{
+							"cha": 15
+						}
+					],
+					"other": "Spellcasting ou Pact Magic"
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"int",
+							"wis",
+							"cha"
+						],
+						"amount": 2
+					}
+				}
+			],
+			"entries": [
+				"O Aether deixou caminhos permanentes em seu corpo. Sua conjuração flui por rotas internas reforçadas.",
+				{
+					"type": "entries",
+					"name": "Corrente Constante",
+					"entries": [
+						"Você aprende uma Eldritch Invocation da classe Warlock. Você ignora apenas o pré-requisito de ser Warlock de nível 2. Se a invocação tiver qualquer outro pré-requisito, você deve cumpri-lo normalmente. Se a invocação permitir conjurar uma magia, sua habilidade de conjuração para ela é o atributo aumentado por este talento."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Canal Reforçado",
+					"entries": [
+						"Uma vez por turno, quando você conjurar uma magia concedida por uma Invocation ou por uma característica de feat, você pode conceder Pontos de Vida Temporários iguais ao seu Bônus de Proficiência a si mesmo ou a uma criatura a até 30 pés."
+					]
+				}
+			]
+		},
+		{
+			"name": "Titã da Forma",
+			"source": "MundoDeKyrFeats",
+			"page": 0,
+			"category": "BOOST",
+			"prerequisite": [
+				{
+					"level": 12,
+					"ability": [
+						{
+							"str": 15
+						}
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str"
+						],
+						"amount": 2
+					}
+				}
+			],
+			"entries": [
+				"Seu corpo alcançou o limite da imposição física. Sua presença desloca peso, rompe inércia e sustenta esforço onde outros falhariam.",
+				{
+					"type": "entries",
+					"name": "Atletismo Titânico",
+					"entries": [
+						"Você ganha proficiência em Atletismo. Se já possuir proficiência, ganha Especialização nela. Além disso, você tem Vantagem em testes de Força feitos para saltar, escalar, empurrar, agarrar, erguer, arrastar, quebrar ou sustentar peso."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Golpe de Massa",
+					"entries": [
+						"Uma vez por turno, quando você atingir uma criatura com um ataque usando Força, cause dano adicional igual ao seu Bônus de Proficiência. Se o ataque for feito contra uma criatura que você esteja Agarrando ou contra uma criatura Caída, esse dano adicional aumenta em 1d6."
+					]
+				}
+			]
+		},
+		{
+			"name": "Sombra em Movimento",
+			"source": "MundoDeKyrFeats",
+			"page": 0,
+			"category": "BOOST",
+			"prerequisite": [
+				{
+					"level": 12,
+					"ability": [
+						{
+							"dex": 15
+						}
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"dex"
+						],
+						"amount": 2
+					}
+				}
+			],
+			"entries": [
+				"Seu corpo responde antes da intenção se formar. Movimento torna-se decisão instantânea.",
+				{
+					"type": "entries",
+					"name": "Primeiro Movimento",
+					"entries": [
+						"Ao rolar Iniciativa, qualquer resultado no d20 inferior a 10 é tratado como 10."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Velocidade Instintiva",
+					"entries": [
+						"Seu deslocamento aumenta em 10 pés. Quando você realiza a ação Desengajar, pode também realizar a ação Correr como parte da mesma ação."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Corte de Passagem",
+					"entries": [
+						"Uma vez por turno, quando você atingir uma criatura com ataque usando Destreza depois de se mover pelo menos 10 pés no mesmo turno, o ataque causa dano adicional igual ao seu Bônus de Proficiência."
+					]
+				}
+			]
+		},
+		{
+			"name": "Coração Inquebrável",
+			"source": "MundoDeKyrFeats",
+			"page": 0,
+			"category": "BOOST",
+			"prerequisite": [
+				{
+					"level": 12,
+					"ability": [
+						{
+							"con": 15
+						}
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"con"
+						],
+						"amount": 2
+					}
+				}
+			],
+			"entries": [
+				"Seu corpo não apenas resiste; ele se impõe sobre deterioração, veneno e colapso.",
+				{
+					"type": "entries",
+					"name": "Vitalidade Profunda",
+					"entries": [
+						"Seu máximo de Pontos de Vida aumenta em uma quantidade igual ao seu nível de personagem."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Corpo Indeteriorável",
+					"entries": [
+						"Você ganha Resistência a dano de Veneno e tem Vantagem em testes de resistência contra Envenenado. Se já possuir Resistência a dano de Veneno, escolha Ácido ou Necrótico; você ganha Resistência ao tipo escolhido."
+					]
+				}
+			]
+		},
+		{
+			"name": "Mente que Não Falha",
+			"source": "MundoDeKyrFeats",
+			"page": 0,
+			"category": "BOOST",
+			"prerequisite": [
+				{
+					"level": 12,
+					"ability": [
+						{
+							"int": 15
+						}
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"int"
+						],
+						"amount": 2
+					}
+				}
+			],
+			"entries": [
+				"Sua mente opera acima da margem comum de erro. Falhas tornam-se ruído estatístico.",
+				{
+					"type": "entries",
+					"name": "Correção Analítica",
+					"entries": [
+						"Quando você falhar em um teste de perícia baseado em Inteligência, pode rolar novamente o teste e usar o novo resultado. Você pode usar esta característica um número de vezes igual ao seu Bônus de Proficiência, recuperando todos os usos ao terminar um Descanso Longo."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Especialização Intelectual",
+					"entries": [
+						"Você ganha proficiência em uma perícia baseada em Inteligência à sua escolha. Se já possuir proficiência em todas, escolha uma delas para ganhar Especialização."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Intuição Lógica",
+					"entries": [
+						"Quando fizer um teste de Sabedoria (Intuição), você pode usar Inteligência no lugar de Sabedoria para esse teste."
+					]
+				}
+			]
+		},
+		{
+			"name": "Olhar do Equilíbrio",
+			"source": "MundoDeKyrFeats",
+			"page": 0,
+			"category": "BOOST",
+			"prerequisite": [
+				{
+					"level": 12,
+					"ability": [
+						{
+							"wis": 15
+						}
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"wis"
+						],
+						"amount": 2
+					}
+				}
+			],
+			"entries": [
+				"Sua percepção não é apenas sensorial; é estrutural. Você lê intenção antes da ação.",
+				{
+					"type": "entries",
+					"name": "Percepção Ampliada",
+					"entries": [
+						"Você ganha proficiência em três perícias à sua escolha entre Intuição, Medicina, Natureza, Percepção, Religião, Sobrevivência, Investigação e História. Se já possuir proficiência em uma delas, pode escolher ganhar Especialização nessa perícia em vez de escolher uma nova proficiência."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Iniciativa Serena",
+					"entries": [
+						"Você pode adicionar seu modificador de Sabedoria à Iniciativa. Se já puder adicionar Sabedoria à Iniciativa por outra característica, você adiciona seu Bônus de Proficiência à Iniciativa em vez disso."
+					]
+				}
+			]
+		},
+		{
+			"name": "Voz que Molda Destinos",
+			"source": "MundoDeKyrFeats",
+			"page": 0,
+			"category": "BOOST",
+			"prerequisite": [
+				{
+					"level": 12,
+					"ability": [
+						{
+							"cha": 15
+						}
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"cha"
+						],
+						"amount": 2
+					}
+				}
+			],
+			"entries": [
+				"Sua presença altera dinâmicas sociais antes mesmo de palavras serem ditas.",
+				{
+					"type": "entries",
+					"name": "Presença Inevitável",
+					"entries": [
+						"Você ganha proficiência em três perícias entre Atuação, Enganação, Intimidação e Persuasão. Se já possuir proficiência em uma delas, pode escolher ganhar Especialização nessa perícia em vez de escolher uma nova proficiência."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Voz de Autoridade",
+					"entries": [
+						"Escolha Persuasão, Enganação ou Intimidação ao terminar um Descanso Longo. Até terminar seu próximo Descanso Longo, quando realizar a ação Influenciar usando a perícia escolhida, qualquer resultado no d20 inferior a 9 é tratado como 9."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Destino Inclinado",
+					"entries": [
+						"Quando você obtiver sucesso em um teste de Carisma feito pela ação Influenciar contra uma criatura Indiferente ou Hostil, escolha essa criatura. A próxima vez que ela fizer um teste de resistência de Sabedoria ou Carisma antes do início do seu próximo turno, ela subtrai 1d4 do resultado. Você pode usar esta característica um número de vezes igual ao seu Bônus de Proficiência, recuperando todos os usos ao terminar um Descanso Longo."
 					]
 				}
 			]
