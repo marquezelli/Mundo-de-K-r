@@ -3,23 +3,23 @@
 		"sources": [
 			{
 				"json": "MundoDeKyrFeats",
-				"abbreviation": "KyrFeats",
-				"full": "Mundo de Kÿr: Feats v5.11 — Ajustes de Espécies",
+				"abbreviation": "KÿR",
+				"full": "KÿR — Livro de Feats",
 				"authors": [
 					"Felipe Marquezelli"
 				],
 				"convertedBy": [
 					"ChatGPT"
 				],
-				"version": "5.11.0",
+				"version": "5.12.0",
 				"url": "https://github.com/TheGiddyLimit/homebrew",
 				"dateAdded": 1779327521,
 				"dateModified": "2026-06-04"
 			},
 			{
 				"json": "MundoDeKyrItens",
-				"abbreviation": "KyrItens",
-				"full": "Mundo de Kÿr — Itens, Armas, Condições, Masteries e Itens Mágicos Novos v2.0",
+				"abbreviation": "KÿR",
+				"full": "KÿR — Livro de Itens",
 				"authors": [
 					"Felipe Marquezelli"
 				],
@@ -29,12 +29,12 @@
 				"version": "2.0.0",
 				"url": "https://github.com/TheGiddyLimit/homebrew",
 				"dateAdded": 1777995910,
-				"dateModified": "2026-05-18"
+				"dateModified": "2026-06-04"
 			},
 			{
 				"json": "MundoDeKyrEspecies",
-				"abbreviation": "KyrEsp",
-				"full": "Mundo de Kÿr — Espécies v3.2 — revisão de visão, Mestiço e Umbryn",
+				"abbreviation": "KÿR",
+				"full": "KÿR — Livro de Espécies",
 				"authors": [
 					"Felipe Marquezelli"
 				],
@@ -48,8 +48,8 @@
 			},
 			{
 				"json": "MundoDeKyrLivroDasMagiasDeKyr",
-				"abbreviation": "Kÿr",
-				"full": "Mundo de Kÿr: Livro das Magias de Kÿr — Versão Final",
+				"abbreviation": "KÿR",
+				"full": "KÿR — Livro de Magias",
 				"authors": [
 					"Mundo de Kÿr"
 				],
@@ -59,42 +59,42 @@
 				"version": "4.0.0",
 				"url": "https://github.com/TheGiddyLimit/homebrew",
 				"dateAdded": 1778520000,
-				"dateModified": "2026-05-18"
+				"dateModified": "2026-06-04"
 			},
 			{
 				"json": "MundoDeKyrSubclasses",
-				"abbreviation": "Kyr-Sub",
-				"full": "Mundo de Kÿr — Subclasses v3.8 — ajuste Sangue Dracônico",
+				"abbreviation": "KÿR",
+				"full": "KÿR — Livro de Subclasses",
 				"authors": [
 					"Felipe Marquezelli"
 				],
 				"convertedBy": [
 					"ChatGPT"
 				],
-				"version": "3.8.0",
+				"version": "3.9.0",
 				"url": "https://github.com/TheGiddyLimit/homebrew",
 				"dateAdded": 1778194620,
 				"dateModified": "2026-06-04"
 			},
 			{
 				"json": "MundoDeKyrCompendioCompleto",
-				"abbreviation": "Kÿr-COMP",
-				"full": "Mundo de Kÿr — Compêndio Completo v2.21 — Ajustes de Espécies",
+				"abbreviation": "KÿR",
+				"full": "KÿR — Compêndio Completo",
 				"authors": [
 					"Felipe Marquezelli"
 				],
 				"convertedBy": [
 					"ChatGPT"
 				],
-				"version": "2.21.0",
+				"version": "2.23.1",
 				"url": "https://github.com/TheGiddyLimit/homebrew",
 				"dateAdded": 1778520000,
 				"dateModified": "2026-06-04"
 			},
 			{
 				"json": "MundoDeKyrDomadorPrimevo",
-				"abbreviation": "Kyr-Domador",
-				"full": "Mundo de Kÿr — Criaturas Domesticáveis do Domador Primevo",
+				"abbreviation": "KÿR",
+				"full": "KÿR — Bestiário do Domador Primevo",
 				"authors": [
 					"Felipe Marquezelli"
 				],
@@ -104,12 +104,12 @@
 				"version": "1.5.0",
 				"url": "https://github.com/TheGiddyLimit/homebrew",
 				"dateAdded": 1778682251,
-				"dateModified": "2026-05-13"
+				"dateModified": "2026-06-04"
 			},
 			{
 				"json": "MundoDeKyrTemploCoresFragmentadas",
-				"abbreviation": "Kyr-TemploCores",
-				"full": "Mundo de Kÿr — Criaturas do Templo do Arqui-Diabo das Cores Fragmentadas",
+				"abbreviation": "KÿR",
+				"full": "KÿR — Bestiário do Templo das Cores Fragmentadas",
 				"authors": [
 					"Felipe Marquezelli"
 				],
@@ -119,12 +119,12 @@
 				"version": "1.0.0",
 				"url": "https://github.com/TheGiddyLimit/homebrew",
 				"dateAdded": 1778798400,
-				"dateModified": "2026-05-14"
+				"dateModified": "2026-06-04"
 			},
 			{
 				"json": "MundoDeKyrRegras",
-				"abbreviation": "KyrRules",
-				"full": "Mundo de Kÿr — Condições e Regras Customizadas",
+				"abbreviation": "KÿR",
+				"full": "KÿR — Livro de Regras Customizadas",
 				"authors": [
 					"Felipe Marquezelli"
 				],
@@ -134,12 +134,12 @@
 				"version": "1.0.0",
 				"url": "https://github.com/TheGiddyLimit/homebrew",
 				"dateAdded": 1778520000,
-				"dateModified": "2026-05-18"
+				"dateModified": "2026-06-04"
 			},
 			{
 				"json": "MundoDeKyrBackgrounds",
-				"abbreviation": "KyrBg",
-				"full": "Mundo de Kÿr — Backgrounds de Bornewulf/Lumenkar v1.1 — magic items linkados",
+				"abbreviation": "KÿR",
+				"full": "KÿR — Livro de Backgrounds",
 				"authors": [
 					"Felipe Marquezelli"
 				],
@@ -149,7 +149,7 @@
 				"version": "1.1.0",
 				"url": "https://github.com/TheGiddyLimit/homebrew",
 				"dateAdded": 1779329434,
-				"dateModified": "2026-05-20"
+				"dateModified": "2026-06-04"
 			}
 		]
 	},
@@ -760,7 +760,7 @@
 			]
 		},
 		{
-			"name": "Corpo da Árvore Viva",
+			"name": "Âncora da Vontade",
 			"source": "MundoDeKyrFeats",
 			"page": 18,
 			"category": "BOOST",
@@ -776,27 +776,48 @@
 				{
 					"choose": {
 						"from": [
-							"str",
 							"con",
-							"int"
+							"int",
+							"wis"
 						],
 						"amount": 2
+					}
+				}
+			],
+			"additionalSpells": [
+				{
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"prepared": {
+						"_": [
+							"Guardião Rizomático|MundoDeKyrLivroDasMagiasDeKyr"
+						],
+						"daily": {
+							"1": [
+								"Guardião Rizomático|MundoDeKyrLivroDasMagiasDeKyr"
+							]
+						}
 					}
 				}
 			],
 			"entries": [
 				{
 					"type": "entries",
-					"name": "Matéria Viva",
+					"name": "Interpretação Natural",
 					"entries": [
-						"Quando você sofrer dano Contundente, Cortante ou Perfurante de um ataque, reduza esse dano em seu Bônus de Proficiência."
+						"Você ganha Especialização em Intuição, Natureza ou Sobrevivência."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Crescimento de Combate",
+					"name": "Proteção de Rizoma",
 					"entries": [
-						"Uma vez por turno, quando você reduzir dano por Matéria Viva, o próximo ataque corpo a corpo ou truque de Rizomancia que você acertar antes do fim do seu próximo turno causa dano adicional igual ao seu Bônus de Proficiência."
+						"Você possui a magia {@spell Guardião Rizomático|MundoDeKyrLivroDasMagiasDeKyr} sempre preparada. Ela não conta contra o número de magias que você pode preparar. Você pode conjurá-la uma vez, sem gastar espaço de magia, por Descanso Longo. Ao conjurá-la dessa forma, a magia não exige componentes materiais e nem Concentração para ser mantida, tendo duração de 1 minuto."
 					]
 				}
 			]
@@ -1094,6 +1115,27 @@
 					}
 				}
 			],
+			"additionalSpells": [
+				{
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"prepared": {
+						"_": [
+							"Miana’s Reconstituir Cena|MundoDeKyrLivroDasMagiasDeKyr"
+						],
+						"daily": {
+							"1": [
+								"Miana’s Reconstituir Cena|MundoDeKyrLivroDasMagiasDeKyr"
+							]
+						}
+					}
+				}
+			],
 			"entries": [
 				{
 					"type": "entries",
@@ -1104,9 +1146,9 @@
 				},
 				{
 					"type": "entries",
-					"name": "Memória Material",
+					"name": "Resquícios de Memória",
 					"entries": [
-						"Quando você usar a ação Estudar para examinar um local, objeto ou criatura ligado a magia, violência, morte ou evento antigo, adicione {@dice 1d6} ao teste. Em sucesso, o próximo aliado que agir com base nessa informação antes do início do seu próximo turno recebe +{@dice 1d4} em uma jogada de ataque, teste de habilidade ou teste de resistência relacionado ao alvo estudado."
+						"Você possui a magia {@spell Miana’s Reconstituir Cena|MundoDeKyrLivroDasMagiasDeKyr} sempre preparada. Ela não conta contra o número de magias que você pode preparar. Você pode conjurá-la uma vez, sem gastar espaço de magia, por Descanso Longo e também usando espaços apropriados. Enquanto a magia estiver ativa e durante as próximas 24 horas, você tem Vantagem em testes para examinar um local, objeto ou criatura ligado a magia, violência, morte ou evento antigo."
 					]
 				}
 			]
@@ -1388,7 +1430,7 @@
 			]
 		},
 		{
-			"name": "Gramática do Vazio",
+			"name": "Vazio do Véu",
 			"source": "MundoDeKyrFeats",
 			"page": 32,
 			"category": "BOOST",
@@ -1412,19 +1454,40 @@
 					}
 				}
 			],
+			"additionalSpells": [
+				{
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"prepared": {
+						"_": [
+							"Enfraquecimento do Véu|MundoDeKyrLivroDasMagiasDeKyr"
+						],
+						"daily": {
+							"1": [
+								"Enfraquecimento do Véu|MundoDeKyrLivroDasMagiasDeKyr"
+							]
+						}
+					}
+				}
+			],
 			"entries": [
 				{
 					"type": "entries",
-					"name": "Sintaxe da Ausência",
+					"name": "Véu Sombrio",
 					"entries": [
-						"Uma vez por turno, quando uma criatura falhar em um teste de resistência contra uma magia sua de Umbramancia ou sofrer dano Necrótico ou Psíquico causado por você, ela fica marcada pelo Vazio até o início do seu próximo turno."
+						"Você possui a magia {@spell Enfraquecimento do Véu|MundoDeKyrLivroDasMagiasDeKyr} sempre preparada. Ela não conta contra o número de magias que você pode preparar. Você pode conjurá-la uma vez, sem gastar espaço de magia, por Descanso Longo e também usando espaços apropriados."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Restauração Incompleta",
+					"name": "Controle do Vazio",
 					"entries": [
-						"Enquanto marcada pelo Vazio, a primeira vez que a criatura recuperar Pontos de Vida ou receber Pontos de Vida Temporários, reduza esse valor em seu Bônus de Proficiência + o modificador do atributo aumentado por este talento, mínimo de 1."
+						"Quando conjurar {@spell Enfraquecimento do Véu|MundoDeKyrLivroDasMagiasDeKyr}, sem consumir espaço de magia, através de Véu Sombrio, você pode escolher não ser afetado pela magia."
 					]
 				}
 			]
@@ -5140,7 +5203,7 @@
 					"type": "entries",
 					"name": "Resistência de Forja",
 					"entries": [
-						"Você ganha Resistência a dano de Ácido, Frio ou Fogo, escolhido ao adquirir este talento."
+						"Você ganha Resistência a dano de Veneno ou Fogo, escolhido ao adquirir este talento."
 					]
 				},
 				{
@@ -31984,6 +32047,47 @@
 			"hasFluff": true
 		},
 		{
+			"name": "Pacto do Leviatã",
+			"shortName": "Leviatã",
+			"source": "MundoDeKyrSubclasses",
+			"className": "Warlock",
+			"classSource": "XPHB",
+			"page": 0,
+			"edition": "one",
+			"subclassFeatures": [
+				"Pacto do Leviatã: Filho das Profundezas|Warlock|XPHB|Leviatã|MundoDeKyrSubclasses|3",
+				"Pacto do Leviatã: Corrente do Leviatã|Warlock|XPHB|Leviatã|MundoDeKyrSubclasses|3",
+				"Pacto do Leviatã: Maré de Retorno|Warlock|XPHB|Leviatã|MundoDeKyrSubclasses|6",
+				"Pacto do Leviatã: Pressão Abissal|Warlock|XPHB|Leviatã|MundoDeKyrSubclasses|10",
+				"Pacto do Leviatã: Abismo Manifesto|Warlock|XPHB|Leviatã|MundoDeKyrSubclasses|14"
+			],
+			"hasFluff": true,
+			"additionalSpells": [
+				{
+					"prepared": {
+						"3": [
+							"Armor of Agathys|XPHB",
+							"Thunderwave|XPHB",
+							"Hold Person|XPHB",
+							"Shatter|XPHB"
+						],
+						"5": [
+							"Sleet Storm|XPHB",
+							"Water Breathing|XPHB"
+						],
+						"7": [
+							"Control Water|XPHB",
+							"Ice Storm|XPHB"
+						],
+						"9": [
+							"Cone of Cold|XPHB",
+							"Hold Monster|XPHB"
+						]
+					}
+				}
+			]
+		},
+		{
 			"name": "Caminho dos Ecos Ressonantes",
 			"shortName": "s Ecos Ressonantes",
 			"source": "MundoDeKyrSubclasses",
@@ -40269,6 +40373,190 @@
 					]
 				}
 			]
+		},
+		{
+			"name": "Pacto do Leviatã: Filho das Profundezas",
+			"source": "MundoDeKyrSubclasses",
+			"page": 0,
+			"className": "Warlock",
+			"classSource": "XPHB",
+			"subclassShortName": "Leviatã",
+			"subclassSource": "MundoDeKyrSubclasses",
+			"level": 3,
+			"entries": [
+				"{@i 3º nível de característica de subclasse de Warlock.}",
+				"O pacto altera seu corpo para suportar pressão, frio e silêncio abissal.",
+				{
+					"type": "entries",
+					"name": "Magias do Pacto do Leviatã",
+					"entries": [
+						"Você sempre tem preparadas as magias indicadas na tabela abaixo. Elas contam como magias de Bruxo para você e não contam contra o número de magias que você pode preparar.",
+						{
+							"type": "table",
+							"colLabels": [
+								"Nível de Bruxo",
+								"Magias"
+							],
+							"rows": [
+								[
+									"3º",
+									"{@spell Armor of Agathys|XPHB}, {@spell Thunderwave|XPHB}, {@spell Hold Person|XPHB}, {@spell Shatter|XPHB}"
+								],
+								[
+									"5º",
+									"{@spell Sleet Storm|XPHB}, {@spell Water Breathing|XPHB}"
+								],
+								[
+									"7º",
+									"{@spell Control Water|XPHB}, {@spell Ice Storm|XPHB}"
+								],
+								[
+									"9º",
+									"{@spell Cone of Cold|XPHB}, {@spell Hold Monster|XPHB}"
+								]
+							],
+							"caption": "Magias do Pacto do Leviatã",
+							"colStyles": [
+								"col-2 text-center",
+								"col-10"
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Respiração Abissal",
+					"entries": [
+						"Você pode respirar ar e água."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Nado do Leviatã",
+					"entries": [
+						"Você ganha Velocidade de Nado igual à sua Velocidade de Corrida."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Olhos do Fundo",
+					"entries": [
+						"Você tem Visão no Escuro com alcance de 60 pés. Enquanto estiver submerso ou em área de Meia-Luz ou Escuridão, você pode ver normalmente através de água turva, névoa ou chuva pesada dentro desse alcance."
+					]
+				}
+			]
+		},
+		{
+			"name": "Pacto do Leviatã: Corrente do Leviatã",
+			"source": "MundoDeKyrSubclasses",
+			"page": 0,
+			"className": "Warlock",
+			"classSource": "XPHB",
+			"subclassShortName": "Leviatã",
+			"subclassSource": "MundoDeKyrSubclasses",
+			"level": 3,
+			"entries": [
+				"{@i 3º nível de característica de subclasse de Warlock.}",
+				"Você aprende a prender criaturas em correntes invisíveis de pressão e maré.",
+				"Uma vez em cada um dos seus turnos, quando você causar dano a uma criatura com uma magia de Bruxo ou com um ataque concedido por uma Invocação de Bruxo, você pode invocar a Corrente do Leviatã sobre ela. O alvo deve realizar um teste de resistência de Força contra sua CD de magia de Bruxo.",
+				"Em falha, escolha um dos efeitos abaixo:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Arrastar",
+							"entry": "Você puxa o alvo até 10 pés em linha reta na sua direção ou na direção de um espaço que você possa ver."
+						},
+						{
+							"type": "item",
+							"name": "Afundar",
+							"entry": "A Velocidade do alvo é reduzida em 10 pés até o início do seu próximo turno."
+						},
+						{
+							"type": "item",
+							"name": "Prender",
+							"entry": "O alvo não pode realizar Ataques de Oportunidade até o início do seu próximo turno."
+						}
+					]
+				},
+				"Em sucesso, o alvo não sofre efeito adicional.",
+				"Você pode usar esta característica um número de vezes igual ao seu Bônus de Proficiência, recuperando todos os usos ao terminar um {@variantrule Long Rest|XPHB|Descanso Longo}."
+			]
+		},
+		{
+			"name": "Pacto do Leviatã: Maré de Retorno",
+			"source": "MundoDeKyrSubclasses",
+			"page": 0,
+			"className": "Warlock",
+			"classSource": "XPHB",
+			"subclassShortName": "Leviatã",
+			"subclassSource": "MundoDeKyrSubclasses",
+			"level": 6,
+			"entries": [
+				"{@i 6º nível de característica de subclasse de Warlock.}",
+				"O Leviatã ensina que toda violência gera refluxo.",
+				"Quando uma criatura que você possa ver a até 60 pés causar dano a você ou a uma criatura aliada, você pode usar sua Reação para invocar uma maré de retorno contra ela.",
+				"A criatura deve realizar um teste de resistência de Força contra sua CD de magia de Bruxo. Em falha, ela sofre {@dice 2d8} de dano Frio ou Trovejante, à sua escolha, e é puxada até 10 pés em sua direção ou na direção da criatura ferida. Em sucesso, sofre metade do dano e não é puxada.",
+				"Além disso, a criatura ferida recebe Pontos de Vida Temporários iguais ao seu modificador de Carisma + seu Bônus de Proficiência.",
+				"Você pode usar esta característica um número de vezes igual ao seu modificador de Carisma, mínimo de uma vez, recuperando todos os usos ao terminar um {@variantrule Long Rest|XPHB|Descanso Longo}."
+			]
+		},
+		{
+			"name": "Pacto do Leviatã: Pressão Abissal",
+			"source": "MundoDeKyrSubclasses",
+			"page": 0,
+			"className": "Warlock",
+			"classSource": "XPHB",
+			"subclassShortName": "Leviatã",
+			"subclassSource": "MundoDeKyrSubclasses",
+			"level": 10,
+			"entries": [
+				"{@i 10º nível de característica de subclasse de Warlock.}",
+				"Sua carne e sua magia passam a carregar a pressão esmagadora das profundezas.",
+				"Você recebe Resistência a dano Frio e Trovejante.",
+				"Além disso, sua Corrente do Leviatã se torna mais poderosa. Quando uma criatura falhar no teste de resistência contra sua Corrente do Leviatã, você pode aplicar dois efeitos diferentes da lista, em vez de um.",
+				"Por fim, criaturas que estejam Agarradas, Restritas ou com a Velocidade reduzida por uma característica sua não podem se beneficiar de Vantagem em jogadas de ataque contra você."
+			]
+		},
+		{
+			"name": "Pacto do Leviatã: Abismo Manifesto",
+			"source": "MundoDeKyrSubclasses",
+			"page": 0,
+			"className": "Warlock",
+			"classSource": "XPHB",
+			"subclassShortName": "Leviatã",
+			"subclassSource": "MundoDeKyrSubclasses",
+			"level": 14,
+			"entries": [
+				"{@i 14º nível de característica de subclasse de Warlock.}",
+				"Você aprende a abrir, por um instante, a presença do Leviatã no campo de batalha.",
+				"Como Ação Bônus, você manifesta uma zona de pressão abissal em uma Emanação de 15 pés a partir de você. A zona dura 1 minuto, move-se com você e termina antecipadamente se você ficar {@condition Incapacitated|XPHB|Incapacitado}.",
+				"Enquanto a zona estiver ativa, você recebe os seguintes benefícios:",
+				{
+					"type": "entries",
+					"name": "Maré Esmagadora",
+					"entries": [
+						"Criaturas hostis tratam a área da Emanação como terreno difícil."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Fundo Sem Luz",
+					"entries": [
+						"A área da Emanação é preenchida por Meia-Luz, e criaturas hostis dentro dela não podem se beneficiar da condição Invisível contra você."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Mandíbula do Leviatã",
+					"entries": [
+						"Uma vez por turno, quando uma criatura hostil dentro da Emanação sofrer dano de uma magia sua de Bruxo, você pode forçá-la a realizar um teste de resistência de Força contra sua CD de magia de Bruxo. Em falha, ela sofre {@dice 3d8} de dano Frio ou Trovejante, à sua escolha, e fica Restrita até o início do seu próximo turno. Em sucesso, sofre metade do dano e não fica Restrita."
+					]
+				},
+				"Depois de usar esta característica, você não pode usá-la novamente até terminar um {@variantrule Long Rest|XPHB|Descanso Longo}, a menos que gaste um espaço de magia de Bruxo para usá-la novamente."
+			]
 		}
 	],
 	"subclassFluff": [
@@ -41036,6 +41324,24 @@
 				"{@i Bárbaros do Caminho do Pseudomago vivem em um mundo que chama qualquer coisa inexplicável de magia. Eles discordam.}",
 				"Para eles, conjuração é apenas uma forma frágil de explicar feitos que um corpo suficientemente treinado pode realizar. Onde um mago lança uma rajada arcana, o Pseudomago soca o ar com força suficiente para produzir o mesmo resultado. Onde um conjurador dobra o espaço, ele simplesmente salta longe demais para que alguém acompanhe. Onde outros invocam barreiras, ele flexiona o corpo e recusa o impacto.",
 				"Pseudomagos não conjuram magias. Eles imitam milagres com força bruta, presença absurda e uma confiança física ofensiva à razão."
+			]
+		},
+		{
+			"name": "Pacto do Leviatã",
+			"shortName": "Leviatã",
+			"source": "MundoDeKyrSubclasses",
+			"className": "Warlock",
+			"classSource": "XPHB",
+			"entries": [
+				{
+					"type": "section",
+					"name": "Pacto do Leviatã",
+					"entries": [
+						"Bruxos que firmam o Pacto do Leviatã não servem a um simples monstro marinho. O Leviatã é uma presença primordial das profundezas: uma vontade colossal associada à pressão, ao silêncio abissal, às marés impossíveis e ao peso esmagador do mundo submerso.",
+						"Em Kÿr, alguns acreditam que o Leviatã é um eco vivo de mares anteriores à fixação do mundo. Outros dizem que é uma entidade selada sob oceanos sem fundo, um Fragmento Primordial da Vastidão, ou uma consciência nascida do medo mortal diante daquilo que existe abaixo da luz.",
+						"Seja qual for a verdade, seus bruxos carregam uma marca clara: sua magia arrasta, afoga, comprime e prende. Eles não queimam o mundo. Eles o puxam para baixo."
+					]
+				}
 			]
 		}
 	],
