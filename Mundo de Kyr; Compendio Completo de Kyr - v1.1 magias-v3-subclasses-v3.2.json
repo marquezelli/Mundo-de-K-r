@@ -26,7 +26,7 @@
 				"convertedBy": [
 					"ChatGPT"
 				],
-				"version": "2.0.0",
+				"version": "2.2.0",
 				"url": "https://github.com/TheGiddyLimit/homebrew",
 				"dateAdded": 1777995910,
 				"dateModified": "2026-06-04"
@@ -86,7 +86,7 @@
 				"convertedBy": [
 					"ChatGPT"
 				],
-				"version": "2.23.1",
+				"version": "2.25.0",
 				"url": "https://github.com/TheGiddyLimit/homebrew",
 				"dateAdded": 1778520000,
 				"dateModified": "2026-06-04"
@@ -17975,6 +17975,1629 @@
 			"rarity": "uncommon",
 			"entries": [
 				"Quando você fizer uma criatura falhar no teste contra Sangrar/Bleed, pode aumentar o dano recorrente de sangramento para {@damage 1d6}. Depois de usar esta propriedade, você não pode usá-la novamente até terminar um Descanso Curto ou Longo."
+			],
+			"reqAttune": true
+		},
+		{
+			"name": "Courtweave Armor",
+			"source": "MundoDeKyrItens",
+			"page": 0,
+			"type": "LA|XPHB",
+			"rarity": "none",
+			"ac": 11,
+			"value": 15000,
+			"weight": 5,
+			"entries": [
+				"This armor is made from layered silk, hidden rings, treated fibers, and thin flexible plates sewn between noble garments. It is common among courtiers, spies, duelists, arcane envoys, and nobles who expect violence but cannot appear dressed for war.",
+				{
+					"type": "entries",
+					"name": "Armor Class",
+					"entries": [
+						"While wearing this armor, your base AC is 11 + your Dexterity modifier."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Discreta",
+					"entries": [
+						"The armor is made to pass as formal clothing. While wearing it, you have Advantage in Dexterity (Sleight of Hand) checks or Charisma (Deception) checks made to hide that you are wearing armor."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Prestígio",
+					"entries": [
+						"The armor is a sign of wealth and refinement. While wearing it in a social situation where status matters, you can add 1d4 to a Charisma (Persuasion) check. Once you add the die, you can’t do so again until you finish a Short or Long Rest."
+					]
+				}
+			]
+		},
+		{
+			"name": "Dueling Leather",
+			"source": "MundoDeKyrItens",
+			"page": 0,
+			"type": "LA|XPHB",
+			"rarity": "none",
+			"ac": 12,
+			"value": 10000,
+			"weight": 10,
+			"entries": [
+				"This fitted leather armor is reinforced around the ribs, shoulders, and forearms, allowing quick footwork without sacrificing the protection expected in formal duels.",
+				{
+					"type": "entries",
+					"name": "Armor Class",
+					"entries": [
+						"While wearing this armor, your base AC is 12 + your Dexterity modifier."
+					]
+				}
+			]
+		},
+		{
+			"name": "Concealed Brigandine",
+			"source": "MundoDeKyrItens",
+			"page": 0,
+			"type": "MA|XPHB",
+			"rarity": "none",
+			"ac": 13,
+			"value": 30000,
+			"weight": 18,
+			"entries": [
+				"This armor hides small metal plates beneath cloth, leather, or travel garments. It is favored by bodyguards, magistrates, investigators, caravan agents, and criminal nobles.",
+				{
+					"type": "entries",
+					"name": "Armor Class",
+					"entries": [
+						"While wearing this armor, your base AC is 13 + your Dexterity modifier, to a maximum of +3."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Discreta",
+					"entries": [
+						"The armor can be hidden beneath ordinary clothes. While wearing it, you have Advantage in Dexterity (Sleight of Hand) checks or Charisma (Deception) checks made to hide that you are wearing armor."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Flexível",
+					"entries": [
+						"This Medium armor moves with you. While wearing it, the maximum Dexterity modifier you can add to this armor’s AC increases by 1, to a maximum of +3."
+					]
+				}
+			],
+			"dexterityMax": 3
+		},
+		{
+			"name": "Scout Harness",
+			"source": "MundoDeKyrItens",
+			"page": 0,
+			"type": "MA|XPHB",
+			"rarity": "none",
+			"ac": 14,
+			"value": 45000,
+			"weight": 22,
+			"entries": [
+				"This armor combines hardened leather, light plates, climbing straps, and reinforced joints. It is built for rangers, ruin-delvers, scouts, monster hunters, and urban roof-runners.",
+				{
+					"type": "entries",
+					"name": "Armor Class",
+					"entries": [
+						"While wearing this armor, your base AC is 14 + your Dexterity modifier, to a maximum of +3."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Flexível",
+					"entries": [
+						"This Medium armor is built for climbing, crawling, and sudden movement. While wearing it, the maximum Dexterity modifier you can add to this armor’s AC increases by 1, to a maximum of +3."
+					]
+				}
+			],
+			"dexterityMax": 3
+		},
+		{
+			"name": "Reinforced Half Plate",
+			"source": "MundoDeKyrItens",
+			"page": 0,
+			"type": "MA|XPHB",
+			"rarity": "none",
+			"ac": 15,
+			"value": 150000,
+			"weight": 45,
+			"stealth": true,
+			"entries": [
+				"This version of half plate uses thicker breast plating, reinforced shoulders, and layered protection over vital points. It is heavier and louder than a breastplate, but significantly better at absorbing direct hits.",
+				{
+					"type": "entries",
+					"name": "Armor Class",
+					"entries": [
+						"While wearing this armor, your base AC is 15 + your Dexterity modifier, to a maximum of +2."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Stealth",
+					"entries": [
+						"You have Disadvantage on Dexterity (Stealth) checks while wearing this armor."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Reforçada",
+					"entries": [
+						"While wearing this armor, whenever you take Bludgeoning, Piercing, or Slashing damage from an attack, reduce that damage by 2. This reduction is applied before resistance or vulnerability and can’t reduce the damage below 0."
+					]
+				}
+			]
+		},
+		{
+			"name": "Noble Plate",
+			"source": "MundoDeKyrItens",
+			"page": 0,
+			"type": "HA|XPHB",
+			"rarity": "none",
+			"ac": 18,
+			"strength": "Str 15",
+			"value": 250000,
+			"weight": 65,
+			"stealth": true,
+			"entries": [
+				"This plate armor is forged to the same defensive standard as battlefield plate, but decorated with heraldry, polished reliefs, enamel, goldwork, oath-script, or military honors. It is armor meant to survive war and be seen afterward.",
+				{
+					"type": "entries",
+					"name": "Armor Class",
+					"entries": [
+						"While wearing this armor, your base AC is 18."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Strength",
+					"entries": [
+						"If your Strength score is lower than 15, your Speed is reduced by 10 feet while wearing this armor."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Stealth",
+					"entries": [
+						"You have Disadvantage on Dexterity (Stealth) checks while wearing this armor."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Prestígio",
+					"entries": [
+						"The armor displays rank, noble standing, military distinction, or institutional authority. While wearing it in a situation where such symbols matter, you can add 1d4 to a Charisma (Intimidation) or Charisma (Persuasion) check. Once you add the die, you can’t do so again until you finish a Short or Long Rest."
+					]
+				}
+			]
+		},
+		{
+			"name": "Sovereign Plate",
+			"source": "MundoDeKyrItens",
+			"page": 0,
+			"type": "HA|XPHB",
+			"rarity": "none",
+			"ac": 19,
+			"strength": "Str 19",
+			"value": 750000,
+			"weight": 85,
+			"stealth": true,
+			"entries": [
+				"This masterwork plate is heavier, thicker, and more exacting than ordinary plate armor. It is built only for warriors of exceptional strength, often by royal foundries, temple-forges, volcanic smiths, or legendary military orders. It protects better than standard plate, but only the strongest can wear it without losing mobility.",
+				{
+					"type": "entries",
+					"name": "Armor Class",
+					"entries": [
+						"While wearing this armor, your base AC is 19."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Strength",
+					"entries": [
+						"If your Strength score is lower than 19, your Speed is reduced by 10 feet while wearing this armor."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Stealth",
+					"entries": [
+						"You have Disadvantage on Dexterity (Stealth) checks while wearing this armor."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Reforçada",
+					"entries": [
+						"While wearing this armor, whenever you take Bludgeoning, Piercing, or Slashing damage from an attack, reduce that damage by 3. This reduction is applied before resistance or vulnerability and can’t reduce the damage below 0."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Prestígio",
+					"entries": [
+						"The armor marks you as someone of exceptional rank, wealth, conquest, or martial renown. While wearing it in a situation where such symbols matter, you can add 1d4 to a Charisma (Intimidation) or Charisma (Persuasion) check. Once you add the die, you can’t do so again until you finish a Short or Long Rest."
+					]
+				}
+			]
+		},
+		{
+			"name": "Buckler",
+			"source": "MundoDeKyrItens",
+			"page": 0,
+			"type": "S|XPHB",
+			"rarity": "none",
+			"ac": 1,
+			"value": 3000,
+			"weight": 2,
+			"entries": [
+				"A buckler is a small shield strapped to the forearm or gripped close to the hand. It is used to catch blades, deflect thrusts, and protect the wielder without fully occupying the arm.",
+				{
+					"type": "entries",
+					"name": "Armor Class",
+					"entries": [
+						"While wearing this shield, you gain a +1 bonus to AC. You benefit from only one Shield at a time."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Shield Training",
+					"entries": [
+						"You gain the AC bonus from a Buckler only if you have training with Shields."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Partial Grip",
+					"entries": [
+						"A Buckler doesn’t fully occupy the hand attached to it. That hand can hold a weapon that has the Light property, can help wield a weapon that has the Two-Handed property, and can perform simple object interactions. The hand can’t hold a weapon that lacks the Light property, can’t hold another Shield, and doesn’t count as a free hand for a Grapple or for any rule that requires a free hand unless the DM decides the task is simple enough."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Light Weapon Use",
+					"entries": [
+						"If you take the Attack action and attack with a Light weapon held in the Buckler hand, the Buckler doesn’t prevent you from using the Light property."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Two-Handed Weapon Use",
+					"entries": [
+						"If you wield a weapon that has the Two-Handed property, the Buckler doesn’t prevent you from using both hands for that weapon."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Features and Restrictions",
+					"entries": [
+						"A Buckler counts as a Shield for any feature, spell, or rule that refers to wearing or wielding a Shield."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Don or Doff",
+					"entries": [
+						"You can don or doff a Buckler with the Utilize action."
+					]
+				}
+			]
+		},
+		{
+			"name": "Tower Shield",
+			"source": "MundoDeKyrItens",
+			"page": 0,
+			"type": "S|XPHB",
+			"rarity": "none",
+			"ac": 3,
+			"strength": "Str 15",
+			"value": 15000,
+			"weight": 20,
+			"stealth": true,
+			"entries": [
+				"A tower shield is a large shield designed to cover most of the body. It is common among siege troops, phalanxes, tunnel guards, and soldiers trained to hold ground under missile fire.",
+				{
+					"type": "entries",
+					"name": "Armor Class",
+					"entries": [
+						"While wearing this shield, you gain a +3 bonus to AC. You benefit from only one Shield at a time."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Shield Training",
+					"entries": [
+						"You gain the AC bonus from a Tower Shield only if you have training with Shields."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Strength",
+					"entries": [
+						"If your Strength score is lower than 15, your Speed is reduced by 10 feet while wearing this shield."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Stealth",
+					"entries": [
+						"You have Disadvantage on Dexterity (Stealth) checks while wearing this shield."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Bulwark",
+					"entries": [
+						"When you take the Dodge action while wearing this shield, you also have Half Cover against ranged attack rolls and Dexterity saving throws until the start of your next turn. This benefit ends early if you move more than 5 feet, become Incapacitated, or are no longer wearing the Tower Shield."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Don or Doff",
+					"entries": [
+						"You can don or doff a Tower Shield with the Utilize action."
+					]
+				}
+			]
+		},
+		{
+			"name": "Manoplas de Agarre",
+			"source": "MundoDeKyrItens",
+			"page": 0,
+			"rarity": "none",
+			"type": "M|XPHB",
+			"value": 3000,
+			"weight": 2,
+			"weaponCategory": "simple",
+			"entries": [
+				"Estas manoplas têm superfície aderente, travas nos dedos e pulseiras de suporte para o punho. Elas são usadas por lutadores de arena, monges de contenção, caçadores de criminosos e guerreiros que preferem dominar o corpo do inimigo em vez de apenas feri-lo.",
+				{
+					"type": "entries",
+					"name": "Arma Vestida",
+					"entries": [
+						"Estas manoplas contam como uma arma. Enquanto estiver usando-as, seus ataques feitos com elas contam como ataques feitos com uma arma e também como Unarmed Strikes."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Dano do Golpe Desarmado",
+					"entries": [
+						"O dano destas manoplas é igual ao dano do seu Unarmed Strike. Se uma feature, feat ou outro efeito alterar o dano do seu Unarmed Strike, as manoplas usam esse dano alterado."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Agarre Firme",
+					"entries": [
+						"Enquanto estiver usando estas manoplas, a Escape DC dos seus Grapples iniciados por um Unarmed Strike aumenta em 1."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Controle Corporal",
+					"entries": [
+						"Quando você atingir uma criatura com um Unarmed Strike feito com estas manoplas, você pode escolher causar dano normalmente ou tentar Grapple ou Shove como parte desse Unarmed Strike, conforme as regras normais de Unarmed Strike."
+					]
+				}
+			]
+		},
+		{
+			"name": "Faixas do Golpe Centrado",
+			"source": "MundoDeKyrItens",
+			"page": 0,
+			"rarity": "uncommon",
+			"type": "M|XPHB",
+			"reqAttune": true,
+			"weaponCategory": "simple",
+			"entries": [
+				"Estas faixas são enroladas sobre as mãos e pulsos, marcadas por pequenos nós que endurecem no instante do impacto.",
+				{
+					"type": "entries",
+					"name": "Arma Vestida",
+					"entries": [
+						"Estas manoplas contam como uma arma. Enquanto estiver usando-as, seus ataques feitos com elas contam como ataques feitos com uma arma e também como Unarmed Strikes."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Dano do Golpe Desarmado",
+					"entries": [
+						"O dano destas manoplas é igual ao dano do seu Unarmed Strike. Se uma feature, feat ou outro efeito alterar o dano do seu Unarmed Strike, as manoplas usam esse dano alterado."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Golpe Centrado",
+					"entries": [
+						"Você ganha +1 de bônus nas attack rolls e damage rolls dos seus Unarmed Strikes feitos com estas faixas."
+					]
+				}
+			],
+			"bonusWeapon": "+1"
+		},
+		{
+			"name": "Manoplas da Correnteza Serena",
+			"source": "MundoDeKyrItens",
+			"page": 0,
+			"rarity": "uncommon",
+			"type": "M|XPHB",
+			"reqAttune": true,
+			"weaponCategory": "simple",
+			"entries": [
+				"Estas manoplas azul-escuras parecem sempre úmidas, e pequenos filetes de água percorrem os dedos quando o usuário entra em movimento.",
+				{
+					"type": "entries",
+					"name": "Arma Vestida",
+					"entries": [
+						"Estas manoplas contam como uma arma. Enquanto estiver usando-as, seus ataques feitos com elas contam como ataques feitos com uma arma e também como Unarmed Strikes."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Dano do Golpe Desarmado",
+					"entries": [
+						"O dano destas manoplas é igual ao dano do seu Unarmed Strike. Se uma feature, feat ou outro efeito alterar o dano do seu Unarmed Strike, as manoplas usam esse dano alterado."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Fluxo Sem Trava",
+					"entries": [
+						"Uma vez por turno, quando você atingir uma criatura com um Unarmed Strike feito com estas manoplas, você pode se mover até 10 feet sem provocar Opportunity Attacks da criatura atingida."
+					]
+				}
+			]
+		},
+		{
+			"name": "Manoplas do Eco Retumbante",
+			"source": "MundoDeKyrItens",
+			"page": 0,
+			"rarity": "rare",
+			"type": "M|XPHB",
+			"reqAttune": true,
+			"weaponCategory": "simple",
+			"entries": [
+				"Estas manoplas vibram de leve antes do impacto, como se o golpe acertasse primeiro no eco da realidade e só depois no alvo.",
+				{
+					"type": "entries",
+					"name": "Arma Vestida",
+					"entries": [
+						"Estas manoplas contam como uma arma. Enquanto estiver usando-as, seus ataques feitos com elas contam como ataques feitos com uma arma e também como Unarmed Strikes."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Dano do Golpe Desarmado",
+					"entries": [
+						"O dano destas manoplas é igual ao dano do seu Unarmed Strike. Se uma feature, feat ou outro efeito alterar o dano do seu Unarmed Strike, as manoplas usam esse dano alterado."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Impacto Ressonante",
+					"entries": [
+						"Quando você atingir uma criatura com um Unarmed Strike feito com estas manoplas, o ataque causa 1d6 Thunder damage adicional."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Quebra de Ritmo",
+					"entries": [
+						"Se uma criatura sofrer o dano adicional de Impacto Ressonante, ela não pode fazer Opportunity Attacks até o início do próximo turno dela."
+					]
+				}
+			]
+		},
+		{
+			"name": "Manoplas da Raiz Imóvel",
+			"source": "MundoDeKyrItens",
+			"page": 0,
+			"rarity": "rare",
+			"type": "M|XPHB",
+			"reqAttune": true,
+			"weaponCategory": "simple",
+			"entries": [
+				"Feitas com fibras endurecidas e pequenos anéis de metal orgânico, estas manoplas são usadas por estilos que imitam a solidez da Árvore do Mundo.",
+				{
+					"type": "entries",
+					"name": "Arma Vestida",
+					"entries": [
+						"Estas manoplas contam como uma arma. Enquanto estiver usando-as, seus ataques feitos com elas contam como ataques feitos com uma arma e também como Unarmed Strikes."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Dano do Golpe Desarmado",
+					"entries": [
+						"O dano destas manoplas é igual ao dano do seu Unarmed Strike. Se uma feature, feat ou outro efeito alterar o dano do seu Unarmed Strike, as manoplas usam esse dano alterado."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Raiz no Impacto",
+					"entries": [
+						"Quando você atingir uma criatura com um Unarmed Strike feito com estas manoplas, a Speed dela é reduzida em 10 feet até o início do seu próximo turno."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Prisão da Raiz",
+					"entries": [
+						"Quando você atingir uma criatura com um Unarmed Strike feito com estas manoplas, você pode forçá-la a realizar um Strength saving throw. A DC é igual a 8 + seu Proficiency Bonus + o modificador de habilidade usado no ataque. Em uma falha, a criatura fica Restrained até o início do seu próximo turno.",
+						"Depois de usar Prisão da Raiz, você não pode usá-la novamente até terminar um Short or Long Rest."
+					]
+				}
+			]
+		},
+		{
+			"name": "Manoplas do Julgamento Sereno",
+			"source": "MundoDeKyrItens",
+			"page": 0,
+			"rarity": "very rare",
+			"type": "M|XPHB",
+			"reqAttune": true,
+			"weaponCategory": "simple",
+			"entries": [
+				"Estas manoplas douradas e brancas emitem um brilho suave nos nós dos dedos, lembrando selos de equilíbrio, disciplina e decisão.",
+				{
+					"type": "entries",
+					"name": "Arma Vestida",
+					"entries": [
+						"Estas manoplas contam como uma arma. Enquanto estiver usando-as, seus ataques feitos com elas contam como ataques feitos com uma arma e também como Unarmed Strikes."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Dano do Golpe Desarmado",
+					"entries": [
+						"O dano destas manoplas é igual ao dano do seu Unarmed Strike. Se uma feature, feat ou outro efeito alterar o dano do seu Unarmed Strike, as manoplas usam esse dano alterado."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Golpe Julgador",
+					"entries": [
+						"Seus Unarmed Strikes feitos com estas manoplas causam 1d4 Radiant damage adicional."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Equilíbrio Interior",
+					"entries": [
+						"Quando você atingir uma criatura com um Unarmed Strike feito com estas manoplas, você ou uma criatura que você possa ver a até 30 feet de você ganha Temporary Hit Points iguais ao seu Wisdom modifier ou Charisma modifier, à sua escolha, mínimo de 1.",
+						"Uma criatura só pode receber esses Temporary Hit Points uma vez por turno."
+					]
+				}
+			]
+		},
+		{
+			"name": "Manoplas da Lua Vazia",
+			"source": "MundoDeKyrItens",
+			"page": 0,
+			"rarity": "very rare",
+			"type": "M|XPHB",
+			"reqAttune": true,
+			"weaponCategory": "simple",
+			"entries": [
+				"Estas manoplas negras e prateadas parecem desfocar levemente os dedos do usuário, como se seus golpes tocassem o espaço vazio entre um instante e outro.",
+				{
+					"type": "entries",
+					"name": "Arma Vestida",
+					"entries": [
+						"Estas manoplas contam como uma arma. Enquanto estiver usando-as, seus ataques feitos com elas contam como ataques feitos com uma arma e também como Unarmed Strikes."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Dano do Golpe Desarmado",
+					"entries": [
+						"O dano destas manoplas é igual ao dano do seu Unarmed Strike. Se uma feature, feat ou outro efeito alterar o dano do seu Unarmed Strike, as manoplas usam esse dano alterado."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Golpe da Lua Vazia",
+					"entries": [
+						"Seus Unarmed Strikes feitos com estas manoplas causam 1d6 Force damage adicional."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Passo Vazio",
+					"entries": [
+						"Quando você atingir uma criatura com um Unarmed Strike feito com estas manoplas, você pode teleportar-se até 5 feet para um espaço desocupado que possa ver. Esse movimento não provoca Opportunity Attacks.",
+						"Você só pode teleportar-se dessa forma uma vez por ataque."
+					]
+				}
+			]
+		},
+		{
+			"name": "Manoplas do Horizonte Quebrado",
+			"source": "MundoDeKyrItens",
+			"page": 0,
+			"rarity": "legendary",
+			"type": "M|XPHB",
+			"reqAttune": true,
+			"weaponCategory": "simple",
+			"entries": [
+				"Estas manoplas são feitas de fragmentos aethéricos estabilizados, ligadas a antigos mestres que aprenderam a golpear não apenas o corpo, mas a direção do destino de um alvo.",
+				{
+					"type": "entries",
+					"name": "Arma Vestida",
+					"entries": [
+						"Estas manoplas contam como uma arma. Enquanto estiver usando-as, seus ataques feitos com elas contam como ataques feitos com uma arma e também como Unarmed Strikes."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Dano do Golpe Desarmado",
+					"entries": [
+						"O dano destas manoplas é igual ao dano do seu Unarmed Strike. Se uma feature, feat ou outro efeito alterar o dano do seu Unarmed Strike, as manoplas usam esse dano alterado."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Mãos do Mestre",
+					"entries": [
+						"Você ganha +2 de bônus nas attack rolls e damage rolls dos seus Unarmed Strikes feitos com estas manoplas."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Ruptura do Horizonte",
+					"entries": [
+						"Seus Unarmed Strikes feitos com estas manoplas causam 1d8 Force damage adicional."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Sequência Inevitável",
+					"entries": [
+						"Quando você atingir uma criatura com um Unarmed Strike feito com estas manoplas, escolha um dos efeitos abaixo:",
+						{
+							"type": "list",
+							"items": [
+								"a criatura é empurrada 10 feet para longe de você;",
+								"a criatura fica Prone;",
+								"a criatura não pode fazer Reactions até o início do próximo turno dela."
+							]
+						},
+						"Uma criatura só pode sofrer um dos efeitos de Sequência Inevitável por turno."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Quebra de Destino",
+					"entries": [
+						"Uma vez por Long Rest, quando você atingir uma criatura com um Unarmed Strike feito com estas manoplas, você pode transformar esse acerto em um Critical Hit."
+					]
+				}
+			],
+			"bonusWeapon": "+2"
+		},
+		{
+			"name": "Veste do Aprendiz Aethérico",
+			"source": "MundoDeKyrItens",
+			"page": 0,
+			"rarity": "common",
+			"wondrous": true,
+			"entries": [
+				"Veste simples usada por aprendizes, estudantes de magia, copistas de grimórios e arcanistas iniciantes.",
+				{
+					"type": "entries",
+					"name": "Roupa Mágica",
+					"entries": [
+						"Este item não conta como Armor, não exige Armor Training e não impõe Disadvantage em Dexterity (Stealth) checks, salvo se o item disser o contrário. Enquanto estiver usando este item e não estiver usando Armor, você ainda conta como não estando usando Armor."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Memória de Estudo",
+					"entries": [
+						"Enquanto estiver usando esta veste, você pode adicionar 1d4 a um Intelligence (Arcana) check. Depois de adicionar o dado, você não pode fazê-lo novamente até terminar um Long Rest."
+					]
+				}
+			]
+		},
+		{
+			"name": "Traje do Cortesão Encantado",
+			"source": "MundoDeKyrItens",
+			"page": 0,
+			"rarity": "common",
+			"wondrous": true,
+			"entries": [
+				"Traje elegante que se ajusta levemente ao contexto social, parecendo mais formal, discreto ou severo conforme o ambiente.",
+				{
+					"type": "entries",
+					"name": "Roupa Mágica",
+					"entries": [
+						"Este item não conta como Armor, não exige Armor Training e não impõe Disadvantage em Dexterity (Stealth) checks, salvo se o item disser o contrário. Enquanto estiver usando este item e não estiver usando Armor, você ainda conta como não estando usando Armor."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Postura Social",
+					"entries": [
+						"Enquanto estiver usando este traje, você pode adicionar 1d4 a um Charisma (Persuasion) ou Charisma (Deception) check feito em uma interação social formal. Depois de adicionar o dado, você não pode fazê-lo novamente até terminar um Long Rest."
+					]
+				}
+			]
+		},
+		{
+			"name": "Manto do Passo Leve",
+			"source": "MundoDeKyrItens",
+			"page": 0,
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"Manto feito para exploradores, espiões, viajantes e ladrões de telhado.",
+				{
+					"type": "entries",
+					"name": "Roupa Mágica",
+					"entries": [
+						"Este item não conta como Armor, não exige Armor Training e não impõe Disadvantage em Dexterity (Stealth) checks, salvo se o item disser o contrário. Enquanto estiver usando este item e não estiver usando Armor, você ainda conta como não estando usando Armor."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Passo Silencioso",
+					"entries": [
+						"Enquanto estiver usando este manto, você pode adicionar 1d4 a um Dexterity (Stealth) check. Depois de adicionar o dado, você não pode fazê-lo novamente até terminar um Short or Long Rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Queda Controlada",
+					"entries": [
+						"Quando você cair, reduza qualquer Falling damage que sofrer em uma quantidade igual ao dobro do seu Proficiency Bonus."
+					]
+				}
+			]
+		},
+		{
+			"name": "Casaco do Andarilho Improvável",
+			"source": "MundoDeKyrItens",
+			"page": 0,
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"Casaco cheio de bolsos, marcas de viagem e pequenos detalhes que parecem mudar de lugar.",
+				{
+					"type": "entries",
+					"name": "Roupa Mágica",
+					"entries": [
+						"Este item não conta como Armor, não exige Armor Training e não impõe Disadvantage em Dexterity (Stealth) checks, salvo se o item disser o contrário. Enquanto estiver usando este item e não estiver usando Armor, você ainda conta como não estando usando Armor."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Bolso Conveniente",
+					"entries": [
+						"Como uma Bonus Action, você pode retirar de um bolso um item mundano não consumível que custe até 1 GP e pese até 1 pound. O item desaparece depois de 1 hora se não estiver sendo segurado ou carregado por uma criatura. Depois de usar esta propriedade, você não pode usá-la novamente até terminar um Short or Long Rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Memória de Estrada",
+					"entries": [
+						"Você tem Advantage em Wisdom (Survival) checks feitos para evitar se perder em estradas, trilhas ou ruínas urbanas."
+					]
+				}
+			]
+		},
+		{
+			"name": "Túnica da Fonte Estável",
+			"source": "MundoDeKyrItens",
+			"page": 0,
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"Túnica bordada com uma das cinco Fontes de Kÿr: Arcana, Anímica, Divina, Primordial ou Sombria.",
+				{
+					"type": "entries",
+					"name": "Roupa Mágica",
+					"entries": [
+						"Este item não conta como Armor, não exige Armor Training e não impõe Disadvantage em Dexterity (Stealth) checks, salvo se o item disser o contrário. Enquanto estiver usando este item e não estiver usando Armor, você ainda conta como não estando usando Armor."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Fonte Escolhida",
+					"entries": [
+						"Ao sintonizar-se com a túnica, escolha uma Fonte. Enquanto estiver usando a túnica, você tem Advantage em checks feitos para identificar magia, ritual, criatura ou fenômeno ligado à Fonte escolhida."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Condução Estável",
+					"entries": [
+						"Quando você falhar em um Constitution saving throw feito para manter Concentration em uma magia, você pode rolar 1d4 e adicionar o resultado ao saving throw, possivelmente transformando a falha em sucesso. Depois de usar esta propriedade, você não pode usá-la novamente até terminar um Long Rest."
+					]
+				}
+			],
+			"reqAttune": "by a Spellcaster",
+			"reqAttuneTags": [
+				{
+					"spellcasting": true
+				}
+			]
+		},
+		{
+			"name": "Veste da Brasa Controlada",
+			"source": "MundoDeKyrItens",
+			"page": 0,
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"Veste escura com linhas avermelhadas que brilham como carvão sob cinzas.",
+				{
+					"type": "entries",
+					"name": "Roupa Mágica",
+					"entries": [
+						"Este item não conta como Armor, não exige Armor Training e não impõe Disadvantage em Dexterity (Stealth) checks, salvo se o item disser o contrário. Enquanto estiver usando este item e não estiver usando Armor, você ainda conta como não estando usando Armor."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Brasa Interna",
+					"entries": [
+						"Você tem Resistance to Fire damage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Chama Contida",
+					"entries": [
+						"Quando você receber a condição Queimando, pode encerrar essa condição em si mesmo no final do seu turno, sem necessidade de teste. Depois de usar esta propriedade, você não pode usá-la novamente até terminar um Long Rest."
+					]
+				}
+			],
+			"reqAttune": true
+		},
+		{
+			"name": "Manto das Correntes Frias",
+			"source": "MundoDeKyrItens",
+			"page": 0,
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"Manto úmido ao toque, mas que nunca molha o usuário, marcado por linhas azuladas como rios congelados.",
+				{
+					"type": "entries",
+					"name": "Roupa Mágica",
+					"entries": [
+						"Este item não conta como Armor, não exige Armor Training e não impõe Disadvantage em Dexterity (Stealth) checks, salvo se o item disser o contrário. Enquanto estiver usando este item e não estiver usando Armor, você ainda conta como não estando usando Armor."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Sangue Frio",
+					"entries": [
+						"Você tem Resistance to Cold damage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Corpo em Movimento",
+					"entries": [
+						"Quando você falhar em um saving throw contra a condição Resfriado ou Congelado, pode rolar 1d4 e adicionar o resultado ao saving throw, possivelmente transformando a falha em sucesso. Depois de usar esta propriedade, você não pode usá-la novamente até terminar um Long Rest."
+					]
+				}
+			],
+			"reqAttune": true
+		},
+		{
+			"name": "Veste da Resistência Elemental",
+			"source": "MundoDeKyrItens",
+			"page": 0,
+			"rarity": "rare",
+			"wondrous": true,
+			"entries": [
+				"Veste bordada com fios minerais ligados a um tipo de energia. Ao ser criada, escolha um dos seguintes tipos de dano: Acid, Cold, Fire, Lightning, Poison ou Thunder.",
+				{
+					"type": "entries",
+					"name": "Roupa Mágica",
+					"entries": [
+						"Este item não conta como Armor, não exige Armor Training e não impõe Disadvantage em Dexterity (Stealth) checks, salvo se o item disser o contrário. Enquanto estiver usando este item e não estiver usando Armor, você ainda conta como não estando usando Armor."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Resistência Elemental",
+					"entries": [
+						"Enquanto estiver usando esta veste, você tem Resistance ao tipo de dano escolhido."
+					]
+				}
+			]
+		},
+		{
+			"name": "Traje de Defesa Aethérica",
+			"source": "MundoDeKyrItens",
+			"page": 0,
+			"rarity": "rare",
+			"wondrous": true,
+			"entries": [
+				"Traje reforçado com linhas invisíveis de Aether endurecida.",
+				{
+					"type": "entries",
+					"name": "Roupa Mágica",
+					"entries": [
+						"Este item não conta como Armor, não exige Armor Training e não impõe Disadvantage em Dexterity (Stealth) checks, salvo se o item disser o contrário. Enquanto estiver usando este item e não estiver usando Armor, você ainda conta como não estando usando Armor."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Defesa Aethérica",
+					"entries": [
+						"Enquanto estiver usando este traje e não estiver usando Armor, você ganha +1 de bônus na AC."
+					]
+				}
+			],
+			"bonusAc": "+1"
+		},
+		{
+			"name": "Manto do Corpo Impassível",
+			"source": "MundoDeKyrItens",
+			"page": 0,
+			"rarity": "rare",
+			"wondrous": true,
+			"entries": [
+				"Manto pesado ao toque, mas leve quando vestido, capaz de absorver parte da força de golpes diretos.",
+				{
+					"type": "entries",
+					"name": "Roupa Mágica",
+					"entries": [
+						"Este item não conta como Armor, não exige Armor Training e não impõe Disadvantage em Dexterity (Stealth) checks, salvo se o item disser o contrário. Enquanto estiver usando este item e não estiver usando Armor, você ainda conta como não estando usando Armor."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Amortecimento Menor",
+					"entries": [
+						"Enquanto estiver usando este manto e não estiver usando Armor, sempre que sofrer Bludgeoning, Piercing or Slashing damage de um ataque, reduza esse dano em 1."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Peso Distribuído",
+					"entries": [
+						"Você tem Advantage em saving throws feitos para evitar ser derrubado."
+					]
+				}
+			]
+		},
+		{
+			"name": "Regalia da Corte Incandescente",
+			"source": "MundoDeKyrItens",
+			"page": 0,
+			"rarity": "rare",
+			"wondrous": true,
+			"entries": [
+				"Roupa cerimonial usada por diplomatas, arcanistas palacianos, arautos e nobres.",
+				{
+					"type": "entries",
+					"name": "Roupa Mágica",
+					"entries": [
+						"Este item não conta como Armor, não exige Armor Training e não impõe Disadvantage em Dexterity (Stealth) checks, salvo se o item disser o contrário. Enquanto estiver usando este item e não estiver usando Armor, você ainda conta como não estando usando Armor."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Presença Protegida",
+					"entries": [
+						"Enquanto estiver usando esta regalia e não estiver usando Armor, você ganha +1 de bônus na AC."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Autoridade Visível",
+					"entries": [
+						"Enquanto estiver usando esta regalia, você pode adicionar 1d4 a Charisma (Persuasion) ou Charisma (Intimidation) checks feitos contra criaturas capazes de compreender sua posição social, título, patente ou autoridade. Depois de adicionar esse dado, você não pode fazê-lo novamente até terminar um Short or Long Rest."
+					]
+				}
+			],
+			"bonusAc": "+1"
+		},
+		{
+			"name": "Traje do Assassino Cortês",
+			"source": "MundoDeKyrItens",
+			"page": 0,
+			"rarity": "rare",
+			"wondrous": true,
+			"entries": [
+				"Traje escuro de corte nobre, feito para esconder movimento, intenção e respiração.",
+				{
+					"type": "entries",
+					"name": "Roupa Mágica",
+					"entries": [
+						"Este item não conta como Armor, não exige Armor Training e não impõe Disadvantage em Dexterity (Stealth) checks, salvo se o item disser o contrário. Enquanto estiver usando este item e não estiver usando Armor, você ainda conta como não estando usando Armor."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Defesa Discreta",
+					"entries": [
+						"Enquanto estiver usando este traje e não estiver usando Armor, você ganha +1 de bônus na AC."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Discrição Elegante",
+					"entries": [
+						"Enquanto estiver usando este traje, você tem Advantage em Dexterity (Stealth) checks feitos para se esconder em multidões, salões, tavernas, ruas movimentadas ou ambientes urbanos."
+					]
+				}
+			],
+			"bonusAc": "+1"
+		},
+		{
+			"name": "Robe da Memória Persistente",
+			"source": "MundoDeKyrItens",
+			"page": 0,
+			"rarity": "rare",
+			"wondrous": true,
+			"entries": [
+				"Robe coberto por fragmentos de frases que aparecem e desaparecem conforme o usuário pensa ou recorda.",
+				{
+					"type": "entries",
+					"name": "Roupa Mágica",
+					"entries": [
+						"Este item não conta como Armor, não exige Armor Training e não impõe Disadvantage em Dexterity (Stealth) checks, salvo se o item disser o contrário. Enquanto estiver usando este item e não estiver usando Armor, você ainda conta como não estando usando Armor."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Eco Preparado",
+					"entries": [
+						"Quando você terminar um Long Rest, escolha uma skill na qual você seja proficient. Até o próximo Long Rest, você pode adicionar 1d4 a ability checks feitos com essa skill."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Recordação Forçada",
+					"entries": [
+						"Quando uma criatura que você possa ver a até 60 feet de você for bem-sucedida em um saving throw contra uma spell que você conjurou, você pode forçá-la a subtrair 1d4 do resultado, possivelmente transformando o sucesso em falha. Depois de usar esta propriedade, você não pode usá-la novamente até terminar um Long Rest."
+					]
+				}
+			],
+			"reqAttune": "by a Bard, Sorcerer, Warlock, or Wizard",
+			"reqAttuneTags": [
+				{
+					"class": "bard"
+				},
+				{
+					"class": "sorcerer"
+				},
+				{
+					"class": "warlock"
+				},
+				{
+					"class": "wizard"
+				}
+			]
+		},
+		{
+			"name": "Traje do Duelista Sem Armadura",
+			"source": "MundoDeKyrItens",
+			"page": 0,
+			"rarity": "rare",
+			"wondrous": true,
+			"entries": [
+				"Traje de faixas rígidas, tecido reforçado e runas quase invisíveis posicionadas nos pontos de maior risco do corpo.",
+				{
+					"type": "entries",
+					"name": "Roupa Mágica",
+					"entries": [
+						"Este item não conta como Armor, não exige Armor Training e não impõe Disadvantage em Dexterity (Stealth) checks, salvo se o item disser o contrário. Enquanto estiver usando este item e não estiver usando Armor, você ainda conta como não estando usando Armor."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Defesa Instintiva",
+					"entries": [
+						"Enquanto você não estiver usando Armor nem Shield, sua base AC é 13 + seu Dexterity modifier."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Reposicionamento Curto",
+					"entries": [
+						"Quando uma criatura errar um melee attack contra você, você pode se mover até 5 feet sem provocar Opportunity Attacks da criatura que errou. Depois de usar esta propriedade, você não pode usá-la novamente até o início do seu próximo turno."
+					]
+				}
+			],
+			"reqAttune": true
+		},
+		{
+			"name": "Veste da Sombra Educada",
+			"source": "MundoDeKyrItens",
+			"page": 0,
+			"rarity": "rare",
+			"wondrous": true,
+			"entries": [
+				"Veste que não torna o usuário invisível, mas convence a atenção dos outros de que há coisas mais importantes a observar.",
+				{
+					"type": "entries",
+					"name": "Roupa Mágica",
+					"entries": [
+						"Este item não conta como Armor, não exige Armor Training e não impõe Disadvantage em Dexterity (Stealth) checks, salvo se o item disser o contrário. Enquanto estiver usando este item e não estiver usando Armor, você ainda conta como não estando usando Armor."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Presença Desinteressante",
+					"entries": [
+						"Enquanto estiver em Dim Light ou Darkness, você tem Advantage em Dexterity (Stealth) checks."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Não Era Nada",
+					"entries": [
+						"Quando uma criatura que possa ver você acertar um attack roll contra você, você pode impor Disadvantage a esse ataque, possivelmente fazendo-o errar. Depois de usar esta propriedade, você não pode usá-la novamente até terminar um Long Rest."
+					]
+				}
+			],
+			"reqAttune": true
+		},
+		{
+			"name": "Manto de Tandril",
+			"source": "MundoDeKyrItens",
+			"page": 0,
+			"rarity": "rare",
+			"wondrous": true,
+			"entries": [
+				"Manto cinzento que parece se mover em três direções ao mesmo tempo: para frente, para trás e para lugar nenhum.",
+				{
+					"type": "entries",
+					"name": "Roupa Mágica",
+					"entries": [
+						"Este item não conta como Armor, não exige Armor Training e não impõe Disadvantage em Dexterity (Stealth) checks, salvo se o item disser o contrário. Enquanto estiver usando este item e não estiver usando Armor, você ainda conta como não estando usando Armor."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Entre Portas",
+					"entries": [
+						"Você tem Advantage em saving throws contra a condição Frightened."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Pausa da Travessia",
+					"entries": [
+						"Quando você cair a 0 Hit Points, mas não morrer imediatamente, pode cair a 1 Hit Point em vez disso. Depois que esta propriedade for usada, ela não pode ser usada novamente até o próximo amanhecer."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Voz Liminal",
+					"entries": [
+						"Você pode adicionar 1d4 a Charisma (Persuasion) checks feitos para interagir com mortos-vivos inteligentes, espíritos, aparições ou criaturas ligadas a ritos funerários."
+					]
+				}
+			],
+			"reqAttune": true
+		},
+		{
+			"name": "Veste da Resistência Superior",
+			"source": "MundoDeKyrItens",
+			"page": 0,
+			"rarity": "very rare",
+			"wondrous": true,
+			"entries": [
+				"Roupa feita com fios aethéricos raros, normalmente tecidos em locais de grande instabilidade planar. Ao ser criada, escolha um dos seguintes tipos de dano: Force, Necrotic, Psychic ou Radiant.",
+				{
+					"type": "entries",
+					"name": "Roupa Mágica",
+					"entries": [
+						"Este item não conta como Armor, não exige Armor Training e não impõe Disadvantage em Dexterity (Stealth) checks, salvo se o item disser o contrário. Enquanto estiver usando este item e não estiver usando Armor, você ainda conta como não estando usando Armor."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Resistência Superior",
+					"entries": [
+						"Enquanto estiver usando esta veste, você tem Resistance ao tipo de dano escolhido."
+					]
+				}
+			]
+		},
+		{
+			"name": "Robe do Guardião Sem Armadura",
+			"source": "MundoDeKyrItens",
+			"page": 0,
+			"rarity": "very rare",
+			"wondrous": true,
+			"entries": [
+				"Robe usado por conjuradores de guerra, embaixadores arcanos e duelistas místicos que precisam sobreviver sem recorrer a armaduras convencionais.",
+				{
+					"type": "entries",
+					"name": "Roupa Mágica",
+					"entries": [
+						"Este item não conta como Armor, não exige Armor Training e não impõe Disadvantage em Dexterity (Stealth) checks, salvo se o item disser o contrário. Enquanto estiver usando este item e não estiver usando Armor, você ainda conta como não estando usando Armor."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Defesa do Guardião",
+					"entries": [
+						"Enquanto estiver usando este robe e não estiver usando Armor nem Shield, você ganha +2 de bônus na AC."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Postura Guardada",
+					"entries": [
+						"Quando uma criatura errar um ataque corpo a corpo contra você, você pode se mover até 5 feet sem provocar Opportunity Attacks da criatura que errou. Depois que esta propriedade for usada, ela não pode ser usada novamente até o início do seu próximo turno."
+					]
+				}
+			],
+			"bonusAc": "+2"
+		},
+		{
+			"name": "Manto do Corpo Inquebrável",
+			"source": "MundoDeKyrItens",
+			"page": 0,
+			"rarity": "very rare",
+			"wondrous": true,
+			"entries": [
+				"Manto com camadas internas de fio metálico, escamas flexíveis e runas de estabilidade.",
+				{
+					"type": "entries",
+					"name": "Roupa Mágica",
+					"entries": [
+						"Este item não conta como Armor, não exige Armor Training e não impõe Disadvantage em Dexterity (Stealth) checks, salvo se o item disser o contrário. Enquanto estiver usando este item e não estiver usando Armor, você ainda conta como não estando usando Armor."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Amortecimento Superior",
+					"entries": [
+						"Enquanto estiver usando este manto e não estiver usando Armor, sempre que sofrer Bludgeoning, Piercing or Slashing damage de um ataque, reduza esse dano em 2."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Corpo Ancorado",
+					"entries": [
+						"Você tem Advantage em saving throws feitos para evitar ser empurrado ou derrubado."
+					]
+				}
+			]
+		},
+		{
+			"name": "Veste das Cinco Fontes",
+			"source": "MundoDeKyrItens",
+			"page": 0,
+			"rarity": "very rare",
+			"wondrous": true,
+			"entries": [
+				"Veste marcada por cinco linhas entrelaçadas, representando as Fontes Arcana, Anímica, Divina, Primordial e Sombria.",
+				{
+					"type": "entries",
+					"name": "Roupa Mágica",
+					"entries": [
+						"Este item não conta como Armor, não exige Armor Training e não impõe Disadvantage em Dexterity (Stealth) checks, salvo se o item disser o contrário. Enquanto estiver usando este item e não estiver usando Armor, você ainda conta como não estando usando Armor."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Defesa Aethérica",
+					"entries": [
+						"Enquanto estiver usando esta veste e não estiver usando Armor, você ganha +1 de bônus na AC."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Fonte Dominante",
+					"entries": [
+						"Quando terminar um Long Rest, escolha uma Fonte: Arcana, Anímica, Divina, Primordial ou Sombria. Até o próximo Long Rest, você tem Advantage em ability checks feitos para identificar magia, criaturas, rituais ou fenômenos diretamente ligados à Fonte escolhida."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Resistência de Fonte",
+					"entries": [
+						"Quando escolher a Fonte dominante, escolha também um tipo de dano associado a ela, com aprovação do DM. Enquanto estiver usando esta veste, você tem Resistance ao tipo de dano escolhido."
+					]
+				}
+			],
+			"bonusAc": "+1"
+		},
+		{
+			"name": "Manto do Eco Retornado",
+			"source": "MundoDeKyrItens",
+			"page": 0,
+			"rarity": "very rare",
+			"wondrous": true,
+			"entries": [
+				"Manto com inscrições que só aparecem depois que o usuário é ferido, como se o tecido lembrasse golpes que ainda não aconteceram.",
+				{
+					"type": "entries",
+					"name": "Roupa Mágica",
+					"entries": [
+						"Este item não conta como Armor, não exige Armor Training e não impõe Disadvantage em Dexterity (Stealth) checks, salvo se o item disser o contrário. Enquanto estiver usando este item e não estiver usando Armor, você ainda conta como não estando usando Armor."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Defesa Aethérica",
+					"entries": [
+						"Enquanto estiver usando este manto e não estiver usando Armor, você ganha +1 de bônus na AC."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Eco de Impacto",
+					"entries": [
+						"Uma vez por turno, quando uma criatura atingir você com um ataque corpo a corpo, ela sofre 1d4 Psychic damage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Memória do Ferimento",
+					"entries": [
+						"Se você sofrer um Critical Hit, o atacante sofre Psychic damage igual ao seu Proficiency Bonus."
+					]
+				}
+			],
+			"bonusAc": "+1"
+		},
+		{
+			"name": "Robe do Firmamento Arcano",
+			"source": "MundoDeKyrItens",
+			"page": 0,
+			"rarity": "very rare",
+			"wondrous": true,
+			"entries": [
+				"Robe escuro pontilhado por pequenos brilhos que imitam constelações mutáveis.",
+				{
+					"type": "entries",
+					"name": "Roupa Mágica",
+					"entries": [
+						"Este item não conta como Armor, não exige Armor Training e não impõe Disadvantage em Dexterity (Stealth) checks, salvo se o item disser o contrário. Enquanto estiver usando este item e não estiver usando Armor, você ainda conta como não estando usando Armor."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Defesa Estelar",
+					"entries": [
+						"Enquanto estiver usando este robe e não estiver usando Armor nem Shield, você ganha +2 de bônus na AC."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Mapa Celeste",
+					"entries": [
+						"Você sempre sabe a direção do norte, a hora aproximada e se está no Plano Material ou em outro plano de existência."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Pulso Astral",
+					"entries": [
+						"Quando uma criatura que você possa ver a até 60 feet atingir você com um ataque, você pode causar Force damage a ela igual ao seu Proficiency Bonus. Depois de usar esta propriedade, você não pode usá-la novamente até terminar um Short or Long Rest."
+					]
+				}
+			],
+			"bonusAc": "+2"
+		},
+		{
+			"name": "Regalia da Maré Profunda",
+			"source": "MundoDeKyrItens",
+			"page": 0,
+			"rarity": "very rare",
+			"wondrous": true,
+			"entries": [
+				"Roupa cerimonial feita com escamas flexíveis, fios nacarados e tecido que se move como água escura.",
+				{
+					"type": "entries",
+					"name": "Roupa Mágica",
+					"entries": [
+						"Este item não conta como Armor, não exige Armor Training e não impõe Disadvantage em Dexterity (Stealth) checks, salvo se o item disser o contrário. Enquanto estiver usando este item e não estiver usando Armor, você ainda conta como não estando usando Armor."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Respiração das Profundezas",
+					"entries": [
+						"Você pode respirar ar e água, e ganha Swim Speed igual à sua Speed."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Pressão Abissal",
+					"entries": [
+						"Quando uma criatura a até 30 feet de você falhar em um saving throw contra uma spell que você conjurou, você pode causar a ela Psychic damage igual ao seu Proficiency Bonus. Esse dano pode ocorrer apenas uma vez por turno."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Maré de Retorno",
+					"entries": [
+						"Quando você sofrer dano de uma criatura que possa ver a até 30 feet de você, pode usar sua Reaction para teleportar até 15 feet para um espaço desocupado que possa ver. Depois de usar esta propriedade, você não pode usá-la novamente até terminar um Short or Long Rest."
+					]
+				}
+			],
+			"reqAttune": true
+		},
+		{
+			"name": "Veste da Aether Imóvel",
+			"source": "MundoDeKyrItens",
+			"page": 0,
+			"rarity": "very rare",
+			"wondrous": true,
+			"entries": [
+				"Veste pesada que não é armadura, mas parece impor peso à realidade ao redor do usuário.",
+				{
+					"type": "entries",
+					"name": "Roupa Mágica",
+					"entries": [
+						"Este item não conta como Armor, não exige Armor Training e não impõe Disadvantage em Dexterity (Stealth) checks, salvo se o item disser o contrário. Enquanto estiver usando este item e não estiver usando Armor, você ainda conta como não estando usando Armor."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Canal Estável",
+					"entries": [
+						"Você tem Advantage em Constitution saving throws feitos para manter Concentration."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Recusa do Impacto",
+					"entries": [
+						"Enquanto você estiver Concentrating on a spell, sempre que sofrer Bludgeoning, Piercing or Slashing damage de um ataque, reduza esse dano em 2."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Trama Fixada",
+					"entries": [
+						"Quando você conjurar uma spell de nível 1+ que tenha duração de 1 minuto ou mais, você pode escolher estabilizá-la. Se fizer isso, a primeira vez que você falhar em um Constitution saving throw feito para manter Concentration nessa spell, você é bem-sucedido em vez disso. Depois de usar esta propriedade, você não pode usá-la novamente até terminar um Long Rest."
+					]
+				}
+			],
+			"reqAttune": "by a Spellcaster",
+			"reqAttuneTags": [
+				{
+					"spellcasting": true
+				}
+			]
+		},
+		{
+			"name": "Traje do Duelista Impossível",
+			"source": "MundoDeKyrItens",
+			"page": 0,
+			"rarity": "very rare",
+			"wondrous": true,
+			"entries": [
+				"Traje que se move antes do usuário, deslocando lâminas e tensionando a postura no instante exato.",
+				{
+					"type": "entries",
+					"name": "Roupa Mágica",
+					"entries": [
+						"Este item não conta como Armor, não exige Armor Training e não impõe Disadvantage em Dexterity (Stealth) checks, salvo se o item disser o contrário. Enquanto estiver usando este item e não estiver usando Armor, você ainda conta como não estando usando Armor."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Defesa Impossível",
+					"entries": [
+						"Enquanto estiver usando este traje e não estiver usando Armor nem Shield, sua base AC é 13 + seu Dexterity modifier, e você ganha +1 de bônus na AC."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Passo de Duelo",
+					"entries": [
+						"Quando uma criatura errar um melee attack contra você, você pode se mover até 10 feet sem provocar Opportunity Attacks da criatura que errou. Depois que esta propriedade for usada, ela não pode ser usada novamente até o início do seu próximo turno."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Resposta Precisa",
+					"entries": [
+						"Uma vez por turno, quando você atingir uma criatura com uma weapon attack usando uma arma Finesse, você causa 1d4 damage adicional do mesmo tipo da arma."
+					]
+				}
+			],
+			"reqAttune": true,
+			"bonusAc": "+1"
+		},
+		{
+			"name": "Veste do Vazio Contido",
+			"source": "MundoDeKyrItens",
+			"page": 0,
+			"rarity": "legendary",
+			"wondrous": true,
+			"entries": [
+				"Veste feita de ausência. A luz parece esquecer de tocá-la, e seus fios são frios, silenciosos e difíceis de lembrar.",
+				{
+					"type": "entries",
+					"name": "Roupa Mágica",
+					"entries": [
+						"Este item não conta como Armor, não exige Armor Training e não impõe Disadvantage em Dexterity (Stealth) checks, salvo se o item disser o contrário. Enquanto estiver usando este item e não estiver usando Armor, você ainda conta como não estando usando Armor."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Defesa do Vazio",
+					"entries": [
+						"Enquanto estiver usando esta veste e não estiver usando Armor, você ganha +2 de bônus na AC."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Resistência Ontológica",
+					"entries": [
+						"Você tem Resistance to Force and Necrotic damage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Ausência Parcial",
+					"entries": [
+						"Attack rolls contra você não podem ter Advantage, a menos que você esteja Incapacitated."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Silêncio do Nome",
+					"entries": [
+						"Você tem Advantage em saving throws contra spells e efeitos que tentem ler seus pensamentos, determinar sua localização ou detectar sua presença por meios mágicos."
+					]
+				}
+			],
+			"reqAttune": true,
+			"bonusAc": "+2"
+		},
+		{
+			"name": "Regalia da Avendesora",
+			"source": "MundoDeKyrItens",
+			"page": 0,
+			"rarity": "legendary",
+			"wondrous": true,
+			"entries": [
+				"Regalia costurada com fibras da Árvore do Mundo, fios de memória e reflexos de eras que ainda não chegaram.",
+				{
+					"type": "entries",
+					"name": "Roupa Mágica",
+					"entries": [
+						"Este item não conta como Armor, não exige Armor Training e não impõe Disadvantage em Dexterity (Stealth) checks, salvo se o item disser o contrário. Enquanto estiver usando este item e não estiver usando Armor, você ainda conta como não estando usando Armor."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Defesa da Árvore",
+					"entries": [
+						"Enquanto estiver usando esta regalia e não estiver usando Armor nem Shield, sua base AC é 14 + seu Dexterity modifier, to a maximum of +3."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Raiz de Permanência",
+					"entries": [
+						"Você tem Resistance to Radiant and Necrotic damage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Ramo de Continuidade",
+					"entries": [
+						"Quando você cair a 0 Hit Points, mas não morrer imediatamente, você cai a 1 Hit Point em vez disso. Depois que esta propriedade for usada, ela não pode ser usada novamente até o próximo amanhecer."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Eco de Era",
+					"entries": [
+						"Uma vez por Long Rest, quando falhar em um saving throw, você pode rolar 1d4 e adicionar o resultado ao saving throw, possivelmente transformando a falha em sucesso."
+					]
+				}
 			],
 			"reqAttune": true
 		}
@@ -48858,6 +50481,43 @@
 						}
 					]
 				}
+			]
+		}
+	],
+	"itemProperty": [
+		{
+			"name": "Discreta",
+			"source": "MundoDeKyrItens",
+			"abbreviation": "KyrDisc",
+			"entries": [
+				"A armadura é feita para passar despercebida sob roupas comuns, mantos, uniformes ou trajes formais. Enquanto estiver usando uma armadura com esta propriedade e tiver Armor Training com a categoria dela, você tem Advantage em Dexterity (Sleight of Hand) checks ou Charisma (Deception) checks feitos para esconder que está usando armadura."
+			]
+		},
+		{
+			"name": "Flexível",
+			"source": "MundoDeKyrItens",
+			"abbreviation": "KyrFlex",
+			"entries": [
+				"A armadura acompanha os movimentos do corpo. Esta propriedade só pode ser aplicada a Medium Armor. Enquanto estiver usando uma armadura média com esta propriedade e tiver Armor Training com Medium Armor, o limite máximo de modificador de Destreza que você pode somar à AC dessa armadura aumenta em 1."
+			]
+		},
+		{
+			"name": "Reforçada",
+			"source": "MundoDeKyrItens",
+			"abbreviation": "KyrRef",
+			"entries": [
+				"A armadura possui placas sobrepostas, acolchoamento interno, rebites de impacto ou camadas de amortecimento feitas para dissipar golpes físicos.",
+				"Enquanto estiver usando uma armadura com esta propriedade e tiver Armor Training com a categoria dela, sempre que você sofrer Bludgeoning, Piercing ou Slashing damage de um ataque, reduza o dano em uma quantidade determinada pela categoria da armadura: 2 se a armadura for Medium ou 3 se a armadura for Heavy.",
+				"Essa redução é aplicada antes de resistência ou vulnerabilidade e não pode reduzir o dano abaixo de 0."
+			]
+		},
+		{
+			"name": "Prestígio",
+			"source": "MundoDeKyrItens",
+			"abbreviation": "KyrPres",
+			"entries": [
+				"A armadura é reconhecida como símbolo de nobreza, patente, riqueza, ofício militar ou autoridade institucional. Enquanto estiver usando uma armadura com esta propriedade e tiver Armor Training com a categoria dela, em uma situação na qual sua aparência marcial ou posição social importe, você pode adicionar 1d4 a um Charisma (Intimidation) ou Charisma (Persuasion) check. Depois de adicionar esse dado, você não pode fazê-lo novamente até terminar um Short or Long Rest.",
+				"A propriedade não funciona contra criaturas que não reconheçam símbolos sociais, militares ou culturais."
 			]
 		}
 	]
