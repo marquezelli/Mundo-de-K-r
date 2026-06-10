@@ -11,10 +11,10 @@
 				"convertedBy": [
 					"ChatGPT"
 				],
-				"version": "5.14.0",
+				"version": "5.16.0",
 				"url": "https://github.com/TheGiddyLimit/homebrew",
 				"dateAdded": 1779327521,
-				"dateModified": "2026-06-06"
+				"dateModified": "2026-06-09"
 			},
 			{
 				"json": "MundoDeKyrItens",
@@ -26,10 +26,10 @@
 				"convertedBy": [
 					"ChatGPT"
 				],
-				"version": "2.2.0",
+				"version": "2.3.0",
 				"url": "https://github.com/TheGiddyLimit/homebrew",
 				"dateAdded": 1777995910,
-				"dateModified": "2026-06-04"
+				"dateModified": "2026-06-09"
 			},
 			{
 				"json": "MundoDeKyrEspecies",
@@ -41,10 +41,10 @@
 				"convertedBy": [
 					"ChatGPT"
 				],
-				"version": "3.2.0",
+				"version": "3.3.0",
 				"url": "https://github.com/TheGiddyLimit/homebrew",
 				"dateAdded": 1778452149,
-				"dateModified": "2026-06-04"
+				"dateModified": "2026-06-09"
 			},
 			{
 				"json": "MundoDeKyrLivroDasMagiasDeKyr",
@@ -56,10 +56,10 @@
 				"convertedBy": [
 					"ChatGPT"
 				],
-				"version": "4.0.0",
+				"version": "4.1.0",
 				"url": "https://github.com/TheGiddyLimit/homebrew",
 				"dateAdded": 1778520000,
-				"dateModified": "2026-06-04"
+				"dateModified": "2026-06-09"
 			},
 			{
 				"json": "MundoDeKyrSubclasses",
@@ -71,10 +71,10 @@
 				"convertedBy": [
 					"ChatGPT"
 				],
-				"version": "3.10.0",
+				"version": "3.13.0",
 				"url": "https://github.com/TheGiddyLimit/homebrew",
 				"dateAdded": 1778194620,
-				"dateModified": "2026-06-05"
+				"dateModified": "2026-06-09"
 			},
 			{
 				"json": "MundoDeKyrCompendioCompleto",
@@ -86,10 +86,10 @@
 				"convertedBy": [
 					"ChatGPT"
 				],
-				"version": "2.28.0",
+				"version": "2.33.0",
 				"url": "https://github.com/TheGiddyLimit/homebrew",
 				"dateAdded": 1778520000,
-				"dateModified": "2026-06-06"
+				"dateModified": "2026-06-09"
 			},
 			{
 				"json": "MundoDeKyrDomadorPrimevo",
@@ -276,14 +276,14 @@
 				},
 				{
 					"type": "entries",
-					"name": "Leitura de Intenções",
+					"name": "Voz de Comando",
 					"entries": [
-						"Depois de conversar com uma criatura por pelo menos 1 minuto, você tem Vantagem no primeiro teste de Sabedoria (Intuição) feito contra ela para determinar se sua atitude é Amistosa, Indiferente ou Hostil, ou se ela está ocultando uma intenção imediata."
+						"Sua presença domina o ambiente assim que você entra. Você pode adicionar seu modificador de Carisma às suas jogadas de Iniciativa."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Voz de Comando",
+					"name": "Influência Formal",
 					"entries": [
 						"Quando realizar a ação Influenciar em um ambiente formal, corte, conselho, salão nobre, audiência pública ou negociação oficial, você pode adicionar {@dice 1d4} ao teste. Você pode usar este benefício um número de vezes igual ao seu Bônus de Proficiência, recuperando todos os usos ao terminar um Descanso Longo."
 					]
@@ -528,7 +528,7 @@
 					"type": "entries",
 					"name": "Âncora Radicular",
 					"entries": [
-						"Quando você conjurar um desses truques e ele afetar uma criatura ou espaço, você pode conceder Pontos de Vida Temporários iguais ao seu Bônus de Proficiência a uma criatura a até 10 pés do alvo, ou tornar um espaço de 5 pés a até 10 pés do alvo terreno difícil para criaturas hostis até o início do seu próximo turno. Você pode usar este benefício um número de vezes igual ao seu Bônus de Proficiência, recuperando todos os usos ao terminar um Descanso Longo."
+						"Quando você conjurar um desses truques e ele afetar uma criatura ou espaço, você pode conceder Pontos de Vida Temporários iguais ao seu Bônus de Proficiência a uma criatura a até 10 pés do alvo ou tornar um espaço de 5 pés a até 10 pés do alvo terreno difícil para criaturas hostis até o início do seu próximo turno. Você pode usar este benefício um número de vezes igual ao seu Bônus de Proficiência, recuperando todos os usos ao terminar um Descanso Longo."
 					]
 				}
 			]
@@ -858,7 +858,7 @@
 					"type": "entries",
 					"name": "Ressonância Ecoante",
 					"entries": [
-						"Quando você conjurar um desses truques e ele afetar uma criatura, objeto ou espaço, você pode escolher uma criatura a até 10 pés do alvo. Até o início do seu próximo turno, ela não pode se beneficiar da condição Invisível contra você, ou o primeiro teste de Estudar ou Procurar feito por você contra o alvo recebe um bônus igual ao seu Bônus de Proficiência. Você pode usar este benefício um número de vezes igual ao seu Bônus de Proficiência, recuperando todos os usos ao terminar um Descanso Longo."
+						"Quando você conjurar um desses truques e ele afetar uma criatura, objeto ou espaço, você pode escolher uma criatura a até 10 pés do alvo. Até o início do seu próximo turno, ela não pode se beneficiar da condição Invisível contra você ou o primeiro teste de Estudar ou Procurar feito por você contra o alvo recebe um bônus igual ao seu Bônus de Proficiência. Você pode usar este benefício um número de vezes igual ao seu Bônus de Proficiência, recuperando todos os usos ao terminar um Descanso Longo."
 					]
 				}
 			]
@@ -1251,7 +1251,7 @@
 					"type": "entries",
 					"name": "Rarefação Sombria",
 					"entries": [
-						"Uma vez por turno, quando uma criatura falhar em um teste de resistência contra uma magia sua de Umbramancia ou for atingida por um truque seu de Umbramancia, escolha um efeito até o início do seu próximo turno: o deslocamento dela é reduzido em 5 pés, ou ela não pode realizar Ataques de Oportunidade."
+						"Uma vez por turno, quando uma criatura falhar em um teste de resistência contra uma magia sua de Umbramancia ou for atingida por um truque seu de Umbramancia, escolha um efeito até o início do seu próximo turno: o deslocamento dela é reduzido em 5 pés ou ela não pode realizar Ataques de Oportunidade."
 					]
 				},
 				{
@@ -2563,7 +2563,7 @@
 					"type": "entries",
 					"name": "Marca da Chama Fria",
 					"entries": [
-						"Quando causar dano de Fogo, Radiante ou Frio, ou restaurar Pontos de Vida com uma magia, você pode reduzir em 5 pés o deslocamento de uma criatura afetada até o início do seu próximo turno ou conceder Pontos de Vida Temporários iguais ao seu Bônus de Proficiência a uma criatura afetada. Você pode usar este benefício um número de vezes igual ao seu Bônus de Proficiência, recuperando todos os usos ao terminar um Descanso Longo."
+						"Quando causar dano de Fogo, Radiante ou Frio ou restaurar Pontos de Vida com uma magia, você pode reduzir em 5 pés o deslocamento de uma criatura afetada até o início do seu próximo turno ou conceder Pontos de Vida Temporários iguais ao seu Bônus de Proficiência a uma criatura afetada. Você pode usar este benefício um número de vezes igual ao seu Bônus de Proficiência, recuperando todos os usos ao terminar um Descanso Longo."
 					]
 				}
 			]
@@ -2993,7 +2993,6 @@
 		{
 			"name": "Fome que Aprende",
 			"source": "MundoDeKyrFeats",
-			"page": 73,
 			"category": "G",
 			"prerequisite": [
 				{
@@ -3013,17 +3012,26 @@
 					"type": "entries",
 					"name": "Dreno Memorável",
 					"entries": [
-						"Quando recuperar Pontos de Vida com Drenar Vida, escolha um benefício até o início do seu próximo turno: seu próximo ataque desarmado causa +{@dice 1d4} de dano Necrótico; seu próximo teste de Constituição recebe +{@dice 1d4}; ou o próximo dano Necrótico que sofrer é reduzido em {@dice 1d4}."
+						"Quando você recuperar Pontos de Vida com Drenar Vida, escolha um dos benefícios abaixo até o início do seu próximo turno:",
+						{
+							"type": "list",
+							"items": [
+								"seu próximo ataque desarmado causa {@dice 1d4} de dano Necrótico adicional;",
+								"seu próximo teste de Constituição recebe +{@dice 1d4};",
+								"o próximo dano Necrótico que você sofrer é reduzido em {@dice 1d4} + seu Bônus de Proficiência."
+							]
+						}
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Alimentação Parcial",
 					"entries": [
-						"Uma vez por Descanso Longo, quando usar Drenar Vida em criatura que não seja Constructo nem Morto-vivo, você adia a próxima exigência de Fome Vital em 1 dia."
+						"Uma vez por Descanso Longo, quando você usar Drenar Vida em uma criatura que não seja Constructo nem Morto-vivo, você adia a próxima exigência de Fome Vital em 1 dia."
 					]
 				}
-			]
+			],
+			"page": 73
 		},
 		{
 			"name": "Juramento de Pedra",
@@ -3435,7 +3443,6 @@
 		{
 			"name": "Asa de Testemunho",
 			"source": "MundoDeKyrFeats",
-			"page": 85,
 			"category": "G",
 			"prerequisite": [
 				{
@@ -3460,12 +3467,14 @@
 				},
 				{
 					"type": "entries",
-					"name": "Luz que Marca",
+					"name": "Amparo Testemunhal",
 					"entries": [
-						"Uma vez por turno, quando causar dano Radiante, o alvo não pode se beneficiar da condição Invisível contra você até o início do seu próximo turno."
+						"Quando uma criatura aliada que você possa ver a até 30 pés falhar em um teste de resistência contra Amedrontado, Enfeitiçado ou Cego, você pode usar sua Reação para permitir que ela adicione {@dice 1d4} ao resultado, potencialmente transformando a falha em sucesso.",
+						"Você pode usar esta característica um número de vezes igual ao seu Bônus de Proficiência, recuperando todos os usos ao terminar um Descanso Longo."
 					]
 				}
-			]
+			],
+			"page": 85
 		},
 		{
 			"name": "Cláusula de Sangue",
@@ -4003,7 +4012,6 @@
 		{
 			"name": "Ritmo que Desmonta",
 			"source": "MundoDeKyrFeats",
-			"page": 101,
 			"category": "G",
 			"prerequisite": [
 				{
@@ -4021,24 +4029,25 @@
 				"Um ritmo errado no momento certo estraga coragem, mira e solenidade.",
 				{
 					"type": "entries",
-					"name": "Ritmo Desconcertante",
+					"name": "Cadência Incômoda",
 					"entries": [
-						"Como uma {@variantrule Bonus Action|XPHB|Ação Bônus}, escolha uma criatura que possa ouvir você a até 30 pés. Ela subtrai {@dice 1d4} do próximo teste de Sabedoria ({@skill Insight|XPHB|Intuição}) ou Sabedoria ({@skill Perception|XPHB|Percepção}) que fizer antes do início do seu próximo turno. Você pode usar este benefício um número de vezes igual ao seu Bônus de Proficiência, recuperando todos os usos ao terminar um {@variantrule Long Rest|XPHB|Descanso Longo}."
+						"Como uma Ação Bônus, escolha uma criatura que possa ouvir você a até 30 pés. Até o início do seu próximo turno, a criatura subtrai {@dice 1d4} da próxima jogada de ataque, teste de Sabedoria (Percepção) ou teste de Sabedoria (Intuição) que fizer.",
+						"Você pode usar esta característica um número de vezes igual ao seu Bônus de Proficiência, recuperando todos os usos ao terminar um Descanso Longo."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Chifre no Contratempo",
+					"name": "Deboche que Fica",
 					"entries": [
-						"Uma vez por turno, quando acertar com Chifres uma criatura afetada por seu Ritmo Desconcertante, cause dano adicional igual ao seu Bônus de Proficiência."
+						"Quando uma criatura falhar em um teste ou errar uma jogada de ataque por causa de Cadência Incômoda, você recebe Pontos de Vida Temporários iguais ao seu Bônus de Proficiência."
 					]
 				}
-			]
+			],
+			"page": 101
 		},
 		{
 			"name": "Língua de Brejo",
 			"source": "MundoDeKyrFeats",
-			"page": 102,
 			"category": "G",
 			"prerequisite": [
 				{
@@ -4053,22 +4062,23 @@
 				}
 			],
 			"entries": [
-				"Sua língua virou ferramenta de desequilíbrio e saque rápido.",
-				{
-					"type": "entries",
-					"name": "Puxão Pegajoso",
-					"entries": [
-						"Quando usar Língua Pegajosa para desequilibrar uma criatura, ela subtrai {@dice 1d4} do teste de resistência."
-					]
-				},
+				"Sua língua virou ferramenta de coleta, leitura de pântano e sobrevivência rápida.",
 				{
 					"type": "entries",
 					"name": "Coleta de Pântano",
 					"entries": [
-						"Você recebe +{@dice 1d4} em testes de Natureza ou Sobrevivência feitos em áreas alagadas, brejos, mangues ou margens de rio."
+						"Você ganha proficiência em Natureza ou Sobrevivência. Se já possuir a proficiência escolhida, ganha Especialização nela."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Amostra Pegajosa",
+					"entries": [
+						"Quando você realizar um teste de Inteligência (Natureza) ou Sabedoria (Sobrevivência) em áreas alagadas, brejos, mangues, pântanos, cavernas úmidas ou margens de rio, você pode adicionar {@dice 1d4} ao resultado. Você pode usar esta característica um número de vezes igual ao seu Bônus de Proficiência, recuperando todos os usos ao terminar um Descanso Longo."
 					]
 				}
-			]
+			],
+			"page": 102
 		},
 		{
 			"name": "Garra de Território",
@@ -4399,7 +4409,6 @@
 		{
 			"name": "Aprendizado Consciente",
 			"source": "MundoDeKyrFeats",
-			"page": 110,
 			"category": "G",
 			"prerequisite": [
 				{
@@ -4414,27 +4423,27 @@
 				}
 			],
 			"entries": [
-				"Você não carrega forma perfeita. Carrega escolha repetida.",
+				"Você não carrega forma perfeita. Carrega escolha repetida, correção constante e adaptação consciente.",
 				{
 					"type": "entries",
-					"name": "Determinação Improvisada",
+					"name": "Estudo Aplicado",
 					"entries": [
-						"Uma vez por Descanso Longo, quando você falhar em um teste de resistência, adicione {@dice 1d6} ao resultado."
+						"Escolha Investigação, Medicina ou Sobrevivência. Você ganha proficiência na perícia escolhida. Se já possuir essa proficiência, ganha Especialização nela."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Aprendizado de Campo",
+					"name": "Determinação Improvisada",
 					"entries": [
-						"Escolha entre: Sobrevivência, Medicina, Investigação. Você ganha proficiência na habilidade escolhida."
+						"Uma vez por Descanso Longo, quando você falhar em um teste de resistência, pode adicionar {@dice 1d6} ao resultado, potencialmente transformando a falha em sucesso."
 					]
 				}
-			]
+			],
+			"page": 110
 		},
 		{
 			"name": "Vontade sem Linhagem",
 			"source": "MundoDeKyrFeats",
-			"page": 111,
 			"category": "G",
 			"prerequisite": [
 				{
@@ -4449,22 +4458,23 @@
 				}
 			],
 			"entries": [
-				"Você não carrega forma perfeita. Carrega escolha repetida.",
+				"Você não depende de sangue antigo, instinto herdado ou forma mística. Você aprende, erra, insiste e transforma limitação em método.",
 				{
 					"type": "entries",
-					"name": "Treino Mutável",
+					"name": "Esforço Deliberado",
 					"entries": [
-						"Ao terminar um Descanso Longo, escolha uma perícia, ferramenta ou arma simples/marcial. Você ganha proficiência na escolha até terminar seu próximo Descanso Longo."
+						"Quando você fizer um teste de habilidade no qual não tenha proficiência, pode adicionar {@dice 1d4} ao resultado. Você pode usar esta característica um número de vezes igual ao seu Bônus de Proficiência, recuperando todos os usos ao terminar um Descanso Longo."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Correção de Erro",
 					"entries": [
-						"Uma vez por Descanso Curto, quando falhar em teste de habilidade no qual seja proficiente, adicione {@dice 1d6} ao resultado."
+						"Uma vez por Descanso Curto ou Longo, quando você falhar em um teste de habilidade no qual seja proficiente, pode adicionar {@dice 1d6} ao resultado, potencialmente transformando a falha em sucesso."
 					]
 				}
-			]
+			],
+			"page": 111
 		},
 		{
 			"name": "Menor e mais sortudo!",
@@ -4745,7 +4755,7 @@
 					"type": "entries",
 					"name": "Onda de Pouso",
 					"entries": [
-						"Quando você cair ou descer pelo menos 3 metros e atingir uma criatura com um ataque no mesmo turno, ela deve ser bem-sucedida em um teste de resistência de Força contra CD 8 + seu Bônus de Proficiência + seu modificador de Destreza, Sabedoria ou Carisma, escolhido ao adquirir este talento, ou fica Caída."
+						"Quando você cair ou descer pelo menos 3 metros e atingir uma criatura com um ataque no mesmo turno, ela deve ser bem-sucedida em um teste de resistência de Força contra CD 8 + seu Bônus de Proficiência + seu modificador de Destreza, Sabedoria ou Carisma, escolhido ao adquirir este talento ou fica Caída."
 					]
 				}
 			]
@@ -4893,7 +4903,6 @@
 		{
 			"name": "Fome de Continuidade",
 			"source": "MundoDeKyrFeats",
-			"page": 124,
 			"category": "G",
 			"prerequisite": [
 				{
@@ -4920,10 +4929,11 @@
 					"type": "entries",
 					"name": "Reflexo Faminto",
 					"entries": [
-						"Enquanto tiver Pontos de Vida Temporários concedidos por Dreno Sustentado, seu ataque desarmado causa dano Necrótico adicional igual a {@dice 1d4} uma vez por turno."
+						"Enquanto você tiver Pontos de Vida Temporários concedidos por Dreno Sustentado, uma vez por turno, quando atingir uma criatura com um ataque desarmado, o ataque causa {@dice 1d4} de dano Necrótico adicional."
 					]
 				}
-			]
+			],
+			"page": 124
 		},
 		{
 			"name": "Predador de Forma Imperfeita",
@@ -5095,7 +5105,7 @@
 					"type": "entries",
 					"name": "Mordida de Arrasto",
 					"entries": [
-						"Uma vez por turno, quando você atingir uma criatura com Mordida Canídea, ela deve ser bem-sucedida em um teste de resistência de Força contra CD 8 + seu Bônus de Proficiência + seu modificador de Força ou Destreza, escolhido ao adquirir este talento, ou fica Caída."
+						"Uma vez por turno, quando você atingir uma criatura com Mordida Canídea, ela deve ser bem-sucedida em um teste de resistência de Força contra CD 8 + seu Bônus de Proficiência + seu modificador de Força ou Destreza, escolhido ao adquirir este talento ou fica Caída."
 					]
 				}
 			]
@@ -5740,7 +5750,6 @@
 		{
 			"name": "Sinal do Julgamento",
 			"source": "MundoDeKyrFeats",
-			"page": 148,
 			"category": "G",
 			"prerequisite": [
 				{
@@ -5767,10 +5776,11 @@
 					"type": "entries",
 					"name": "Verdade no Olhar",
 					"entries": [
-						"Você tem Vantagem em testes de Sabedoria (Intuição) feitos para perceber mentira direta."
+						"Quando você realizar a ação Estudar ou Influenciar para perceber mentira direta, omissão deliberada, identidade falsa ou contradição moral de uma criatura que você possa ver e ouvir, você pode adicionar {@dice 1d4} ao teste de Sabedoria (Intuição). Você pode usar esta característica um número de vezes igual ao seu Bônus de Proficiência, recuperando todos os usos ao terminar um Descanso Longo."
 					]
 				}
-			]
+			],
+			"page": 148
 		},
 		{
 			"name": "Asa de Ishtariel",
@@ -5941,7 +5951,7 @@
 					"type": "entries",
 					"name": "Esquiva de Covil",
 					"entries": [
-						"Você tem Vantagem em testes de Destreza contra efeitos que tenham área, desde que esteja a até 1,5 metro de cobertura, de uma criatura Média ou maior, ou de um objeto do seu tamanho ou maior."
+						"Você tem Vantagem em testes de Destreza contra efeitos que tenham área, desde que esteja a até 1,5 metro de cobertura, de uma criatura Média ou maior ou de um objeto do seu tamanho ou maior."
 					]
 				},
 				{
@@ -6151,7 +6161,7 @@
 					"type": "entries",
 					"name": "Garras Maiores",
 					"entries": [
-						"O dano das suas Garras Felinas aumenta um passo: d4 para d6, ou d6 para d8."
+						"O dano das suas Garras Felinas aumenta um passo: d4 para d6 ou d6 para d8."
 					]
 				},
 				{
@@ -6221,7 +6231,7 @@
 					"type": "entries",
 					"name": "Mordida Maior",
 					"entries": [
-						"O dano da sua Mordida Predatória aumenta um passo: d4 para d6, ou d6 para d8."
+						"O dano da sua Mordida Predatória aumenta um passo: d4 para d6 ou d6 para d8."
 					]
 				},
 				{
@@ -6256,7 +6266,7 @@
 					"type": "entries",
 					"name": "Ritmo da Corrente",
 					"entries": [
-						"Uma vez por turno, quando você causar dano de Frio ou Trovejante, empurrar uma criatura, ou quando uma criatura falhar em um teste de resistência contra uma característica de Ondirin sua ou uma magia da Fonte Primordial sua, escolha uma criatura aliada a até 30 pés de você que possa ver ou ouvir você. A próxima jogada de ataque dessa criatura aliada contra o alvo antes do início do seu próximo turno recebe +{@dice 1d4}."
+						"Uma vez por turno, quando você causar dano de Frio ou Trovejante, empurrar uma criatura ou quando uma criatura falhar em um teste de resistência contra uma característica de Ondirin sua ou uma magia da Fonte Primordial sua, escolha uma criatura aliada a até 30 pés de você que possa ver ou ouvir você. A próxima jogada de ataque dessa criatura aliada contra o alvo antes do início do seu próximo turno recebe +{@dice 1d4}."
 					]
 				},
 				{
@@ -6298,7 +6308,7 @@
 					"type": "entries",
 					"name": "Ressaca Crescente",
 					"entries": [
-						"Uma vez por turno, quando você causar dano de Frio ou Trovejante, empurrar uma criatura, ou quando uma criatura falhar em um teste de resistência contra uma característica de Ondirin sua ou uma magia da Fonte Primordial sua, você pode marcar essa criatura até o fim do seu próximo turno.",
+						"Uma vez por turno, quando você causar dano de Frio ou Trovejante, empurrar uma criatura ou quando uma criatura falhar em um teste de resistência contra uma característica de Ondirin sua ou uma magia da Fonte Primordial sua, você pode marcar essa criatura até o fim do seu próximo turno.",
 						"A primeira vez que você atingir a criatura marcada com um ataque ou causar dano a ela com uma magia antes do fim do seu próximo turno, ela sofre dano adicional de Frio ou Trovejante igual ao seu Bônus de Proficiência, escolhido quando o dano é causado."
 					]
 				}
@@ -6362,7 +6372,7 @@
 					"type": "entries",
 					"name": "Mandíbulas Maiores",
 					"entries": [
-						"O dano das suas Mandíbulas aumenta um passo: d4 para d6, ou d6 para d8."
+						"O dano das suas Mandíbulas aumenta um passo: d4 para d6 ou d6 para d8."
 					]
 				},
 				{
@@ -6642,7 +6652,7 @@
 					"type": "entries",
 					"name": "Mandíbula Maior",
 					"entries": [
-						"O dano da sua Mandíbula Brutal aumenta um passo: d6 para d8, ou d8 para d10."
+						"O dano da sua Mandíbula Brutal aumenta um passo: d6 para d8 ou d8 para d10."
 					]
 				},
 				{
@@ -6937,7 +6947,6 @@
 		{
 			"name": "Contratempo de Chifre",
 			"source": "MundoDeKyrFeats",
-			"page": 182,
 			"category": "G",
 			"prerequisite": [
 				{
@@ -6955,19 +6964,27 @@
 				"Seu ritmo tira o inimigo do compasso antes do impacto chegar.",
 				{
 					"type": "entries",
-					"name": "Ritmo Desconcertante",
+					"name": "Ritmo de Investida",
 					"entries": [
-						"Como uma {@variantrule Bonus Action|XPHB|Ação Bônus}, escolha uma criatura que possa ouvir você a até 30 pés. Ela subtrai {@dice 1d4} do próximo teste de Sabedoria ({@skill Perception|XPHB|Percepção}) ou Sabedoria ({@skill Insight|XPHB|Intuição}) que fizer antes do início do seu próximo turno. Você pode usar este benefício um número de vezes igual ao seu Bônus de Proficiência, recuperando todos os usos ao terminar um {@variantrule Long Rest|XPHB|Descanso Longo}."
+						"Quando você se mover pelo menos 10 pés em linha reta em direção a uma criatura e atingi-la com seus Chifres no mesmo turno, o ataque causa dano adicional igual ao seu Bônus de Proficiência."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Chifre no Ritmo",
+					"name": "Chifre no Contratempo",
 					"entries": [
-						"Uma vez por turno, quando acertar com Chifres uma criatura afetada por seu Ritmo Desconcertante, cause dano adicional igual ao seu Bônus de Proficiência."
+						"Uma vez por turno, quando você atingir uma criatura com seus Chifres, escolha uma das opções abaixo:",
+						{
+							"type": "list",
+							"items": [
+								"a criatura subtrai {@dice 1d4} da próxima jogada de ataque que fizer antes do início do seu próximo turno;",
+								"a criatura não pode realizar Reações até o início do seu próximo turno."
+							]
+						}
 					]
 				}
-			]
+			],
+			"page": 182
 		},
 		{
 			"name": "Festa que Quebra Solenidade",
@@ -7007,7 +7024,6 @@
 		{
 			"name": "Língua de Laço",
 			"source": "MundoDeKyrFeats",
-			"page": 184,
 			"category": "G",
 			"prerequisite": [
 				{
@@ -7027,17 +7043,18 @@
 					"type": "entries",
 					"name": "Puxão Pegajoso",
 					"entries": [
-						"Quando usar Língua Pegajosa para desequilibrar uma criatura, ela subtrai {@dice 1d4} do teste de resistência."
+						"Quando você usar Língua Pegajosa para desequilibrar uma criatura, ela subtrai {@dice 1d4} do teste de resistência."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Coleta de Brejo",
+					"name": "Queda Oportunista",
 					"entries": [
-						"Você recebe +{@dice 1d4} em testes de Sabedoria (Sobrevivência) ou Inteligência (Natureza) feitos em áreas alagadas, brejos, mangues ou margens de rio."
+						"Uma vez por turno, quando uma criatura falhar no teste de resistência contra sua Língua Pegajosa, o próximo ataque que você atingir contra ela antes do início do seu próximo turno causa dano adicional igual ao seu Bônus de Proficiência."
 					]
 				}
-			]
+			],
+			"page": 184
 		},
 		{
 			"name": "Vigia do Brejo Imóvel",
@@ -7077,7 +7094,6 @@
 		{
 			"name": "Chifre de Corredor",
 			"source": "MundoDeKyrFeats",
-			"page": 186,
 			"category": "G",
 			"prerequisite": [
 				{
@@ -7092,28 +7108,23 @@
 				}
 			],
 			"entries": [
-				{
-					"type": "entries",
-					"name": "Sua cabeça baixa não anuncia raiva",
-					"entries": [
-						"Anuncia cálculo de impacto."
-					]
-				},
+				"Sua cabeça baixa não anuncia raiva. Anuncia cálculo de impacto.",
 				{
 					"type": "entries",
 					"name": "Arranque de Arena",
 					"entries": [
-						"Quando usar Investida contra uma criatura que esteja a pelo menos 6 metros de você no início do seu turno, o dano adicional aumenta em {@dice 1d6}."
+						"Quando você usar Investida contra uma criatura que estava a pelo menos 20 pés de você no início do seu turno, o dano adicional da Investida aumenta em {@dice 1d6}."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Quebrador de Labirintos",
 					"entries": [
-						"Quando fizer teste de Força para arrombar, derrubar ou romper obstáculo, role {@dice 1d6} e adicione ao resultado. Você pode usar este benefício uma vez por Descanso Curto ou Longo."
+						"Quando fizer um teste de Força para arrombar, derrubar, romper obstáculo, forçar passagem, quebrar porta, grade, corrente ou estrutura física, você pode adicionar {@dice 1d6} ao resultado. Você pode usar este benefício uma vez por Descanso Curto ou Longo."
 					]
 				}
-			]
+			],
+			"page": 186
 		},
 		{
 			"name": "Arena no Sangue",
@@ -7145,7 +7156,7 @@
 					"type": "entries",
 					"name": "Impacto Irresistível",
 					"entries": [
-						"Quando você causar dano adicional com Investida, o alvo deve ser bem-sucedido em um teste de resistência de Força contra CD 8 + seu Bônus de Proficiência + seu modificador de Força ou Constituição, escolhido ao adquirir este talento, ou fica Caído."
+						"Quando você causar dano adicional com Investida, o alvo deve ser bem-sucedido em um teste de resistência de Força contra CD 8 + seu Bônus de Proficiência + seu modificador de Força ou Constituição, escolhido ao adquirir este talento ou fica Caído."
 					]
 				}
 			]
@@ -7278,7 +7289,7 @@
 					"type": "entries",
 					"name": "Garras Maiores",
 					"entries": [
-						"O dano das suas Garras aumenta um passo: d4 para d6, ou d6 para d8."
+						"O dano das suas Garras aumenta um passo: d4 para d6 ou d6 para d8."
 					]
 				},
 				{
@@ -7769,7 +7780,7 @@
 					"type": "entries",
 					"name": "Forma Técnica",
 					"entries": [
-						"Quando você conjurar a magia escolhida por este talento, uma jogada de ataque da magia ignora Meia Cobertura, ou uma criatura afetada pela magia não se beneficia de Meia Cobertura contra ela."
+						"Quando você conjurar a magia escolhida por este talento, uma jogada de ataque da magia ignora Meia Cobertura ou uma criatura afetada pela magia não se beneficia de Meia Cobertura contra ela."
 					]
 				}
 			]
@@ -8131,7 +8142,7 @@
 					"type": "entries",
 					"name": "Costura Menor",
 					"entries": [
-						"Escolha um dos truques aprendidos por este talento. Uma vez por turno, quando causar dano com ele, escolha um alvo danificado: o deslocamento dele é reduzido em 5 pés até o início do seu próximo turno, ou ele não pode se beneficiar da condição Invisível contra você até o início do seu próximo turno."
+						"Escolha um dos truques aprendidos por este talento. Uma vez por turno, quando causar dano com ele, escolha um alvo danificado: o deslocamento dele é reduzido em 5 pés até o início do seu próximo turno ou ele não pode se beneficiar da condição Invisível contra você até o início do seu próximo turno."
 					]
 				}
 			]
@@ -8583,7 +8594,7 @@
 					"type": "entries",
 					"name": "Apoio do Canal",
 					"entries": [
-						"Quando você obtiver sucesso em um teste para manter Concentração após sofrer dano, escolha: você recebe Pontos de Vida Temporários iguais ao seu Bônus de Proficiência, ou pode se mover 5 pés. Esse movimento provoca Ataques de Oportunidade normalmente."
+						"Quando você obtiver sucesso em um teste para manter Concentração após sofrer dano, escolha: você recebe Pontos de Vida Temporários iguais ao seu Bônus de Proficiência ou pode se mover 5 pés. Esse movimento provoca Ataques de Oportunidade normalmente."
 					]
 				}
 			]
@@ -9309,7 +9320,7 @@
 					"type": "entries",
 					"name": "Fronteira Declarada",
 					"entries": [
-						"Como Ação Bônus, você entra em uma postura de domínio até o início do seu próximo turno. Enquanto estiver nessa postura, criaturas hostis provocam Ataques de Oportunidade quando entram voluntariamente no seu alcance, ou quando se movem 5 pés ou mais dentro do seu alcance.",
+						"Como Ação Bônus, você entra em uma postura de domínio até o início do seu próximo turno. Enquanto estiver nessa postura, criaturas hostis provocam Ataques de Oportunidade quando entram voluntariamente no seu alcance ou quando se movem 5 pés ou mais dentro do seu alcance.",
 						"Esse Ataque de Oportunidade ocorre mesmo que a criatura tenha usado a ação Desengajar. Enquanto Fronteira Declarada estiver ativa, você pode fazer até dois ataques corpo a corpo contra a criatura como parte da mesma Reação. Você pode usar Fronteira Declarada um número de vezes igual ao seu Bônus de Proficiência, recuperando todos os usos ao terminar um Descanso Longo."
 					]
 				},
@@ -10276,7 +10287,6 @@
 		{
 			"name": "Rosto de Missão",
 			"source": "MundoDeKyrFeats",
-			"page": 250,
 			"category": "G",
 			"prerequisite": [
 				{
@@ -10298,11 +10308,12 @@
 				}
 			],
 			"entries": [
+				"Você aprendeu que identidade é uma ferramenta. Um rosto certo abre portas, encerra perguntas e apaga rastros antes que alguém perceba que havia rastro.",
 				{
 					"type": "entries",
 					"name": "Máscara Funcional",
 					"entries": [
-						"Você tem Vantagem em testes de Enganação feitos para manter identidade falsa preparada por pelo menos 10 minutos."
+						"Você tem Vantagem em testes de Enganação feitos para manter uma identidade falsa preparada por pelo menos 10 minutos."
 					]
 				},
 				{
@@ -10314,12 +10325,13 @@
 				},
 				{
 					"type": "entries",
-					"name": "Saída Controlada",
+					"name": "Correção de Cobertura",
 					"entries": [
-						"Ataques de oportunidade contra você são feitos com Desvantagem."
+						"Quando uma criatura realizar um teste de Sabedoria (Percepção) ou Sabedoria (Intuição) contra sua Furtividade, disfarce, identidade falsa ou manipulação de fechadura, armadilha ou documento, você pode usar sua Reação para impor -{@dice 1d4} ao teste. Você pode usar esta característica um número de vezes igual ao seu Bônus de Proficiência, recuperando todos os usos ao terminar um Descanso Longo."
 					]
 				}
-			]
+			],
+			"page": 250
 		},
 		{
 			"name": "Agente do Pulso Verde",
@@ -10696,7 +10708,6 @@
 		{
 			"name": "Protocolo de Reprimenda",
 			"source": "MundoDeKyrFeats",
-			"page": 260,
 			"category": "G",
 			"prerequisite": [
 				{
@@ -10718,21 +10729,23 @@
 				}
 			],
 			"entries": [
+				"Você aprendeu a transformar magia em advertência formal. Sua conjuração não apenas fere; ela comunica autoridade.",
 				{
 					"type": "entries",
 					"name": "Reprimenda Arcana",
 					"entries": [
-						"Uma vez por turno, quando você acertar criatura com ataque de magia ou quando ela falhar em teste de resistência contra magia sua, você causa dano Psíquico ou Radiante adicional igual ao seu Bônus de Proficiência."
+						"Uma vez por turno, quando você atingir uma criatura com um ataque de magia ou quando uma criatura falhar em um teste de resistência contra uma magia sua, você pode causar dano Psíquico ou Radiante adicional a essa criatura igual ao seu Bônus de Proficiência."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Parecer Vinculante",
 					"entries": [
-						"Quando realizar a ação Influenciar diante de autoridade, nobre, conselho, tribunal, guilda ou instituição oficial, você pode adicionar {@dice 1d6} a teste de Persuasão ou Intimidação feito para exigir obediência, obter acesso formal ou encerrar hostilidade imediata. Você pode usar este benefício uma vez por Descanso Longo."
+						"Quando você realizar a ação Influenciar diante de uma autoridade, nobre, conselho, tribunal, guilda ou instituição oficial, você pode adicionar {@dice 1d6} a um teste de Persuasão ou Intimidação feito para exigir obediência, obter acesso formal, impor uma ordem legítima ou encerrar uma hostilidade imediata. Você pode usar este benefício uma vez por Descanso Longo."
 					]
 				}
-			]
+			],
+			"page": 260
 		},
 		{
 			"name": "Herdeiro do Registro",
@@ -10760,7 +10773,6 @@
 		{
 			"name": "Notário de Legitimidade",
 			"source": "MundoDeKyrFeats",
-			"page": 262,
 			"category": "G",
 			"prerequisite": [
 				{
@@ -10797,7 +10809,8 @@
 						"Quando você obtiver sucesso em uma ação Estudar envolvendo documento, selo, contrato, registro oficial ou genealogia, escolha uma criatura aliada a até 30 pés que possa ouvir você. Antes do seu próximo Descanso Longo, essa criatura pode adicionar {@dice 1d4} a um teste de Estudar ou Influenciar diretamente relacionado ao mesmo assunto."
 					]
 				}
-			]
+			],
+			"page": 262
 		},
 		{
 			"name": "Sangue Morgrin",
@@ -10825,7 +10838,6 @@
 		{
 			"name": "Oficial de Ferro",
 			"source": "MundoDeKyrFeats",
-			"page": 264,
 			"category": "G",
 			"prerequisite": [
 				{
@@ -10852,7 +10864,7 @@
 					"type": "entries",
 					"name": "Interposição Morgrin",
 					"entries": [
-						"Quando uma criatura aliada a até 5 pés de você for atingida por um ataque corpo a corpo, você pode usar sua Reação para reduzir o dano sofrido por ela em uma quantidade igual a {@dice 1d6} + seu Bônus de Proficiência. Você pode usar esta característica um número de vezes igual ao seu Bônus de Proficiência, recuperando todos os usos ao terminar um Descanso Longo."
+						"Quando uma criatura aliada a até 5 pés de você for atingida por um ataque corpo a corpo, você pode usar sua Reação para reduzir o dano sofrido por ela em {@dice 1d6} + seu Bônus de Proficiência. Você pode usar esta característica um número de vezes igual ao seu Bônus de Proficiência, recuperando todos os usos ao terminar um Descanso Longo."
 					]
 				},
 				{
@@ -10862,7 +10874,8 @@
 						"Uma vez por turno, quando você atingir com um ataque corpo a corpo uma criatura que causou dano a uma criatura aliada desde o início do seu último turno, o ataque causa dano adicional igual ao seu Bônus de Proficiência."
 					]
 				}
-			]
+			],
+			"page": 264
 		},
 		{
 			"name": "Voto Seraphine",
@@ -11150,7 +11163,6 @@
 		{
 			"name": "Arquiteto de Salão",
 			"source": "MundoDeKyrFeats",
-			"page": 274,
 			"category": "G",
 			"prerequisite": [
 				{
@@ -11185,6 +11197,42 @@
 					"name": "Rumor Cirúrgico",
 					"entries": [
 						"Durante um Descanso Curto ou Longo em um assentamento, escolha uma criatura, casa, guilda ou facção que você possa nomear. Antes do seu próximo Descanso Longo, você ou uma criatura aliada que possa ouvir suas instruções adiciona {@dice 1d4} ao primeiro teste de Influenciar, Estudar ou Procurar feito nesse assentamento para obter informação, acesso ou cooperação relacionada ao alvo escolhido."
+					]
+				}
+			],
+			"page": 274
+		},
+		{
+			"name": "Guarda de Chifres",
+			"source": "MundoDeKyrFeats",
+			"page": 275,
+			"category": "G",
+			"prerequisite": [
+				{
+					"level": 4,
+					"race": [
+						{
+							"name": "Taurgrin",
+							"source": "MundoDeKyrEspecies",
+							"displayEntry": "Taurgrin"
+						}
+					]
+				}
+			],
+			"entries": [
+				"Você aprendeu a usar os chifres como barreira, aviso e ameaça. Aproximar-se de você exige aceitar o peso da colisão.",
+				{
+					"type": "entries",
+					"name": "Postura de Chifres",
+					"entries": [
+						"Enquanto não estiver Incapacitado, criaturas hostis a até 5 pés de você subtraem {@dice 1d4} do primeiro teste de Força (Atletismo) ou Destreza (Acrobacia) que fizerem em cada turno para escapar de você, atravessar seu espaço, empurrar você ou resistir a uma tentativa sua de empurrar ou agarrar."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Cabeçada de Reação",
+					"entries": [
+						"Quando uma criatura a até 5 pés de você atingir uma criatura aliada com um ataque corpo a corpo, você pode usar sua Reação para realizar um ataque com seus Chifres contra a criatura atacante. Se atingir, o ataque causa dano adicional igual ao seu Bônus de Proficiência. Você pode usar esta característica um número de vezes igual ao seu Bônus de Proficiência, recuperando todos os usos ao terminar um Descanso Longo."
 					]
 				}
 			]
@@ -12006,7 +12054,7 @@
 					"type": "entries",
 					"name": "Presságio Menor (Nível 3+)",
 					"entries": [
-						"Você pode gastar 2 cargas para conjurar {@spell Augury|XPHB}, {@spell Locate Animals or Plants|XPHB}, {@spell Locate Object|XPHB}, {@spell See Invisibility|XPHB} ou {@spell Warp Sense|SatO}."
+						"Você pode gastar 2 cargas para conjurar {@spell Augury|XPHB}, {@spell Locate Animals or Plants|XPHB}, {@spell Locate Object|XPHB} ou {@spell See Invisibility|XPHB}."
 					]
 				},
 				{
@@ -12170,8 +12218,8 @@
 			"reqAttune": true,
 			"entries": [
 				"Esta saya de madeira laqueada em branco leitoso é gravada com padrões sutis de escamas. Dizem que foi consagrada a um antigo kami-serpente, que destila venenos silenciosos enquanto a lâmina descansa.",
-				"A saya pode conter adagas ou espadas com lâmina sólida, como katanas ou wakizashis, ou funcionar como uma aljava ritual, comportando até 20 munições. Quando usada como aljava, apenas uma munição pode ser revestida por vez.",
-				"Se uma arma ou munição permanecer guardada nesta saya por 1 hora, ela se torna revestida com veneno espiritual por 1 minuto após ser sacada, ou até atingir uma criatura que não seja imune a veneno. No caso de munição, o revestimento dura apenas até o final do turno em que ela for disparada.",
+				"A saya pode conter adagas ou espadas com lâmina sólida, como katanas ou wakizashis ou funcionar como uma aljava ritual, comportando até 20 munições. Quando usada como aljava, apenas uma munição pode ser revestida por vez.",
+				"Se uma arma ou munição permanecer guardada nesta saya por 1 hora, ela se torna revestida com veneno espiritual por 1 minuto após ser sacada ou até atingir uma criatura que não seja imune a veneno. No caso de munição, o revestimento dura apenas até o final do turno em que ela for disparada.",
 				"Enquanto a arma ou munição estiver revestida, ela concede os seguintes benefícios.",
 				{
 					"type": "entries",
@@ -12419,7 +12467,7 @@
 					"type": "entries",
 					"name": "Registro Inescapável",
 					"entries": [
-						"Quando uma criatura que você possa ver realizar um teste de resistência contra uma magia de Ecomancia que você conjurou, ou um teste de habilidade para ocultar, distorcer ou negar uma informação revelada por uma magia de Ecomancia sua, você pode usar sua {@variantrule Reaction|XPHB|Reação} e gastar 1 carga para impor desvantagem nesse teste."
+						"Quando uma criatura que você possa ver realizar um teste de resistência contra uma magia de Ecomancia que você conjurou ou um teste de habilidade para ocultar, distorcer ou negar uma informação revelada por uma magia de Ecomancia sua, você pode usar sua {@variantrule Reaction|XPHB|Reação} e gastar 1 carga para impor desvantagem nesse teste."
 					]
 				}
 			]
@@ -19200,7 +19248,7 @@
 					"type": "entries",
 					"name": "Magia do Aether Aquático (4 Pontos)",
 					"entries": [
-						"Você conhece o truque {@spell Shape Water|XGE|shape water}. A partir do 3º nível, você pode conjurar {@spell Create Or Destroy Water|XPHB|create or destroy water} com este traço. A partir do 5º nível, você também pode conjurar {@spell Water Walk|XPHB|water walk} com este traço. Depois de conjurar uma dessas magias com este traço, você não pode conjurá-la novamente com ele até terminar um {@variantrule Long Rest|XPHB|Descanso Longo}. Você também pode conjurá-las usando espaços de magia que possua. Inteligência, Sabedoria ou Carisma é sua habilidade de conjuração, escolhida ao criar o personagem."
+						"Você conhece o truque {@spell Elementalism|XPHB|elementalism}. A partir do 3º nível, você pode conjurar {@spell Create Or Destroy Water|XPHB|create or destroy water} com este traço. A partir do 5º nível, você também pode conjurar {@spell Water Walk|XPHB|water walk} com este traço. Depois de conjurar uma dessas magias com este traço, você não pode conjurá-la novamente com ele até terminar um {@variantrule Long Rest|XPHB|Descanso Longo}. Você também pode conjurá-las usando espaços de magia que possua. Inteligência, Sabedoria ou Carisma é sua habilidade de conjuração, escolhida ao criar o personagem."
 					]
 				},
 				{
@@ -19275,7 +19323,7 @@
 					"type": "entries",
 					"name": "Magia do Aether Ígneo (4 Pontos)",
 					"entries": [
-						"Você conhece o truque {@spell Control Flames|XGE|control flames}. A partir do 3º nível, você pode conjurar {@spell Burning Hands|XPHB|burning hands} com este traço. A partir do 5º nível, você também pode conjurar {@spell Flaming Sphere|XPHB|flaming sphere} com este traço. Depois de conjurar uma dessas magias com este traço, você não pode conjurá-la novamente com ele até terminar um {@variantrule Long Rest|XPHB|Descanso Longo}. Você também pode conjurá-las usando espaços de magia que possua. Inteligência, Sabedoria ou Carisma é sua habilidade de conjuração, escolhida ao criar o personagem."
+						"Você conhece o truque {@spell Elementalism|XPHB|elementalism}. A partir do 3º nível, você pode conjurar {@spell Burning Hands|XPHB|burning hands} com este traço. A partir do 5º nível, você também pode conjurar {@spell Flaming Sphere|XPHB|flaming sphere} com este traço. Depois de conjurar uma dessas magias com este traço, você não pode conjurá-la novamente com ele até terminar um {@variantrule Long Rest|XPHB|Descanso Longo}. Você também pode conjurá-las usando espaços de magia que possua. Inteligência, Sabedoria ou Carisma é sua habilidade de conjuração, escolhida ao criar o personagem."
 					]
 				},
 				{
@@ -19568,7 +19616,7 @@
 					"type": "entries",
 					"name": "Fome Vital (-5 Pontos)",
 					"entries": [
-						"Sua existência exige consumo periódico de energia vital. Uma vez a cada 2 dias, ou antes de terminar seu segundo {@variantrule Long Rest|XPHB|Descanso Longo} desde a última alimentação, você deve satisfazer essa fome por meio de seu Drenar Vida ou ao reduzir uma criatura viva significativa a 0 pontos de vida. Se você não satisfizer a Fome Vital dentro desse período, sofre 1 nível de Exaustão ao final do {@variantrule Long Rest|XPHB|Descanso Longo}. Essa Exaustão não pode ser removida enquanto você não satisfizer a Fome Vital. Além disso, enquanto estiver sob os efeitos dessa Fome Vital não satisfeita, você não recupera usos de Drenar Vida nem de Ruptura de Forma ao terminar um {@variantrule Long Rest|XPHB|Descanso Longo}. Depois que satisfaz a Fome Vital, passa a poder remover normalmente a Exaustão causada por este traço."
+						"Sua existência exige consumo periódico de energia vital. Uma vez a cada 2 dias ou antes de terminar seu segundo {@variantrule Long Rest|XPHB|Descanso Longo} desde a última alimentação, você deve satisfazer essa fome por meio de seu Drenar Vida ou ao reduzir uma criatura viva significativa a 0 pontos de vida. Se você não satisfizer a Fome Vital dentro desse período, sofre 1 nível de Exaustão ao final do {@variantrule Long Rest|XPHB|Descanso Longo}. Essa Exaustão não pode ser removida enquanto você não satisfizer a Fome Vital. Além disso, enquanto estiver sob os efeitos dessa Fome Vital não satisfeita, você não recupera usos de Drenar Vida nem de Ruptura de Forma ao terminar um {@variantrule Long Rest|XPHB|Descanso Longo}. Depois que satisfaz a Fome Vital, passa a poder remover normalmente a Exaustão causada por este traço."
 					]
 				},
 				{
@@ -20688,7 +20736,7 @@
 					"type": "entries",
 					"name": "Dispositivo de Emergência (3 Pontos)",
 					"entries": [
-						"Como ação bônus, você ativa uma invenção, fórmula ou engenho arcano improvisado. Escolha: Fumaça Rápida (fica levemente obscurecido até o início do próximo turno), Salto Mecânico (move 10 pés sem provocar ataques de oportunidade), ou Faísca Distrativa (uma criatura a até 30 pés tem desvantagem no próximo teste de Sabedoria ({@skill Perception|XPHB|Percepção}) ou Inteligência ({@skill Investigation|XPHB|Investigação}) antes do início do seu próximo turno). Você pode usar este traço um número de vezes igual ao seu bônus de proficiência por {@variantrule Long Rest|XPHB|Descanso Longo}."
+						"Como ação bônus, você ativa uma invenção, fórmula ou engenho arcano improvisado. Escolha: Fumaça Rápida (fica levemente obscurecido até o início do próximo turno), Salto Mecânico (move 10 pés sem provocar ataques de oportunidade) ou Faísca Distrativa (uma criatura a até 30 pés tem desvantagem no próximo teste de Sabedoria ({@skill Perception|XPHB|Percepção}) ou Inteligência ({@skill Investigation|XPHB|Investigação}) antes do início do seu próximo turno). Você pode usar este traço um número de vezes igual ao seu bônus de proficiência por {@variantrule Long Rest|XPHB|Descanso Longo}."
 					]
 				},
 				{
@@ -20767,7 +20815,7 @@
 					"type": "entries",
 					"name": "Investida da Galhada (3 Pontos)",
 					"entries": [
-						"Uma vez por turno, se você se mover pelo menos 20 pés em linha reta em direção a uma criatura e acertá-la com um ataque corpo a corpo, causa dano adicional igual ao seu bônus de proficiência. Se o ataque foi feito com sua Galhada Natural, o alvo deve passar em teste de resistência de Força contra CD = 8 + bônus de proficiência + modificador de Força ou Destreza, ou será empurrado 5 pés. Você pode forçar esse teste um número de vezes igual ao seu bônus de proficiência por {@variantrule Long Rest|XPHB|Descanso Longo}."
+						"Uma vez por turno, se você se mover pelo menos 20 pés em linha reta em direção a uma criatura e acertá-la com um ataque corpo a corpo, causa dano adicional igual ao seu bônus de proficiência. Se o ataque foi feito com sua Galhada Natural, o alvo deve passar em teste de resistência de Força contra CD = 8 + bônus de proficiência + modificador de Força ou Destreza ou será empurrado 5 pés. Você pode forçar esse teste um número de vezes igual ao seu bônus de proficiência por {@variantrule Long Rest|XPHB|Descanso Longo}."
 					]
 				},
 				{
@@ -21230,7 +21278,7 @@
 							"type": "entries",
 							"name": "Magia Marítima (4 Pontos)",
 							"entries": [
-								"Você conhece o truque {@spell Shape Water|XGE|shape water}. A partir do 3º nível, pode conjurar {@spell Fog Cloud|XPHB|fog cloud}. A partir do 5º nível, pode conjurar {@spell Misty Step|XPHB|misty step}, manifestando-se por névoa, espuma ou água. Depois de conjurar uma dessas magias com este traço, não pode conjurá-la novamente com ele até terminar um {@variantrule Long Rest|XPHB|Descanso Longo}. Você também pode conjurá-las usando espaços de magia. Inteligência, Sabedoria ou Carisma é sua habilidade de conjuração."
+								"Você conhece o truque {@spell Elementalism|XPHB|elementalism}. A partir do 3º nível, pode conjurar {@spell Fog Cloud|XPHB|fog cloud}. A partir do 5º nível, pode conjurar {@spell Misty Step|XPHB|misty step}, manifestando-se por névoa, espuma ou água. Depois de conjurar uma dessas magias com este traço, não pode conjurá-la novamente com ele até terminar um {@variantrule Long Rest|XPHB|Descanso Longo}. Você também pode conjurá-las usando espaços de magia. Inteligência, Sabedoria ou Carisma é sua habilidade de conjuração."
 							]
 						},
 						{
@@ -23252,7 +23300,7 @@
 							"type": "entries",
 							"name": "Rugido Aterrador (3 Pontos)",
 							"entries": [
-								"Como ação bônus, criaturas à sua escolha a até 10 pés que possam ouvir você devem passar em teste de resistência de Sabedoria contra CD = 8 + bônus de proficiência + modificador de Constituição ou Carisma, ou ficarão Amedrontadas por você até o final do seu próximo turno. Você pode usar este traço um número de vezes igual ao seu bônus de proficiência por {@variantrule Long Rest|XPHB|Descanso Longo}."
+								"Como ação bônus, criaturas à sua escolha a até 10 pés que possam ouvir você devem passar em teste de resistência de Sabedoria contra CD = 8 + bônus de proficiência + modificador de Constituição ou Carisma ou ficarão Amedrontadas por você até o final do seu próximo turno. Você pode usar este traço um número de vezes igual ao seu bônus de proficiência por {@variantrule Long Rest|XPHB|Descanso Longo}."
 							]
 						},
 						{
@@ -24574,7 +24622,7 @@
 					"type": "entries",
 					"name": "Absorção de Ooze (2 Pontos)",
 					"entries": [
-						"Como ação, você pode absorver parte de um Ooze morto ao alcance que tenha morrido há no máximo 1 minuto. Você ganha PV temporários iguais ao bônus de proficiência + modificador de Constituição e escolhe por 1 hora: Acidez Residual (1/turno, dano ácido adicional igual ao bônus de proficiência em ataque desarmado), Forma Escorregadia (move pelo espaço de criaturas Médias ou maiores e tem vantagem para escapar de agarrões), ou Memória Viscosa (vantagem no próximo teste de {@skill Investigation|XPHB|Investigação}, {@skill Perception|XPHB|Percepção} ou {@skill Survival|XPHB|Sobrevivência} para rastrear/analisar criatura que tocou o Ooze). Depois de usar este traço, não pode usá-lo novamente até terminar {@variantrule Long Rest|XPHB|Descanso Longo}."
+						"Como ação, você pode absorver parte de um Ooze morto ao alcance que tenha morrido há no máximo 1 minuto. Você ganha PV temporários iguais ao bônus de proficiência + modificador de Constituição e escolhe por 1 hora: Acidez Residual (1/turno, dano ácido adicional igual ao bônus de proficiência em ataque desarmado), Forma Escorregadia (move pelo espaço de criaturas Médias ou maiores e tem vantagem para escapar de agarrões) ou Memória Viscosa (vantagem no próximo teste de {@skill Investigation|XPHB|Investigação}, {@skill Perception|XPHB|Percepção} ou {@skill Survival|XPHB|Sobrevivência} para rastrear/analisar criatura que tocou o Ooze). Depois de usar este traço, não pode usá-lo novamente até terminar {@variantrule Long Rest|XPHB|Descanso Longo}."
 					]
 				},
 				{
@@ -24671,7 +24719,7 @@
 					"type": "entries",
 					"name": "Fuga por Fresta (2 Pontos)",
 					"entries": [
-						"Quando criatura que você possa ver errar ataque corpo a corpo contra você, pode usar reação para se mover 5 pés sem provocar ataques de oportunidade. Se terminar atrás de cobertura, atrás de criatura Média ou maior, ou em espaço estreito, também pode tentar se Esconder como parte da reação."
+						"Quando criatura que você possa ver errar ataque corpo a corpo contra você, pode usar reação para se mover 5 pés sem provocar ataques de oportunidade. Se terminar atrás de cobertura, atrás de criatura Média ou maior ou em espaço estreito, também pode tentar se Esconder como parte da reação."
 					]
 				},
 				"{@b Total:} 16 Pontos"
@@ -24983,7 +25031,7 @@
 					"name": "Língua Pegajosa (2 Pontos)",
 					"entries": [
 						"Como parte da sua interação com objeto no turno, você pode puxar até sua mão um objeto Pequeno ou menor que esteja solto e desprotegido a até 10 pés de você.",
-						"Além disso, quando uma criatura Pequena ou menor que você possa ver estiver a até 10 pés de você, você pode usar uma ação bônus para tentar desequilibrá-la com sua língua. A criatura deve ser bem-sucedida em um teste de resistência de Destreza contra CD = 8 + seu bônus de proficiência + seu modificador de Destreza ou Constituição, escolhido ao criar o personagem, ou ficará Derrubada.",
+						"Além disso, quando uma criatura Pequena ou menor que você possa ver estiver a até 10 pés de você, você pode usar uma ação bônus para tentar desequilibrá-la com sua língua. A criatura deve ser bem-sucedida em um teste de resistência de Destreza contra CD = 8 + seu bônus de proficiência + seu modificador de Destreza ou Constituição, escolhido ao criar o personagem ou ficará Derrubada.",
 						"Você pode usar esse segundo benefício um número de vezes igual ao seu bônus de proficiência, recuperando todos os usos ao terminar um {@variantrule Long Rest|XPHB|Descanso Longo}."
 					]
 				},
@@ -28788,7 +28836,7 @@
 				}
 			],
 			"entries": [
-				"Você arremessa uma massa de seiva corrosiva contra uma criatura que possa ver dentro do alcance. O alvo deve realizar um teste de resistência de Destreza. Em uma falha, sofre {@dice 4d6} de dano ácido e fica coberto por seiva cáustica até o início do seu próximo turno. Enquanto estiver coberto pela seiva, o primeiro ataque contra o alvo antes desse momento recebe +{@dice 1d4} na jogada de ataque, pois a substância destaca fissuras, articulações e pontos de aderência. Em um sucesso, o alvo sofre metade do dano e não fica coberto pela seiva. Se o alvo for um Elemental ligado à água, um Lodo, ou possuir uma característica que restaure pontos de vida automaticamente, ele também sofre {@dice 1d6} de dano necrótico."
+				"Você arremessa uma massa de seiva corrosiva contra uma criatura que possa ver dentro do alcance. O alvo deve realizar um teste de resistência de Destreza. Em uma falha, sofre {@dice 4d6} de dano ácido e fica coberto por seiva cáustica até o início do seu próximo turno. Enquanto estiver coberto pela seiva, o primeiro ataque contra o alvo antes desse momento recebe +{@dice 1d4} na jogada de ataque, pois a substância destaca fissuras, articulações e pontos de aderência. Em um sucesso, o alvo sofre metade do dano e não fica coberto pela seiva. Se o alvo for um Elemental ligado à água, um Lodo ou possuir uma característica que restaure pontos de vida automaticamente, ele também sofre {@dice 1d6} de dano necrótico."
 			],
 			"subschools": [
 				"Rizomancia"
@@ -29293,7 +29341,7 @@
 				}
 			],
 			"entries": [
-				"Você abre fissuras na realidade ao seu redor, em 20 pés de emanação, fazendo com que as sombras drenem vitalidade e apaguem fragmentos momentâneos de identidade e intenção. Quando você conjura esta magia, pode designar qualquer número de criaturas para não serem afetadas por ela. Uma vez por turno, quando uma criatura dentro da área da magia sofrer dano, ela sofre {@dice 2d6} de dano necrótico extra. Adicionalmente, quando a emanação entrar no espaço de uma criatura, quando uma criatura entrar no espaço da emanação, ou quando uma criatura terminar seu turno dentro dela, ela realiza um teste de resistência de Carisma. Em uma falha, ela sofre desvantagem nas jogadas de ataque e em testes de habilidade até que saia da área. Uma criatura realiza o teste apenas uma vez por turno."
+				"Você abre fissuras na realidade ao seu redor, em 20 pés de emanação, fazendo com que as sombras drenem vitalidade e apaguem fragmentos momentâneos de identidade e intenção. Quando você conjura esta magia, pode designar qualquer número de criaturas para não serem afetadas por ela. Uma vez por turno, quando uma criatura dentro da área da magia sofrer dano, ela sofre {@dice 2d6} de dano necrótico extra. Adicionalmente, quando a emanação entrar no espaço de uma criatura, quando uma criatura entrar no espaço da emanação ou quando uma criatura terminar seu turno dentro dela, ela realiza um teste de resistência de Carisma. Em uma falha, ela sofre desvantagem nas jogadas de ataque e em testes de habilidade até que saia da área. Uma criatura realiza o teste apenas uma vez por turno."
 			],
 			"subschools": [
 				"Umbramancia"
@@ -29365,7 +29413,7 @@
 				}
 			],
 			"entries": [
-				"Você ancora no Aether o eco do deslocamento de uma criatura, fazendo com que cada passo deixe um vestígio silencioso de intenção e movimento. Uma criatura que você tocar deve realizar um teste de resistência de Sabedoria. Em uma falha, ou se escolher falhar, ela deixa um rastro ecoante invisível pela duração. Enquanto a magia durar, você percebe automaticamente a presença do rastro sempre que estiver a até 60 pés de um ponto por onde a criatura passou. Ao seguir o rastro, você sabe a direção geral tomada pela criatura e pode acompanhá-lo através de terreno difícil, água rasa e áreas obscurecidas não mágicas sem sofrer penalidades. A cada 10 minutos de observação contínua do rastro, você pode aprender uma das seguintes informações: se a criatura se movia com pressa, cautela ou normalidade; se estava ferida ou sob estresse intenso; se o deslocamento foi interrompido por paradas frequentes; ou se outra criatura acompanhava o mesmo trajeto em proximidade evidente. O rastro termina imediatamente se a criatura entrar em outro plano de existência."
+				"Você ancora no Aether o eco do deslocamento de uma criatura, fazendo com que cada passo deixe um vestígio silencioso de intenção e movimento. Uma criatura que você tocar deve realizar um teste de resistência de Sabedoria. Em uma falha ou se escolher falhar, ela deixa um rastro ecoante invisível pela duração. Enquanto a magia durar, você percebe automaticamente a presença do rastro sempre que estiver a até 60 pés de um ponto por onde a criatura passou. Ao seguir o rastro, você sabe a direção geral tomada pela criatura e pode acompanhá-lo através de terreno difícil, água rasa e áreas obscurecidas não mágicas sem sofrer penalidades. A cada 10 minutos de observação contínua do rastro, você pode aprender uma das seguintes informações: se a criatura se movia com pressa, cautela ou normalidade; se estava ferida ou sob estresse intenso; se o deslocamento foi interrompido por paradas frequentes; ou se outra criatura acompanhava o mesmo trajeto em proximidade evidente. O rastro termina imediatamente se a criatura entrar em outro plano de existência."
 			],
 			"subschools": [
 				"Ecomancia"
@@ -29574,7 +29622,7 @@
 				}
 			],
 			"entries": [
-				"Você escolhe uma criatura que possa ver dentro do alcance. Raízes densas irrompem sob ela, envolvendo pernas, braços, tronco e espaço ao redor como uma prisão viva. O alvo deve realizar um teste de resistência de Força. Em uma falha, fica Restrito pela duração. Enquanto estiver Restrito por esta magia, o alvo sofre {@dice 2d6} de dano contundente no início de cada um de seus turnos, conforme as raízes comprimem seu corpo. O alvo, ou uma criatura aliada a até 5 pés dele, pode usar uma ação para tentar libertá-lo, realizando um teste de Força contra a sua CD de magia. Em um sucesso, a condição termina. No final de cada um de seus turnos, o alvo também pode repetir o teste de resistência de Força, encerrando a magia sobre si em um sucesso. Em um sucesso no teste inicial, o alvo não fica Restrito, mas seu deslocamento é reduzido pela metade até o final do próximo turno dele. Criaturas que não estejam em contato com o solo têm vantagem no teste de resistência inicial."
+				"Você escolhe uma criatura que possa ver dentro do alcance. Raízes densas irrompem sob ela, envolvendo pernas, braços, tronco e espaço ao redor como uma prisão viva. O alvo deve realizar um teste de resistência de Força. Em uma falha, fica Restrito pela duração. Enquanto estiver Restrito por esta magia, o alvo sofre {@dice 2d6} de dano contundente no início de cada um de seus turnos, conforme as raízes comprimem seu corpo. O alvo ou uma criatura aliada a até 5 pés dele, pode usar uma ação para tentar libertá-lo, realizando um teste de Força contra a sua CD de magia. Em um sucesso, a condição termina. No final de cada um de seus turnos, o alvo também pode repetir o teste de resistência de Força, encerrando a magia sobre si em um sucesso. Em um sucesso no teste inicial, o alvo não fica Restrito, mas seu deslocamento é reduzido pela metade até o final do próximo turno dele. Criaturas que não estejam em contato com o solo têm vantagem no teste de resistência inicial."
 			],
 			"subschools": [
 				"Rizomancia"
@@ -31759,7 +31807,7 @@
 				}
 			],
 			"entries": [
-				"Você projeta sobre a mente de uma criatura a ausência de si mesma, rompendo os vínculos que sustentam sua identidade. Uma criatura que você possa ver dentro do alcance deve realizar um teste de resistência de Carisma. Em uma falha, a criatura esquece quem é pela duração da magia e sofre os efeitos a seguir: A criatura se torna indiferente a todas as outras criaturas; A criatura não pode se beneficiar de suas proficiências; A criatura tem desvantagem em testes de Inteligência, Sabedoria e Carisma; A criatura falha automaticamente em testes de resistência para evitar a condição Enfeitiçado ou Amedrontado. Ao fim de cada período de uma semana sob o efeito da magia, a criatura pode repetir o teste de resistência de Carisma, encerrando o efeito em um sucesso. A magia também termina se a criatura for alvo de Greater Restoration ou Wish, ou se um evento emocional profundo a reconectar à identidade que possuía. Se a criatura fracassar nesse teste 3 vezes, o efeito se torna permanente, ela deve desenvolver um novo senso de identidade e, a partir desse ponto, apenas Wish pode encerrar a magia."
+				"Você projeta sobre a mente de uma criatura a ausência de si mesma, rompendo os vínculos que sustentam sua identidade. Uma criatura que você possa ver dentro do alcance deve realizar um teste de resistência de Carisma. Em uma falha, a criatura esquece quem é pela duração da magia e sofre os efeitos a seguir: A criatura se torna indiferente a todas as outras criaturas; A criatura não pode se beneficiar de suas proficiências; A criatura tem desvantagem em testes de Inteligência, Sabedoria e Carisma; A criatura falha automaticamente em testes de resistência para evitar a condição Enfeitiçado ou Amedrontado. Ao fim de cada período de uma semana sob o efeito da magia, a criatura pode repetir o teste de resistência de Carisma, encerrando o efeito em um sucesso. A magia também termina se a criatura for alvo de Greater Restoration ou Wish ou se um evento emocional profundo a reconectar à identidade que possuía. Se a criatura fracassar nesse teste 3 vezes, o efeito se torna permanente, ela deve desenvolver um novo senso de identidade e, a partir desse ponto, apenas Wish pode encerrar a magia."
 			],
 			"subschools": [
 				"Umbramancia"
@@ -32019,7 +32067,7 @@
 				}
 			],
 			"entries": [
-				"Você cria uma cópia sombria de si mesmo em um espaço desocupado que possa ver a até 30 pés. A cópia é uma criatura mágica com sua aparência, tipo, tamanho, CA, deslocamentos, sentidos, proficiências, testes de resistência e modificadores de atributo. Ela tem Pontos de Vida iguais a cinco vezes o nível do espaço usado, não pode recuperar Pontos de Vida, usar itens mágicos nem receber Pontos de Vida Temporários. A cópia age imediatamente depois de você, obedece seus comandos mentais e não exige ação para ser comandada. No turno dela, pode se mover e realizar uma Ação, mas não possui Ação Bônus nem Reação. Como Ação, a cópia pode realizar um ataque que você poderia realizar, conjurar um truque que você conheça, realizar Dash, Disengage, Dodge, Help, Hide, Search, Study ou Utilize, ou conjurar uma magia que você tenha preparada ou conheça. A magia conjurada deve ter tempo de conjuração de 1 Ação e ser de nível inferior ao espaço usado para conjurar Sombra Simulacral. Ela gasta seus espaços de magia, se origina da cópia e usa seu atributo de conjuração. Se exigir Concentração, Sombra Simulacral termina. A cópia não pode usar recursos limitados de classe, espécie, talento ou item, nem conjurar Sombra Simulacral, Simulacrum ou que criem, invoquem, dupliquem ou controlem criaturas. A cópia desaparece se cair a 0 Pontos de Vida, se você perder Concentração, se você ficar Incapacitado ou se ela terminar o turno a mais de 320 pés de você. Sempre que ela sofrer dano, você testa Concentração como se tivesse sofrido esse dano. Se ela desaparecer por cair a 0 Pontos de Vida, você sofre dano psíquico igual ao nível do espaço usado + seu modificador de conjuração. Ruptura Coordenada. Uma vez antes da magia terminar, quando você e a cópia causarem dano à mesma criatura no mesmo round, essa criatura sofre {@dice 4d8} de dano psíquico adicional, e a cópia desaparece."
+				"Você cria uma cópia sombria de si mesmo em um espaço desocupado que possa ver a até 30 pés. A cópia é uma criatura mágica com sua aparência, tipo, tamanho, CA, deslocamentos, sentidos, proficiências, testes de resistência e modificadores de atributo. Ela tem Pontos de Vida iguais a cinco vezes o nível do espaço usado, não pode recuperar Pontos de Vida, usar itens mágicos nem receber Pontos de Vida Temporários. A cópia age imediatamente depois de você, obedece seus comandos mentais e não exige ação para ser comandada. No turno dela, pode se mover e realizar uma Ação, mas não possui Ação Bônus nem Reação. Como Ação, a cópia pode realizar um ataque que você poderia realizar, conjurar um truque que você conheça, realizar Dash, Disengage, Dodge, Help, Hide, Search, Study ou Utilize ou conjurar uma magia que você tenha preparada ou conheça. A magia conjurada deve ter tempo de conjuração de 1 Ação e ser de nível inferior ao espaço usado para conjurar Sombra Simulacral. Ela gasta seus espaços de magia, se origina da cópia e usa seu atributo de conjuração. Se exigir Concentração, Sombra Simulacral termina. A cópia não pode usar recursos limitados de classe, espécie, talento ou item, nem conjurar Sombra Simulacral, Simulacrum ou que criem, invoquem, dupliquem ou controlem criaturas. A cópia desaparece se cair a 0 Pontos de Vida, se você perder Concentração, se você ficar Incapacitado ou se ela terminar o turno a mais de 320 pés de você. Sempre que ela sofrer dano, você testa Concentração como se tivesse sofrido esse dano. Se ela desaparecer por cair a 0 Pontos de Vida, você sofre dano psíquico igual ao nível do espaço usado + seu modificador de conjuração. Ruptura Coordenada. Uma vez antes da magia terminar, quando você e a cópia causarem dano à mesma criatura no mesmo round, essa criatura sofre {@dice 4d8} de dano psíquico adicional, e a cópia desaparece."
 			],
 			"subschools": [
 				"Umbramancia"
@@ -32759,6 +32807,1933 @@
 					}
 				]
 			}
+		},
+		{
+			"name": "Vestígio Incriminante",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 38,
+			"level": 1,
+			"school": "D",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "uma pitada de cinza e uma agulha de cobre"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					}
+				}
+			],
+			"entries": [
+				"Pela duração, você pode realizar a ação Procurar como uma Ação Bônus. Quando o faz, escolha uma criatura, objeto, superfície ou cadáver visível a até 30 pés de você. O Mestre informa um indício factual que o alvo carrega fisicamente das últimas 24 horas, como uma direção de deslocamento, um objeto manuseado, um tipo de dano envolvido ou se magia o alterou.",
+				"A magia revela evidências, não intenções, nomes ou motivações ocultas. Depois que a magia revelar três indícios, ela termina."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "XPHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "XPHB"
+					}
+				]
+			},
+			"subschools": [
+				"Ecomancia"
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Usando um Espaço de Magia Superior",
+					"entries": [
+						"Ao conjurar esta magia usando um espaço de magia de 2º nível ou superior, a duração aumenta para 1 hora."
+					]
+				}
+			],
+			"abilityCheck": [
+				"wisdom"
+			]
+		},
+		{
+			"name": "Palimpsesto Vivo",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 39,
+			"level": 2,
+			"school": "D",
+			"time": [
+				{
+					"number": 1,
+					"unit": "minute"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "giz fino e cera transparente"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"Você toca uma obra escrita não mágica, inscrição, mapa, pintura ou superfície entalhada que caiba em um Cubo de 10 pés. Até a magia terminar, uma duplicata translúcida do alvo aparece em uma superfície que você tocar.",
+				"A duplicata preserva conteúdo visível, diagramação, danos e rasuras, mas não reproduz efeitos mágicos, compartimentos ocultos ou tinta invisível, a menos que você já possa percebê-los. Você pode dissipar a duplicata antecipadamente (nenhuma ação exigida)."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "XPHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"subschools": [
+				"Ecomancia"
+			],
+			"meta": {
+				"ritual": true
+			},
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Usando um Espaço de Magia Superior",
+					"entries": [
+						"Ao conjurar esta magia usando um espaço de magia de 4º nível ou superior, a duplicata pode preservar uma aura mágica presente na superfície copiada, permitindo que {@spell Identify|XPHB} ou magia similar estude essa aura a partir da duplicata."
+					]
+				}
+			]
+		},
+		{
+			"name": "Depoimento da Pedra Fria",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 40,
+			"level": 2,
+			"school": "D",
+			"time": [
+				{
+					"number": 1,
+					"unit": "minute"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "uma gota de água sobre pedra ou metal"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					}
+				}
+			],
+			"entries": [
+				"Você toca uma estrutura, piso, estrada, porta, arma ou outro objeto não portado que tenha permanecido no mesmo lugar por pelo menos 1 hora durante os últimos 7 dias. Faça ao Mestre até três perguntas sobre eventos físicos que o alvo presenciou.",
+				"A resposta é breve e sensorial: pressão, som, calor, movimento, sangue, magia ou uma frase repetida. O alvo não pode identificar uma criatura pelo nome, a menos que esse nome tenha sido pronunciado em voz alta a até 30 pés dele."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "XPHB"
+					},
+					{
+						"name": "Druid",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "XPHB"
+					}
+				]
+			},
+			"subschools": [
+				"Ecomancia"
+			],
+			"meta": {
+				"ritual": true
+			},
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Usando um Espaço de Magia Superior",
+					"entries": [
+						"Ao conjurar esta magia usando um espaço de magia de 4º nível ou superior, você pode alcançar os últimos 30 dias, em vez dos últimos 7 dias."
+					]
+				}
+			]
+		},
+		{
+			"name": "Enigma dos Caminhos",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 41,
+			"level": 3,
+			"school": "D",
+			"time": [
+				{
+					"number": 10,
+					"unit": "minute"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "um laço de fio de prata no valor de 25 PO"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 8
+					}
+				}
+			],
+			"entries": [
+				"Até a magia terminar, você e até dez criaturas voluntárias à sua escolha a até 30 pés de você não podem se perder por meios não mágicos.",
+				"Quando o grupo alcançar uma bifurcação, ruína, portal, costura planar ou marco natural, você pode fazer ao Mestre uma das seguintes perguntas: qual caminho foi usado mais recentemente, qual caminho é mais perigoso ou qual caminho ressoa mais fortemente com magia. A resposta é uma impressão breve, não um mapa."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "XPHB"
+					},
+					{
+						"name": "Druid",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "XPHB"
+					}
+				]
+			},
+			"meta": {
+				"ritual": true
+			}
+		},
+		{
+			"name": "Nome Sob a Poeira",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 42,
+			"level": 4,
+			"school": "D",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "poeira de uma estrada pública"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Você toca uma criatura, cadáver, retrato, assinatura ou objeto pessoal e busca um nome pelo qual o sujeito seja verdadeiramente conhecido em Kÿr. O Mestre informa um nome verdadeiro, nome legal, título, alcunha criminosa, nome de culto ou nome de infância que seja relevante para a história atual do sujeito.",
+				"Se o sujeito estiver protegido por magia que oculte identidade, faça um teste de atributo usando seu atributo de conjuração contra a CD para evitar magia do conjurador do efeito. Em um sucesso, você aprende um nome parcial ou epíteto significativo."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "XPHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"subschools": [
+				"Ecomancia"
+			],
+			"abilityCheck": [
+				"spellcasting"
+			]
+		},
+		{
+			"name": "Mapa de Pressões",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 43,
+			"level": 3,
+			"school": "D",
+			"time": [
+				{
+					"number": 10,
+					"unit": "minute"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "tinta misturada com areia"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 8
+					}
+				}
+			],
+			"entries": [
+				"Você esboça um mapa rudimentar da área a até 1 milha de você. O mapa não revela salas secretas, mas marca pressões antinaturais: desabamentos recentes, barreiras mágicas, movimentação pesada de tropas, estruturas enterradas, pisos frágeis, portais ativos e lugares onde o solo foi magicamente remodelado.",
+				"O Mestre pode descrever essas marcas como símbolos, em vez de rótulos precisos."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "XPHB"
+					}
+				]
+			},
+			"meta": {
+				"ritual": true
+			}
+		},
+		{
+			"name": "Juramento de Sal e Ferro",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 44,
+			"level": 1,
+			"school": "D",
+			"time": [
+				{
+					"number": 1,
+					"unit": "minute"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "sal, limalha de ferro e mãos unidas"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "day",
+						"amount": 10
+					}
+				}
+			],
+			"entries": [
+				"Você e até cinco criaturas voluntárias tocam os componentes materiais e pronunciam uma promessa. Até a magia terminar, cada criatura vinculada sabe quando outra criatura vinculada quebra a promessa conscientemente, mas não aprende os detalhes da quebra.",
+				"Uma criatura que quebre a promessa tem Desvantagem no próximo teste de Carisma que fizer contra outra criatura vinculada antes da magia terminar. Uma promessa feita sob coerção mágica não é vinculada por esta magia."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "XPHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "XPHB"
+					}
+				]
+			},
+			"meta": {
+				"ritual": true
+			},
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Usando um Espaço de Magia Superior",
+					"entries": [
+						"Ao conjurar esta magia usando um espaço de magia de 3º nível ou superior, a duração aumenta para 30 dias."
+					]
+				}
+			]
+		},
+		{
+			"name": "Banquete de Boatos",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 45,
+			"level": 3,
+			"school": "E",
+			"time": [
+				{
+					"number": 10,
+					"unit": "minute"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "uma refeição compartilhada no valor de pelo menos 10 PO"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"Você encanta uma refeição ou bebida compartilhada por até doze criaturas voluntárias. Até a magia terminar, cada participante tem Vantagem em testes de Carisma (Persuasão) feitos para compartilhar histórias pessoais e em testes de Sabedoria (Intuição) feitos para perceber se outro participante está ocultando medo, luto ou raiva.",
+				"Se um participante contar conscientemente uma mentira direta durante a refeição, ele deve realizar um teste de resistência de Carisma. Em uma falha, sua voz vacila brevemente, revelando a mentira aos demais participantes."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "XPHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "XPHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"meta": {
+				"ritual": true
+			},
+			"savingThrow": [
+				"charisma"
+			]
+		},
+		{
+			"name": "Voz do Decreto Frio",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 46,
+			"level": 3,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"Escolha uma criatura que possa ouvir você dentro do alcance. O alvo realiza um teste de resistência de Carisma. Em uma falha, você pronuncia uma proibição clara de até dez palavras, como “não saque uma lâmina” ou “não atravesse a porta”.",
+				"Até a magia terminar, a primeira vez que o alvo violar conscientemente a proibição, ele sofre {@dice 4d8} de dano psíquico, e a magia termina. A magia também termina se a proibição forçar diretamente a autodestruição do alvo ou impedi-lo de se defender."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "XPHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "XPHB"
+					}
+				]
+			},
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Usando um Espaço de Magia Superior",
+					"entries": [
+						"O dano aumenta em {@dice 1d8} para cada nível do espaço de magia acima do 3º."
+					]
+				}
+			],
+			"damageInflict": [
+				"psychic"
+			],
+			"savingThrow": [
+				"charisma"
+			]
+		},
+		{
+			"name": "Espelho de Reversão",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 47,
+			"level": 4,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "reaction",
+					"condition": "que você realiza quando uma criatura que você possa ver a até 60 pés de você conjura uma magia que tenha apenas uma criatura como alvo"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "um fragmento espelhado no valor de 50 PO"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Faça um teste de atributo usando seu atributo de conjuração. A CD é igual a 10 + o nível da magia desencadeadora. Em um sucesso, escolha outro alvo válido para a magia dentro do alcance dela. Se não houver outro alvo válido, a magia passa a ter o próprio conjurador como alvo.",
+				"Em uma falha, a magia desencadeadora não é afetada, e você sofre dano psíquico igual ao dobro do nível dela."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Warlock",
+						"source": "XPHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Usando um Espaço de Magia Superior",
+					"entries": [
+						"Ao conjurar esta magia usando um espaço de magia de nível igual ou superior ao da magia desencadeadora, você tem Vantagem no teste de atributo."
+					]
+				}
+			],
+			"damageInflict": [
+				"psychic"
+			],
+			"abilityCheck": [
+				"spellcasting"
+			]
+		},
+		{
+			"name": "Curvatura da Trama",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 48,
+			"level": 3,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "reaction",
+					"condition": "que você realiza quando uma criatura que você possa ver a até 60 pés de você conjura uma magia que cria uma área de efeito"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Você distorce a geometria da magia desencadeadora. Se ela criar um Cone, Cubo, Cilindro, Emanação, Linha ou Esfera, você pode mover a área até 10 pés ou rotacionar sua direção, desde que a nova área permaneça dentro do alcance original da magia.",
+				"Você não pode mover o ponto de origem da magia para uma criatura que não estivesse originalmente na área ou adjacente a ela. O conjurador da magia desencadeadora pode realizar um teste de atributo usando o atributo de conjuração dele contra sua CD para evitar magia. Em um sucesso, esta magia não tem efeito."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "XPHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "XPHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Usando um Espaço de Magia Superior",
+					"entries": [
+						"A distância pela qual você pode mover a área aumenta em 5 pés para cada nível do espaço de magia acima do 3º."
+					]
+				}
+			],
+			"abilityCheck": [
+				"spellcasting"
+			]
+		},
+		{
+			"name": "Campo Antibalístico",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 49,
+			"level": 4,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "uma ponta de flecha dobrada ou um projétil disparado"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"Uma Emanação de 15 pés de pressão distorcida cerca você. Ataques à distância feitos com munição não mágica que entre ou atravesse a Emanação são realizados com Desvantagem.",
+				"Quando um desses ataques errar uma criatura na Emanação, você pode fazer a munição cair inofensivamente em um espaço desocupado à sua escolha dentro da Emanação (nenhuma ação exigida). Munição de cerco e ataques de criaturas Enormes ou maiores não são afetados."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "XPHB"
+					}
+				]
+			},
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Usando um Espaço de Magia Superior",
+					"entries": [
+						"Ao conjurar esta magia usando um espaço de magia de 6º nível ou superior, munição mágica também é afetada, a menos que venha de um Artefato."
+					]
+				}
+			]
+		},
+		{
+			"name": "Refração Umbral",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 50,
+			"level": 3,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "reaction",
+					"condition": "que você realiza quando é atingido por um ataque ou falha em um teste de resistência de Destreza"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"Você desliza parcialmente para fora do mundo. Até o início do seu próximo turno, você tem Resistência a todo dano causado pelo efeito desencadeador e pode se mover através de criaturas e objetos como se fossem Terreno Difícil.",
+				"Se terminar esse movimento dentro de um objeto, você é expulso para o espaço desocupado mais próximo e sofre {@dice 2d10} de dano de força. Enquanto estiver refratado, você não pode realizar Ataques de Oportunidade."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Warlock",
+						"source": "XPHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"subschools": [
+				"Umbramancia"
+			],
+			"damageInflict": [
+				"force"
+			]
+		},
+		{
+			"name": "Campo de Neutralização",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 51,
+			"level": 5,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "um anel de giz em pó no valor de 100 PO"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"Uma Emanação de 10 pés de ordem pálida cerca você. Efeitos mágicos de 3º nível ou inferior na Emanação ficam suprimidos enquanto permanecerem nela. Uma criatura na Emanação tem Vantagem em testes de resistência contra magias e efeitos mágicos.",
+				"No início de cada um dos seus turnos, escolha uma magia em curso de 4º nível ou inferior na Emanação. Faça um teste de atributo usando seu atributo de conjuração contra CD 10 + o nível da magia. Em um sucesso, essa magia termina."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Warlock",
+						"source": "XPHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "XPHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Usando um Espaço de Magia Superior",
+					"entries": [
+						"O nível máximo de magia que você pode suprimir e tentar encerrar aumenta em 1 para cada nível do espaço de magia acima do 5º."
+					]
+				}
+			],
+			"abilityCheck": [
+				"spellcasting"
+			]
+		},
+		{
+			"name": "Muralha de Luto Negro",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 52,
+			"level": 6,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "um véu funerário"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"Você cria uma muralha de escuridão opaca e pesarosa sobre uma superfície sólida dentro do alcance. A muralha pode ter até 60 pés de comprimento, 20 pés de altura e 1 pé de espessura, ou formar um anel com até 20 pés de diâmetro, 20 pés de altura e 1 pé de espessura. A área da muralha é fortemente obscurecida.",
+				"Quando uma criatura entra na muralha pela primeira vez em um turno ou começa o turno dela ali, ela deve realizar um teste de resistência de Sabedoria. Em uma falha, sofre {@dice 6d8} de dano necrótico e fica Amedrontada até o início do próximo turno dela. Em um sucesso, sofre apenas metade do dano."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "XPHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"subschools": [
+				"Umbramancia"
+			],
+			"damageInflict": [
+				"necrotic"
+			],
+			"savingThrow": [
+				"wisdom"
+			],
+			"conditionInflict": [
+				"frightened"
+			]
+		},
+		{
+			"name": "Travessia do Rasgo",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 53,
+			"level": 5,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 500
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "uma fita negra dobrada"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Você abre um corte planar estreito entre dois pontos que possa ver dentro do alcance. Você e até cinco criaturas voluntárias a até 10 pés de você podem se teleportar imediatamente para espaços desocupados a até 10 pés do ponto de destino.",
+				"O corte permanece até o início do seu próximo turno. Uma criatura que entra no corte pela primeira vez deve realizar um teste de resistência de Carisma. Em uma falha, ela é teleportada para o destino e sofre {@dice 4d6} de dano de força. Em um sucesso, ela não é teleportada."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "XPHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "XPHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"subschools": [
+				"Interstício"
+			],
+			"damageInflict": [
+				"force"
+			],
+			"savingThrow": [
+				"charisma"
+			],
+			"miscTags": [
+				"TP"
+			]
+		},
+		{
+			"name": "Corpo em Meia-Noite",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 54,
+			"level": 5,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "uma pena queimada sem chama"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"Seu corpo se torna uma silhueta alada. Até a magia terminar, você tem deslocamento de voo de 60 pés, pode se mover por espaços de até 1 polegada de largura sem se espremer e tem Resistência a dano necrótico e psíquico.",
+				"Você não pode atravessar objetos sólidos. Enquanto estiver sob luz plena, o deslocamento de voo concedido por esta magia é reduzido para 30 pés."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Warlock",
+						"source": "XPHB"
+					},
+					{
+						"name": "Druid",
+						"source": "XPHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"subschools": [
+				"Umbramancia"
+			],
+			"damageInflict": [
+				"necrotic",
+				"psychic"
+			],
+			"miscTags": [
+				"FMV"
+			]
+		},
+		{
+			"name": "Estrada das Raízes Lunares",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 55,
+			"level": 5,
+			"school": "C",
+			"time": [
+				{
+					"number": 10,
+					"unit": "minute"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "água sob luar e uma raiz de dois lugares"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Você abre uma rota viva entre sua localização e um local natural que você tenha visitado no mesmo plano de existência a até 50 milhas. Você e até oito criaturas voluntárias entram em raízes, névoa, água, pedra ou sombra lunar e emergem no destino.",
+				"A viagem dura 1 minuto. Durante esse tempo, os viajantes ficam Incapacitados e percebem apenas vislumbres oníricos da terra entre os dois pontos. A magia falha se qualquer uma das localizações estiver protegida contra teleporte."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "XPHB"
+					}
+				]
+			},
+			"subschools": [
+				"Rizomancia"
+			],
+			"meta": {
+				"ritual": true
+			},
+			"conditionInflict": [
+				"incapacitated"
+			],
+			"miscTags": [
+				"TP"
+			]
+		},
+		{
+			"name": "Faro Primevo",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 56,
+			"level": 1,
+			"school": "D",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "uma pitada de pelo, escama ou solo"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 8
+					}
+				}
+			],
+			"entries": [
+				"Pela duração, você pode farejar medo, sangue, podridão, fumaça, veneno e magia intensa a até 60 pés de você. Você tem Vantagem em testes de Sabedoria (Percepção) e Sabedoria (Sobrevivência) que dependam do olfato.",
+				"Como uma Ação, você pode se concentrar em um cheiro detectado e aprende a direção geral dele até o final do seu próximo turno."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "XPHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "XPHB"
+					}
+				]
+			},
+			"meta": {
+				"ritual": true
+			}
+		},
+		{
+			"name": "Primavera Forçada",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 57,
+			"level": 1,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Você toca uma planta, semente, plantação, objeto de madeira ou crescimento natural que ocupe no máximo um Cubo de 10 pés. Escolha um dos efeitos a seguir: fazer flores, folhas, frutos ou raízes inofensivos aparecerem; restaurar a saúde de uma planta não mágica ressecada; tornar matéria vegetal comestível segura para consumo por 24 horas; ou fazer raízes e vinhas formarem uma escada, ponte, alça ou amarra simples capaz de sustentar até 500 libras por 1 hora.",
+				"A criação não pode conter uma criatura involuntária nem causar dano."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "XPHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "XPHB"
+					}
+				]
+			},
+			"subschools": [
+				"Rizomancia"
+			]
+		},
+		{
+			"name": "Banquete Carniçal",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 58,
+			"level": 5,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "sal de sepultura e um dente negro"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Escolha um cadáver ou uma criatura com 0 Pontos de Vida dentro do alcance. Bocas sombrias devoram parte do alvo. Cada criatura à sua escolha a até 15 pés do alvo realiza um teste de resistência de Sabedoria.",
+				"Em uma falha, a criatura sofre {@dice 6d8} de dano necrótico e fica Amedrontada até o final do próximo turno dela. Em um sucesso, sofre apenas metade do dano. Se pelo menos uma criatura falhar nesse teste de resistência, você ganha Pontos de Vida Temporários iguais a 5 + seu modificador de atributo de conjuração."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Warlock",
+						"source": "XPHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"damageInflict": [
+				"necrotic"
+			],
+			"savingThrow": [
+				"wisdom"
+			],
+			"conditionInflict": [
+				"frightened"
+			],
+			"miscTags": [
+				"THP"
+			]
+		},
+		{
+			"name": "Orbe Séptico",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 59,
+			"level": 1,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "um frasco lacrado de gel azedo"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Faça uma jogada de ataque à distância com magia contra uma criatura dentro do alcance. Em um acerto, o alvo sofre {@dice 2d6} de dano ácido, e o orbe explode. Cada criatura a até 5 pés do alvo, incluindo o próprio alvo, deve ser bem-sucedida em um teste de resistência de Destreza ou sofrer {@dice 1d6} de dano venenoso.",
+				"Se o ataque errar, a explosão ainda acontece, mas o alvo original tem Vantagem no teste de resistência."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Warlock",
+						"source": "XPHB"
+					},
+					{
+						"name": "Druid",
+						"source": "XPHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "XPHB"
+					}
+				]
+			},
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Usando um Espaço de Magia Superior",
+					"entries": [
+						"O dano ácido e o dano venenoso aumentam, cada um, em {@dice 1d6} para cada dois níveis do espaço de magia acima do 1º."
+					]
+				}
+			],
+			"damageInflict": [
+				"acid",
+				"poison"
+			],
+			"savingThrow": [
+				"dexterity"
+			]
+		},
+		{
+			"name": "Pele Febril",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 60,
+			"level": 2,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "uma agulha morna"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"Escolha uma criatura que você possa ver dentro do alcance. O alvo realiza um teste de resistência de Constituição. Em uma falha, sofre {@dice 3d6} de dano de fogo ou venenoso, à sua escolha, e fica febril.",
+				"Enquanto estiver febril, o alvo tem Desvantagem em testes de resistência de Constituição feitos para manter Concentração, e o deslocamento dele é reduzido em 10 pés. O alvo repete o teste de resistência no final de cada um dos turnos dele, encerrando a magia sobre si em um sucesso."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Warlock",
+						"source": "XPHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "XPHB"
+					},
+					{
+						"name": "Druid",
+						"source": "XPHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					}
+				]
+			},
+			"damageInflict": [
+				"fire",
+				"poison"
+			],
+			"savingThrow": [
+				"constitution"
+			]
+		},
+		{
+			"name": "Mãos de Contágio",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 61,
+			"level": 0,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Faça uma jogada de ataque corpo a corpo com magia contra uma criatura ao seu alcance. Em um acerto, o alvo sofre {@dice 1d8} de dano venenoso e, até o início do seu próximo turno, não pode se beneficiar de Vantagem na próxima jogada de ataque que fizer.",
+				"Se o alvo já estiver Envenenado, o dano desta magia se torna necrótico."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Warlock",
+						"source": "XPHB"
+					},
+					{
+						"name": "Druid",
+						"source": "XPHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"damageInflict": [
+				"poison",
+				"necrotic"
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Aprimoramento de Truque",
+					"entries": [
+						"O dano aumenta em {@dice 1d8} quando você alcança os níveis 5 ({@dice 2d8}), 11 ({@dice 3d8}) e 17 ({@dice 4d8})."
+					]
+				}
+			]
+		},
+		{
+			"name": "Ferrugem Biológica",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 62,
+			"level": 4,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "ferrugem misturada com sangue seco"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Escolha uma criatura dentro do alcance que esteja vestindo armadura de metal ou portando uma arma de metal. O alvo realiza um teste de resistência de Constituição. Em uma falha, sofre {@dice 6d6} de dano ácido, e um item de metal não mágico que esteja vestindo ou portando se torna quebradiço até ser reparado.",
+				"Uma arma quebradiça sofre penalidade de -1 nas rolagens de dano. Uma armadura quebradiça sofre penalidade de -1 na CA. Um item mágico não sofre essa penalidade, mas o alvo ainda sofre o dano."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "XPHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"damageInflict": [
+				"acid"
+			],
+			"savingThrow": [
+				"constitution"
+			]
+		},
+		{
+			"name": "Ruptura Pulmonar",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 63,
+			"level": 5,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 90
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"Escolha uma criatura dentro do alcance que precise respirar. O alvo realiza um teste de resistência de Constituição. Em uma falha, começa a sufocar com ar hostil.",
+				"Até a magia terminar, o alvo não pode falar, não pode fornecer componentes verbais e sofre {@dice 4d8} de dano necrótico no início de cada um dos turnos dele. O alvo repete o teste de resistência no final de cada um dos turnos dele, encerrando a magia sobre si em um sucesso. Um alvo que não precise respirar é automaticamente bem-sucedido no teste."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Warlock",
+						"source": "XPHB"
+					},
+					{
+						"name": "Druid",
+						"source": "XPHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"damageInflict": [
+				"necrotic"
+			],
+			"savingThrow": [
+				"constitution"
+			]
+		},
+		{
+			"name": "Martelo de Gravidade",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 64,
+			"level": 4,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 90
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "uma esfera de pedra negra"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Escolha um ponto dentro do alcance. A gravidade se dobra em uma Esfera de 15 pés de raio centrada nesse ponto. Cada criatura na Esfera realiza um teste de resistência de Força.",
+				"Em uma falha, uma criatura sofre {@dice 5d8} de dano de força, é puxada até 15 pés em direção ao centro e fica Caída. Em um sucesso, sofre apenas metade do dano e não é puxada nem derrubada."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Warlock",
+						"source": "XPHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"subschools": [
+				"Kharomancia"
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Usando um Espaço de Magia Superior",
+					"entries": [
+						"O dano aumenta em {@dice 1d8} para cada nível do espaço de magia acima do 4º."
+					]
+				}
+			],
+			"damageInflict": [
+				"force"
+			],
+			"savingThrow": [
+				"strength"
+			],
+			"conditionInflict": [
+				"prone"
+			],
+			"miscTags": [
+				"FMV"
+			]
+		},
+		{
+			"name": "Canhão Conjurado",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 65,
+			"level": 2,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "um anel de latão ou cartucho vazio"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"Um cano espectral, gesto de disparo ou glifo de cerco aparece em sua mão. Até a magia terminar, você pode usar uma Ação Bônus para fazer uma jogada de ataque à distância com magia contra uma criatura ou objeto a até 120 pés de você.",
+				"Em um acerto, o alvo sofre {@dice 2d10} de dano de força. Se o alvo for um objeto ou estrutura, o ataque causa o dano máximo."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Usando um Espaço de Magia Superior",
+					"entries": [
+						"O dano aumenta em {@dice 1d10} para cada dois níveis do espaço de magia acima do 2º."
+					]
+				}
+			],
+			"damageInflict": [
+				"force"
+			]
+		},
+		{
+			"name": "Repulsão Arcano-Magnética",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 66,
+			"level": 2,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "uma magnetita"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"Um campo de pressão magnética cerca você em uma Emanação de 10 pés. Quando uma criatura vestindo armadura de metal ou portando uma arma de metal entra na Emanação pela primeira vez em um turno ou começa o turno dela ali, ela deve ser bem-sucedida em um teste de resistência de Força ou ser empurrada 10 pés para longe de você.",
+				"Além disso, ataques à distância feitos com munição de metal contra alvos na Emanação têm Desvantagem."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Warlock",
+						"source": "XPHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "XPHB"
+					},
+					{
+						"name": "Druid",
+						"source": "XPHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"savingThrow": [
+				"strength"
+			],
+			"miscTags": [
+				"FMV"
+			]
+		},
+		{
+			"name": "Maré Astral",
+			"source": "MundoDeKyrLivroDasMagiasDeKyr",
+			"page": 67,
+			"level": 6,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "cone",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "areia prateada de uma praia ou deserto"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Uma pressão astral se projeta de você em um Cone de 30 pés. Cada criatura no Cone realiza um teste de resistência de Inteligência. Em uma falha, uma criatura sofre {@dice 8d6} de dano psíquico, é empurrada 30 pés diretamente para longe de você e vê brevemente um lugar que perdeu ou abandonou.",
+				"Em um sucesso, a criatura sofre apenas metade do dano e não é empurrada. Uma criatura empurrada contra uma superfície sólida sofre {@dice 2d6} de dano de força."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "XPHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "XPHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"damageInflict": [
+				"psychic",
+				"force"
+			],
+			"savingThrow": [
+				"intelligence"
+			],
+			"miscTags": [
+				"FMV"
+			]
 		}
 	],
 	"subclass": [
@@ -33053,7 +35028,7 @@
 							"Lightning Bolt|xphb"
 						],
 						"7": [
-							"Elemental Bane|xphb",
+							"Colapso Radicular|MundoDeKyrLivroDasMagiasDeKyr",
 							"Wall of Fire|xphb"
 						],
 						"9": [
@@ -34030,7 +36005,7 @@
 			"entries": [
 				"{@i 15º nível de característica de subclasse de Paladin.}",
 				"O vínculo que você protege passa a resistir à ruptura. Quando uma criatura aliada que você possa ver a até 60 pés (60 pés) for reduzida a 0 {@variantrule Hit Points|XPHB|Pontos de Vida}, você pode usar sua Reação para impedir essa queda. A criatura é reduzida a 1 Ponto de Vida em vez disso, move-se até 10 pés (10 pés) para um espaço desocupado que você possa ver e não provoca {@action Opportunity Attack|XPHB|Ataques de Oportunidade} durante esse movimento. Depois de usar esta característica, você não pode usá-la novamente até terminar um {@variantrule Long Rest|XPHB|Descanso Longo}, a menos que gaste um espaço de magia de 4º nível ou superior para restaurar seu uso.",
-				"Além disso, sempre que você usar Imposição das Mãos em uma criatura, você pode encerrar nela a condição {@condition Frightened|XPHB|Amedrontado} ou {@condition Charmed|XPHB|Enfeitiçado}, ou restaurar uma lembrança recente suprimida por magia."
+				"Além disso, sempre que você usar Imposição das Mãos em uma criatura, você pode encerrar nela a condição {@condition Frightened|XPHB|Amedrontado} ou {@condition Charmed|XPHB|Enfeitiçado} ou restaurar uma lembrança recente suprimida por magia."
 			]
 		},
 		{
@@ -34158,7 +36133,7 @@
 			"level": 14,
 			"entries": [
 				"{@i 14º nível de característica de subclasse de Sorcerer.}",
-				"Sua presença transforma o campo ao redor em um ecossistema de continuidade. Enquanto sua Feitiçaria Inata estiver ativa, você pode gastar 3 Pontos de Feitiçaria para criar uma aura de sustentação que dura por 1 minuto e se move com você. A aura tem o mesmo alcance de sua Trama Protetora. Enquanto a aura estiver ativa, no início de cada um dos seus turnos, pela duração, você emana um pulso de vitalidade rizomântica, recuperando pontos de vida iguais ao seu modificador de Carisma de uma quantidade de criaturas iguais ao seu bônus de proficiência. Além disso, as criaturas afetadas podem escolher um dos seguintes benefícios até o início do seu próximo turno: ganhar vantagem no próximo teste de resistência que realizar, receber {@variantrule Temporary Hit Points|XPHB|Pontos de Vida Temporários} iguais ao seu modificador de Carisma, ou aumentar seu deslocamento em 10 pés (10 pés). Você pode encerrar essa aura a qualquer momento, sem ação."
+				"Sua presença transforma o campo ao redor em um ecossistema de continuidade. Enquanto sua Feitiçaria Inata estiver ativa, você pode gastar 3 Pontos de Feitiçaria para criar uma aura de sustentação que dura por 1 minuto e se move com você. A aura tem o mesmo alcance de sua Trama Protetora. Enquanto a aura estiver ativa, no início de cada um dos seus turnos, pela duração, você emana um pulso de vitalidade rizomântica, recuperando pontos de vida iguais ao seu modificador de Carisma de uma quantidade de criaturas iguais ao seu bônus de proficiência. Além disso, as criaturas afetadas podem escolher um dos seguintes benefícios até o início do seu próximo turno: ganhar vantagem no próximo teste de resistência que realizar, receber {@variantrule Temporary Hit Points|XPHB|Pontos de Vida Temporários} iguais ao seu modificador de Carisma ou aumentar seu deslocamento em 10 pés (10 pés). Você pode encerrar essa aura a qualquer momento, sem ação."
 			]
 		},
 		{
@@ -34205,7 +36180,7 @@
 					"type": "entries",
 					"name": "Eco Manifesto",
 					"entries": [
-						"Você aprende a ancorar um Eco para auxiliá-lo. Como uma Ação Bônus, você pode manifestar um Eco Espiritual Menor, que possui uma Aura de Emanação de 30 pés (30 pés) em um espaço desocupado a até 30 pés (30 pés) de você. O eco é uma presença espectral indistinta — não uma criatura — e dura 10 minutos ou até você ficar incapacitado, ou desfazê-lo (sem ação requerida). Enquanto o Eco estiver ativo, você escolhe um dos efeitos abaixo quando ele é criado:",
+						"Você aprende a ancorar um Eco para auxiliá-lo. Como uma Ação Bônus, você pode manifestar um Eco Espiritual Menor, que possui uma Aura de Emanação de 30 pés (30 pés) em um espaço desocupado a até 30 pés (30 pés) de você. O eco é uma presença espectral indistinta — não uma criatura — e dura 10 minutos ou até você ficar incapacitado ou desfazê-lo (sem ação requerida). Enquanto o Eco estiver ativo, você escolhe um dos efeitos abaixo quando ele é criado:",
 						{
 							"type": "entries",
 							"name": "Eco de Ataque",
@@ -34464,7 +36439,7 @@
 			"level": 6,
 			"entries": [
 				"{@i 6º nível de característica de subclasse de Sorcerer.}",
-				"Enquanto empunhar sua Lâmina Elemental, ou outra arma invocada do Aether, e estiver com seu Feitiçaria Inata ativo, você receberá os seguintes benefícios: Uma vez por turno, seus ataques corpo a corpo causam {@dice 1d6} de dano adicional. Escolha entre ácido, fogo, frio, raio, trovão ou veneno. Alternativamente, você pode escolher gastar de 1 a 3 Pontos de Feitiçaria para amplificar o ataque, causando {@dice 1d8} de dano adicional do mesmo tipo por ponto gasto. Independentemente de qual seja o tipo de dano aplicado, esse dano adicional é aplicado apenas uma vez por turno."
+				"Enquanto empunhar sua Lâmina Elemental ou outra arma invocada do Aether, e estiver com seu Feitiçaria Inata ativo, você receberá os seguintes benefícios: Uma vez por turno, seus ataques corpo a corpo causam {@dice 1d6} de dano adicional. Escolha entre ácido, fogo, frio, raio, trovão ou veneno. Alternativamente, você pode escolher gastar de 1 a 3 Pontos de Feitiçaria para amplificar o ataque, causando {@dice 1d8} de dano adicional do mesmo tipo por ponto gasto. Independentemente de qual seja o tipo de dano aplicado, esse dano adicional é aplicado apenas uma vez por turno."
 			]
 		},
 		{
@@ -34566,7 +36541,7 @@
 			"level": 3,
 			"entries": [
 				"{@i 3º nível de característica de subclasse de Sorcerer.}",
-				"Sua magia nasce no limiar entre criação e dissolução. Você não representa apenas luz ou trevas — você representa o instante em que uma se torna a outra. Você manipula Cargas de Luz e Cargas de Trevas, energias opostas que coexistem dentro de você. O número total de Cargas que você pode armazenar (somando Luz e Trevas) é igual ao seu nível de Feiticeiro. As Cargas não desaparecem ao terminar um {@variantrule Long Rest|XPHB|Descanso Longo}. Você aprende a alternar entre dois estados: Véu da Luz e Véu das Trevas. Como Ação Bônus, você assume um dos Véus; ele dura 10 minutos, ou até você usar uma Ação Bônus para assumir o outro Véu. Enquanto estiver sob um Véu, você pode acumular apenas o tipo correspondente de Carga. Acúmulo de Cargas. Você ganha 1 Carga quando faz qualquer uma das escolhas abaixo:",
+				"Sua magia nasce no limiar entre criação e dissolução. Você não representa apenas luz ou trevas — você representa o instante em que uma se torna a outra. Você manipula Cargas de Luz e Cargas de Trevas, energias opostas que coexistem dentro de você. O número total de Cargas que você pode armazenar (somando Luz e Trevas) é igual ao seu nível de Feiticeiro. As Cargas não desaparecem ao terminar um {@variantrule Long Rest|XPHB|Descanso Longo}. Você aprende a alternar entre dois estados: Véu da Luz e Véu das Trevas. Como Ação Bônus, você assume um dos Véus; ele dura 10 minutos ou até você usar uma Ação Bônus para assumir o outro Véu. Enquanto estiver sob um Véu, você pode acumular apenas o tipo correspondente de Carga. Acúmulo de Cargas. Você ganha 1 Carga quando faz qualquer uma das escolhas abaixo:",
 				"Conjura uma magia de 1º nível ou superior.",
 				"Usa Metamagia.",
 				"Reduz uma criatura a 0 pontos de vida com uma magia.",
@@ -34972,7 +36947,7 @@
 						],
 						[
 							"7º",
-							"{@spell Elemental Bane|XPHB}, {@spell Wall of Fire|XPHB}"
+							"{@spell Colapso Radicular|MundoDeKyrLivroDasMagiasDeKyr}, {@spell Wall of Fire|XPHB}"
 						],
 						[
 							"9º",
@@ -35000,8 +36975,8 @@
 				"{@i 3º nível de característica de subclasse de Cleric.}",
 				"Você foi consagrado como executor da destruição divina.",
 				"Você ganha proficiência com armas marciais.",
-				"Você aprende um truque da lista de magias de Mago, escolhida quando ganha este domínio. Essa truque conta como um truque de Clérigo para você e utiliza Sabedoria como atributo de conjuração.",
-				"Além disso, sempre que você causar dano com um ataque ou magia de Clérigo, você pode escolher que esse dano seja concussão, trovão ou fogo."
+				"Você aprende um truque da lista de magias de Mago, escolhido quando ganha este domínio. Esse truque conta como um truque de Clérigo para você e utiliza Sabedoria como atributo de conjuração.",
+				"Além disso, sempre que realizar um teste de Força ({@skill Athletics|XPHB|Atletismo}), você pode adicionar seu modificador de Sabedoria ao resultado. Você também tem Vantagem em testes de resistência de Força."
 			]
 		},
 		{
@@ -35953,7 +37928,7 @@
 										],
 										[
 											"9",
-											"{@spell Linha de Causalidade|MundoDeKyrLivroDasMagiasDeKyr}, {@spell Holy Weapon|XPHB}"
+											"{@spell Linha de Causalidade|MundoDeKyrLivroDasMagiasDeKyr}, {@spell Flame Strike|XPHB}"
 										]
 									],
 									"caption": "Magias do Eco Puro",
@@ -35987,7 +37962,7 @@
 			"entries": [
 				"{@i 6º nível de característica de subclasse de Warlock.}",
 				"Seu corpo passa a refletir a natureza do Eco ao qual está vinculado.",
-				"Sempre que você sofrer dano enquanto estiver sob o efeito de uma magia de bruxo que você conjurou em si mesmo, ou concentrando em uma magia da lista de seu Eco, você pode reduzir esse dano em um valor igual ao seu bônus de proficiência mais seu modificador de Carisma (mínimo 1), uma vez por turno.",
+				"Sempre que você sofrer dano enquanto estiver sob o efeito de uma magia de bruxo que você conjurou em si mesmo ou concentrando em uma magia da lista de seu Eco, você pode reduzir esse dano em um valor igual ao seu bônus de proficiência mais seu modificador de Carisma (mínimo 1), uma vez por turno.",
 				"Além disso, quando você reduzir uma criatura a 0 {@variantrule Hit Points|XPHB|Pontos de Vida}, pode liberar a ressonância remanescente do Eco, com uma reação. Escolha um dos efeitos abaixo:",
 				{
 					"type": "entries",
@@ -36841,7 +38816,7 @@
 					"name": "Besta",
 					"entries": [
 						"Você tem vantagem em testes de Sabedoria (Percepção) e Sabedoria (Sobrevivência).",
-						"Seu deslocamento aumenta em 10 pés se a besta for terrestre, você ganha deslocamento de nado se for aquática, ou ignora penalidades de terreno difícil se for voadora."
+						"Seu deslocamento aumenta em 10 pés se a besta for terrestre, você ganha deslocamento de nado se for aquática ou ignora penalidades de terreno difícil se for voadora."
 					]
 				},
 				{
@@ -36959,7 +38934,7 @@
 			"level": 3,
 			"entries": [
 				"{@i 3º nível de característica de subclasse de Druid.}",
-				"Como uma Ação Bônus, ou como parte da conjuração de Shillelagh, você pode gastar um uso de sua Forma Selvagem para despertar o poder do rizoma primordial em seu corpo. Esse estado dura por 10 minutos e termina antecipadamente se você o encerrar, se ficar {@condition Incapacitated|XPHB|Incapacitado}, ou se morrer. Enquanto o rito estiver ativo, você recebe os seguintes benefícios:",
+				"Como uma Ação Bônus ou como parte da conjuração de Shillelagh, você pode gastar um uso de sua Forma Selvagem para despertar o poder do rizoma primordial em seu corpo. Esse estado dura por 10 minutos e termina antecipadamente se você o encerrar, se ficar {@condition Incapacitated|XPHB|Incapacitado} ou se morrer. Enquanto o rito estiver ativo, você recebe os seguintes benefícios:",
 				{
 					"type": "entries",
 					"name": "Casca Enraizada",
@@ -37342,7 +39317,7 @@
 				"{@i 6º nível de característica de subclasse de Wizard.}",
 				"Você aprende a infundir suas criaturas invocadas com fragmentos do seu poder arcano, fortalecendo-as e ampliando sua ligação.",
 				"Você tem a magia Find Steed sempre preparada, e ela conta como uma Magia de Mago para você.",
-				"Sempre que você conjurar Encontrar Familiar, ou uma magia de Conjuração que crie ou invoque criaturas, as criaturas afetadas recebem os seguintes benefícios:",
+				"Sempre que você conjurar Encontrar Familiar ou uma magia de Conjuração que crie ou invoque criaturas, as criaturas afetadas recebem os seguintes benefícios:",
 				{
 					"type": "entries",
 					"name": "Ataques Arcanos",
@@ -37375,7 +39350,7 @@
 					"type": "entries",
 					"name": "Vínculo Vital",
 					"entries": [
-						"Sempre que você conjurar Find Familiar, Find Steed, ou qualquer magia da família \"Summon\" usando um espaço de magia, a criatura invocada ganha {@variantrule Temporary Hit Points|XPHB|Pontos de Vida Temporários} iguais ao dobro do seu nível de mago."
+						"Sempre que você conjurar Find Familiar, Find Steed ou qualquer magia da família \"Summon\" usando um espaço de magia, a criatura invocada ganha {@variantrule Temporary Hit Points|XPHB|Pontos de Vida Temporários} iguais ao dobro do seu nível de mago."
 					]
 				}
 			]
@@ -37892,7 +39867,7 @@
 							"type": "entries",
 							"name": "Terreno Vivo",
 							"entries": [
-								"Criaturas a sua escolha tratam a área do Nó como terreno difícil. Ao entrar na área pela primeira vez em um turno, ou finalizar o turno dentro da área, a criatura escolhida sofre {@dice 1d4} de dano perfurante. Este dano aumenta para {@dice 2d4} no nível 6, {@dice 3d4} no nível 10 e {@dice 4d4} no nível 14."
+								"Criaturas a sua escolha tratam a área do Nó como terreno difícil. Ao entrar na área pela primeira vez em um turno ou finalizar o turno dentro da área, a criatura escolhida sofre {@dice 1d4} de dano perfurante. Este dano aumenta para {@dice 2d4} no nível 6, {@dice 3d4} no nível 10 e {@dice 4d4} no nível 14."
 							]
 						},
 						{
@@ -38446,7 +40421,7 @@
 					"type": "entries",
 					"name": "Postura do Saque Rápido",
 					"entries": [
-						"Como Ação Bônus, você adota a Postura do Saque, que dura 1 minuto. Ela termina antecipadamente se você ficar {@condition Incapacitated|XPHB|Incapacitado}, se não tiver ao menos uma mão livre para sacar uma arma, se estiver empunhando uma arma que cause apenas dano contundente, ou se estiver usando um Escudo.",
+						"Como Ação Bônus, você adota a Postura do Saque, que dura 1 minuto. Ela termina antecipadamente se você ficar {@condition Incapacitated|XPHB|Incapacitado}, se não tiver ao menos uma mão livre para sacar uma arma, se estiver empunhando uma arma que cause apenas dano contundente ou se estiver usando um Escudo.",
 						"Você pode usar esta característica um número de vezes igual ao seu modificador de Sabedoria, com mínimo de uma vez, e recupera todos os usos ao terminar um {@variantrule Short Rest|XPHB|Descanso Curto} ou Longo.",
 						"Enquanto a Postura do Saque estiver ativa, você recebe os seguintes benefícios:",
 						{
@@ -38827,7 +40802,7 @@
 							"{@spell Fire Shield|XPHB}",
 							"{@spell Dimension Door|XPHB}",
 							"{@spell Aura of Life|XPHB}",
-							"{@spell Psychic Lance|XPHB}",
+							"{@spell Vertigem da Identidade|MundoDeKyrLivroDasMagiasDeKyr}",
 							"{@spell Dimension Door|XPHB}",
 							"{@spell Erosão Vital|MundoDeKyrLivroDasMagiasDeKyr}"
 						],
@@ -39229,7 +41204,7 @@
 			"level": 17,
 			"entries": [
 				"Você pode canalizar diretamente a instabilidade primordial do Caos, assumindo temporariamente uma forma de ruptura viva.",
-				"Uma vez por {@variantrule Long Rest|XPHB}, como uma Ação, você aprende a controlar o Caos e o Aether à sua volta, este estado dura 1 minuto, ou até você ficar {@condition Incapacitated|XPHB}. Enquanto estiver nessa forma, você ganha os seguintes benefícios:",
+				"Uma vez por {@variantrule Long Rest|XPHB}, como uma Ação, você aprende a controlar o Caos e o Aether à sua volta, este estado dura 1 minuto ou até você ficar {@condition Incapacitated|XPHB}. Enquanto estiver nessa forma, você ganha os seguintes benefícios:",
 				{
 					"type": "list",
 					"items": [
@@ -39709,7 +41684,7 @@
 					"type": "entries",
 					"name": "Desafio do Rizoma",
 					"entries": [
-						"Como Ação Bônus, você apresenta seu símbolo sagrado e marca uma criatura que possa ver a até 30 pés como o centro de um vínculo hostil por 1 minuto. Enquanto estiver marcada, a criatura tem Desvantagem em jogadas de ataque contra criaturas diferentes de você; a primeira vez em cada turno que ela causar dano a uma criatura diferente de você, ela sofre dano psíquico igual ao seu modificador de Carisma, com mínimo de 1; e o deslocamento dela é reduzido em 10 pés enquanto estiver a até 30 pés de você. Esse efeito termina antecipadamente se você ficar {@condition Incapacitated|XPHB|Incapacitado}, se a criatura terminar o turno dela a mais de 30 pés de você, ou se você usar esta opção novamente."
+						"Como Ação Bônus, você apresenta seu símbolo sagrado e marca uma criatura que possa ver a até 30 pés como o centro de um vínculo hostil por 1 minuto. Enquanto estiver marcada, a criatura tem Desvantagem em jogadas de ataque contra criaturas diferentes de você; a primeira vez em cada turno que ela causar dano a uma criatura diferente de você, ela sofre dano psíquico igual ao seu modificador de Carisma, com mínimo de 1; e o deslocamento dela é reduzido em 10 pés enquanto estiver a até 30 pés de você. Esse efeito termina antecipadamente se você ficar {@condition Incapacitated|XPHB|Incapacitado}, se a criatura terminar o turno dela a mais de 30 pés de você ou se você usar esta opção novamente."
 					]
 				}
 			]
@@ -42509,7 +44484,7 @@
 					"name": "Pacto do Leviatã",
 					"entries": [
 						"Bruxos que firmam o Pacto do Leviatã não servem a um simples monstro marinho. O Leviatã é uma presença primordial das profundezas: uma vontade colossal associada à pressão, ao silêncio abissal, às marés impossíveis e ao peso esmagador do mundo submerso.",
-						"Em Kÿr, alguns acreditam que o Leviatã é um eco vivo de mares anteriores à fixação do mundo. Outros dizem que é uma entidade selada sob oceanos sem fundo, um Fragmento Primordial da Vastidão, ou uma consciência nascida do medo mortal diante daquilo que existe abaixo da luz.",
+						"Em Kÿr, alguns acreditam que o Leviatã é um eco vivo de mares anteriores à fixação do mundo. Outros dizem que é uma entidade selada sob oceanos sem fundo, um Fragmento Primordial da Vastidão ou uma consciência nascida do medo mortal diante daquilo que existe abaixo da luz.",
 						"Seja qual for a verdade, seus bruxos carregam uma marca clara: sua magia arrasta, afoga, comprime e prende. Eles não queimam o mundo. Eles o puxam para baixo."
 					]
 				}
@@ -47612,7 +49587,7 @@
 						{
 							"type": "item",
 							"name": "Extinguir Chamas",
-							"entry": "A condição termina se você ou outra criatura gastar uma {@action Action|XPHB|Ação} para apagar o fogo, se você sofrer dano de frio, ou se for submerso em água ou efeito similar."
+							"entry": "A condição termina se você ou outra criatura gastar uma {@action Action|XPHB|Ação} para apagar o fogo, se você sofrer dano de frio ou se for submerso em água ou efeito similar."
 						}
 					]
 				}
@@ -47704,7 +49679,7 @@
 						{
 							"type": "item",
 							"name": "Remover Corrosão",
-							"entry": "A condição termina se você for lavado com água suficiente, sofrer dano de frio, ou receber um efeito de restauração mágica."
+							"entry": "A condição termina se você for lavado com água suficiente, sofrer dano de frio ou receber um efeito de restauração mágica."
 						}
 					]
 				}
@@ -47723,7 +49698,7 @@
 						{
 							"type": "item",
 							"name": "Carga Instável",
-							"entry": "A primeira vez em cada rodada que você atingir uma criatura com um ataque corpo a corpo, ou for atingido por um ataque corpo a corpo, a outra criatura sofre {@damage 1d4} de dano de relâmpago."
+							"entry": "A primeira vez em cada rodada que você atingir uma criatura com um ataque corpo a corpo ou for atingido por um ataque corpo a corpo, a outra criatura sofre {@damage 1d4} de dano de relâmpago."
 						},
 						{
 							"type": "item",
