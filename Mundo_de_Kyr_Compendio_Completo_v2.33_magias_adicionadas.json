@@ -36606,8 +36606,7 @@
       "entries": [
         "Você escolhe um ponto dentro do alcance. Ferrugem sobrenatural cobre uma Esfera de 6 metros de raio centrada nesse ponto. A área é Terreno Difícil para criaturas usando armadura metálica ou criaturas do tipo Construct.",
         "Quando uma criatura entra na área pela primeira vez em um turno ou começa o turno nela, deve realizar um teste de resistência de Constituição. Em uma falha, sofre {@dice 5d8} de dano ácido e fica Corroída até o início do próximo turno dela. Em um sucesso, sofre metade do dano e não fica Corroída.",
-        "Objetos metálicos não mágicos que não estejam sendo usados ou carregados sofrem corrosão intensa dentro da área. Fechaduras, correntes, grades finas e mecanismos expostos podem se romper a critério do Mestre.",
-        "========================"
+        "Objetos metálicos não mágicos que não estejam sendo usados ou carregados sofrem corrosão intensa dentro da área. Fechaduras, correntes, grades finas e mecanismos expostos podem se romper a critério do Mestre."
       ],
       "classes": {
         "fromClassList": [
@@ -36861,8 +36860,7 @@
         }
       ],
       "entries": [
-        "Você emite um repique concussivo contra uma criatura que possa ouvir você dentro do alcance. Faça uma jogada de ataque à distância com magia contra o alvo. Em um acerto, ele sofre {@dice 1d6} de dano trovejante, e você pode empurrá-lo 1,5 metro para longe de você se ele for Grande ou menor.",
-        "==================== MAGIAS DE 1º NÍVEL ===================="
+        "Você emite um repique concussivo contra uma criatura que possa ouvir você dentro do alcance. Faça uma jogada de ataque à distância com magia contra o alvo. Em um acerto, ele sofre {@dice 1d6} de dano trovejante, e você pode empurrá-lo 1,5 metro para longe de você se ele for Grande ou menor."
       ],
       "classes": {
         "fromClassList": [
@@ -36989,8 +36987,7 @@
       ],
       "entries": [
         "Você cria um estalo seco em um ponto que possa ver dentro do alcance. Cada criatura em uma Esfera de 1,5 metro de raio centrada nesse ponto deve realizar um teste de resistência de Constituição.",
-        "Em uma falha, uma criatura sofre {@dice 2d8} de dano trovejante e não pode realizar Reações até o início do seu próximo turno. Em um sucesso, sofre metade do dano e não perde Reações.",
-        "==================== MAGIAS DE 2º NÍVEL ===================="
+        "Em uma falha, uma criatura sofre {@dice 2d8} de dano trovejante e não pode realizar Reações até o início do seu próximo turno. Em um sucesso, sofre metade do dano e não perde Reações."
       ],
       "classes": {
         "fromClassList": [
@@ -37187,8 +37184,7 @@
       "entries": [
         "Você projeta sua voz, ou uma voz que já tenha ouvido, a partir de até seis pontos que possa ver dentro do alcance. Cada ponto pode falar, sussurrar, cantar, gritar ou repetir uma frase simples enquanto a magia durar.",
         "Como uma Ação Bônus em seus turnos posteriores, você pode mover até três desses pontos até 9 metros.",
-        "Uma criatura pode usar a ação Study para examinar uma voz ilusória. Com um teste bem-sucedido de Inteligência (Investigação) contra sua CD para magia, ela percebe que a voz é mágica.",
-        "==================== MAGIAS DE 3º NÍVEL ===================="
+        "Uma criatura pode usar a ação Study para examinar uma voz ilusória. Com um teste bem-sucedido de Inteligência (Investigação) contra sua CD para magia, ela percebe que a voz é mágica."
       ],
       "classes": {
         "fromClassList": [
@@ -37323,8 +37319,7 @@
         "Você tem Vantagem em testes de Carisma (Persuasão), Carisma (Intimidação) e Carisma (Performance) feitos por meio da fala.",
         "Além disso, quando uma criatura que possa ouvir você tentar interromper sua fala com gritos, insultos, vaias, ruído comum ou intimidação verbal, ela deve ser bem-sucedida em um teste de resistência de Carisma contra sua CD para magia. Em uma falha, a interrupção não impede que sua mensagem seja ouvida.",
         "Uma vez antes da magia terminar, quando você falhar em um teste de Carisma feito por meio da fala, você pode tratar o resultado do d20 como 10.",
-        "Esta magia não força uma criatura a acreditar em você, obedecer você ou mudar suas convicções.",
-        "==================== MAGIAS DE 4º NÍVEL ===================="
+        "Esta magia não força uma criatura a acreditar em você, obedecer você ou mudar suas convicções."
       ],
       "classes": {
         "fromClassList": [
@@ -37387,8 +37382,7 @@
         "Marcha Marcada. O deslocamento da criatura aumenta em 3 metros.",
         "Pulso de Ataque. Uma vez por turno, quando a criatura acerta uma criatura com um ataque com arma, ela causa {@dice 1d6} de dano trovejante adicional.",
         "Ritmo de Resistência. A criatura tem Vantagem em testes de resistência contra ficar Amedrontada ou Enfeitiçada.",
-        "Não Cair Agora. Quando a criatura for reduzida a 0 Pontos de Vida, mas não morrer instantaneamente, ela pode cair para 1 Ponto de Vida em vez disso. Depois que uma criatura recebe esse benefício, ela não pode recebê-lo novamente por esta conjuração da magia.",
-        "==================== MAGIAS DE 5º NÍVEL ===================="
+        "Não Cair Agora. Quando a criatura for reduzida a 0 Pontos de Vida, mas não morrer instantaneamente, ela pode cair para 1 Ponto de Vida em vez disso. Depois que uma criatura recebe esse benefício, ela não pode recebê-lo novamente por esta conjuração da magia."
       ],
       "classes": {
         "fromClassList": [
