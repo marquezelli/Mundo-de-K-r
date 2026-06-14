@@ -206,7 +206,7 @@
         "version": "1.0.0",
         "url": "https://github.com/TheGiddyLimit/homebrew",
         "dateAdded": 1778606400,
-        "dateModified": "2026-06-13",
+        "dateModified": "2026-06-14",
         "color": "#263238"
       }
     ]
@@ -216,11 +216,25 @@
       "name": "Eryon e Zattra — Os Gêmeos da Forma e do Fluxo",
       "source": "MundoDeKyrCosmologiaDeKyr",
       "page": 1,
-      "pantheon": "Kÿr — Deuses Gêmeos",
+      "pantheon": "Deuses Gêmeos",
       "category": "Deuses Gêmeos",
       "province": "Forma e Fluxo",
-      "symbol": "https://i.imgur.com/rerccNA.png",
+      "symbol": "Os Gêmeos não possuem símbolo único e fixo. Qualquer tentativa de cristalizá-los em ícone é, por natureza, incompleta. Ainda assim, certas representações persistem através das eras: Eryon costuma ser simbolizado por formas geométricas fechadas, círculos perfeitos, colunas, espirais estáveis ou pedras polidas sem falha visível. Em manuscritos antigos, aparece como uma linha contínua que não se rompe.",
       "entries": [
+        {
+          "type": "entries",
+          "name": "Domínios",
+          "entries": [
+            "{@b Domínios.} Forma, Fluxo."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Alinhamento",
+          "entries": [
+            "{@b Alinhamento.} Neutro."
+          ]
+        },
         {
           "type": "entries",
           "name": "História",
@@ -290,17 +304,38 @@
             "Culturas nômades e povos que vivem em regiões instáveis — desertos vivos, mares mutáveis, fronteiras planares — tendem a reconhecê-los como forças ainda presentes, invisíveis, mas inevitáveis."
           ]
         }
+      ],
+      "domains": [
+        "Forma",
+        "Fluxo"
+      ],
+      "alignment": [
+        "N"
       ]
     },
     {
       "name": "Aetena",
       "source": "MundoDeKyrCosmologiaDeKyr",
       "page": 2,
-      "pantheon": "Kÿr — Lordes-Deuses",
+      "pantheon": "Lordes-Deuses",
       "category": "Lordes-Deuses",
       "province": "Ordem, Limite e Proporção",
-      "symbol": "https://i.imgur.com/o0ALRrg.png",
+      "symbol": "O símbolo de Aetena é conhecido como A Balança do Limiar. Não representa justiça no sentido moral, mas proporção. Dois pratos suspensos por fios geométricos perfeitos, sem adornos, sem ornamentos, equilibrados não por peso idêntico, mas por compensação exata. Em algumas variações antigas, a balança aparece incompleta — um prato ligeiramente elevado — indicando que equilíbrio absoluto é ideal, não estado permanente. O símbolo costuma ser gravado em:",
       "entries": [
+        {
+          "type": "entries",
+          "name": "Domínios",
+          "entries": [
+            "{@b Domínios.} Ordem, Limite, Proporção."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Alinhamento",
+          "entries": [
+            "{@b Alinhamento.} Leal e Neutro."
+          ]
+        },
         "Quando o mundo começou a permanecer, percebeu-se que permanecer também era perigoso.",
         "Após a Primeira Guerra Primordial, Kÿr não mais se desfazia a cada instante. A Aether endurecia, o tempo avançava com alguma previsibilidade, e a magia começava a responder à intenção. Foi nesse momento — não no caos, mas logo após ele — que surgiu a necessidade de algo novo: limite.",
         "Aetena nasceu dessa necessidade.",
@@ -396,17 +431,40 @@
             }
           ]
         }
+      ],
+      "domains": [
+        "Ordem",
+        "Limite",
+        "Proporção"
+      ],
+      "alignment": [
+        "L",
+        "N"
       ]
     },
     {
       "name": "Anarch",
       "source": "MundoDeKyrCosmologiaDeKyr",
       "page": 3,
-      "pantheon": "Kÿr — Lordes-Deuses",
+      "pantheon": "Lordes-Deuses",
       "category": "Lordes-Deuses",
       "province": "Mudança, Exceção e Fratura",
-      "symbol": "https://i.imgur.com/t1hQ731.png",
+      "symbol": "Seu símbolo — um círculo incompleto, fraturado em duas metades que não se tocam, mas giram uma em torno da outra — não representa destruição, como muitos pensam, mas tensão contínua",
       "entries": [
+        {
+          "type": "entries",
+          "name": "Domínios",
+          "entries": [
+            "{@b Domínios.} Mudança, Exceção, Fratura."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Alinhamento",
+          "entries": [
+            "{@b Alinhamento.} Caótico e Neutro."
+          ]
+        },
         "Registra o Cronista que Anarch não nasceu como os outros nasceram.",
         "Quando Eryon deu forma e Zattra concedeu fluxo, o mundo ganhou contornos e continuidade. Mas entre um gesto e o seguinte, entre a intenção e o resultado, algo permaneceu sem dono. Um espaço mínimo, imperceptível — e ainda assim absoluto. Foi ali que Anarch aconteceu. Não foi criado. Não foi invocado. Não foi nomeado no princípio. Ele surgiu quando a realidade, pela primeira vez, falhou em ser perfeita.",
         "Enquanto Ombak brotava do impulso vital e Aetena do desejo de limite, Anarch emergiu do erro inevitável da criação — a fratura que impede o mundo de se tornar estático. Onde os Gêmeos fixaram leis, ele tornou-se exceção. Onde estabeleceram continuidade, ele tornou-se desvio.",
@@ -477,17 +535,40 @@
             "Um clérigo de Anarch não prega destruição indiscriminada. Ele observa sistemas, identifica rigidez excessiva e atua como agente de fratura controlada. Suas magias frequentemente produzem efeitos colaterais narrativos: mudanças inesperadas, consequências que obrigam escolhas, resultados que impedem estagnação. Interpretá-lo exige aceitar três verdades fundamentais: Ele não promete segurança. Ele não oferece respostas prontas. Ele jamais garante que o que virá será melhor — apenas que será diferente. Por isso, Anarch raramente é invocado em tempos de conforto. Mas quase sempre é lembrado quando o mundo para de se mover."
           ]
         }
+      ],
+      "domains": [
+        "Mudança",
+        "Exceção",
+        "Fratura"
+      ],
+      "alignment": [
+        "C",
+        "N"
       ]
     },
     {
       "name": "Ombak",
       "source": "MundoDeKyrCosmologiaDeKyr",
       "page": 4,
-      "pantheon": "Kÿr — Lordes-Deuses",
+      "pantheon": "Lordes-Deuses",
       "category": "Lordes-Deuses",
       "province": "Vida, Continuidade e Fluxo Vital",
-      "symbol": "https://i.imgur.com/F5JzJyw.png",
+      "symbol": "O símbolo tradicional de Ombak é conhecido como A Espiral da Raiz-Fluente: uma linha contínua que se dobra sobre si mesma, lembrando tanto uma raiz subterrânea quanto o curso de um rio visto de cima. Em algumas culturas, o símbolo aparece incompleto, como se estivesse sempre em crescimento.",
       "entries": [
+        {
+          "type": "entries",
+          "name": "Domínios",
+          "entries": [
+            "{@b Domínios.} Vida, Continuidade, Fluxo Vital."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Alinhamento",
+          "entries": [
+            "{@b Alinhamento.} Neutro."
+          ]
+        },
         "Quando Eryon deu forma e Zattra concedeu movimento, a criação ainda era frágil demais para permanecer. Estruturas surgiam apenas para ruir. Continuidade existia, mas sem sentido. Foi então que os Gêmeos compreenderam uma verdade silenciosa: existir não bastava — era preciso sustentar. Ombak nasceu dessa constatação.",
         "Ela não surgiu do conflito, como Anarch, nem do limite, como Aetena. Ombak emergiu do impulso de continuidade, da necessidade de que aquilo que nasce tenha razão para permanecer mais um instante. Seu primeiro gesto não foi criar algo novo, mas impedir que tudo se desfizesse.",
         "Os cronistas antigos a descrevem não como figura, mas como presença: uma pressão suave que impede o colapso, uma corrente invisível que mantém unidos os fragmentos do mundo. Onde Ombak passa, a vida não explode — ela se organiza.",
@@ -584,17 +665,39 @@
             }
           ]
         }
+      ],
+      "domains": [
+        "Vida",
+        "Continuidade",
+        "Fluxo Vital"
+      ],
+      "alignment": [
+        "N"
       ]
     },
     {
       "name": "Thanaruk",
       "source": "MundoDeKyrCosmologiaDeKyr",
       "page": 5,
-      "pantheon": "Kÿr — Lordes-Deuses",
+      "pantheon": "Lordes-Deuses",
       "category": "Lordes-Deuses",
       "province": "Morte, Travessia e Encerramento",
-      "symbol": "https://i.imgur.com/DN6zbND.png",
+      "symbol": "O símbolo de Thanaruk é simples, quase austero: uma lâmina curva atravessando um arco incompleto, representando o corte necessário e o caminho que jamais se fecha totalmente. Não há ornamentos. Onde outros deuses aceitam adornos, Thanaruk rejeita excessos. Seu símbolo raramente é exibido em templos; aparece gravado em portais funerários, em lâminas rituais, em moedas colocadas sobre os olhos dos mortos.",
       "entries": [
+        {
+          "type": "entries",
+          "name": "Domínios",
+          "entries": [
+            "{@b Domínios.} Morte, Travessia, Encerramento."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Alinhamento",
+          "entries": [
+            "{@b Alinhamento.} Leal e Neutro."
+          ]
+        },
         "Thanaruk nasceu quando a Primeira Guerra Primordial revelou uma falha que nem mesmo os Deuses Gêmeos haviam previsto: o destino das almas.",
         "Enquanto Eryon moldava forma e Zattra mantinha o fluxo, algo escapava por entre ambos — consciências despedaçadas, identidades rasgadas, ecos que não sabiam para onde ir. A morte existia, mas não havia caminho. O fim acontecia, mas não concluía. Foi então que os Gêmeos dividiram mais uma fração de si.",
         "Thanaruk surgiu do limiar entre permanência e dissolução. Não como juiz, não como carrasco, mas como guardião do intervalo. Seu propósito não era decidir quem merecia continuar, mas garantir que nenhuma alma fosse roubada pelo caos remanescente dos Antigos. Onde Ombak sustentava a vida e Aetena impunha estrutura, Thanaruk assegurava que todo ciclo tivesse encerramento — e que esse encerramento não fosse violado.",
@@ -661,17 +764,40 @@
             "Interpretar um Clérigo ou Seguidor de Thanaruk é compreender que ele não busca o fim — busca o encerramento correto. Não é um assassino, nem um pessimista. É alguém que sabe quando insistir em continuar se torna uma forma de crueldade. Muitos são calmos. Outros, severos. Quase todos carregam um peso silencioso: o de saber que, se falharem, algo ficará preso entre dois estados — e isso é pior do que morrer."
           ]
         }
+      ],
+      "domains": [
+        "Morte",
+        "Travessia",
+        "Encerramento"
+      ],
+      "alignment": [
+        "L",
+        "N"
       ]
     },
     {
       "name": "Aevrion",
       "source": "MundoDeKyrCosmologiaDeKyr",
       "page": 6,
-      "pantheon": "Kÿr — Deuses Regentes",
+      "pantheon": "Deuses Regentes",
       "category": "Deuses Regentes",
       "province": "Tempo e Consequência",
-      "symbol": "https://i.imgur.com/zre91wj.png",
+      "symbol": "O símbolo de Aevrion é conhecido como A Ampulheta do Irrevogável. Diferente de representações comuns, ela não comunica passagem suave do tempo, mas perda controlada e impossibilidade de retorno. A ampulheta é estreita, alta e rígida, com o gargalo visivelmente tensionado, como se o fluxo estivesse sempre próximo do colapso.",
       "entries": [
+        {
+          "type": "entries",
+          "name": "Domínios",
+          "entries": [
+            "{@b Domínios.} Tempo, Consequência."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Alinhamento",
+          "entries": [
+            "{@b Alinhamento.} Leal e Neutro."
+          ]
+        },
         "Aevrion não surgiu como entidade consciente, mas como consequência inevitável no instante em que Kÿr deixou de ser errante e passou a permanecer. Enquanto a Aether endurecia e a realidade aceitava forma estável, tornou-se necessário um princípio que impedisse que tudo ocorresse ao mesmo tempo — ou que nada jamais ocorresse de fato. O Tempo não nasceu como fluxo contínuo, mas como separação entre antes e depois, causa e consequência, escolha e resultado. Aevrion é esse princípio estabilizado: a autoridade silenciosa que permite que os eventos não colapsem uns sobre os outros.",
         "Na Era Zero, quando não havia sequência nem memória durável, o mundo não falhava por caos, mas por simultaneidade absoluta. Tudo acontecia, desfazia-se e reaparecia sem hierarquia. A emergência de Aevrion foi o que permitiu à realidade dizer “ainda não” e “já não mais”. O Tempo tornou-se a primeira contenção verdadeira, não pela força, mas pela ordenação inevitável dos acontecimentos.",
         "Durante a Primeira Guerra Primordial, Aevrion não lutou nem aconselhou. Sua atuação foi mais profunda: a guerra passou a ter duração. Conflitos puderam ser vencidos porque tiveram começo, meio e desgaste. Estratégias só existiram porque ações anteriores permaneceram relevantes. Onde os Antigos tentavam romper a linearidade — repetindo o mesmo evento até vencer pela insistência — o Tempo impunha desgaste, atraso e limite. A vitória dos Gêmeos não ocorreu apenas por poder, mas porque o inimigo passou a envelhecer.",
@@ -746,17 +872,39 @@
             "Clérigos, paladinos ou agentes de Aevrion não são profetas nem visionários. Eles não anunciam futuros. Eles lidam com atrasos, custos e retornos inevitáveis. Esses seguidores falam pouco sobre destino e muito sobre consequência. Valorizam preparação, aceitam sacrifícios prolongados e raramente tomam decisões rápidas. Em jogo, tendem a evitar soluções imediatas quando sabem que o preço será cobrado depois. Não são frios por crueldade, mas por compreensão: sabem que cada escolha cria uma dívida temporal. Onde outros prometem redenção, eles oferecem continuidade. Onde outros buscam vitória, eles perguntam se o mundo ainda existirá depois."
           ]
         }
+      ],
+      "domains": [
+        "Tempo",
+        "Consequência"
+      ],
+      "alignment": [
+        "L",
+        "N"
       ]
     },
     {
       "name": "Axiomar",
       "source": "MundoDeKyrCosmologiaDeKyr",
       "page": 7,
-      "pantheon": "Kÿr — Deuses Regentes",
+      "pantheon": "Deuses Regentes",
       "category": "Deuses Regentes",
       "province": "Magia, Aether e Canal",
-      "symbol": "https://imgur.com/v3rDsvz.png",
+      "symbol": "O símbolo de Axiomar é conhecido como O Fio do Aether. Ele representa a Magia como canal tenso, não como energia livre. Visualmente, o símbolo é composto por um fio vertical único, contínuo, com micro-desvios ao longo do traço. Em dois pontos, o fio se afina perigosamente, sugerindo tensão e risco latente. Não há nós, círculos, molduras ou ornamentos. O traço é técnico, quase clínico. A leitura é direta: a Magia existe enquanto o fio não se rompe.",
       "entries": [
+        {
+          "type": "entries",
+          "name": "Domínios",
+          "entries": [
+            "{@b Domínios.} Magia, Aether, Canal."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Alinhamento",
+          "entries": [
+            "{@b Alinhamento.} Leal e Neutro."
+          ]
+        },
         "Axiomar surgiu quando a Aether deixou de reagir de forma puramente caótica e passou a ser acessada conscientemente por mortais. Antes disso, a Magia existia apenas como descarga instável: fenômenos espontâneos, rupturas locais e manifestações sem repetibilidade. O mundo sobrevivia apesar da Magia, não por causa dela. A necessidade de Axiomar nasce no momento em que a realidade exige uso contínuo sem colapso — quando a Aether precisou ser tornada utilizável sem destruir Kÿr.",
         "O nome Axiomar designa o princípio que canaliza, limita e permite o uso da Aether. Ele não cria Magia; ele define quando, como e a que custo a Magia pode ser exercida por vontade mortal.",
         "Antes da Primeira Guerra Primordial, a Magia era instável e selvagem. Conjurações não respondiam à intenção, apenas à pressão existencial. Grandes atos mágicos feriam o mundo mais do que seus alvos. A chegada de Axiomar marca a transição da Magia como catástrofe para a Magia como ferramenta — ainda perigosa, mas delimitada.",
@@ -851,17 +999,40 @@
             "Para Axiomar, a Magia não é dom nem direito. É uma concessão temporária, mantida apenas enquanto alguém estiver disposto a sustentá-la."
           ]
         }
+      ],
+      "domains": [
+        "Magia",
+        "Aether",
+        "Canal"
+      ],
+      "alignment": [
+        "L",
+        "N"
       ]
     },
     {
       "name": "Daeargryn",
       "source": "MundoDeKyrCosmologiaDeKyr",
       "page": 8,
-      "pantheon": "Kÿr — Deuses Regentes",
+      "pantheon": "Deuses Regentes",
       "category": "Deuses Regentes",
       "province": "Terra, Fundação e Permanência",
-      "symbol": "https://i.imgur.com/ztUItdC.png",
+      "symbol": "O símbolo de Daeargryn não se oferece à leitura imediata; ele se impõe como algo escavado, não desenhado. Um anel de pedra partida circunda a forma central, irregular, pesado, como se tivesse sido arrancado do coração da terra e forçado a permanecer suspenso. As rochas não são lisas nem harmonizadas — carregam fraturas, falhas e marcas de pressão antiga, sugerindo eras de peso acumulado e resistência silenciosa.",
       "entries": [
+        {
+          "type": "entries",
+          "name": "Domínios",
+          "entries": [
+            "{@b Domínios.} Terra, Fundação, Permanência."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Alinhamento",
+          "entries": [
+            "{@b Alinhamento.} Leal e Neutro."
+          ]
+        },
         "Daeargryn não surgiu como guardião, patrono ou espírito da montanha. Ele emergiu no momento em que Kÿr deixou de ser apenas matéria endurecida e passou a exigir suporte estrutural permanente. Quando a Aether começou a se fixar e o mundo passou a sustentar peso, camadas e profundidade, tornou-se necessário um princípio que impedisse o colapso contínuo da matéria sobre si mesma. A Terra não poderia ser apenas sólida; precisava ser estável, portante e cumulativa. Esse princípio é Daeargryn.",
         "O Domínio da Terra não representa rochas, montanhas ou minerais isoladamente. Representa a capacidade do mundo de sustentar aquilo que foi construído sobre ele, de acumular camadas sem ruir, de preservar forma sob pressão constante. Onde há fundação, contenção de massa e permanência material, Daeargryn está ativo.",
         "Antes de ser reconhecido como divindade, Daeargryn existia como função invisível: a razão pela qual cavernas não colapsavam imediatamente, montanhas resistiam ao próprio peso e estruturas podiam ser erguidas sem afundar no caos material. Seu nome surge quando os mortais passam a distinguir entre terra que suporta e terra que cede.",
@@ -938,17 +1109,40 @@
             "Ritos de Daeargryn não buscam acelerar mudanças nem impedir rupturas inevitáveis. Servem para testar limites, reforçar estruturas e aceitar quando algo precisa ceder porque não suporta mais o próprio peso. Um seguidor da Terra acredita que nem tudo merece ser salvo — apenas aquilo que consegue permanecer."
           ]
         }
+      ],
+      "domains": [
+        "Terra",
+        "Fundação",
+        "Permanência"
+      ],
+      "alignment": [
+        "L",
+        "N"
       ]
     },
     {
       "name": "Kharos",
       "source": "MundoDeKyrCosmologiaDeKyr",
       "page": 9,
-      "pantheon": "Kÿr — Deuses Regentes",
+      "pantheon": "Deuses Regentes",
       "category": "Deuses Regentes",
       "province": "Raio, Descarga e Decisão Súbita",
-      "symbol": "https://i.imgur.com/fEwm77q.png",
+      "symbol": "O símbolo de Kharos representa energia em estado de ruptura controlada. No centro, há um núcleo circular incompleto, como um anel de metal partido em três segmentos irregulares. Esse núcleo não se fecha, simbolizando que a eletricidade nunca é estática — ela existe apenas enquanto flui.",
       "entries": [
+        {
+          "type": "entries",
+          "name": "Domínios",
+          "entries": [
+            "{@b Domínios.} Raio, Descarga, Decisão Súbita."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Alinhamento",
+          "entries": [
+            "{@b Alinhamento.} Caótico e Neutro."
+          ]
+        },
         "O Domínio do Raio surge quando o mundo passa a exigir resposta imediata. Antes de Kharos, forças naturais se acumulavam lentamente ou se dissipavam sem direção. Não havia o conceito de descarga súbita, de decisão instantânea, de transformação irreversível em um único momento.",
         "Kharos emerge como o princípio da liberação abrupta de energia acumulada. Ele não representa movimento contínuo nem força sustentada, mas o instante crítico em que a tensão excede o limite e precisa se resolver agora. Onde há excesso sem válvula, o Raio nasce como necessidade estrutural.",
         "Na Primeira Guerra Primordial, o Domínio do Raio se manifesta como quebra de impasses. Onde linhas de frente se estabilizavam demais, onde o conflito entrava em ciclos longos e desgastantes, eventos associados a Kharos produziam rupturas decisivas: colapsos de formações, falhas em defesas absolutas, mudanças súbitas no curso da batalha.",
@@ -1032,17 +1226,40 @@
             "Ritualmente, seguidores de Kharos realizam atos curtos e definitivos: juramentos sem cláusulas de escape, votos que exigem ação imediata, ritos feitos apenas uma vez. Um clérigo do Raio acredita que algumas estruturas precisam terminar abruptamente para que o mundo continue funcional, mesmo que isso custe reputação, segurança ou redenção pessoal."
           ]
         }
+      ],
+      "domains": [
+        "Raio",
+        "Descarga",
+        "Decisão Súbita"
+      ],
+      "alignment": [
+        "C",
+        "N"
       ]
     },
     {
       "name": "Korraxyl",
       "source": "MundoDeKyrCosmologiaDeKyr",
       "page": 10,
-      "pantheon": "Kÿr — Deuses Regentes",
+      "pantheon": "Deuses Regentes",
       "category": "Deuses Regentes",
       "province": "Corrosão, Desgaste e Dissolução Seletiva",
-      "symbol": "https://i.imgur.com/AyGS4ss.png",
+      "symbol": "O símbolo de Korraxyl consiste em uma superfície atravessada por uma gota em queda, onde a gota NÃO está intacta.",
       "entries": [
+        {
+          "type": "entries",
+          "name": "Domínios",
+          "entries": [
+            "{@b Domínios.} Corrosão, Desgaste, Dissolução Seletiva."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Alinhamento",
+          "entries": [
+            "{@b Alinhamento.} Neutro."
+          ]
+        },
         "Korraxyl não surgiu como entidade observável, mas como nome atribuído ao momento em que o mundo precisou reconhecer que nem tudo pode permanecer íntegro. Seu surgimento coincide com a Era da Fixação, quando a Aether endureceu o suficiente para que formas, estruturas e sistemas começassem a acumular sem se desfazer. Foi então que a realidade produziu um novo operador: a dissolução seletiva.",
         "Antes de Korraxyl, havia apenas ruptura ou permanência. A criação conhecia o colapso violento e a estabilidade rígida, mas não o desgaste controlado. Korraxyl passa a existir quando o mundo aprende que destruir tudo é tão perigoso quanto preservar tudo. Seu domínio não é o fim, mas a perda gradual da integridade, o enfraquecimento progressivo que impede explosões ontológicas futuras.",
         "Durante a Primeira Guerra Primordial, Korraxyl manifesta-se sempre que as estruturas dos Antigos dependem de perfeição contínua. Criações que exigiam coesão absoluta — corpos conceituais, vínculos de identidade fixa, arquiteturas que não admitiam falha — começaram a falhar por dentro. Não foi fogo, nem lâmina, nem caos direto: foi corrosão. A guerra ensinou que o que não aceita desgaste torna-se vulnerável ao princípio corrosivo.",
@@ -1136,17 +1353,39 @@
             "Para Korraxyl, perder não é fracassar. Fracassar é não saber o que precisa ser perdido."
           ]
         }
+      ],
+      "domains": [
+        "Corrosão",
+        "Desgaste",
+        "Dissolução Seletiva"
+      ],
+      "alignment": [
+        "N"
       ]
     },
     {
       "name": "Kruzhak",
       "source": "MundoDeKyrCosmologiaDeKyr",
       "page": 11,
-      "pantheon": "Kÿr — Deuses Regentes",
+      "pantheon": "Deuses Regentes",
       "category": "Deuses Regentes",
       "province": "Vento, Dispersão e Movimento",
-      "symbol": "https://i.imgur.com/n4gictV.png",
+      "symbol": "O símbolo de Kruzhak é conhecido como A Marca da Dispersão. A forma central é composta por dois rasgos alongadas e irregulares, inclinadas em direções distintas, como fragmentos arrancados de um mesmo corpo e lançados ao ar. Entre elas há espaços abertos, nunca vazios perfeitos, sugerindo passagem contínua. As extremidades não se tocam nem convergem; tudo indica deslocamento interrompido apenas pelo próximo movimento.",
       "entries": [
+        {
+          "type": "entries",
+          "name": "Domínios",
+          "entries": [
+            "{@b Domínios.} Vento, Dispersão, Movimento."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Alinhamento",
+          "entries": [
+            "{@b Alinhamento.} Caótico e Neutro."
+          ]
+        },
         "Quando Kÿr começou a se fixar e a Aether passou a endurecer, surgiu um problema que nenhum pilar imóvel poderia resolver: como permitir que o mundo permanecesse sem se tornar rígido demais para sobreviver. A resposta não foi a destruição nem a preservação, mas o movimento contínuo. Esse princípio manifestou-se como o Vento — não como brisa ou tempestade, mas como força de deslocamento, mistura e redistribuição. Kruzhak é o nome dado a esse princípio quando ele se estabilizou como domínio reconhecível da realidade.",
         "Kruzhak não representa caos absoluto, mas instabilidade funcional. Ele existe para impedir que fronteiras se tornem definitivas demais, que estruturas se fechem sobre si mesmas, que ecossistemas — físicos, sociais ou mágicos — parem de trocar matéria, energia e informação. Onde tudo se fixa, o Vento surge. Onde tudo se acumula, ele dispersa. Onde algo tenta permanecer imune ao exterior, ele infiltra.",
         "Durante a Primeira Guerra Primordial, Kruzhak não lutou por territórios nem por vitórias. Seu domínio manifestou-se como deslocamento imprevisível, frentes de batalha móveis, comunicações quebradas e alianças desfeitas pelo simples fato de não conseguirem permanecer coesas. O Vento carregou cinzas, ecos mágicos, resíduos do Caos e fragmentos de realidades rompidas, espalhando-os pelo mundo. Muitas das Cicatrizes da Aether existem porque Kruzhak impediu que o impacto da guerra ficasse concentrado em um único ponto.",
@@ -1230,17 +1469,40 @@
             "Para Kruzhak, viver bem não é vencer batalhas nem fundar impérios. É não ser soterrado pela própria imobilidade."
           ]
         }
+      ],
+      "domains": [
+        "Vento",
+        "Dispersão",
+        "Movimento"
+      ],
+      "alignment": [
+        "C",
+        "N"
       ]
     },
     {
       "name": "Noctyren",
       "source": "MundoDeKyrCosmologiaDeKyr",
       "page": 12,
-      "pantheon": "Kÿr — Deuses Regentes",
+      "pantheon": "Deuses Regentes",
       "category": "Deuses Regentes",
       "province": "Mente, Consciência e Vontade",
-      "symbol": "https://i.imgur.com/FTOukuO.png",
+      "symbol": "O símbolo de Noctyren não representa estrutura, ordem ou controle. Ele representa coexistência cognitiva.",
       "entries": [
+        {
+          "type": "entries",
+          "name": "Domínios",
+          "entries": [
+            "{@b Domínios.} Mente, Consciência, Vontade."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Alinhamento",
+          "entries": [
+            "{@b Alinhamento.} Neutro."
+          ]
+        },
         "Noctyren surge quando a vida consciente deixa de apenas reagir e passa a sustentar continuidade interna. Antes dele, pensamento existia como fluxo indistinto: impulso, emoção, memória e instinto atravessavam a vigília sem fronteira clara. Sonho e medo invadiam a decisão, e a identidade era algo frágil, facilmente dissolvido sob pressão. A Aether, ainda instável, amplificava esse estado, produzindo colapsos psíquicos, dissociação e a perda recorrente do “eu”.",
         "A emergência de Noctyren marca o momento em que a mente deixa de ser apenas corrente e passa a ser estrutura. Não uma prisão rígida, mas um eixo interno capaz de sustentar começo, meio e fim do pensamento. Com ele, memória passa a ser distinguida de imaginação, escolha deixa de ser reflexo automático e intenção torna-se algo que pode ser mantido mesmo sob dor, medo ou tentação mágica.",
         "Durante a Primeira Guerra Primordial, o Domínio da Mente não atuou como força ofensiva nem como proteção direta. Sua função foi mais fundamental: tornar possível qualquer resistência mortal prolongada. Os Antigos Deuses não venciam apenas pela força, mas pela dissolução da identidade — confundindo percepção, fragmentando vontade e apagando fronteiras internas. Onde Noctyren não se fazia presente, exércitos se desorganizavam antes mesmo do confronto, e conjuradores se tornavam vetores involuntários do próprio colapso.",
@@ -1306,17 +1568,39 @@
             "Ritos associados a Noctyren são sempre temporários: contenções, selamentos mentais, interrupções de fluxo psíquico destinadas a evitar colapso imediato. Nenhum seguidor sério acredita em soluções permanentes impostas de fora. Toda mente carrega fraturas; o dever do domínio é impedir que essas fraturas se tornem portas abertas para forças que não escolhem — apenas consomem."
           ]
         }
+      ],
+      "domains": [
+        "Mente",
+        "Consciência",
+        "Vontade"
+      ],
+      "alignment": [
+        "N"
       ]
     },
     {
       "name": "Nymora",
       "source": "MundoDeKyrCosmologiaDeKyr",
       "page": 13,
-      "pantheon": "Kÿr — Deuses Regentes",
+      "pantheon": "Deuses Regentes",
       "category": "Deuses Regentes",
       "province": "Veneno, Correção e Adaptação",
-      "symbol": "https://i.imgur.com/VkE9YTi.png",
+      "symbol": "O Veneno é marcado por uma “gota fraturada” suspensa dentro de um anel quebrado. A gota não é perfeita: ela tem fissuras internas como vidro tensionado, e do centro dessas fissuras saem três veios finos, como raízes envenenadas, apontando para baixo. A leitura é clara: não é a lâmina que mata; é a ruptura invisível que se espalha, em silêncio, até o ponto de falha.",
       "entries": [
+        {
+          "type": "entries",
+          "name": "Domínios",
+          "entries": [
+            "{@b Domínios.} Veneno, Correção, Adaptação."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Alinhamento",
+          "entries": [
+            "{@b Alinhamento.} Neutro."
+          ]
+        },
         "Quando Kÿr começou a endurecer a Aether e a vida passou a insistir em existir, surgiu também a primeira resposta do mundo ao excesso: a correção invisível, lenta, inevitável. Esse princípio foi reconhecido como Nymora. Não uma figura, mas uma função ativa da realidade: a corrupção progressiva que força adaptação, expõe fraquezas internas e recalibra ecossistemas quando o equilíbrio é violado. Onde há supercrescimento, estagnação, invasão ou arrogância biológica, o Veneno aparece — não como maldade, mas como limite.",
         "Na Primeira Guerra Primordial, o Veneno operou como arma e como filtro. Não queimou exércitos; enfraqueceu certezas. Contaminou linhas de suprimento dos Antigos, degradou carapaças e vínculos que dependiam de “permanência” e, sobretudo, ensinou aos mortais que sobreviver não é vencer rápido, mas continuar depois de ser ferido. Alquimistas, xamãs e druidas que lutaram pelo mundo aprenderam a linguagem de Nymora: dose, tempo, propagação e custo. O mundo não precisava apenas de aço — precisava de mecanismos para impedir que o horror voltasse a se reproduzir.",
         "Na Segunda Guerra Primordial, no Norte Gelado e nas bordas do Véu, Nymora se manifestou menos como toxina e mais como “hostilidade adaptativa”: doenças estranhas que puniam imprudência, esporos que isolavam áreas corrompidas, venenos rituais usados para conter, não para conquistar. Quando o inimigo não podia ser destruído sem romper a Trama, a corrupção controlada virou ferramenta de contenção. Assim, parte do selamento de Hyōga no Shiro foi sustentada por escolhas difíceis: aceitar pequenas perdas internas para evitar uma falha total.",
@@ -1381,17 +1665,39 @@
             "Por fim, interpretar Nymora é lembrar sempre: o Veneno não é o fim. É o meio pelo qual o mundo decide se algo merece continuar existindo"
           ]
         }
+      ],
+      "domains": [
+        "Veneno",
+        "Correção",
+        "Adaptação"
+      ],
+      "alignment": [
+        "N"
       ]
     },
     {
       "name": "Nyxar",
       "source": "MundoDeKyrCosmologiaDeKyr",
       "page": 14,
-      "pantheon": "Kÿr — Deuses Regentes",
+      "pantheon": "Deuses Regentes",
       "category": "Deuses Regentes",
       "province": "Trevas, Noite e Ocultação",
-      "symbol": "https://i.imgur.com/z3XBXcQ.png",
+      "symbol": "O símbolo de Nyxar é conhecido como O Manto da Noite Velada. Visualmente, o símbolo é composto por três faixas angulares irregulares, dispostas de modo a sugerir camadas de cobertura, não fechamento. As faixas não se tocam totalmente: entre elas permanecem intervalos sutis, indicando que a Noite de Nyxar não apaga o mundo, apenas o vela parcialmente. Não há centro dominante nem ponto focal único. O olhar percorre o símbolo sem encontrar repouso imediato, reproduzindo a experiência de caminhar na escuridão com atenção constante.",
       "entries": [
+        {
+          "type": "entries",
+          "name": "Domínios",
+          "entries": [
+            "{@b Domínios.} Trevas, Noite, Ocultação."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Alinhamento",
+          "entries": [
+            "{@b Alinhamento.} Neutro."
+          ]
+        },
         "Nyxar passou a existir quando a Luz deixou de ser acidente e virou regra. No instante em que Seraphim estabiliza o Dia como marcador confiável de forma, medida e exposição, o mundo produz o contrapeso inevitável: a Noite como condição funcional de ocultação, repouso e limite do visível. Nyxar não nasce como “sombra que apaga”, mas como aquilo que impede que a realidade permaneça eternamente exposta, definida e exaurida pela claridade. Onde Seraphim torna tudo mensurável, Nyxar preserva o que não deve ser imediatamente visto, tocado ou reduzido a prova. Ele não é ausência de luz; é a presença ativa do escuro como ferramenta do mundo.",
         "Antes de Nyxar, a escuridão era apenas falha local da Aether e instabilidade de percepção — um buraco no real, não um ciclo. Com sua consolidação, a Noite deixa de ser erro e vira intervalo: o momento em que o mundo devolve privacidade às coisas, devolve silêncio à mente, devolve contorno ao que estava sendo consumido por exposição contínua. Por isso Nyxar é contraponto direto de Seraphim não por moralidade, mas por função. O Dia revela; a Noite protege. O Dia separa e define; a Noite preserva o indeterminado até que esteja pronto para ser nomeado — ou para nunca ser nomeado.",
         "Na Primeira Guerra Primordial, quando os Antigos dependiam de distorcer sentido e dissolver fronteiras, Nyxar não “ajudou” o engano; ele impediu a invasão total da clareza. A guerra teria se tornado impossível de",
@@ -1486,17 +1792,39 @@
             "Para Nyxar, falhar não é esconder demais, mas permitir que algo venha à Luz antes de estar pronto."
           ]
         }
+      ],
+      "domains": [
+        "Trevas",
+        "Noite",
+        "Ocultação"
+      ],
+      "alignment": [
+        "N"
       ]
     },
     {
       "name": "Raev",
       "source": "MundoDeKyrCosmologiaDeKyr",
       "page": 15,
-      "pantheon": "Kÿr — Deuses Regentes",
+      "pantheon": "Deuses Regentes",
       "category": "Deuses Regentes",
       "province": "Conhecimento, Memória e Eco",
-      "symbol": "https://i.imgur.com/EPGbx2C.png",
+      "symbol": "O símbolo de Raev é conhecido como Pergaminho do Eco-Registro. Ele consiste em um pergaminho parcialmente aberto, visto de frente, com duas hastes curtas nas extremidades superior e inferior, indicando que se trata de um rolo, não de um livro.",
       "entries": [
+        {
+          "type": "entries",
+          "name": "Domínios",
+          "entries": [
+            "{@b Domínios.} Conhecimento, Memória, Eco."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Alinhamento",
+          "entries": [
+            "{@b Alinhamento.} Neutro."
+          ]
+        },
         "Raev não surgiu como entidade pensante, mas como resposta estrutural a uma falha inicial de Kÿr: a incapacidade do mundo de reter memória coerente após o Caos Primordial. Na Era Zero, eventos ocorriam e se desfaziam sem registro, gerando repetição infinita de erros.",
         "Quando a Aether começou a endurecer durante a Era do Caos, tornou-se necessário um princípio que permitisse acumular, transmitir e reorganizar informação significativa. Raev é esse princípio: o conhecimento que não permanece estático, mas ecoa, reverbera e se transforma ao ser compreendido.",
         "O nome “Raev” passou a ser utilizado quando os mortais perceberam que certas ideias retornavam em culturas, épocas e formas distintas, sempre carregando o mesmo núcleo lógico. Onde há aprendizado cumulativo, memória histórica ou descoberta que altera o curso do mundo, Raev está ativo.",
@@ -1605,17 +1933,39 @@
             "Ritos associados a Raev envolvem catalogação de falhas, preservação de testemunhos contraditórios e a obrigação ritual de revisar decisões passadas à luz de novas informações. Um seguidor de Raev aceita que todo saber é provisório — mas acredita que ignorar o que já foi aprendido é a forma mais perigosa de ignorância."
           ]
         }
+      ],
+      "domains": [
+        "Conhecimento",
+        "Memória",
+        "Eco"
+      ],
+      "alignment": [
+        "N"
       ]
     },
     {
       "name": "Seraphim",
       "source": "MundoDeKyrCosmologiaDeKyr",
       "page": 16,
-      "pantheon": "Kÿr — Deuses Regentes",
+      "pantheon": "Deuses Regentes",
       "category": "Deuses Regentes",
       "province": "Dia, Luz e Revelação",
-      "symbol": "https://i.imgur.com/LJVzXAb.png",
+      "symbol": "O símbolo de Seraphim é conhecido como O Feixe. Ele consiste em uma intersecção entre dois raios de luz, um na horizontal e outro na vertical, partindo do centro da linha horizontal, simbolizando o amanhecer de um novo dia e luz que brilha nos momentos mais escuros da vida de uma pessoa, como um farol a guia o caminho sempre a frente daqueles que lhe buscam.",
       "entries": [
+        {
+          "type": "entries",
+          "name": "Domínios",
+          "entries": [
+            "{@b Domínios.} Dia, Luz, Revelação."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Alinhamento",
+          "entries": [
+            "{@b Alinhamento.} Leal e Neutro."
+          ]
+        },
         "Seraphim passa a existir no instante em que Kÿr deixa de ser apenas um corpo errante atravessando o caos e passa a sustentar ciclos reconhecíveis. Quando a luz deixa de ser um acidente ocasional da Aether e se torna um marcador confiável de permanência, o princípio do Dia emerge como necessidade estrutural. Seraphim não representa bondade, misericórdia ou salvação. Ele representa a condição pela qual as coisas podem ser vistas, medidas e mantidas em estado definido. Onde há dia, há distinção; onde há luz, há forma revelada.",
         "Na Primeira Guerra Primordial, Seraphim não se manifesta como força ofensiva nem defensiva. Seu domínio atua como negação do ocultamento absoluto. Regiões sob sua influência tornam-se mais estáveis, previsíveis e resistentes à distorção caótica dos Antigos Deuses. Pactos exigem definição clara, corrupções não conseguem se esconder indefinidamente, rituais baseados em ambiguidade falham sob exposição contínua. O Dia impõe limites operacionais ao caos: não elimina o conflito, mas impede que ele se torne indecifrável.",
         "Durante a Segunda Guerra Primordial, quando a ameaça se infiltra lentamente pelo mundo material, Seraphim torna-se ainda mais essencial. Sua presença se manifesta como vigilância constante, clareza estratégica e erosão progressiva da dissimulação. Postos avançados, fortalezas, rotas seguras e zonas de contenção só se mantêm viáveis sob ciclos regulares de luz. Onde o Dia falha, o inimigo prospera não por força direta, mas por confusão, erro acumulado e ausência de definição.",
@@ -1678,17 +2028,40 @@
             "Seus maiores temores são confundir revelação com punição automática, expor sem responsabilidade, usar a luz como instrumento de coerção e permitir que zonas de ocultação ativa se perpetuem por conveniência. Ritos de Seraphim envolvem vigílias periódicas, leituras públicas de decisões, inspeções ritualizadas e ciclos obrigatórios de revisão à luz aberta. Um seguidor do Dia aceita que a verdade nem sempre liberta de imediato — mas sustenta que nada pode ser enfrentado enquanto permanece oculto."
           ]
         }
+      ],
+      "domains": [
+        "Dia",
+        "Luz",
+        "Revelação"
+      ],
+      "alignment": [
+        "L",
+        "N"
       ]
     },
     {
       "name": "Skjældrith",
       "source": "MundoDeKyrCosmologiaDeKyr",
       "page": 17,
-      "pantheon": "Kÿr — Deuses Regentes",
+      "pantheon": "Deuses Regentes",
       "category": "Deuses Regentes",
       "province": "Frio, Contenção e Preservação",
-      "symbol": "https://i.imgur.com/QB1P810.png",
+      "symbol": "O símbolo de Skjældrith é conhecido como O Coração da Imobilização. Ele é composto por uma forma central fechada, semelhante a um losango orgânico ou cristal comprimido, cujas bordas superiores se elevam em ângulos rígidos, lembrando placas de gelo tensionadas prestes a se romper. A forma não é perfeitamente geométrica: apresenta irregularidades, fissuras e escorrimentos congelados, indicando que a contenção é resultado de pressão contínua, não de equilíbrio natural.",
       "entries": [
+        {
+          "type": "entries",
+          "name": "Domínios",
+          "entries": [
+            "{@b Domínios.} Frio, Contenção, Preservação."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Alinhamento",
+          "entries": [
+            "{@b Alinhamento.} Leal e Neutro."
+          ]
+        },
         "Skjældrith não surgiu como entidade consciente nem como resposta emocional ao sofrimento, mas como necessidade estrutural do mundo no processo de fixação. Quando a Aether começou a endurecer após a Primeira Guerra Primordial, tornou-se evidente que o fluxo líquido, térmico e mágico precisava de um estado de pausa absoluta para não se dissolver em excesso de movimento. O Frio não nasceu como ausência de calor, mas como princípio de preservação sob pressão. Skjældrith é o nome dado a esse estado quando ele passou a existir de forma estável no tecido de Kÿr.",
         "Antes de Skjældrith, tudo o que resistia o fazia por força momentânea. Não havia permanência verdadeira sob desgaste contínuo. O Frio introduz a possibilidade de contenção prolongada: aquilo que é imobilizado não é destruído, mas testado. O mundo aprende que parar não é morrer — é suportar.",
         "Durante a Primeira Guerra Primordial, o domínio de Skjældrith manifestou-se como retardo e aprisionamento. Regiões inteiras tiveram o avanço do Caos",
@@ -1762,17 +2135,40 @@
             "Ritos de Skjældrith envolvem silêncio prolongado, contenção deliberada e suspensão consciente de decisões. Um seguidor do Frio entende que tudo o que existe será testado pela imobilização. Aquilo que resiste, merece continuar. Aquilo que falha, jamais teria permanecido."
           ]
         }
+      ],
+      "domains": [
+        "Frio",
+        "Contenção",
+        "Preservação"
+      ],
+      "alignment": [
+        "L",
+        "N"
       ]
     },
     {
       "name": "Slato-Zrebna",
       "source": "MundoDeKyrCosmologiaDeKyr",
       "page": 18,
-      "pantheon": "Kÿr — Deuses Regentes",
+      "pantheon": "Deuses Regentes",
       "category": "Deuses Regentes",
       "province": "Forja, Transformação e Obra Confiável",
-      "symbol": "https://i.imgur.com/fy9QRRL.png",
+      "symbol": "O símbolo de Slato-Zrebna é conhecido como A Marca do Molde. Ele representa matéria submetida à forma correta, não o artesão. Visualmente, o símbolo é composto por um bloco geométrico pesado e estável, evocando uma bigorna reduzida à sua função essencial. Acima desse bloco há uma linha descendente única, curta e direta, simbolizando impacto controlado — não o martelo, mas o momento exato da pressão aplicada.",
       "entries": [
+        {
+          "type": "entries",
+          "name": "Domínios",
+          "entries": [
+            "{@b Domínios.} Forja, Transformação, Obra Confiável."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Alinhamento",
+          "entries": [
+            "{@b Alinhamento.} Leal e Neutro."
+          ]
+        },
         "Slato-Zrebna surge quando Kÿr deixa de ser apenas matéria disponível e passa a exigir transformação deliberada. No momento em que o metal deixou de ser apenas extensão da pedra e o fogo deixou de ser pura catástrofe, tornou-se necessário um princípio que regulasse o intervalo entre potencial e função. A Forja nasce não como criação espontânea, mas como processo sustentado: calor aplicado com intenção, pressão conduzida com limite, permanência conquistada por custo real.",
         "Slato-Zrebna não representa o ato criativo em si, mas o meio inevitável entre matéria bruta e obra confiável. Ele se manifesta sempre que algo é submetido à transformação consciente — não apenas metais, mas estruturas sociais, técnicas arcanas, doutrinas e destinos que precisam resistir ao uso contínuo.",
         "Onde algo é moldado para permanecer, e não apenas para existir, Slato-Zrebna está presente.",
@@ -1853,17 +2249,40 @@
             "Ritos associados ao domínio envolvem revisão, teste e marcação de responsabilidade: inscrever nomes em obras, registrar falhas corrigidas, destruir deliberadamente aquilo que não atingiu o padrão mínimo. Um seguidor de Slato-Zrebna aceita que tudo o que forjado carrega seu peso — e que responderá pelo que moldou, enquanto aquilo existir."
           ]
         }
+      ],
+      "domains": [
+        "Forja",
+        "Transformação",
+        "Obra Confiável"
+      ],
+      "alignment": [
+        "L",
+        "N"
       ]
     },
     {
       "name": "Thûl-Zer",
       "source": "MundoDeKyrCosmologiaDeKyr",
       "page": 19,
-      "pantheon": "Kÿr — Deuses Regentes",
+      "pantheon": "Deuses Regentes",
       "category": "Deuses Regentes",
       "province": "Vazio, Exclusão e Possibilidades Negadas",
-      "symbol": "https://i.imgur.com/ghdmX1N.png",
+      "symbol": "O símbolo de Thûl-Zer não representa destruição nem ausência total. Ele é conhecido como O Intervalo Negado. Visualmente, consiste em duas massas irregulares e opacas, suspensas frente a frente, sem simetria e sem eixo central. Entre elas existe um espaço estreito, vazio, que não é decorativo nem “aberto”: é um intervalo que não aceita forma. As bordas internas das massas parecem truncadas, como se algo tivesse sido arrancado dali sem deixar vestígios. O símbolo comunica uma ideia precisa: não houve passagem, não houve colisão — houve recusa. Onde ele é inscrito, algo foi deliberadamente excluído da realidade funcional.",
       "entries": [
+        {
+          "type": "entries",
+          "name": "Domínios",
+          "entries": [
+            "{@b Domínios.} Vazio, Exclusão, Possibilidades Negadas."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Alinhamento",
+          "entries": [
+            "{@b Alinhamento.} Neutro."
+          ]
+        },
         "Quando Kÿr começou a se fixar e a Aether endureceu o suficiente para sustentar forma, memória e continuidade, algo precisou ser deixado de fora. Nem tudo podia existir ao mesmo tempo. Nem tudo podia permanecer. O Vazio não surgiu como ausência acidental, mas como função estrutural: o espaço onde o que não cabe é mantido sem ser destruído. Esse princípio foi reconhecido como Thûl-Zer. Não um aniquilador, mas o guardião do que foi negado à realidade estável.",
         "Subordinado a Anarch, Thûl-Zer não representa caos ativo nem destruição violenta. Ele opera no intervalo onde possibilidades colidem e são recusadas. Onde escolhas não tomadas continuam a existir como pressão latente. O Vazio de Thûl-Zer não apaga por completo; ele suspende, silencia, desprioriza. É o destino de ideias que não puderam nascer, de formas que não encontraram coerência, de verdades que o mundo não suportou integrar.",
         "Na Primeira Guerra Primordial, Thûl-Zer foi essencial para impedir o colapso total da Trama. Quando os Antigos Deuses tentaram forçar múltiplas realidades incompatíveis sobre Kÿr, foi o Vazio que absorveu o excedente ontológico. Batalhas inteiras não foram destruídas, mas “deslocadas”: armas que nunca chegaram a existir, exércitos que não morreram nem venceram, rituais cuja conclusão foi simplesmente negada. Thûl-Zer não lutou; ele retirou do conflito tudo aquilo que tornaria a guerra infinita.",
@@ -1934,17 +2353,39 @@
             "Um seguidor do Vazio não é niilista nem destrutivo. Ele é contido, econômico e desconfortavelmente lúcido. Não busca respostas completas, nem finais grandiosos. Age com a convicção de que impedir algo pode ser mais ético do que realizá-lo. Em jogo, esse personagem evita excessos, desconfia de soluções absolutas e aceita perder para preservar o todo. Seu conflito interno raramente é moral; é ontológico: decidir o que não deve existir — e carregar o peso dessa escolha sem reconhecimento, glória ou memória."
           ]
         }
+      ],
+      "domains": [
+        "Vazio",
+        "Exclusão",
+        "Possibilidades Negadas"
+      ],
+      "alignment": [
+        "N"
       ]
     },
     {
       "name": "Thýron",
       "source": "MundoDeKyrCosmologiaDeKyr",
       "page": 20,
-      "pantheon": "Kÿr — Deuses Regentes",
+      "pantheon": "Deuses Regentes",
       "category": "Deuses Regentes",
       "province": "Som, Impacto e Ressonância",
-      "symbol": "https://i.imgur.com/YB6ickS.png",
+      "symbol": "O símbolo de Thýron é conhecido como A Fissura da Onda. Ele consiste em uma linha irregular central, horizontal, como uma fratura aberta na matéria, da qual partem deslocamentos assimétricos em ambos os lados. Essas expansões não são círculos nem arcos perfeitos, mas desvios quebrados, sugerindo que a propagação nunca ocorre de forma ideal. Não há centro estável nem moldura externa. O símbolo comunica impacto inicial, transmissão inevitável e dissipação desigual. Não representa harmonia — representa consequência.",
       "entries": [
+        {
+          "type": "entries",
+          "name": "Domínios",
+          "entries": [
+            "{@b Domínios.} Som, Impacto, Ressonância."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Alinhamento",
+          "entries": [
+            "{@b Alinhamento.} Neutro."
+          ]
+        },
         "O Som não surge em Kÿr como fenômeno sensorial, mas como consequência inevitável da Fixação do mundo. Enquanto a realidade era apenas fluxo instável, não havia impacto mensurável nem resposta sustentada. Quando a Aether endureceu, quando matéria, distância e resistência passaram a existir, toda ação passou a gerar reação transmissível. Movimento começou a produzir impacto; impacto passou a propagar-se além do ponto de origem. Esse princípio — a transmissão inevitável de força através da matéria e do espaço imediato — consolida-se como Thýron.",
         "Thýron não rege música, linguagem ou ruído como expressões culturais. Esses são usos secundários. Seu domínio é anterior e mais profundo: ele governa o fato de que nenhuma ação permanece local. Onde algo se move e força o mundo a responder além de si mesmo, Thýron está ativo. O trovão não é sua essência, mas seu sintoma mais visível: o registro inevitável de uma liberação que não pôde ser contida no ponto inicial.",
         "Na Primeira Guerra Primordial, o Domínio do Som revela-se como risco estrutural. Confrontos entre forças primordiais produzem ondas que atravessam campos inteiros, desestabilizando não apenas a matéria, mas a própria coerência da magia e da mente. Thýron emerge então como princípio de limitação da propagação. Ele não silencia o mundo, mas impõe regras à expansão do impacto: alcance, dissipação, interferência e retorno. Sem Thýron, toda vibração tenderia ao colapso absoluto; com ele, o mundo aprende a absorver choques sem se despedaçar por completo.",
@@ -2007,17 +2448,39 @@
             "Esses seguidores acreditam que palavras são impactos, decisões são ondas e magia é vibração dirigida. Seus maiores temores são repetir ações sem escutar o retorno, acumular força sem dissipação e confundir silêncio imposto com estabilidade real. Ritos de Thýron envolvem marcar limites, testar ressonâncias e aceitar que nenhuma ação termina onde começou. Um seguidor do Som sabe que o mundo sempre responde — a única escolha é se essa resposta será compreendida ou catastrófica."
           ]
         }
+      ],
+      "domains": [
+        "Som",
+        "Impacto",
+        "Ressonância"
+      ],
+      "alignment": [
+        "N"
       ]
     },
     {
       "name": "Urzûna",
       "source": "MundoDeKyrCosmologiaDeKyr",
       "page": 21,
-      "pantheon": "Kÿr — Deuses Regentes",
+      "pantheon": "Deuses Regentes",
       "category": "Deuses Regentes",
       "province": "Guerra, Confronto e Posicionamento",
-      "symbol": "https://i.imgur.com/GgLn1JI.png",
+      "symbol": "O símbolo de Urzûna é conhecido como a Marca do Confronto Sustentado. Ele consiste em duas lâminas assimétricas voltadas uma contra a outra, sem se tocar, separadas por um espaço estreito e irregular. As lâminas não são paralelas nem perfeitamente alinhadas, indicando que o conflito raramente é equilibrado ou justo. Entre elas, o vazio não é central nem estável: é torto, deslocado, como se a própria tensão estivesse deformando o espaço.",
       "entries": [
+        {
+          "type": "entries",
+          "name": "Domínios",
+          "entries": [
+            "{@b Domínios.} Guerra, Confronto, Posicionamento."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Alinhamento",
+          "entries": [
+            "{@b Alinhamento.} Caótico e Neutro."
+          ]
+        },
         "Urzûna surgiu quando a violência deixou de ser acidente e passou a ser escolha. Nos primeiros tempos de Kÿr, a destruição era consequência do Caos, não decisão consciente. Criaturas morriam porque o mundo falhava, não porque alguém decidiu enfrentá-las. A Guerra, enquanto domínio, só se tornou necessária quando a realidade passou a sustentar permanência suficiente para que o conflito fosse deliberado. Urzûna nasce nesse ponto exato: quando lutar deixa de ser reação instintiva e passa a ser afirmação de vontade contra outra vontade.",
         "Ela não representa massacre, nem fúria cega, nem sede de sangue. Urzûna é o princípio pelo qual forças",
         "opostas se reconhecem como inimigas legítimas. Onde há Guerra, há clareza de lados, aceitação de custo e disposição para sustentar o confronto até que algo ceda. A covardia não lhe pertence, mas a prudência também não. Urzûna exige enfrentamento real, não violência dispersa nem destruição indireta. O domínio da Guerra não existe onde há assassinato silencioso ou colapso oculto — ele se manifesta quando o conflito é assumido, exposto e sustentado.",
@@ -2082,17 +2545,40 @@
             "Seguidores de Urzûna não buscam combate constante, mas jamais evitam conflitos que exigem enfrentamento direto. Eles falam pouco sobre honra abstrata e nunca romantizam guerra. Em cena, tendem a pressionar decisões difíceis, expor tensões ignoradas e rejeitar soluções que apenas adiem o inevitável. Um clérigo de Urzûna raramente prega. Ele observa, avalia e, quando fala, costuma ser para perguntar: “quem vai sustentar isso até o fim?” Esses personagens aceitam perdas como parte do custo e desconfiam profundamente de vitórias fáceis. Em grupo, funcionam como catalisadores narrativos: não criam conflito gratuito, mas tornam impossível ignorar conflitos reais. A fé de Urzûna não promete sobrevivência, redenção ou glória. Ela exige apenas uma coisa — não recuar quando a guerra já começou."
           ]
         }
+      ],
+      "domains": [
+        "Guerra",
+        "Confronto",
+        "Posicionamento"
+      ],
+      "alignment": [
+        "C",
+        "N"
       ]
     },
     {
       "name": "Vatra",
       "source": "MundoDeKyrCosmologiaDeKyr",
       "page": 22,
-      "pantheon": "Kÿr — Deuses Regentes",
+      "pantheon": "Deuses Regentes",
       "category": "Deuses Regentes",
       "province": "Fogo, Encerramento e Transformação Irreversível",
-      "symbol": "https://i.imgur.com/Dj3Zgcd.png",
+      "symbol": "O símbolo de Vatra é conhecido como a Marca da Conversão. Ele representa algo que já passou pelo Fogo, não o processo em si. Visualmente, consiste em um fragmento vertical consumido, como se uma forma outrora íntegra tivesse sido atravessada por calor extremo, deixando bordas irregulares, derretidas ou quebradas. O símbolo nunca exibe chamas. O Fogo de Vatra não é espetáculo, mas consequência.",
       "entries": [
+        {
+          "type": "entries",
+          "name": "Domínios",
+          "entries": [
+            "{@b Domínios.} Fogo, Encerramento, Transformação Irreversível."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Alinhamento",
+          "entries": [
+            "{@b Alinhamento.} Caótico e Neutro."
+          ]
+        },
         "Vatra não surgiu como entidade consciente ou vontade personificada, mas como condição inevitável da fixação de Kÿr. Quando a Aether começou a endurecer e a realidade passou a sustentar formas estáveis, ciclos duráveis e estruturas acumulativas, tornou-se necessário um princípio que impedisse a estagnação absoluta. Algo precisava romper aquilo que acumulava tensão, memória e rigidez em excesso. Esse princípio é o Fogo: a conversão irreversível de matéria, ideia ou ordem em algo definitivamente distinto. Vatra é o nome atribuído a essa função quando os mortais passaram a reconhecê-la como força recorrente, contínua e impossível de suprimir sem custo futuro.",
         "O Fogo de Vatra não representa calor, violência ou emoção. Representa o momento em que não há retorno possível. Onde estruturas se tornam insustentáveis, onde ciclos deixam de absorver seus próprios resíduos, onde preservar passa a ser mais destrutivo do que romper, o domínio de Vatra emerge como consequência natural.",
         "Na Primeira Guerra Primordial, Vatra manifestou-se sempre que a permanência deixou de ser viável. Fortalezas dos Antigos não ruíram por estratégia ou genialidade tática, mas porque acumularam excesso demais: poder, memória, corrupção, identidade fixa. Quando a guerra atingia estados sem saída estrutural,",
@@ -2173,6 +2659,15 @@
             "Ritos ligados a Vatra envolvem queima deliberada e consciente: destruir símbolos após seu uso, dissolver pactos ao final de sua função, reduzir ferramentas a matéria bruta quando se tornam perigosas. Um seguidor do Fogo aceita que algumas coisas precisam acabar para que o mundo continue, mesmo que isso o torne responsável pelo ato mais irreversível possível."
           ]
         }
+      ],
+      "domains": [
+        "Fogo",
+        "Encerramento",
+        "Transformação Irreversível"
+      ],
+      "alignment": [
+        "C",
+        "N"
       ]
     }
   ],
