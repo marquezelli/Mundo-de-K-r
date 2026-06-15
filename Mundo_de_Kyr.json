@@ -14,7 +14,7 @@
         "version": "1.0.0",
         "url": "https://github.com/TheGiddyLimit/homebrew",
         "dateAdded": 1778520000,
-        "dateModified": "2026-06-13",
+        "dateModified": "2026-06-15",
         "color": "#1E88E5"
       },
       {
@@ -46,7 +46,7 @@
         "version": "1.0.0",
         "url": "https://github.com/TheGiddyLimit/homebrew",
         "dateAdded": 1778520000,
-        "dateModified": "2026-06-13",
+        "dateModified": "2026-06-15",
         "color": "#2E7D32"
       },
       {
@@ -62,7 +62,7 @@
         "version": "1.0.0",
         "url": "https://github.com/TheGiddyLimit/homebrew",
         "dateAdded": 1778520000,
-        "dateModified": "2026-06-13",
+        "dateModified": "2026-06-15",
         "color": "#6A1B9A"
       },
       {
@@ -78,7 +78,7 @@
         "version": "1.0.0",
         "url": "https://github.com/TheGiddyLimit/homebrew",
         "dateAdded": 1778520000,
-        "dateModified": "2026-06-13",
+        "dateModified": "2026-06-15",
         "color": "#E65100"
       },
       {
@@ -110,7 +110,7 @@
         "version": "1.0.0",
         "url": "https://github.com/TheGiddyLimit/homebrew",
         "dateAdded": 1778520000,
-        "dateModified": "2026-06-13",
+        "dateModified": "2026-06-15",
         "color": "#795548"
       },
       {
@@ -158,7 +158,7 @@
         "version": "1.0.0",
         "url": "https://github.com/TheGiddyLimit/homebrew",
         "dateAdded": 1778606400,
-        "dateModified": "2026-06-13",
+        "dateModified": "2026-06-15",
         "color": "#8D6E63"
       },
       {
@@ -190,7 +190,7 @@
         "version": "1.0.0",
         "url": "https://github.com/TheGiddyLimit/homebrew",
         "dateAdded": 1778606400,
-        "dateModified": "2026-06-13",
+        "dateModified": "2026-06-15",
         "color": "#4527A0"
       },
       {
@@ -12432,7 +12432,7 @@
             [
               "Tempo Ancestral",
               "Tempo, memória e história",
-              "Escolha dois entre {@spell Instante Suspenso|MundoDeKyrTarotEspiritualDeMiana}, {@spell Eco Desalinhado|MundoDeKyrTarotEspiritualDeMiana}, {@spell Conservação do Rizoma|MundoDeKyrTarotEspiritualDeMiana}",
+              "Escolha dois entre {@spell Instante Suspenso|MundoDeKyrTarotEspiritualDeMiana}, {@spell Conservação do Rizoma|MundoDeKyrTarotEspiritualDeMiana}",
               "Escolha uma magia de 1º nível de Mago, Clérigo ou de Ecomancia"
             ],
             [
@@ -12450,7 +12450,7 @@
             [
               "Retórica Encantada",
               "Palavra, influência e escrita mágica",
-              "Escolha dois entre Verbo Sagrado, {@spell Eco Desalinhado|MundoDeKyrTarotEspiritualDeMiana}, {@spell Supressão Sensorial|MundoDeKyrGuiaPraticoDeLeona}",
+              "Escolha dois entre Verbo Sagrado, {@spell Supressão Sensorial|MundoDeKyrGuiaPraticoDeLeona}",
               "Escolha uma magia de 1º nível de Bardo, Clérigo ou de Ecomancia"
             ],
             [
@@ -28525,76 +28525,6 @@
       }
     },
     {
-      "name": "Eco Desalinhado",
-      "source": "MundoDeKyrTarotEspiritualDeMiana",
-      "page": 2,
-      "level": 0,
-      "school": "E",
-      "time": [
-        {
-          "number": 1,
-          "unit": "action"
-        }
-      ],
-      "range": {
-        "type": "point",
-        "distance": {
-          "type": "feet",
-          "amount": 60
-        }
-      },
-      "components": {
-        "v": true,
-        "s": true
-      },
-      "duration": [
-        {
-          "type": "timed",
-          "duration": {
-            "type": "round",
-            "amount": 1
-          }
-        }
-      ],
-      "entries": [
-        "Você perturba os ecos mentais imediatos de uma criatura que possa ver dentro do alcance. O alvo deve realizar um teste de resistência de Sabedoria. Em uma falha, o alvo sofre {@dice 1d4} de dano psíquico, e a próxima vez que realizar um teste de resistência antes do final do próximo turno dele, deve subtrair {@dice 1d4} do resultado. Em um sucesso, o alvo não sofre dano nem efeitos adicionais."
-      ],
-      "subschools": [
-        "Ecomancia"
-      ],
-      "classes": {
-        "fromClassList": [
-          {
-            "name": "Bard",
-            "source": "XPHB"
-          },
-          {
-            "name": "Sorcerer",
-            "source": "XPHB"
-          },
-          {
-            "name": "Wizard",
-            "source": "XPHB"
-          }
-        ]
-      },
-      "entriesHigherLevel": [
-        {
-          "type": "entries",
-          "name": "Aumento de Truque",
-          "entries": [
-            "O dano desta magia aumenta em {@dice 1d4} quando você alcança o 5º nível ({@dice 2d4}), 11º nível ({@dice 3d4}) e 17º nível ({@dice 4d4})."
-          ]
-        }
-      ],
-      "damageInflict": [
-        "psychic"
-      ],
-      "savingThrow": [
-        "wisdom"
-      ]
-    },
-    {
       "name": "Fogo do Julgamento",
       "source": "MundoDeKyrAuroraCrepusculoAgoniaEva",
       "page": 2,
@@ -35413,8 +35343,10 @@
         }
       ],
       "entries": [
-        "Pela duração, você pode realizar a ação Procurar como uma Ação Bônus. Quando o faz, escolha uma criatura, objeto, superfície ou cadáver visível a até 30 pés de você. O Mestre informa um indício factual que o alvo carrega fisicamente das últimas 24 horas, como uma direção de deslocamento, um objeto manuseado, um tipo de dano envolvido ou se magia o alterou.",
-        "A magia revela evidências, não intenções, nomes ou motivações ocultas. Depois que a magia revelar três indícios, ela termina."
+        "Você desperta os Ecos residuais presos a uma cena recente, fazendo com que vestígios físicos e mágicos revelem fragmentos do que aconteceu ali.",
+        "Escolha uma área de até 6 metros de lado, um objeto, uma superfície ou um cadáver que você possa ver a até 9 metros. Pela duração, marcas relevantes ficam perceptíveis para você como ressonâncias breves: passos interrompidos, sangue limpo às pressas, calor residual, cheiro de reagentes, pressão de mãos, direção de fuga, dano sofrido, resíduo de magia ou sinais de manipulação.",
+        "Quando você realizar uma ação Study ou Search para examinar o alvo da magia, pode adicionar {@dice 1d4} ao teste. Além disso, quando conjura a magia e novamente como uma ação enquanto ela durar, você pode pedir ao Mestre um indício factual sobre um evento ocorrido ali nas últimas 24 horas. O indício deve ser algo que a cena ainda possa carregar fisicamente ou ecoar magicamente.",
+        "A magia revela evidências, não conclusões. Ela não informa nomes, intenções, pensamentos, culpa ou motivações, a menos que tais informações tenham sido deixadas como vestígios objetivos, como uma palavra escrita, um símbolo marcado ou um nome pronunciado em voz alta e preservado pelo Eco."
       ],
       "classes": {
         "fromClassList": [
@@ -35444,11 +35376,12 @@
           "type": "entries",
           "name": "Usando um Espaço de Magia Superior",
           "entries": [
-            "Ao conjurar esta magia usando um espaço de magia de 2º nível ou superior, a duração aumenta para 1 hora."
+            "Ao conjurar esta magia usando um espaço de magia de 2º nível ou superior, o período analisado aumenta para 7 dias. Usando um espaço de magia de 3º nível ou superior, aumenta para 30 dias."
           ]
         }
       ],
       "abilityCheck": [
+        "intelligence",
         "wisdom"
       ]
     },
@@ -35521,7 +35454,7 @@
       ]
     },
     {
-      "name": "Depoimento da Pedra Fria",
+      "name": "Falar com Pedra",
       "source": "MundoDeKyrGlossarioForjaSeptimus",
       "page": 40,
       "level": 2,
@@ -35553,8 +35486,10 @@
         }
       ],
       "entries": [
-        "Você toca uma estrutura, piso, estrada, porta, arma ou outro objeto não portado que tenha permanecido no mesmo lugar por pelo menos 1 hora durante os últimos 7 dias. Faça ao Mestre até três perguntas sobre eventos físicos que o alvo presenciou.",
-        "A resposta é breve e sensorial: pressão, som, calor, movimento, sangue, magia ou uma frase repetida. O alvo não pode identificar uma criatura pelo nome, a menos que esse nome tenha sido pronunciado em voz alta a até 30 pés dele."
+        "Você desperta uma consciência lenta em uma porção de pedra, rocha, solo compactado, metal bruto ou metal trabalhado que toque. O alvo deve ser uma superfície, estrutura ou objeto não mágico que não esteja sendo usado ou carregado por uma criatura relutante.",
+        "Enquanto a magia durar, você pode se comunicar com o alvo. Ele percebe o mundo por pressão, vibração, peso, calor, impacto, corrosão e ressonância, não por visão ou pensamento humano. O alvo responde de forma breve, sensorial e literal, usando lembranças preservadas em sua matéria.",
+        "Você pode fazer até três perguntas ao alvo sobre eventos físicos que ocorreram em contato com ele ou a até 9 metros dele nos últimos 7 dias. Ele pode relatar passos, golpes, escavações, aberturas, vozes repetidas, sangue, fogo, magia, metal arrastado, direção de movimento, passagens ocultas, cavidades, rachaduras e alterações estruturais.",
+        "O alvo não conhece nomes, intenções, lealdades ou pensamentos, a menos que essas informações tenham sido ditas em voz alta, gravadas, inscritas ou manifestadas de modo físico. O Mestre responde como uma pedra ou metal responderia: com memória de contato, peso, som e desgaste."
       ],
       "classes": {
         "fromClassList": [
@@ -35587,7 +35522,7 @@
           "type": "entries",
           "name": "Usando um Espaço de Magia Superior",
           "entries": [
-            "Ao conjurar esta magia usando um espaço de magia de 4º nível ou superior, você pode alcançar os últimos 30 dias, em vez dos últimos 7 dias."
+            "Ao conjurar esta magia usando um espaço de magia de 4º nível ou superior, o período analisado aumenta para 30 dias. Usando um espaço de magia de 6º nível ou superior, aumenta para 1 ano."
           ]
         }
       ]
@@ -37339,9 +37274,10 @@
         }
       ],
       "entries": [
-        "Você cria uma força magnética invisível que manipula um objeto metálico que você possa ver dentro do alcance. O objeto não pode pesar mais de 5 quilos e não pode estar sendo usado ou carregado por uma criatura relutante.",
-        "Enquanto a magia durar, você pode usar uma ação para mover o objeto até 9 metros. A magia pode abrir ou fechar dobradiças metálicas, puxar chaves, erguer trancas simples, mover correntes, recolher armas caídas, separar moedas, entortar pregos finos ou interagir com mecanismos metálicos simples.",
-        "A magia não pode atacar, ativar itens mágicos, desarmar uma criatura ou manipular objetos não metálicos."
+        "Você impõe um campo magnético fino sobre uma porção de metal não mágico que possa ver dentro do alcance. A porção afetada deve caber em um cubo de 30 centímetros e não pode estar sendo usada ou carregada por uma criatura relutante.",
+        "Enquanto a magia durar, você pode usar uma ação para moldar essa porção de metal em pequena escala: dobrar, vincar, polir, gravar marcas simples, ajustar encaixes, fechar pequenas fissuras, alinhar rebites, soltar pregos, amolecer bordas ou deformar mecanismos metálicos simples. A alteração não cria metal, não aumenta o valor de um item, não transforma uma arma ou armadura em outro item e não concede propriedades mágicas.",
+        "Você também pode mover uma peça metálica solta afetada pela magia até 9 metros, desde que ela pese no máximo 5 quilos. A magia não pode atacar, ativar itens mágicos, desarmar uma criatura ou manipular objetos que não sejam metálicos.",
+        "Durante a criação ou reparo de um item metálico, uma criatura que conjure esta magia como parte do trabalho pode adicionar {@dice 1d4} a uma rolagem de teste relacionada ao craft do item para cada 8 horas de trabalho. Esse bônus só pode ser aplicado uma vez à mesma rolagem."
       ],
       "classes": {
         "fromClassList": [
@@ -37362,11 +37298,7 @@
             "source": "XPHB"
           }
         ]
-      },
-      "conditionInflict": [
-        "prone",
-        "invisible"
-      ]
+      }
     },
     {
       "name": "Farpas Imantadas",
@@ -37512,8 +37444,7 @@
       ],
       "entries": [
         "Você reveste um braço, punho, joelho ou arma natural com metal espectral e avança com força concentrada. Como parte da conjuração desta magia, você pode mover-se até 4,5 metros em linha reta em direção a uma criatura que possa ver.",
-        "Se você terminar esse movimento a até 1,5 metro do alvo, faça uma jogada de ataque corpo a corpo com magia contra ele. Em um acerto, o alvo sofre {@dice 1d10} de dano contundente.",
-        "1º NÍVEL"
+        "Se você terminar esse movimento a até 1,5 metro do alvo, faça uma jogada de ataque corpo a corpo com magia contra ele. Em um acerto, o alvo sofre {@dice 1d10} de dano contundente."
       ],
       "classes": {
         "fromClassList": [
@@ -37790,7 +37721,7 @@
       ],
       "entries": [
         "Você toca uma criatura, objeto ou superfície metálica e acelera sua oxidação.",
-        "Faça uma jogada de ataque corpo a corpo com magia contra uma criatura. Em um acerto, o alvo sofre {@dice 2d8} de dano ácido. Se o alvo estiver usando armadura metálica, carregando um escudo metálico ou for um Construct, ele também fica Corroído até o início do seu próximo turno.",
+        "Faça uma jogada de ataque corpo a corpo com magia contra uma criatura. Em um acerto, o alvo sofre {@dice 3d10} de dano ácido. Se o alvo estiver usando armadura metálica, carregando um escudo metálico ou for um Construct, ele também fica Corroído até o início do seu próximo turno.",
         "Se você tocar um objeto metálico não mágico que não esteja sendo usado ou carregado, pode corroer uma porção de até 30 centímetros em qualquer dimensão, como uma corrente, dobradiça, fechadura simples, grade fina ou prego."
       ],
       "classes": {
@@ -37818,7 +37749,7 @@
           "type": "entries",
           "name": "Em Níveis Superiores",
           "entries": [
-            "O dano aumenta em {@dice 1d8} para cada nível do espaço de magia acima do 1º."
+            "O dano aumenta em {@dice 1d10} para cada nível do espaço de magia acima do 1º."
           ]
         }
       ],
@@ -37826,7 +37757,7 @@
         "acid"
       ],
       "conditionInflict": [
-        "Corroído|MundoDeKyrGuiaPraticoDeLeona"
+        "Corroído|MundoDeKyrCompendioPrimordialDeZarthion"
       ]
     },
     {
@@ -37950,8 +37881,7 @@
       ],
       "entries": [
         "Você faz um sino de bronze ressoar em torno de uma criatura que possa ver dentro do alcance, convertendo vibração física em pressão mental. O alvo deve realizar um teste de resistência de Sabedoria. Em uma falha, sofre {@dice 2d6} de dano psíquico e fica Ressoante até o fim do próximo turno dele. Em um sucesso, sofre metade do dano e não fica Ressoante.",
-        "Enquanto estiver Ressoante, a primeira vez que o alvo realizar uma ação ou ação bônus, ele sofre {@dice 1d6} de dano psíquico, e a magia termina para ele.",
-        "2º NÍVEL"
+        "Enquanto estiver Ressoante, a primeira vez que o alvo realizar uma ação ou ação bônus, ele sofre {@dice 1d6} de dano psíquico, e a magia termina para ele."
       ],
       "classes": {
         "fromClassList": [
@@ -38159,8 +38089,8 @@
       ],
       "entries": [
         "Correntes metálicas surgem ao redor de uma criatura que possa ver dentro do alcance. O alvo deve realizar um teste de resistência de Força. Se estiver usando armadura pesada metálica ou for um Construct, realiza esse teste com Desvantagem.",
-        "Em uma falha, o alvo sofre {@dice 2d8} de dano contundente e fica Contido enquanto a magia durar. Em um sucesso, sofre metade do dano e não fica Contido.",
-        "Enquanto estiver Contido por esta magia, o alvo pode usar sua ação para realizar um teste de Força contra sua CD para magia, encerrando a magia em um sucesso."
+        "Em uma falha, o alvo sofre {@dice 2d8} de dano contundente e fica Restrito enquanto a magia durar. Em um sucesso, sofre metade do dano e não fica Restrito.",
+        "Enquanto estiver Restrito por esta magia, o alvo pode usar sua ação para realizar um teste de Força contra sua CD para magia, encerrando a magia em um sucesso."
       ],
       "classes": {
         "fromClassList": [
@@ -38387,8 +38317,8 @@
         }
       ],
       "entries": [
-        "Uma criatura voluntária que você possa ver dentro do alcance assume um estado de adaptação constante. Enquanto a magia durar, o deslocamento dela aumenta em 3 metros, ela ignora Terreno Difícil não mágico e tem vantagem em testes de atributo e testes de resistência feitos para evitar ou encerrar as condições Agarrado e Contido.",
-        "Além disso, uma vez por rodada, quando a criatura sofrer dano ou falhar em um teste de d20, ela pode usar sua reação para mover-se até metade do deslocamento dela. Esse movimento não provoca ataques de oportunidade."
+        "Uma criatura voluntária que você possa ver dentro do alcance assume um estado de adaptação constante. Enquanto a magia durar, o deslocamento dela aumenta em 3 metros e ela ignora Terreno Difícil não mágico.",
+        "Além disso, quando uma criatura hostil se mover para um espaço a até 1,5 metro da criatura afetada ou terminar o movimento nessa distância, a criatura afetada pode usar sua Reação para se mover até 4,5 metros. Esse movimento não provoca ataques de oportunidade."
       ],
       "classes": {
         "fromClassList": [
@@ -38409,11 +38339,7 @@
             "source": "XPHB"
           }
         ]
-      },
-      "conditionInflict": [
-        "grappled",
-        "restrained"
-      ]
+      }
     },
     {
       "name": "Véu de Prata",
@@ -38446,8 +38372,7 @@
       ],
       "entries": [
         "Filamentos prateados irradiam de você, purificando medo, fascínio e presença impura. Escolha qualquer número de criaturas voluntárias na Emanação. Você encerra uma das seguintes condições em cada criatura escolhida: Amedrontado ou Enfeitiçado. Se uma condição for encerrada dessa forma, a criatura também recebe Pontos de Vida Temporários iguais ao seu modificador de atributo de conjuração + seu Bônus de Proficiência.",
-        "Além disso, cada Undead ou Fiend na Emanação deve realizar um teste de resistência de Sabedoria. Em uma falha, sofre {@dice 3d8} de dano radiante. Em um sucesso, sofre metade do dano.",
-        "3º NÍVEL"
+        "Além disso, cada Undead ou Fiend na Emanação deve realizar um teste de resistência de Sabedoria. Em uma falha, sofre {@dice 3d8} de dano radiante. Em um sucesso, sofre metade do dano."
       ],
       "classes": {
         "fromClassList": [
@@ -38799,8 +38724,7 @@
       "entries": [
         "Você fixa uma carga exotérmica em uma criatura, objeto ou superfície sólida. A carga detona no final do turno atual, liberando calor e pressão concentrados em um único ponto. Escolha um dos efeitos abaixo.",
         "Perfuração. Faça uma jogada de ataque corpo a corpo com magia contra uma criatura. Você tem vantagem nessa jogada se o alvo estiver usando armadura metálica ou for um Construct. Em um acerto, o alvo sofre {@dice 6d8} de dano de fogo.",
-        "Ruptura. A carga é fixada em um objeto, estrutura ou barreira que você toque. A magia causa 50 pontos de dano de força ao alvo. Esse dano ignora resistência a dano do objeto ou estrutura. Se o alvo for uma barreira criada por magia, a carga cria uma abertura de até 1,5 metro de diâmetro até o início do seu próximo turno. A magia que criou a barreira não é encerrada.",
-        "4º NÍVEL"
+        "Ruptura. A carga é fixada em um objeto, estrutura ou barreira que você toque. A magia causa 50 pontos de dano de força ao alvo. Esse dano ignora resistência a dano do objeto ou estrutura. Se o alvo for uma barreira criada por magia, a carga cria uma abertura de até 1,5 metro de diâmetro até o início do seu próximo turno. A magia que criou a barreira não é encerrada."
       ],
       "classes": {
         "fromClassList": [
@@ -38937,8 +38861,7 @@
       "entries": [
         "Você grava um pacto mágico em um objeto metálico tocado por duas criaturas voluntárias durante toda a conjuração. O pacto deve conter uma obrigação clara, possível e compreensível em até vinte e cinco palavras.",
         "Enquanto a magia durar, uma criatura vinculada que viole voluntariamente o pacto sofre {@dice 4d10} de dano psíquico e fica com uma marca metálica visível na pele por 24 horas. A magia então termina para essa criatura.",
-        "A magia não força uma criatura a cumprir o pacto, não detecta violações acidentais e não pune uma criatura impedida por coerção mágica direta.",
-        "5º NÍVEL"
+        "A magia não força uma criatura a cumprir o pacto, não detecta violações acidentais e não pune uma criatura impedida por coerção mágica direta."
       ],
       "meta": {
         "ritual": true
@@ -39120,7 +39043,7 @@
         "constitution"
       ],
       "conditionInflict": [
-        "Corroído|MundoDeKyrGuiaPraticoDeLeona"
+        "Corroído|MundoDeKyrCompendioPrimordialDeZarthion"
       ]
     },
     {
@@ -39212,7 +39135,7 @@
         }
       ],
       "entries": [
-        "Você lança uma nota aguda contra uma criatura que possa ouvir você dentro do alcance. O alvo deve realizar um teste de resistência de Constituição. Em uma falha, sofre {@dice 1d8} de dano trovejante.",
+        "Você lança uma nota aguda contra uma criatura que possa ouvir você dentro do alcance. O alvo deve realizar um teste de resistência de Constituição. Em uma falha, sofre {@dice 2d6} de dano trovejante.",
         "Se o alvo estiver Concentrando, ele tem Desvantagem no teste de resistência feito para manter a Concentração contra esse dano."
       ],
       "classes": {
@@ -39240,7 +39163,7 @@
           "type": "entries",
           "name": "Aumento de Truque",
           "entries": [
-            "O dano aumenta em {@dice 1d8} quando você alcança o 5º nível ({@dice 2d8}), 11º nível ({@dice 3d8}) e 17º nível ({@dice 4d8})."
+            "O dano aumenta em {@dice 2d6} quando você alcança o 5º nível ({@dice 4d6}), 11º nível ({@dice 6d6}) e 17º nível ({@dice 8d6})."
           ]
         }
       ],
@@ -41313,7 +41236,7 @@
           "type": "entries",
           "name": "Testemunho Restaurador",
           "entries": [
-            "Como uma Ação Mágica, você apresenta seu símbolo sagrado e escolhe um número de criaturas igual ao seu modificador de Carisma (mínimo 1) que possa ver a até 30 pés (30 pés) de você. Cada criatura escolhida recupera pontos de vida iguais a {@dice 1d8} + seu nível de Paladino, e pode imediatamente encerrar em si mesma uma das seguintes condições:  {@condition Blinded|XPHB|Cego}, {@condition Poisoned|XPHB|Envenenado}, {@condition Paralyzed|XPHB|Paralisado} ou {@condition Deafened|XPHB|Surdo}."
+            "Como uma Ação Mágica, você apresenta seu símbolo sagrado e escolhe um número de criaturas igual ao seu modificador de Carisma (mínimo 1) que possa ver a até 30 pés (30 pés) de você. Cada criatura escolhida recupera pontos de vida iguais a {@dice 1d8} + seu nível de Paladino, e pode imediatamente encerrar em si mesma uma das seguintes condições: {@condition Blinded|XPHB|Cego}, {@condition Poisoned|XPHB|Envenenado}, {@condition Paralyzed|XPHB|Paralisado} ou {@condition Deafened|XPHB|Surdo}."
           ]
         }
       ]
@@ -41500,7 +41423,9 @@
       "level": 3,
       "entries": [
         "{@i 3º nível de característica de subclasse de Wizard.}",
-        "Você aprendeu a registrar e interpretar os Ecos Mágicos deixados por antigas conjurações, preservando-os em sua escrita arcana. Ao escolher esta escola no 3º nível, escolha duas magias de Mago da Escola da Ecomancia, cada uma de até 2º nível, e adicione-as ao seu grimório sem custo. Além disso, sempre que você ganhar acesso a um novo nível de espaços de magia nesta classe, você poderá adicionar uma magia de Mago da Escola da Ecomancia ao seu grimório sem custo. A magia escolhida deve ser de um nível para o qual você possua espaços de magia."
+        "Você aprendeu a registrar e interpretar os Ecos Mágicos deixados por antigas conjurações, preservando-os em sua escrita arcana.",
+        "Para você, magias da lista de Clérigo contam como magias de Mago. Você pode adicioná-las ao seu grimório sempre que uma característica de Mago permitir que você adicione uma magia ao grimório, desde que a magia seja de um nível para o qual você possua espaços de magia.",
+        "Ao escolher esta escola no 3º nível, escolha duas magias de Mago da Escola da Ecomancia, cada uma de até 2º nível, e adicione-as ao seu grimório sem custo. Além disso, sempre que você ganhar acesso a um novo nível de espaços de magia nesta classe, você poderá adicionar uma magia de Mago da Escola da Ecomancia ao seu grimório sem custo. A magia escolhida deve ser de um nível para o qual você possua espaços de magia."
       ]
     },
     {
@@ -42375,7 +42300,7 @@
       "level": 3,
       "entries": [
         "{@i 3º nível de característica de subclasse de Wizard.}",
-        "Seu acesso ao conhecimento mágico supera o de outros magos. Você aprende duas magias adicionais de Mago de 1º nível, à sua escolha. Essas magias sempre contam como preparadas para você e não contam contra o número de magias que você pode preparar. Sempre que você alcançar um novo nível de magia de Mago (2º, 3º, 4º, etc.), você aprende uma magia adicional desse nível. Essas magias adicionais representam grimórios oficiais, protocolos arcanos e fórmulas exclusivas da Corte, mas não são preparadas automaticamente."
+        "Ao escolher esta escola no 3º nível, escolha três magias de Mago, cada uma de até 2º nível, e adicione-as ao seu grimório sem custo. Além disso, sempre que você ganhar acesso a um novo nível de espaços de magia nesta classe, você poderá adicionar uma magia de Mago ao seu grimório sem custo. A magia escolhida deve ser de um nível para o qual você possua espaços de magia."
       ]
     },
     {
@@ -42403,12 +42328,12 @@
       "level": 3,
       "entries": [
         "{@i 3º nível de característica de subclasse de Wizard.}",
-        "Escolha uma magia em seu grimório que seja de nível 1 ou superior adquirida através do Arquivo Arcano da Corte. Sempre que preparar essa magia, você pode criar uma versão modificada dela, aplicando um ou mais dos benefícios abaixo:",
+        "Escolha uma magia em seu grimório que seja de nível 1 ou superior. Sempre que preparar essa magia, você pode criar uma versão modificada dela, aplicando um dos benefícios abaixo:",
         "A CD de resistência da versão modificada da magia aumenta em +1.",
-        "Se a magia causar dano, você pode substituir o tipo de dano por outro tipo à sua escolha.",
-        "Se a magia exigir um teste de resistência, você pode alterar o atributo exigido para Inteligência.",
+        "Você pode substituir o tipo de dano por outro tipo à sua escolha.",
+        "Se a magia exigir um teste de resistência, você pode alterar o atributo exigido.",
         "Você pode preparar a mesma magia mais de uma vez, criando versões modificadas diferentes dela. Cada versão preparada conta separadamente contra o número de magias que você pode preparar.",
-        "Ao modificar uma magia dessa forma, você também pode alterar seu nome para refletir a nova fórmula arcana. Por exemplo, uma magia como Onda Trovão, se alterada para causar dano psíquico e exigir um teste de resistência de Inteligência, poderia ser registrada em seu grimório como Colapso Sináptico.",
+        "Ao modificar uma magia dessa forma, você também pode alterar seu nome para refletir a nova fórmula arcana.",
         "Ao terminar um {@variantrule Long Rest|XPHB|Descanso Longo}, você pode escolher outra magia de seu grimório para ser afetada por esta característica. Quando fizer isso, as modificações aplicadas à magia anterior terminam, e quaisquer versões alteradas dela deixam de estar preparadas."
       ]
     },
@@ -42457,7 +42382,7 @@
           "type": "entries",
           "name": "Concentração Estável",
           "entries": [
-            "Se a magia exigir Concentração, dano não pode quebrar sua Concentração nela até o início do seu próximo turno depois de conjurá-la."
+            "Se a magia exigir Concentração, dano não pode quebrar sua Concentração."
           ]
         },
         {
@@ -42483,6 +42408,7 @@
         "{@i 14º nível de característica de subclasse de Wizard.}",
         "Você aprendeu a transformar revisões arcanas em fórmulas oficiais da Corte.",
         "Ao terminar um {@variantrule Long Rest|XPHB|Descanso Longo}, você pode escolher uma magia do seu grimório que esteja atualmente modificada por sua característica Editar Feitiço e registrá-la como uma Fórmula da Corte. A magia escolhida deve ser de 5º nível ou inferior.",
+        "Para registrar a fórmula, você deve gastar materiais arcanos, tintas especiais, reagentes de teste e componentes de ensaio no valor de 50 PO por nível da magia registrada. Esse custo é consumido durante o Descanso Longo, representando os testes necessários para estabilizar a nova fórmula.",
         "Quando você faz esse registro, a versão modificada da magia deixa de depender de Editar Feitiço e passa a existir permanentemente em seu grimório como uma magia separada, com nome próprio à sua escolha. Essa nova fórmula mantém as modificações aplicadas no momento do registro.",
         "A Fórmula da Corte conta como uma magia de Mago para você e está sempre preparada, não contando contra o número de magias que você pode preparar.",
         "Você pode ter apenas uma Fórmula da Corte registrada por vez. Se registrar uma nova, a fórmula anterior perde esse benefício e volta a ser apenas uma magia normal do seu grimório."
@@ -44937,6 +44863,7 @@
           "type": "entries",
           "name": "Grimório da Umbra",
           "entries": [
+            "Para você, magias da lista de Warlock contam como magias de Mago. Você pode adicioná-las ao seu grimório sempre que uma característica de Mago permitir que você adicione uma magia ao grimório, desde que a magia seja de um nível para o qual você possua espaços de magia.",
             "Ao escolher esta escola no 3º nível, escolha duas magias de Mago da Escola da Umbramancia, cada uma de até 2º nível, e adicione-as ao seu grimório sem custo. Além disso, sempre que você ganhar acesso a um novo nível de espaços de magia nesta classe, você poderá adicionar uma magia de Mago da Escola da Umbramancia ao seu grimório sem custo, desde que seja de um nível para o qual você possua espaços de magia."
           ]
         },
@@ -45192,7 +45119,7 @@
           "entries": [
             "Seu estudo da Rizomancia expande os limites tradicionais da magia arcana, permitindo que você registre fórmulas naturais em linguagem de Mago.",
             "Para você, magias da lista de Druida contam como magias de Mago. Você pode adicioná-las ao seu grimório sempre que uma característica de Mago permitir que você adicione uma magia ao grimório, desde que a magia seja de um nível para o qual você possua espaços de magia.",
-            "Além disso, escolha duas magias de 1º ou 2º nível da lista de Druida ou da Escola de Rizomancia. As magias escolhidas são adicionadas ao seu grimório sem custo, estão sempre preparadas para você e não contam contra o número de magias que você pode preparar. Essas magias contam como magias de Mago para você."
+            "Ao escolher esta escola no 3º nível, escolha duas magias de Mago ou Druida da Escola de Rizomancia, cada uma de até 2º nível, e adicione-as ao seu grimório sem custo. Além disso, sempre que você ganhar acesso a um novo nível de espaços de magia nesta classe, você poderá adicionar uma magia de Mago da Escola de Rizomancia ao seu grimório sem custo. A magia escolhida deve ser de um nível para o qual você possua espaços de magia."
           ]
         },
         {
@@ -45903,11 +45830,11 @@
         "Ao escolher este caminho no 3º nível, o poder Oni desperta em suas veias, permitindo que sua fúria e vitalidade se tornem uma só Força.",
         {
           "type": "refSubclassFeature",
-          "subclassFeature": "Caminho do Oni: Arma ou Corpo Oni|Barbarian|XPHB|Oni|MundoDeKyrHistoriasVivenciasLilith|3"
+          "subclassFeature": "Caminho do Oni: Arma ou Corpo Oni|Barbarian|XPHB|Oni|MundoDeKyrEstudosTradicoesLavian|3"
         },
         {
           "type": "refSubclassFeature",
-          "subclassFeature": "Caminho do Oni: Ritual do Sangue|Barbarian|XPHB|Oni|MundoDeKyrHistoriasVivenciasLilith|3"
+          "subclassFeature": "Caminho do Oni: Ritual do Sangue|Barbarian|XPHB|Oni|MundoDeKyrEstudosTradicoesLavian|3"
         }
       ]
     },
@@ -46317,7 +46244,7 @@
         "{@i 7º nível de característica de subclasse de Paladin.}",
         "Enquanto você não estiver {@condition Incapacitated|XPHB|Incapacitado}, sua Aura de Proteção também carrega a energia da sua Linhagem Ancestral.",
         "Você e criaturas aliadas de sua escolha na aura têm resistência ao tipo de dano da sua Linhagem Ancestral.",
-        "Além disso, quando você fizer uma  jogada de ataque que cause dano do tipo da sua Linhagem Ancestral, você pode aumentar esse dano em uma quantidade igual ao seu modificador de Carisma, com mínimo de +1.",
+        "Além disso, quando você fizer uma jogada de ataque que cause dano do tipo da sua Linhagem Ancestral, você pode aumentar esse dano em uma quantidade igual ao seu modificador de Carisma, com mínimo de +1.",
         "Quando você alcança o 18º nível de Paladino, o alcance desta aura aumenta conforme sua Aura de Proteção."
       ]
     },
@@ -49825,11 +49752,11 @@
         "O Caos não é mal — é possibilidade infinita.",
         "{@b # Magias do Domínio do Caos}",
         "Você sempre tem as seguintes magias preparadas. Elas não contam para o número de magias que você pode preparar.",
-        "{@b Nível de Clérigo    Magias}",
-        "3º    Chromatic Orb, Identify, Mirror Image, Find Traps",
-        "{@b 5º    Blur, Blink}",
-        "{@b 7º    Compulsion,Confusion}",
-        "{@b 9º    Circle of Power, Dominate Person}"
+        "{@b Nível de Clérigo Magias}",
+        "3º Chromatic Orb, Identify, Mirror Image, Find Traps",
+        "{@b 5º Blur, Blink}",
+        "{@b 7º Compulsion,Confusion}",
+        "{@b 9º Circle of Power, Dominate Person}"
       ]
     },
     {
