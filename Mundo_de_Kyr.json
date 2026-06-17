@@ -28670,7 +28670,14 @@
         }
       ],
       "entries": [
-        "Você empunha a arma usada na conjuração desta magia e realiza um ataque corpo a corpo com arma contra uma criatura dentro do alcance da arma. Em um acerto, o alvo sofre os efeitos normais do ataque com a arma e, em seguida, fica envolto por energia cromática instável até o início do seu próximo turno. Escolha um dos tipos de dano abaixo ao conjurar a magia. Enquanto estiver envolto por essa energia, o alvo sofre o efeito secundário correspondente ao tipo de dano escolhido. Do 1º ao 4º nível, a magia não causa dano adicional no acerto, aplicando apenas o efeito secundário descrito. Fogo: o alvo deve realizar um teste de resistência de Destreza, em falha, fica Queimando. Ela pode repetir o teste de resistência no final do turno. Frio: o alvo deve realizar um teste de resistência de Constituição, em falha, fica Resfriado. Ela pode repetir o teste de resistência no final do turno. Veneno: o alvo deve realizar um teste de resistência de Constituição, em falha, fica Envenenado. Ela pode repetir o teste de resistência no final do turno. Ácido: o alvo deve realizar um teste de resistência de Constituição, em falha, fica Corróido. Ela pode repetir o teste de resistência no final do turno. Relâmpago: o alvo deve realizar um teste de resistência de Constituição, em falha, fica Eletrificado. Trovão: o alvo deve realizar um teste de resistência de Constituição, em falha, a criatura deverá, ao final do seu próximo turno, repetir o teste de resistência, em uma falha fica Incapacitado, até o início do seu próximo turno."
+        "Você empunha a arma usada na conjuração desta magia e realiza um ataque corpo a corpo com arma contra uma criatura dentro do alcance da arma; você pode substituir o atributo do ataque pelo seu atributo de conjuração.",
+        "Em um acerto, o alvo sofre os efeitos normais do ataque com a arma e, em seguida, fica envolto por energia cromática instável até o início do seu próximo turno. Escolha um dos tipos de dano abaixo ao conjurar a magia. Enquanto estiver envolto por essa energia, o alvo sofre o efeito secundário correspondente ao tipo de dano escolhido. Do 1º ao 4º nível, a magia não causa dano adicional no acerto, aplicando apenas o efeito secundário descrito.",
+        "{@b Fogo.} O alvo deve realizar um teste de resistência de Destreza. Em uma falha, fica Queimando. Ele pode repetir o teste de resistência no final do turno.",
+        "{@b Frio.} O alvo deve realizar um teste de resistência de Constituição. Em uma falha, fica Resfriado. Ele pode repetir o teste de resistência no final do turno.",
+        "{@b Veneno.} O alvo deve realizar um teste de resistência de Constituição. Em uma falha, fica Envenenado. Ele pode repetir o teste de resistência no final do turno.",
+        "{@b Ácido.} O alvo deve realizar um teste de resistência de Constituição. Em uma falha, fica Corroído. Ele pode repetir o teste de resistência no final do turno.",
+        "{@b Relâmpago.} O alvo deve realizar um teste de resistência de Constituição. Em uma falha, fica Eletrificado.",
+        "{@b Trovão.} O alvo deve realizar um teste de resistência de Constituição. Em uma falha, ao final do próximo turno dele, deve repetir o teste de resistência. Em uma falha nesse segundo teste, fica Incapacitado até o início do próximo turno dele."
       ],
       "classes": {
         "fromClassList": [
@@ -28722,7 +28729,11 @@
         "constitution"
       ],
       "conditionInflict": [
+        "Queimando|MundoDeKyrCompendioPrimordialDeZarthion",
+        "Resfriado|MundoDeKyrCompendioPrimordialDeZarthion",
         "poisoned",
+        "Corroído|MundoDeKyrCompendioPrimordialDeZarthion",
+        "Eletrificado|MundoDeKyrCompendioPrimordialDeZarthion",
         "incapacitated"
       ]
     },
@@ -29275,7 +29286,37 @@
         }
       ],
       "entries": [
-        "Você projeta um pulso de ausência que atravessa os sentidos da criatura-alvo, apagando momentaneamente partes da sua percepção. A criatura deve realizar um teste de resistência de Constituição. Em uma falha, ela sofre {@dice 1d4} de dano psíquico e perde temporariamente um de seus sentidos até o final do próximo turno da criatura. O dano determina o efeito adicional: Roll Efeito 1 Nenhum efeito adicional. 2 Perda do olfato 3 Incapacidade de falar (não pode conjurar magias com componente verbal) 4 Perda da visão (a criatura fica Cega) Em um sucesso, a criatura não sofre dano nem efeito adicional."
+        "Você projeta um pulso de ausência que atravessa os sentidos da criatura-alvo, apagando momentaneamente partes da sua percepção. A criatura deve realizar um teste de resistência de Constituição. Em uma falha, ela sofre {@dice 1d4} de dano psíquico e perde temporariamente um de seus sentidos até o final do próximo turno da criatura, conforme a tabela Efeito Sensorial. Em um sucesso, a criatura não sofre dano nem efeito adicional.",
+        {
+          "type": "table",
+          "caption": "Efeito Sensorial",
+          "colLabels": [
+            "d4",
+            "Efeito"
+          ],
+          "colStyles": [
+            "col-2 text-center",
+            "col-10"
+          ],
+          "rows": [
+            [
+              "1",
+              "Nenhum efeito adicional."
+            ],
+            [
+              "2",
+              "Perda do olfato."
+            ],
+            [
+              "3",
+              "Incapacidade de falar; a criatura não pode conjurar magias com componente verbal."
+            ],
+            [
+              "4",
+              "Perda da visão; a criatura fica Cega."
+            ]
+          ]
+        }
       ],
       "subschools": [
         "Umbramancia"
@@ -29342,13 +29383,16 @@
         {
           "type": "timed",
           "duration": {
-            "type": "round",
+            "type": "minute",
             "amount": 1
-          }
+          },
+          "concentration": true
         }
       ],
       "entries": [
-        "Você cria um vínculo rizomático breve entre você e uma criatura voluntária que possa ver dentro do alcance. Até o início do seu próximo turno, o alvo permanece ligado a você por uma raiz invisível de sustentação. Uma vez antes da magia terminar, quando o alvo realizar um teste de resistência de Força, Destreza ou Constituição, ele pode rolar {@dice 1d4} e adicionar o resultado ao teste. Se o alvo estiver em contato direto com solo natural, pedra, lama, areia, madeira viva ou raízes, ele também recebe pontos de vida temporários iguais ao seu bônus de proficiência. A magia termina após o alvo usar o bônus no teste de resistência ou quando a duração acabar."
+        "Você cria um vínculo rizomático breve entre você e uma criatura voluntária que possa ver dentro do alcance. Enquanto a magia durar, o alvo permanece ligado a você por uma raiz invisível de sustentação.",
+        "Uma vez antes da magia terminar, quando o alvo realizar um teste de resistência de Força, Destreza ou Constituição, ele pode rolar {@dice 1d4} e adicionar o resultado ao teste. Se o alvo estiver em contato direto com solo natural, pedra, lama, areia, madeira viva ou raízes, ele também recebe Pontos de Vida Temporários iguais ao seu Bônus de Proficiência.",
+        "A magia termina após o alvo usar o bônus no teste de resistência ou quando a duração acabar."
       ],
       "subschools": [
         "Rizomancia"
@@ -29377,15 +29421,6 @@
             "Os pontos de vida temporários aumentam para o dobro do seu bônus de proficiência no 11º nível."
           ]
         }
-      ],
-      "damageInflict": [
-        "force"
-      ],
-      "savingThrow": [
-        "strength"
-      ],
-      "conditionInflict": [
-        "invisible"
       ]
     },
     {
@@ -29421,7 +29456,7 @@
         }
       ],
       "entries": [
-        "Ao conjurar esta magia, você faz brotar ao redor de uma criatura voluntária uma estrutura flexível de fibras vivas cobertas por espinhos, que reage instintivamente a impactos. O alvo recebe {@dice 3d6} Pontos de Vida Temporários. Enquanto possuir pontos de vida temporarios, pela duração da magia, quando uma criatura o atingir com um ataque corpo a corpo, essa criatura sofre dano perfurante igual à quantidade de Pontos de Vida Temporários perdidos como resultado daquele ataque. A magia termina antecipadamente se o alvo ficar sem Pontos de Vida Temporários concedidos por ela."
+        "Ao conjurar esta magia, você faz brotar ao redor de uma criatura voluntária uma estrutura flexível de fibras vivas cobertas por espinhos, que reage instintivamente a impactos. O alvo recebe {@dice 3d6} Pontos de Vida Temporários. Enquanto possuir pontos de vida temporarios, pela duração da magia, quando uma criatura o atingir com um ataque corpo a corpo, essa criatura sofre dano perfurante igual à quantidade de Pontos de Vida Temporários perdidos como resultado daquele ataque. A magia termina antecipadamente se o alvo ficar sem Pontos de Vida Temporários."
       ],
       "subschools": [
         "Rizomancia"
@@ -30346,11 +30381,7 @@
       },
       "duration": [
         {
-          "type": "timed",
-          "duration": {
-            "type": "minute",
-            "amount": 1
-          }
+          "type": "instant"
         }
       ],
       "entries": [
@@ -30682,7 +30713,7 @@
         }
       ],
       "entries": [
-        "Você canaliza as energias primordiais de Kÿr e as condensa em uma arma cintilante de energia elemental pura, que surge em uma mão livre à sua escolha. A arma manifesta-se instável, com cores ondulantes e formas sobrepostas, até que você estabilize sua natureza escolhendo um tipo de energia. Ao conjurar esta magia, escolha uma arma corpo a corpo ou à distância com a qual você seja proficiente. A arma criada assume a forma da arma escolhida, mantém suas propriedades normais e é considerada mágica enquanto a magia durar. Se a arma escolhida exigir munição, a magia cria a munição necessária no momento de cada ataque; essa munição desaparece imediatamente após atingir ou errar o alvo. Quando a arma é criada, escolha um tipo de dano: ácido, frio, fogo, relâmpago, veneno ou trovão. Enquanto a magia durar, ataques feitos com essa arma causam {@dice 1d4} de dano adicional do tipo escolhido. A arma desaparece se você soltar voluntariamente, arremessar, guardar ou for desarmado dela, mas apenas no final do turno atual. Enquanto a magia durar, você pode usar uma ação bônus para fazer a arma reaparecer instantaneamente em uma mão livre sua. A arma não pode ser vendida, entregue como objeto permanente, usada como componente material, nem mantida após o fim da magia. Ela se dissipa imediatamente se sair do seu alcance por mais de um turno, se outra criatura tentar empunhá-la ou se a magia terminar."
+        "Você canaliza as energias primordiais de Kÿr e as condensa em uma arma cintilante de energia elemental pura, que surge em uma mão livre à sua escolha. A arma manifesta-se instável, com cores ondulantes e formas sobrepostas, até que você estabilize sua natureza escolhendo um tipo de energia. Ao conjurar esta magia, escolha uma arma corpo a corpo ou à distância com a qual você seja proficiente. A arma criada assume a forma da arma escolhida, mantém suas propriedades normais e é considerada mágica enquanto a magia durar. Se a arma escolhida exigir munição, a magia cria a munição necessária no momento de cada ataque; essa munição desaparece imediatamente após atingir ou errar o alvo. Quando a arma é criada, escolha um tipo de dano: ácido, frio, fogo, relâmpago, veneno ou trovão. Enquanto a magia durar, ataques feitos com essa arma causam {@dice 1d4} de dano adicional do tipo escolhido. A arma desaparece se você soltar voluntariamente, arremessar, guardar ou for desarmado dela, mas apenas no final do turno atual. Enquanto a magia durar, você pode usar uma ação bônus para fazer a arma reaparecer instantaneamente em uma mão livre sua. Ela se dissipa imediatamente se sair do seu alcance por mais de um turno, se outra criatura tentar empunhá-la ou se a magia terminar."
       ],
       "classes": {
         "fromClassList": [
@@ -30828,7 +30859,7 @@
         }
       ],
       "entries": [
-        "Você força a mente do agressor a sentir o peso imediato da violência que acabou de causar. A criatura que causou o dano deve realizar um teste de resistência de Sabedoria. Em uma falha, ela sofre {@dice 3d8} de dano psíquico. Se a criatura danificada era sua aliada, o agressor também tem desvantagem na próxima jogada de ataque que fizer antes do final do próximo turno dele. Em um sucesso, o agressor sofre metade do dano e não sofre desvantagem."
+        "Você força a mente do agressor a sentir o peso imediato da violência que acabou de causar. A criatura que causou o dano deve realizar um teste de resistência de Sabedoria. Em uma falha, ela sofre {@dice 3d8} de dano psíquico e tem desvantagem na próxima jogada de ataque que fizer antes do final do próximo turno dele. Em um sucesso, o agressor sofre metade do dano e não sofre desvantagem."
       ],
       "classes": {
         "fromClassList": [
@@ -32492,7 +32523,11 @@
         }
       ],
       "entries": [
-        "Você ergue uma estrutura arcana temporária em um espaço desocupado dentro do alcance. A estrutura pode assumir uma das formas abaixo: Ponte. Uma ponte reta de até 60 pés de comprimento e 10 pés de largura. Muro. Um muro de até 40 pés de comprimento, 10 pés de altura e 30 centímetros de espessura. Escada. Uma escada ou rampa de até 40 pés de comprimento. Abrigo. Uma cobertura simples capaz de conceder meia cobertura a até quatro criaturas Médias. A estrutura tem CA 15, 40 pontos de vida e imunidade a dano psíquico e venenoso. Ela não pode aprisionar uma criatura no momento em que aparece. Se surgiria no espaço ocupado por uma criatura, a magia falha naquela parte da estrutura. Quando a magia termina, a estrutura se desfaz em pó luminoso."
+        "Você ergue uma estrutura arcana temporária em um espaço desocupado dentro do alcance. A estrutura pode assumir uma das formas abaixo:",
+        "{@b Ponte.} Uma ponte reta de até 60 pés de comprimento e 10 pés de largura.",
+        "{@b Muro.} Um muro de até 40 pés de comprimento, 10 pés de altura e 30 centímetros de espessura.",
+        "{@b Escada.} Uma escada ou rampa de até 40 pés de comprimento.",
+        "{@b Abrigo.} Uma cobertura simples capaz de conceder meia cobertura a até quatro criaturas Médias. A estrutura tem CA 15, 40 pontos de vida e imunidade a dano psíquico e venenoso. Ela não pode aprisionar uma criatura no momento em que aparece. Se surgiria no espaço ocupado por uma criatura, a magia falha naquela parte da estrutura. Quando a magia termina, a estrutura se desfaz em pó luminoso."
       ],
       "classes": {
         "fromClassList": [
@@ -32692,7 +32727,10 @@
         }
       ],
       "entries": [
-        "Você desperta uma coroa espectral de chifres, escamas e energia dracônica ao redor de si. Ao conjurar esta magia, escolha um dos seguintes tipos de dano: ácido, frio, fogo, relâmpago, trovão ou veneno. Até a magia terminar, você recebe os seguintes benefícios: Resistência Dracônica. Você tem resistência ao tipo de dano escolhido. Golpe Primevo. Uma vez por turno, quando você acertar uma criatura com um ataque com arma ou ataque de magia, o ataque causa {@dice 1d8} de dano adicional do tipo escolhido. Presença Ancestral. Quando uma criatura a até 10 pés de você acertar você com um ataque corpo a corpo, você pode usar sua Reação para liberar uma descarga dracônica. A criatura deve realizar um teste de resistência de Destreza. Em falha, sofre {@dice 2d8} de dano do tipo escolhido. Em sucesso, sofre metade do dano."
+        "Você desperta uma coroa espectral de chifres, escamas e energia dracônica ao redor de si. Ao conjurar esta magia, escolha um dos seguintes tipos de dano: ácido, frio, fogo, relâmpago, trovão ou veneno. Até a magia terminar, você recebe os seguintes benefícios:",
+        "{@b Resistência Dracônica.} Você tem resistência ao tipo de dano escolhido.",
+        "{@b Golpe Primevo.} Uma vez por turno, quando você acertar uma criatura com um ataque com arma ou ataque de magia, o ataque causa {@dice 1d8} de dano adicional do tipo escolhido.",
+        "{@b Presença Ancestral.} Quando uma criatura a até 10 pés de você acertar você com um ataque corpo a corpo, você pode usar sua Reação para liberar uma descarga dracônica. A criatura deve realizar um teste de resistência de Destreza. Em falha, sofre {@dice 2d8} de dano do tipo escolhido. Em sucesso, sofre metade do dano."
       ],
       "classes": {
         "fromClassList": [
@@ -32761,7 +32799,8 @@
         }
       ],
       "entries": [
-        "Você golpeia o solo, enviando um pulso de pura pressão ontológica através das raízes que sustentam a matéria. Cinco estrias de distorção espacial correm pelo chão em direção a até cinco criaturas que você possa ver dentro do alcance. Cada alvo deve realizar um teste de resistência de Destreza. Em uma falha, o alvo sofre {@dice 8d6} de dano de força e fica Caído. Em um sucesso, sofre metade do dano e não fica Caído. Nó de Convergência. Você pode optar por fundir as cinco estrias para colapsarem as raízes de um único alvo. Se o fizer, o dano aumenta para {@dice 12d6} de dano de força e, em caso de falha na resistência, o alvo fica Impedido até o final do seu próximo turno. A energia viaja pelo solo e por estruturas sólidas, mas o fluxo é interrompido se encontrar vácuo ou água profunda, que isola as raízes da realidade."
+        "Você golpeia o solo, enviando um pulso de pura pressão ontológica através das raízes que sustentam a matéria. Cinco estrias de distorção espacial correm pelo chão em direção a até cinco criaturas que você possa ver dentro do alcance. Cada alvo deve realizar um teste de resistência de Destreza. Em uma falha, o alvo sofre {@dice 8d6} de dano de força e fica Caído. Em um sucesso, sofre metade do dano e não fica Caído.",
+        "{@b Nó de Convergência.} Você pode optar por fundir as cinco estrias para colapsarem as raízes de um único alvo. Se o fizer, o dano aumenta para {@dice 12d6} de dano de força e, em caso de falha na resistência, o alvo fica Impedido até o final do seu próximo turno. A energia viaja pelo solo e por estruturas sólidas, mas o fluxo é interrompido se encontrar vácuo ou água profunda, que isola as raízes da realidade."
       ],
       "subschools": [
         "Rizomancia"
@@ -33492,7 +33531,12 @@
         }
       ],
       "entries": [
-        "Você impõe uma lei mágica de contenção sobre uma área de 30 pés de raio, centrada em um ponto que possa ver dentro do alcance em que você esteja. Ao conjurar a magia, escolha duas das seguintes leis: Sem Excesso. Criaturas na área não podem causar dano adicional por acertos críticos. Um acerto crítico ainda acerta normalmente, mas não concede dados adicionais de dano. Sem Fuga. Criaturas na área não podem se teleportar para fora dela, a menos que sejam bem- sucedidas em um teste de resistência de Carisma contra sua CD de magia. Em uma falha, o teleporte falha e o recurso, magia ou efeito usado é desperdiçado. Sem Ruptura. Criaturas dentro da área têm vantagem em testes de resistência de Constituição feitos para manter Concentração. Sem Interrupção. Criaturas na área não podem realizar ataques de oportunidade. Sem Subjugação. Criaturas na área têm vantagem em testes de resistência contra efeitos que as deixariam Amedrontadas, Enfeitiçadas, Caídas, Agarradas ou Restritas. Além disso, a área torna-se uma zona fechada de contenção mágica. Criaturas fora da área não podem afetar criaturas dentro dela com ataques, magias ou outros efeitos, a menos que o efeito também tenha sua origem dentro da área ou atravesse a fronteira após a criatura ser bem-sucedida em um teste de resistência de Carisma contra sua CD de magia. Em uma falha, o ataque, magia ou efeito não afeta criaturas dentro da área, embora ainda possa afetar alvos fora dela normalmente. Quando uma criatura entra na área pela primeira vez em um turno ou começa seu turno nela, ela pode realizar um teste de resistência de Carisma. Em um sucesso, ignora as leis ativas até o início do próximo turno dela. Em uma falha, fica sujeita às leis enquanto permanecer na área ou até conseguir resistir a elas."
+        "Você impõe uma lei mágica de contenção sobre uma área de 30 pés de raio, centrada em um ponto que possa ver dentro do alcance em que você esteja. Ao conjurar a magia, escolha duas das seguintes leis:",
+        "{@b Sem Excesso.} Criaturas na área não podem causar dano adicional por acertos críticos. Um acerto crítico ainda acerta normalmente, mas não concede dados adicionais de dano.",
+        "{@b Sem Fuga.} Criaturas na área não podem se teleportar para fora dela, a menos que sejam bem- sucedidas em um teste de resistência de Carisma contra sua CD de magia. Em uma falha, o teleporte falha e o recurso, magia ou efeito usado é desperdiçado.",
+        "{@b Sem Ruptura.} Criaturas dentro da área têm vantagem em testes de resistência de Constituição feitos para manter Concentração.",
+        "{@b Sem Interrupção.} Criaturas na área não podem realizar ataques de oportunidade.",
+        "{@b Sem Subjugação.} Criaturas na área têm vantagem em testes de resistência contra efeitos que as deixariam Amedrontadas, Enfeitiçadas, Caídas, Agarradas ou Restritas. Além disso, a área torna-se uma zona fechada de contenção mágica. Criaturas fora da área não podem afetar criaturas dentro dela com ataques, magias ou outros efeitos, a menos que o efeito também tenha sua origem dentro da área ou atravesse a fronteira após a criatura ser bem-sucedida em um teste de resistência de Carisma contra sua CD de magia. Em uma falha, o ataque, magia ou efeito não afeta criaturas dentro da área, embora ainda possa afetar alvos fora dela normalmente. Quando uma criatura entra na área pela primeira vez em um turno ou começa seu turno nela, ela pode realizar um teste de resistência de Carisma. Em um sucesso, ignora as leis ativas até o início do próximo turno dela. Em uma falha, fica sujeita às leis enquanto permanecer na área ou até conseguir resistir a elas."
       ],
       "classes": {
         "fromClassList": [
@@ -33544,7 +33588,9 @@
         }
       ],
       "entries": [
-        "Você fortalece o corpo e a vontade de um grupo contra desgaste prolongado. Escolha até seis criaturas voluntárias dentro do alcance. Pela duração, cada alvo recebe os seguintes benefícios: Marcha Sustentada. Pela duração da magia, o alvo não adquire níveis de Exaustão causados exclusivamente por marcha forçada, frio extremo ou calor extremo. Esta magia não remove níveis de Exaustão já existentes. Recuperação Parcial. Quando o alvo terminar um Descanso Curto durante a duração, ele pode recuperar pontos de vida adicionais iguais ao seu modificador de atributo de conjuração + seu bônus de proficiência. Quando a magia termina, cada alvo afetado adquire 1 nível de Exaustão, pois o corpo cobra o esforço sustentado artificialmente pela magia."
+        "Você fortalece o corpo e a vontade de um grupo contra desgaste prolongado. Escolha até seis criaturas voluntárias dentro do alcance. Pela duração, cada alvo recebe os seguintes benefícios:",
+        "{@b Marcha Sustentada.} Pela duração da magia, o alvo não adquire níveis de Exaustão causados exclusivamente por marcha forçada, frio extremo ou calor extremo. Esta magia não remove níveis de Exaustão já existentes.",
+        "{@b Recuperação Parcial.} Quando o alvo terminar um Descanso Curto durante a duração, ele pode recuperar pontos de vida adicionais iguais ao seu modificador de atributo de conjuração + seu bônus de proficiência. Quando a magia termina, cada alvo afetado adquire 1 nível de Exaustão, pois o corpo cobra o esforço sustentado artificialmente pela magia."
       ],
       "classes": {
         "fromClassList": [
@@ -33667,7 +33713,10 @@
         }
       ],
       "entries": [
-        "Você manifesta uma hidra de energia arcana em um ponto que possa ver dentro do alcance. A manifestação ocupa uma esfera de 10 pés de raio, é imóvel e surge com cinco cabeças. Comandar Cabeças. Como uma ação ou como parte da conjuração, você comanda a hidra para disparar. Escolha uma ou mais cabeças disponíveis; cada uma dispara um raio contra um alvo a até 30 pés da hidra. Faça um ataque de magia à distância para cada raio. Em um acerto, o alvo sofre {@dice 2d10} de dano ácido. Após o ataque, a cabeça desaparece. Reposicionar. Como uma ação bônus, você pode mover a manifestação da hidra por até 30 pés para um ponto vazio que você possa ver. Alimentar e Disparar. Como uma ação, você pode gastar um espaço de magia para regenerar a hidra. Você recupera uma quantidade de cabeças igual a 1 + o nível do espaço gasto, sem exceder o limite máximo. Imediatamente após recarregar, você pode realizar a ação Comandar Cabeças como parte desta mesma ação."
+        "Você manifesta uma hidra de energia arcana em um ponto que possa ver dentro do alcance. A manifestação ocupa uma esfera de 10 pés de raio, é imóvel e surge com cinco cabeças.",
+        "{@b Comandar Cabeças.} Como uma ação ou como parte da conjuração, você comanda a hidra para disparar. Escolha uma ou mais cabeças disponíveis; cada uma dispara um raio contra um alvo a até 30 pés da hidra. Faça um ataque de magia à distância para cada raio. Em um acerto, o alvo sofre {@dice 2d10} de dano ácido. Após o ataque, a cabeça desaparece.",
+        "{@b Reposicionar.} Como uma ação bônus, você pode mover a manifestação da hidra por até 30 pés para um ponto vazio que você possa ver.",
+        "{@b Alimentar e Disparar.} Como uma ação, você pode gastar um espaço de magia para regenerar a hidra. Você recupera uma quantidade de cabeças igual a 1 + o nível do espaço gasto, sem exceder o limite máximo. Imediatamente após recarregar, você pode realizar a ação Comandar Cabeças como parte desta mesma ação."
       ],
       "classes": {
         "fromClassList": [
@@ -34504,7 +34553,9 @@
         }
       ],
       "entries": [
-        "Você cria um vácuo de inexistência. No momento em que uma fonte de energia ou impacto atingiria você ou seus aliados, a Umbramancia apaga a magnitude do evento. Negação de Evento. Você projeta uma barreira de ausência de 30 pés de largura. Role {@dice 5d10} + o seu modificador de atributo de conjuração. O total é subtraído do dano causado para todas as criaturas protegidas pela parede. Silêncio Ontológico. Se o dano for reduzido a menos de 10, o efeito não deixa vestígios no ambiente."
+        "Você cria um vácuo de inexistência. No momento em que uma fonte de energia ou impacto atingiria você ou seus aliados, a Umbramancia apaga a magnitude do evento.",
+        "{@b Negação de Evento.} Você projeta uma barreira de ausência de 30 pés de largura. Role {@dice 5d10} + o seu modificador de atributo de conjuração. O total é subtraído do dano causado para todas as criaturas protegidas pela parede.",
+        "{@b Silêncio Ontológico.} Se o dano for reduzido a menos de 10, o efeito não deixa vestígios no ambiente."
       ],
       "subschools": [
         "Umbramancia"
@@ -34569,7 +34620,8 @@
         }
       ],
       "entries": [
-        "Você cria uma cópia sombria de si mesmo em um espaço desocupado que possa ver a até 30 pés. A cópia é uma criatura mágica com sua aparência, tipo, tamanho, CA, deslocamentos, sentidos, proficiências, testes de resistência e modificadores de atributo. Ela tem Pontos de Vida iguais a cinco vezes o nível do espaço usado, não pode recuperar Pontos de Vida, usar itens mágicos nem receber Pontos de Vida Temporários. A cópia age imediatamente depois de você, obedece seus comandos mentais e não exige ação para ser comandada. No turno dela, pode se mover e realizar uma Ação, mas não possui Ação Bônus nem Reação. Como Ação, a cópia pode realizar um ataque que você poderia realizar, conjurar um truque que você conheça, realizar Dash, Disengage, Dodge, Help, Hide, Search, Study ou Utilize ou conjurar uma magia que você tenha preparada ou conheça. A magia conjurada deve ter tempo de conjuração de 1 Ação e ser de nível inferior ao espaço usado para conjurar Sombra Simulacral. Ela gasta seus espaços de magia, se origina da cópia e usa seu atributo de conjuração. Se exigir Concentração, Sombra Simulacral termina. A cópia não pode usar recursos limitados de classe, espécie, talento ou item, nem conjurar Sombra Simulacral, Simulacrum ou que criem, invoquem, dupliquem ou controlem criaturas. A cópia desaparece se cair a 0 Pontos de Vida, se você perder Concentração, se você ficar Incapacitado ou se ela terminar o turno a mais de 320 pés de você. Sempre que ela sofrer dano, você testa Concentração como se tivesse sofrido esse dano. Se ela desaparecer por cair a 0 Pontos de Vida, você sofre dano psíquico igual ao nível do espaço usado + seu modificador de conjuração. Ruptura Coordenada. Uma vez antes da magia terminar, quando você e a cópia causarem dano à mesma criatura no mesmo round, essa criatura sofre {@dice 4d8} de dano psíquico adicional, e a cópia desaparece."
+        "Você cria uma cópia sombria de si mesmo em um espaço desocupado que possa ver a até 30 pés. A cópia é uma criatura mágica com sua aparência, tipo, tamanho, CA, deslocamentos, sentidos, proficiências, testes de resistência e modificadores de atributo. Ela tem Pontos de Vida iguais a cinco vezes o nível do espaço usado, não pode recuperar Pontos de Vida, usar itens mágicos nem receber Pontos de Vida Temporários. A cópia age imediatamente depois de você, obedece seus comandos mentais e não exige ação para ser comandada. No turno dela, pode se mover e realizar uma Ação, mas não possui Ação Bônus nem Reação. Como Ação, a cópia pode realizar um ataque que você poderia realizar, conjurar um truque que você conheça, realizar Dash, Disengage, Dodge, Help, Hide, Search, Study ou Utilize ou conjurar uma magia que você tenha preparada ou conheça. A magia conjurada deve ter tempo de conjuração de 1 Ação e ser de nível inferior ao espaço usado para conjurar Sombra Simulacral. Ela gasta seus espaços de magia, se origina da cópia e usa seu atributo de conjuração. Se exigir Concentração, Sombra Simulacral termina. A cópia não pode usar recursos limitados de classe, espécie, talento ou item, nem conjurar Sombra Simulacral, Simulacrum ou que criem, invoquem, dupliquem ou controlem criaturas. A cópia desaparece se cair a 0 Pontos de Vida, se você perder Concentração, se você ficar Incapacitado ou se ela terminar o turno a mais de 320 pés de você. Sempre que ela sofrer dano, você testa Concentração como se tivesse sofrido esse dano. Se ela desaparecer por cair a 0 Pontos de Vida, você sofre dano psíquico igual ao nível do espaço usado + seu modificador de conjuração.",
+        "{@b Ruptura Coordenada.} Uma vez antes da magia terminar, quando você e a cópia causarem dano à mesma criatura no mesmo round, essa criatura sofre {@dice 4d8} de dano psíquico adicional, e a cópia desaparece."
       ],
       "subschools": [
         "Umbramancia"
@@ -34640,7 +34692,14 @@
         }
       ],
       "entries": [
-        "Você permite que o rizoma primordial atravesse seu corpo, transformando-o em uma âncora viva de casca, fibras, raízes, espinhos e seiva endurecida. Pela duração, você recebe os seguintes benefícios: Corpo Enraizado. Você recebe resistência a dano contundente, cortante, perfurante e de veneno. Casca Primordial. Você recebe +2 na CA. Âncora Viva. Você não pode ser movido contra a própria vontade, derrubado Caído, Agarrado ou Restrito, a menos que esteja Incapacitado. Regeneração de Seiva. No início de cada um dos seus turnos, você recebe 15 pontos de vida temporários. Raízes de Interposição. Uma vez por rodada, quando uma criatura aliada que você possa ver a até 20 pés sofrer dano, você pode reduzir esse dano em {@dice 3d8}, sem usar ação. Retaliação Espinhosa. Sempre que uma criatura a até 5 pés de você o atingir com um ataque corpo a corpo, ela sofre {@dice 3d8} de dano perfurante. Presença do Rizoma. Espaços a até 10 pés de você são terreno difícil para criaturas hostis à sua escolha. Quando a magia termina, você perde quaisquer pontos de vida temporários concedidos por ela."
+        "Você permite que o rizoma primordial atravesse seu corpo, transformando-o em uma âncora viva de casca, fibras, raízes, espinhos e seiva endurecida. Pela duração, você recebe os seguintes benefícios:",
+        "{@b Corpo Enraizado.} Você recebe resistência a dano contundente, cortante, perfurante e de veneno.",
+        "{@b Casca Primordial.} Você recebe +2 na CA.",
+        "{@b Âncora Viva.} Você não pode ser movido contra a própria vontade, derrubado Caído, Agarrado ou Restrito, a menos que esteja Incapacitado.",
+        "{@b Regeneração de Seiva.} No início de cada um dos seus turnos, você recebe 15 pontos de vida temporários.",
+        "{@b Raízes de Interposição.} Uma vez por rodada, quando uma criatura aliada que você possa ver a até 20 pés sofrer dano, você pode reduzir esse dano em {@dice 3d8}, sem usar ação.",
+        "{@b Retaliação Espinhosa.} Sempre que uma criatura a até 5 pés de você o atingir com um ataque corpo a corpo, ela sofre {@dice 3d8} de dano perfurante.",
+        "{@b Presença do Rizoma.} Espaços a até 10 pés de você são terreno difícil para criaturas hostis à sua escolha. Quando a magia termina, você perde quaisquer pontos de vida temporários concedidos por ela."
       ],
       "subschools": [
         "Rizomancia"
@@ -35343,8 +35402,8 @@
         }
       ],
       "entries": [
-        "Você desperta os Ecos residuais presos a uma cena recente, fazendo com que vestígios físicos e mágicos revelem fragmentos do que aconteceu ali.",
-        "Escolha uma área de até 6 metros de lado, um objeto, uma superfície ou um cadáver que você possa ver a até 9 metros. Pela duração, marcas relevantes ficam perceptíveis para você como ressonâncias breves: passos interrompidos, sangue limpo às pressas, calor residual, cheiro de reagentes, pressão de mãos, direção de fuga, dano sofrido, resíduo de magia ou sinais de manipulação.",
+        "Você desperta a Ecomancia residual de uma cena recente, fazendo com que vestígios físicos e ressonâncias deixadas no ambiente revelem fragmentos do que aconteceu ali.",
+        "Escolha uma área de até 6 metros de lado, um objeto, uma superfície ou um cadáver que você possa ver a até 9 metros. Pela duração, marcas relevantes ficam perceptíveis para você como Ecos breves: passos interrompidos, sangue limpo às pressas, calor residual, cheiro de reagentes, pressão de mãos, direção de fuga, dano sofrido, resíduo de magia ou sinais de manipulação.",
         "Quando você realizar uma ação Study ou Search para examinar o alvo da magia, pode adicionar {@dice 1d4} ao teste. Além disso, quando conjura a magia e novamente como uma ação enquanto ela durar, você pode pedir ao Mestre um indício factual sobre um evento ocorrido ali nas últimas 24 horas. O indício deve ser algo que a cena ainda possa carregar fisicamente ou ecoar magicamente.",
         "A magia revela evidências, não conclusões. Ela não informa nomes, intenções, pensamentos, culpa ou motivações, a menos que tais informações tenham sido deixadas como vestígios objetivos, como uma palavra escrita, um símbolo marcado ou um nome pronunciado em voz alta e preservado pelo Eco."
       ],
@@ -35489,7 +35548,7 @@
         "Você desperta uma consciência lenta em uma porção de pedra, rocha, solo compactado, metal bruto ou metal trabalhado que toque. O alvo deve ser uma superfície, estrutura ou objeto não mágico que não esteja sendo usado ou carregado por uma criatura relutante.",
         "Enquanto a magia durar, você pode se comunicar com o alvo. Ele percebe o mundo por pressão, vibração, peso, calor, impacto, corrosão e ressonância, não por visão ou pensamento humano. O alvo responde de forma breve, sensorial e literal, usando lembranças preservadas em sua matéria.",
         "Você pode fazer até três perguntas ao alvo sobre eventos físicos que ocorreram em contato com ele ou a até 9 metros dele nos últimos 7 dias. Ele pode relatar passos, golpes, escavações, aberturas, vozes repetidas, sangue, fogo, magia, metal arrastado, direção de movimento, passagens ocultas, cavidades, rachaduras e alterações estruturais.",
-        "O alvo não conhece nomes, intenções, lealdades ou pensamentos, a menos que essas informações tenham sido ditas em voz alta, gravadas, inscritas ou manifestadas de modo físico. O Mestre responde como uma pedra ou metal responderia: com memória de contato, peso, som e desgaste."
+        "O alvo não conhece nomes, intenções, lealdades ou pensamentos, a menos que essas informações tenham sido ditas em voz alta, gravadas, inscritas ou manifestadas de modo físico."
       ],
       "classes": {
         "fromClassList": [
@@ -35789,20 +35848,19 @@
       "components": {
         "v": true,
         "s": true,
-        "m": "uma refeição compartilhada no valor de pelo menos 10 PO"
+        "m": "uma refeição ou bebida compartilhada no valor de pelo menos 200 PO, que deve ser consumida pelos participantes"
       },
       "duration": [
         {
           "type": "timed",
           "duration": {
             "type": "hour",
-            "amount": 1
+            "amount": 8
           }
         }
       ],
       "entries": [
-        "Você encanta uma refeição ou bebida compartilhada por até doze criaturas voluntárias. Até a magia terminar, cada participante tem Vantagem em testes de Carisma (Persuasão) feitos para compartilhar histórias pessoais e em testes de Sabedoria (Intuição) feitos para perceber se outro participante está ocultando medo, luto ou raiva.",
-        "Se um participante contar conscientemente uma mentira direta durante a refeição, ele deve realizar um teste de resistência de Carisma. Em uma falha, sua voz vacila brevemente, revelando a mentira aos demais participantes."
+        "Você encanta uma refeição ou bebida compartilhada por até doze criaturas voluntárias. Pela duração da magia, cada participante tem Vantagem em testes de Carisma (Persuasão) e em testes de Sabedoria (Intuição)."
       ],
       "classes": {
         "fromClassList": [
@@ -35826,10 +35884,7 @@
       },
       "meta": {
         "ritual": true
-      },
-      "savingThrow": [
-        "charisma"
-      ]
+      }
     },
     {
       "name": "Voz do Decreto Frio",
@@ -36488,105 +36543,6 @@
       ]
     },
     {
-      "name": "Faro Primevo",
-      "source": "MundoDeKyrAuroraCrepusculoAgoniaEva",
-      "page": 56,
-      "level": 1,
-      "school": "D",
-      "time": [
-        {
-          "number": 1,
-          "unit": "action"
-        }
-      ],
-      "range": {
-        "type": "point",
-        "distance": {
-          "type": "self"
-        }
-      },
-      "components": {
-        "v": true,
-        "s": true,
-        "m": "uma pitada de pelo, escama ou solo"
-      },
-      "duration": [
-        {
-          "type": "timed",
-          "duration": {
-            "type": "hour",
-            "amount": 8
-          }
-        }
-      ],
-      "entries": [
-        "Pela duração, você pode farejar medo, sangue, podridão, fumaça, veneno e magia intensa a até 60 pés de você. Você tem Vantagem em testes de Sabedoria (Percepção) e Sabedoria (Sobrevivência) que dependam do olfato.",
-        "Como uma Ação, você pode se concentrar em um cheiro detectado e aprende a direção geral dele até o final do seu próximo turno."
-      ],
-      "classes": {
-        "fromClassList": [
-          {
-            "name": "Druid",
-            "source": "XPHB"
-          },
-          {
-            "name": "Ranger",
-            "source": "XPHB"
-          }
-        ]
-      },
-      "meta": {
-        "ritual": true
-      }
-    },
-    {
-      "name": "Primavera Forçada",
-      "source": "MundoDeKyrRegistrosEcologicosDeKraivorn",
-      "page": 57,
-      "level": 1,
-      "school": "T",
-      "time": [
-        {
-          "number": 1,
-          "unit": "action"
-        }
-      ],
-      "range": {
-        "type": "point",
-        "distance": {
-          "type": "touch"
-        }
-      },
-      "components": {
-        "v": true,
-        "s": true
-      },
-      "duration": [
-        {
-          "type": "instant"
-        }
-      ],
-      "entries": [
-        "Você toca uma planta, semente, plantação, objeto de madeira ou crescimento natural que ocupe no máximo um Cubo de 10 pés. Escolha um dos efeitos a seguir: fazer flores, folhas, frutos ou raízes inofensivos aparecerem; restaurar a saúde de uma planta não mágica ressecada; tornar matéria vegetal comestível segura para consumo por 24 horas; ou fazer raízes e vinhas formarem uma escada, ponte, alça ou amarra simples capaz de sustentar até 500 libras por 1 hora.",
-        "A criação não pode conter uma criatura involuntária nem causar dano."
-      ],
-      "classes": {
-        "fromClassList": [
-          {
-            "name": "Druid",
-            "source": "XPHB"
-          },
-          {
-            "name": "Ranger",
-            "source": "XPHB"
-          }
-        ]
-      },
-      "subschools": [
-        "Rizomancia"
-      ]
-    },
-    {
       "name": "Banquete Carniçal",
       "source": "MundoDeKyrGuiaPraticoDeLeona",
       "page": 58,
@@ -36723,72 +36679,6 @@
       ]
     },
     {
-      "name": "Pele Febril",
-      "source": "MundoDeKyrExpedicaoNorteBjorn",
-      "page": 60,
-      "level": 2,
-      "school": "N",
-      "time": [
-        {
-          "number": 1,
-          "unit": "action"
-        }
-      ],
-      "range": {
-        "type": "point",
-        "distance": {
-          "type": "feet",
-          "amount": 60
-        }
-      },
-      "components": {
-        "v": true,
-        "s": true,
-        "m": "uma agulha morna"
-      },
-      "duration": [
-        {
-          "type": "timed",
-          "duration": {
-            "type": "minute",
-            "amount": 1
-          },
-          "concentration": true
-        }
-      ],
-      "entries": [
-        "Escolha uma criatura que você possa ver dentro do alcance. O alvo realiza um teste de resistência de Constituição. Em uma falha, sofre {@dice 3d6} de dano de fogo ou venenoso, à sua escolha, e fica febril.",
-        "Enquanto estiver febril, o alvo tem Desvantagem em testes de resistência de Constituição feitos para manter Concentração, e o deslocamento dele é reduzido em 10 pés. O alvo repete o teste de resistência no final de cada um dos turnos dele, encerrando a magia sobre si em um sucesso."
-      ],
-      "classes": {
-        "fromClassList": [
-          {
-            "name": "Warlock",
-            "source": "XPHB"
-          },
-          {
-            "name": "Cleric",
-            "source": "XPHB"
-          },
-          {
-            "name": "Druid",
-            "source": "XPHB"
-          },
-          {
-            "name": "Sorcerer",
-            "source": "XPHB"
-          }
-        ]
-      },
-      "damageInflict": [
-        "fire",
-        "poison"
-      ],
-      "savingThrow": [
-        "constitution"
-      ]
-    },
-    {
       "name": "Mãos de Contágio",
       "source": "MundoDeKyrExpedicaoNorteBjorn",
       "page": 61,
@@ -36816,8 +36706,8 @@
         }
       ],
       "entries": [
-        "Faça uma jogada de ataque corpo a corpo com magia contra uma criatura ao seu alcance. Em um acerto, o alvo sofre {@dice 1d8} de dano venenoso e, até o início do seu próximo turno, não pode se beneficiar de Vantagem na próxima jogada de ataque que fizer.",
-        "Se o alvo já estiver Envenenado, o dano desta magia se torna necrótico."
+        "Faça uma jogada de ataque corpo a corpo com magia contra uma criatura ao seu alcance. Em um acerto, o alvo sofre {@dice 1d8} de dano venenoso. Se o alvo já estiver Envenenado por outro motivo, esse dano se torna necrótico.",
+        "Além disso, em um acerto, o alvo deve realizar um teste de resistência de Constituição. Em uma falha, fica Envenenado até o início do seu próximo turno."
       ],
       "classes": {
         "fromClassList": [
@@ -36851,6 +36741,12 @@
             "O dano aumenta em {@dice 1d8} quando você alcança os níveis 5 ({@dice 2d8}), 11 ({@dice 3d8}) e 17 ({@dice 4d8})."
           ]
         }
+      ],
+      "savingThrow": [
+        "constitution"
+      ],
+      "conditionInflict": [
+        "poisoned"
       ]
     },
     {
@@ -37796,8 +37692,8 @@
       ],
       "entries": [
         "Você aperfeiçoa temporariamente uma arma ou armadura metálica não mágica que possa ver dentro do alcance, aproximando-a de uma forma ideal. Escolha um dos efeitos abaixo.",
-        "Arma. Escolha uma propriedade de Maestria de Arma que a arma não possua e para a qual ela atenda aos requisitos da propriedade. A arma ganha essa propriedade enquanto a magia durar. Uma criatura só pode se beneficiar de uma propriedade de Maestria concedida por esta magia por vez.",
-        "Armadura. Escolha uma das seguintes condições: Agarrado, Caído ou Contido. Enquanto vestir a armadura afetada, o usuário tem vantagem em testes de atributo e testes de resistência feitos para evitar ou encerrar a condição escolhida. Se o usuário já estiver sob a condição escolhida quando a magia for conjurada, ele pode repetir imediatamente o teste ou teste de resistência contra o efeito, encerrando a condição em um sucesso."
+        "{@b Arma.} Escolha uma propriedade de Maestria de Arma que a arma não possua e para a qual ela atenda aos requisitos da propriedade. A arma ganha essa propriedade enquanto a magia durar. Uma criatura só pode se beneficiar de uma propriedade de Maestria concedida por esta magia por vez.",
+        "{@b Armadura.} Escolha uma das seguintes condições: Agarrado, Caído ou Contido. Enquanto vestir a armadura afetada, o usuário tem vantagem em testes de atributo e testes de resistência feitos para evitar ou encerrar a condição escolhida. Se o usuário já estiver sob a condição escolhida quando a magia for conjurada, ele pode repetir imediatamente o teste ou teste de resistência contra o efeito, encerrando a condição em um sucesso."
       ],
       "classes": {
         "fromClassList": [
@@ -37955,8 +37851,7 @@
         }
       ],
       "entries": [
-        "Escolha uma criatura que possa ver dentro do alcance. Se o alvo estiver usando armadura metálica, carregando um escudo metálico, empunhando uma arma metálica visível ou for um Construct, ele deve realizar um teste de resistência de Força. Em uma falha, você move o alvo até 6 metros em linha reta para perto ou para longe de você, e o deslocamento dele é reduzido pela metade até o fim do próximo turno dele. Em um sucesso, você move o alvo até 3 metros e o deslocamento dele não é reduzido.",
-        "Uma criatura que não possua metal visível e não seja Construct não é afetada pela magia."
+        "Escolha uma criatura que possa ver dentro do alcance. Se o alvo estiver usando armadura metálica, carregando um escudo metálico, empunhando uma arma metálica visível ou for um Construct, ele deve realizar um teste de resistência de Força. Em uma falha, você move o alvo até 6 metros em linha reta para perto ou para longe de você, e o deslocamento dele é reduzido pela metade até o fim do próximo turno dele. Em um sucesso, você move o alvo até 3 metros e o deslocamento dele não é reduzido."
       ],
       "classes": {
         "fromClassList": [
@@ -38016,7 +37911,7 @@
       ],
       "entries": [
         "Você reveste uma criatura voluntária com limalhas metálicas que flutuam rente ao corpo. O alvo recebe Pontos de Vida Temporários iguais a {@dice 2d8} + seu modificador de atributo de conjuração.",
-        "Enquanto tiver esses Pontos de Vida Temporários, a primeira vez que o alvo ou uma criatura aliada a até 1,5 metro dele sofrer dano de um ataque, o alvo pode reduzir esse dano em {@dice 1d8}. Depois que essa redução ocorre, os Pontos de Vida Temporários concedidos por esta magia diminuem em 5.",
+        "Enquanto tiver Pontos de Vida Temporários, a primeira vez em um turno que a criatura beneficiada sofrer dano de um ataque, ela pode reduzir esse dano em {@dice 1d8}.",
         "A magia termina antecipadamente quando os Pontos de Vida Temporários concedidos por ela acabam."
       ],
       "classes": {
@@ -38158,16 +38053,16 @@
         {
           "type": "timed",
           "duration": {
-            "type": "round",
-            "amount": 1
+            "type": "hour",
+            "amount": 8
           },
           "concentration": true
         }
       ],
       "entries": [
-        "Você cria um fio metálico quase invisível entre dois pontos que possa ver dentro do alcance. O fio permanece até o início do seu próximo turno.",
-        "Quando uma criatura atravessa o fio pela primeira vez em um turno, ela deve realizar um teste de resistência de Destreza. Em uma falha, sofre {@dice 4d6} de dano cortante, e o deslocamento dela se torna 0 até o fim do turno atual. Em um sucesso, sofre metade do dano, e seu deslocamento não é reduzido.",
-        "O fio pode ser percebido por uma criatura que use a ação Search e seja bem-sucedida em um teste de Sabedoria (Percepção) ou Inteligência (Investigação) contra sua CD para magia."
+        "Você cria dois fios metálicos quase invisíveis entre pontos que possa ver dentro do alcance. Cada fio pode ter até 6 metros de comprimento e deve ser fixado entre duas superfícies, objetos ou estruturas sólidas. Os fios permanecem até serem cortados, removidos ou destruídos, mesmo depois que a magia terminar.",
+        "Enquanto mantiver Concentração nesta magia, você mantém uma ligação sensorial com os fios e sabe quando uma criatura atravessa um deles. Quando uma criatura atravessa um fio pela primeira vez em um turno, ela deve realizar um teste de resistência de Destreza. Em uma falha, sofre {@dice 2d6} de dano cortante, e o deslocamento dela se torna 0 até o fim do turno atual. Em um sucesso, sofre metade do dano, e seu deslocamento não é reduzido.",
+        "Um fio pode ser percebido por uma criatura que use a ação Search e seja bem-sucedida em um teste de Sabedoria (Percepção) ou Inteligência (Investigação) contra sua CD para magia. Um fio tem CA 15, 5 Pontos de Vida e imunidade a dano psíquico e venenoso."
       ],
       "classes": {
         "fromClassList": [
@@ -38194,7 +38089,7 @@
           "type": "entries",
           "name": "Em Níveis Superiores",
           "entries": [
-            "O dano aumenta em {@dice 1d6} para cada nível do espaço de magia acima do 2º."
+            "Ao conjurar esta magia usando um espaço de magia de 3º nível ou superior, você cria um fio adicional para cada nível do espaço acima do 2º."
           ]
         }
       ],
@@ -38203,9 +38098,6 @@
       ],
       "savingThrow": [
         "dexterity"
-      ],
-      "conditionInflict": [
-        "invisible"
       ]
     },
     {
@@ -38345,7 +38237,7 @@
       "name": "Véu de Prata",
       "source": "MundoDeKyrGlossarioForjaSeptimus",
       "page": 289,
-      "level": 2,
+      "level": 3,
       "school": "A",
       "time": [
         {
@@ -38403,7 +38295,7 @@
           "type": "entries",
           "name": "Em Níveis Superiores",
           "entries": [
-            "O dano radiante aumenta em {@dice 1d8} para cada nível do espaço de magia acima do 2º."
+            "O dano radiante aumenta em {@dice 1d8} para cada nível do espaço de magia acima do 3º."
           ]
         }
       ],
@@ -38551,74 +38443,6 @@
       ]
     },
     {
-      "name": "Coroa Dourada",
-      "source": "MundoDeKyrGlossarioForjaSeptimus",
-      "page": 292,
-      "level": 3,
-      "school": "E",
-      "time": [
-        {
-          "number": 1,
-          "unit": "action"
-        }
-      ],
-      "range": {
-        "type": "point",
-        "distance": {
-          "type": "feet",
-          "amount": 60
-        }
-      },
-      "components": {
-        "v": true,
-        "s": true,
-        "m": "uma folha fina de ouro"
-      },
-      "duration": [
-        {
-          "type": "timed",
-          "duration": {
-            "type": "minute",
-            "amount": 1
-          },
-          "concentration": true
-        }
-      ],
-      "entries": [
-        "Uma coroa dourada manifesta-se sobre a cabeça de uma criatura voluntária que você possa ver dentro do alcance. Enquanto a magia durar, a criatura recebe 15 Pontos de Vida Temporários e adiciona {@dice 1d4} aos testes de resistência que realizar.",
-        "Uma vez antes da magia terminar, quando a criatura falhar em um teste de resistência, ela pode escolher transformar essa falha em um sucesso. Quando faz isso, a magia termina."
-      ],
-      "classes": {
-        "fromClassList": [
-          {
-            "name": "Bard",
-            "source": "XPHB"
-          },
-          {
-            "name": "Cleric",
-            "source": "XPHB"
-          },
-          {
-            "name": "Paladin",
-            "source": "XPHB"
-          },
-          {
-            "name": "Sorcerer",
-            "source": "XPHB"
-          }
-        ]
-      },
-      "entriesHigherLevel": [
-        {
-          "type": "entries",
-          "name": "Em Níveis Superiores",
-          "entries": [
-            "Os Pontos de Vida Temporários aumentam em 5 para cada nível do espaço de magia acima do 3º."
-          ]
-        }
-      ]
-    },
-    {
       "name": "Degradação da Ferrugem",
       "source": "MundoDeKyrGlossarioForjaSeptimus",
       "page": 293,
@@ -38723,8 +38547,8 @@
       ],
       "entries": [
         "Você fixa uma carga exotérmica em uma criatura, objeto ou superfície sólida. A carga detona no final do turno atual, liberando calor e pressão concentrados em um único ponto. Escolha um dos efeitos abaixo.",
-        "Perfuração. Faça uma jogada de ataque corpo a corpo com magia contra uma criatura. Você tem vantagem nessa jogada se o alvo estiver usando armadura metálica ou for um Construct. Em um acerto, o alvo sofre {@dice 6d8} de dano de fogo.",
-        "Ruptura. A carga é fixada em um objeto, estrutura ou barreira que você toque. A magia causa 50 pontos de dano de força ao alvo. Esse dano ignora resistência a dano do objeto ou estrutura. Se o alvo for uma barreira criada por magia, a carga cria uma abertura de até 1,5 metro de diâmetro até o início do seu próximo turno. A magia que criou a barreira não é encerrada."
+        "{@b Perfuração.} Faça uma jogada de ataque corpo a corpo com magia contra uma criatura. Você tem vantagem nessa jogada se o alvo estiver usando armadura metálica ou for um Construct. Em um acerto, o alvo sofre {@dice 6d8} de dano de fogo.",
+        "{@b Ruptura.} A carga é fixada em um objeto, estrutura ou barreira que você toque. A magia causa 50 pontos de dano de força ao alvo. Esse dano ignora resistência a dano do objeto ou estrutura. Se o alvo for uma barreira criada por magia, a carga cria uma abertura de até 1,5 metro de diâmetro até o início do seu próximo turno. A magia que criou a barreira não é encerrada."
       ],
       "classes": {
         "fromClassList": [
@@ -39074,12 +38898,11 @@
         }
       ],
       "entries": [
-        "Você toca uma superfície, objeto ou estrutura e emite uma vibração quase inaudível. Você aprende uma das seguintes informações sobre aquilo que tocou:",
+        "Você toca uma superfície, objeto ou estrutura e emite uma vibração. Você aprende uma das seguintes informações sobre aquilo que tocou:",
         "- se é oco ou maciço;",
         "- se há uma cavidade, porta secreta, passagem, rachadura ou mecanismo oculto a até 3 metros do ponto tocado;",
         "- se o material predominante é pedra, madeira, metal, vidro, osso ou matéria orgânica;",
-        "- se há uma criatura Média ou maior se movendo do outro lado de uma parede, porta ou piso com até 30 centímetros de espessura.",
-        "A magia não revela a forma exata do espaço oculto nem identifica criaturas específicas."
+        "- se há uma criatura Média ou maior se movendo do outro lado de uma parede, porta ou piso com até 30 centímetros de espessura."
       ],
       "classes": {
         "fromClassList": [
@@ -39173,62 +38996,6 @@
       "savingThrow": [
         "constitution"
       ]
-    },
-    {
-      "name": "Abafar Passos",
-      "source": "MundoDeKyrCadernoArcanoA3",
-      "page": 247,
-      "level": 0,
-      "school": "I",
-      "time": [
-        {
-          "number": 1,
-          "unit": "bonus"
-        }
-      ],
-      "range": {
-        "type": "point",
-        "distance": {
-          "type": "feet",
-          "amount": 30
-        }
-      },
-      "components": {
-        "s": true
-      },
-      "duration": [
-        {
-          "type": "timed",
-          "duration": {
-            "type": "round",
-            "amount": 1
-          }
-        }
-      ],
-      "entries": [
-        "Escolha uma criatura que possa ver dentro do alcance. Até o início do seu próximo turno, os sons produzidos pelo movimento dela são abafados. Durante a duração, a criatura não sofre Desvantagem em testes de Destreza (Furtividade) por causa de armadura, piso rangente, cascalho, folhas secas ou equipamento comum.",
-        "A magia não silencia fala, gritos, combate ou objetos derrubados deliberadamente."
-      ],
-      "classes": {
-        "fromClassList": [
-          {
-            "name": "Bard",
-            "source": "XPHB"
-          },
-          {
-            "name": "Ranger",
-            "source": "XPHB"
-          },
-          {
-            "name": "Sorcerer",
-            "source": "XPHB"
-          },
-          {
-            "name": "Wizard",
-            "source": "XPHB"
-          }
-        ]
-      }
     },
     {
       "name": "Pulso de Repique",
@@ -39386,7 +39153,7 @@
       ],
       "entries": [
         "Você cria um estalo seco em um ponto que possa ver dentro do alcance. Cada criatura em uma Esfera de 1,5 metro de raio centrada nesse ponto deve realizar um teste de resistência de Constituição.",
-        "Em uma falha, uma criatura sofre {@dice 2d8} de dano trovejante e não pode realizar Reações até o início do seu próximo turno. Em um sucesso, sofre metade do dano e não perde Reações."
+        "Em uma falha, uma criatura sofre {@dice 2d8} de dano trovejante. Em um sucesso, sofre metade do dano. Caso a criatura falhe por 5 ou mais pontos, ela fica Incapacitada até o início do seu próximo turno."
       ],
       "classes": {
         "fromClassList": [
@@ -39422,68 +39189,9 @@
       ],
       "savingThrow": [
         "constitution"
-      ]
-    },
-    {
-      "name": "Harmônico Protetor",
-      "source": "MundoDeKyrCadernoArcanoA3",
-      "page": 251,
-      "level": 2,
-      "school": "A",
-      "time": [
-        {
-          "number": 1,
-          "unit": "reaction",
-          "condition": "que você toma quando você ou uma criatura que possa ver a até 18 metros sofre dano"
-        }
       ],
-      "range": {
-        "type": "point",
-        "distance": {
-          "type": "feet",
-          "amount": 60
-        }
-      },
-      "components": {
-        "v": true
-      },
-      "duration": [
-        {
-          "type": "instant"
-        }
-      ],
-      "entries": [
-        "Você emite uma frequência que dispersa parte do impacto recebido. Reduza o dano sofrido pela criatura desencadeadora em {@dice 2d8} + seu modificador de atributo de conjuração.",
-        "Se o dano reduzido era trovejante, psíquico ou de força, a redução aumenta em {@dice 1d8}."
-      ],
-      "classes": {
-        "fromClassList": [
-          {
-            "name": "Bard",
-            "source": "XPHB"
-          },
-          {
-            "name": "Cleric",
-            "source": "XPHB"
-          },
-          {
-            "name": "Paladin",
-            "source": "XPHB"
-          },
-          {
-            "name": "Sorcerer",
-            "source": "XPHB"
-          }
-        ]
-      },
-      "entriesHigherLevel": [
-        {
-          "type": "entries",
-          "name": "Em Níveis Superiores",
-          "entries": [
-            "A redução aumenta em {@dice 1d8} para cada nível do espaço de magia acima do 2º."
-          ]
-        }
+      "conditionInflict": [
+        "incapacitated"
       ]
     },
     {
@@ -39683,68 +39391,6 @@
       ]
     },
     {
-      "name": "Discurso Inabalável",
-      "source": "MundoDeKyrCadernoArcanoA3",
-      "page": 255,
-      "level": 3,
-      "school": "E",
-      "time": [
-        {
-          "number": 1,
-          "unit": "action"
-        }
-      ],
-      "range": {
-        "type": "point",
-        "distance": {
-          "type": "self"
-        }
-      },
-      "components": {
-        "v": true
-      },
-      "duration": [
-        {
-          "type": "timed",
-          "duration": {
-            "type": "minute",
-            "amount": 10
-          },
-          "concentration": true
-        }
-      ],
-      "entries": [
-        "Sua voz assume uma presença firme, ritmada e impossível de ignorar. Enquanto a magia durar, sua fala pode ser ouvida claramente por criaturas à sua escolha a até 36 metros de você, mesmo em meio a ruído comum. A magia não atravessa silêncio mágico.",
-        "Você tem Vantagem em testes de Carisma (Persuasão), Carisma (Intimidação) e Carisma (Performance) feitos por meio da fala.",
-        "Além disso, quando uma criatura que possa ouvir você tentar interromper sua fala com gritos, insultos, vaias, ruído comum ou intimidação verbal, ela deve ser bem-sucedida em um teste de resistência de Carisma contra sua CD para magia. Em uma falha, a interrupção não impede que sua mensagem seja ouvida.",
-        "Uma vez antes da magia terminar, quando você falhar em um teste de Carisma feito por meio da fala, você pode tratar o resultado do d20 como 10.",
-        "Esta magia não força uma criatura a acreditar em você, obedecer você ou mudar suas convicções."
-      ],
-      "classes": {
-        "fromClassList": [
-          {
-            "name": "Bard",
-            "source": "XPHB"
-          },
-          {
-            "name": "Cleric",
-            "source": "XPHB"
-          },
-          {
-            "name": "Paladin",
-            "source": "XPHB"
-          },
-          {
-            "name": "Warlock",
-            "source": "XPHB"
-          }
-        ]
-      },
-      "savingThrow": [
-        "charisma"
-      ]
-    },
-    {
       "name": "Coro de Guerra",
       "source": "MundoDeKyrCadernoArcanoA3",
       "page": 256,
@@ -39778,10 +39424,10 @@
       ],
       "entries": [
         "Sua voz se divide em múltiplas harmonias marciais, marcando o ritmo de avanço, defesa e resistência. Enquanto a magia durar, criaturas aliadas à sua escolha na emanação recebem os seguintes benefícios enquanto puderem ouvir você:",
-        "Marcha Marcada. O deslocamento da criatura aumenta em 3 metros.",
-        "Pulso de Ataque. Uma vez por turno, quando a criatura acerta uma criatura com um ataque com arma, ela causa {@dice 1d6} de dano trovejante adicional.",
-        "Ritmo de Resistência. A criatura tem Vantagem em testes de resistência contra ficar Amedrontada ou Enfeitiçada.",
-        "Não Cair Agora. Quando a criatura for reduzida a 0 Pontos de Vida, mas não morrer instantaneamente, ela pode cair para 1 Ponto de Vida em vez disso. Depois que uma criatura recebe esse benefício, ela não pode recebê-lo novamente por esta conjuração da magia."
+        "{@b Marcha Marcada.} O deslocamento da criatura aumenta em 3 metros.",
+        "{@b Pulso de Ataque.} Uma vez por turno, quando a criatura acerta uma criatura com um ataque com arma, ela causa {@dice 1d6} de dano trovejante adicional.",
+        "{@b Ritmo de Resistência.} A criatura tem Vantagem em testes de resistência contra ficar Amedrontada ou Enfeitiçada.",
+        "{@b Não Cair Agora.} Quando a criatura for reduzida a 0 Pontos de Vida, mas não morrer instantaneamente, ela pode cair para 1 Ponto de Vida em vez disso. Depois que uma criatura recebe esse benefício, ela não pode recebê-lo novamente por esta conjuração da magia."
       ],
       "classes": {
         "fromClassList": [
@@ -39801,9 +39447,6 @@
       },
       "damageInflict": [
         "thunder"
-      ],
-      "conditionInflict": [
-        "charmed"
       ]
     },
     {
@@ -39913,9 +39556,9 @@
       ],
       "entries": [
         "Escolha até seis criaturas voluntárias que possam ouvir você dentro do alcance. Até a magia terminar, cada alvo recebe os seguintes benefícios:",
-        "Cadência de Avanço. O deslocamento do alvo aumenta em 3 metros, e ele ignora Terreno Difícil não mágico.",
-        "Investida Ressonante. Uma vez em cada um dos turnos do alvo, quando ele se move pelo menos 6 metros em linha reta imediatamente antes de acertar uma criatura com um ataque corpo a corpo, o ataque causa {@dice 2d6} de dano trovejante adicional, e o alvo do ataque deve ser bem-sucedido em um teste de resistência de Força contra sua CD para magia ou ficar Caído.",
-        "Recuo de Impacto. Quando o alvo sofre dano de uma criatura a até 1,5 metro dele, o alvo pode usar sua Reação para emitir um pulso trovejante. A criatura que causou o dano deve realizar um teste de resistência de Força. Em uma falha, é empurrada 3 metros para longe do alvo.",
+        "{@b Cadência de Avanço.} O deslocamento do alvo aumenta em 3 metros, e ele ignora Terreno Difícil não mágico.",
+        "{@b Investida Ressonante.} Uma vez em cada um dos turnos do alvo, quando ele se move pelo menos 6 metros em linha reta imediatamente antes de acertar uma criatura com um ataque corpo a corpo, o ataque causa {@dice 2d6} de dano trovejante adicional, e o alvo do ataque deve ser bem-sucedido em um teste de resistência de Força contra sua CD para magia ou ficar Caído.",
+        "{@b Recuo de Impacto.} Quando o alvo sofre dano de uma criatura a até 1,5 metro dele, o alvo pode usar sua Reação para emitir um pulso trovejante. A criatura que causou o dano deve realizar um teste de resistência de Força. Em uma falha, é empurrada 3 metros para longe do alvo.",
         "A magia termina para uma criatura que não possa mais ouvir você."
       ],
       "classes": {
